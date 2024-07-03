@@ -2,7 +2,7 @@
 audience: end-user
 title: Prise en main des compositions
 description: Découvrez comment commencer avec des compositions
-source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
@@ -20,7 +20,7 @@ La Composition des données d’Adobe vous permet de créer des compositions, da
 ## Accéder aux compositions {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="Compositions"
 >abstract="Dans cet écran, vous pouvez accéder à la liste complète des compositions, vérifier leur état actuel, les dates de dernière exécution/prochaine et créer une nouvelle composition."
 

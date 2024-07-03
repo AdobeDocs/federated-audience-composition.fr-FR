@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audience fédérée
 title: Adobe de la documentation sur la composition d’audiences fédérées
 breadcrumb-title: Composition d’audience fédérée
-source-git-commit: 2a22a536ac3a13c4e44774126a6d691612268a20
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 47%
+source-wordcount: '120'
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 47%
    + [Utiliser les audiences](customer/audiences.md)
 + Compositions {#compositions}
    + [Prise en main des compositions](compositions/gs-compositions.md)
-   + [Créer une composition](compositions/create-composition.md)
+   + Création et exécution de votre première composition {#create-composition}
+      + [Principes clés de la création de composition](compositions/gs-composition-creation.md)
+      + [Création de la composition](compositions/create-composition.md)
+      + [Orchestrer les activités](compositions/orchestrate-activities.md)
+      + [Configuration des paramètres de composition](compositions/composition-settings.md)
+      + [Démarrage et suivi de votre composition](compositions/start-monitor-composition.md)
    + Utilisation des activités {#activities}
       + [Liste des activités](compositions/activities/about-activities.md)
       + [Et rejoindre](compositions/activities/and-join.md)
