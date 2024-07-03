@@ -2,9 +2,9 @@
 audience: end-user
 title: Prise en main des compositions
 description: Découvrez comment commencer avec des compositions
-source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
+source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Dans cet écran, vous pouvez créer de nouvelles compositions et accéder à cel
 
 Pour affiner la liste et trouver facilement la composition que vous recherchez, vous pouvez rechercher la liste et filtrer les compositions selon leur statut ou leur date de dernier traitement.
 
-Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des colonnes. Pour cela, cliquez sur le bouton Configurer les colonnes et gérez
+Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des colonnes. Pour ce faire, cliquez sur le bouton **Configurer la colonne** s et ajoutez ou supprimez les colonnes de sortie souhaitées.
 
 ![](assets/compositions-columns.png)
 
