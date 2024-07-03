@@ -2,10 +2,10 @@
 audience: end-user
 title: Créer des compositions
 description: Découvrez comment créer des compositions
-source-git-commit: 4b5173a2a0549d6535bccd07c94e521ecde8330b
+source-git-commit: fd92c280094989cb64ff5151fb00b4a8b0e650f7
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 85%
+source-wordcount: '1034'
+ht-degree: 82%
 
 ---
 
@@ -87,7 +87,7 @@ Le champ **En cas d’erreur** vous permet de définir l’action à effectuer l
 
 ### Script d’initialisation
 
-Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de l’activité. Consultez la section relative aux [variables d’événement](../workflows/event-variables.md).
+Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de l’activité.
 
 ## Exemple {#example}
 
@@ -108,4 +108,4 @@ Dans le cadre de ce workflow, les activités suivantes ont été ajoutées :
 
 Une fois le workflow terminé, ajoutez l’activité **[!UICONTROL Fin]** à la fin du diagramme. Cette activité permet d’illustrer la fin d’un workflow et n’a aucun impact sur celui-ci.
 
-Une fois le diagramme de workflow conçu, vous pouvez l’exécuter et suivre la progression des différentes tâches. [Découvrez comment démarrer un workflow et surveiller son exécution.](start-monitor-workflows.md)
+Une fois le diagramme de workflow conçu, vous pouvez l’exécuter et suivre l’avancement de ses différentes tâches.
