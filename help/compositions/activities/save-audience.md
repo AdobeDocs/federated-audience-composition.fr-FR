@@ -1,13 +1,14 @@
 ---
 audience: end-user
 title: Utilisation de l’activité Sauvegarde d’audience
-description: Découvrez comment utiliser l’activité Branchement
-source-git-commit: 05a023a7f7aab719f3771030a7ac8bba57e5bee3
+description: Découvrez comment utiliser l’activité Sauvegarde d’audience
+source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 67%
+source-wordcount: '358'
+ht-degree: 30%
 
 ---
+
 
 # Enregistrer l’audience {#save-audience}
 
@@ -27,14 +28,11 @@ ht-degree: 67%
 >abstract="Sélectionnez l’identité principale à utiliser pour les profils."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="En savoir plus dans la documentation de l’Experience Platform"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Espace de noms d’identité"
 >abstract="Sélectionnez l’espace de noms à utiliser pour les profils."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces" text="En savoir plus dans la documentation de l’Experience Platform"
-
-
 
 La variable **Sauvegarde d’audience** l&#39;activité permet de mettre à jour une audience existante ou de créer une nouvelle audience à partir de la population calculée en amont dans une composition. Les audiences créées sont ajoutées à la liste des audiences de l’application, disponible via le menu **Audiences**.
 
@@ -46,21 +44,23 @@ Pour configurer l’activité **Enregistrer l’audience**, procédez comme suit
 
 1. Ajouter un **Sauvegarde d’audience** à votre composition.
 
-1. Dans le menu déroulant **Mode**, sélectionnez l’action à réaliser :
+   ![](../assets/save-audience.png)
 
-   * **Créer ou mettre à jour une audience existante** : définissez un **libellé d’audience**. Si l’audience existe déjà, elle est mise à jour, sinon une nouvelle audience est créée.
+1. Indiquez le libellé de l’audience à créer.
 
-   * **Mettre à jour une audience existante** : sélectionnez l’**Audience** à mettre à jour parmi la liste des audiences existantes.
+1. Cliquez sur **Ajout du mappage d’audience** choisissez ensuite les champs d&#39;audience source et cible :
 
-1. Sélectionnez le **mode de mise à jour** qui s’appliquera aux audiences existantes :
+   * **Champ d’audience Source**:
+   * **Champ d’audience cible**:
 
-   * **Remplacer le contenu de l’audience par de nouvelles données** : tout le contenu de l’audience est remplacé. Les anciennes données sont perdues. Seules les données issues de la transition entrante de l’activité d’enregistrement d’audience sont conservées. Cette option écrase le type et la dimension de ciblage de l’audience mise à jour.
+   Répétez l’opération pour ajouter autant de mappages d’audience que nécessaire.
 
-   * **Compléter l’audience avec les nouvelles données** : l’ancien contenu de l’audience est conservé et les données sont complétées avec celles issues de la transition entrante de l’activité d’enregistrement d’audience.
+1. Sélectionnez l&#39;identité principale et l&#39;espace de noms à utiliser pour identifier les profils ciblés dans la base de données :
 
-1. Cochez l’option **Générer une transition sortante** si vous souhaitez ajouter une transition après l’activité **Enregistrer l’audience**.
+   * **Champ d’identité du Principal**: sélectionnez le champ à utiliser pour identifier les profils. Par exemple, son adresse électronique ou son numéro de téléphone.
+   * **Espace de noms d’identité**: sélectionnez l’espace de noms à utiliser pour identifier les profils, c’est-à-dire le type de données à utiliser comme clé d’identification. Par exemple, si l’adresse électronique a été sélectionnée comme champ d’identité principale, l’espace de noms d’identité **Email** doit être sélectionné. Si l’identifiant unique est le numéro de téléphone, l’espace de noms d’identité **Téléphone** doit être sélectionné.
 
-Le contenu de l’audience enregistrée est ensuite disponible dans la vue détaillée de l’audience, accessible depuis le menu **Audiences**. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de la vue **Sauvegarde d’audience** activité.
+Une fois la composition exécutée, l’audience obtenue est enregistrée dans Adobe Experience Platform et rendue accessible dans le **Audiences** .
 
 <!--
 
