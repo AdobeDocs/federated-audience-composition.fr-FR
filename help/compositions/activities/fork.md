@@ -2,7 +2,7 @@
 audience: end-user
 title: Utilisation de l’activité Branchement
 description: Découvrez comment utiliser l’activité Branchement
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 84%
@@ -32,4 +32,5 @@ Pour configurer l’activité **Branchement**, procédez comme suit :
 1. Ajouter un **Branchement** à votre composition.
 1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
 1. Ajoutez un libellé à chacune de vos transitions.
+
 

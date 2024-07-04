@@ -2,22 +2,24 @@
 audience: end-user
 title: Utilisation des activités
 description: Découvrez comment utiliser les activités
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 47%
+source-wordcount: '274'
+ht-degree: 42%
 
 ---
 
 
 # Utilisation des activités {#activities}
 
-## Liste des activités {#activity-list}
+Dans la composition d’audiences fédérées, vous pouvez créer des compositions à l’aide de deux types d’activités :
 
-Dans la composition d’audiences fédérées, les activités sont spécifiques au ciblage. Elles permettent de construire une ou plusieurs cibles en définissant une audience, puis en partageant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
+* **Activités de ciblage** vous permet de créer une ou plusieurs cibles en définissant une audience et en partitionnant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
+* **Contrôle de flux** Les activités sont spécifiques à l&#39;organisation et à l&#39;exécution des compositions. Leur tâche principale est de coordonner les autres activités.
 
-<!--to update -->
+## Activités de ciblage
 
+* [Activité Créer une audience](build-audience.md): définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
 * [Changement de dimension](change-dimension.md): modifiez la dimension de ciblage au fur et à mesure que vous créez votre composition.
 * [Combiner](combine.md) : effectuez une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
 * [Déduplication](deduplication.md) : supprimez les doublons dans le ou les résultats des activités entrantes.
@@ -26,3 +28,10 @@ Dans la composition d’audiences fédérées, les activités sont spécifiques 
 * [Sauvegarde d’audience](save-audience.md): mettre à jour une audience existante ou créer une nouvelle audience à partir de la population calculée en amont dans une composition.
 * [Partage](split.md) : segmentez la population entrante en plusieurs sous-ensembles.
 
+## Activités de contrôle de flux
+
+* [AND-join](and-join.md): synchroniser plusieurs branches d’exécution d’un workflow ;
+* **Fin** : marque la fin d’un workflow sous forme graphique. Cette activité n’a aucun impact fonctionnel et est donc facultative.
+* [Branchement](fork.md) : créez des transitions sortantes afin de lancer plusieurs activités en parallèle.
+* [Planificateur](scheduler.md) : planifiez le moment de démarrage du workflow.
+* [Attente](wait.md) : suspendez momentanément l’exécution d’une partie d’un workflow.

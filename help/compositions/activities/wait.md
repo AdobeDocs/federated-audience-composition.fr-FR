@@ -2,7 +2,7 @@
 audience: end-user
 title: Utilisation de l’activité Attente
 description: Découvrez comment utiliser l’activité Attente
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 70%
@@ -27,4 +27,5 @@ Pour configurer l’activité d’**attente**, procédez comme suit :
 1. Spécifiez la **durée** de l’attente entre les transitions entrante et sortante.
 
 1. Sélectionnez l’unité de temps dans le champ **Périodes** : secondes, minutes, heures, jours.
+
 

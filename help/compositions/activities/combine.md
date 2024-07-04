@@ -2,12 +2,13 @@
 audience: end-user
 title: Utilisation de l’activité Combiner
 description: Découvrez comment utiliser l’activité Combiner
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 79%
 
 ---
+
 
 # Combiner {#combine}
 
@@ -22,9 +23,7 @@ L’activité **Combiner** permet d’effectuer une segmentation sur votre popul
 * l’**Intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l’activité.
 * l’**Exclusion** permet d’exclure des éléments d’une population selon certains critères.
 
-
 La variable **Combiner** peut être placée après toute autre activité, mais pas au début de la composition. N’importe quelle activité peut être placée après le **Combiner**.
-
 
 ## Configurer l’activité Combiner {#combine-configuration}
 
