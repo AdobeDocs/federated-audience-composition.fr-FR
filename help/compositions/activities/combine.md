@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilisation de l’activité Combiner
 description: Découvrez comment utiliser l’activité Combiner
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 79%
+source-wordcount: '757'
+ht-degree: 71%
 
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 79%
 >title="Activité Combiner"
 >abstract="L’activité **Combiner** permet d’effectuer une segmentation sur votre population entrante. Il est ainsi possible de regrouper plusieurs populations, d’en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles."
 
-L’activité **Combiner** permet d’effectuer une segmentation sur votre population entrante. Il est ainsi possible de regrouper plusieurs populations, d’en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles. Les types de segmentation disponibles sont les suivants :
-
-* l’**Union** permet de regrouper le résultat de plusieurs activités dans une cible unique.
-* l’**Intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l’activité.
-* l’**Exclusion** permet d’exclure des éléments d’une population selon certains critères.
+L’activité **Combiner** permet d’effectuer une segmentation sur votre population entrante. Vous pouvez ainsi combiner plusieurs populations, en exclure une partie ou ne conserver que les données communes à plusieurs cibles.
 
 La variable **Combiner** peut être placée après toute autre activité, mais pas au début de la composition. N’importe quelle activité peut être placée après le **Combiner**.
 
@@ -46,7 +42,10 @@ Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 
 1. Ajoutez plusieurs activités afin de former au moins deux branches d&#39;exécution différentes.
 1. Ajoutez une activité **Combiner** à l’une des branches précédentes.
-1. Sélectionnez le type de segmentation : [union](#union), [intersection](#intersection) ou [exclusion](#exclusion).
+1. Sélectionnez le type de segmentation : [Union](#union), [Intersection](#intersection) ou [Exclusion](#exclusion).
+
+   ![](../assets/combine.png)
+
 1. Cliquez sur **Continuer**.
 1. Dans le **Définit la jointure** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre.
 
@@ -67,12 +66,16 @@ Dans l’activité **Combiner**, vous pouvez configurer une **Union**. Pour cela
 * **Uniquement les clés** : il s’agit du mode par défaut. Lorsque des éléments provenant des différentes transitions entrantes ont la même clé, l’activité ne conserve qu’un élément. Cette option ne peut être utilisée que si les populations entrantes sont homogènes.
 * **Une sélection de colonnes** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles est appliquée la réconciliation des données. Vous devez d’abord sélectionner l’ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
 
+![](../assets/combine-union.png)
+
 ## Intersection {#combine-intersection}
 
 Dans l’activité **Combiner**, vous pouvez configurer une **intersection**. Pour cela, procédez comme suit :
 
 1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
-1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
+1. Vous pouvez vérifier les **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
+
+![](../assets/combine-intersection.png)
 
 ## Exclusion {#combine-exclusion}
 
@@ -99,8 +102,10 @@ Dans l’activité **Combiner**, vous pouvez configurer une **intersection**. Po
 Dans l’activité **Combiner**, vous pouvez configurer une **exclusion**. Pour cela, suivez les étapes supplémentaires ci-dessous :
 
 1. Dans la section **Ensembles à joindre**, sélectionnez **Ensemble principal** parmi les transitions entrantes. C’est l’ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l’ensemble principal.
-1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure.
+1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement de dimension. La réconciliation des données est réalisée soit par un attribut, soit par une jointure. <!-- pas compris-->
 1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Pour plus d’informations, consultez la section [Intersection](#intersection).
+
+![](../assets/combine-exclusion.png)
 
 <!--
 ## Examples{#combine-examples}
