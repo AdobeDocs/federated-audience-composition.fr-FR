@@ -2,10 +2,10 @@
 audience: end-user
 title: Prise en main des compositions
 description: Découvrez comment commencer avec des compositions
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 3%
+source-wordcount: '276'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ La Composition des données d’Adobe vous permet de créer des compositions, da
 
 ![](assets/composition-example.png)
 
-## Accéder aux compositions {#access}
+## Accès et gestion des compositions {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
@@ -26,17 +26,15 @@ La Composition des données d’Adobe vous permet de créer des compositions, da
 
 Les composition sont accessibles à partir de Adobe Experience Platform **[!UICONTROL Audiences]** , dans le **Compositions fédérées** .
 
-![](assets/compositions-list.png)
+Dans cet écran, vous pouvez créer de nouvelles compositions et accéder à celles existantes. Vous pouvez également dupliquer ou supprimer une composition existante en cliquant sur le bouton représentant des points de suspension en regard de son nom.
 
-Dans cet écran, vous pouvez créer de nouvelles compositions et accéder à celles existantes.
+![](assets/compositions-list.png)
 
 Pour affiner la liste et trouver facilement la composition que vous recherchez, vous pouvez rechercher la liste et filtrer les compositions selon leur statut ou leur date de dernier traitement.
 
 Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des colonnes. Pour ce faire, cliquez sur le bouton **Configurer la colonne** s et ajoutez ou supprimez les colonnes de sortie souhaitées.
 
 ![](assets/compositions-columns.png)
-
-Pour dupliquer ou supprimer une composition existante, cliquez sur le bouton représentant des points de suspension en regard de son nom et sélectionnez l’opération souhaitée.
 
 ## Statuts des compositions {#status}
 
@@ -47,3 +45,5 @@ Les compositions peuvent avoir plusieurs statuts :
 * **[!UICONTROL Stoppé]**: l’exécution de la composition s’est arrêtée.
 * **[!UICONTROL En pause]**: l’exécution de la composition a été suspendue.
 * **[!UICONTROL En erreur]**: l’exécution de la composition a rencontré une erreur. Ouvrez la composition et accédez aux logs et tâches pour identifier l&#39;erreur et la résoudre.
+
+Des informations détaillées sur le démarrage et le suivi d’une composition sont disponibles dans la section [cette section](../compositions/start-monitor-composition.md).
