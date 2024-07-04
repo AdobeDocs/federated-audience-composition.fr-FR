@@ -2,9 +2,9 @@
 user-guide-title: Composition d’audience fédérée
 title: Adobe de la documentation sur la composition d’audiences fédérées
 breadcrumb-title: Composition d’audience fédérée
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 38%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 38%
       + [Déduplication](compositions/activities/deduplication.md)
       + [Enrichissement](compositions/activities/enrichment.md)
       + [Branchement](compositions/activities/fork.md)
-      + [Requête incrémentale](compositions/activities/incremental-query.md)
       + [Réconciliation](compositions/activities/reconciliation.md)
       + [Enregistrer l’audience](compositions/activities/save-audience.md)
+      + [Planificateur](compositions/activities/scheduler.md)
       + [Fractionner](compositions/activities/split.md)
       + [Attente](compositions/activities/wait.md)
 + Interroger la base de données {#query-database}
