@@ -2,7 +2,7 @@
 audience: end-user
 title: Utilisation de l’activité Branchement
 description: Découvrez comment utiliser l’activité Branchement
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 84%
@@ -16,7 +16,6 @@ ht-degree: 84%
 >id="dc_orchestration_fork"
 >title="Activité Branchement"
 >abstract="L’activité **Branchement** permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
@@ -33,4 +32,4 @@ Pour configurer l’activité **Branchement**, procédez comme suit :
 1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
 1. Ajoutez un libellé à chacune de vos transitions.
 
-
+   ![](../assets/fork.png)
