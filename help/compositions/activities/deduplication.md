@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilisation de l'activité Déduplication
 description: Découvrez comment utiliser l’activité Déduplication
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 72%
+source-wordcount: '563'
+ht-degree: 56%
 
 ---
 
@@ -40,7 +40,11 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Ajouter un **Déduplication** à votre composition.
 
+1. Si l&#39;activité possède plusieurs transitions entrantes, sélectionnez la transition à utiliser pour effectuer le dédoublonnage depuis l&#39;activité **[!UICONTROL Principal]** liste déroulante
+
 1. Dans la section **Champs pour identifier des doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
+
+   ![](../assets/deduplication.png)
 
 1. Dans la section **Paramètres de déduplication**, sélectionnez le nombre de **Doublons à conserver** uniques. La valeur par défaut de ce champ est 1. La valeur 0 permet de conserver tous les doublons.
 
@@ -52,9 +56,10 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Sélectionnez la **méthode de déduplication** à utiliser :
 
-   * **Sélection aléatoire** : sélectionne au hasard parmi les doublons l’enregistrement à conserver.
-   * **A partir d’une expression** : permet de conserver les enregistrements dont la valeur de l’expression renseignée est la plus petite ou la plus grande.
-   * **Par ordonnancement de valeurs** : permet de définir un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attributs** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Cliquez sur le bouton Ajouter situé au-dessus de la liste des valeurs pour définir un nouveau champ.
+   * **Sélection aléatoire**: sélectionne de manière aléatoire l’enregistrement à conserver en dehors des doublons.
+   * **Utiliser une expression**: conserver les enregistrements dans lesquels la valeur de l&#39;expression renseignée est la plus petite ou la plus grande.
+   * **Valeurs non vides**: conservez les enregistrements pour lesquels l’expression n’est pas vide.
+   * **Après une liste de valeurs**: définissez un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attributs** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Pour définir un nouveau champ, cliquez sur le bouton **Bouton Ajouter** situé au-dessus de la liste des valeurs.
 
 1. Cochez l’option **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
 
