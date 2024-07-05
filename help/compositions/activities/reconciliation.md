@@ -2,10 +2,10 @@
 audience: end-user
 title: Utiliser l'activité Réconciliation
 description: Découvrez comment utiliser l'activité Réconciliation
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 69%
+source-wordcount: '515'
+ht-degree: 45%
 
 ---
 
@@ -36,19 +36,14 @@ La variable **Réconciliation** activité permet de définir le lien entre les d
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-## Bonnes pratiques {#reconciliation-best-practices}
-
-Lorsque la variable **Enrichissement** vous permet de définir des données supplémentaires à traiter dans votre composition (vous pouvez utiliser une **Enrichissement** pour combiner des données provenant de plusieurs ensembles, ou pour créer des liens vers une ressource temporaire), la variable **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes.
-
->[!NOTE]
->L’opération de réconciliation suppose que les données des dimensions liées sont déjà présentes dans la base de données.  Par exemple, si vous importez un fichier d’achats indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister dans la base de données.
+La variable **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes. L&#39;opération de réconciliation implique que les données que vous joignez se trouvent déjà dans la base de données. Par exemple, si vous souhaitez réconcilier des informations d’achat indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister dans la base de données.
 
 ## Configurer l’activité Réconciliation {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
->title="Dimension de ciblage"
->abstract="Sélectionnez la nouvelle dimension de ciblage. Une dimension vous permet de définir la population ciblée : destinataires, personnes abonnées à l’application, opérateurs et opératrices, personnes eabonnés, etc. Par défaut, la dimension de ciblage actuelle est sélectionnée."
+>title="Schéma"
+>abstract="Sélectionnez le nouveau schéma à appliquer aux données. Un schéma, également appelé &quot;dimension de ciblage&quot;, permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc. Par défaut, la dimension de ciblage de la composition actuelle est sélectionnée."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -72,21 +67,26 @@ Lorsque la variable **Enrichissement** vous permet de définir des données supp
 
 Pour configurer l’activité **Réconciliation**, procédez comme suit :
 
-1. Ajouter un **Réconciliation** dans votre composition. <!--This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. -->
+1. Ajouter un **Réconciliation** dans votre composition.
 
-1. Sélectionnez la nouvelle dimension de ciblage. Une dimension permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).-->
+1. Sélectionnez la variable **Nouveau schéma**. Un schéma, également appelé &quot;dimension de ciblage&quot;, permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc.
 
 1. Sélectionnez le ou les champs à utiliser pour la réconciliation. Vous pouvez utiliser un ou plusieurs critères de réconciliation.
 
-   1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez l’option **Attributs simples**. Le champ **Source** répertorie les champs disponibles dans la transition d’entrée, qui doivent être réconciliés. Le champ **Destination** correspond aux champs de la dimension de ciblage sélectionnée. Les données sont réconciliées lorsque la source et la destination sont égales. Par exemple, sélectionnez les champs **E-mail** pour dédupliquer des profils en fonction de leur adresse e-mail.
+   1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez la variable **Attributs simples** puis cliquez sur l’option **Ajouter une règle** bouton .
+   1. Sélectionnez la variable **Source** et **Destination** pour la réconciliation. La variable **Source** champ . La variable **Destination** correspond aux champs du schéma sélectionné.
+
+      Les données sont réconciliées lorsque la source et la destination sont égales. Par exemple, sélectionnez les champs **E-mail** pour dédupliquer des profils en fonction de leur adresse e-mail.
 
       Pour ajouter un autre critère de réconciliation, cliquez sur le bouton **Ajouter une règle**. Si plusieurs conditions de jointure sont indiquées, elles doivent TOUTES être vérifiées pour que le lien entre les données puisse se faire.
 
-   <!--     ![](../assets/workflow-reconciliation-criteria.png)-->
+      ![](../assets/reconciliation-rules.png)
 
-   1. Pour utiliser d’autres attributs afin de réconcilier des données, sélectionnez l’option **Conditions avancées de réconciliation**. Vous pouvez ensuite créer votre propre condition de réconciliation à l’aide du modeleur de requête. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md).-->
+   1. Pour utiliser d’autres attributs afin de réconcilier des données, sélectionnez la variable **Conditions de réconciliation avancées** puis cliquez sur l’option **Création de conditions** bouton . Vous pouvez ensuite créer votre propre condition de réconciliation à l’aide du modeleur de requête.
 
-1. Vous pouvez filtrer les données à réconcilier à l’aide du bouton **Créer un filtre**. Vous pouvez ainsi créer une condition personnalisée à l’aide du créateur de modèles de requête. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+      ![](../assets/reconciliation-advanced.png)
+
+1. Vous pouvez filtrer les données à réconcilier à l’aide du bouton **Créer un filtre**. Vous pouvez ainsi créer une condition personnalisée à l’aide du créateur de modèles de requête.
 
 Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Pour supprimer les données non réconciliées, désactivez l’option **Conserver les données non réconciliées**.
 
