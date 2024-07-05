@@ -2,10 +2,10 @@
 audience: end-user
 title: Utiliser l'activité Réconciliation
 description: Découvrez comment utiliser l'activité Réconciliation
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 45%
+source-wordcount: '518'
+ht-degree: 42%
 
 ---
 
@@ -43,7 +43,7 @@ La variable **Réconciliation** vous permet de lier des données non identifiée
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schéma"
->abstract="Sélectionnez le nouveau schéma à appliquer aux données. Un schéma, également appelé &quot;dimension de ciblage&quot;, permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc. Par défaut, la dimension de ciblage de la composition actuelle est sélectionnée."
+>abstract="Sélectionnez le nouveau schéma à appliquer aux données. Un schéma, également appelé dimension de ciblage, permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc. Par défaut, le schéma actuel de la composition est sélectionné."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ La variable **Réconciliation** vous permet de lier des données non identifiée
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Sélectionner la dimension de ciblage"
->abstract="Sélectionnez la dimension de ciblage de vos données entrantes avec lesquelles vous souhaitez effectuer la réconciliation."
+>abstract="Sélectionnez le schéma, également appelé dimension de ciblage, auquel vos données entrantes doivent être réconciliées."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ Pour configurer l’activité **Réconciliation**, procédez comme suit :
 
 1. Ajouter un **Réconciliation** dans votre composition.
 
-1. Sélectionnez la variable **Nouveau schéma**. Un schéma, également appelé &quot;dimension de ciblage&quot;, permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc.
+1. Sélectionnez la variable **Nouveau schéma**. Un schéma, également appelé dimension de ciblage, permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc.
 
 1. Sélectionnez le ou les champs à utiliser pour la réconciliation. Vous pouvez utiliser un ou plusieurs critères de réconciliation.
 

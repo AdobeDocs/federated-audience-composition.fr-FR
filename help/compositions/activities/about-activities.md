@@ -2,9 +2,9 @@
 audience: end-user
 title: Utilisation des activités
 description: Découvrez comment utiliser les activités
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 42%
 
 ---
@@ -20,7 +20,7 @@ Dans la composition d’audiences fédérées, vous pouvez créer des compositio
 ## Activités de ciblage
 
 * [Activité Créer une audience](build-audience.md): définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
-* [Changement de dimension](change-dimension.md): modifiez la dimension de ciblage au fur et à mesure que vous créez votre composition.
+* [Changement de dimension](change-dimension.md): modifiez le schéma, également appelé dimension de ciblage, à mesure que vous créez votre composition.
 * [Combiner](combine.md) : effectuez une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
 * [Déduplication](deduplication.md) : supprimez les doublons dans le ou les résultats des activités entrantes.
 * [Enrichissement](enrichment.md): définissez des données supplémentaires à traiter dans votre composition. Avec cette activité, vous pouvez utiliser la transition entrante et configurer l’activité pour ajouter des données supplémentaires à la transition sortante.

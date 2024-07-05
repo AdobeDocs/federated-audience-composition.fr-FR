@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilisation de l’activité Combiner
 description: Découvrez comment utiliser l’activité Combiner
-source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 67%
+source-wordcount: '765'
+ht-degree: 52%
 
 ---
 
@@ -87,7 +87,7 @@ Pour cela, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Règles d’exclusion"
->abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans l’E **Règles d’exclusion** et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
+>abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d&#39;un autre schéma, également appelé dimension de ciblage, cette cible doit être retournée au même schéma que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans l’E **Règles d’exclusion** et indiquez les conditions de modification du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,7 +97,7 @@ Pour cela, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Règles d’exclusion"
->abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
+>abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d&#39;un autre schéma, également appelé dimension de ciblage, cette cible doit être retournée au même schéma que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans le **Règles d’exclusion** et indiquez les conditions de modification du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -112,7 +112,7 @@ Pour cela, suivez les étapes supplémentaires ci-dessous :
 
 1. Dans la section **Ensembles à joindre**, sélectionnez **Ensemble principal** parmi les transitions entrantes. C’est l’ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l’ensemble principal.
 
-1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement de dimension. La réconciliation des données est réalisée soit par un attribut, soit par une jointure. <!-- pas compris-->
+1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d&#39;un autre schéma, cette cible doit être retournée au même schéma que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans le **Règles d’exclusion** et indiquez les conditions de modification du schéma. La réconciliation des données est réalisée soit par un attribut, soit par une jointure. <!-- pas compris-->
 1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Pour plus d’informations, consultez la section [Intersection](#intersection).
 
 <!--

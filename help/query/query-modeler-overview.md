@@ -2,10 +2,10 @@
 audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment utiliser le concepteur de requête.
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 87%
+source-wordcount: '380'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Concepteur de requête"
->abstract="Définissez des critères de filtrage pour les destinataires ou toute autre dimension de ciblage de la base de données."
+>abstract="Définissez des critères de filtrage pour les destinataires ou tout autre schéma, également appelé dimension de ciblage, de la base de données."
 
 Le modèle de requête simplifie le processus de filtrage de la base de données selon différents critères. De plus, le concepteur de requête peut gérer efficacement des requêtes très complexes et longues, offrant une flexibilité et une précision optimisées. En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qui vous permet d’affiner facilement vos requêtes tout en utilisant des expressions et des opérateurs avancés pour des stratégies de segmentation et un ciblage d’audience complets.
 

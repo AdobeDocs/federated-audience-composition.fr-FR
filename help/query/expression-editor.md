@@ -2,10 +2,10 @@
 audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête.
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '2096'
-ht-degree: 97%
+source-wordcount: '2100'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ L’éditeur d’expression est disponible à partir du bouton **[!UICONTROL Mod
 L’éditeur d’expression fournit :
 
 * un **champ de saisie (1)**, dans lequel l’expression est définie ;
-* la liste des **champs (2)** disponibles, utilisables dans l’expression et correspondant à la dimension de ciblage de la requête ;
+* La liste des **fields (2)** qui peut être utilisé dans l’expression et correspondant au schéma, également appelé dimension de ciblage, de la requête.
 * des **fonctions d’assistance (3)**, triées par catégorie.
 
 Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton +.

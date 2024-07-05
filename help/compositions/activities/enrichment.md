@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilisation de l’activité Enrichissement
 description: Découvrez comment utiliser l’activité Enrichissement
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 47%
+source-wordcount: '395'
+ht-degree: 35%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Données d’enrichissement"
->abstract="Sélectionnez les données à utiliser pour enrichir votre composition. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement de la dimension cible ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tables."
+>abstract="Sélectionnez les données à utiliser pour enrichir votre composition. Vous pouvez sélectionner deux types de données d&#39;enrichissement : un seul attribut d&#39;enrichissement du schéma, également appelé dimension de ciblage, ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tables."
 
 La variable **Enrichissement** activité vous permet d’améliorer les données ciblées avec des informations supplémentaires de la base de données fédérée. Il est généralement utilisé dans des compositions après des activités de segmentation.
 
@@ -84,7 +84,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 Ici, nous ajoutons un seul attribut d’enrichissement, par exemple, la date de naissance. Procédez de la façon suivante :
 
 1. Cliquez dans le champ **Attribut**.
-1. Sélectionnez un champ simple dans la dimension de ciblage, la date de naissance dans notre exemple.
+1. Sélectionnez un champ simple dans le schéma, également appelé dimension de ciblage, la date de naissance dans notre exemple.
 1. Cliquez sur **Confirmer**.
 
 <!--### Collection link {#collection-link}
