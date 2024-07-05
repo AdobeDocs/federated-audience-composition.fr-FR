@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilisation de l’activité Enrichissement
 description: Découvrez comment utiliser l’activité Enrichissement
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 76%
+source-wordcount: '387'
+ht-degree: 47%
 
 ---
 
@@ -53,55 +53,29 @@ Une fois que les données d&#39;enrichissement ont été ajoutées à la composi
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
-## Ajouter une activité Enrichissement {#enrichment-configuration}
+## Configurer l’activité Enrichissement {#enrichment-configuration}
 
 Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
 1. Ajoutez des activités telles que **Créer une audience** et **Combiner**.
 1. Ajoutez une activité **Enrichissement**.
-1. Si plusieurs transitions ont été configurées dans votre composition, vous pouvez utiliser la variable **[!UICONTROL Principal]** champ pour définir la transition à utiliser comme ensemble principal pour enrichir les données.
 
-## Ajouter des données d’enrichissement {#enrichment-add}
+   ![](../assets/enrichment.png)
+
+1. Si plusieurs transitions ont été configurées dans votre composition, vous pouvez utiliser la variable **[!UICONTROL Principal]** champ pour définir la transition à utiliser comme ensemble principal pour enrichir les données.
 
 1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données.
 
-   Vous pouvez sélectionner deux types de données d’enrichissement : un attribut d’enrichissement unique de la dimension cible, ou un lien de collection. Chacun de ces types est détaillé dans les exemples ci-dessous :
+   ![](../assets/enrichment-add.png)
 
-   * [Attribut d’enrichissement unique](#single-attribute)
-   * [Lien de collection](#collection-link)
+   >[!NOTE]
+   >
+   >La variable **Bouton Modifier l’expression** dans l’écran de sélection d’attributs, vous pouvez créer des expressions avancées pour sélectionner l’attribut.
 
-<!--
->[!NOTE]
->
->The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md)-->
+<!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 
-## Créer des liens entre les tables {#create-links}
-
-La variable **[!UICONTROL Définition de lien]** permet de créer un lien entre les données de la table de travail et votre base de données. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil.
-
-Plusieurs types de liens sont disponibles :
-
-* **[!UICONTROL Lien simple de cardinalité 1]** : chaque enregistrement de l’ensemble principal peut être associé à un seul enregistrement des données liées.
-* **[!UICONTROL Lien simple de cardinalité 0 ou 1]** : chaque enregistrement de l’ensemble principal peut être associé à 0 ou 1 enregistrement des données liées (et pas plus de un).
-* **[!UICONTROL Lien de collection de cardinalité N]** : chaque enregistrement de l’ensemble principal peut être associé à 0, 1 ou plus (N) d’enregistrements des données liées.
-
-Pour créer un lien, procédez comme suit :
-
-1. Dans la section **[!UICONTROL Définition du lien]**, cliquez sur le bouton **[!UICONTROL Ajouter un lien]**.
-
-1. Dans la liste déroulante **Type de relation**, sélectionnez le type de lien que vous souhaitez créer.
-
-1. Identifiez la cible à laquelle vous souhaitez lier l’ensemble principal :
-
-   * Pour lier une table existante dans la base de données, choisissez **[!UICONTROL Schéma de base de données]** et sélectionnez la table souhaitée dans le champ **[!UICONTROL Schéma cible]**.
-   * Pour créer un lien avec les données de la transition en entrée, choisissez **Schéma temporaire** et sélectionnez la transition dont vous souhaitez utiliser les données.
-
-1. Définissez les critères de réconciliation pour faire correspondre les données de l’ensemble principal avec le schéma lié. Deux types de jointures sont disponibles :
-
-   * **Jointure simple** : sélectionnez un attribut spécifique pour faire correspondre les données des deux schémas. Cliquez sur **Ajouter une jointure** et sélectionnez les attributs **Source** et **Destination** à utiliser comme critères de réconciliation.
-   * **Jointure avancée** : créez une jointure à l’aide de conditions avancées. Cliquez sur **Ajouter une jointure** puis sur le bouton **Créer une condition** pour ouvrir le concepteur de requête.
-
-Un exemple de composition utilisant des liens est disponible dans la [Exemples](#link-example) .
+    * [Single enrichment attribute](#single-attribute)
+    * [Collection lnk](#collection-link)-->
 
 ## Exemples {#example}
 
@@ -113,90 +87,46 @@ Ici, nous ajoutons un seul attribut d’enrichissement, par exemple, la date de 
 1. Sélectionnez un champ simple dans la dimension de ciblage, la date de naissance dans notre exemple.
 1. Cliquez sur **Confirmer**.
 
-### Lien de collecte {#collection-link}
+<!--### Collection link {#collection-link}
 
-Dans ce cas pratique plus complexe, nous sélectionnons un lien de collecte qui est un lien avec une cardinalité 1-N entre les tableaux. Récupérons les trois derniers achats inférieurs à 100 USD. Pour cela, vous devez définir :
+In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
-* un attribut d’enrichissement : le champ **Montant total** ;
-* le nombre de lignes à récupérer : 3 ;
-* un filtre : filtrez les éléments supérieurs à 100 USD ;
-* un tri : tri descendant sur le champ **Date de commande**.
+* an enrichment attribute: the **Total amount** field
+* the number of lines to retrieve: 3
+* a filter: filter out items that are greater than 100$
+* a sorting: descendant sorting on the **Order date** field. 
 
-#### Ajouter l’attribut {#add-attribute}
+#### Add the attribute {#add-attribute}
 
-C’est là que vous sélectionnez le lien de collecte à utiliser comme données d’enrichissement.
+This is where you select the collection link to use as enrichment data.
 
-1. Cliquez dans le champ **Attribut**.
-1. Cliquez sur **Afficher les attributs avancés**.
-1. Sélectionnez le champ **Montant total** dans le tableau **Achats**.
+1. Click inside the **Attribute** field.
+1. Click **Display advanced attributes**.
+1. Select the **Total amount** field from the **Purchases** table. 
 
-#### Définir les paramètres de la collecte{#collection-settings}
+#### Define the collection settings{#collection-settings}
 
-Définissez ensuite la manière dont les données sont collectées et le nombre d’enregistrements à récupérer.
+Then, define how the data is collected and the number of records to retrieve.
 
-1. Sélectionnez **Collecter des données** dans le menu déroulant **Sélectionner la manière de collecter les données**.
-1. Saisissez « 3 » dans le champ **Lignes à récupérer (Colonnes à créer)**.
+1. Select **Collect data** in the **Select how the data is collected** drop-down.
+1. Type "3" in the **Lines to retrieve (Columns to create)** field. 
 
-Si vous souhaitez, par exemple, obtenir le montant moyen des achats d’un client ou une cliente, sélectionnez **Données agrégées**, puis **Moyenne** dans le menu déroulant **Fonction d’agrégat**.
+If you want, for example, to get the average amount of purchases for a customer, select **Aggregated data** instead, and select **Average** in the **Aggregate function** drop-down.
 
-#### Définir des filtres{#collection-filters}
+#### Define the filters{#collection-filters}
 
-Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. Nous filtrons les éléments qui sont supérieurs à 100$. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
-1. Cliquez sur **Modifier les filtres**.
-1. Ajoutez les deux filtres suivants : **Montant total** existe ET **Montant total** est inférieur à 100. Le premier filtre les valeurs NULL, car elles apparaissent comme la valeur la plus élevée.
-1. Cliquez sur **Confirmer**.
+1. Click **Edit filters**.
+1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.
+1. Click **Confirm**.
 
-#### Définir le tri{#collection-sorting}
+#### Define the sorting{#collection-sorting}
 
-Nous devons maintenant appliquer un tri pour récupérer les trois **derniers** achats.
+We now need to apply sorting in order to retrieve the three **latest** purchases.
 
-1. Activez l’option **Activer le tri**.
-1. Cliquez dans le champ **Attribut**.
-1. Sélectionnez le champ **Date de commande**.
-1. Cliquez sur **Confirmer**.
-1. Sélectionnez **Descendant** dans le menu déroulant **Tri**.
-
-
-### Enrichissement avec des données liées {#link-example}
-
-L&#39;exemple ci-dessous illustre une composition configurée pour créer un lien entre deux transitions. La première transition cible les données de profil à l’aide d’une activité Requête, tandis que la seconde transition inclut les données d’achat stockées dans un fichier chargé via une activité Chargement de fichier.
-
-* La première activité **Enrichissement** lie notre ensemble principal (données issues de l’activité **Requête**) au schéma de l’activité **Chargement de fichier**. Cela nous permet de faire correspondre chaque profil ciblé par la requête avec les données d’achat correspondantes.
-* Une seconde **Enrichissement** l’activité est ajoutée afin d’enrichir les données de la table de composition avec les données d’achat provenant du **Chargement de fichier** activité. Cela nous permet d’utiliser ces données dans d’autres activités, par exemple pour personnaliser les messages envoyés aux clientes et clients avec des informations sur leur achat.
-
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->
+1. Activate the **Enable sorting** option.
+1. Click inside the **Attribute** field.
+1. Select the **Order date** field.
+1. Click **Confirm**. 
+1. Select **Descending** from the **Sort** drop-down.-->
