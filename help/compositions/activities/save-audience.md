@@ -2,7 +2,7 @@
 audience: end-user
 title: Utilisation de l’activité Sauvegarde d’audience
 description: Découvrez comment utiliser l’activité Sauvegarde d’audience
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 30%
@@ -60,7 +60,7 @@ Pour configurer l’activité **Enregistrer l’audience**, procédez comme suit
    * **Champ d’identité du Principal**: sélectionnez le champ à utiliser pour identifier les profils. Par exemple, son adresse électronique ou son numéro de téléphone.
    * **Espace de noms d’identité**: sélectionnez l’espace de noms à utiliser pour identifier les profils, c’est-à-dire le type de données à utiliser comme clé d’identification. Par exemple, si l’adresse électronique a été sélectionnée comme champ d’identité principale, l’espace de noms d’identité **Email** doit être sélectionné. Si l’identifiant unique est le numéro de téléphone, l’espace de noms d’identité **Téléphone** doit être sélectionné.
 
-Une fois la composition exécutée, l’audience obtenue est enregistrée dans Adobe Experience Platform et rendue accessible dans le **Audiences** .
+Une fois la composition exécutée, l’audience obtenue est enregistrée dans Adobe Experience Platform. <!-- to check-->, et rendus accessibles dans le **Audiences** .
 
 <!--
 
