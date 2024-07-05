@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilisation de l'activité Partage
 description: Découvrez comment utiliser l’activité Partage
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 83%
+source-wordcount: '919'
+ht-degree: 79%
 
 ---
 
@@ -59,7 +59,7 @@ L’activité **Partage** permet de segmenter les populations entrantes en plusi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Permettre le chevauchement des populations de sortie"
->abstract="Permettre le chevauchement des populations de sortie"
+>abstract="La variable **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations appartenant à plusieurs sous-ensembles. Lorsque la case n&#39;est pas cochée, l&#39;activité de partage assure qu&#39;un destinataire ne peut pas être présent dans plusieurs transitions en sortie, même s&#39;il répond aux critères de plusieurs sous-ensembles. Ils seront dans la cible du premier onglet avec les critères correspondants. Lorsque la case est cochée, les destinataires peuvent être présents dans plusieurs sous-ensembles s&#39;ils vérifient leurs critères de filtrage. Adobe Campaign vous recommande d&#39;utiliser des critères exclusifs."
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 
@@ -75,9 +75,13 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
 1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions en sortie que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble afin de les identifier facilement dans la zone de travail de composition.
 
+   ![](../assets/split.png)
+
 1. Configurez la manière dont chaque sous-ensemble doit filtrer la population entrante. Pour ce faire, procédez comme suit :
 
-   1. Ouvrez le sous-ensemble pour afficher ses propriétés.
+   1. Développez le sous-ensemble pour afficher ses propriétés.
+
+      ![](../assets/split-subset.png)
 
    1. Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée à l’aide du concepteur de requête. Par exemple, incluez les profils de la population entrante dont l&#39;adresse email existe dans la base de données. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
 
@@ -94,6 +98,11 @@ Pour configurer l’activité **Partage**, procédez comme suit :
    >[!NOTE]
    >
    >L’option **[!UICONTROL Générer tous les sous-ensembles dans le même tableau]** vous permet de regrouper tous les sous-ensembles dans une seule transition sortante.
+
+1. L&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations appartenant à plusieurs sous-ensembles :
+
+   * Lorsque la case est décochée, l&#39;activité de partage assure qu&#39;un destinataire ne sera pas présent dans plusieurs transitions en sortie, même s&#39;il vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
+   * Lorsque la case est cochée, les destinataires peuvent être présents dans plusieurs sous-ensembles s&#39;ils vérifient leurs critères de filtrage. Adobe Campaign vous recommande d&#39;utiliser des critères exclusifs.
 
 L’activité est désormais configurée. Lors de l&#39;exécution, la population sera segmentée dans les différents sous-ensembles, dans l&#39;ordre dans lequel elle a été ajoutée à l&#39;activité.
 
