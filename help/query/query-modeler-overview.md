@@ -2,10 +2,10 @@
 audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment utiliser le concepteur de requête.
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5d4bdbbb9c903e839b21d22455d870396ac1df7d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 86%
+source-wordcount: '336'
+ht-degree: 77%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Concepteur de requête"
->abstract="Définissez des critères de filtrage pour les destinataires ou tout autre schéma, également appelé dimension de ciblage, de la base de données."
+>abstract="Définissez des critères de filtrage pour les destinataires ou tout autre schéma, également appelé dimension de ciblage, à partir de la base de données."
 
-Le modèle de requête simplifie le processus de filtrage de la base de données selon différents critères. De plus, le concepteur de requête peut gérer efficacement des requêtes très complexes et longues, offrant une flexibilité et une précision optimisées. En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qui vous permet d’affiner facilement vos requêtes tout en utilisant des expressions et des opérateurs avancés pour des stratégies de segmentation et un ciblage d’audience complets.
+Le modeleur de requête simplifie le processus de filtrage de la base de données en fonction de divers critères. De plus, le concepteur de requête peut gérer efficacement des requêtes très complexes et longues, offrant une flexibilité et une précision optimisées. En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qui vous permet d’affiner facilement vos requêtes tout en utilisant des expressions et des opérateurs avancés pour des stratégies de segmentation et un ciblage d’audience complets.
 
 ## Accéder au concepteur de requête
 
@@ -24,10 +24,8 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 
 | Utilisation | Exemple |
 |  ---  |  ---  |
-| **Définition des audiences**: définissez la population que vous souhaitez cibler dans vos compositions et créez facilement de nouvelles audiences adaptées à vos besoins. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Personnaliser les activités de workflow** : appliquez des règles à des activités de workflow, telles que **Partage** et **Réconciliation**, afin de respecter vos besoins spécifiques. [En savoir plus sur les activités de workflow](../compositions/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Filtres prédéfinis** : créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion. | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Personnaliser les listes** : créez des règles personnalisées pour filtrer les données affichées dans les listes, telles que les personnes destinataires, les listes de diffusions, etc. | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Définissez les audiences** : spécifiez la population que vous souhaitez cibler dans vos compositions et créez sans effort de nouvelles audiences adaptées à vos besoins. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Personnaliser les activités** de workflow : appliquez des règles dans les activités de composition, telles que **le fractionnement** et **la réconciliation**, pour les aligner sur vos besoins spécifiques. [En savoir plus sur les activités de composition](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Interface du concepteur de requête {#interface}
 
