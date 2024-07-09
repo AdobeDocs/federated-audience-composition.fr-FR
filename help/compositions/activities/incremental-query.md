@@ -4,10 +4,10 @@ title: Utilisation de l'activité Requête incrémentale
 description: Découvrez comment utiliser l’activité Requête incrémentale
 hide: true
 hidefromtoc: true
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 52%
+source-wordcount: '598'
+ht-degree: 56%
 
 ---
 
@@ -49,7 +49,7 @@ Pour configurer l’activité **Requête incrémentale**, procédez comme suit 
 
    La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
-1. Utilisez le modèle de requête pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel email. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Utilisez le concepteur de requêtes pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
 
 1. Dans la section **[!UICONTROL Données traitées]**, sélectionnez le mode d’incrémentation à utiliser :
 

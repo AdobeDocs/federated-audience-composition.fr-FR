@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audience fédérée
 title: Adobe de la documentation sur la composition d’audiences fédérées
 breadcrumb-title: Composition d’audience fédérée
-source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 37%
+source-wordcount: '119'
+ht-degree: 36%
 
 ---
 
@@ -47,6 +47,5 @@ ht-degree: 37%
    + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
    + [Éditer les expressions](query/expression-editor.md)
-   + [Filtrer les listes](query/filter.md)
 + Suivi {#audit-trail}
    + [Surveiller vos bases de données](admin/audit-trail.md)

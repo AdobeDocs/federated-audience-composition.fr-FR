@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilisation de l’activité Créer une audience
 description: Découvrez comment utiliser l’activité Créer une audience
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 53%
+source-wordcount: '237'
+ht-degree: 39%
 
 ---
 
@@ -38,19 +38,19 @@ Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
 1. Ajoutez une activité **Créer une audience**.
 1. Définissez un libellé.
-1. Définissez le type d’audience : **Créer votre audience** ou **Lecture d’audience**.
+1. Indiquez si vous souhaitez créer une audience ou en sélectionner une existante.
 1. Configurez votre audience en suivant les étapes présentées dans les onglets ci-dessous.
 
 >[!BEGINTABS]
 
->[!TAB Créer votre propre (requête)]
+>[!TAB Créer une audience]
 
-Pour créer votre propre requête, procédez comme suit :
+Pour créer votre propre audience, procédez comme suit :
 
-1. Sélectionnez **Créer la vôtre (requête)**.
-1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires.<!-- [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+1. Sélectionner **Créer une audience**.
+1. Choisissez la **Schéma**, également appelée dimension de ciblage. Le schéma permet de définir la population ciblée par l&#39;opération : destinataires, bénéficiaires de contrats, opérateur, abonnés, etc. Par défaut, le schéma est sélectionné parmi les destinataires.
 1. Cliquez sur **Continuer**.
-1. Utilisez le modèle de requête pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel email. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Utilisez le modèle de requête pour définir votre requête. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
 
 >[!TAB Lecture d’audience]
 
@@ -58,7 +58,7 @@ Pour sélectionner une audience existante, procédez comme suit :
 
 1. Sélectionnez **Lecture d’audience**.
 1. Cliquez sur **Continuer**.
-1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d&#39;une nouvelle diffusion. <!--Refer to this [section](../../audience/add-audience.md).-->
+1. Sélectionnez votre audience.
 
 >[!ENDTABS]
 

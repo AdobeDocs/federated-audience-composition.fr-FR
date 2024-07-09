@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilisation de l'activité Partage
 description: Découvrez comment utiliser l’activité Partage
-source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 79%
+source-wordcount: '927'
+ht-degree: 81%
 
 ---
 
@@ -83,7 +83,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
       ![](../assets/split-subset.png)
 
-   1. Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée à l’aide du concepteur de requête. Par exemple, incluez les profils de la population entrante dont l&#39;adresse email existe dans la base de données. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+   1. Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée à l’aide du concepteur de requête. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données. [Découvrir comment utiliser le concepteur de requête](../../query/query-modeler-overview.md)
 
    1. Pour limiter le nombre de profils sélectionnés par le sous-ensemble, activez la fonction **[!UICONTROL Activer la limite]** et indiquez le nombre ou les pourcentages de la population à inclure.
 

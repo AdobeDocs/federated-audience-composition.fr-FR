@@ -2,10 +2,10 @@
 audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requêtes
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 95%
+source-wordcount: '2066'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ Pour commencer à créer une requête, accédez au concepteur de requête à par
 
 Vous pouvez ajouter deux types d’éléments :
 
-* Les **composants de filtrage** (condition personnalisée, audience sélectionnée, filtre prédéfini) vous permettent de créer vos propres règles, de sélectionner une audience ou un filtre prédéfini pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
+* **Filtrage des composants** (Condition personnalisée, Sélectionner une audience) vous permettent de créer vos propres règles ou de sélectionner une audience pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
 
   Exemple : *personnes destinataires qui se sont abonnées à la newsletter « Sports »*. *Personnes destinataires résidant à New York*, *Personnes destinataires résidant à San Francisco*.
 
@@ -33,7 +33,6 @@ Les composants de filtrage vous permettent d’affiner votre requête à l’aid
 
 * **[Conditions personnalisées](#custom-condition)** : filtrez votre requête en créant votre propre condition avec des attributs de la base de données et des expressions avancées.
 * **[Audiences](#audiences)** : filtrez votre requête à l’aide d’une audience existante.
-* **[Filtre prédéfini](#predefined-filters)** : filtrez votre requête à l’aide de filtres prédéfinis existants.
 
 ### Configurer une condition personnalisée {#custom-condition}
 
@@ -52,7 +51,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    >[!NOTE]
    >
-   >La variable **Expression d’édition** vous permet d’utiliser l’éditeur d’expression web pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
+   >La variable **Expression d’édition** vous permet d’utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
 
 1. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
@@ -79,15 +78,11 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 +++
 
-1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l&#39;éditeur d&#39;expression Web pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance. Pour ce faire, cliquez sur le bouton **Modifier une expression**. [Découvrez comment modifier des expressions](expression-editor.md)
+1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur le bouton **Modifier une expression**. [Découvrez comment modifier des expressions](expression-editor.md)
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
    ![](assets/query-custom-condition.png){zoomable="yes"}
-
-   Pour les attributs de type date, des valeurs prédéfinies sont disponibles à l’aide de l’option **[!UICONTROL Préréglages]**.
-
-   ![](assets/date-presets.png){zoomable="yes"}
 
 #### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
@@ -243,12 +238,12 @@ Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inc
 >title="Propriétés de la règle"
 >abstract="Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit.<br/>Ce volet permet d’afficher les données obtenues, de récupérer une version de code SQL de la requête et de vérifier le nombre d’enregistrements ciblés.<br/>Utilisez le bouton **Sélectionner ou enregistrer un filtre** pour enregistrer votre requête en tant que filtre prédéfini ou remplacer le contenu de la zone de travail par un filtre existant."
 
-Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit. Les opérations disponibles sont les suivantes :
+Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit. Ce volet s’affiche lors de la création d’une requête pour créer une audience. Les opérations disponibles sont les suivantes :
 
 * **Afficher les résultats** : affiche les données issues de votre requête.
 * **Affichage du code** : affiche une version basée sur le code de la requête en SQL.
 * **Calculer** : met à jour et affiche le nombre d’enregistrements ciblés par votre requête.
-* **Sélectionner ou enregistrer un filtre**: sélectionnez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. <!--[Learn how to work with predefined filters](../get-started/predefined-filters.md)-->
+* **Sélectionner ou enregistrer un filtre**: sélectionnez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure.
 
   >[!IMPORTANT]
   >
