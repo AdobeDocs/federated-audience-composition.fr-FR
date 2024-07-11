@@ -5,7 +5,7 @@ description: Découvrez comment créer des compositions
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 5%
+ht-degree: 25%
 
 ---
 
@@ -33,18 +33,18 @@ La première étape pour créer une composition consiste à définir son libell�
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
->title="Propriétés de composition"
+>title="Propriétés de la composition"
 >abstract="Cette section fournit des propriétés de composition génériques qui sont également accessibles lors de la création de la composition."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
 >title="Segmentation de composition"
->abstract="Par défaut, seules les tables de travail de la dernière exécution de la composition sont conservées. Vous pouvez activer cette option pour conserver les tables de travail à des fins de test. Il doit être utilisé. **only** sur les environnements de développement ou d’évaluation. Elle ne doit jamais être vérifiée dans un environnement de production."
+>abstract="Par défaut, seules les tables de travail de la dernière exécution de la composition sont conservées. Vous pouvez activer cette option pour conserver les tables de travail à des fins de test. Elle doit être utilisée **uniquement** sur les environnements de développement ou d’évaluation. Cette option ne doit jamais être cochée dans un environnement de production."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="Paramètres de gestion des erreurs"
->abstract="Dans cette section, vous pouvez définir comment gérer les erreurs au cours de l&#39;exécution. Vous pouvez choisir de suspendre le processus, d&#39;ignorer un certain nombre d&#39;erreurs ou d&#39;arrêter l&#39;exécution de la composition."
+>abstract="Dans cette section, vous pouvez définir la façon de gérer les erreurs lors de l’exécution. Vous pouvez choisir de suspendre le processus, d’ignorer un certain nombre d’erreurs ou d’arrêter l’exécution de la composition."
 
 Lors de l’accès à une composition, vous pouvez accéder à des paramètres avancés qui vous permettent, par exemple, de définir le comportement de la composition en cas d’erreur.
 

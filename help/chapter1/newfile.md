@@ -5,7 +5,7 @@ keywords: nouveau fichier, ajouter un fichier, fichier
 source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 39%
+ht-degree: 88%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
 >title="Activité non modifiable"
->abstract="Lorsqu’une **Requête** ou **Enrichissement** activité est paramétrée avec des données additionnelles dans la console, les données d&#39;enrichissement sont prises en compte et transmises dans la transition sortante, mais elles ne peuvent pas être éditées."
+>abstract="Lorsqu’une activité **Requête** ou **Enrichissement** est paramétrée avec des données supplémentaires dans la console, les données d’enrichissement sont prises en compte et transmises à la transition sortante, mais elles ne peuvent pas être modifiées."
 
 <!-- Create a link -->
 
 >[!CONTEXTUALHELP]
 >id="dc_federated_database_create_link"
->title="Création d’un lien"
+>title="Créer un lien"
 >abstract="Définissez les paramètres du lien."

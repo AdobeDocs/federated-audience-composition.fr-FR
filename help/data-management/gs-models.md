@@ -1,36 +1,36 @@
 ---
 audience: end-user
-title: Prise en main des modèles de données
+title: Commencer avec les modèles de données
 description: Découvrez comment commencer avec les modèles de données
 source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 1%
+ht-degree: 37%
 
 ---
 
-# Prise en main des modèles de données {#data-model}
+# Commencer avec les modèles de données {#data-model}
 
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
->title="Utilisation de modèles"
->abstract="Les schémas et les modèles de données sont répertoriés dans cet écran. Vous pouvez créer des schémas et des modèles de données à partir du **Créer** bouton ."
+>title="Utiliser des modèles"
+>abstract="Les schémas et les modèles de données sont répertoriés dans cet écran. Vous pouvez créer des schémas et des modèles de données à partir du bouton **Créer**."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
->title="Sélection de schémas"
+>title="Sélectionner des schémas"
 >abstract="Sélectionnez les schémas du modèle de données."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_audience"
 >title="Sélectionner une audience"
->abstract="Sélectionnez l’audience pour le modèle de données."
+>abstract="Sélectionnez l’audience du modèle de données."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_properties"
->title="Propriétés Datamodel"
+>title="Propriétés du modèle de données"
 >abstract="Saisissez le libellé du modèle de données."
 
 

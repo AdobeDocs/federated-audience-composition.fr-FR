@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Enrichissement
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 35%
+ht-degree: 52%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Activité Enrichissement"
->abstract="L’activité **Enrichissement** permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Il est généralement utilisé dans une composition après des activités de segmentation."
+>abstract="L’activité **Enrichissement** permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans une composition après les activités de segmentation."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="Activité Enrichissement"
->abstract="Une fois les données d’enrichissement ajoutées à la composition, elles peuvent être utilisées dans les activités ajoutées après la **Enrichissement** pour segmenter les profils en groupes distincts en fonction de leurs comportements, préférences et choix."
+>abstract="Une fois les données d’enrichissement ajoutées à la composition, elles peuvent être utilisées dans les activités ajoutées après l’activité **Enrichissement** pour segmenter les profils en groupes distincts en fonction de leurs comportements, préférences et choix."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"

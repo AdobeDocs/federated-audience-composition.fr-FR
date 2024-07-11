@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Créer une audience
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 39%
+ht-degree: 54%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
 >title="Activité Créer une audience"
->abstract="La variable **Créer une audience** l’activité vous permet de définir l’audience qui va entrer dans la composition."
+>abstract="L’activité **Créer une audience** permet de définir l’audience qui va entrer dans la composition."
 
-La variable **Créer une audience** l’activité vous permet de définir l’audience qui va entrer dans la composition.
+L’activité **Créer une audience** permet de définir l’audience qui va entrer dans la composition.
 
 Pour définir la population de l’audience, vous pouvez :
 

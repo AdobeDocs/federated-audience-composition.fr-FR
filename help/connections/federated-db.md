@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: Prise en main des bases de données fédérées
+title: Commencer avec les bases de données fédérées
 description: Découvrez comment créer et gérer vos bases de données fédérées
 source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
-# Prise en main des bases de données fédérées {#federated-db}
+# Commencer avec les bases de données fédérées {#federated-db}
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="Federated Databases"
->abstract="Les connexions existantes à des bases de données fédérées sont répertoriées dans cet écran. Pour créer une connexion, cliquez sur le bouton **Ajouter une base de données fédérée** bouton ."
+>title="Bases de données fédérées"
+>abstract="Les connexions existantes à des bases de données fédérées sont répertoriées dans cet écran. Pour créer une connexion, cliquez sur le bouton **Ajouter une base de données fédérée**."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Propriétés Federated Database"
+>title="Propriétés de la base de données fédérée"
 >abstract="Saisissez le nom de la nouvelle base de données fédérée et sélectionnez son type."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Détails de la base de données fédérée"
->abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez la variable **Tester la connexion** pour valider votre configuration."
+>abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **Tester la connexion** pour valider votre configuration."
 
 Créer, configurer, tester et enregistrer la connexion à une base de données externe.
 

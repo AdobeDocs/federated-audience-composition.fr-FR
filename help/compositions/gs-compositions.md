@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Prise en main des compositions
+title: Commencer avec les compositions
 description: Découvrez comment commencer avec des compositions
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
-# Prise en main des compositions {#compositions}
+# Commencer avec les compositions {#compositions}
 
 ## Qu’est-ce qu’une composition ? {#what}
 
@@ -22,7 +22,7 @@ La Composition des données d’Adobe vous permet de créer des compositions, da
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
 >title="Compositions"
->abstract="Dans cet écran, vous pouvez accéder à la liste complète des compositions, vérifier leur état actuel, les dates de dernière exécution/prochaine et créer une nouvelle composition."
+>abstract="Dans cet écran, vous pouvez accéder à la liste complète des compositions, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une composition."
 
 Les composition sont accessibles à partir de Adobe Experience Platform **[!UICONTROL Audiences]** , dans le **Compositions fédérées** .
 

@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 56%
+ht-degree: 58%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery"
 >title="Requête incrémentale"
->abstract="La variable **Requête incrémentale** activité vous permet d’interroger la base de données à l’aide du modeleur Query. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments."
+>abstract="L’activité **Requête incrémentale** vous permet d’interroger la base de données à l’aide du concepteur de requête. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery_history"

@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Rendez-vous
 source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 57%
+ht-degree: 70%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="Activité Rendez-vous"
->abstract="La variable **Et rejoindre** vous permet de synchroniser plusieurs branches d’exécution d’une composition. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la composition."
+>abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une composition. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la composition."
 
 La variable **AND-join** vous permet de synchroniser plusieurs branches d’exécution d’une composition.
 

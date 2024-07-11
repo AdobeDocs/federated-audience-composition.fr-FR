@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Combiner
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 52%
+ht-degree: 62%
 
 ---
 
@@ -26,12 +26,12 @@ La variable **Combiner** peut être placée après toute autre activité, mais p
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
 >title="Options de fusion des intersections"
->abstract="La variable **intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité. Dans le **Définit la jointure** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre."
+>abstract="L’**intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l’activité. Dans la section **Ensembles à joindre**, cochez les activités précédentes à joindre."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Options de fusion des exclusions"
->abstract="La variable **exclusion** permet d&#39;exclure des éléments d&#39;une population selon certains critères. Dans le **Définit la jointure** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre."
+>abstract="L’**exclusion** permet d’exclure des éléments d’une population selon certains critères. Dans la section **Ensembles à joindre**, cochez les activités précédentes à joindre."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
@@ -102,7 +102,7 @@ Pour cela, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Combiner la génération de complément"
->abstract="Activez l’option **Générer le complémentaire** pour traiter la population restante dans une transition supplémentaire."
+>abstract="Activez l’option **Générer un complément** pour traiter la population restante dans une transition supplémentaire."
 
 Dans le **Combiner** vous pouvez configurer une **Exclusion**.
 

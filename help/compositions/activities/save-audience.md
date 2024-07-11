@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Sauvegarde d’audience
 source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 30%
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Enregistrer une audience"
->abstract="Utilisez cette activité pour mettre à jour une audience existante ou créer une nouvelle audience à partir de la population calculée en amont dans la composition. Les audiences créées sont ajoutées à la liste des audiences et sont disponibles dans le menu **Audiences**."
+>abstract="Utilisez cette activité pour mettre à jour une audience existante ou créer une audience à partir de la population calculée en amont dans la composition. Les audiences créées sont ajoutées à la liste des audiences et sont disponibles dans le menu **Audiences**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -24,15 +24,15 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
->title="Champ Identité principale"
+>title="Champ d’identité principale"
 >abstract="Sélectionnez l’identité principale à utiliser pour les profils."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="En savoir plus dans la documentation de l’Experience Platform"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="En savoir plus dans la documentation d’Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Espace de noms d’identité"
 >abstract="Sélectionnez l’espace de noms à utiliser pour les profils."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces" text="En savoir plus dans la documentation de l’Experience Platform"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces" text="En savoir plus dans la documentation d’Experience Platform"
 
 La variable **Sauvegarde d’audience** l&#39;activité permet de mettre à jour une audience existante ou de créer une nouvelle audience à partir de la population calculée en amont dans une composition. Les audiences créées sont ajoutées à la liste des audiences de l’application, disponible via le menu **Audiences**.
 

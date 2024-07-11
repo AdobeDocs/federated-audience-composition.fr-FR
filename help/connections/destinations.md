@@ -5,16 +5,16 @@ description: Découvrez comment créer une destination dans AEP pour vous connec
 source-git-commit: ddc880f0146c39fe06187e0ae0cc0355763adb78
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 0%
+ht-degree: 54%
 
 ---
 
-# Connexion d’AEP à FAC {#connect-aep-fac}
+# Connecter AEP à FAC {#connect-aep-fac}
 
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
->title="Création d’une destination"
->abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez la variable **Se connecter à la destination** pour valider votre configuration."
+>title="Créer une destination"
+>abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **Se connecter à la destination** pour valider votre configuration."
 
 
