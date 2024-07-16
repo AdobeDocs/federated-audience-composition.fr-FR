@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audience fédérée
 title: Adobe de la documentation sur la composition d’audiences fédérées
 breadcrumb-title: Composition d’audience fédérée
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 36%
 # Documentation sur la composition d’audiences fédérées {#using}
 
 + [Documentation sur la composition d’audiences fédérées](home.md)
-+ [Commencer](chapter1/newfile.md)
++ [Commencer](start/get-started.md)
 + Etapes de configuration {#config}
    + [Connexion d’AEP à la composition d’audiences fédérées](connections/destinations.md)
    + [Configuration de vos bases de données fédérées](connections/federated-db.md)
@@ -23,9 +23,9 @@ ht-degree: 36%
       + [Création et configuration des schémas](customer/schemas.md)
    + [Utiliser les audiences](customer/audiences.md)
 + Compositions {#compositions}
-   + [Prise en main des compositions](compositions/gs-compositions.md)
-   + Création et exécution de votre première composition {#create-composition}
-      + [Principes clés de la création de composition](compositions/gs-composition-creation.md)
+   + [Commencer avec les compositions](compositions/gs-compositions.md)
+   + Créez et exécutez votre première composition {#create-composition}
+      + [Principes fondamentaux de la création de composition](compositions/gs-composition-creation.md)
       + [Création et configuration de la composition](compositions/create-composition.md)
       + [Orchestrer les activités](compositions/orchestrate-activities.md)
       + [Démarrage et suivi de votre composition](compositions/start-monitor-composition.md)
@@ -47,5 +47,5 @@ ht-degree: 36%
    + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
    + [Éditer les expressions](query/expression-editor.md)
-+ Suivi {#audit-trail}
++ Journal d’audit {#audit-trail}
    + [Surveiller vos bases de données](admin/audit-trail.md)
