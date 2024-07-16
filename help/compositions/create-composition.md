@@ -16,20 +16,20 @@ La première étape pour créer une composition consiste à définir son libell�
 
 ## Création de la composition {#create-the-composition}
 
-1. Accédez au **[!UICONTROL Audiences]** et sélectionnez **[!UICONTROL Compositions fédérées]** .
+1. Accédez au menu **[!UICONTROL Audiences]** et sélectionnez l’onglet **[!UICONTROL Compositions fédérées]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Création d’une composition]** bouton .
+1. Cliquez sur le bouton **[!UICONTROL Créer une composition]** .
 
    ![](assets/composition-create.png)
 
-1. Dans le **[!UICONTROL Propriétés]** , spécifiez un libellé pour votre composition, puis cliquez sur **[!UICONTROL Créer]**.
+1. Dans la section **[!UICONTROL Properties]** , spécifiez un libellé pour votre composition, puis cliquez sur **[!UICONTROL Create]**.
 
 1. Le canevas de composition s’affiche. Vous pouvez maintenant configurer votre composition en ajoutant autant d’activités que nécessaire pour répondre à vos besoins avant de l’exécuter :
 
    * [Découvrez comment orchestrer des activités](#action-activities)
    * [Découvrez comment démarrer et surveiller une composition](#save)
 
-## Configuration des paramètres de la composition {#settings}
+## Configurer les paramètres de la composition {#settings}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
@@ -48,22 +48,22 @@ La première étape pour créer une composition consiste à définir son libell�
 
 Lors de l’accès à une composition, vous pouvez accéder à des paramètres avancés qui vous permettent, par exemple, de définir le comportement de la composition en cas d’erreur.
 
-Pour accéder à d’autres options de votre composition, cliquez sur le **Paramètres** situé dans la section supérieure de l’écran de création de la composition.
+Pour accéder à d’autres options pour votre composition, cliquez sur le bouton **Paramètres** situé dans la section supérieure de l’écran de création de la composition.
 
 ![](assets/composition-create-settings.png)
 
 Les paramètres disponibles sont les suivants :
 
-* **[!UICONTROL Libellé]**: modifiez le libellé de la composition.
+* **[!UICONTROL Libellé]** : modifiez l’étiquette de la composition.
 
-* **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**: par défaut, seules les tables de travail de la dernière exécution de la composition sont conservées. Les tables de travail des exécutions précédentes sont purgées par une composition technique qui s’exécute quotidiennement.
+* **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** : par défaut, seules les tables de travail de la dernière exécution de la composition sont conservées. Les tables de travail des exécutions précédentes sont purgées par une composition technique qui s’exécute quotidiennement.
 
   Si cette option est activée, les tables de travail seront conservées même après l&#39;exécution de la composition. Vous pouvez l’utiliser à des fins de test. N’utilisez donc cette option **que** dans les environnements de développement ou d’évaluation. Elle ne doit jamais être vérifiée dans une composition de production.
 
-* **[!UICONTROL Gestion des erreurs]**: cette option permet de définir les actions à effectuer en cas d&#39;erreur dans une activité de composition. Trois choix s’offrent à vous :
+* **[!UICONTROL Gestion des erreurs]** : cette option permet de définir les actions à entreprendre en cas d&#39;erreur dans une activité de composition. Trois choix s’offrent à vous :
 
-   * **[!UICONTROL Suspendre le processus]**: la composition est automatiquement suspendue et son état passe à **[!UICONTROL En échec]**. Une fois le problème résolu, reprenez la composition à l’aide de la fonction **[!UICONTROL Reprendre]** des boutons.
-   * **[!UICONTROL Ignorer]**: l’état de la tâche qui a déclenché l’erreur passe à **[!UICONTROL En échec]**, mais la composition conserve la propriété **[!UICONTROL Démarré]** statut.
-   * **[!UICONTROL Abandonner le processus]**: la composition est automatiquement arrêtée et son état passe à **[!UICONTROL En échec]**. Une fois le problème résolu, redémarrez la composition à l’aide de la fonction **[!UICONTROL Début]** bouton .
+   * **[!UICONTROL Suspendre le processus]** : la composition est automatiquement suspendue et son état passe à **[!UICONTROL Failed]**. Une fois le problème résolu, reprenez la composition à l’aide des boutons **[!UICONTROL Reprendre]** .
+   * **[!UICONTROL Ignorer]** : l’état de la tâche qui a déclenché l’erreur passe à **[!UICONTROL Échec]**, mais la composition conserve l’état **[!UICONTROL Démarré]**.
+   * **[!UICONTROL Abandonner le processus]** : la composition est automatiquement arrêtée et son état passe à **[!UICONTROL Failed]**. Une fois le problème résolu, redémarrez la composition à l’aide du bouton **[!UICONTROL Démarrer]** .
 
-* **[!UICONTROL Erreurs consécutives]**: indiquez le nombre d’erreurs qui peuvent être ignorées avant l’arrêt du processus. Une fois ce nombre atteint, l’état de la composition passe à **[!UICONTROL En échec]**. Si la valeur de ce champ est 0, la composition ne sera jamais arrêtée, quel que soit le nombre d&#39;erreurs.
+* **[!UICONTROL Erreurs consécutives]** : indiquez le nombre d’erreurs qui peuvent être ignorées avant l’arrêt du processus. Une fois ce nombre atteint, l’état de la composition passe à **[!UICONTROL Failed]**. Si la valeur de ce champ est 0, la composition ne sera jamais arrêtée, quel que soit le nombre d&#39;erreurs.

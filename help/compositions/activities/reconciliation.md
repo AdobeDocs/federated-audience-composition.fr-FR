@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l'activité Réconciliation
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 52%
+ht-degree: 61%
 
 ---
 
@@ -32,18 +32,18 @@ ht-degree: 52%
 >title="Complément de génération de réconciliation"
 >abstract="Complément de génération de réconciliation"
 
-La variable **Réconciliation** activité permet de définir le lien entre les données de la base et celles d&#39;une table de travail, par exemple les données chargées depuis un système externe.
+L&#39;activité **Réconciliation** permet de définir le lien entre les données de la base et les données d&#39;une table de travail, par exemple les données chargées à partir d&#39;un système externe.
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-La variable **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes. L&#39;opération de réconciliation implique que les données que vous joignez se trouvent déjà dans la base de données. Par exemple, si vous souhaitez réconcilier des informations d’achat indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister dans la base de données.
+L&#39;activité **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes. L&#39;opération de réconciliation implique que les données que vous joignez se trouvent déjà dans la base de données. Par exemple, si vous souhaitez réconcilier des informations d’achat indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister dans la base de données.
 
 ## Configurer l’activité Réconciliation {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schéma"
->abstract="Sélectionnez le nouveau schéma à appliquer aux données. Un schéma, également appelé dimension de ciblage, permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc. Par défaut, le schéma actuel de la composition est sélectionné."
+>abstract="Sélectionnez le nouveau schéma à appliquer aux données. Un schéma, ou dimension de ciblage, vous permet de définir la population ciblée : personnes destinataires, personnes abonnées à l’application, opérateurs et opératrices, personnes abonnées, etc. Par défaut, le schéma actuel de la composition est sélectionné."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ La variable **Réconciliation** vous permet de lier des données non identifiée
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Sélectionner la dimension de ciblage"
->abstract="Sélectionnez le schéma, également appelé dimension de ciblage, auquel vos données entrantes doivent être réconciliées."
+>abstract="Sélectionnez le schéma, ou dimension de ciblage, de vos données entrantes avec lesquelles effectuer la réconciliation."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -67,14 +67,14 @@ La variable **Réconciliation** vous permet de lier des données non identifiée
 
 Pour configurer l’activité **Réconciliation**, procédez comme suit :
 
-1. Ajouter un **Réconciliation** dans votre composition.
+1. Ajoutez une activité **Réconciliation** dans votre composition.
 
-1. Sélectionnez la variable **Nouveau schéma**. Un schéma, également appelé dimension de ciblage, permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc.
+1. Sélectionnez le **Nouveau schéma**. Un schéma, également appelé dimension de ciblage, permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc.
 
 1. Sélectionnez le ou les champs à utiliser pour la réconciliation. Vous pouvez utiliser un ou plusieurs critères de réconciliation.
 
-   1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez la variable **Attributs simples** puis cliquez sur l’option **Ajouter une règle** bouton .
-   1. Sélectionnez la variable **Source** et **Destination** pour la réconciliation. La variable **Source** champ . La variable **Destination** correspond aux champs du schéma sélectionné.
+   1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez l’option **Attributs simples** , puis cliquez sur le bouton **Ajouter une règle** .
+   1. Sélectionnez les champs **Source** et **Destination** pour la réconciliation. Le champ **Source**. Le champ **Destination** correspond aux champs du schéma sélectionné.
 
       Les données sont réconciliées lorsque la source et la destination sont égales. Par exemple, sélectionnez les champs **E-mail** pour dédupliquer des profils en fonction de leur adresse e-mail.
 
@@ -82,7 +82,7 @@ Pour configurer l’activité **Réconciliation**, procédez comme suit :
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Pour utiliser d’autres attributs afin de réconcilier des données, sélectionnez la variable **Conditions de réconciliation avancées** puis cliquez sur l’option **Création de conditions** bouton . Vous pouvez ensuite créer votre propre condition de réconciliation à l’aide du concepteur de requête. [Découvrir comment utiliser le concepteur de requête](../../query/query-modeler-overview.md)
+   1. Pour utiliser d&#39;autres attributs pour réconcilier des données, sélectionnez l&#39;option **Conditions de réconciliation avancées** , puis cliquez sur le bouton **Créer des conditions** . Vous pouvez ensuite créer votre propre condition de réconciliation à l’aide du concepteur de requête. [Découvrir comment utiliser le concepteur de requête](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

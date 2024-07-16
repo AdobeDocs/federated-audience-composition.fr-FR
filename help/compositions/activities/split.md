@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Partage
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -59,11 +59,11 @@ L’activité **Partage** permet de segmenter les populations entrantes en plusi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Permettre le chevauchement des populations de sortie"
->abstract="La variable **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations appartenant à plusieurs sous-ensembles. Lorsque la case n&#39;est pas cochée, l&#39;activité de partage assure qu&#39;un destinataire ne peut pas être présent dans plusieurs transitions en sortie, même s&#39;il répond aux critères de plusieurs sous-ensembles. Ils seront dans la cible du premier onglet avec les critères correspondants. Lorsque la case est cochée, les destinataires peuvent être présents dans plusieurs sous-ensembles s&#39;ils vérifient leurs critères de filtrage. Adobe Campaign vous recommande d&#39;utiliser des critères exclusifs."
+>abstract="L’option **[!UICONTROL Permettre le chevauchement des populations de sortie]** permet de gérer les populations appartenant à plusieurs sous-ensembles. Lorsque la case n’est pas cochée, l’activité de partage fait en sorte qu’une personne destinataire ne puisse pas apparaître dans plusieurs transitions de sortie, même si elle répond aux critères de plusieurs sous-ensembles. Elles apparaissent ainsi dans la cible du premier onglet avec les critères correspondants. Lorsque la case est cochée, les personnes destinataires peuvent apparaître dans plusieurs sous-ensembles si leurs critères de filtrage correspond. Adobe Campaign vous recommande d’utiliser des critères exclusifs."
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 
-1. Ajouter un **Partage** à votre composition.
+1. Ajoutez une activité **Partage** à votre composition.
 
 1. Le volet de configuration des activités s’ouvre avec un sous-ensemble par défaut. Cliquez sur le bouton **Ajouter un segment** pour ajouter autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.
 
@@ -102,7 +102,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 1. L&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations appartenant à plusieurs sous-ensembles :
 
    * Lorsque la case est décochée, l&#39;activité de partage assure qu&#39;un destinataire ne sera pas présent dans plusieurs transitions en sortie, même s&#39;il vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
-   * Lorsque la case est cochée, les destinataires peuvent être présents dans plusieurs sous-ensembles s&#39;ils vérifient leurs critères de filtrage. Adobe Campaign vous recommande d&#39;utiliser des critères exclusifs.
+   * Lorsque la case est cochée, les personnes destinataires peuvent apparaître dans plusieurs sous-ensembles si leurs critères de filtrage correspond. Adobe Campaign vous recommande d’utiliser des critères exclusifs.
 
 L’activité est désormais configurée. Lors de l&#39;exécution, la population sera segmentée dans les différents sous-ensembles, dans l&#39;ordre dans lequel elle a été ajoutée à l&#39;activité.
 

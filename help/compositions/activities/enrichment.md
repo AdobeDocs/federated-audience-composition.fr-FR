@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Enrichissement
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 52%
+ht-degree: 61%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Données d’enrichissement"
->abstract="Sélectionnez les données à utiliser pour enrichir votre composition. Vous pouvez sélectionner deux types de données d&#39;enrichissement : un seul attribut d&#39;enrichissement du schéma, également appelé dimension de ciblage, ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tables."
+>abstract="Sélectionnez les données à utiliser pour enrichir votre composition. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement du schéma, ou dimension de ciblage, ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tableaux."
 
-La variable **Enrichissement** activité vous permet d’améliorer les données ciblées avec des informations supplémentaires de la base de données fédérée. Il est généralement utilisé dans des compositions après des activités de segmentation.
+L&#39;activité **Enrichissement** permet d&#39;améliorer les données ciblées avec des informations supplémentaires de la base de données fédérée. Il est généralement utilisé dans des compositions après des activités de segmentation.
 
 Les données d’enrichissement tirent leur origine des sources suivantes :
 
-* **A partir de la même table de travail** comme celui ciblé dans votre composition :
+* **À partir de la même table de travail** que celle ciblée dans votre composition :
 
   *Ciblez un groupe de clientes et de clients et ajoutez le champ « Date de naissance » au tableau de travail actuel.*
 
@@ -49,7 +49,7 @@ Les données d’enrichissement tirent leur origine des sources suivantes :
 
   *Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat »*.
 
-Une fois que les données d&#39;enrichissement ont été ajoutées à la composition, elles peuvent être utilisées dans les activités ajoutées après la **Enrichissement** pour segmenter les clients en groupes distincts en fonction de leur comportement, de leurs préférences et de leurs choix.
+Une fois que les données d’enrichissement ont été ajoutées à la composition, elles peuvent être utilisées dans les activités ajoutées après l’activité **Enrichissement** pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et choix.
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -62,7 +62,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
    ![](../assets/enrichment.png)
 
-1. Si plusieurs transitions ont été configurées dans votre composition, vous pouvez utiliser la variable **[!UICONTROL Principal]** champ pour définir la transition à utiliser comme ensemble principal pour enrichir les données.
+1. Si plusieurs transitions ont été configurées dans votre composition, vous pouvez utiliser le champ **[!UICONTROL jeu de Principal]** pour définir la transition qui doit être utilisée comme jeu principal pour enrichir les données.
 
 1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données.
 
@@ -70,7 +70,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
    >[!NOTE]
    >
-   >La variable **Bouton Modifier l’expression** dans l’écran de sélection d’attributs, vous pouvez créer des expressions avancées pour sélectionner l’attribut.
+   >Le **bouton Editer l&#39;expression** de l&#39;écran de sélection des attributs permet de créer des expressions avancées pour sélectionner l&#39;attribut.
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 

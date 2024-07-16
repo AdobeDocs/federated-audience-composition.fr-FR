@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Combiner
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 62%
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 62%
 
 L’activité **Combiner** permet d’effectuer une segmentation sur votre population entrante. Vous pouvez ainsi combiner plusieurs populations, en exclure une partie ou ne conserver que les données communes à plusieurs cibles.
 
-La variable **Combiner** peut être placée après toute autre activité, mais pas au début de la composition. N’importe quelle activité peut être placée après le **Combiner**.
+L’activité **Combinaison** peut être placée après toute autre activité, mais pas au début de la composition. Toute activité peut être placée après la **combinaison**.
 
 ## Configurer l’activité Combiner {#combine-configuration}
 
@@ -48,7 +48,7 @@ Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 
    ![](../assets/combine.png)
 
-1. Dans le **Définit la jointure** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre.
+1. Dans la section **Visionneuses à rejoindre** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre.
 
 ## Union {#combine-union}
 
@@ -62,7 +62,7 @@ Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 >title="Options de réconciliation"
 >abstract="Sélectionnez le **type de réconciliation** pour définir comment gérer les doublons."
 
-Dans le **Combiner** vous pouvez configurer une activité **Union**.
+Dans l&#39;activité **Combiner**, vous pouvez configurer une **Union**.
 
 ![](../assets/combine-union.png)
 
@@ -73,21 +73,21 @@ Pour cela, vous devez sélectionner le **type de réconciliation** pour définir
 
 ## Intersection {#combine-intersection}
 
-Dans le **Combiner** vous pouvez configurer une **Intersection**.
+Dans l&#39;activité **Combiner**, vous pouvez configurer une **Intersection**.
 
 ![](../assets/combine-intersection.png)
 
 Pour cela, procédez comme suit :
 
 1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
-1. Vous pouvez vérifier les **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
+1. Vous pouvez cocher l&#39;option **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
 
 ## Exclusion {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Règles d’exclusion"
->abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d&#39;un autre schéma, également appelé dimension de ciblage, cette cible doit être retournée au même schéma que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans l’E **Règles d’exclusion** et indiquez les conditions de modification du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
+>abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,14 +97,14 @@ Pour cela, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Règles d’exclusion"
->abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d&#39;un autre schéma, également appelé dimension de ciblage, cette cible doit être retournée au même schéma que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans le **Règles d’exclusion** et indiquez les conditions de modification du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
+>abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Combiner la génération de complément"
 >abstract="Activez l’option **Générer un complément** pour traiter la population restante dans une transition supplémentaire."
 
-Dans le **Combiner** vous pouvez configurer une **Exclusion**.
+Dans l&#39;activité **Combiner**, vous pouvez configurer une **Exclusion**.
 
 ![](../assets/combine-exclusion.png)
 
@@ -112,7 +112,7 @@ Pour cela, suivez les étapes supplémentaires ci-dessous :
 
 1. Dans la section **Ensembles à joindre**, sélectionnez **Ensemble principal** parmi les transitions entrantes. C’est l’ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l’ensemble principal.
 
-1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d&#39;un autre schéma, cette cible doit être retournée au même schéma que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans le **Règles d’exclusion** et indiquez les conditions de modification du schéma. La réconciliation des données est réalisée soit par un attribut, soit par une jointure. <!-- pas compris-->
+1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d&#39;un autre schéma, cette cible doit être retournée au même schéma que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement du schéma. La réconciliation des données est réalisée soit par un attribut, soit par une jointure. <!-- pas compris-->
 1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Pour plus d’informations, consultez la section [Intersection](#intersection).
 
 <!--
