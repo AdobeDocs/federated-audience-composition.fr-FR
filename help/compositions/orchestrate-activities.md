@@ -18,7 +18,7 @@ Une fois que vous avez créé une composition, vous pouvez commencer à orchestr
 
 À ce stade de la configuration, le diagramme comporte une icône de démarrage, qui représente le début de votre workflow. Pour ajouter votre première activité, cliquez sur le bouton **+** associé à l’icône de démarrage.
 
-La liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de composition. Par exemple, lorsque vous ajoutez votre première activité, vous pouvez démarrer votre composition en ciblant une audience, en divisant le chemin du workflow, en configurant un planificateur pour retarder l’exécution du workflow ou en définissant un **Attente** pour retarder l&#39;exécution du workflow. D’un autre côté, après une **Créer une audience** , vous pouvez affiner votre cible avec des activités de ciblage ou organiser le processus de composition avec des activités de contrôle de flux.
+La liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de composition. Par exemple, lors de l’ajout de votre première activité, vous pouvez démarrer votre composition en ciblant une audience, en fractionnant le chemin du workflow, en configurant un planificateur pour retarder l’exécution du workflow ou en définissant une activité **Attente** pour retarder l’exécution du workflow. D’un autre côté, après une activité **Créer une audience** , vous pouvez affiner votre cible avec des activités de ciblage ou organiser le processus de composition avec des activités de contrôle de flux.
 
 Une fois qu’une activité a été ajoutée au diagramme, un volet s’affiche à droite. Il vous permet de définir des paramètres spécifiques pour l’activité. Des informations détaillées sur la configuration de chacune des activités sont disponibles dans [cette section](activities/about-activities.md).
 
@@ -38,7 +38,7 @@ La barre d’outils située dans le coin supérieur droit de la zone de travail 
 
 Les actions disponibles sont les suivantes :
 
-* **Sélection multiple**: sélectionnez plusieurs activités pour les supprimer toutes en même temps ou copiez-les et collez-les. Consultez [cette section](#copy).
+* **Multi selection** : sélectionnez plusieurs activités pour les supprimer toutes en même temps ou copiez-les et collez-les. Consultez [cette section](#copy).
 * **Faire pivoter** : retournez la zone de travail verticalement.
 * **Ajuster à l’écran** : adaptez le niveau de zoom de la zone de travail à votre écran.
 * **Zoom arrière**/**Zoom avant** : effectuez un zoom arrière ou avant dans la zone de travail.
@@ -55,22 +55,22 @@ Vous pouvez :
 * **Supprimer** l’activité à partir de la zone de travail.
 * **Désactivez/activez** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités qui suivent sur le même chemin ne sont pas exécutées et le workflow est arrêté.
 * **Mettez en pause/Reprenez** l’activité. Lorsque le workflow est exécuté, il s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
-* **Copier** l’activité pour la coller à un autre emplacement de la composition. Pour ce faire, cliquez sur le bouton **+** sur une transition et sélectionnez &quot;Coller X activité&quot;. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
-* Configurer **Options d&#39;exécution** pour l’activité sélectionnée. Développez la section ci-dessous pour en savoir plus sur les options disponibles.
+* **Copiez** l’activité pour la coller à un autre emplacement de la composition. Pour ce faire, cliquez sur le bouton **+** d&#39;une transition et sélectionnez &quot;Coller l&#39;activité X&quot;. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
+* Configurez les **options d&#39;exécution** pour l&#39;activité sélectionnée. Développez la section ci-dessous pour en savoir plus sur les options disponibles.
 
   +++ Options d’exécution disponibles
 
-  La variable **Propriétés** permet de paramétrer des paramètres génériques relatifs à l&#39;exécution de l&#39;activité :
+  La section **Propriétés** vous permet de configurer des paramètres génériques concernant l’exécution de l’activité :
 
-   * **Exécution**: définissez l’action à effectuer au démarrage de .
-   * **Durée maximale d’exécution**: spécifiez une durée de type &quot;30s&quot; ou &quot;1h&quot;. Si l’activité n’est pas terminée une fois cette durée écoulée, une alerte est déclenchée, ce qui n’a par ailleurs aucun impact sur le fonctionnement du workflow.
-   * **Fuseau horaire**: sélectionnez le fuseau horaire de l’activité. La composition d’audiences fédérées vous permet de gérer les différences de temps entre plusieurs pays sur la même instance. La configuration appliquée est paramétrée lors de la création de l’instance.
-   * **Affinité**: force l’exécution de l’activité de composition sur une machine particulière. Pour cela, vous devez définir une ou plusieurs affinités pour l&#39;activité en question.
-   * **Comportement**: définissez la procédure à suivre en cas d’utilisation de tâches asynchrones.
+   * **Exécution** : définissez l’action à effectuer au démarrage de la fonction.
+   * **Durée d’exécution maximale** : spécifiez une durée de type &quot;30s&quot; ou &quot;1h&quot;. Si l’activité n’est pas terminée une fois cette durée écoulée, une alerte est déclenchée, ce qui n’a par ailleurs aucun impact sur le fonctionnement du workflow.
+   * **Fuseau horaire** : sélectionnez le fuseau horaire de l’activité. La composition d’audiences fédérées vous permet de gérer les différences de temps entre plusieurs pays sur la même instance. La configuration appliquée est paramétrée lors de la création de l’instance.
+   * **Affinité** : force l’exécution de l’activité de composition sur une machine particulière. Pour cela, vous devez définir une ou plusieurs affinités pour l&#39;activité en question.
+   * **Comportement** : définissez la procédure à suivre en cas de tâches asynchrones.
 
-  La variable **Gestion des erreurs** permet de spécifier l&#39;action à effectuer en cas d&#39;erreur de l&#39;activité.
+  La section **Gestion des erreurs** vous permet de spécifier l’action à effectuer si l’activité rencontre une erreur.
 
-  La variable **Script d&#39;initialisation** vous permet d’initialiser des variables ou de modifier les propriétés de l’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de l’activité.
+  La section **Script d&#39;initialisation** vous permet d&#39;initialiser des variables ou de modifier des propriétés d&#39;activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de l’activité.
 
 +++
 

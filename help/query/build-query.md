@@ -5,7 +5,7 @@ description: Découvrez comment créer votre première requête dans le créateu
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ Pour commencer à créer une requête, accédez au concepteur de requête à par
 
 Vous pouvez ajouter deux types d’éléments :
 
-* **Filtrage des composants** (Condition personnalisée, Sélectionner une audience) vous permettent de créer vos propres règles ou de sélectionner une audience pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
+* **Composants de filtrage** (Condition personnalisée, Sélection de l’audience) vous permettent de créer vos propres règles ou de sélectionner une audience pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
 
   Exemple : *personnes destinataires qui se sont abonnées à la newsletter « Sports »*. *Personnes destinataires résidant à New York*, *Personnes destinataires résidant à San Francisco*.
 
@@ -51,7 +51,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    >[!NOTE]
    >
-   >La variable **Expression d’édition** vous permet d’utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
+   >Le bouton **Editer l&#39;expression** permet d&#39;utiliser l&#39;éditeur d&#39;expression pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance. [Découvrez comment modifier des expressions](expression-editor.md)
 
 1. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
@@ -243,7 +243,7 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
 * **Afficher les résultats** : affiche les données issues de votre requête.
 * **Affichage du code** : affiche une version basée sur le code de la requête en SQL.
 * **Calculer** : met à jour et affiche le nombre d’enregistrements ciblés par votre requête.
-* **Sélectionner ou enregistrer un filtre**: sélectionnez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure.
+* **Sélectionner ou enregistrer le filtre** : sélectionnez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure.
 
   >[!IMPORTANT]
   >

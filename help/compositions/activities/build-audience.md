@@ -25,7 +25,7 @@ Pour définir la population de l’audience, vous pouvez :
 * sélectionner une audience Adobe Experience Platform ;
 * Créez une audience à l’aide du concepteur de requêtes en définissant et combinant des critères de filtrage.
 
-La variable **Créer une audience** peut être placée au début de la composition ou après toute autre activité. N’importe quelle activité peut être placée après le **Créer une audience**.
+L&#39;activité **Créer l&#39;audience** peut être placée au début de la composition ou après toute autre activité. Toute activité peut être placée après la **création d’audience**.
 
 ## Configurer l’activité Créer une audience {#build-audience-configuration}
 
@@ -47,8 +47,8 @@ Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
 Pour créer votre propre audience, procédez comme suit :
 
-1. Sélectionner **Créer une audience**.
-1. Choisissez la **Schéma**, également appelée dimension de ciblage. Le schéma permet de définir la population ciblée par l&#39;opération : destinataires, bénéficiaires de contrats, opérateur, abonnés, etc. Par défaut, le schéma est sélectionné parmi les destinataires.
+1. Sélectionnez **Créer une audience**.
+1. Sélectionnez le **Schéma**, également appelé dimension de ciblage. Le schéma permet de définir la population ciblée par l&#39;opération : destinataires, bénéficiaires de contrats, opérateur, abonnés, etc. Par défaut, le schéma est sélectionné parmi les destinataires.
 1. Cliquez sur **Continuer**.
 1. Utilisez le modèle de requête pour définir votre requête. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
 

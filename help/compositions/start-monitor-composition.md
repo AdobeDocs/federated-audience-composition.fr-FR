@@ -16,7 +16,7 @@ Une fois que vous avez créé votre composition et conçu les tâches à effectu
 
 ## Démarrer la composition {#start}
 
-Pour commencer une composition, cliquez sur le bouton **[!UICONTROL Début]** dans le coin supérieur droit de l’écran. Lorsque la composition est en cours d’exécution, chaque activité de la zone de travail est exécutée dans un ordre séquentiel, jusqu’à ce que la fin de la composition soit atteinte.
+Pour commencer une composition, cliquez sur le bouton **[!UICONTROL Démarrer]** dans le coin supérieur droit de l’écran. Lorsque la composition est en cours d’exécution, chaque activité de la zone de travail est exécutée dans un ordre séquentiel, jusqu’à ce que la fin de la composition soit atteinte.
 
 Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide du flux visuel. Vous pouvez ainsi identifier rapidement le statut de chaque activité et le nombre de profils qu’elle contient.
 
@@ -44,19 +44,19 @@ Les indicateurs visuels situés dans le coin supérieur droit de chaque activit�
 
 ## Surveiller les logs et les tâches {#logs-tasks}
 
-La surveillance des logs et des tâches de composition est une étape clé pour analyser vos compositions et s’assurer qu’elles s’exécutent correctement. Elles sont accessibles à partir du **[!UICONTROL Journaux]** qui est disponible dans la barre d’outils d’action et dans le volet des propriétés de chaque activité.
+La surveillance des logs et des tâches de composition est une étape clé pour analyser vos compositions et s’assurer qu’elles s’exécutent correctement. Elles sont accessibles à partir du bouton **[!UICONTROL Journaux]** disponible dans la barre d’outils d’actions et dans le volet des propriétés de chaque activité.
 
 ![](assets/logs-button.png)
 
-La variable **[!UICONTROL Logs et tâches de composition]** fournit un historique de l’exécution de la composition, en enregistrant toutes les actions de l’utilisateur et les erreurs rencontrées.
+L’écran **[!UICONTROL Logs et tâches de composition]** fournit un historique de l’exécution de la composition, enregistrant toutes les actions de l’utilisateur et les erreurs rencontrées.
 
 <!-- à confirmer, pas trouvé dans les options = The workflow history is saved for the duration specified in the workflow execution options. During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.-->
 
 L&#39;historique est organisé en plusieurs onglets, présentés ci-dessous :
 
-* La variable **[!UICONTROL Journal]** contient l&#39;historique d&#39;exécution de toutes les activités de composition. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d’exécution.
+* L&#39;onglet **[!UICONTROL Journal]** contient l&#39;historique d&#39;exécution de toutes les activités de composition. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d’exécution.
 * L’onglet **[!UICONTROL Tâches]** permet de voir le séquencement de l’exécution des activités. Le bouton situé à la fin de chaque tâche vous permet de répertorier les variables d’événements transmises par l’activité.
-* La variable **[!UICONTROL Variables]** répertorie toutes les variables transmises dans la composition. Elle est disponible uniquement lors de l’accès aux journaux et aux tâches à partir du canevas de composition. Elle est désormais disponible lors de l’accès aux journaux à partir du volet des propriétés d’une activité.  <!-- à confirmer-->
+* L’onglet **[!UICONTROL Variables]** répertorie toutes les variables transmises dans la composition. Elle est disponible uniquement lors de l’accès aux journaux et aux tâches à partir du canevas de composition. Elle est désormais disponible lors de l’accès aux journaux à partir du volet des propriétés d’une activité.  <!-- à confirmer-->
 
 ![](assets/logs-tasks.png)
 
@@ -70,12 +70,12 @@ La barre d’actions située dans le coin supérieur droit fournit des commandes
 
 Les actions disponibles sont les suivantes :
 
-* **Début**: démarre l’exécution de la composition, qui prend ensuite en charge la fonction **En cours** statut. La composition est lancée et les activités initiales sont activées.
+* **Démarrer** : lance l&#39;exécution de la composition, qui prend ensuite le statut **En cours**. La composition est lancée et les activités initiales sont activées.
 
-* **[!UICONTROL Reprendre]**: relance l’exécution de la composition qui avait été suspendue. La composition prend en charge la fonction **En cours** statut.
+* **[!UICONTROL Reprendre]** : relance l’exécution de la composition qui a été suspendue. La composition prend le statut **En cours**.
 
-* **[!UICONTROL Pause]** l&#39;exécution de la composition, qui prend ensuite en charge **En pause** statut. Aucune nouvelle activité ne sera activée jusqu’à la prochaine reprise, mais les opérations en cours ne sont pas suspendues.
+* **[!UICONTROL Pause]** : exécution de la composition, qui prend ensuite le statut **En pause**. Aucune nouvelle activité ne sera activée jusqu’à la prochaine reprise, mais les opérations en cours ne sont pas suspendues.
 
-* **[!UICONTROL Arrêter]** une composition en cours d’exécution, qui prend alors en charge la fonction **Terminé** statut. Les opérations en cours sont interrompues si possible. Vous ne pouvez pas reprendre à partir de la composition à l’endroit où elle a été arrêtée.
+* **[!UICONTROL Arrêter]** une composition en cours d’exécution, qui prend alors le statut **Terminé**. Les opérations en cours sont interrompues si possible. Vous ne pouvez pas reprendre à partir de la composition à l’endroit où elle a été arrêtée.
 
-* **Redémarrer**: arrête puis redémarre une composition. Dans la plupart des cas, cela vous permet de redémarrer plus rapidement, car l’arrêt prend un certain temps et l’événement **Début** n’est disponible que lorsque l’arrêt est effectif.
+* **Redémarrer** : arrête puis redémarre une composition. Dans la plupart des cas, cela permet de redémarrer plus rapidement, car l’arrêt prend un certain temps et le bouton **Démarrer** n’est disponible que lorsque l’arrêt est effectif.

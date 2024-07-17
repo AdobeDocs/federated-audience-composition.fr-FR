@@ -16,7 +16,7 @@ ht-degree: 70%
 >title="Activité Rendez-vous"
 >abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une composition. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la composition."
 
-La variable **AND-join** vous permet de synchroniser plusieurs branches d’exécution d’une composition.
+L&#39;activité **AND-join** permet de synchroniser plusieurs branches d&#39;exécution d&#39;une composition.
 
 L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées, c’est-à-dire quand toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la composition.
 
@@ -34,5 +34,5 @@ Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 
    ![](../assets/and-join.png)
 
-1. Dans le **Options de fusion** , vérifiez toutes les activités précédentes que vous souhaitez synchroniser.
+1. Dans la section **Options de fusion** , vérifiez toutes les activités précédentes que vous souhaitez synchroniser.
 1. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l&#39;une des populations des transitions entrantes. Si l&#39;activité n&#39;est pas paramétrée, la transition sortante contiendra aléatoirement l&#39;une des populations entrantes.

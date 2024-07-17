@@ -16,13 +16,13 @@ ht-degree: 70%
 >title="Activité Attente"
 >abstract="L’activité **Attente** est utilisée pour retarder la transition d’une activité à une autre."
 
-La variable **Attente** l’activité permet de passer un certain temps entre l’exécution de deux activités. Par exemple, elle permet d’attendre plusieurs jours après une activité de diffusion e-mail puis d’analyser les ouvertures et les clics générés pendant ce laps de temps avant d’appliquer d’autres traitements (e-mail de rappel, création d’audience, etc.).
+L&#39;activité **Attente** laisse un certain temps s&#39;écouler entre l&#39;exécution de deux activités. Par exemple, elle permet d’attendre plusieurs jours après une activité de diffusion e-mail puis d’analyser les ouvertures et les clics générés pendant ce laps de temps avant d’appliquer d’autres traitements (e-mail de rappel, création d’audience, etc.).
 
 ## Configuration{#wait-configuration}
 
 Pour configurer l’activité d’**attente**, procédez comme suit :
 
-1. Ajouter un **Attente** dans votre composition.
+1. Ajoutez une activité **Attente** à votre composition.
 
 1. Spécifiez la **durée** de l’attente entre les transitions entrante et sortante.
 

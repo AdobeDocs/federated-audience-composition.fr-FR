@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Déduplication
 source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 56%
+ht-degree: 69%
 
 ---
 
@@ -32,15 +32,15 @@ ht-degree: 56%
 >title="Paramètres de déduplication"
 >abstract="Pour supprimer des doublons dans les données entrantes, définissez la méthode de déduplication dans les champs ci-dessous. Par défaut, un seul enregistrement est conservé. Vous devez également sélectionner le mode de déduplication en fonction d’une expression ou d’un attribut. Par défaut, l’enregistrement à conserver en dehors des doublons est sélectionné de manière aléatoire."
 
-La variable **Déduplication** activité permet de supprimer les doublons dans le ou les résultats des activités entrantes, par exemple les profils dupliqués dans la liste des destinataires. L’activité **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant d’utiliser les données ciblées.
+L&#39;activité **Déduplication** permet de supprimer les doublons dans le ou les résultats des activités entrantes, par exemple les profils dupliqués dans la liste de destinataires. L’activité **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant d’utiliser les données ciblées.
 
 ## Configurer l’activité Déduplication{#deduplication-configuration}
 
 Pour configurer l’activité **Déduplication**, procédez comme suit :
 
-1. Ajouter un **Déduplication** à votre composition.
+1. Ajoutez une activité **Déduplication** à votre composition.
 
-1. Si l&#39;activité possède plusieurs transitions entrantes, sélectionnez la transition à utiliser pour effectuer le dédoublonnage depuis l&#39;activité **[!UICONTROL Principal]** liste déroulante
+1. Si l&#39;activité possède plusieurs transitions entrantes, sélectionnez la transition à utiliser pour effectuer le dédoublonnage dans la liste déroulante **[!UICONTROL Principal set]**
 
 1. Dans la section **Champs pour identifier des doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
 
@@ -56,10 +56,10 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Sélectionnez la **méthode de déduplication** à utiliser :
 
-   * **Sélection aléatoire**: sélectionne de manière aléatoire l’enregistrement à conserver en dehors des doublons.
-   * **Utiliser une expression**: conserver les enregistrements dans lesquels la valeur de l&#39;expression renseignée est la plus petite ou la plus grande.
-   * **Valeurs non vides**: conservez les enregistrements pour lesquels l’expression n’est pas vide.
-   * **Après une liste de valeurs**: définissez un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attributs** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Pour définir un nouveau champ, cliquez sur le bouton **Bouton Ajouter** situé au-dessus de la liste des valeurs.
+   * **Sélection aléatoire** : sélectionne au hasard l’enregistrement à conserver parmi les doublons.
+   * **À partir d’une expression** : permet de conserver les enregistrements dont la valeur de l’expression renseignée est la plus petite ou la plus grande.
+   * **Valeurs non vides** : conserve les enregistrements pour lesquels l’expression n’est pas vide.
+   * **Par ordonnancement de valeurs** : définit un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attributs** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Pour définir un nouveau champ, cliquez sur le bouton **Ajouter** situé au-dessus de la liste des valeurs.
 
 1. Cochez l’option **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
 

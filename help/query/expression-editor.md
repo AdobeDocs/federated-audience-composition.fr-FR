@@ -28,7 +28,7 @@ L’éditeur d’expression est disponible à partir du bouton **[!UICONTROL Mod
 L’éditeur d’expression fournit :
 
 * un **champ de saisie (1)**, dans lequel l’expression est définie ;
-* La liste des **fields (2)** qui peut être utilisé dans l’expression et correspondant au schéma, également appelé dimension de ciblage, de la requête.
+* Liste des **champs disponibles (2)** pouvant être utilisés dans l’expression et correspondant au schéma, également appelé dimension de ciblage, de la requête.
 * des **fonctions d’assistance (3)**, triées par catégorie.
 
 Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton +.

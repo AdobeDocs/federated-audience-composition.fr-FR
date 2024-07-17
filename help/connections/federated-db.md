@@ -41,19 +41,20 @@ Bases de données externes prises en charge :
 
 ## Snowflake {#snowflake}
 
-* **[!UICONTROL Serveur]**:
+* **[!UICONTROL Serveur]** :
 
-* **[!UICONTROL Utilisateur]**: nom de l’utilisateur.
+* **[!UICONTROL User]** : nom de l’utilisateur.
 
 * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur.
 
-* **[!UICONTROL Base]**:
+* **[!UICONTROL Base de données]** :
 
-* **[!UICONTROL Schéma de travail]**:
+* **[!UICONTROL Schéma de travail]** :
 
-* **[!UICONTROL Clé privée]**: seuls les fichiers .pem sont acceptés
+* **[!UICONTROL Clé privée]** :
+Seuls les fichiers .pem sont acceptés
 
-* **[!UICONTROL Options]**: le connecteur prend en charge les options présentées dans le tableau ci-dessous.
+* **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 
 | Option | Description |
 |---|---|
@@ -74,9 +75,9 @@ Bases de données externes prises en charge :
 
 * **[!UICONTROL Jeu de données]** : nom de votre **[!UICONTROL jeu de données]**. Pour plus d&#39;informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
 
-* **[!UICONTROL Chemin du fichier clé]**: téléchargez votre fichier de clé sur le serveur. Seuls les fichiers .json sont acceptés.
+* **[!UICONTROL Chemin d’accès au fichier clé]** : téléchargez votre fichier de clé sur le serveur. Seuls les fichiers .json sont acceptés.
 
-* **[!UICONTROL Options]**: le connecteur prend en charge les options présentées dans le tableau ci-dessous.
+* **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 
 | Option | Description |
 |:-:|:-:|
@@ -112,9 +113,9 @@ Bases de données externes prises en charge :
 
 * **[!UICONTROL Base de données]** : nom de la base de données
 
-* **[!UICONTROL Schéma de travail]**: nom de votre schéma de travail.
+* **[!UICONTROL Schéma de travail]** : nom de votre schéma de travail.
 
-* **[!UICONTROL Options]**: le connecteur prend en charge les options présentées dans le tableau ci-dessous.
+* **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 
 Le connecteur prend en charge les options suivantes :
 

@@ -28,7 +28,7 @@ ht-degree: 58%
 >title="Données traitées des requêtes incrémentales"
 >abstract="Données traitées des requêtes incrémentales"
 
-La variable **Requête incrémentale** activité vous permet d’interroger la base de données selon un calendrier précis. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments.
+L&#39;activité **Requête incrémentale** vous permet d&#39;interroger la base de données selon un calendrier précis. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments.
 
 L&#39;activité **[!UICONTROL Requête incrémentale]** peut être utilisée dans plusieurs cas d&#39;utilisation type :
 
@@ -43,7 +43,7 @@ Si le résultat d&#39;une requête incrémentale est égal à 0 lors de l&#39;un
 
 Pour configurer l’activité **Requête incrémentale**, procédez comme suit :
 
-1. Ajoutez un **Requête incrémentale** dans votre composition.
+1. Ajoutez une activité **Requête incrémentale** à votre composition.
 
 1. Dans la section **[!UICONTROL Audience]**, choisissez la **Dimension de ciblage** puis cliquez sur **[!UICONTROL Continuer]**.
 
@@ -59,7 +59,7 @@ Pour configurer l’activité **Requête incrémentale**, procédez comme suit 
 
    * **[!UICONTROL Utiliser un champ de date]** : cette option permet d’exclure les résultats des exécutions précédentes en fonction d’un champ de date spécifique. Pour cela, choisissez le champ de date souhaité dans la liste des attributs disponibles pour la dimension de ciblage sélectionnée. Lors des prochaines exécutions de la composition, seules les données qui ont été modifiées ou créées après la date de la dernière exécution seront récupérées.
 
-     Après la première exécution de la composition, la variable **[!UICONTROL Date de dernière exécution]** devient disponible. Il spécifie la date qui sera utilisée pour la prochaine exécution et est automatiquement mis à jour chaque fois que la composition est exécutée. Vous avez toujours la possibilité de remplacer cette valeur en en saisissant manuellement une nouvelle valeur afin qu’elle réponde à vos besoins.
+     Après la première exécution de la composition, le champ **[!UICONTROL Date de la dernière exécution]** devient disponible. Il spécifie la date qui sera utilisée pour la prochaine exécution et est automatiquement mis à jour chaque fois que la composition est exécutée. Vous avez toujours la possibilité de remplacer cette valeur en en saisissant manuellement une nouvelle valeur afin qu’elle réponde à vos besoins.
 
    >[!NOTE]
    >

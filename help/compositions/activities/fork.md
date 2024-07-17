@@ -28,7 +28,7 @@ L’activité **Branchement** permet de créer des transitions sortantes afin de
 
 Pour configurer l’activité **Branchement**, procédez comme suit :
 
-1. Ajouter un **Branchement** à votre composition.
+1. Ajoutez une activité **Branchement** à votre composition.
 1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
 1. Ajoutez un libellé à chacune de vos transitions.
 
