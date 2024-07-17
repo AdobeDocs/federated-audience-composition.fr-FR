@@ -2,10 +2,10 @@
 title: Nouveautés de la composition d’audiences fédérées
 description: Dernières mises à jour et notes de mise à jour
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 14%
+source-wordcount: '253'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Au lieu d’ingérer des jeux de données et/ou des audiences dans Adobe Experie
 >
 >La composition d’audiences fédérées n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 >
->Pour l’instant, la fonctionnalité n’est pas disponible pour les clientes et les clients qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield**.
+>Pour l’instant, la fonctionnalité n’est pas disponible pour les clients qui ont acheté l’offre de module complémentaire Adobe **Healthcare Shield**.
 
 
 ## Conditions préalables et mécanismes de sécurisation {#rn-guardrails}
