@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audience fédérée
 title: Adobe de la documentation sur la composition d’audiences fédérées
 breadcrumb-title: Composition d’audience fédérée
-source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 43%
+source-wordcount: '134'
+ht-degree: 40%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 43%
 # Documentation sur la composition d’audiences fédérées {#using}
 
 + [Documentation sur la composition d’audiences fédérées](home.md)
-+ [Commencer](start/get-started.md)
++ Prise en main de la composition d’audiences fédérées {#start}
+   + [Commencer](start/get-started.md)
+   + [Notes de mise à jour](start/release-notes.md)
 + Etapes de configuration {#config}
    + [Connexion d’AEP à la composition d’audiences fédérées](connections/destinations.md)
    + [Configuration de vos bases de données fédérées](connections/federated-db.md)
@@ -49,3 +51,4 @@ ht-degree: 43%
    + [Éditer les expressions](query/expression-editor.md)
 + Journal d’audit {#audit-trail}
    + [Surveiller vos bases de données](admin/audit-trail.md)
++ [&lt; Retour à la documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
