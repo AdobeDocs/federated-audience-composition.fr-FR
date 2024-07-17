@@ -2,10 +2,11 @@
 audience: end-user
 title: Utilisation de l'activité Déduplication
 description: Découvrez comment utiliser l’activité Déduplication
-source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 69%
+source-wordcount: '565'
+ht-degree: 70%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Champs pour identifier les doublons"
->abstract="Dans la section **Champs pour identifier des doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier."
+>abstract="Dans la section **[!UICONTROL Champs pour identifier des doublons]**, cliquez sur le bouton **[!UICONTROL Ajouter un attribut]** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -25,7 +26,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="Générer un complémentaire"
->abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **Générer le complémentaire**."
+>abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **[!UICONTROL Générer le complémentaire]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
@@ -42,11 +43,11 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Si l&#39;activité possède plusieurs transitions entrantes, sélectionnez la transition à utiliser pour effectuer le dédoublonnage dans la liste déroulante **[!UICONTROL Principal set]**
 
-1. Dans la section **Champs pour identifier des doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
+1. Dans la section **[!UICONTROL Champs pour identifier des doublons]**, cliquez sur le bouton **[!UICONTROL Ajouter un attribut]** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
 
    ![](../assets/deduplication.png)
 
-1. Dans la section **Paramètres de déduplication**, sélectionnez le nombre de **Doublons à conserver** uniques. La valeur par défaut de ce champ est 1. La valeur 0 permet de conserver tous les doublons.
+1. Dans la section **[!UICONTROL Paramètres de déduplication]**, sélectionnez le nombre de **[!UICONTROL Doublons à conserver]** uniques. La valeur par défaut de ce champ est 1. La valeur 0 permet de conserver tous les doublons.
 
    Par exemple, si les enregistrements A et B sont considérés comme des doublons de l’enregistrement Y et qu’un enregistrement C est considéré comme un doublon de l’enregistrement Z :
 
@@ -54,14 +55,14 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
    * Si la valeur du champ est 0 : tous les enregistrements sont conservés.
    * Si la valeur du champ est 2 : les enregistrements C et Z sont conservés et deux enregistrements de A, B et Y sont conservés, par hasard ou selon la méthode de déduplication sélectionnée par la suite.
 
-1. Sélectionnez la **méthode de déduplication** à utiliser :
+1. Sélectionnez la **[!UICONTROL méthode de déduplication]** à utiliser :
 
-   * **Sélection aléatoire** : sélectionne au hasard l’enregistrement à conserver parmi les doublons.
-   * **À partir d’une expression** : permet de conserver les enregistrements dont la valeur de l’expression renseignée est la plus petite ou la plus grande.
-   * **Valeurs non vides** : conserve les enregistrements pour lesquels l’expression n’est pas vide.
-   * **Par ordonnancement de valeurs** : définit un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attributs** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Pour définir un nouveau champ, cliquez sur le bouton **Ajouter** situé au-dessus de la liste des valeurs.
+   * **[!UICONTROL Sélection aléatoire]** : sélectionne au hasard l’enregistrement à conserver parmi les doublons.
+   * **[!UICONTROL À partir d’une expression]** : permet de conserver les enregistrements dont la valeur de l’expression renseignée est la plus petite ou la plus grande.
+   * **[!UICONTROL Valeurs non vides]** : conserve les enregistrements pour lesquels l’expression n’est pas vide.
+   * **[!UICONTROL Par ordonnancement de valeurs]** : définit un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **[!UICONTROL Attributs]** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Pour définir un nouveau champ, cliquez sur le bouton **[!UICONTROL Ajouter]** situé au-dessus de la liste des valeurs.
 
-1. Cochez l’option **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
+1. Cochez l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
 
 <!--
 ## Example{#deduplication-example}

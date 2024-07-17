@@ -2,9 +2,10 @@
 audience: end-user
 title: Créer des compositions
 description: Découvrez comment créer des compositions
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 31%
 
 ---
@@ -70,12 +71,12 @@ La barre d’actions située dans le coin supérieur droit fournit des commandes
 
 Les actions disponibles sont les suivantes :
 
-* **Démarrer** : lance l&#39;exécution de la composition, qui prend ensuite le statut **En cours**. La composition est lancée et les activités initiales sont activées.
+* **[!UICONTROL Démarrer]** : lance l&#39;exécution de la composition, qui prend ensuite le statut **[!UICONTROL En cours]**. La composition est lancée et les activités initiales sont activées.
 
-* **[!UICONTROL Reprendre]** : relance l’exécution de la composition qui a été suspendue. La composition prend le statut **En cours**.
+* **[!UICONTROL Reprendre]** : relance l’exécution de la composition qui a été suspendue. La composition prend le statut **[!UICONTROL En cours]**.
 
-* **[!UICONTROL Pause]** : exécution de la composition, qui prend ensuite le statut **En pause**. Aucune nouvelle activité ne sera activée jusqu’à la prochaine reprise, mais les opérations en cours ne sont pas suspendues.
+* **[!UICONTROL Pause]** : exécution de la composition, qui prend ensuite le statut **[!UICONTROL En pause]**. Aucune nouvelle activité ne sera activée jusqu’à la prochaine reprise, mais les opérations en cours ne sont pas suspendues.
 
-* **[!UICONTROL Arrêter]** une composition en cours d’exécution, qui prend alors le statut **Terminé**. Les opérations en cours sont interrompues si possible. Vous ne pouvez pas reprendre à partir de la composition à l’endroit où elle a été arrêtée.
+* **[!UICONTROL Arrêter]** une composition en cours d’exécution, qui prend alors le statut **[!UICONTROL Terminé]**. Les opérations en cours sont interrompues si possible. Vous ne pouvez pas reprendre à partir de la composition à l’endroit où elle a été arrêtée.
 
-* **Redémarrer** : arrête puis redémarre une composition. Dans la plupart des cas, cela permet de redémarrer plus rapidement, car l’arrêt prend un certain temps et le bouton **Démarrer** n’est disponible que lorsque l’arrêt est effectif.
+* **[!UICONTROL Redémarrer]** : arrête puis redémarre une composition. Dans la plupart des cas, cela permet de redémarrer plus rapidement, car l’arrêt prend un certain temps et le bouton **[!UICONTROL Démarrer]** n’est disponible que lorsque l’arrêt est effectif.

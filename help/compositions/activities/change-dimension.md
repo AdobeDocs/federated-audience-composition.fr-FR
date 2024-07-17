@@ -2,9 +2,10 @@
 audience: end-user
 title: Utilisation de l’activité Changement de dimension
 description: Découvrez comment utiliser l’activité « Changement de dimension ».
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '189'
 ht-degree: 54%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Générer un complémentaire"
->abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **Générer le complémentaire**."
+>abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **[!UICONTROL Générer le complémentaire]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

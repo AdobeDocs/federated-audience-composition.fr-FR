@@ -2,10 +2,11 @@
 audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrez comment créer et gérer des connexions avec des bases de données fédérées
-source-git-commit: afcc9203b55eeb72a71cb8a82ea9e0dda5dfc683
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 3%
 
 ---
 

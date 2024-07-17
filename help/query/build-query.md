@@ -2,10 +2,11 @@
 audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requêtes
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 94%
+source-wordcount: '2068'
+ht-degree: 93%
 
 ---
 
@@ -45,13 +46,13 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 1. Cliquez sur le bouton **+** sur le nœud souhaité, puis sélectionnez **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’affiche sur le côté droit.
 
-1. Dans le champ **Attribut**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données, y compris les attributs des tables liées.
+1. Dans le champ **[!UICONTROL Attribut]**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données, y compris les attributs des tables liées.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Le bouton **Editer l&#39;expression** permet d&#39;utiliser l&#39;éditeur d&#39;expression pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance. [Découvrez comment modifier des expressions](expression-editor.md)
+   >Le bouton **[!UICONTROL Editer l&#39;expression]** permet d&#39;utiliser l&#39;éditeur d&#39;expression pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance. [Découvrez comment modifier des expressions](expression-editor.md)
 
 1. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
@@ -78,7 +79,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 +++
 
-1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur le bouton **Modifier une expression**. [Découvrez comment modifier des expressions](expression-editor.md)
+1. Dans le champ **[!UICONTROL Valeur]**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier une expression]**. [Découvrez comment modifier des expressions](expression-editor.md)
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
@@ -90,13 +91,13 @@ Les conditions personnalisées vous permettent d’interroger des tables liées 
 
 Pour un **lien 1-1**, accédez à la table liée, sélectionnez l’attribut souhaité et définissez la valeur attendue.
 
-Vous pouvez également sélectionner directement un lien de table dans le sélecteur de **Valeur** et confirmer. Dans ce cas, les valeurs disponibles pour la table sélectionnée doivent être sélectionnées à l’aide d’un sélecteur dédié, comme illustré dans l’exemple ci-dessous.
+Vous pouvez également sélectionner directement un lien de table dans le sélecteur de **[!UICONTROL Valeur]** et confirmer. Dans ce cas, les valeurs disponibles pour la table sélectionnée doivent être sélectionnées à l’aide d’un sélecteur dédié, comme illustré dans l’exemple ci-dessous.
 
 +++Exemple de requête
 
 Ici, la requête cible les marques dont le libellé est « running ».
 
-1. Naviguez dans la table **Marque** et sélectionnez l’attribut **Libellé**.
+1. Naviguez dans la table **[!UICONTROL Marque]** et sélectionnez l’attribut **[!UICONTROL Libellé]**.
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -116,7 +117,7 @@ Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner 
 
 Ici, la requête cible les personnes destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
 
-1. Sélectionnez le tableau **Achats** et confirmez.
+1. Sélectionnez le tableau **[!UICONTROL Achats]** et confirmez.
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -124,7 +125,7 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
    ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Sélectionnez l’attribut **Prix** et ciblez les achats de 1 000 $ ou plus.
+1. Sélectionnez l’attribut **[!UICONTROL Prix]** et ciblez les achats de 1 000 $ ou plus.
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -142,7 +143,7 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Dans le volet des propriétés, activez l’option **Données agrégées** et sélectionnez la fonction d’agrégat souhaitée.
+1. Dans le volet des propriétés, activez l’option **[!UICONTROL Données agrégées]** et sélectionnez la fonction d’agrégat souhaitée.
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -151,13 +152,13 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="Sélectionner une audience"
->abstract="En utilisant l’option **Sélectionner une audience**, vous pouvez choisir l’audience que vous souhaitez utiliser pour filtrer votre requête."
+>abstract="En utilisant l’option **[!UICONTROL Sélectionner une audience]**, vous pouvez choisir l’audience que vous souhaitez utiliser pour filtrer votre requête."
 
 Pour filtrer votre requête à l’aide d’une audience existante, procédez comme suit :
 
 1. Cliquez sur le bouton **+** sur le nœud souhaité, puis choisissez **[!UICONTROL Sélectionner une audience]**.
 
-1. Le volet de propriétés **Sélectionner une audience** s’ouvre sur le côté droit. Sélectionnez l’audience à utiliser pour filtrer votre requête.
+1. Le volet de propriétés **[!UICONTROL Sélectionner une audience]** s’ouvre sur le côté droit. Sélectionnez l’audience à utiliser pour filtrer votre requête.
 
    *Exemple de requête renvoyant tous les profils appartenant à l’audience « Festivaliers » :*
 
@@ -168,13 +169,13 @@ Pour filtrer votre requête à l’aide d’une audience existante, procédez co
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="Filtre prédéfini"
->abstract="En utilisant l’option **Filtre prédéfini**, vous pouvez sélectionner un filtre prédéfini dans la liste des filtres personnalisés ou parmi les favoris."
+>abstract="En utilisant l’option **[!UICONTROL Filtre prédéfini]**, vous pouvez sélectionner un filtre prédéfini dans la liste des filtres personnalisés ou parmi les favoris."
 
 Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez comme suit :
 
 1. Cliquez sur le bouton **+** sur le nœud souhaité, puis sélectionnez **[!UICONTROL Filtre prédéfini]**.
 
-1. Le volet Propriétés **Filtre prédéfini** s’ouvre sur le côté droit. Sélectionnez un filtre prédéfini dans la liste des filtres personnalisés ou dans les favoris.
+1. Le volet Propriétés **[!UICONTROL Filtre prédéfini]** s’ouvre sur le côté droit. Sélectionnez un filtre prédéfini dans la liste des filtres personnalisés ou dans les favoris.
 
    *Exemple de requête renvoyant tous les profils correspondant au filtre prédéfini « Clients inactifs » :*
 
@@ -198,7 +199,7 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Pour coller le ou les composants, cliquez sur le bouton + situé à la fin de la transition souhaitée et sélectionnez **Coller n éléments**.
+1. Pour coller le ou les composants, cliquez sur le bouton + situé à la fin de la transition souhaitée et sélectionnez **[!UICONTROL Coller n éléments]**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -215,7 +216,7 @@ Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type 
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Pour changer l’opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez-en un autre dans le volet **Groupe** qui s’ouvre sur la droite.
+Pour changer l’opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez-en un autre dans le volet **[!UICONTROL Groupe]** qui s’ouvre sur la droite.
 
 Les opérateurs disponibles sont les suivants :
 
@@ -236,14 +237,14 @@ Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inc
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Propriétés de la règle"
->abstract="Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit.<br/>Ce volet permet d’afficher les données obtenues, de récupérer une version de code SQL de la requête et de vérifier le nombre d’enregistrements ciblés.<br/>Utilisez le bouton **Sélectionner ou enregistrer un filtre** pour enregistrer votre requête en tant que filtre prédéfini ou remplacer le contenu de la zone de travail par un filtre existant."
+>abstract="Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **[!UICONTROL Propriétés des règles]** situé sur le côté droit.<br/>Ce volet permet d’afficher les données obtenues, de récupérer une version de code SQL de la requête et de vérifier le nombre d’enregistrements ciblés.<br/>Utilisez le bouton **[!UICONTROL Sélectionner ou enregistrer un filtre]** pour enregistrer votre requête en tant que filtre prédéfini ou remplacer le contenu de la zone de travail par un filtre existant."
 
-Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit. Ce volet s’affiche lors de la création d’une requête pour créer une audience. Les opérations disponibles sont les suivantes :
+Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **[!UICONTROL Propriétés des règles]** situé sur le côté droit. Ce volet s’affiche lors de la création d’une requête pour créer une audience. Les opérations disponibles sont les suivantes :
 
-* **Afficher les résultats** : affiche les données issues de votre requête.
-* **Affichage du code** : affiche une version basée sur le code de la requête en SQL.
-* **Calculer** : met à jour et affiche le nombre d’enregistrements ciblés par votre requête.
-* **Sélectionner ou enregistrer le filtre** : sélectionnez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure.
+* **[!UICONTROL Afficher les résultats] :** affiche les données issues de votre requête.
+* **[!UICONTROL Affichage du code]** : affiche une version basée sur le code de la requête en SQL.
+* **[!UICONTROL Calculer]** : met à jour et affiche le nombre d’enregistrements ciblés par votre requête.
+* **[!UICONTROL Sélectionner ou enregistrer le filtre]** : sélectionnez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure.
 
   >[!IMPORTANT]
   >

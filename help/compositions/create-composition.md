@@ -2,10 +2,11 @@
 audience: end-user
 title: Créer des compositions
 description: Découvrez comment créer des compositions
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 25%
+source-wordcount: '484'
+ht-degree: 26%
 
 ---
 
@@ -48,7 +49,7 @@ La première étape pour créer une composition consiste à définir son libell�
 
 Lors de l’accès à une composition, vous pouvez accéder à des paramètres avancés qui vous permettent, par exemple, de définir le comportement de la composition en cas d’erreur.
 
-Pour accéder à d’autres options pour votre composition, cliquez sur le bouton **Paramètres** situé dans la section supérieure de l’écran de création de la composition.
+Pour accéder à d’autres options pour votre composition, cliquez sur le bouton **[!UICONTROL Paramètres]** situé dans la section supérieure de l’écran de création de la composition.
 
 ![](assets/composition-create-settings.png)
 

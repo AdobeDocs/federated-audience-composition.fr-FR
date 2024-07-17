@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilisation de l’activité Planificateur
 description: Découvrez comment utiliser l’activité Planificateur
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 41%
+source-wordcount: '418'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Activité Planificateur"
->abstract="L’activité **Planificateur** vous permet de planifier le démarrage du workflow. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité du workflow."
+>abstract="L’activité **Planificateur** vous permet de planifier le démarrage de la composition de l’audience. Cette activité est à considérer comme un démarrage planifié. Il ne peut être utilisé que comme première activité d’une composition."
 
 L’activité **Planificateur** est une activité de **contrôle de flux**. Il vous permet de planifier le moment où la composition commence. Cette activité est à considérer comme un démarrage planifié. Il ne peut être utilisé que comme première activité de la composition.
 
@@ -33,7 +33,7 @@ L’activité **Planificateur** est une activité de **contrôle de flux**. Il v
 
 Pour configurer l’activité **Planificateur**, procédez comme suit :
 
-1. Ajoutez une activité **Plafinicateur** à votre workflow.
+1. Ajoutez une activité **Planificateur** à votre composition.
 
 1. Configurez la **Fréquence d’exécution** :
 

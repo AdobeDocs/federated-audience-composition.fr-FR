@@ -2,9 +2,10 @@
 audience: end-user
 title: Utilisation de l’activité Rendez-vous
 description: Découvrez comment utiliser l’activité Rendez-vous
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 70%
 
 ---
@@ -25,7 +26,7 @@ L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois tou
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
 >title="Configurer l’activité Rendez-vous"
->abstract="Sélectionnez les activités auxquelles vous souhaitez adhérer. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver."
+>abstract="Sélectionnez les activités auxquelles vous souhaitez adhérer. Dans l’**[!UICONTROL Ensemble principal]**, choisissez la population de transition entrante à conserver."
 
 Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 
@@ -34,5 +35,5 @@ Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 
    ![](../assets/and-join.png)
 
-1. Dans la section **Options de fusion** , vérifiez toutes les activités précédentes que vous souhaitez synchroniser.
-1. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l&#39;une des populations des transitions entrantes. Si l&#39;activité n&#39;est pas paramétrée, la transition sortante contiendra aléatoirement l&#39;une des populations entrantes.
+1. Dans la section **[!UICONTROL Options de fusion]** , vérifiez toutes les activités précédentes que vous souhaitez synchroniser.
+1. Dans l’**[!UICONTROL Ensemble principal]**, choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l&#39;une des populations des transitions entrantes. Si l&#39;activité n&#39;est pas paramétrée, la transition sortante contiendra aléatoirement l&#39;une des populations entrantes.

@@ -2,9 +2,10 @@
 audience: end-user
 title: Créer des compositions
 description: Découvrez comment créer des compositions
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 59%
 
 ---
@@ -27,9 +28,9 @@ Le diagramme de composition est une représentation de ce qui est censé se prod
 
 Chaque composition contient :
 
-* des **Activités** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
-* **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
-* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque composition utilise plusieurs tables de travail. Les données véhiculées dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la composition.
+* des **[!UICONTROL Activités]** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
+* **[!UICONTROL Transitions]** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
+* **[!UICONTROL Tables de travail]** : la table de travail contient toutes les informations véhiculées par la transition. Chaque composition utilise plusieurs tables de travail. Les données véhiculées dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la composition.
 
 ## Étapes clés de création d’une composition {#gs-composition-steps}
 

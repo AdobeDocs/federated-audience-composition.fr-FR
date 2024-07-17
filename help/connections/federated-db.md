@@ -2,9 +2,10 @@
 audience: end-user
 title: Commencer avec les bases de données fédérées
 description: Découvrez comment créer et gérer vos bases de données fédérées
-source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 87%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Bases de données fédérées"
->abstract="Les connexions existantes à des bases de données fédérées sont répertoriées dans cet écran. Pour créer une connexion, cliquez sur le bouton **Ajouter une base de données fédérée**."
+>abstract="Les connexions existantes à des bases de données fédérées sont répertoriées dans cet écran. Pour créer une connexion, cliquez sur le bouton **[!UICONTROL Ajouter une base de données fédérée]**."
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +28,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Détails de la base de données fédérée"
->abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **Tester la connexion** pour valider votre configuration."
+>abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration."
 
 Créer, configurer, tester et enregistrer la connexion à une base de données externe.
 

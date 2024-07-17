@@ -2,10 +2,11 @@
 audience: end-user
 title: Commencer avec les compositions
 description: Découvrez comment commencer avec des compositions
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 14%
+source-wordcount: '278'
+ht-degree: 15%
 
 ---
 
@@ -24,7 +25,7 @@ La Composition des données d’Adobe vous permet de créer des compositions, da
 >title="Compositions"
 >abstract="Dans cet écran, vous pouvez accéder à la liste complète des compositions, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une composition."
 
-Les compositions sont accessibles à partir du menu **[!UICONTROL Audiences]** de Adobe Experience Platform, dans l’onglet **Compositions fédérées**.
+Les compositions sont accessibles à partir du menu **[!UICONTROL Audiences]** de Adobe Experience Platform, dans l’onglet **[!UICONTROL Compositions fédérées]**.
 
 Dans cet écran, vous pouvez créer de nouvelles compositions et accéder à celles existantes. Vous pouvez également dupliquer ou supprimer une composition existante en cliquant sur le bouton représentant des points de suspension en regard de son nom.
 
@@ -32,7 +33,7 @@ Dans cet écran, vous pouvez créer de nouvelles compositions et accéder à cel
 
 Pour affiner la liste et trouver facilement la composition que vous recherchez, vous pouvez rechercher la liste et filtrer les compositions selon leur statut ou leur date de dernier traitement.
 
-Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des colonnes. Pour ce faire, cliquez sur le bouton **Configurer les colonnes** s et ajoutez ou supprimez les colonnes de sortie de votre choix.
+Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des colonnes. Pour ce faire, cliquez sur le bouton **[!UICONTROL Configurer la colonne]**s et ajoutez ou supprimez les colonnes de sortie souhaitées.
 
 ![](assets/compositions-columns.png)
 
