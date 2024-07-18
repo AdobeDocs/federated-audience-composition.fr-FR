@@ -2,10 +2,10 @@
 title: Nouveautés de la composition d’audiences fédérées
 description: Dernières mises à jour et notes de mise à jour
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
+source-git-commit: 11141b9ebcd3362ae42de586715e6462a8184492
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 5%
+source-wordcount: '326'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,7 @@ Federated Audience Composition permet aux entreprises de composer des données p
 
 Au lieu d’ingérer des jeux de données et/ou des audiences dans Adobe Experience Platform, vous pouvez désormais utiliser la composition d’audiences fédérées pour réduire le volume de données copiées depuis votre entrepôt de données vers Adobe Experience Platform en extrayant des audiences et attributs spécifiques de l’entrepôt qui sont nécessaires pour certains cas d’utilisation de segmentation ou d’activation, et en veillant à ce que les données sensibles ne soient pas conservées en dehors de l’entrepôt.
 
+Pour en savoir plus sur les fonctionnalités de composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](get-started.md#faq).
 
 >[!AVAILABILITY]
 >
@@ -27,6 +28,14 @@ Au lieu d’ingérer des jeux de données et/ou des audiences dans Adobe Experie
 >
 >Pour l’instant, la fonctionnalité n’est pas disponible pour les clients qui ont acheté l’offre de module complémentaire Adobe **Healthcare Shield**.
 
+## Accès à la composition d’audiences fédérées {#rn-guardrails}
+
+Il n’existe aucune autorisation spécifique pour la composition d’audiences fédérées. La seule condition préalable pour accéder à cette fonctionnalité est d’avoir acheté le module complémentaire de composition d’audiences fédérées .
+
+>[!AVAILABILITY]
+>
+>Une fois que vous avez reçu la notification par e-mail de bienvenue d’Adobe, il peut s’écouler quelques heures de plus avant que l’interface ne soit mise à jour et que les fonctionnalités soient mises à votre disposition.
+>
 
 ## Conditions préalables et mécanismes de sécurisation {#rn-guardrails}
 
