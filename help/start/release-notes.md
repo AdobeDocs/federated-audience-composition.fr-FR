@@ -2,7 +2,7 @@
 title: Nouveautés de la composition d’audiences fédérées
 description: Dernières mises à jour et notes de mise à jour
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 11141b9ebcd3362ae42de586715e6462a8184492
+source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Notes de mise à jour {#rn-new}
 
-## Composition de l’audience fédérée (LA) {#rn-la}
+## Composition de l’audience fédérée (LA) {#fac-la}
 
 La composition d’audience fédérée est un module complémentaire qui offre un accès flexible et une portée étendue aux entrepôts de données d’entreprise afin d’optimiser les cas d’utilisation de la personnalisation.
 
@@ -28,7 +28,7 @@ Pour en savoir plus sur les fonctionnalités de composition d’audiences fédé
 >
 >Pour l’instant, la fonctionnalité n’est pas disponible pour les clients qui ont acheté l’offre de module complémentaire Adobe **Healthcare Shield**.
 
-## Accès à la composition d’audiences fédérées {#rn-guardrails}
+## Accès à la composition d’audiences fédérées {#fac-access}
 
 Il n’existe aucune autorisation spécifique pour la composition d’audiences fédérées. La seule condition préalable pour accéder à cette fonctionnalité est d’avoir acheté le module complémentaire de composition d’audiences fédérées .
 
@@ -37,7 +37,7 @@ Il n’existe aucune autorisation spécifique pour la composition d’audiences 
 >Une fois que vous avez reçu la notification par e-mail de bienvenue d’Adobe, il peut s’écouler quelques heures de plus avant que l’interface ne soit mise à jour et que les fonctionnalités soient mises à votre disposition.
 >
 
-## Conditions préalables et mécanismes de sécurisation {#rn-guardrails}
+## Conditions préalables et mécanismes de sécurisation {#fac-guardrails}
 
 * Vos adresses IP doivent être ajoutées à la liste autorisée pour permettre l’accès à votre entrepôt de données et utiliser la composition d’audiences fédérées. Pour ajouter vos adresses IP à la liste autorisée, contactez votre représentant d’Adobe.
 
