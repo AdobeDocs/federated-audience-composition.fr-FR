@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les bases de données fédérées
 description: Découvrez comment créer et gérer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 51%
+source-wordcount: '1458'
+ht-degree: 50%
 
 ---
 
@@ -27,11 +27,13 @@ ht-degree: 51%
 >title="Détails de la base de données fédérée"
 >abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration."
 
-Créer, configurer, tester et enregistrer la connexion à une base de données externe.
+La composition d’audiences fédérées permet au client de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform.
 
+Découvrez comment créer, configurer, tester et enregistrer la connexion à votre base de données externe dans cette page.
 
+## Bases de données prises en charge {#supported-db}
 
-Bases de données externes prises en charge :
+Avec Federated Audience Composition, vous pouvez vous connecter aux bases de données suivantes :
 
 * Amazon Redshift
 * Azure synapse

@@ -2,9 +2,9 @@
 title: Prise en main de la composition d’audiences fédérées
 description: Découvrez ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1326'
 ht-degree: 7%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 7%
 
 Composition d’audience fédérée est un module complémentaire Adobe Real-Time Customer Data Platform et Adobe Journey Optimizer qui permet au client de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform.
 
-La composition d’audiences fédérées de Adobe Experience Platform offre une solution simple et puissante pour connecter directement votre entrepôt de données d’entreprise dans Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer et exécuter des requêtes sur les tables de votre entrepôt de données. Adobe Federated Audience Composition permet aux utilisateurs d’applications Adobe Experience Platform d’accéder aux données de leurs clients stockées dans leurs entrepôts de données et plateformes de stockage dans le cloud (telles que Amazon Redshift, Azure Synapse Analytics, Google BigQuery, Snowflake). Les données client peuvent se trouver dans plusieurs entrepôts de données et sont désormais accessibles instantanément, sans réplication.
+La composition d’audiences fédérées de Adobe Experience Platform offre une solution simple et puissante pour connecter directement votre entrepôt de données d’entreprise dans Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer et exécuter des requêtes sur les tables de votre entrepôt de données.
+
+Adobe Federated Audience Composition permet aux utilisateurs d’applications Adobe Experience Platform d’accéder aux données de leurs clients stockées dans leurs entrepôts de données et plateformes de stockage dans le cloud, telles que Amazon Redshift, Azure Synapse Analytics, etc. Les données client peuvent se trouver dans plusieurs entrepôts de données et sont désormais accessibles instantanément, sans réplication. Les plateformes prises en charge sont répertoriées dans [cette page](../connections/federated-db.md#supported-db).
 
 
 ## Cas d’utilisation {#rn-uc}
