@@ -3,9 +3,9 @@ audience: end-user
 title: Envoyer des audiences à la composition d’audiences fédérées Adobe
 description: Découvrez comment envoyer des audiences Adobe Experience Platform à la composition d’audiences fédérées
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '472'
 ht-degree: 8%
 
 ---
@@ -33,7 +33,7 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform à 
 
    ![](assets/destination-configure.png)
 
-   La section **[!UICONTROL Alertes]** vous permet d’activer les alertes pour recevoir des notifications sur l’état du flux de données vers votre destination. Pour plus d’informations sur les alertes, consultez le guide sur l’[abonnement aux alertes des destinations dans l’interface utilisateur](../../ui/alerts.md).
+   La section **[!UICONTROL Alertes]** vous permet d’activer les alertes pour recevoir des notifications sur l’état du flux de données vers votre destination. Pour plus d’informations sur les alertes, consultez le guide sur l’[abonnement aux alertes des destinations dans l’interface utilisateur](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts).
 
 1. L’étape **[!UICONTROL Stratégie de gouvernance et actions d’application]** vous permet de définir vos stratégies de gouvernance des données et de vous assurer que les données utilisées sont conformes lorsque les audiences sont envoyées et actives.
 
