@@ -2,9 +2,9 @@
 title: Prise en main de la composition d’audiences fédérées
 description: Découvrez ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 7%
 
 ---
@@ -67,10 +67,11 @@ Il n’existe aucune autorisation spécifique pour la composition d’audiences 
 
 Pour cette version, la composition d’audiences fédérées est compatible avec :
 
-* Snowflake
-* Google BigQuery
-* Azure synapse
 * Amazon Redshift
+* Azure synapse
+* Google BigQuery
+* Snowflake
+* Vertica Analytics
 
 +++
 
