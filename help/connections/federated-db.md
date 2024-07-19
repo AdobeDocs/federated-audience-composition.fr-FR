@@ -3,7 +3,7 @@ audience: end-user
 title: Commencer avec les bases de données fédérées
 description: Découvrez comment créer et gérer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 51%
@@ -28,6 +28,8 @@ ht-degree: 51%
 >abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration."
 
 Créer, configurer, tester et enregistrer la connexion à une base de données externe.
+
+
 
 Bases de données externes prises en charge :
 
