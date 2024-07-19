@@ -3,7 +3,7 @@ audience: end-user
 title: Commencer avec les bases de données fédérées
 description: Découvrez comment créer et gérer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 51%
@@ -31,11 +31,11 @@ Créer, configurer, tester et enregistrer la connexion à une base de données e
 
 Bases de données externes prises en charge :
 
-* Snowflake
-* Google BigQuery
-* Azure synapse
-* Vertica Analytics
 * Amazon Redshift
+* Azure synapse
+* Google BigQuery
+* Snowflake
+* Vertica Analytics
 
 ## Snowflake {#snowflake}
 

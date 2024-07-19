@@ -2,9 +2,9 @@
 title: Prise en main de la composition d’audiences fédérées
 description: Découvrez ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 63192ea583aca7bc4a30b4a9d2071b83d0a46406
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1284'
 ht-degree: 8%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 La composition d’audiences fédérées de Adobe Experience Platform offre une solution simple et puissante pour connecter directement votre entrepôt de données d’entreprise dans Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer et exécuter des requêtes sur les tables de votre entrepôt de données.
 
-Adobe Federated Audience Composition permet aux utilisateurs d’applications Adobe Experience Platform d’accéder aux données de leurs clients stockées dans leur entrepôt de données d’entreprise. Les données client peuvent se trouver dans plusieurs entrepôts de données et sont désormais accessibles instantanément, sans réplication.
+Adobe Federated Audience Composition permet aux utilisateurs d’applications Adobe Experience Platform d’accéder aux données de leurs clients stockées dans leurs entrepôts de données et plateformes de stockage dans le cloud (telles que Amazon Redshift, Azure Synapse Analytics, Google BigQuery, Snowflake). Les données client peuvent se trouver dans plusieurs entrepôts de données et sont désormais accessibles instantanément, sans réplication.
 
 
 ## Cas d’utilisation {#rn-uc}
