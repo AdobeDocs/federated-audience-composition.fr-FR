@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les modèles de données
 description: Découvrez comment commencer avec les modèles de données
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 39%
+source-wordcount: '220'
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 39%
 
 Un modèle de données est un ensemble de schémas, d’audiences et de liens entre eux.
 
-En savoir plus sur les [schémas](../customer/schemas.md).
+En savoir plus sur les [schémas](../customer/schemas.md#schema-start).
 
 En savoir plus sur [audiences](../customer/audiences.md).
 
@@ -61,3 +61,16 @@ Vous accédez à la fenêtre dans laquelle vous pouvez ajouter les schémas, les
 
 ### Créer des liens {#data-model-links}
 
+La création de liens entre les tables de votre modèle de données peut se faire de 2 façons :
+- Cliquez directement sur le menu **[!UICONTROL Créer un lien]** de l’une des tables
+- Cliquez sur le bouton **[!UICONTROL Créer des liens]** et sélectionnez les 2 tables
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+Renseignez le formulaire donné pour définir le lien :
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+Tous les liens définis pour votre modèle de données seront répertoriés comme ci-dessous :
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
