@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité Sauvegarde d’audience
 description: Découvrez comment utiliser l’activité Sauvegarde d’audience
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 44%
+source-wordcount: '380'
+ht-degree: 42%
 
 ---
 
@@ -48,6 +48,10 @@ Pour configurer l’activité **Enregistrer l’audience**, procédez comme suit
    ![](../assets/save-audience.png)
 
 1. Indiquez le libellé de l’audience à créer.
+
+   >[!IMPORTANT]
+   >
+   >Le libellé de l’audience doit être unique dans l’environnement de test actuel. Il ne peut pas s’agir du même libellé qu’une audience existante.
 
 1. Cliquez sur **Ajouter le mappage d’audience** , puis sélectionnez les champs d’audience source et cible :
 
