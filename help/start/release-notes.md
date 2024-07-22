@@ -2,10 +2,10 @@
 title: Nouveautés de la composition d’audiences fédérées
 description: Dernières mises à jour et notes de mise à jour
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
+source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 4%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 4%
 
 ## Composition de l’audience fédérée (LA) {#fac-la}
 
-La composition d’audience fédérée est un module complémentaire qui offre un accès flexible et une portée étendue aux entrepôts de données d’entreprise afin d’optimiser les cas d’utilisation de la personnalisation.
+>[!AVAILABILITY]
+>
+>* La composition d’audiences fédérées n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>
+>* Pour l’instant, la fonctionnalité n’est pas disponible pour les clients qui ont acheté l’offre de module complémentaire **Healthcare Shield**. [En savoir plus](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+
 
 Federated Audience Composition permet aux entreprises de composer des données pour une meilleure utilisation dans divers cas d’utilisation. Grâce à cette nouvelle approche, en tant qu’utilisateur [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} et/ou [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"}, vous pouvez fédérer les jeux de données directement à partir de votre entrepôt de données existant pour enrichir les audiences et les attributs Adobe Experience Platform dans un seul système.
 
+La composition d’audiences fédérées est un module complémentaire qui offre un accès flexible et une portée étendue aux entrepôts de données d’entreprise pour optimiser les cas d’utilisation de la personnalisation.
 Au lieu d’ingérer des jeux de données et/ou des audiences dans Adobe Experience Platform, vous pouvez désormais utiliser la composition d’audiences fédérées pour réduire le volume de données copiées depuis votre entrepôt de données vers Adobe Experience Platform en extrayant des audiences et attributs spécifiques de l’entrepôt qui sont nécessaires pour certains cas d’utilisation de segmentation ou d’activation, et en veillant à ce que les données sensibles ne soient pas conservées en dehors de l’entrepôt.
 
 Pour en savoir plus sur les fonctionnalités de composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](get-started.md#faq).
-
->[!AVAILABILITY]
->
->La composition d’audiences fédérées n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
->
->Pour l’instant, la fonctionnalité n’est pas disponible pour les clients qui ont acheté l’offre de module complémentaire Adobe **Healthcare Shield**.
 
 ## Accès à la composition d’audiences fédérées {#fac-access}
 
