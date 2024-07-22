@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les schémas
 description: Découvrez comment commencer avec les schémas
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 31%
+source-wordcount: '281'
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 31%
 Un schéma est un objet de l’application qui définit la manière dont les données sont liées aux tables de base de données.
 Un schéma fait référence à un tableau.
 
-## Comment créer un schéma ? {#schema-create}
+## Créer un schéma {#schema-create}
 
 Dans la section **[!UICONTROL FEDERATED DATA]** , accédez au lien **[!UICONTROL Modèles]** . Vous y trouverez l’onglet **[!UICONTROL Schéma]** .
 Cliquez sur le bouton **[!UICONTROL Créer un schéma]** .
@@ -62,14 +62,14 @@ En ajoutant les tables, vous avez accès à leurs champs et pouvez gérer la con
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
-## Comment modifier un schéma ? {#schema-edit}
+## Modification d’un schéma {#schema-edit}
 
 Pour éditer un schéma, cliquez sur son nom dans le dossier schémas. Vous aurez accès à la page ci-dessous.
 Cliquez sur le bouton **[!UICONTROL Modifier]** .
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-## Comment prévisualiser les données d’un schéma ? {#schema-preview}
+## Aperçu des données dans un schéma {#schema-preview}
 
 Pour prévisualiser les données de la table représentée par votre schéma, accédez à l&#39;onglet **[!UICONTROL Data]** comme ci-dessous.
 
@@ -79,7 +79,7 @@ Vous pouvez modifier la présentation des données en cliquant sur le bouton **[
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
-## Comment supprimer un schéma ? {#schema-delete}
+## Supprimer un schéma {#schema-delete}
 
 Pour supprimer un schéma, cliquez sur le bouton **[!UICONTROL Plus]**, puis **[!UICONTROL Supprimer]**.
 
