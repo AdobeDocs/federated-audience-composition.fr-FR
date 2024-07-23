@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité Créer une audience
 description: Découvrez comment utiliser l’activité Créer une audience
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 44%
+source-wordcount: '246'
+ht-degree: 38%
 
 ---
 
@@ -45,8 +45,11 @@ Pour créer votre propre audience, procédez comme suit :
 
 1. Sélectionnez **Créer une audience**.
 1. Sélectionnez le **Schéma**, également appelé dimension de ciblage. Le schéma permet de définir la population ciblée par l&#39;opération : destinataires, bénéficiaires de contrats, opérateur, abonnés, etc. Par défaut, le schéma est sélectionné parmi les destinataires.
+
+   ![](../assets/build-audience-create.png)
+
 1. Cliquez sur **Continuer**.
-1. Utilisez le modèle de requête pour définir votre requête. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
+1. Utilisez le modèle de requête pour définir votre requête, puis confirmez. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
 
 >[!TAB Lecture d’audience]
 
@@ -54,9 +57,16 @@ Pour sélectionner une audience existante, procédez comme suit :
 
 1. Sélectionnez **Lecture d’audience**.
 1. Cliquez sur **Continuer**.
+
+   ![](../assets/build-audience-read.png)
+
 1. Sélectionnez votre audience.
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>L&#39;option **Générer une transition sortante** permet d&#39;ajouter une transition sortante qui sera activée à la fin de l&#39;exécution de l&#39;activité si la population de l&#39;audience est vide.
 
 <!--
 ## Examples{#build-audience-examples}
