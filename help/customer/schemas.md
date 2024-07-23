@@ -3,9 +3,9 @@ audience: end-user
 title: Commencer avec les schémas
 description: Découvrez comment commencer avec les schémas
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 20%
 
 Un schéma est une représentation d’une table de votre base de données. Il s’agit d’un objet de l’application qui définit la manière dont les données sont liées aux tables de base de données.
 
-En créant un schéma, vous pourrez manipuler votre table dans FAC :
+En créant un schéma, vous pourrez manipuler une représentation de votre table dans FAC :
+
 - Donnez-lui un nom et une description conviviaux pour simplifier la compréhension de l’utilisateur.
 - Déterminer la visibilité de chaque champ en fonction de son utilisation réelle
 - Sélectionnez sa clé primaire, afin de lier les schémas entre eux, selon les besoins dans le [modèle de données](../data-management/gs-models.md#data-model-start)
@@ -70,6 +71,7 @@ En ajoutant les tables, pour lesquelles vous souhaitez créer le schéma, vous a
 ![](assets/schema_fields.png){zoomable="yes"}
 
 Pour chaque tableau, vous pouvez :
+
 - renommer le libellé du schéma donné
 - ajouter une description
 - renommez tous les champs et décidez de leur visibilité.
@@ -91,6 +93,7 @@ Cliquez sur le bouton **[!UICONTROL Modifier]** .
 ![](assets/schema_edit.png){zoomable="yes"}
 
 Vous aurez accès à la même possibilité que lors de la création du schéma :
+
 - renommer le libellé du schéma donné
 - ajouter une description
 - renommez tous les champs et décidez de leur visibilité.
