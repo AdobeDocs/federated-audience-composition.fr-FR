@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audience fédérée
 title: Adobe de la documentation sur la composition d’audiences fédérées
 breadcrumb-title: Composition d’audience fédérée
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 40%
+source-wordcount: '136'
+ht-degree: 41%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 40%
 + Prise en main de la composition d’audiences fédérées {#start}
    + [Composition de l’audience fédérée](start/get-started.md)
    + [Utiliser les audiences](start/audiences.md)
+   + [Questions fréquentes](start/faq.md)
 + Etapes de configuration {#config}
    + [Création et gestion des connexions](connections/connections.md)
    + [Configuration de vos bases de données fédérées](connections/federated-db.md)
