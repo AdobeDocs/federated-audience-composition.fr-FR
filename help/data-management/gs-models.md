@@ -3,7 +3,7 @@ audience: end-user
 title: Commencer avec les modèles de données
 description: Découvrez comment commencer avec les modèles de données
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -62,6 +62,7 @@ Vous accédez à la fenêtre dans laquelle vous pouvez ajouter les schémas, les
 ### Créer des liens {#data-model-links}
 
 La création de liens entre les tables de votre modèle de données peut se faire de 2 façons :
+
 - Cliquez directement sur le menu **[!UICONTROL Créer un lien]** de l’une des tables
 - Cliquez sur le bouton **[!UICONTROL Créer des liens]** et sélectionnez les 2 tables
 
