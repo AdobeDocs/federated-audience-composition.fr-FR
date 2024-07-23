@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audience fédérée
 title: Adobe de la documentation sur la composition d’audiences fédérées
 breadcrumb-title: Composition d’audience fédérée
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: fdc057b751aac18a6b27bbaa2997fc7994566092
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 40%
+source-wordcount: '136'
+ht-degree: 39%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 40%
 + Prise en main de la composition d’audiences fédérées {#start}
    + [Commencer](start/get-started.md)
    + [Notes de mise à jour](start/release-notes.md)
+   + [Utiliser les audiences](start/audiences.md)
 + Etapes de configuration {#config}
    + [Création et gestion des connexions](connections/connections.md)
    + [Configuration de vos bases de données fédérées](connections/federated-db.md)
    + Modèles et schémas de données{#datamodel}
       + [Création et configuration des schémas](customer/schemas.md)
       + [Configuration de vos modèles de données](data-management/gs-models.md)
-   + [Utiliser les audiences](customer/audiences.md)
-   + [Envoyer des audiences à la composition d’audiences fédérées Adobe](connections/destinations.md)
+   + [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
 + Compositions {#compositions}
    + [Commencer avec les compositions](compositions/gs-compositions.md)
    + Créez et exécutez votre première composition {#create-composition}
