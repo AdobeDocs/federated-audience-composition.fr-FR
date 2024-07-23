@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité Créer une audience
 description: Découvrez comment utiliser l’activité Créer une audience
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 54%
+source-wordcount: '212'
+ht-degree: 44%
 
 ---
 
@@ -18,15 +18,10 @@ ht-degree: 54%
 >title="Activité Créer une audience"
 >abstract="L’activité **Créer une audience** permet de définir l’audience qui va entrer dans la composition."
 
-L’activité **Créer une audience** permet de définir l’audience qui va entrer dans la composition.
+L&#39;activité **Créer l&#39;audience** vous permet de définir l&#39;audience qui va entrer dans la composition. Pour définir la population de l’audience, vous pouvez :
 
-Pour définir la population de l’audience, vous pouvez :
-
-<!--* Select an existing audience, created as a list in the client console.-->
-* sélectionner une audience Adobe Experience Platform ;
-* Créez une audience à l’aide du concepteur de requêtes en définissant et combinant des critères de filtrage.
-
-L&#39;activité **Créer l&#39;audience** peut être placée au début de la composition ou après toute autre activité. Toute activité peut être placée après la **création d’audience**.
+* Sélectionnez une audience Adobe Experience Platform existante.
+* Créez une nouvelle audience avec le modèle de requête en définissant et combinant des critères de filtrage.
 
 ## Configurer l’activité Créer une audience {#build-audience-configuration}
 
