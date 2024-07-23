@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les compositions
 description: Découvrez comment commencer avec des compositions
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 15%
+source-wordcount: '287'
+ht-degree: 17%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 ## Qu’est-ce qu’une composition ? {#what}
 
-La Composition des données d’Adobe vous permet de créer des compositions, dans lesquelles vous pouvez exploiter différentes activités (fractionner, exclure..) dans un canevas visuel pour créer des audiences. Une fois cette opération terminée, les audiences résultantes sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être exploitées dans des destinations telles que Journey Optimizer pour cibler des clients.
+Adobe de la composition de l’audience vous permet de créer des compositions, dans lesquelles vous pouvez exploiter diverses activités (fractionner, exclure..) dans un canevas visuel pour créer des audiences. Une fois cette opération terminée, les audiences résultantes sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être exploitées dans des destinations telles que Journey Optimizer pour cibler des clients. [Découvrez comment utiliser les audiences](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -43,7 +43,7 @@ Les compositions peuvent avoir plusieurs statuts :
 
 * **[!UICONTROL Version préliminaire]** : la composition a été créée et enregistrée.
 * **[!UICONTROL En cours]** : la composition a été exécutée et est en cours d’exécution.
-* **[!UICONTROL Stoppé]** : l’exécution de la composition s’est arrêtée.
+* **[!UICONTROL Stoppé]** : l’exécution de la composition est terminée et s’est arrêtée.
 * **[!UICONTROL En pause]** : l’exécution de la composition a été suspendue.
 * **[!UICONTROL En erreur]** : l’exécution de la composition a rencontré une erreur. Ouvrez la composition et accédez aux logs et tâches pour identifier l&#39;erreur et la résoudre.
 

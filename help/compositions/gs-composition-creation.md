@@ -3,7 +3,7 @@ audience: end-user
 title: Créer des compositions
 description: Découvrez comment créer des compositions
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 59%
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## Qu&#39;y a-t-il dans une composition ? {#gs-composition-inside}
 
-La composition de données fédérées fournit un canevas visuel qui vous permet de créer des audiences en exploitant différentes activités (fractionnement, enrichissement, etc.).
+La composition d’audience fédérée fournit un canevas visuel qui vous permet de créer des audiences en exploitant différentes activités (division, enrichissement, etc.).
 
 Le diagramme de composition est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 

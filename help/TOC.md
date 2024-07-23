@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audience fédérée
 title: Adobe de la documentation sur la composition d’audiences fédérées
 breadcrumb-title: Composition d’audience fédérée
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 39%
+source-wordcount: '133'
+ht-degree: 40%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 39%
 # Documentation sur la composition d’audiences fédérées {#using}
 
 + [Documentation sur la composition d’audiences fédérées](home.md)
++ [Notes de mise à jour](start/release-notes.md)
 + Prise en main de la composition d’audiences fédérées {#start}
-   + [Commencer](start/get-started.md)
-   + [Notes de mise à jour](start/release-notes.md)
+   + [Composition de l’audience fédérée](start/get-started.md)
    + [Utiliser les audiences](start/audiences.md)
 + Etapes de configuration {#config}
    + [Création et gestion des connexions](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 39%
       + [Création et configuration des schémas](customer/schemas.md)
       + [Configuration de vos modèles de données](data-management/gs-models.md)
    + [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
-+ Compositions {#compositions}
++ Composer des audiences {#compositions}
    + [Commencer avec les compositions](compositions/gs-compositions.md)
    + Créez et exécutez votre première composition {#create-composition}
       + [Principes fondamentaux de la création de composition](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 39%
    + [Éditer les expressions](query/expression-editor.md)
 + Journal d’audit {#audit-trail}
    + [Surveiller vos bases de données](admin/audit-trail.md)
-+ [&lt; Retour à la documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)

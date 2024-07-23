@@ -3,9 +3,9 @@ audience: end-user
 title: Commencer avec le journal d’audit
 description: Découvrez comment surveiller vos bases de données avec le journal d’audit
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 69%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 69%
 
 La fonctionnalité Suivi fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés dans votre environnement en temps réel.
 
-La fonction **[!UICONTROL Suivi]** enregistre constamment en temps réel un journal détaillé des actions et événements se produisant dans l’instance de composition de données d’Adobe. Elle offre une méthode pratique d’accès à un enregistrement chronologique des données, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes qui les modifient ou les activités effectuées par les utilisateurs et utilisatrices au sein de l’instance.
+La fonction **[!UICONTROL Suivi]** enregistre constamment en temps réel un journal détaillé des actions et événements qui se produisent dans l’instance Adobe de composition fédérée. Elle offre une méthode pratique d’accès à un enregistrement chronologique des données, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes qui les modifient ou les activités effectuées par les utilisateurs et utilisatrices au sein de l’instance.
 
 +++ En savoir plus sur les entités disponibles du journal d’audit
 
-* Le **Suivi des schémas Source** vous permet de surveiller les activités et les modifications récentes apportées à vos schémas dans l’instance Composition des données de l’Adobe.
+* Le **Suivi des schémas Source** vous permet de surveiller les activités et les modifications récentes apportées à vos schémas dans l’instance Adobe Federated Audience Composition.
 
   Pour plus d&#39;informations sur les schémas, consultez cette [page](../customer/schemas.md).
 
@@ -40,7 +40,7 @@ La fonction **[!UICONTROL Suivi]** enregistre constamment en temps réel un jour
 
   Pour plus d’informations sur les workflows, consultez [cette page](../compositions/gs-compositions.md).
 
-* **Compte externe** vous permet de vérifier les modifications apportées aux comptes externes dans l’instance Composition des données d’Adobe.
+* **Compte externe** vous permet de vérifier les modifications apportées aux comptes externes dans l’instance Composition d’audience Adobe.
 
   Pour plus d’informations sur les comptes externes, consultez cette [page](../connections/federated-db.md).
 
