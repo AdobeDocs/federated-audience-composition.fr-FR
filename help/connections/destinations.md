@@ -3,7 +3,8 @@ audience: end-user
 title: Enrichir les audiences Adobe Experience Platform avec des données externes
 description: Découvrez comment affiner et enrichir les audiences Adobe Experience Platform avec les données de vos bases de données fédérées à l’aide de la destination de composition d’audiences fédérées.
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
+source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 7%
@@ -17,7 +18,7 @@ ht-degree: 7%
 >title="Créer une destination"
 >abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **[!UICONTROL Se connecter à la destination]** pour valider votre configuration."
 
-Adobe Experience Platform permet une intégration transparente des audiences du portail d’audience vers vos bases de données externes à l’aide de la destination **Adobe de la composition d’audience fédérée**. Vous pouvez ainsi exploiter les audiences existantes dans des compositions et les enrichir ou les affiner à l&#39;aide des données de vos bases de données externes pour créer de nouvelles audiences.
+Adobe Experience Platform permet une intégration transparente des audiences du portail d’audience avec vos bases de données externes à l’aide de la **destination Adobe de composition d’audience fédérée**. Grâce à cette intégration, vous pouvez exploiter les audiences existantes dans des compositions et les enrichir ou les affiner à l’aide des données de vos bases de données externes pour créer de nouvelles audiences.
 
 Pour ce faire, vous devez configurer une nouvelle connexion dans Adobe Experience Platform à la destination Adobe Federated Audience Composition . Vous pouvez utiliser un planificateur pour envoyer une audience donnée à des fréquences régulières, sélectionner des attributs spécifiques à inclure, tels que les identifiants pour la réconciliation des données. Si vous avez appliqué des politiques de gouvernance et de confidentialité à votre audience, elles seront conservées et renvoyées au portail d’audience une fois l’audience mise à jour.
 
