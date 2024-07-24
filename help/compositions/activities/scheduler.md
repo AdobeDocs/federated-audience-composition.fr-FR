@@ -2,13 +2,13 @@
 audience: end-user
 title: Utilisation de l’activité Planificateur
 description: Découvrez comment utiliser l’activité Planificateur
-source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
+exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 33%
+source-wordcount: '456'
+ht-degree: 30%
 
 ---
-
 
 # Planificateur {#scheduler}
 
@@ -18,6 +18,10 @@ ht-degree: 33%
 >abstract="L’activité **Planificateur** vous permet de planifier le démarrage de la composition de l’audience. Cette activité est à considérer comme un démarrage planifié. Il ne peut être utilisé que comme première activité d’une composition."
 
 L’activité **Planificateur** est une activité de **contrôle de flux**. Il vous permet de planifier le moment où la composition commence. Cette activité est à considérer comme un démarrage planifié. Il ne peut être utilisé que comme première activité de la composition.
+
+Si vous avez configuré une connexion à la destination de composition de données fédérées, vous pouvez utiliser cette activité pour envoyer des audiences Adobe Experience Platform à des fréquences régulières. [Découvrez comment enrichir les audiences Adobe Experience Platform avec des données externes](../../connections/destinations.md)
+
+![](../assets/scheduler.png)
 
 ## Configurer l’activité Planificateur {#scheduler-configuration}
 
@@ -38,9 +42,7 @@ Pour configurer l’activité **Planificateur**, procédez comme suit :
 1. Configurez la **Fréquence d’exécution** :
 
    * **Une fois** : la composition est exécutée une seule fois.
-
    * **Quotidien** : la composition est exécutée à une heure spécifique, une fois par jour.
-
    * **Plusieurs fois par jour :** la composition est exécutée régulièrement plusieurs fois par jour. Vous pouvez configurer des exécutions à des heures et dates spécifiques ou périodiquement.
 
      >[!NOTE]
@@ -48,7 +50,6 @@ Pour configurer l’activité **Planificateur**, procédez comme suit :
      >Ne planifiez pas l’exécution d’une composition plus de toutes les 15 minutes, car cela peut nuire aux performances générales du système et créer des blocs dans la base de données.
 
    * **Hebdomadaire** : la composition est exécutée à un instant défini, une ou plusieurs fois par semaine.
-
    * **Mensuel** : la composition est exécutée à un instant défini, une ou plusieurs fois par mois. Vous pouvez sélectionner les mois, au moment de l&#39;exécution de la composition. Vous pouvez également configurer des exécutions un jour de semaine spécifié du mois, comme le deuxième mardi du mois.
 
 1. Définissez les détails de l&#39;exécution en fonction de la fréquence sélectionnée. Les champs de détail peuvent varier en fonction de la fréquence d&#39;utilisation (heure, fréquence de répétition, jours spécifiques, etc.).
@@ -68,4 +69,3 @@ Pour configurer l’activité **Planificateur**, procédez comme suit :
 <!--## Example{#scheduler-example}
 
 In the following example, the activity is configured so that the composition runs several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.-->
-
