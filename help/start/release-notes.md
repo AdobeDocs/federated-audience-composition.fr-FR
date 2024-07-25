@@ -2,13 +2,13 @@
 title: Nouveautés de la composition d’audiences fédérées
 description: Dernières mises à jour et notes de mise à jour
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 5%
+source-wordcount: '344'
+ht-degree: 4%
 
 ---
-
 
 # Notes de mise à jour {#rn-new}
 
@@ -29,6 +29,8 @@ Au lieu d’ingérer des jeux de données et/ou des audiences dans Adobe Experie
 Pour en savoir plus sur les fonctionnalités de composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](get-started.md#faq).
 
 ## Accès à la composition d’audiences fédérées {#fac-access}
+
+La composition d’audiences fédérées requiert les packages Adobe Real-Time Customer Data Platform et Adobe Journey Optimizer Prime ou Ultimate.
 
 Il n’existe aucune autorisation spécifique pour la composition d’audiences fédérées. La seule condition préalable pour accéder à cette fonctionnalité est d’avoir acheté le module complémentaire de composition d’audiences fédérées .
 
