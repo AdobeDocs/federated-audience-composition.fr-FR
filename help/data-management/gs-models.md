@@ -4,15 +4,14 @@ title: Commencer avec les modèles de données
 description: Découvrez comment commencer avec les modèles de données
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 28%
 
 ---
 
 # Commencer avec les modèles de données {#data-model}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
@@ -46,37 +45,38 @@ En savoir plus sur [audiences](../start/audiences.md).
 
 ## Création d’un modèle de données {#data-model-create}
 
-Dans la section **[!UICONTROL FEDERATED DATA]** , accédez au lien **[!UICONTROL Modèles]** . Vous y trouverez l’onglet **[!UICONTROL Modèle de données]** .
+Pour créer un modèle de données, procédez comme suit :
 
-![](assets/datamodel_create.png){zoomable="yes"}
+1. Dans la section **[!UICONTROL FEDERATED DATA]** , accédez au lien **[!UICONTROL Modèles]** et accédez à l’onglet **[!UICONTROL Modèle de données]** .
 
-En cliquant sur le bouton **[!UICONTROL Créer un modèle de données]** , vous aurez la possibilité de nommer votre modèle de données et de cliquer sur le bouton **[!UICONTROL Créer]** .
+   ![](assets/datamodel_create.png){zoomable="yes"}
 
-![](assets/datamodel_name.png){zoomable="yes"}
+1. Cliquez sur le bouton **[!UICONTROL Créer un modèle de données]** pour définir le nom de votre modèle de données, puis cliquez sur le bouton **[!UICONTROL Créer]** .
 
-Vous accédez à la fenêtre dans laquelle vous pouvez ajouter les schémas, les audiences et les liens de votre modèle de données.
+   ![](assets/datamodel_name.png){zoomable="yes"}
 
-![](assets/datamodel_created.png){zoomable="yes"}
+1. Ajoutez ensuite les schémas, les audiences et les liens de votre modèle de données.
 
-![](assets/datamodel_schemas.png){zoomable="yes"}
+   ![](assets/datamodel_schemas.png){zoomable="yes"}
 
 ### Créer des liens {#data-model-links}
 
-La création de liens entre les tables de votre modèle de données peut se faire de 2 façons :
+Pour créer des liens entre les tables de votre modèle de données, procédez comme suit :
 
-- Cliquez directement sur le menu **[!UICONTROL Créer un lien]** de l’une des tables
-- Cliquez sur le bouton **[!UICONTROL Créer des liens]** et sélectionnez les 2 tables
+1. Cliquez sur le menu **[!UICONTROL Créer un lien]** de l’une des tables, ou cliquez sur le bouton **[!UICONTROL Créer des liens]** et sélectionnez les 2 tables suivantes :
 
-![](assets/datamodel_createlinks.png){zoomable="yes"}
+   ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
-Renseignez le formulaire donné pour définir le lien :
+1. Renseignez le formulaire donné pour définir le lien.
 
-![](assets/datamodel_link.png){zoomable="yes"}
+   ![](assets/datamodel_link.png){zoomable="yes"}
 
-Tous les liens définis pour votre modèle de données seront répertoriés comme ci-dessous :
+   Tous les liens définis pour votre modèle de données sont répertoriés comme ci-dessous :
 
-![](assets/datamodel_alllinks.png){zoomable="yes"}
+   ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
-## Création d’un modèle de données en vidéo {#data-model-video}
+## Vidéo - Comment {#data-model-video}
+
+Découvrez comment créer un modèle de données dans cette vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432020)
