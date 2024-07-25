@@ -3,7 +3,7 @@ title: Prise en main de la composition d’audiences fédérées
 description: Découvrez ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
+source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 11%
@@ -22,13 +22,13 @@ Dans une interface utilisateur conviviale pour le marketing, créez des règles 
 
 Dans cette version, deux cas d’utilisation sont disponibles : Création d’audience et Enrichissement d’audience.
 
-![diagramme](assets/fac-use-cases.png){zoomable="yes"}
+![diagramme](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Principales étapes {#gs-steps}
 
 Adobe la composition des audiences fédérées vous permet de créer et de mettre à jour des audiences Adobe Experience Platform directement à partir de votre base de données, sans processus d’ingestion.
 
-![diagramme](assets/steps-diagram.png){zoomable="yes"}
+![diagramme](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 Principales étapes :
 
