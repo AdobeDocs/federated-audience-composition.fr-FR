@@ -2,13 +2,13 @@
 title: Questions fréquentes
 description: Questions fréquentes
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 3%
 
 ---
-
 
 # Questions fréquentes {#faq}
 
@@ -71,7 +71,7 @@ La composition d’audiences fédérées ne conserve pas de copie physique des d
 
 Par exemple :
 
-* Dans le cas d’une segmentation d’audience, l’audience est créée dans votre entrepôt. Vous pouvez utiliser la composition d’audiences fédérées pour d’autres tâches de composition et de manipulation de données avant de publier l’audience résultante et les attributs associés via Adobe Experience Platform Audience Portal. La définition de l’audience et les attributs associés sont transmis à Adobe Experience Platform.
+* Dans le cas d’une création d’audience, l’audience est créée dans votre entrepôt. Vous pouvez utiliser la composition d’audience fédérée pour d’autres tâches de composition et de manipulation de données avant de publier l’audience résultante et les attributs associés via Adobe Experience Platform Audience Portal. La définition de l’audience et les attributs associés sont transmis à Adobe Experience Platform.
 Notez que l’expiration des données actuelles pour les audiences générées en externe est de 30 jours. Cette expiration des données réduit la quantité de données excédentaires stockées au sein d’une organisation. Une fois la période d’expiration des données écoulée, le jeu de données associé est toujours visible dans l’inventaire du jeu de données, mais vous ne pouvez pas activer l’audience et le nombre de profils s’affiche comme nul. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * Dans le cas d’un enrichissement d’audience, le point de départ est une audience Adobe Experience Platform existante. Deux scénarios peuvent être présentés ici :
@@ -79,7 +79,7 @@ Notez que l’expiration des données actuelles pour les audiences générées e
    1. Affinez l’audience Adobe Experience Platform existante en fonction d’attributs supplémentaires existant dans votre entrepôt de données. Par exemple, vous avez une audience de clients qui ont manifesté de l’intérêt pour un produit particulier sur le site web au cours des deux derniers mois. Vous souhaitez maintenant prendre cette audience en compte et la segmenter davantage à l’aide de la Composition de l’audience fédérée afin de n’inclure que les clients ayant un score de crédit élevé. Le score de crédit est considéré comme sensible, et les points de données de score de crédit individuels ne sont pas copiés depuis l’entrepôt de données.
 +++
 
-+++Si les modèles de cas d’utilisation de la segmentation d’audience et de l’enrichissement d’audience ne sont pas conservés, comment est-il stocké temporairement ?
++++Si les données des modèles de cas d’utilisation Création d’audience et Enrichissement d’audience ne sont pas conservées, comment est-il stocké temporairement ?
 
 Les données d’audience résultantes ne persistent pas indéfiniment dans Adobe Experience Platform ou dans la composition d’audience fédérée. Elle ne sera pas conservée plus longtemps que ce qui est requis par votre cas d’utilisation. Les attributs d’audience apportés dans le cadre de la charge utile de l’audience ne sont conservés que dans le cadre de la définition de l’audience. La durée de persistance est basée sur la durée de vie (TTL) pour n’importe quelle audience ; la valeur par défaut est de 30 jours.
 
