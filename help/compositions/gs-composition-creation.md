@@ -3,13 +3,13 @@ audience: end-user
 title: Créer des compositions
 description: Découvrez comment créer des compositions
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 59%
 
 ---
-
 
 # Principes fondamentaux de la création de composition {#gs-composition-creation}
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## Qu&#39;y a-t-il dans une composition ? {#gs-composition-inside}
 
-La composition d’audience fédérée fournit un canevas visuel qui vous permet de créer des audiences en exploitant différentes activités (division, enrichissement, etc.).
+La composition d’audience fédérée Experience Platform fournit un canevas visuel qui vous permet de créer des audiences en exploitant différentes activités (fractionnement, enrichissement, etc.).
 
 Le diagramme de composition est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 

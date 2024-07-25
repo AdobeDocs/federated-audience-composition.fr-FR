@@ -1,26 +1,42 @@
 ---
-title: Prise en main de la composition d’audiences fédérées
+title: Prise en main de la composition Experience Platform d’audiences fédérées
 description: Découvrez ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 11%
+source-wordcount: '708'
+ht-degree: 8%
 
 ---
 
 # Prise en main de la composition d’audiences fédérées {#gs-fac}
 
-Federated Audience Composition est un module complémentaire d’Adobe Real-Time Customer Data Platform et de Adobe Journey Optimizer qui vous permet de créer et d’enrichir des audiences à partir de vos entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform. Federated Audience Composition offre une solution simple et puissante pour connecter votre entrepôt de données d’entreprise directement dans Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer et exécuter des requêtes sur les tables de votre entrepôt de données.
+La composition d’audiences fédérées est une fonctionnalité de module complémentaire pour [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} et [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} qui vous permet de créer et d’enrichir des audiences à partir de vos entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform. Federated Audience Composition offre une solution simple et puissante pour connecter votre entrepôt de données d’entreprise directement dans Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer et exécuter des requêtes sur les tables de votre entrepôt de données.
 
 Adobe Federated Audience Composition permet aux utilisateurs d’applications Adobe Experience Platform d’accéder aux données de leurs clients stockées dans leurs entrepôts de données et plateformes de stockage dans le cloud, telles que Amazon Redshift, Azure Synapse Analytics, etc. Les données client peuvent se trouver dans plusieurs entrepôts de données et sont désormais accessibles instantanément, sans réplication. Les plateformes prises en charge sont répertoriées dans [cette page](../connections/federated-db.md#supported-db).
+
+## Fonctionnalités {#rn-capabilities}
+
+La composition d’audiences fédérées étend la valeur de Real-Time CDP et Journey Optimizer avec une approche globale du traitement et de l’activation des audiences :
+
+* Développez l’accès aux jeux de données critiques basés sur l’entrepôt pour créer des audiences à forte valeur ajoutée : utilisez les entrepôts de données existants comme système d’enregistrement principal, tout en exploitant les applications les plus performantes pour offrir de superbes expériences client.
+
+* Prise en charge complète des cas d’utilisation d’engagement : Federated Audience Composition, couplée à Real-Time CDP ou Journey Optimizer, prend en charge des expériences personnalisées initiées par la marque avec des audiences fédérées et offre des expériences en temps réel déclenchées par des événements temps réel, ainsi que des attributs de personne pour répondre aux exigences des cas d’utilisation au sein des équipes.
+
+* Minimiser le déplacement et la duplication des données : créez des audiences à partir de jeux de données qui vivent dans un entrepôt de données d’entreprise sans copier de données sous-jacentes pour gérer les profils et audiences marketing exploitables.
+
+* Utiliser un seul système pour les workflows pilotés par l’expérience : traitez les audiences ingérées et fédérées dans Adobe Experience Platform et coordonnez les expériences sortantes sur tous les canaux.
 
 ## Cas d’utilisation {#rn-uc}
 
 Dans une interface utilisateur conviviale pour le marketing, créez des règles de segmentation qui recherchent dans votre entrepôt de données une liste d’utilisateurs qualifiés pour un segment spécifique nécessaire aux campagnes marketing, accédez aux audiences existantes de l’entrepôt pour activation ou enrichissez les audiences Adobe Experience Platform avec des points de données supplémentaires qui existent dans l’entrepôt.
 
-Dans cette version, deux cas d’utilisation sont disponibles : Création d’audience et Enrichissement d’audience.
+Dans cette version, deux cas pratiques sont disponibles :
+
+1. Création d’audiences : créez de nouvelles audiences à partir de jeux de données d’entreprise sans copier de données sous-jacentes et activez ces audiences avec des destinations prédéfinies. &#x200B;
+
+1. Enrichissement de l’audience : enrichissez les audiences existantes dans Adobe Experience Platform en utilisant les données d’audience composée qui ont été fédérées à partir de l’entrepôt de données d’entreprise. Ces données ne seront pas conservées dans les profils client Adobe Experience Platform.
 
 ![diagramme](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

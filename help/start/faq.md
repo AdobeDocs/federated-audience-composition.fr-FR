@@ -1,18 +1,18 @@
 ---
 title: Questions fréquentes
-description: Questions fréquentes
+description: Questions fréquentes sur la composition des audiences fédérées Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 4%
+source-wordcount: '836'
+ht-degree: 3%
 
 ---
 
 # Questions fréquentes {#faq}
 
-Vous trouverez ci-dessous une liste des questions fréquentes sur la composition des audiences fédérées. Une FAQ globale est également disponible pour Adobe Experience Platform Segmentation Service dans [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
+Vous trouverez ci-dessous une liste des questions fréquentes sur la composition des audiences fédérées Adobe Experience Platform. Une FAQ globale est également disponible pour Adobe Experience Platform Segmentation Service dans [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
 +++Quelles sont les autorisations requises pour accéder à la composition d’audiences fédérées ?

@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform - Page d’accueil de la documentation sur la composition d’audiences fédérées
+title: Page d’accueil de la documentation sur la composition d’audiences fédérées Adobe Experience Platform
 description: Voici la présentation de l’article.
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 5%
 
 ---
-
 
 # Documentation sur la composition d’audiences fédérées  {#fac-home}
 
 Bienvenue dans la documentation sur la composition d’audiences fédérées de Adobe Experience Platform.
 
-La composition d’audiences fédérées offre aux utilisateurs d’Adobe Real-Time CDP et de Adobe Journey Optimizer la flexibilité et l’efficacité de la gestion des données. Avec Federated Audience Composition, vous pouvez accéder à votre entrepôt de données d’entreprise à l’aide d’une interface utilisateur conviviale pour créer des audiences et exploiter des jeux de données dans des workflows Adobe Experience Platform sans conserver les données d’entreprise sous-jacentes. Cela vous permet de réduire les mouvements de données lors de l’accès à des entrepôts de données pour des cas d’utilisation d’expérience.
+La composition d’audiences fédérées Experience Platform offre aux utilisateurs d’Adobe Real-Time CDP et de Adobe Journey Optimizer la flexibilité et l’efficacité de la gestion des données. Avec Federated Audience Composition, vous pouvez accéder à votre entrepôt de données d’entreprise à l’aide d’une interface utilisateur conviviale pour créer des audiences et exploiter des jeux de données dans des workflows Adobe Experience Platform sans conserver les données d’entreprise sous-jacentes. Cela vous permet de réduire les mouvements de données lors de l’accès à des entrepôts de données pour des cas d’utilisation d’expérience.
 
 >[!BEGINTABS]
 
@@ -74,5 +74,3 @@ Ajouter et configurer des activités (Partage, Enrichissement, Requête, etc.) p
 ## Ressources supplémentaires  {#additional-resources}
 
 [Documentation Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Documentation Adobe Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
-
