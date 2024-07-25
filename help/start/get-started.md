@@ -3,9 +3,9 @@ title: Prise en main de la composition d’audiences fédérées
 description: Découvrez ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e0f74c25e2f57098ce65c8cdf032a90b4eecdaba
+source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '510'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ Adobe Federated Audience Composition permet aux utilisateurs d’applications Ad
 
 Dans une interface utilisateur conviviale pour le marketing, créez des règles de segmentation qui recherchent dans votre entrepôt de données une liste d’utilisateurs qualifiés pour un segment spécifique nécessaire aux campagnes marketing, accédez aux audiences existantes de l’entrepôt pour activation ou enrichissez les audiences Adobe Experience Platform avec des points de données supplémentaires qui existent dans l’entrepôt.
 
-Dans cette version, deux cas d’utilisation sont disponibles : Création d’audience et Enrichissement d’audience. L’enrichissement de profil sera disponible dans une prochaine version.
+Dans cette version, deux cas d’utilisation sont disponibles : Création d’audience et Enrichissement d’audience.
 
 ![diagramme](assets/fac-use-cases.png){zoomable="yes"}
 
