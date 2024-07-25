@@ -2,13 +2,13 @@
 title: Prise en main de la composition d’audiences fédérées
 description: Découvrez ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
+source-git-commit: e0f74c25e2f57098ce65c8cdf032a90b4eecdaba
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 12%
+source-wordcount: '519'
+ht-degree: 11%
 
 ---
-
 
 # Prise en main de la composition d’audiences fédérées {#gs-fac}
 
@@ -20,7 +20,7 @@ Adobe Federated Audience Composition permet aux utilisateurs d’applications Ad
 
 Dans une interface utilisateur conviviale pour le marketing, créez des règles de segmentation qui recherchent dans votre entrepôt de données une liste d’utilisateurs qualifiés pour un segment spécifique nécessaire aux campagnes marketing, accédez aux audiences existantes de l’entrepôt pour activation ou enrichissez les audiences Adobe Experience Platform avec des points de données supplémentaires qui existent dans l’entrepôt.
 
-Dans cette version, deux cas d’utilisation sont disponibles : Segmentation d’audience et Enrichissement d’audience. L’enrichissement de profil sera disponible dans une prochaine version.
+Dans cette version, deux cas d’utilisation sont disponibles : Création d’audience et Enrichissement d’audience. L’enrichissement de profil sera disponible dans une prochaine version.
 
 ![diagramme](assets/fac-use-cases.png){zoomable="yes"}
 
@@ -39,6 +39,12 @@ Principales étapes :
 3. **Transformation des données** : appliquez des techniques de manipulation de données pour modifier le format, la structure ou les valeurs des éléments de données afin de les rendre compatibles ou adaptés à des analyses ou applications spécifiques.
 
 4. **Utilisation des données** : créez, orchestrez et créez des audiences. Découvrez comment composer des audiences dans [cette page](../compositions/gs-compositions.md). Vous pouvez également mettre à jour ou réutiliser des audiences existantes via Adobe Experience Platform Audience Portal et les destinations. En savoir plus sur [cette page](../connections/destinations.md)
+
+
+>[!NOTE]
+>
+>Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe et disponible dans la plateforme de données clients en temps réel d’Adobe et/ou Adobe Journey Optimizer. Elle est rendue accessible dans le menu **Audiences** . [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>
 
 
 
