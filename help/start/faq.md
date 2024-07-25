@@ -3,10 +3,10 @@ title: Questions fréquentes
 description: Questions fréquentes
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 3%
+source-wordcount: '826'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ Vous trouverez ci-dessous une liste des questions fréquentes sur la composition
 
 +++Quelles sont les autorisations requises pour accéder à la composition d’audiences fédérées ?
 
-Il n’existe aucune autorisation spécifique pour la composition d’audiences fédérées. La seule condition préalable pour accéder à cette fonctionnalité est d’avoir acheté le module complémentaire de composition d’audiences fédérées .
+La composition d’audiences fédérées requiert les packages Adobe Real-Time Customer Data Platform et Adobe Journey Optimizer Prime ou Ultimate. Il n’existe aucune autorisation spécifique pour la composition d’audiences fédérées. La seule condition préalable pour accéder à cette fonctionnalité est d’avoir acheté le module complémentaire de composition d’audiences fédérées .
 
 +++
 
@@ -61,7 +61,7 @@ Oui, une fois connecté, la composition d’audience fédérée peut être utili
 
 +++Existe-t-il un stockage temporaire dans la composition d’audiences fédérées ?
 
-Non, la composition d’audiences fédérées stocke uniquement les métadonnées (descriptions de schéma). Aucune donnée client n’est en cours de transition. Le flux d’exportation d’audience est effectué directement à partir de Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) vers la base de données client. Le flux de création et de mise à jour s’effectue directement de votre base de données de l’entrepôt de données vers Adobe Experience Platform Audience Portal.
+Non, la composition d’audiences fédérées stocke uniquement les métadonnées (descriptions de schéma). Aucune donnée client n’est en cours de transition. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ Notez que l’expiration des données actuelles pour les audiences générées e
 
 * Dans le cas d’un enrichissement d’audience, le point de départ est une audience Adobe Experience Platform existante. Deux scénarios peuvent être présentés ici :
    1. Importation d’attributs de payload d’audience supplémentaires à partir de l’entrepôt de données fédéré : dans ce cas, les attributs supplémentaires qui sont ajoutés seront repris dans le cadre de cette définition d’audience. L’expiration des données pour les audiences générées en externe est la même que celle décrite ci-dessus : 30 jours.
-   1. Affinez l’audience Adobe Experience Platform existante en fonction d’attributs supplémentaires existant dans votre entrepôt de données. Par exemple, vous avez une audience de clients qui ont manifesté de l’intérêt pour un produit particulier sur le site web au cours des deux derniers mois. Vous souhaitez maintenant prendre cette audience en compte et la segmenter davantage à l’aide de la Composition de l’audience fédérée afin de n’inclure que les clients ayant un score de crédit élevé. Le score de crédit est considéré comme sensible, et les points de données de score de crédit individuels ne sont pas copiés depuis l’entrepôt de données.
+   1. Affinez l’audience Adobe Experience Platform existante en fonction d’attributs supplémentaires existant dans votre entrepôt de données. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++Si les données des modèles de cas d’utilisation Création d’audience et Enrichissement d’audience ne sont pas conservées, comment est-il stocké temporairement ?
