@@ -3,20 +3,17 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête.
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
+source-git-commit: 0efe4046cf30b4c447551c1cebbea0b4c2085a9f
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 96%
+source-wordcount: '2068'
+ht-degree: 95%
 
 ---
 
 # Éditer les expressions {#expression}
 
 L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
-
->[!IMPORTANT]
->
->La section ci-dessous fournit des informations sur l’utilisation de l’éditeur d’expression pour créer des règles. Gardez à l’esprit que la syntaxe utilisée pour créer des règles diffère de celle utilisée pour ajouter de la personnalisation.
 
 ## Utiliser l’éditeur d’expression {#edit}
 
