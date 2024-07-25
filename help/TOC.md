@@ -2,9 +2,9 @@
 user-guide-title: Composition du public fédéré Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition du public fédéré Experience Platform
-source-git-commit: a56ae63a7f8da28dce0ba4f1be8d0d650477ec2f
+source-git-commit: bfb13da161d966ec82d147c2d4c293b80fcf071d
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '145'
 ht-degree: 35%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 35%
 
 # Documentation sur la composition des audiences fédérées Experience Platform {#using}
 
-+ [Documentation sur la composition d’audiences fédérées](home.md)
++ [Documentation sur la composition des audiences fédérées Experience Platform](home.md)
 + [Notes de mise à jour](start/release-notes.md)
 + Prise en main de la composition d’audiences fédérées {#start}
    + [Composition de l’audience fédérée](start/get-started.md)
