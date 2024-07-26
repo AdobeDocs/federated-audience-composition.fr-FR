@@ -4,7 +4,7 @@ title: Utilisation de l’activité Enrichissement
 description: Découvrez comment utiliser l’activité Enrichissement
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 57%
@@ -40,7 +40,7 @@ ht-degree: 57%
 
 L&#39;activité **Enrichissement** permet d&#39;améliorer les données ciblées avec des informations supplémentaires de la base de données fédérée. Elle est généralement utilisée dans une composition après les activités de segmentation.
 
-Si vous avez configuré une connexion à la destination de composition de données fédérées, vous pouvez utiliser l’activité Enrichissement pour enrichir les données provenant de Adobe Experience Platform avec les attributs de votre base de données externe. [Découvrez comment enrichir les audiences Adobe Experience Platform avec des données externes](../../connections/destinations.md)
+Si vous avez configuré une connexion à la destination de composition d’audiences fédérées, vous pouvez utiliser l’activité Enrichissement pour enrichir les données provenant de Adobe Experience Platform avec les attributs de votre base de données externe. [Découvrez comment enrichir les audiences Adobe Experience Platform avec des données externes](../../connections/destinations.md)
 
 Les données d’enrichissement tirent leur origine des sources suivantes :
 
