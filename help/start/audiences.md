@@ -4,9 +4,9 @@ title: Utiliser les audiences
 description: Découvrez comment utiliser les audiences
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 58cbd9c38bbeab1fb8a18cbb30de282ed798ffb0
+source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 5%
 
 ---
@@ -17,11 +17,11 @@ La composition d’audience fédérée Experience Platform vous permet de [crée
 
 Vous pouvez ensuite activer ces audiences vers n’importe quelle destination prise en charge par Adobe Experience Platform.
 
-### Création d’audiences à l’aide de compositions {#creation}
+## Création d’audiences à l’aide de compositions {#creation}
 
 Pour créer des audiences à l’aide de la composition d’audiences fédérées, vous devez créer une composition comprenant une activité **[!UICONTROL Sauvegarde d’audience]** . Cette activité vous permet de sauvegarder l’audience dans Audience Portal et de sélectionner des champs de vos bases de données externes à inclure dans l’audience. [Découvrez comment configurer une activité Enregistrer une audience](../compositions/activities/save-audience.md).
 
-L’audience créée à l’aide de l’Adobe de la composition de données fédérées comprend tous les champs sélectionnés dans l’activité **{!UICONTROL Sauvegarde d’audience}** et sont stockés dans Audience Portal à côté de toutes les audiences Adobe Experience Platform.
+Les audiences créées à l’aide de l’option Adobe la composition de données fédérées incluent tous les champs sélectionnés dans l’activité **[!UICONTROL Sauvegarde d’audience]** et sont stockées dans Audience Portal à côté de toutes les audiences Adobe Experience Platform.
 
 Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe et disponible dans la plateforme de données clients en temps réel d’Adobe et/ou Adobe Journey Optimizer.
 
