@@ -3,9 +3,9 @@ title: Questions fréquentes
 description: Questions fréquentes sur la composition des audiences fédérées Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '816'
 ht-degree: 3%
 
 ---
@@ -87,7 +87,7 @@ Les données d’audience résultantes ne persistent pas indéfiniment dans Adob
 
 +++Puis-je supprimer une audience chargée personnalisée ?
 
-Vous pouvez supprimer les audiences qui ne sont pas utilisées dans l’activation en aval directement dans Audience Portal en sélectionnant simplement Supprimer dans le menu d’actions. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.
+Non, dans la version actuelle, vous ne pouvez pas supprimer les audiences chargées personnalisées. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 
