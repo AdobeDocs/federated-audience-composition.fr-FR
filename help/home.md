@@ -1,9 +1,9 @@
 ---
 title: Page d’accueil de la documentation sur la composition d’audiences fédérées Adobe Experience Platform
-description: Voici la présentation de l’article.
+description: Documentation complémentaire sur la composition d’audiences fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: a56ae63a7f8da28dce0ba4f1be8d0d650477ec2f
+source-git-commit: 01ecc3abb201f241c68ee2a0ce9c0f4f0a50fad7
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 5%
