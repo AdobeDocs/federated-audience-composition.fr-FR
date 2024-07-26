@@ -4,9 +4,9 @@ title: Enrichir les audiences Adobe Experience Platform avec des données extern
 description: Découvrez comment affiner et enrichir les audiences Adobe Experience Platform avec les données de vos bases de données fédérées à l’aide de la destination de composition d’audiences fédérées.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '566'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platform permet une intégration transparente des audiences du 
 
 Pour ce faire, vous devez configurer une nouvelle connexion dans Adobe Experience Platform à la destination Adobe Federated Audience Composition . Vous pouvez utiliser un planificateur pour envoyer une audience donnée à des fréquences régulières, sélectionner des attributs spécifiques à inclure, tels que les identifiants pour la réconciliation des données. Si vous avez appliqué des politiques de gouvernance et de confidentialité à votre audience, elles seront conservées et renvoyées au portail d’audience une fois l’audience mise à jour.
 
-Par exemple, si vous stockez des scores de crédit client dans votre entrepôt de données et si vous disposez d’une audience Adobe Experience Platform ciblant les clients intéressés par un produit spécifique au cours des deux derniers mois, vous pouvez affiner cette audience en fonction des scores de crédit à l’aide de la destination Composition d’audience fédérée . Ce processus vous permet de filtrer l’audience afin de n’inclure que les profils présentant des scores de crédit élevés, sans transférer de données sensibles de score de crédit depuis votre entrepôt de données.
+Supposons, par exemple, que vous stockiez des informations d’achat dans votre entrepôt de données et qu’une audience Adobe Experience Platform cible les clients intéressés par un produit spécifique au cours des deux derniers mois. À l’aide de la destination Composition de l’audience fédérée , vous pouvez :
+
+* Affinez l’audience en fonction des informations d’achat. Par exemple, vous pouvez filtrer l’audience pour cibler les clients qui ont effectué un achat de plus de 150$ uniquement.
+* Enrichissez l&#39;audience avec les champs relatifs aux achats, tels que le nom du produit et la quantité achetée.
 
 Les principales étapes pour envoyer des audiences Adobe Experience Platform à la composition d’audiences fédérées Adobe sont les suivantes :
 
