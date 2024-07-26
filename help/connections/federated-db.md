@@ -4,10 +4,10 @@ title: Commencer avec les bases de données fédérées
 description: Découvrez comment créer et gérer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 50%
+source-wordcount: '1566'
+ht-degree: 46%
 
 ---
 
@@ -68,7 +68,11 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
    * **[!UICONTROL Base de données]** : nom de la base de données s’il n’est pas spécifié dans le DSN. Il peut rester vide s’il est spécifié dans le DSN
 
-   * **[!UICONTROL Schéma de travail]** : nom de votre schéma de travail. [En savoir plus](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Schéma de travail]** : nom du schéma de base de données à utiliser pour les tables de travail. [En savoir plus](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
 
 1. Sélectionnez l&#39;option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
 
@@ -188,7 +192,11 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
    * **[!UICONTROL Base de données]** (facultatif) : Entrez le nom de votre base de données s’il n’est pas spécifié dans le DSN.
 
-   * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom de votre schéma de travail.
+   * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom du schéma de base de données à utiliser pour les tables de travail.
+
+     >[!NOTE]
+     >
+     >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
 
    * **[!UICONTROL Clé privée]** : cliquez sur le champ **[!UICONTROL Clé privée]** pour sélectionner vos fichiers .pem dans votre dossier de paramètres régionaux.
 
@@ -240,7 +248,11 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
    * **[!UICONTROL Base de données]** (facultatif) : Entrez le nom de votre base de données s’il n’est pas spécifié dans le DSN.
 
-   * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom de votre schéma de travail.
+   * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom du schéma de base de données à utiliser pour les tables de travail.
+
+     >[!NOTE]
+     >
+     >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
 
    * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 
