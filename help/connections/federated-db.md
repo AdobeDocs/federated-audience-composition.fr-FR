@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Commencer avec les bases de données fédérées
+title: Prise en main de Federated database
 description: Découvrez comment créer et gérer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 46%
+source-wordcount: '1560'
+ht-degree: 43%
 
 ---
 
-# Commencer avec les bases de données fédérées {#federated-db}
+# Prise en main de Federated database {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="Bases de données fédérées"
->abstract="Les connexions existantes à des bases de données fédérées sont répertoriées dans cet écran. Pour créer une connexion, cliquez sur le bouton **[!UICONTROL Ajouter une base de données fédérée]**."
+>title="Base de données fédérées"
+>abstract="Les connexions existantes aux bases de données fédérées sont répertoriées dans cet écran. Pour créer une connexion, cliquez sur le bouton **[!UICONTROL Ajouter une base de données fédérée]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -44,7 +44,7 @@ Avec Federated Audience Composition, vous pouvez vous connecter aux bases de don
 
 ## Amazon Redshift {#amazon-redshift}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.
 
 1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
 
@@ -82,7 +82,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Azure Synapse Redshift.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Azure Synapse Redshift.
 
 1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
 
@@ -121,7 +121,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 ## Google BigQuery {#google-big-query}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Google Big Query.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Google Big Query.
 
 1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
 
@@ -168,7 +168,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 ## Snowflake {#snowflake}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Snowflake.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Snowflake.
 
 1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
 
@@ -214,7 +214,7 @@ Le connecteur prend en charge les options suivantes :
 |---|---|
 | workschema | Schéma de base de données à utiliser pour les tables de travail. |
 | warehouse | Nom de l&#39;entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l&#39;utilisateur. |
-| TimeZoneName | Vide par défaut. C&#39;est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| TimeZoneName | Par défaut vide, ce qui signifie que le serveur de l’application de fuseau horaire système est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats mis en cache du Snowflake. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Nombre de threads à utiliser pour le chargeur en masse de Snowflake ; plus de threads signifient de meilleures performances pour les chargements en masse plus volumineux. Par défaut, cette valeur est définie sur 1. Le nombre peut être ajusté en fonction du nombre de threads de la machine. |
@@ -224,7 +224,7 @@ Le connecteur prend en charge les options suivantes :
 
 ## Vertica Analytics {#vertica-analytics}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Vertica Analytics.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Vertica Analytics.
 
 1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
 
@@ -266,4 +266,4 @@ Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
-| TimeZoneName | Vide par défaut. C&#39;est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. |
+| TimeZoneName | Par défaut vide, ce qui signifie que le fuseau horaire système du serveur d’applications est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. |
