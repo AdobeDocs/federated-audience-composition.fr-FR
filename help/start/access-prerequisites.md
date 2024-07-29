@@ -2,9 +2,9 @@
 title: Accès à la composition d’audiences fédérées
 description: Découvrez comment accéder à la composition d’audiences fédérées.
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 618d1675c28213d7a316f40cd624d282e01297f1
+source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,9 @@ Par exemple, si un nouvel environnement de test nommé &quot;fac-test&quot; est 
 
 ## Listes autorisées des adresses IP {#ip}
 
-Vos adresses IP doivent être ajoutées à la liste autorisée pour permettre l’accès à votre entrepôt de données et utiliser la composition d’audiences fédérées. Pour ajouter vos adresses IP à la liste autorisée, contactez votre représentant d’Adobe.
+Pour activer en toute sécurité Federated Audience Composition et accéder à vos bases de données, contactez votre représentant d’Adobe afin d’obtenir les adresses IP des serveurs Federated Audience Composition qui y accéderont.
+
+Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la composition d’audiences fédérées.&quot;
 
 ## Mécanismes de sécurisation et limitations {#fac-guardrails}
 
