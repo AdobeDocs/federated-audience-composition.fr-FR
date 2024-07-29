@@ -4,10 +4,10 @@ title: Commencer avec les modèles de données
 description: Découvrez comment commencer avec les modèles de données
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -37,11 +37,19 @@ ht-degree: 28%
 
 ## Qu’est-ce qu’un modèle de données ? {#data-model-start}
 
-Un modèle de données est un ensemble de schémas, d’audiences et de liens entre eux.
+Un modèle de données est un ensemble de schémas, d’audiences et de liens entre eux. Il est utilisé pour fédérer les audiences avec des données de base de données.
 
 En savoir plus sur les [schémas](../customer/schemas.md#schema-start).
 
 En savoir plus sur [audiences](../start/audiences.md).
+
+Par exemple, vous pouvez voir ci-dessous une représentation d’un modèle de données : les tables avec leur nom et les liens entre elles.
+
+![](assets/datamodel.png){zoomable="yes"}
+
+Dans la composition d’audiences fédérées, il est possible de créer de nombreux modèles de données.
+
+Leur création dépendra du cas d&#39;utilisation : vous choisissez les tables nécessaires et vous les reliez selon vos besoins.
 
 ## Création d’un modèle de données {#data-model-create}
 
