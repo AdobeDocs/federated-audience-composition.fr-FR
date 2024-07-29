@@ -4,10 +4,10 @@ title: Commencer avec les modèles de données
 description: Découvrez comment commencer avec les modèles de données
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 22%
+source-wordcount: '380'
+ht-degree: 17%
 
 ---
 
@@ -79,9 +79,17 @@ Pour créer des liens entre les tables de votre modèle de données, procédez c
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   Tous les liens définis pour votre modèle de données sont répertoriés comme ci-dessous :
+   **Cardinalité**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N : une occurrence de la table source peut avoir plusieurs occurrences correspondantes de la table cible, mais une occurrence de la table cible peut avoir au plus une occurrence correspondante de la table source.
+
+   * N-1 : une occurrence de la table cible peut avoir plusieurs occurrences correspondantes de la table source, mais une occurrence de la table source peut avoir au plus une occurrence correspondante de la table cible.
+
+   * 1-1 : une occurrence de la table source peut avoir au plus une occurrence correspondante de la table cible.
+
+Tous les liens définis pour votre modèle de données sont répertoriés comme ci-dessous :
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## Vidéo - Comment {#data-model-video}
 
