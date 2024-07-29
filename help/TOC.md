@@ -2,10 +2,10 @@
 user-guide-title: Composition du public fédéré Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition du public fédéré Experience Platform
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 36%
+source-wordcount: '145'
+ht-degree: 38%
 
 ---
 
@@ -51,5 +51,4 @@ ht-degree: 36%
    + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
    + [Éditer les expressions](query/expression-editor.md)
-+ Journal d’audit {#audit-trail}
-   + [Surveiller vos bases de données](admin/audit-trail.md)
++ [Journal d’audit](admin/audit-trail.md)

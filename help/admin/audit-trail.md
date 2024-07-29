@@ -1,26 +1,26 @@
 ---
 audience: end-user
-title: Commencer avec le journal d’audit
-description: Découvrez comment surveiller vos bases de données avec le journal d’audit
+title: Journal d’audit
+description: Découvrez comment les actions et les événements sont consignés et accessibles dans le journal d’audit
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 64%
+source-wordcount: '369'
+ht-degree: 56%
 
 ---
 
-# Commencer avec le journal d’audit {#audit-trail}
+# Journal d’audit {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Journal d’audit"
->abstract="La fonctionnalité de journal d’audit fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel sur votre environnement."
+>abstract="La fonctionnalité Suivi fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel dans votre environnement de composition d’audiences fédérées Adobe Experience Platform."
 
 La fonctionnalité Suivi fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés dans votre environnement en temps réel.
 
-La fonction **[!UICONTROL Suivi]** enregistre constamment en temps réel un journal détaillé des actions et événements qui se produisent dans l’instance Adobe de composition fédérée. Elle offre une méthode pratique d’accès à un enregistrement chronologique des données, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes qui les modifient ou les activités effectuées par les utilisateurs et utilisatrices au sein de l’instance.
+La fonction **[!UICONTROL Suivi]** enregistre constamment en temps réel un journal détaillé des actions et événements se produisant dans l’instance de composition fédérée de l’Adobe. Elle offre une méthode pratique d’accès à un enregistrement chronologique des données, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes qui les modifient ou les activités effectuées par les utilisateurs et utilisatrices au sein de l’instance.
 
 +++ En savoir plus sur les entités disponibles du journal d’audit
 
