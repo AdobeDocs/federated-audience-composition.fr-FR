@@ -4,10 +4,10 @@ title: Commencer avec les schémas
 description: Découvrez comment commencer avec les schémas
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 22%
 >abstract="Vous pouvez filtrer les schémas en fonction de leur source. Sélectionnez une ou plusieurs bases de données fédérées pour afficher leurs schémas."
 
 
-## Qu’est-ce qu’un schéma ? {#schema-start}
+## Qu’est-ce qu’un schéma ? {#schema-start}
 
 Un schéma est une représentation d’une table de votre base de données. Il s’agit d’un objet de l’application qui définit la manière dont les données sont liées aux tables de base de données.
 

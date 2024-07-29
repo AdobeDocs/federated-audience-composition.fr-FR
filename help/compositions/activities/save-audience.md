@@ -4,10 +4,10 @@ title: Utilisation de l’activité Sauvegarde d’audience
 description: Découvrez comment utiliser l’activité Sauvegarde d’audience
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 28%
+source-wordcount: '462'
+ht-degree: 27%
 
 ---
 
@@ -68,7 +68,7 @@ Après l’exécution de la composition, l’audience obtenue est enregistrée d
 
 L’audience créée comprend tous les champs sélectionnés dans la section Mappages d’audience . Vous pouvez cibler cette audience dans Journey Optimizer ou l’activer vers n’importe quelle destination prise en charge par Adobe Experience Platform.
 
-[En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[En savoir plus dans la documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

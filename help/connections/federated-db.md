@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Prise en main de Federated database
-description: Découvrez comment créer et gérer vos bases de données fédérées
+title: Configuration de vos bases de données fédérées
+description: Découvrez comment configurer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 43%
+source-wordcount: '1579'
+ht-degree: 38%
 
 ---
 
-# Prise en main de Federated database {#federated-db}
+# Configuration de vos bases de données fédérées {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
@@ -30,7 +30,7 @@ ht-degree: 43%
 
 La composition d’audiences fédérées Experience Platform permet au client de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform.
 
-Découvrez comment créer, configurer, tester et enregistrer la connexion à votre base de données externe dans cette page.
+Découvrez comment créer, configurer, tester et enregistrer la connexion à votre base de données externe dans [cette page](connections.md). Vous trouverez ci-dessous la liste des bases de données prises en charge et les paramètres détaillés à configurer pour chacune d’elles.
 
 ## Bases de données prises en charge {#supported-db}
 
@@ -68,7 +68,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
    * **[!UICONTROL Base de données]** : nom de la base de données s’il n’est pas spécifié dans le DSN. Il peut rester vide s’il est spécifié dans le DSN
 
-   * **[!UICONTROL Schéma de travail]** : nom du schéma de base de données à utiliser pour les tables de travail. [En savoir plus](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Schéma de travail]** : nom du schéma de base de données à utiliser pour les tables de travail. En savoir plus dans la [documentation Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -116,7 +116,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 | Option | Description |
 |---|---|
-| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. Pour plus d’informations, voir [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Exemples de chaînes de connexion n°8) |
+| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. Pour plus d’informations, reportez-vous à la [documentation Microsoft SQL](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exemples de chaînes de connexion n°8) |
 
 
 ## Google BigQuery {#google-big-query}
@@ -137,11 +137,11 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 1. Configurez les paramètres d’authentification Google Big Query :
 
-   * **[!UICONTROL Compte de service]** : saisissez l’adresse électronique de votre **[!UICONTROL compte de service]**. Pour plus d&#39;informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+   * **[!UICONTROL Compte de service]** : saisissez l’adresse électronique de votre **[!UICONTROL compte de service]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projet]** : saisissez le nom de votre **[!UICONTROL Projet]**. Pour plus d&#39;informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+   * **[!UICONTROL Projet]** : saisissez le nom de votre **[!UICONTROL Projet]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Jeu de données]** : saisissez le nom de votre **[!UICONTROL jeu de données]**. Pour plus d&#39;informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
+   * **[!UICONTROL Jeu de données]** : saisissez le nom de votre **[!UICONTROL jeu de données]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Chemin d’accès au fichier clé]** : téléchargez votre fichier de clé sur le serveur. Seuls les fichiers .json sont acceptés.
 
@@ -214,11 +214,11 @@ Le connecteur prend en charge les options suivantes :
 |---|---|
 | workschema | Schéma de base de données à utiliser pour les tables de travail. |
 | warehouse | Nom de l&#39;entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l&#39;utilisateur. |
-| TimeZoneName | Par défaut vide, ce qui signifie que le serveur de l’application de fuseau horaire système est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
-| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats mis en cache du Snowflake. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| TimeZoneName | Par défaut vide, ce qui signifie que le serveur de l’application de fuseau horaire système est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Voir à ce propos [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats mis en cache du Snowflake. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Nombre de threads à utiliser pour le chargeur en masse de Snowflake ; plus de threads signifient de meilleures performances pour les chargements en masse plus volumineux. Par défaut, cette valeur est définie sur 1. Le nombre peut être ajusté en fonction du nombre de threads de la machine. |
-| chunkSize | Détermine la taille de fichier du bloc de chargeur en masse. Par défaut, cette valeur est définie sur 128 Mo. Peut être modifiée pour des performances plus optimales, lorsqu’elle est utilisée avec bulkThreads. Plus de threads actifs simultanément signifie de meilleures performances. <br>Pour plus d’informations à ce propos, consultez la [documentation Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| chunkSize | Détermine la taille de fichier du bloc de chargeur en masse. Par défaut, cette valeur est définie sur 128 Mo. Peut être modifiée pour des performances plus optimales, lorsqu’elle est utilisée avec bulkThreads. Plus de threads actifs simultanément signifie de meilleures performances. <br>Voir à ce propos la [documentation du Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nom de l’étape interne préconfigurée. Elle sera utilisée en chargement massif au lieu de créer une nouvelle étape temporaire. |
 
 

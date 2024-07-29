@@ -4,7 +4,7 @@ title: Créer des compositions
 description: Découvrez comment créer des compositions
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 59%
@@ -18,7 +18,7 @@ ht-degree: 59%
 >title="Propriétés de la composition"
 >abstract="Dans cet écran, choisissez le modèle à utiliser pour créer la composition et indiquez un libellé. Développez la section OPTIONS SUPPLÉMENTAIRES pour configurer d’autres paramètres tels que le nom interne de la composition, son dossier, son fuseau horaire et le groupe de personnes responsables. Il est vivement recommandé de sélectionner un groupe de personnes responsables afin d’alerter les opérateurs et opératrices en cas d’erreur."
 
-## Qu&#39;y a-t-il dans une composition ? {#gs-composition-inside}
+## Contenu d’une composition {#gs-composition-inside}
 
 La composition d’audience fédérée Experience Platform fournit un canevas visuel qui vous permet de créer des audiences en exploitant différentes activités (fractionnement, enrichissement, etc.).
 

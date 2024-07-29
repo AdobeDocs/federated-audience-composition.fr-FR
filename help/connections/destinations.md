@@ -4,10 +4,10 @@ title: Enrichir les audiences Adobe Experience Platform avec des données extern
 description: Découvrez comment affiner et enrichir les audiences Adobe Experience Platform avec les données de vos bases de données fédérées à l’aide de la destination de composition d’audiences fédérées.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 7%
+source-wordcount: '573'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform à 
 
    ![](assets/destination-configure.png)
 
-   La section **[!UICONTROL Alertes]** vous permet d’activer les alertes pour recevoir des notifications sur l’état du flux de données vers votre destination. Pour plus d’informations sur les alertes, consultez le guide sur l’[abonnement aux alertes des destinations dans l’interface utilisateur](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts).
+   La section **[!UICONTROL Alertes]** vous permet d’activer les alertes pour recevoir des notifications sur l’état du flux de données vers votre destination. Pour plus d’informations sur les alertes, consultez la documentation de Adobe Experience Platform au sujet de l’ [abonnement aux alertes de destinations à l’aide de l’interface utilisateur ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. L’étape **[!UICONTROL Stratégie de gouvernance et actions d’application]** vous permet de définir vos stratégies de gouvernance des données et de vous assurer que les données utilisées sont conformes lorsque les audiences sont envoyées et actives.
 
@@ -57,11 +57,12 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform à 
 
    >[!NOTE]
    >
-   >Vous trouverez des informations détaillées sur la configuration de la planification et des noms de fichier dans la documentation de Adobe Experience Platform :
-   >* [Planification de l’export d’audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling)
-   >* [Configurer les noms de fichier](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names)
+   >Vous trouverez des informations détaillées sur la configuration de la planification et des noms de fichier dans les sections suivantes de la documentation Adobe Experience Platform :
+   >
+   >* [Planification de l’exportation de l’audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [Configurer les noms de fichiers](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. À l’étape **[!UICONTROL Mapping]**, sélectionnez les champs d’attribut et d’identité à exporter pour vos audiences. Pour plus d’informations, consultez l’ [étape de mappage](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping) dans la documentation Adobe Experience Platform.
+1. À l’étape **[!UICONTROL Mapping]**, sélectionnez les champs d’attribut et d’identité à exporter pour vos audiences. Pour plus d’informations, consultez l’[ étape de mappage](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} dans la documentation Adobe Experience Platform.
 
    ![](assets/destination-attributes.png)
 

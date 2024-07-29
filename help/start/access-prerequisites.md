@@ -1,19 +1,17 @@
 ---
-title: Accès à la composition d’audiences fédérées
-description: Découvrez comment accéder à la composition d’audiences fédérées.
+title: Conditions préalables et barrières de sécurité pour la composition d’audiences fédérées
+description: Découvrez les conditions préalables, les autorisations et les barrières de sécurité pour la composition d’audiences fédérées
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '286'
+ht-degree: 3%
 
 ---
 
-# Accès à la composition d’audiences fédérées {#fac-access}
+# Conditions préalables et mécanismes de sécurisation {#fac-access}
 
-## Modules et modules complémentaires {#package}
-
-La composition d’audiences fédérées requiert les packages Adobe Real-Time Customer Data Platform et Adobe Journey Optimizer Prime ou Ultimate. Pour accéder à cette fonctionnalité, vous devez avoir acheté le module complémentaire Composition d’audience fédérée .
+La composition d’audiences fédérées requiert les packages Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer **Prime** ou **Ultimate**. Pour accéder à cette fonctionnalité, vous devez avoir acheté le module complémentaire Composition d’audience fédérée .
 
 >[!AVAILABILITY]
 >

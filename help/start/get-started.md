@@ -3,9 +3,9 @@ title: Prise en main de la composition Experience Platform d’audiences fédér
 description: Découvrez ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '722'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,11 @@ Principales étapes :
 
 <!-- Workflow + Workflow activities-->
 
-Reportez-vous à la section Questions fréquentes sur [cette page](faq.md).
+
+Découvrez comment accéder à la composition, aux barrières de sécurité et aux limitations d’audiences fédérées dans [cette page](access-prerequisites.md).
+
+Voir aussi les questions fréquentes dans [cette page](faq.md).
+
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"

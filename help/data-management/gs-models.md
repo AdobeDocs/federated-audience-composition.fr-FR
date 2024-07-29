@@ -4,7 +4,7 @@ title: Commencer avec les modèles de données
 description: Découvrez comment commencer avec les modèles de données
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 17%
@@ -35,7 +35,7 @@ ht-degree: 17%
 >abstract="Saisissez le libellé du modèle de données."
 
 
-## Qu’est-ce qu’un modèle de données ? {#data-model-start}
+## Présentation d’un modèle de données {#data-model-start}
 
 Un modèle de données est un ensemble de schémas, d’audiences et de liens entre eux. Il est utilisé pour fédérer les audiences avec des données de base de données.
 

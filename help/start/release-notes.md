@@ -3,7 +3,7 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platfo
 description: Dernières mises à jour et notes de mise à jour
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Federated Audience Composition est une fonctionnalité complémentaire qui perme
 
 La composition d’audiences fédérées répond aux demandes croissantes du marché pour les entreprises qui ont besoin de la flexibilité nécessaire pour composer des audiences avec des jeux de données d’entrepôt. Cela permet aux entreprises de réduire le mouvement des données tout en mettant les données d’audience critiques à la disposition des équipes marketing pour répondre aux besoins des cas d’utilisation et alimenter les expériences personnalisées. 
 
-Pour en savoir plus sur les fonctionnalités de composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](get-started.md#faq).
+Pour en savoir plus sur les fonctionnalités de composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](faq.md).
 
 Pour plus d’informations sur les conditions préalables à l’accès aux Federated Audience Compositions et aux barrières de sécurité actuelles, consultez [cette page](access-prerequisites.md).
 

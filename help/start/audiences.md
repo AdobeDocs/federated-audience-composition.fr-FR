@@ -4,9 +4,9 @@ title: Utiliser les audiences
 description: Découvrez comment utiliser les audiences
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ Les audiences créées à l’aide de l’option Adobe la composition de donnée
 
 Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe et disponible dans la plateforme de données clients en temps réel d’Adobe et/ou Adobe Journey Optimizer.
 
-Vous pouvez activer ces audiences vers n’importe quelle destination prise en charge par Adobe Experience Platform. [Découvrez comment utiliser les destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+Vous pouvez activer ces audiences vers n’importe quelle destination prise en charge par Adobe Experience Platform. Découvrez comment utiliser les destinations dans [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 
 >[!NOTE]
 >
@@ -39,6 +39,6 @@ L’onglet **[!UICONTROL Parcourir]** répertorie toutes les audiences existante
 
 ![](assets/audiences-list.png)
 
-Pour plus d’informations sur l’utilisation des audiences dans Adobe Experience Platform, consultez la [documentation d’Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+Pour plus d’informations sur l’utilisation des audiences dans Adobe Experience Platform, consultez la [documentation d’Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

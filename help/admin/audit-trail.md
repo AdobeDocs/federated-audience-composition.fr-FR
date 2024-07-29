@@ -3,10 +3,11 @@ audience: end-user
 title: Commencer avec le journal d’audit
 description: Découvrez comment surveiller vos bases de données avec le journal d’audit
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 69%
+source-wordcount: '365'
+ht-degree: 64%
 
 ---
 
@@ -52,7 +53,7 @@ Pour accéder au **[!UICONTROL journal d’audit]** de votre instance, procédez
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Suivi]**.
 
-1. La fenêtre **[!UICONTROL Journal d’audit]** s’ouvre avec la liste de vos entités. L’interface d’utilisation d’Adobe Campaign Web réalise l’audit des actions de création, de modification et de suppression pour les workflows, les options, les diffusions et les schémas.
+1. La fenêtre **[!UICONTROL Journal d’audit]** s’ouvre avec la liste de vos entités. La composition d’audiences fédérée effectue un audit des actions de création, de modification et de suppression pour les workflows, les options, les diffusions et les schémas.
 
    ![](assets/audit_trail.png)
 

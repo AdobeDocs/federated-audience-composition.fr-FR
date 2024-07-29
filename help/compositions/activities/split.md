@@ -4,10 +4,10 @@ title: Utilisation de l'activité Partage
 description: Découvrez comment utiliser l’activité Partage
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 89%
+source-wordcount: '925'
+ht-degree: 84%
 
 ---
 
@@ -60,7 +60,7 @@ L’activité **Partage** permet de segmenter les populations entrantes en plusi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Permettre le chevauchement des populations de sortie"
->abstract="L’option **[!UICONTROL Permettre le chevauchement des populations de sortie]** permet de gérer les populations appartenant à plusieurs sous-ensembles. Lorsque la case n’est pas cochée, l’activité de partage fait en sorte qu’une personne destinataire ne puisse pas apparaître dans plusieurs transitions de sortie, même si elle répond aux critères de plusieurs sous-ensembles. Elles apparaissent ainsi dans la cible du premier onglet avec les critères correspondants. Lorsque la case est cochée, les personnes destinataires peuvent apparaître dans plusieurs sous-ensembles si leurs critères de filtrage correspond. Adobe Campaign vous recommande d’utiliser des critères exclusifs."
+>abstract="L’option **[!UICONTROL Permettre le chevauchement des populations de sortie]** permet de gérer les populations appartenant à plusieurs sous-ensembles. Lorsque la case n’est pas cochée, l’activité de partage fait en sorte qu’une personne destinataire ne puisse pas apparaître dans plusieurs transitions de sortie, même si elle répond aux critères de plusieurs sous-ensembles. Elles apparaissent ainsi dans la cible du premier onglet avec les critères correspondants. Lorsque la case est cochée, les destinataires se trouvent dans plusieurs sous-ensembles s&#39;ils répondent à leurs critères de filtrage. "
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 
@@ -101,7 +101,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 1. L&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations appartenant à plusieurs sous-ensembles :
 
    * Lorsque la case est décochée, l&#39;activité de partage assure qu&#39;un destinataire ne sera pas présent dans plusieurs transitions en sortie, même s&#39;il vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
-   * Lorsque la case est cochée, les personnes destinataires peuvent apparaître dans plusieurs sous-ensembles si leurs critères de filtrage correspond. Adobe Campaign vous recommande d’utiliser des critères exclusifs.
+   * Lorsque la case est cochée, les destinataires se trouvent dans plusieurs sous-ensembles s&#39;ils répondent à leurs critères de filtrage. La bonne pratique consiste à utiliser un critère exclusif.
 
 L’activité est désormais configurée. Lors de l&#39;exécution, la population sera segmentée dans les différents sous-ensembles, dans l&#39;ordre dans lequel elle a été ajoutée à l&#39;activité.
 
