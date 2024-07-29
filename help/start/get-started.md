@@ -3,7 +3,7 @@ title: Prise en main de la composition Experience Platform d’audiences fédér
 description: Découvrez ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 8%
@@ -56,13 +56,9 @@ Principales étapes :
 
 4. **Utilisation des données** : créez, orchestrez et créez des audiences. Découvrez comment composer des audiences dans [cette page](../compositions/gs-compositions.md). Vous pouvez également mettre à jour ou réutiliser des audiences existantes via Adobe Experience Platform Audience Portal et les destinations. En savoir plus sur [cette page](../connections/destinations.md)
 
-
 >[!NOTE]
 >
 >Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe et disponible dans la plateforme de données clients en temps réel d’Adobe et/ou Adobe Journey Optimizer. Elle est rendue accessible dans le menu **Audiences** . [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
->
-
-
 
 ## En savoir plus {#learn}
 
@@ -74,9 +70,6 @@ Reportez-vous à la section Questions fréquentes sur [cette page](faq.md).
 >id="dc_workflow_settings_execution"
 >title="Paramètres d’exécution"
 >abstract="Dans cette section, vous pouvez paramétrer les paramètres relatifs à l&#39;exécution du workflow, par exemple le nombre de jours pendant lesquels l&#39;historique de la composition est conservé."
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"

@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platfo
 description: Dernières mises à jour et notes de mise à jour
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,5 @@ La composition d’audiences fédérées répond aux demandes croissantes du mar
 
 Pour en savoir plus sur les fonctionnalités de composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](get-started.md#faq).
 
-## Accès à la composition d’audiences fédérées {#fac-access}
+Pour plus d’informations sur les conditions préalables à l’accès aux Federated Audience Compositions et aux barrières de sécurité actuelles, consultez [cette page](access-prerequisites.md).
 
-La composition d’audiences fédérées requiert les packages Adobe Real-Time Customer Data Platform et Adobe Journey Optimizer Prime ou Ultimate.
-
-Il n’existe aucune autorisation spécifique pour la composition d’audiences fédérées. La seule condition préalable pour accéder à cette fonctionnalité est d’avoir acheté le module complémentaire de composition d’audiences fédérées .
-
->[!AVAILABILITY]
->
->Une fois que vous avez reçu la notification par e-mail de bienvenue d’Adobe, il peut s’écouler quelques heures de plus avant que l’interface ne soit mise à jour et que les fonctionnalités soient mises à votre disposition.
->
-
-## Conditions préalables et mécanismes de sécurisation {#fac-guardrails}
-
-* La composition d’audience fédérée est compatible avec Privacy &amp; Security Shield et peut être utilisée dans tous les secteurs verticaux, à l’exception des secteurs de la santé. Actuellement, la composition d’audiences fédérées ne peut pas être sous licence pour les clients qui souhaitent ingérer des données d’intégrité. [En savoir plus](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* Vos adresses IP doivent être ajoutées à la liste autorisée pour permettre l’accès à votre entrepôt de données et utiliser la composition d’audiences fédérées. Pour ajouter vos adresses IP à la liste autorisée, contactez votre représentant d’Adobe.
-
-* Les droits, les limites de produit et les barrières aux performances répertoriés dans la [documentation Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} s’appliquent à ce module complémentaire.

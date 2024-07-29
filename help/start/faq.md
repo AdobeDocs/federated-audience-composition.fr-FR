@@ -3,10 +3,10 @@ title: Questions fréquentes
 description: Questions fréquentes sur la composition des audiences fédérées Adobe Experience Platform
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 3%
+source-wordcount: '834'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,9 @@ Vous trouverez ci-dessous une liste des questions fréquentes sur la composition
 
 +++Quelles sont les autorisations requises pour accéder à la composition d’audiences fédérées ?
 
-La composition d’audiences fédérées requiert les packages Adobe Real-Time Customer Data Platform et Adobe Journey Optimizer Prime ou Ultimate. Il n’existe aucune autorisation spécifique pour la composition d’audiences fédérées. La seule condition préalable pour accéder à cette fonctionnalité est d’avoir acheté le module complémentaire de composition d’audiences fédérées .
+La composition d’audiences fédérées requiert les packages Adobe Real-Time Customer Data Platform et Adobe Journey Optimizer Prime ou Ultimate. Vous devez également avoir acheté le module complémentaire de composition d’audiences fédérées.
+
+Pour utiliser la composition d’audiences fédérées, chaque utilisateur doit être ajouté à un profil spécifique créé pour chaque environnement de test. Pour plus d’informations, consultez la page [Accéder à la composition d’audiences fédérées](access-prerequisites.md) .
 
 +++
 
