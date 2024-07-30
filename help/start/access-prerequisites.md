@@ -2,10 +2,10 @@
 title: Conditions préalables et barrières de sécurité pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les barrières de sécurité pour la composition d’audiences fédérées
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 75fa26d74931d63c94e138fe29d85088932acd7f
+source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 13%
+source-wordcount: '274'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la
 
 ## Mécanismes de sécurisation et limitations {#fac-guardrails}
 
-* L’utilisation de la composition d’audiences fédérées n’est actuellement pas disponible avec Healthcare Shield et Privacy and Security Shield.
+* La composition d’audience fédérée n’est actuellement pas disponible pour les clients [ qui ingèrent des données d’intégrité ](https://experienceleague.adobe.com/fr/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} et les clients Adobe Journey Optimizer Privacy and Security Shield. [En savoir plus](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}.
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
