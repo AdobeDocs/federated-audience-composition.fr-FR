@@ -4,10 +4,10 @@ title: Configuration de vos bases de données fédérées
 description: Découvrez comment configurer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 38%
+source-wordcount: '1621'
+ht-degree: 37%
 
 ---
 
@@ -73,6 +73,8 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
      >[!NOTE]
      >
      >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
+     >
+     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs environnements de test à la même base de données.
 
 1. Sélectionnez l&#39;option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
 
@@ -197,6 +199,8 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
      >[!NOTE]
      >
      >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
+     >
+     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs environnements de test à la même base de données.
 
    * **[!UICONTROL Clé privée]** : cliquez sur le champ **[!UICONTROL Clé privée]** pour sélectionner vos fichiers .pem dans votre dossier de paramètres régionaux.
 
@@ -253,6 +257,8 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
      >[!NOTE]
      >
      >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
+     >
+     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs environnements de test à la même base de données.
 
    * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 

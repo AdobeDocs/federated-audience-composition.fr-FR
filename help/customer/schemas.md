@@ -4,10 +4,10 @@ title: Commencer avec les schémas
 description: Découvrez comment commencer avec les schémas
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 22%
+source-wordcount: '438'
+ht-degree: 23%
 
 ---
 
@@ -48,10 +48,6 @@ En créant un schéma, vous pouvez définir une représentation de votre table d
 * Donnez-lui un nom et une description conviviaux pour simplifier la compréhension de l’utilisateur.
 * Déterminer la visibilité de chaque champ en fonction de leur utilisation réelle
 * Sélectionnez sa clé primaire, afin de lier les schémas entre eux, selon les besoins dans le [modèle de données](../data-management/gs-models.md#data-model-start)
-
->[!IMPORTANT]
->
->Il est recommandé d’utiliser des schémas de base de données fédérés distincts pour chaque environnement de test.
 
 ## Créer un schéma {#schema-create}
 
