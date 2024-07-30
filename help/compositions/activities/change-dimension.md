@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Utilisation de l’activité Changement de dimension
-description: Découvrez comment utiliser l’activité « Changement de dimension ».
+title: Utiliser l’activité Changement de dimension
+description: Découvrir comment utiliser l’activité « Changement de dimension »
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 54%
 >title="Activité Changement de dimension"
 >abstract="Cette activité vous permet de modifier le schéma, ou dimension de ciblage, à mesure que vous créez une audience. Elle déplace l’axe en fonction du modèle de données et du schéma d’entrée. Par exemple, vous pouvez passer du schéma « contrats » au schéma « clientèle »."
 
-L’activité **Changement de dimension** vous permet de modifier le schéma, également appelé dimension de ciblage, lorsque vous créez votre audience. Il déplace l’axe en fonction du modèle de données et du schéma d’entrée.
+L’activité **Changement de dimension** vous permet de modifier le schéma, ou dimension de ciblage, à mesure que vous créez une audience. Elle déplace l’axe en fonction du modèle de données et du schéma d’entrée.
 
 ## Configurer l’activité Changement de dimension {#configure}
 
@@ -33,9 +33,9 @@ Pour configurer l’activité **Changement de dimension**, procédez comme suit�
 
    ![](../assets/change-dimension.png)
 
-1. Définissez le **nouveau schéma**. Lors de la modification du schéma, tous les enregistrements sont conservés.
+1. Définissez le **nouveau schéma**. Lors du changement de dimension, tous les enregistrements sont conservés.
 
-1. Exécutez la composition pour visualiser le résultat. Comparez les données des tables avant et après l’activité **Changement de dimension** et comparez la structure des tables de composition.
+1. Exécutez la composition pour visualiser le résultat. Comparez les données contenues dans les tableaux avant et après l’activité **Changement de dimension**, puis comparez la structure des tableaux de la composition.
 
 <!--
 ## Example {#example}

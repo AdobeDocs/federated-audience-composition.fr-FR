@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
-description: Découvrez comment créer et gérer des connexions avec des bases de données fédérées
+description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 4%
+ht-degree: 19%
 
 ---
 
-# Création de connexions {#connections-fdb}
+# Créer des connexions {#connections-fdb}
 
 La composition d’audiences fédérées Experience Platform permet au client de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform.
 
@@ -36,14 +36,14 @@ Pour configurer une connexion à votre base de données, procédez comme suit :
    Les paramètres de configuration dépendent du type de votre base de données. Accédez aux liens ci-dessous pour accéder aux détails dont vous avez besoin pour configurer la connexion :
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
-   * [Azure synapse](federated-db.md#azure-synapse-redshift)
+   * [Azure Synapse](federated-db.md#azure-synapse-redshift)
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
 
 1. Une fois les détails renseignés, cliquez sur le bouton **[!UICONTROL Tester la connexion]** et sur le bouton **[!UICONTROL Déployer les fonctions]** .
 
-1. Terminez la création de votre connexion en cliquant sur le bouton **[!UICONTROL Enregistrer]** .
+1. Terminez la création de votre connexion en cliquant sur le bouton **[!UICONTROL Enregistrer]**.
 
    ![](assets/connections_testdeploy.png){zoomable="yes"}
 

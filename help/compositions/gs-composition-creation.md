@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Créer des compositions
-description: Découvrez comment créer des compositions
+description: Découvrir comment créer des compositions
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 59%
+ht-degree: 88%
 
 ---
 
@@ -26,16 +26,16 @@ Le diagramme de composition est une représentation de ce qui est censé se prod
 
 ![](assets/composition-example.png){zoomable="yes"} {zoomable="yes"}
 
-Chaque composition contient :
+Chaque composition comprend :
 
 * des **[!UICONTROL Activités]** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
 * **[!UICONTROL Transitions]** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
-* **[!UICONTROL Tables de travail]** : la table de travail contient toutes les informations véhiculées par la transition. Chaque composition utilise plusieurs tables de travail. Les données véhiculées dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la composition.
+* **[!UICONTROL Tables de travail]** : la table de travail contient toutes les informations véhiculées par la transition. Chaque composition utilise plusieurs tables de travail. Les données transmises dans ces tables peuvent être utilisées tout au long du cycle de vie de la composition.
 
-## Étapes clés de création d’une composition {#gs-composition-steps}
+## Étapes clés de la création dʼune composition {#gs-composition-steps}
 
-Les principales étapes pour créer une composition sont les suivantes :
+Voici les étapes principales de création dʼune composition :
 
-1. [Création et configuration de la composition](../compositions/create-composition.md)
+1. [Créer et configurer la composition](../compositions/create-composition.md)
 1. [Orchestrer les activités](../compositions/orchestrate-activities.md)
-1. [Exécuter la composition et suivre son exécution](../compositions/start-monitor-composition.md)
+1. [Exécuter la composition et effectuer le suivi de son exécution](../compositions/start-monitor-composition.md)

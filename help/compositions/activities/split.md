@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Utilisation de l'activité Partage
-description: Découvrez comment utiliser l’activité Partage
+title: Utiliser l’activité Partage
+description: Découvrir comment utiliser l’activité Partage
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 84%
+ht-degree: 95%
 
 ---
 
-# Fractionner {#split}
+# Partage {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -72,9 +72,9 @@ Pour configurer l’activité **Partage**, procédez comme suit :
    >
    >Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Par exemple, si le premier sous-ensemble récupère 70 % de la population initiale, le sous-ensemble ajouté suivant n’appliquera ses critères de sélection qu’aux 30 % restants, etc.
    >
-   >Avant de commencer votre composition, assurez-vous d’avoir ordonné les sous-ensembles dans l’ordre qui correspond à vos besoins. Pour ce faire, utilisez les boutons fléchés pour changer la position d’un sous-ensemble.
+   >Avant de démarrer votre composition, vérifiez que vous avez trié les sous-ensembles dans l’ordre qui vous convient. Pour ce faire, utilisez les boutons fléchés pour changer la position d’un sous-ensemble.
 
-1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions en sortie que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble afin de les identifier facilement dans la zone de travail de composition.
+1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions en sortie que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble afin de les identifier facilement dans la zone de travail de la composition.
 
    ![](../assets/split.png)
 
@@ -88,7 +88,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
    1. Pour limiter le nombre de profils sélectionnés par le sous-ensemble, activez la fonction **[!UICONTROL Activer la limite]** et indiquez le nombre ou les pourcentages de la population à inclure.
 
-   1. Pour désactiver une transition si la population entrante est vide, activez l’option **[!UICONTROL Ignorer la transition vide]**. Si aucun profil ne correspond au sous-ensemble, la composition ne passe pas à l’activité suivante.
+   1. Pour désactiver une transition si la population entrante est vide, activez l’option **[!UICONTROL Ignorer la transition vide]**. Si aucun profil ne correspond au sous-ensemble, la composition ne passera pas à l’activité suivante.
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
    * Lorsque la case est décochée, l&#39;activité de partage assure qu&#39;un destinataire ne sera pas présent dans plusieurs transitions en sortie, même s&#39;il vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
    * Lorsque la case est cochée, les destinataires se trouvent dans plusieurs sous-ensembles s&#39;ils répondent à leurs critères de filtrage. La bonne pratique consiste à utiliser un critère exclusif.
 
-L’activité est désormais configurée. Lors de l&#39;exécution, la population sera segmentée dans les différents sous-ensembles, dans l&#39;ordre dans lequel elle a été ajoutée à l&#39;activité.
+L’activité est désormais configurée. Lors de l’exécution, la population sera segmentée dans les différents sous-ensembles, dans l’ordre dans lequel ils ont été ajoutés à l’activité.
 
 <!--
 ## Example{#split-example}

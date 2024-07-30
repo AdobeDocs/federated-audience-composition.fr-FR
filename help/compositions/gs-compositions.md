@@ -1,21 +1,21 @@
 ---
 audience: end-user
 title: Commencer avec les compositions
-description: Découvrez comment commencer avec des compositions
+description: Découvrir comment démarrer avec les compositions
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 16%
+ht-degree: 89%
 
 ---
 
 # Commencer avec les compositions {#compositions}
 
-## Qu’est-ce qu’une composition ? {#what}
+## Qu’est-ce qu’une composition ? {#what}
 
-Adobe de la composition de l’audience vous permet de créer des compositions, dans lesquelles vous pouvez exploiter diverses activités (fractionner, exclure..) dans un canevas visuel pour créer des audiences. Une fois cette opération terminée, les audiences résultantes sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être exploitées dans les destinations Adobe Experience Platform et dans Adobe Journey Optimizer pour cibler les clients. [Découvrez comment utiliser les audiences](../start/audiences.md)
+La composition d’audience Adobe vous permet de créer des compositions, dans lesquelles vous pouvez tirer profit de diverses activités (partager, exclure…) dans une zone de travail visuelle pour créer des audiences. Une fois cette opération terminée, les audiences résultantes sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être exploitées dans les destinations Adobe Experience Platform et dans Adobe Journey Optimizer pour cibler les clients. [Découvrir comment utiliser les audiences](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -26,15 +26,15 @@ Adobe de la composition de l’audience vous permet de créer des compositions, 
 >title="Compositions"
 >abstract="Dans cet écran, vous pouvez accéder à la liste complète des compositions, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une composition."
 
-Les compositions sont accessibles à partir du menu **[!UICONTROL Audiences]** de Adobe Experience Platform, dans l’onglet **[!UICONTROL Compositions fédérées]**.
+Les compositions sont accessibles à partir du menu **[!UICONTROL Audiences]** d’Adobe Experience Platform, dans l’onglet **[!UICONTROL Compositions fédérées]**.
 
-Dans cet écran, vous pouvez créer de nouvelles compositions et accéder à celles existantes. Vous pouvez également dupliquer ou supprimer une composition existante en cliquant sur le bouton représentant des points de suspension en regard de son nom.
+Dans cet écran, vous pouvez accéder aux compositions existantes ou en créer de nouvelles. Vous pouvez également dupliquer ou supprimer une composition existante en cliquant sur le bouton représentant des points de suspension en regard de son nom.
 
 ![](assets/compositions-list.png)
 
 Pour affiner la liste et trouver facilement la composition que vous recherchez, vous pouvez rechercher la liste et filtrer les compositions selon leur statut ou leur date de dernier traitement.
 
-Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des colonnes. Pour ce faire, cliquez sur le bouton **[!UICONTROL Configurer la colonne]**s et ajoutez ou supprimez les colonnes de sortie souhaitées.
+Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des colonnes. Pour ce faire, cliquez sur le bouton **[!UICONTROL Configurer la colonne]** et ajoutez ou supprimez les colonnes de sortie souhaitées.
 
 ![](assets/compositions-columns.png)
 
@@ -42,10 +42,10 @@ Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des c
 
 Les compositions peuvent avoir plusieurs statuts :
 
-* **[!UICONTROL Version préliminaire]** : la composition a été créée et enregistrée.
-* **[!UICONTROL En cours]** : la composition a été exécutée et est en cours d’exécution.
-* **[!UICONTROL Stoppé]** : l’exécution de la composition est terminée et s’est arrêtée.
-* **[!UICONTROL En pause]** : l’exécution de la composition a été suspendue.
-* **[!UICONTROL En erreur]** : l’exécution de la composition a rencontré une erreur. Ouvrez la composition et accédez aux logs et tâches pour identifier l&#39;erreur et la résoudre.
+* **[!UICONTROL Brouillon]** : la composition a été créée et enregistrée.
+* **[!UICONTROL En cours]** : la composition a été effectuée et est en cours d’exécution.
+* **[!UICONTROL Arrêté]** : l’exécution de la composition est terminée et s’est arrêtée.
+* **[!UICONTROL En pause]** : la composition a été mise en pause.
+* **[!UICONTROL Erroné]** : l’exécution de la composition a rencontré une erreur. Ouvrez la composition et consultez les journaux et tâches pour identifier l’erreur et la résoudre.
 
-Des informations détaillées sur le démarrage et le suivi d&#39;une composition sont disponibles dans [cette section](../compositions/start-monitor-composition.md).
+Pour obtenir des informations détaillées sur le démarrage et la surveillance d’une composition, consultez [cette section](../compositions/start-monitor-composition.md).

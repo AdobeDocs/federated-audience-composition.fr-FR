@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Utiliser les audiences
-description: Découvrez comment utiliser les audiences
+description: Découvrir comment utiliser les audiences
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 5%
+ht-degree: 27%
 
 ---
 
@@ -29,16 +29,16 @@ Vous pouvez activer ces audiences vers n’importe quelle destination prise en c
 
 >[!NOTE]
 >
->Les audiences créées à l’aide de l’option Adobe la composition d’audiences fédérées ne peuvent pas être modifiées. Pour apporter des modifications à l’une de ces audiences, vous devez créer une audience à l’aide d’une composition.
+>Les audiences créées à l’aide de la composition d’audiences fédérées Adobe ne peuvent pas être modifiées. Pour apporter des modifications à l’une de ces audiences, vous devez créer une audience à l’aide d’une composition.
 
 ## Accès à votre audience dans Adobe Experience Platform {#access-audience}
 
 Les audiences créées à l’aide de la composition d’audiences fédérées sont accessibles dans Audience Portal, accessible à partir du menu **Audiences** .
 
-L’onglet **[!UICONTROL Parcourir]** répertorie toutes les audiences existantes stockées dans Adobe Experience Platform. Vous pouvez identifier les audiences de composition d’audiences fédérées dans la liste à l’aide de la colonne **[!UICONTROL Origine]** ou des filtres disponibles dans le volet de gauche.
+L’onglet **[!UICONTROL Parcourir]** répertorie toutes les audiences existantes stockées dans Adobe Experience Platform. Vous pouvez identifier les audiences des compositions d’audiences fédérées dans la liste à l’aide de la colonne **[!UICONTROL Origine]** ou à l’aide des filtres disponibles dans le volet de gauche.
 
 ![](assets/audiences-list.png)
 
-Pour plus d’informations sur l’utilisation des audiences dans Adobe Experience Platform, consultez la [documentation d’Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Pour plus d’informations sur l’utilisation des audiences dans Adobe Experience Platform, consultez la [documentation d’Audience Portal](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

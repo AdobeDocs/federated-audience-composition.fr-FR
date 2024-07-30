@@ -7,7 +7,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 37%
+ht-degree: 74%
 
 ---
 
@@ -34,10 +34,10 @@ Découvrez comment créer, configurer, tester et enregistrer la connexion à vot
 
 ## Bases de données prises en charge {#supported-db}
 
-Avec Federated Audience Composition, vous pouvez vous connecter aux bases de données suivantes. Le paramétrage de chaque base de données est présenté ci-dessous.
+Avec la composition d’audiences fédérées, vous pouvez vous connecter aux bases de données suivantes. La configuration de chaque base de données est présentée ci-dessous.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure synapse](#azure-synapse-redshift)
+* [Azure Synapse](#azure-synapse-redshift)
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -46,25 +46,25 @@ Avec Federated Audience Composition, vous pouvez vous connecter aux bases de don
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.
 
-1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
+1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
 1. Cliquez sur **[!UICONTROL Ajouter une base de données fédérée]**.
 
    ![](assets/federated_database_1.png)
 
-1. Saisissez un **[!UICONTROL nom]** dans votre base de données Federate.
+1. Saisissez un **[!UICONTROL nom]** pour votre base de données fédérée.
 
 1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Amazon Redshift.
 
    ![](assets/federated_database_6.png)
 
-1. Configurez les paramètres d’authentification Amazon Redshift :
+1. Configurez les paramètres d’authentification Amazon Redshift :
 
-   * **[!UICONTROL Serveur]** : ajoutez le nom du DNS.
+   * **[!UICONTROL Serveur]** : ajoutez le nom du DNS.
 
-   * **[!UICONTROL Compte]** : ajoutez le nom d’utilisateur.
+   * **[!UICONTROL Compte]** : ajoutez le nom d’utilisateur ou d’utilisatrice.
 
-   * **[!UICONTROL Mot de passe]** : ajoutez le mot de passe du compte.
+   * **[!UICONTROL Mot de passe]** : ajoutez le mot de passe du compte.
 
    * **[!UICONTROL Base de données]** : nom de la base de données s’il n’est pas spécifié dans le DSN. Il peut rester vide s’il est spécifié dans le DSN
 
@@ -76,84 +76,84 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
      >
      >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs environnements de test à la même base de données.
 
-1. Sélectionnez l&#39;option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
+1. Sélectionnez l’option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
 
 1. Cliquez sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer les fonctions.
 
-1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données Federate.
+1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données fédérée.
 
-## Azure synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Redshift {#azure-synapse-redshift}
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Azure Synapse Redshift.
 
-1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
+1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
 1. Cliquez sur **[!UICONTROL Ajouter une base de données fédérée]**.
 
    ![](assets/federated_database_1.png)
 
-1. Saisissez un **[!UICONTROL nom]** dans votre base de données Federate.
+1. Saisissez un **[!UICONTROL nom]** pour votre base de données fédérée.
 
-1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Azure synapse Redshift.
+1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Azure Synapse Redshift.
 
    ![](assets/federated_database_4.png)
 
-1. Configurez les paramètres d’authentification de l’Azure synapse Redshift :
+1. Configurez les paramètres d’authentification Azure Synapse Redshift :
 
-   * **[!UICONTROL Serveur]** : saisissez l’URL du serveur d’Azure synapse.
+   * **[!UICONTROL Serveur]** : saisissez l’URL du serveur Azure Synapse
 
-   * **[!UICONTROL Compte]** : saisissez le nom d’utilisateur.
+   * **[!UICONTROL Compte]** : saisissez le nom d’utilisateur ou d’utilisatrice.
 
-   * **[!UICONTROL Mot de passe]** : saisissez le mot de passe du compte.
+   * **[!UICONTROL Mot de passe]** : saisissez le mot de passe du compte.
 
-   * **[!UICONTROL Base de données]** (facultatif) : Entrez le nom de votre base de données s’il n’est pas spécifié dans le DSN.
+   * **[!UICONTROL Base de données]** (facultatif) : saisissez le nom de la base de données s’il n’est pas spécifié dans le DSN.
 
-   * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
+   * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 
-1. Sélectionnez l&#39;option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
+1. Sélectionnez l’option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
 
 1. Cliquez sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer les fonctions.
 
-1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données Federate.
+1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données fédérée.
 
 | Option | Description |
 |---|---|
-| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. Pour plus d’informations, reportez-vous à la [documentation Microsoft SQL](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exemples de chaînes de connexion n°8) |
+| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. Pour plus d’informations, reportez-vous à la [documentation Microsoft SQL](https://learn.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exemples de chaînes de connexion n°8) |
 
 
 ## Google BigQuery {#google-big-query}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Google Big Query.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Google BigQuery.
 
-1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
+1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
 1. Cliquez sur **[!UICONTROL Ajouter une base de données fédérée]**.
 
    ![](assets/federated_database_1.png)
 
-1. Saisissez un **[!UICONTROL nom]** dans votre base de données Federate.
+1. Saisissez un **[!UICONTROL nom]** pour votre base de données fédérée.
 
-1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Google Big Query.
+1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Google BigQuery.
 
    ![](assets/federated_database_3.png)
 
-1. Configurez les paramètres d’authentification Google Big Query :
+1. Configurez les paramètres d’authentification Google BigQuery :
 
-   * **[!UICONTROL Compte de service]** : saisissez l’adresse électronique de votre **[!UICONTROL compte de service]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
+   * **[!UICONTROL Compte de service]** : saisissez l’adresse e-mail de votre **[!UICONTROL compte de service]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projet]** : saisissez le nom de votre **[!UICONTROL Projet]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projet]** : saisissez le nom de votre **[!UICONTROL projet]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Jeu de données]** : saisissez le nom de votre **[!UICONTROL jeu de données]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
+   * **[!UICONTROL Jeu de données]** : saisissez le nom de votre **[!UICONTROL jeu de données]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
-   * **[!UICONTROL Chemin d’accès au fichier clé]** : téléchargez votre fichier de clé sur le serveur. Seuls les fichiers .json sont acceptés.
+   * **[!UICONTROL Chemin d’accès au fichier de clé]** : chargez votre fichier de clé sur le serveur. Seuls les fichiers .json sont pris en charge.
 
-   * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
+   * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 
-1. Sélectionnez l&#39;option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
+1. Sélectionnez l’option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
 
 1. Cliquez sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer les fonctions.
 
-1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données Federate.
+1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données fédérée.
 
 | Option | Description |
 |---|---|
@@ -172,27 +172,27 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Snowflake.
 
-1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
+1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
 1. Cliquez sur **[!UICONTROL Ajouter une base de données fédérée]**.
 
    ![](assets/federated_database_1.png)
 
-1. Saisissez un **[!UICONTROL nom]** dans votre base de données Federate.
+1. Saisissez un **[!UICONTROL nom]** pour votre base de données fédérée.
 
 1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Snowflake.
 
    ![](assets/federated_database_2.png)
 
-1. Configurez les paramètres d’authentification du Snowflake :
+1. Configurer les paramètres d’authentification Snowflake
 
-   * **[!UICONTROL Serveur]** : saisissez le nom de votre serveur.
+   * **[!UICONTROL Serveur]** : saisissez le nom de votre serveur.
 
-   * **[!UICONTROL User]** : saisissez votre nom d’utilisateur.
+   * **[!UICONTROL Utilisateur ou utilisatrice]** : saisissez votre nom d’utilisateur ou d’utilisatrice.
 
-   * **[!UICONTROL Mot de passe]** : saisissez le mot de passe de votre compte.
+   * **[!UICONTROL Mot de passe]** : saisissez le mot de passe de votre compte.
 
-   * **[!UICONTROL Base de données]** (facultatif) : Entrez le nom de votre base de données s’il n’est pas spécifié dans le DSN.
+   * **[!UICONTROL Base de données]** (facultatif) : saisissez le nom de votre base de données s’il n’est pas spécifié dans le DSN.
 
    * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom du schéma de base de données à utiliser pour les tables de travail.
 
@@ -202,15 +202,15 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
      >
      >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs environnements de test à la même base de données.
 
-   * **[!UICONTROL Clé privée]** : cliquez sur le champ **[!UICONTROL Clé privée]** pour sélectionner vos fichiers .pem dans votre dossier de paramètres régionaux.
+   * **[!UICONTROL Clé privée]** : cliquez sur le champ **[!UICONTROL Clé privée]** pour sélectionner vos fichiers .pem dans votre dossier de paramètres régionaux.
 
-   * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
+   * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 
-1. Sélectionnez l&#39;option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
+1. Sélectionnez l’option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
 
 1. Cliquez sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer les fonctions.
 
-1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données Federate.
+1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données fédérée.
 
 Le connecteur prend en charge les options suivantes :
 
@@ -220,7 +220,7 @@ Le connecteur prend en charge les options suivantes :
 | warehouse | Nom de l&#39;entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l&#39;utilisateur. |
 | TimeZoneName | Par défaut vide, ce qui signifie que le serveur de l’application de fuseau horaire système est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
 | WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Voir à ce propos [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
-| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats mis en cache du Snowflake. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats mis en cache de Snowflake. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Nombre de threads à utiliser pour le chargeur en masse de Snowflake ; plus de threads signifient de meilleures performances pour les chargements en masse plus volumineux. Par défaut, cette valeur est définie sur 1. Le nombre peut être ajusté en fonction du nombre de threads de la machine. |
 | chunkSize | Détermine la taille de fichier du bloc de chargeur en masse. Par défaut, cette valeur est définie sur 128 Mo. Peut être modifiée pour des performances plus optimales, lorsqu’elle est utilisée avec bulkThreads. Plus de threads actifs simultanément signifie de meilleures performances. <br>Voir à ce propos la [documentation du Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nom de l’étape interne préconfigurée. Elle sera utilisée en chargement massif au lieu de créer une nouvelle étape temporaire. |
@@ -230,27 +230,27 @@ Le connecteur prend en charge les options suivantes :
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Vertica Analytics.
 
-1. Dans le menu **[!UICONTROL Federated data]**, sélectionnez **[!UICONTROL Federated database]**.
+1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
 1. Cliquez sur **[!UICONTROL Ajouter une base de données fédérée]**.
 
    ![](assets/federated_database_1.png)
 
-1. Saisissez un **[!UICONTROL nom]** dans votre base de données Federate.
+1. Saisissez un **[!UICONTROL nom]** pour votre base de données fédérée.
 
-1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Verticas analytics.
+1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Vertica Analytics.
 
    ![](assets/federated_database_5.png)
 
-1. Configurez les paramètres d’authentification Vertica Analytics :
+1. Configurez les paramètres d’authentification Vertica Analytics :
 
-   * **[!UICONTROL Serveur]** : ajoutez l’URL du serveur [!DNL Vertica Analytics].
+   * **[!UICONTROL Serveur]** : ajoutez l’URL du serveur [!DNL Vertica Analytics].
 
-   * **[!UICONTROL Compte]** : ajoutez le nom d’utilisateur.
+   * **[!UICONTROL Compte]** : ajoutez le nom d’utilisateur ou d’utilisatrice.
 
-   * **[!UICONTROL Mot de passe]** : ajoutez le mot de passe du compte.
+   * **[!UICONTROL Mot de passe]** : ajoutez le mot de passe du compte.
 
-   * **[!UICONTROL Base de données]** (facultatif) : Entrez le nom de votre base de données s’il n’est pas spécifié dans le DSN.
+   * **[!UICONTROL Base de données]** (facultatif) : saisissez le nom de votre base de données s’il n’est pas spécifié dans le DSN.
 
    * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom du schéma de base de données à utiliser pour les tables de travail.
 
@@ -260,13 +260,13 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
      >
      >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs environnements de test à la même base de données.
 
-   * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
+   * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 
-1. Sélectionnez l&#39;option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
+1. Sélectionnez l’option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
 
 1. Cliquez sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer les fonctions.
 
-1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données Federate.
+1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données fédérée.
 
 Le connecteur prend en charge les options suivantes :
 

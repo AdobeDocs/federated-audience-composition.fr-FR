@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Utilisation de l’activité Enrichissement
-description: Découvrez comment utiliser l’activité Enrichissement
+title: Utiliser l’activité Enrichissement
+description: Découvrir comment utiliser l’activité Enrichissement
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 57%
+ht-degree: 92%
 
 ---
 
@@ -38,13 +38,13 @@ ht-degree: 57%
 >title="Données d’enrichissement"
 >abstract="Sélectionnez les données à utiliser pour enrichir votre composition. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement du schéma, ou dimension de ciblage, ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tableaux."
 
-L&#39;activité **Enrichissement** permet d&#39;améliorer les données ciblées avec des informations supplémentaires de la base de données fédérée. Elle est généralement utilisée dans une composition après les activités de segmentation.
+L’activité **Enrichissement** permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données fédérée. Elle est généralement utilisée dans une composition après les activités de segmentation.
 
-Si vous avez configuré une connexion à la destination de composition d’audiences fédérées, vous pouvez utiliser l’activité Enrichissement pour enrichir les données provenant de Adobe Experience Platform avec les attributs de votre base de données externe. [Découvrez comment enrichir les audiences Adobe Experience Platform avec des données externes](../../connections/destinations.md)
+Si vous avez configuré une connexion à la destination de composition d’audiences fédérées, vous pouvez utiliser l’activité Enrichissement pour enrichir les données provenant de Adobe Experience Platform avec les attributs de votre base de données externe. [Découvrir comment enrichir les audiences Adobe Experience Platform avec des données externes](../../connections/destinations.md)
 
 Les données d’enrichissement tirent leur origine des sources suivantes :
 
-* **À partir de la même table de travail** que celle ciblée dans votre composition :
+* **La même table de travail** que celle ciblée dans votre composition :
 
   *Ciblez un groupe de clientes et de clients et ajoutez le champ « Date de naissance » au tableau de travail actuel.*
 
@@ -52,7 +52,7 @@ Les données d’enrichissement tirent leur origine des sources suivantes :
 
   *Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat »*.
 
-Une fois que les données d’enrichissement ont été ajoutées à la composition, elles peuvent être utilisées dans les activités ajoutées après l’activité **Enrichissement** pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et choix.
+Une fois les données d’enrichissement ajoutées à la composition, elles peuvent être utilisées dans les activités ajoutées après l’activité **Enrichissement** pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et choix.
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -65,7 +65,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
    ![](../assets/enrichment.png)
 
-1. Si plusieurs transitions ont été configurées dans votre composition, vous pouvez utiliser le champ **[!UICONTROL jeu de Principal]** pour définir la transition qui doit être utilisée comme jeu principal pour enrichir les données.
+1. Si plusieurs transitions ont été configurées dans votre composition, vous pouvez utiliser le champ **[!UICONTROL Ensemble principal]** pour définir la transition à utiliser comme ensemble principal pour enrichir les données.
 
 1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données.
 
@@ -73,7 +73,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le **bouton Editer l&#39;expression** de l&#39;écran de sélection des attributs permet de créer des expressions avancées pour sélectionner l&#39;attribut.
+   >Le **bouton Modifier l’expression** dans l’écran de sélection d’attributs vous permet de créer des expressions avancées pour sélectionner l’attribut.
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 

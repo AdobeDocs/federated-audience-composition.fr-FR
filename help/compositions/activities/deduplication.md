@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Utilisation de l'activité Déduplication
-description: Découvrez comment utiliser l’activité Déduplication
+title: Utiliser l’activité Déduplication
+description: Découvrir comment utiliser l’activité Déduplication
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 70%
+ht-degree: 85%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 70%
 >title="Paramètres de déduplication"
 >abstract="Pour supprimer des doublons dans les données entrantes, définissez la méthode de déduplication dans les champs ci-dessous. Par défaut, un seul enregistrement est conservé. Vous devez également sélectionner le mode de déduplication en fonction d’une expression ou d’un attribut. Par défaut, l’enregistrement à conserver en dehors des doublons est sélectionné de manière aléatoire."
 
-L&#39;activité **Déduplication** permet de supprimer les doublons dans le ou les résultats des activités entrantes, par exemple les profils dupliqués dans la liste de destinataires. L’activité **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant d’utiliser les données ciblées.
+L’activité **Déduplication** permet de supprimer les doublons dans le ou les résultats des activités entrantes, par exemple les profils dupliqués dans la liste des personnes destinataires. L’activité **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant d’utiliser les données ciblées.
 
 ## Configurer l’activité Déduplication{#deduplication-configuration}
 
@@ -41,7 +41,7 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Ajoutez une activité **Déduplication** à votre composition.
 
-1. Si l&#39;activité possède plusieurs transitions entrantes, sélectionnez la transition à utiliser pour effectuer le dédoublonnage dans la liste déroulante **[!UICONTROL Principal set]**
+1. Si l’activité possède plusieurs transitions entrantes, sélectionnez la transition à utiliser pour effectuer la déduplication dans la liste déroulante **[!UICONTROL Ensemble principal]**.
 
 1. Dans la section **[!UICONTROL Champs pour identifier des doublons]**, cliquez sur le bouton **[!UICONTROL Ajouter un attribut]** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
 
@@ -49,7 +49,7 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Dans la section **[!UICONTROL Paramètres de déduplication]**, sélectionnez le nombre de **[!UICONTROL Doublons à conserver]** uniques. La valeur par défaut de ce champ est **1**. La valeur **0** vous permet de conserver tous les doublons.
 
-   Par exemple, si les enregistrements A et B sont considérés comme des doublons de l’enregistrement Y et qu’un enregistrement C est considéré comme un doublon de l’enregistrement Z :
+   Par exemple, si les enregistrements A et B sont considérés comme des doublons de l’enregistrement Y et qu’un enregistrement C est considéré comme un doublon de l’enregistrement Z :
 
    * Si la valeur du champ est **1** : seuls les enregistrements Y et Z sont conservés.
    * Si la valeur du champ est **0** : tous les enregistrements sont conservés.
@@ -62,7 +62,7 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
    * **[!UICONTROL Valeurs non vides]** : conserve les enregistrements pour lesquels l’expression n’est pas vide.
    * **[!UICONTROL Par ordonnancement de valeurs]** : définit un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **[!UICONTROL Attributs]** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Pour définir un nouveau champ, cliquez sur le bouton **[!UICONTROL Ajouter]** situé au-dessus de la liste des valeurs.
 
-1. Cochez l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
+1. Cochez l’option **[!UICONTROL Générer le complément]** si vous souhaitez exploiter la population restante. Le complément est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
 
 <!--
 ## Example{#deduplication-example}
