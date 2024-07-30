@@ -2,7 +2,7 @@
 title: Conditions préalables et barrières de sécurité pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les barrières de sécurité pour la composition d’audiences fédérées
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Par exemple, si un nouvel environnement de test nommé &quot;fac-test&quot; est 
 
 Pour activer en toute sécurité Federated Audience Composition et accéder à vos bases de données, contactez votre représentant d’Adobe afin d’obtenir les adresses IP des serveurs Federated Audience Composition qui y accéderont.
 
-Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la composition d’audiences fédérées.&quot;
+Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la composition d’audiences fédérées.
 
 ## Mécanismes de sécurisation et limitations {#fac-guardrails}
 
