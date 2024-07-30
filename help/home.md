@@ -3,7 +3,7 @@ title: Page d’accueil de la documentation sur la composition d’audiences fé
 description: Documentation complémentaire sur la composition d’audiences fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 85%
@@ -69,7 +69,6 @@ Ajoutez et configurez des activités (Partage, Enrichissement, Requête, etc.) p
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
-
 
 ## Ressources supplémentaires  {#additional-resources}
 
