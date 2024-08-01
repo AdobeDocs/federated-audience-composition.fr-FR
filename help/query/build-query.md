@@ -1,12 +1,13 @@
 ---
 audience: end-user
-title: Créer votre première requête à l’aide du créateur de modèles de requête
-description: Découvrez comment créer votre première requête dans le créateur de modèles de requêtes
+title: Créer votre première requête à l’aide du concepteur de requête
+description: Découvrir comment créer votre première requête dans le concepteur de requête
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +17,7 @@ Pour commencer à créer une requête, accédez au concepteur de requête à par
 
 Vous pouvez ajouter deux types d’éléments :
 
-* **Composants de filtrage** (Condition personnalisée, Sélection de l’audience) vous permettent de créer vos propres règles ou de sélectionner une audience pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
+* Les **composants de filtrage** (Condition personnalisée, Sélectionner une audience) vous permettent de créer vos propres règles ou de sélectionner une audience pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
 
   Exemple : *personnes destinataires qui se sont abonnées à la newsletter « Sports »*. *Personnes destinataires résidant à New York*, *Personnes destinataires résidant à San Francisco*.
 
@@ -46,13 +47,13 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 1. Cliquez sur le bouton **+** sur le nœud souhaité, puis sélectionnez **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’affiche sur le côté droit.
 
-1. Dans le champ **[!UICONTROL Attribut]**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données, y compris les attributs des tables liées.
+1. Dans le champ **[!UICONTROL Attribut]**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données, y compris les attributs de vos tableaux liés.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Le bouton **[!UICONTROL Editer l&#39;expression]** permet d&#39;utiliser l&#39;éditeur d&#39;expression pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance. [Découvrez comment modifier des expressions](expression-editor.md)
+   >Le bouton **[!UICONTROL Modifier une expression]** permet d’utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
 
 1. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
@@ -241,10 +242,10 @@ Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inc
 
 Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **[!UICONTROL Propriétés des règles]** situé sur le côté droit. Ce volet s’affiche lors de la création d’une requête pour créer une audience. Les opérations disponibles sont les suivantes :
 
-* **[!UICONTROL Afficher les résultats] :** affiche les données issues de votre requête.
+* **[!UICONTROL Afficher les résultats] :** affiche les données issues de votre requête.
 * **[!UICONTROL Affichage du code]** : affiche une version basée sur le code de la requête en SQL.
 * **[!UICONTROL Calculer]** : met à jour et affiche le nombre d’enregistrements ciblés par votre requête.
-* **[!UICONTROL Sélectionner ou enregistrer le filtre]** : sélectionnez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure.
+* **[!UICONTROL Sélectionner ou enregistrer un filtre]** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure.
 
   >[!IMPORTANT]
   >

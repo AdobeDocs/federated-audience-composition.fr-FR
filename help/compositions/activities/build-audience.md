@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Utilisation de l’activité Créer une audience
-description: Découvrez comment utiliser l’activité Créer une audience
+title: Utiliser l’activité Créer une audience
+description: Découvrir comment utiliser l’activité Créer une audience
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
+exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
-
 
 # Créer une audience {#build-audience}
 
@@ -18,10 +18,10 @@ ht-degree: 38%
 >title="Activité Créer une audience"
 >abstract="L’activité **Créer une audience** permet de définir l’audience qui va entrer dans la composition."
 
-L&#39;activité **Créer l&#39;audience** vous permet de définir l&#39;audience qui va entrer dans la composition. Pour définir la population de l’audience, vous pouvez :
+L’activité **Créer une audience** permet de définir l’audience qui va entrer dans la composition. Pour définir la population de l’audience, vous pouvez :
 
-* Sélectionnez une audience Adobe Experience Platform existante.
-* Créez une nouvelle audience avec le modèle de requête en définissant et combinant des critères de filtrage.
+* sélectionner une audience Adobe Experience Platform existante ;
+* créer une audience à l’aide du concepteur de requête en définissant et en combinant des critères de filtrage.
 
 ## Configurer l’activité Créer une audience {#build-audience-configuration}
 
@@ -34,22 +34,22 @@ Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
 1. Ajoutez une activité **Créer une audience**.
 1. Définissez un libellé.
-1. Indiquez si vous souhaitez créer une audience ou en sélectionner une existante.
+1. Indiquez si vous souhaitez créer une audience ou sélectionnez-en une existante.
 1. Configurez votre audience en suivant les étapes présentées dans les onglets ci-dessous.
 
 >[!BEGINTABS]
 
 >[!TAB Créer une audience]
 
-Pour créer votre propre audience, procédez comme suit :
+Pour créer votre propre audience, procédez comme suit :
 
 1. Sélectionnez **Créer une audience**.
-1. Sélectionnez le **Schéma**, également appelé dimension de ciblage. Le schéma permet de définir la population ciblée par l&#39;opération : destinataires, bénéficiaires de contrats, opérateur, abonnés, etc. Par défaut, le schéma est sélectionné parmi les destinataires.
+1. Sélectionnez le **schéma**, ou dimension de ciblage. Le schéma permet de définir la population ciblée par l’opération : personnes destinataires, personnes bénéficiaires d’un contrat, opérateurs et opératrices, personnes abonnées, etc. Par défaut, le schéma est sélectionné parmi les personnes destinataires.
 
    ![](../assets/build-audience-create.png)
 
 1. Cliquez sur **Continuer**.
-1. Utilisez le modèle de requête pour définir votre requête, puis confirmez. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
+1. Utilisez le concepteur de requête pour définir votre requête, puis confirmez. [Découvrir comment utiliser le concepteur de requête](../../query/query-modeler-overview.md)
 
 >[!TAB Lecture d’audience]
 
@@ -66,7 +66,7 @@ Pour sélectionner une audience existante, procédez comme suit :
 
 >[!NOTE]
 >
->L&#39;option **Générer une transition sortante** permet d&#39;ajouter une transition sortante qui sera activée à la fin de l&#39;exécution de l&#39;activité si la population de l&#39;audience est vide.
+>L’option **Générer une transition sortante** permet d’ajouter une transition sortante qui sera activée à la fin de l’exécution de l’activité si la population de l’audience est vide.
 
 <!--
 ## Examples{#build-audience-examples}

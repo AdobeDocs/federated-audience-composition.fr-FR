@@ -1,12 +1,13 @@
 ---
 audience: end-user
-title: Utilisation de l’activité Rendez-vous
-description: Découvrez comment utiliser l’activité Rendez-vous
+title: Utiliser l’activité Rendez-vous
+description: Découvrir comment utiliser l’activité Rendez-vous
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 9648f17b-e54c-4bc2-8dff-d35c438eeb8b
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 70%
 >title="Activité Rendez-vous"
 >abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une composition. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la composition."
 
-L&#39;activité **AND-join** permet de synchroniser plusieurs branches d&#39;exécution d&#39;une composition.
+L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une composition.
 
 L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées, c’est-à-dire quand toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la composition.
 
@@ -30,10 +31,10 @@ L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois tou
 
 Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 
-1. Ajoutez plusieurs activités afin de former au moins deux branches d&#39;exécution différentes.
+1. Ajoutez plusieurs activités afin de former au moins deux branches d’exécution différentes.
 1. Ajoutez une activité **Rendez-vous** à l’une des branches.
 
    ![](../assets/and-join.png)
 
-1. Dans la section **[!UICONTROL Options de fusion]** , vérifiez toutes les activités précédentes que vous souhaitez synchroniser.
-1. Dans l’**[!UICONTROL Ensemble principal]**, choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l&#39;une des populations des transitions entrantes. Si l&#39;activité n&#39;est pas paramétrée, la transition sortante contiendra aléatoirement l&#39;une des populations entrantes.
+1. Dans les **[!UICONTROL Options de fusion]**, cochez les activités précédentes à synchroniser.
+1. Dans l’**[!UICONTROL Ensemble principal]**, choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l’une des populations des transitions entrantes. Si l’activité n’est pas paramétrée, la transition sortante contiendra aléatoirement l’une des populations entrantes.
