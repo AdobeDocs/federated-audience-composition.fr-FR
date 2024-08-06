@@ -4,9 +4,9 @@ title: Utiliser l’activité Planificateur
 description: Découvrir comment utiliser l’activité Planificateur
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 L’activité **Planificateur** est une activité de **contrôle de flux**. Elle permet de planifier le démarrage de la composition. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité de la composition.
 
-Si vous avez configuré une connexion à la destination de composition d’audiences fédérées, vous pouvez utiliser cette activité pour envoyer des audiences Adobe Experience Platform à des fréquences régulières. [Découvrir comment enrichir les audiences Adobe Experience Platform avec des données externes](../../connections/destinations.md)
+Si vous avez configuré une connexion à la destination de la composition d’audiences fédérées, vous pouvez utiliser cette activité pour envoyer des audiences Adobe Experience Platform à des fréquences régulières. [Découvrir comment enrichir les audiences Adobe Experience Platform avec des données externes](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 

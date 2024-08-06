@@ -5,9 +5,9 @@ description: Découvrir comment commencer avec les modèles de données
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
@@ -35,31 +35,31 @@ ht-degree: 22%
 >abstract="Saisissez le libellé du modèle de données."
 
 
-## Présentation d’un modèle de données {#data-model-start}
+## Qu’est-ce qu’un modèle de données ? {#data-model-start}
 
-Un modèle de données est un ensemble de schémas, d’audiences et de liens entre eux. Il est utilisé pour fédérer les audiences avec des données de base de données.
+Un modèle de données désigne un ensemble de schémas et d’audiences, ainsi que les liens qui existent entre eux. Il est utilisé pour fédérer les audiences avec des données de base de données.
 
 En savoir plus sur les [schémas](../customer/schemas.md#schema-start).
 
 En savoir plus sur les [Audiences](../start/audiences.md).
 
-Par exemple, vous pouvez voir ci-dessous une représentation d’un modèle de données : les tables avec leur nom et les liens entre elles.
+Voici un exemple de représentation d’un modèle de données : les tableaux avec leur nom et les liens qui existent entre elles.
 
 ![](assets/datamodel.png){zoomable="yes"}
 
-Dans la composition d’audiences fédérées, il est possible de créer de nombreux modèles de données.
+La composition d’audiences fédérées permet de créer de nombreux modèles de données.
 
-Leur création dépendra du cas d&#39;utilisation : vous choisissez les tables nécessaires et vous les reliez selon vos besoins.
+Leur création dépend du cas d’utilisation, en ce que vous choisissez les tableaux nécessaires et les reliez selon vos besoins.
 
 ## Créer un modèle de données {#data-model-create}
 
-Pour créer un modèle de données, procédez comme suit :
+Pour créer un modèle de données, procédez comme suit :
 
-1. Dans la section **[!UICONTROL FEDERATED DATA]** , accédez au lien **[!UICONTROL Modèles]** et accédez à l’onglet **[!UICONTROL Modèle de données]** .
+1. Dans la section **[!UICONTROL DONNÉES FÉDÉRÉES]**, accédez au lien **[!UICONTROL Modèles]**, puis à l’onglet **[!UICONTROL Modèle de données]**.
 
    ![](assets/datamodel_create.png){zoomable="yes"}
 
-1. Cliquez sur le bouton **[!UICONTROL Créer un modèle de données]** pour définir le nom de votre modèle de données, puis cliquez sur le bouton **[!UICONTROL Créer]** .
+1. Cliquez sur le bouton **[!UICONTROL Créer un modèle de données]** pour nommer votre modèle de données, puis cliquez sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/datamodel_name.png){zoomable="yes"}
 
@@ -69,9 +69,9 @@ Pour créer un modèle de données, procédez comme suit :
 
 ### Créer des liens {#data-model-links}
 
-Pour créer des liens entre les tables de votre modèle de données, procédez comme suit :
+Pour créer des liens entre les tableaux de votre modèle de données, procédez comme suit :
 
-1. Cliquez sur le menu **[!UICONTROL Créer un lien]** de l’une des tables, ou cliquez sur le bouton **[!UICONTROL Créer des liens]** et sélectionnez les 2 tables suivantes :
+1. Cliquez sur le menu **[!UICONTROL Créer un lien]** de l’une des tables ou sur le bouton **[!UICONTROL Créer des liens]**, puis sélectionnez les 2 tableaux suivants :
 
    ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
@@ -81,18 +81,18 @@ Pour créer des liens entre les tables de votre modèle de données, procédez c
 
    **Cardinalité**
 
-   * 1-N : une occurrence de la table source peut avoir plusieurs occurrences correspondantes de la table cible, mais une occurrence de la table cible peut avoir au plus une occurrence correspondante de la table source.
+   * 1-N : à une occurrence du tableau source peuvent correspondre plusieurs occurrences du tableau cible, mais à une occurrence du tableau cible peut correspondre au plus une occurrence du tableau source.
 
-   * N-1 : une occurrence de la table cible peut avoir plusieurs occurrences correspondantes de la table source, mais une occurrence de la table source peut avoir au plus une occurrence correspondante de la table cible.
+   * N-1 : à une occurrence du tableau cible peuvent correspondre plusieurs occurrences du tableau source, mais à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-   * 1-1 : une occurrence de la table source peut avoir au plus une occurrence correspondante de la table cible.
+   * 1-1 : à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-Tous les liens définis pour votre modèle de données sont répertoriés comme ci-dessous :
+Tous les liens définis pour votre modèle de données seront répertoriés comme ci-dessous :
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
-## Vidéo - Comment {#data-model-video}
+## Vidéo pratique {#data-model-video}
 
-Découvrez comment créer un modèle de données dans cette vidéo :
+Découvrez comment créer un modèle de données dans cette vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432020)

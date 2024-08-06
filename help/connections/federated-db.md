@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Configuration de vos bases de données fédérées
-description: Découvrez comment configurer vos bases de données fédérées
+title: Configurer vos bases de données fédérées
+description: Découvrir comment configurer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1621'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Configuration de vos bases de données fédérées {#federated-db}
+# Configurer vos bases de données fédérées {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="Base de données fédérées"
->abstract="Les connexions existantes aux bases de données fédérées sont répertoriées dans cet écran. Pour créer une connexion, cliquez sur le bouton **[!UICONTROL Ajouter une base de données fédérée]**."
+>title="Bases de données fédérées"
+>abstract="Les connexions existantes à des bases de données fédérées sont répertoriées sur cet écran. Pour créer une connexion, cliquez sur le bouton **[!UICONTROL Ajouter une base de données fédérée]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -28,9 +28,9 @@ ht-degree: 74%
 >title="Détails de la base de données fédérée"
 >abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration."
 
-La composition d’audiences fédérées Experience Platform permet au client de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform.
+La composition d’audiences fédérées Experience Platform permet au client ou à la cliente de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform.
 
-Découvrez comment créer, configurer, tester et enregistrer la connexion à votre base de données externe dans [cette page](connections.md). Vous trouverez ci-dessous la liste des bases de données prises en charge et les paramètres détaillés à configurer pour chacune d’elles.
+Découvrez comment créer, configurer, tester et enregistrer la connexion à votre base de données externe sur [cette page](connections.md). Vous trouverez ci-dessous la liste des bases de données prises en charge et les paramètres détaillés à configurer pour chacune d’elles.
 
 ## Bases de données prises en charge {#supported-db}
 
@@ -44,7 +44,7 @@ Avec la composition d’audiences fédérées, vous pouvez vous connecter aux ba
 
 ## Amazon Redshift {#amazon-redshift}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
@@ -68,13 +68,13 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
    * **[!UICONTROL Base de données]** : nom de la base de données s’il n’est pas spécifié dans le DSN. Il peut rester vide s’il est spécifié dans le DSN
 
-   * **[!UICONTROL Schéma de travail]** : nom du schéma de base de données à utiliser pour les tables de travail. En savoir plus dans la [documentation Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL Schéma de travail]** : nom du schéma de base de données à utiliser pour les tableaux de travail. En savoir plus dans la [Documentation Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
      >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
      >
-     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs environnements de test à la même base de données.
+     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs sandbox à la même base de données.
 
 1. Sélectionnez l’option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
 
@@ -84,7 +84,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 ## Azure Synapse Redshift {#azure-synapse-redshift}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Azure Synapse Redshift.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Azure Synapse Redshift.
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
@@ -118,12 +118,12 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 | Option | Description |
 |---|---|
-| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. Pour plus d’informations, reportez-vous à la [documentation Microsoft SQL](https://learn.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exemples de chaînes de connexion n°8) |
+| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. Pour plus d’informations, voir la [documentation Microsoft SQL](https://learn.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (exemple n° 8 de chaînes de connexion). |
 
 
 ## Google BigQuery {#google-big-query}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Google BigQuery.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Google BigQuery.
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
@@ -139,11 +139,11 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 1. Configurez les paramètres d’authentification Google BigQuery :
 
-   * **[!UICONTROL Compte de service]** : saisissez l’adresse e-mail de votre **[!UICONTROL compte de service]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
+   * **[!UICONTROL Compte de service]** : saisissez l’adresse e-mail de votre **[!UICONTROL compte de service]**. Pour plus d’informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projet]** : saisissez le nom de votre **[!UICONTROL projet]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projet]** : saisissez le nom de votre **[!UICONTROL projet]**. Pour plus d’informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Jeu de données]** : saisissez le nom de votre **[!UICONTROL jeu de données]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
+   * **[!UICONTROL Jeu de données]** : saisissez le nom de votre **[!UICONTROL jeu de données]**. Pour plus d’informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Chemin d’accès au fichier de clé]** : chargez votre fichier de clé sur le serveur. Seuls les fichiers .json sont pris en charge.
 
@@ -170,7 +170,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 ## Snowflake {#snowflake}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Snowflake.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Snowflake.
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
@@ -194,13 +194,13 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
    * **[!UICONTROL Base de données]** (facultatif) : saisissez le nom de votre base de données s’il n’est pas spécifié dans le DSN.
 
-   * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom du schéma de base de données à utiliser pour les tables de travail.
+   * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom du schéma de base de données à utiliser pour les tableaux de travail.
 
      >[!NOTE]
      >
      >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
      >
-     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs environnements de test à la même base de données.
+     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs sandbox à la même base de données.
 
    * **[!UICONTROL Clé privée]** : cliquez sur le champ **[!UICONTROL Clé privée]** pour sélectionner vos fichiers .pem dans votre dossier de paramètres régionaux.
 
@@ -218,17 +218,17 @@ Le connecteur prend en charge les options suivantes :
 |---|---|
 | workschema | Schéma de base de données à utiliser pour les tables de travail. |
 | warehouse | Nom de l&#39;entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l&#39;utilisateur. |
-| TimeZoneName | Par défaut vide, ce qui signifie que le serveur de l’application de fuseau horaire système est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
-| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Voir à ce propos [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
-| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats mis en cache de Snowflake. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+| NomFuseauHoraire | Vide par défaut. Le serveur applicatif du fuseau horaire est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour en savoir plus à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Pour en savoir plus à ce sujet, consultez [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats mis en cache de Snowflake. <br>Pour en savoir plus à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Nombre de threads à utiliser pour le chargeur en masse de Snowflake ; plus de threads signifient de meilleures performances pour les chargements en masse plus volumineux. Par défaut, cette valeur est définie sur 1. Le nombre peut être ajusté en fonction du nombre de threads de la machine. |
-| chunkSize | Détermine la taille de fichier du bloc de chargeur en masse. Par défaut, cette valeur est définie sur 128 Mo. Peut être modifiée pour des performances plus optimales, lorsqu’elle est utilisée avec bulkThreads. Plus de threads actifs simultanément signifie de meilleures performances. <br>Voir à ce propos la [documentation du Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+| chunkSize | Détermine la taille de fichier du bloc de chargeur en masse. Par défaut, cette valeur est définie sur 128 Mo. Peut être modifiée pour des performances plus optimales, lorsqu’elle est utilisée avec bulkThreads. Plus de threads actifs simultanément signifie de meilleures performances. <br>Pour en savoir plus à ce sujet, consultez la [documentation Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nom de l’étape interne préconfigurée. Elle sera utilisée en chargement massif au lieu de créer une nouvelle étape temporaire. |
 
 
 ## Vertica Analytics {#vertica-analytics}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base externe. Suivez les étapes ci-dessous pour configurer l’accès à Vertica Analytics.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Vertica Analytics.
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
@@ -252,13 +252,13 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
    * **[!UICONTROL Base de données]** (facultatif) : saisissez le nom de votre base de données s’il n’est pas spécifié dans le DSN.
 
-   * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom du schéma de base de données à utiliser pour les tables de travail.
+   * **[!UICONTROL Schéma de travail]** (facultatif) : saisissez le nom du schéma de base de données à utiliser pour les tableaux de travail.
 
      >[!NOTE]
      >
      >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
      >
-     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs environnements de test à la même base de données.
+     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs sandbox à la même base de données.
 
    * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 
@@ -272,4 +272,4 @@ Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
-| TimeZoneName | Par défaut vide, ce qui signifie que le fuseau horaire système du serveur d’applications est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. |
+| NomFuseauHoraire | Vide par défaut. Le serveur applicatif du fuseau horaire est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. |

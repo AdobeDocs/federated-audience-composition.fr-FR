@@ -5,9 +5,9 @@ description: Découvrez comment affiner et enrichir les audiences Adobe Experie
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ Adobe Experience Platform permet une intégration transparente des audiences d
 
 Pour ce faire, vous devez configurer une nouvelle connexion dans Adobe Experience Platform à la destination Adobe Composition d’audiences fédérées. Vous pouvez utiliser un planificateur pour envoyer une audience donnée à des fréquences régulières, puis sélectionner des attributs spécifiques à inclure, tels que les identifiants pour la réconciliation des données. Si vous avez appliqué des politiques de gouvernance et de confidentialité à votre audience, elles seront conservées et renvoyées au portail d’audience une fois l’audience mise à jour.
 
-Supposons, par exemple, que vous stockiez des informations d’achat dans votre entrepôt de données et qu’une audience Adobe Experience Platform cible les clients intéressés par un produit spécifique au cours des deux derniers mois. À l’aide de la destination Composition de l’audience fédérée , vous pouvez :
+Supposons que vous stockiez des informations d’achat dans votre entrepôt de données et qu’une audience Adobe Experience Platform cible la clientèle intéressée par un produit spécifique au cours des deux derniers mois. À l’aide de la destination Composition d’audiences fédérées, vous pouvez effectuer les opérations suivantes :
 
-* Affinez l’audience en fonction des informations d’achat. Par exemple, vous pouvez filtrer l’audience pour cibler les clients qui ont effectué un achat de plus de 150$ uniquement.
-* Enrichissez l&#39;audience avec les champs relatifs aux achats, tels que le nom du produit et la quantité achetée.
+* Affiner l’audience en fonction des informations d’achat. Par exemple, vous pouvez filtrer l’audience pour cibler la clientèle qui a effectué un achat de plus de 150 USD uniquement.
+* Enrichir l’audience avec les champs relatifs aux achats, tels que le nom du produit et la quantité achetée.
 
 Les principales étapes pour envoyer des audiences Adobe Experience Platform à la composition d’audiences fédérées Adobe sont les suivantes :
 
@@ -39,7 +39,7 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform �
 
    ![](assets/destination-configure.png)
 
-   La section **[!UICONTROL Alertes]** permet d’activer les alertes pour recevoir des notifications sur le statut de votre flux de données vers votre destination. Pour plus d’informations sur les alertes, consultez la documentation de Adobe Experience Platform au sujet de l’ [abonnement aux alertes de destinations à l’aide de l’interface utilisateur ](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   La section **[!UICONTROL Alertes]** permet d’activer les alertes pour recevoir des notifications sur le statut de votre flux de données vers votre destination. Pour plus d’informations sur les alertes, consultez le guide Adobe Experience Platform sur l’[abonnement aux alertes des destinations dans l’interface d’utilisation](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 1. L’étape **[!UICONTROL Politique de gouvernance et mesures de mise en conformité]** vous permet de définir vos politiques de gouvernance des données et de vous assurer que les données utilisées sont conformes lorsque les audiences sont envoyées et actives.
 
@@ -57,12 +57,12 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform �
 
    >[!NOTE]
    >
-   >Vous trouverez des informations détaillées sur la configuration de la planification et des noms de fichier dans les sections suivantes de la documentation Adobe Experience Platform :
+   >Des informations détaillées sur la configuration du planning et des noms de fichiers sont disponibles dans les sections suivantes de la documentation Adobe Experience Platform :
    >
-   >* [Planification de l’exportation de l’audience](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [Planifier l’export d’audience](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
    >* [Configurer les noms de fichiers](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Au cours de l’étape du **[!UICONTROL Mappage]**, vous pouvez sélectionner les champs d’attribut et d’identité à exporter pour vos audiences. Pour plus d’informations, consultez l’[ étape de mappage](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} dans la documentation Adobe Experience Platform.
+1. Au cours de l’étape du **[!UICONTROL Mappage]**, vous pouvez sélectionner les champs d’attribut et d’identité à exporter pour vos audiences. Pour plus d’informations, consultez l’[étape de mappage](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} dans la documentation Adobe Experience Platform.
 
    ![](assets/destination-attributes.png)
 

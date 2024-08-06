@@ -5,9 +5,9 @@ description: Découvrir comment démarrer avec les compositions
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 ## Qu’est-ce qu’une composition ? {#what}
 
-La composition d’audience Adobe vous permet de créer des compositions, dans lesquelles vous pouvez tirer profit de diverses activités (partager, exclure…) dans une zone de travail visuelle pour créer des audiences. Une fois cette opération terminée, les audiences résultantes sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être exploitées dans les destinations Adobe Experience Platform et dans Adobe Journey Optimizer pour cibler les clients. [Découvrir comment utiliser les audiences](../start/audiences.md)
+La composition d’audience Adobe vous permet de créer des compositions, dans lesquelles vous pouvez tirer profit de diverses activités (partager, exclure…) dans une zone de travail visuelle pour créer des audiences. Une fois cette opération terminée, les audiences obtenues sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être utilisées dans des destinations Adobe Experience Platform et Journey Optimizer pour cibler la clientèle. [Découvrir comment utiliser les audiences](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

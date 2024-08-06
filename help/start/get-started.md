@@ -1,42 +1,42 @@
 ---
-title: Prise en main de la composition Experience Platform d’audiences fédérées
+title: Commencer avec la composition d’audiences fédérées Experience Platform
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Commencer avec la composition d’audiences fédérées {#gs-fac}
 
-La composition d’audiences fédérées est une fonctionnalité de module complémentaire pour [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home){target="_blank"} et [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} qui vous permet de créer et d’enrichir des audiences à partir de vos entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform. La composition d’audiences fédérées offre une solution simple et puissante pour connecter votre entrepôt de données d’entreprise directement dans Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer et exécuter des requêtes sur les tables de votre entrepôt de données.
+La composition d’audiences fédérées est une fonctionnalité de module complémentaire d’[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home){target="_blank"} et d’[Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} qui vous permet de créer et d’enrichir des audiences à partir de vos entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform. La composition d’audiences fédérées offre une solution simple et puissante pour connecter votre entrepôt de données d’entreprise directement dans Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer et exécuter des requêtes sur les tables de votre entrepôt de données.
 
 La composition d’audiences fédérées Adobe permet aux personnes utilisant des applications Adobe Experience Platform d’accéder aux données de leur clientèle stockées dans leurs entrepôts de données et plateformes de stockage dans le cloud, telles qu’Amazon Redshift, Azure Synapse Analytics, etc. Les données de la clientèle peuvent se trouver dans plusieurs entrepôts de données et sont désormais accessibles instantanément, sans réplication. Les plateformes prises en charge sont répertoriées sur [cette page](../connections/federated-db.md#supported-db).
 
 ## Fonctionnalités {#rn-capabilities}
 
-La composition d’audiences fédérées étend la valeur de Real-Time CDP et Journey Optimizer avec une approche globale du traitement et de l’activation des audiences :
+La composition d’audiences fédérées étend la valeur de Real-Time CDP et Journey Optimizer avec une approche globale du traitement et de l’activation des audiences :
 
-* Développez l’accès aux jeux de données critiques basés sur l’entrepôt pour créer des audiences à forte valeur ajoutée : utilisez les entrepôts de données existants comme système d’enregistrement principal, tout en exploitant les applications les plus performantes pour offrir de superbes expériences client.
+* Développez l’accès aux jeux de données critiques basés sur l’entrepôt pour créer des audiences à forte valeur ajoutée : utilisez les entrepôts de données existants comme système d’enregistrement principal, tout en exploitant les applications les plus performantes pour offrir de superbes expériences à la clientèle.
 
-* Prise en charge complète des cas d’utilisation d’engagement : Federated Audience Composition, couplée à Real-Time CDP ou Journey Optimizer, prend en charge des expériences personnalisées initiées par la marque avec des audiences fédérées et offre des expériences en temps réel déclenchées par des événements temps réel, ainsi que des attributs de personne pour répondre aux exigences des cas d’utilisation au sein des équipes.
+* Prise en charge complète des cas d’utilisation d’engagement : la composition d’audiences fédérées, couplée à Real-Time CDP ou Journey Optimizer, prend en charge des expériences personnalisées initiées par la marque avec des audiences fédérées et offre des expériences en temps réel déclenchées par des événements sur le moment, ainsi que des attributs de personne pour répondre aux exigences des cas d’utilisation au sein des équipes.
 
-* Minimiser le déplacement et la duplication des données : créez des audiences à partir de jeux de données qui vivent dans un entrepôt de données d’entreprise sans copier de données sous-jacentes pour gérer les profils et audiences marketing exploitables.
+* Minimiser le déplacement et la duplication des données : créez des audiences à partir de jeux de données qui vivent dans un entrepôt de données d’entreprise sans copier de données sous-jacentes pour gérer les profils et audiences marketing exploitables.
 
-* Utiliser un seul système pour les workflows pilotés par l’expérience : traitez les audiences ingérées et fédérées dans Adobe Experience Platform et coordonnez les expériences sortantes sur tous les canaux.
+* Utiliser un seul système pour les workflows pilotés par l’expérience : traitez les audiences ingérées et fédérées dans Adobe Experience Platform et coordonnez les expériences sortantes sur tous les canaux.
 
 ## Cas d’utilisation {#rn-uc}
 
 Dans une interface d’utilisation conviviale pour le marketing, créez des règles de segmentation qui recherchent dans votre entrepôt de données une liste de personnes qualifiées pour un segment spécifique nécessaire aux campagnes marketing, accédez aux audiences existantes de l’entrepôt pour activation ou enrichissez les audiences Adobe Experience Platform avec des points de données supplémentaires qui existent dans l’entrepôt.
 
-Dans cette version, deux cas pratiques sont disponibles :
+Dans cette version, deux cas pratiques sont disponibles :
 
-1. Création d’audiences : créez de nouvelles audiences à partir de jeux de données d’entreprise sans copier de données sous-jacentes et activez ces audiences avec des destinations prédéfinies. &#x200B;
+1. Création d’audiences : créez des audiences à partir de jeux de données d’entreprise sans copier de données sous-jacentes et activez ces audiences avec des destinations prédéfinies.
 
-1. Enrichissement de l’audience : enrichissez les audiences existantes dans Adobe Experience Platform en utilisant les données d’audience composée qui ont été fédérées à partir de l’entrepôt de données d’entreprise. Ces données ne seront pas conservées dans les profils client Adobe Experience Platform.
+1. Enrichissement de l’audience : enrichissez les audiences existantes dans Adobe Experience Platform en utilisant les données d’audience composée qui ont été fédérées à partir de l’entrepôt de données d’entreprise. Ces données ne seront pas conservées dans les profils client Adobe Experience Platform.
 
 ![Diagramme](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -58,16 +58,16 @@ Principales étapes :
 
 >[!NOTE]
 >
->Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe et disponible dans la plateforme de données clients en temps réel d’Adobe et/ou Adobe Journey Optimizer. Elle est rendue accessible dans le menu **Audiences** . [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe. Elle est disponible dans la plateforme de données de la clientèle en temps réel d’Adobe et/ou Adobe Journey Optimizer. Elle est rendue accessible dans le menu **Audiences**. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## En savoir plus {#learn}
 
 <!-- Workflow + Workflow activities-->
 
 
-Découvrez comment accéder à la composition, aux barrières de sécurité et aux limitations d’audiences fédérées dans [cette page](access-prerequisites.md).
+Découvrez comment accéder à la composition, aux mécanismes de sécurisation et aux limitations des audiences fédérées sur [cette page](access-prerequisites.md).
 
-Voir aussi les questions fréquentes dans [cette page](faq.md).
+Reportez-vous à la section Questions fréquentes sur [cette page](faq.md).
 
 
 >[!CONTEXTUALHELP]

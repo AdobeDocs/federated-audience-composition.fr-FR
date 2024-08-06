@@ -1,18 +1,18 @@
 ---
-user-guide-title: Composition du public fédéré Experience Platform
-title: Documentation sur la composition d’audiences fédérées Experience Platform
-breadcrumb-title: Composition du public fédéré Experience Platform
+user-guide-title: Composition d’audiences fédérées Experience Platform
+title: Documentation sur la composition d’audiences fédérées Experience Platform
+breadcrumb-title: Composition d’audiences fédérées Experience Platform
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Documentation sur la composition des audiences fédérées Experience Platform {#using}
+# Documentation sur la composition d’audiences fédérées Experience Platform {#using}
 
-+ [Documentation sur la composition des audiences fédérées Experience Platform](home.md)
++ [Documentation sur la composition d’audiences fédérées Experience Platform](home.md)
 + [Notes de mise à jour](start/release-notes.md)
 + Commencer avec la composition d’audiences fédérées {#start}
    + [Qu’appelle-t-on Composition d’audiences fédérées](start/get-started.md)
@@ -29,7 +29,7 @@ ht-degree: 80%
 + Composer des audiences {#compositions}
    + [Commencer avec les compositions](compositions/gs-compositions.md)
    + Créer et exécuter votre première composition {#create-composition}
-      + [Principes fondamentaux de la création de composition](compositions/gs-composition-creation.md)
+      + [Principes fondamentaux de la création d’une composition](compositions/gs-composition-creation.md)
       + [Créer et configurer la composition](compositions/create-composition.md)
       + [Orchestrer les activités](compositions/orchestrate-activities.md)
       + [Démarrer et surveiller votre composition](compositions/start-monitor-composition.md)

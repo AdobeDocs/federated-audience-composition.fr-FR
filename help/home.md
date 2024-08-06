@@ -1,12 +1,12 @@
 ---
-title: Page d’accueil de la documentation sur la composition d’audiences fédérées Adobe Experience Platform
-description: Documentation complémentaire sur la composition d’audiences fédérées
+title: Adobe Experience Platform - Page d’accueil de la documentation sur la composition d’audiences fédérées
+description: Documentation sur le module complémentaire de la composition d’audiences fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Bienvenue dans la documentation sur la composition d’audiences fédérées d’Adobe Experience Platform.
 
-La composition d’audiences fédérées Experience Platform offre aux utilisateurs d’Adobe Real-Time CDP et de Adobe Journey Optimizer la flexibilité et l’efficacité de la gestion des données. Avec la composition d’audiences fédérées, vous pouvez accéder à l’entrepôt de données de votre entreprise à l’aide d’une interface d’utilisation conviviale pour créer des audiences et tirer profit des jeux de données dans des workflows Adobe Experience Platform sans conserver les données d’entreprise sous-jacentes. Cela vous permet de réduire les mouvements de données lors de l’accès à des entrepôts de données pour des cas d’utilisation d’expérience.
+La composition d’audiences fédérées permet aux utilisateurs et utilisatrices d’Adobe Real-Time CDP et d’Adobe Journey Optimizer de gérer les données de manière flexible et efficace. Avec la composition d’audiences fédérées, vous pouvez accéder à l’entrepôt de données de votre entreprise à l’aide d’une interface d’utilisation conviviale pour créer des audiences et tirer profit des jeux de données dans des workflows Adobe Experience Platform sans conserver les données d’entreprise sous-jacentes. Cela vous permet de réduire les mouvements de données lors de l’accès à des entrepôts de données pour des cas d’utilisation d’expérience.
 
 >[!BEGINTABS]
 

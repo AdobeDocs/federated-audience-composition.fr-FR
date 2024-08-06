@@ -5,9 +5,9 @@ description: Découvrir comment créer des compositions
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide
 Dans les compositions, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une table de travail temporaire. Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l’écran.
 
 * Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
-* Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données transportées dans la transition sélectionnée. Cette option n&#39;est disponible que si l&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** est activée. [En savoir plus](create-composition.md#settings).
+* Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données véhiculées dans la transition sélectionnée. Cette option n’est disponible que si l’option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** est activée. [En savoir plus](create-composition.md#settings).
 
 ![](assets/transition-preview.png)
 

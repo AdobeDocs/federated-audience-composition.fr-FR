@@ -5,9 +5,9 @@ description: Découvrir comment utiliser l’activité Enregistrer l’audience
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -62,13 +62,13 @@ Pour configurer l’activité **Enregistrer l’audience**, procédez comme suit
    * **Champ Identité principale** : sélectionnez le champ à utiliser pour identifier les profils. Par exemple, son adresse e-mail ou son numéro de téléphone.
    * **Espace de noms d’identité** : sélectionnez l’espace de noms à utiliser pour identifier les profils, c’est-à-dire le type de données à utiliser comme clé d’identification. Par exemple, si l’adresse e-mail a été sélectionnée comme champ Identité principale, l’espace de noms d’identité **E-mail** doit être sélectionné. Si l’identifiant unique est le numéro de téléphone, l’espace de noms d’identité **Téléphone** doit être sélectionné.
 
-## Accès à votre audience dans Adobe Experience Platform {#access-audience}
+## Accéder à votre audience dans Adobe Experience Platform {#access-audience}
 
-Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe et disponible dans la plateforme de données clients en temps réel d’Adobe et/ou Adobe Journey Optimizer. Elle est rendue accessible dans le menu **Audiences** . [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe. Elle est disponible dans la plateforme de données de la clientèle en temps réel d’Adobe et/ou Adobe Journey Optimizer. Elle est rendue accessible dans le menu **Audiences**. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-L’audience créée comprend tous les champs sélectionnés dans la section Mappages d’audiences. Vous pouvez cibler cette audience dans Journey Optimizer ou l’activer vers n’importe quelle destination prise en charge par Adobe Experience Platform.
+L’audience créée comprend tous les champs sélectionnés dans la section Mappages d’audiences. Vous pouvez ensuite cibler ces audiences dans Journey Optimizer ou les activer vers n’importe quelle destination prise en charge par Adobe Experience Platform.
 
-[En savoir plus dans la documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[En savoir plus dans la documentation relative à Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

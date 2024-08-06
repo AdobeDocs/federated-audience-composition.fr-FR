@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Journal d’audit
-description: Découvrez comment les actions et les événements sont consignés et accessibles dans le journal d’audit
+description: Découvrez comment les actions et les événements sont consignés et accessibles dans le journal d’audit.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Journal d’audit"
->abstract="La fonctionnalité Suivi fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel dans votre environnement de composition d’audiences fédérées Adobe Experience Platform."
+>abstract="La fonctionnalité de journal d’audit fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel sur votre environnement de composition d’audiences fédérées Adobe Experience Platform."
 
 La fonctionnalité de journal d’audit fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel sur votre environnement.
 
-La fonction **[!UICONTROL Suivi]** enregistre constamment en temps réel un journal détaillé des actions et événements se produisant dans l’instance de composition fédérée de l’Adobe. Elle offre une méthode pratique d’accès à un enregistrement chronologique des données, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes qui les modifient ou les activités effectuées par les utilisateurs et utilisatrices au sein de l’instance.
+La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en temps réel un journal détaillé des actions et événements se produisant en temps réel dans l’instance Composition d’audiences fédérées d’Adobe. Elle offre une méthode pratique d’accès à un enregistrement chronologique des données, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes qui les modifient ou les activités effectuées par les utilisateurs et utilisatrices au sein de l’instance.
 
 +++ En savoir plus sur les entités disponibles du journal d’audit
 
@@ -53,7 +53,7 @@ Pour accéder au **[!UICONTROL journal d’audit]** de votre instance, procédez
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Journal d’audit]**.
 
-1. La fenêtre **[!UICONTROL Journal d’audit]** s’ouvre avec la liste de vos entités. La composition d’audiences fédérée effectue un audit des actions de création, de modification et de suppression pour les workflows, les options, les diffusions et les schémas.
+1. La fenêtre **[!UICONTROL Journal d’audit]** s’ouvre avec la liste de vos entités. La composition d’audiences fédérées réalise l’audit des actions de création, de modification et de suppression pour les workflows, les options, les diffusions et les schémas.
 
    ![](assets/audit_trail.png)
 

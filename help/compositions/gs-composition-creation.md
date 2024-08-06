@@ -5,22 +5,22 @@ description: Découvrir comment créer des compositions
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Principes fondamentaux de la création de composition {#gs-composition-creation}
+# Principes fondamentaux de la création d’une composition {#gs-composition-creation}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="Propriétés de la composition"
 >abstract="Dans cet écran, choisissez le modèle à utiliser pour créer la composition et indiquez un libellé. Développez la section OPTIONS SUPPLÉMENTAIRES pour configurer d’autres paramètres tels que le nom interne de la composition, son dossier, son fuseau horaire et le groupe de personnes responsables. Il est vivement recommandé de sélectionner un groupe de personnes responsables afin d’alerter les opérateurs et opératrices en cas d’erreur."
 
-## Contenu d’une composition {#gs-composition-inside}
+## Qu’y a-t-il dans une composition ? {#gs-composition-inside}
 
-La composition d’audience fédérée Experience Platform fournit un canevas visuel qui vous permet de créer des audiences en exploitant différentes activités (fractionnement, enrichissement, etc.).
+La composition d’audiences fédérées Experience Platform met à votre disposition une zone de travail visuelle qui vous permet de créer des audiences et de tirer parti de diverses activités (partager, enrichir, etc.).
 
 Le diagramme de composition est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 

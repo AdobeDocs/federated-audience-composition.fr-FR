@@ -5,9 +5,9 @@ description: Découvrir comment utiliser l’activité Déduplication
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
    ![](../assets/deduplication.png)
 
-1. Dans la section **[!UICONTROL Paramètres de déduplication]**, sélectionnez le nombre de **[!UICONTROL Doublons à conserver]** uniques. La valeur par défaut de ce champ est **1**. La valeur **0** vous permet de conserver tous les doublons.
+1. Dans la section **[!UICONTROL Paramètres de déduplication]**, sélectionnez le nombre de **[!UICONTROL Doublons à conserver]** uniques. La valeur par défaut de champ est **1**. La valeur **0** permet de conserver tous les doublons.
 
    Par exemple, si les enregistrements A et B sont considérés comme des doublons de l’enregistrement Y et qu’un enregistrement C est considéré comme un doublon de l’enregistrement Z :
 
-   * Si la valeur du champ est **1** : seuls les enregistrements Y et Z sont conservés.
-   * Si la valeur du champ est **0** : tous les enregistrements sont conservés.
-   * Si la valeur du champ est **2** : les enregistrements C et Z sont conservés et deux enregistrements de A, B et Y sont conservés, par hasard ou selon la méthode de déduplication sélectionnée par la suite.
+   * Si la valeur du champ est **1** : seuls les enregistrements Y et Z sont conservés.
+   * Si la valeur du champ est **0** : tous les enregistrements sont conservés.
+   * Si la valeur du champ est **2** : les enregistrements C et Z sont conservés et deux enregistrements parmi A, B et Y sont conservés, par hasard ou selon la méthode de déduplication sélectionnée par la suite.
 
 1. Sélectionnez la **[!UICONTROL méthode de déduplication]** à utiliser :
 
