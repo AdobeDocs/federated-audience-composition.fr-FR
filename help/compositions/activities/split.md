@@ -5,7 +5,7 @@ description: Découvrir comment utiliser l’activité Partage
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 100%
 
