@@ -5,7 +5,7 @@ description: Découvrir comment commencer avec les schémas
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
->title="Sélectionner des tables"
->abstract="Sélectionnez les tables à ajouter au modèle de données."
+>title="Sélectionner des tableaux"
+>abstract="Sélectionnez les tableaux à ajouter au modèle de données."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_key"

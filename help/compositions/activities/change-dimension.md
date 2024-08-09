@@ -5,7 +5,7 @@ description: Découvrir comment utiliser l’activité « Changement de dimensi
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Générer un complémentaire"
->abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **[!UICONTROL Générer le complémentaire]**."
+>abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **[!UICONTROL Générer un complément]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
