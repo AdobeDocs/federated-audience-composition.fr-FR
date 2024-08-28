@@ -4,10 +4,10 @@ title: Créer des compositions
 description: Découvrir comment créer des compositions
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ La première étape pour créer une composition consiste à définir son libell�
 
    ![](assets/composition-create.png)
 
-1. Dans la section **[!UICONTROL Propriétés]**, spécifiez un libellé pour votre composition, puis cliquez sur **[!UICONTROL Créer]**.
+1. Dans la section **[!UICONTROL Properties]** , spécifiez un libellé pour votre composition, puis cliquez sur **[!UICONTROL Create]**.
 
 1. La zone de travail de la composition s’affiche. Vous pouvez maintenant configurer votre composition en ajoutant autant d’activités que nécessaire pour répondre à vos besoins avant de l’exécuter :
 
@@ -63,6 +63,6 @@ Les paramètres disponibles sont les suivant :
 
    * **[!UICONTROL Suspendre le processus]** : la composition est automatiquement mise en pause et adopte le statut **[!UICONTROL Échec]**. Une fois le problème résolu, reprenez l’exécution de a composition à l’aide des boutons **[!UICONTROL Reprendre]**.
    * **[!UICONTROL Ignorer]** : le statut de la tâche qui a déclenché l’erreur passe à **[!UICONTROL Échec]**, mais la composition conserve le statut **[!UICONTROL Démarré]**.
-   * **[!UICONTROL Abandonner le processus]** : la composition est automatiquement arrêtée et adopte le statut **[!UICONTROL Échec]**. Une fois le problème résolu, redémarrez la composition à l’aide du bouton **[!UICONTROL Démarrer]**.
+   * **[!UICONTROL Abandonner le processus]** : la composition est automatiquement arrêtée et son état passe à **[!UICONTROL Failed]**. Une fois le problème résolu, redémarrez la composition à l’aide du bouton **[!UICONTROL Démarrer]**.
 
 * **[!UICONTROL Erreurs consécutives]** : indiquez le nombre d’erreurs qui peuvent être ignorées avant l’arrêt du processus. Une fois ce nombre atteint, le statut de la composition passe à **[!UICONTROL Échec]**. Si la valeur de ce champ est 0, la composition ne sera jamais arrêtée, quel que soit le nombre d’erreurs.
