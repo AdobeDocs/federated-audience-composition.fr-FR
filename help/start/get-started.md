@@ -3,10 +3,10 @@ title: Commencer avec la composition d’audiences fédérées Experience Platf
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: ht
+source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
+workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -34,11 +34,11 @@ Dans une interface d’utilisation conviviale pour le marketing, créez des règ
 
 Dans cette version, deux cas pratiques sont disponibles :
 
-1. Création d’audiences : créez des audiences à partir de jeux de données d’entreprise sans copier de données sous-jacentes et activez ces audiences avec des destinations prédéfinies.
+1. Création d’audiences : créez de nouvelles audiences à partir de jeux de données d’entreprise sans copier de données sous-jacentes et activez ces audiences avec des destinations prédéfinies.
 
 1. Enrichissement de l’audience : enrichissez les audiences existantes dans Adobe Experience Platform en utilisant les données d’audience composée qui ont été fédérées à partir de l’entrepôt de données d’entreprise. Ces données ne seront pas conservées dans les profils client Adobe Experience Platform.
 
-![Diagramme](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![Diagramme](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Principales étapes {#gs-steps}
 
@@ -50,11 +50,11 @@ Principales étapes :
 
 1. **Intégration de données** : rassemblez des données provenant de diverses sources et fusionnez-les en un jeu de données unifié. Découvrez comment connecter les applications Adobe Experience Platform et votre entrepôt de données d’entreprise ainsi que les bases de données prises en charge, puis apprenez à les configurer en consultant [cette section](../connections/federated-db.md).
 
-2. **Modélisation des données** : concevez et créez des modèles et des schémas de données qui définissent la structure, les relations et les contraintes des données. Pour en savoir plus sur les schémas, consultez [cette page](../customer/schemas.md). Découvrez comment créer des liens pour votre modèle de données sur [cette page](../data-management/gs-models.md).
+1. **Modélisation des données** : concevez et créez des modèles et des schémas de données qui définissent la structure, les relations et les contraintes des données. Pour en savoir plus sur les schémas, consultez [cette page](../customer/schemas.md). Découvrez comment créer des liens pour votre modèle de données sur [cette page](../data-management/gs-models.md).
 
-3. **Transformation des données** : appliquez des techniques de manipulation de données pour modifier le format, la structure ou les valeurs des éléments de données afin de les rendre compatibles ou adaptés à des analyses ou applications spécifiques.
+1. **Transformation des données** : appliquez des techniques de manipulation de données pour modifier le format, la structure ou les valeurs des éléments de données afin de les rendre compatibles ou adaptés à des analyses ou applications spécifiques.
 
-4. **Utilisation des données** : créez, orchestrez et construisez des audiences. Découvrez comment composer des audiences sur [cette page](../compositions/gs-compositions.md). Vous pouvez également mettre à jour ou réutiliser des audiences existantes via le portail et les destinations Adobe Experience Platform Audience. En savoir plus sur [cette page](../connections/destinations.md)
+1. **Utilisation des données** : créez, orchestrez et construisez des audiences. Découvrez comment composer des audiences sur [cette page](../compositions/gs-compositions.md). Vous pouvez également mettre à jour ou réutiliser des audiences existantes via le portail et les destinations Adobe Experience Platform Audience. En savoir plus sur [cette page](../connections/destinations.md)
 
 >[!NOTE]
 >
