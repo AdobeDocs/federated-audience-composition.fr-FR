@@ -3,7 +3,7 @@ title: Commencer avec la composition d’audiences fédérées Experience Platf
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
+source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 97%
@@ -38,7 +38,7 @@ Dans cette version, deux cas pratiques sont disponibles :
 
 1. Enrichissement de l’audience : enrichissez les audiences existantes dans Adobe Experience Platform en utilisant les données d’audience composée qui ont été fédérées à partir de l’entrepôt de données d’entreprise. Ces données ne seront pas conservées dans les profils client Adobe Experience Platform.
 
-![Diagramme](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
+![Diagramme](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Principales étapes {#gs-steps}
 
