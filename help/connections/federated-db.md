@@ -5,9 +5,9 @@ description: Découvrir comment configurer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 ## Azure Synapse Analytics {#azure-synapse}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Azure Synapse Analytics.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Azure Synapse Analytics.
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
@@ -94,11 +94,11 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 1. Saisissez un **[!UICONTROL nom]** pour votre base de données fédérée.
 
-1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Azure Synapse Analytics.
+1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Azure Synapse Analytics.
 
    ![](assets/federated_database_4.png)
 
-1. Configurez les paramètres d’authentification d’Azure Synapse Analytics :
+1. Configurez les paramètres d’authentification Azure Synapse Analytics :
 
    * **[!UICONTROL Serveur]** : saisissez l’URL du serveur Azure Synapse
 
@@ -141,7 +141,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
    * **[!UICONTROL Compte de service]** : saisissez l’adresse e-mail de votre **[!UICONTROL compte de service]**. Pour plus d’informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projet]** : saisissez l’identifiant de votre **[!UICONTROL Projet]**. Pour plus d’informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projet]** : saisissez l’ID de votre **[!UICONTROL projet]**. Pour plus d’informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
    * **[!UICONTROL Jeu de données]** : saisissez le nom de votre **[!UICONTROL jeu de données]**. Pour plus d’informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 

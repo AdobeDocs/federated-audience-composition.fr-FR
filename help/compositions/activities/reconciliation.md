@@ -5,9 +5,9 @@ description: Découvrir comment utiliser l’activité Réconciliation
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ L’activité **Réconciliation** vous permet de définir le lien entre les donn
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-Elle permet de relier des données non identifiées à des ressources existantes. L’opération de réconciliation suppose que les données qus vous reliez sont déjà présentes dans la base de données. Par exemple, si vous souhaitez réconcilier des informations d’achat indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister dans la base de données.
+Elle permet de relier des données non identifiées à des ressources existantes. L’opération de réconciliation suppose que les données qus vous reliez sont déjà présentes dans la base de données. Par exemple, si vous souhaitez réconcilier des informations d’achat indiquant le produit qui a été acheté, l’heure de l’achat, la personne ayant acheté, etc., le produit ainsi que la personne doivent déjà exister dans la base de données.
 
 ## Configurer l’activité Réconciliation {#reconciliation-configuration}
 
@@ -87,7 +87,7 @@ Pour configurer l’activité **Réconciliation**, procédez comme suit :
 
       ![](../assets/reconciliation-advanced.png)
 
-1. Vous pouvez filtrer les données à réconcilier à l’aide du bouton **Créer un filtre** . Vous pouvez ainsi créer une condition personnalisée à l’aide du concepteur de requête.
+1. Vous pouvez filtrer les données à réconcilier à l’aide du bouton **Créer un filtre**. Vous pouvez ainsi créer une condition personnalisée à l’aide du concepteur de requête.
 
 Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Pour supprimer les données non réconciliées, désactivez l’option **Conserver les données non réconciliées**.
 
