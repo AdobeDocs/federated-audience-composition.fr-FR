@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
-description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
+description: Découvrez comment créer et gérer des connexions avec des bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Pour configurer une connexion à votre base de données, procédez comme suit :
 
 1. Accédez à la section **[!UICONTROL DONNÉES FÉDÉRÉES]** sur le rail de gauche.
 
-1. Dans le lien **[!UICONTROL Bases de données fédérées]**, cliquez sur le bouton **[!UICONTROL Ajouter une base de données fédérée]**.
+1. Dans le lien **[!UICONTROL Federated database]**, cliquez sur le bouton **[!UICONTROL Ajouter une base de données fédérée]** .
 
    ![](assets/connections_list.png){zoomable="yes"}
 
@@ -47,6 +47,6 @@ Pour configurer une connexion à votre base de données, procédez comme suit :
 
    ![](assets/connections_testdeploy.png){zoomable="yes"}
 
-   Une vue d’ensemble de votre connexion à la base de données fédérée est disponible, comme illustré ci-dessous :
+   Une vue d’ensemble de votre connexion à la base de données Federated est disponible, comme illustré ci-dessous :
 
    ![](assets/connections_overview.png){zoomable="yes"}

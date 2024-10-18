@@ -4,10 +4,10 @@ title: Enrichir les audiences Adobe Experience Platform avec des données exte
 description: Découvrez comment affiner et enrichir les audiences Adobe Experience Platform avec les données de vos bases de données fédérées à l’aide de la destination Composition d’audiences fédérées.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Créer une destination"
->abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **[!UICONTROL Se connecter à la destination]** pour valider votre configuration."
+>abstract="Renseignez les paramètres de connexion à la nouvelle base de données Federated. Utilisez le bouton **[!UICONTROL Se connecter à la destination]** pour valider votre configuration."
 
 Adobe Experience Platform permet une intégration transparente des audiences du portail d’audiences avec vos bases de données externes à l’aide de la **destination Adobe Composition d’audiences fédérées**. Grâce à cette intégration, vous pouvez tirer profit des audiences existantes dans des compositions et les enrichir ou les affiner à l’aide des données de vos bases de données externes pour créer des audiences.
 

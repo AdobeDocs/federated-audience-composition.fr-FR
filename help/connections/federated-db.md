@@ -4,10 +4,10 @@ title: Configurer vos bases de données fédérées
 description: Découvrir comment configurer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="Propriétés de la base de données fédérée"
->abstract="Saisissez le nom de la nouvelle base de données fédérée et sélectionnez son type."
+>abstract="Saisissez le nom de la nouvelle base de données Federated et sélectionnez son type."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Détails de la base de données fédérée"
->abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration."
+>abstract="Renseignez les paramètres de connexion à la nouvelle base de données Federated. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration."
 
 La composition d’audiences fédérées Experience Platform permet au client ou à la cliente de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform.
 
