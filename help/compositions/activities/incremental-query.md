@@ -4,29 +4,16 @@ title: Utiliser l’activité Requête incrémentale
 description: Découvrir comment utiliser l’activité Requête incrémentale
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '546'
 ht-degree: 100%
 
 ---
 
 # Requête incrémentale {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="Requête incrémentale"
->abstract="L’activité **Requête incrémentale** vous permet d’interroger la base de données à l’aide du concepteur de requête. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="Historique des requêtes incrémentales"
->abstract="Historique des requêtes incrémentales"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="Données traitées des requêtes incrémentales"
->abstract="Données traitées des requêtes incrémentales"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 L’activité **Requête incrémentale** vous permet d’interroger la base de données de manière programmée. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments.
 
