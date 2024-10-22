@@ -3,10 +3,10 @@ title: Commencer avec la composition d’audiences fédérées Experience Platf
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 92%
+source-wordcount: '933'
+ht-degree: 87%
 
 ---
 
@@ -119,3 +119,31 @@ Reportez-vous à la section Questions fréquentes sur [cette page](faq.md).
 >id="dc_orchestration_build_audience_dimension"
 >title="Sélectionner la dimension de ciblage"
 >abstract="La dimension de ciblage permet de définir la population ciblée par l’opération : personnes destinataires, personnes bénéficiaires d’un contrat, opérateurs et opératrices, personnes abonnées, etc. Par défaut, pour les e-mails et les SMS, la cible est sélectionnée à partir du tableau intégré Personnes destinataires. Pour les notifications push, la dimension cible par défaut est Applications des personnes abonnées."
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="Enregistrer le profil"
+>abstract="Enregistrer le profil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Enregistrer le profil Sélectionner le schéma AEP"
+>abstract="Enregistrer le profil Sélectionner le schéma AEP"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="Enregistrer la liste des schémas AEP du profil"
+>abstract="Enregistrer la liste des schémas AEP du profil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="Enregistrer l’attribut de schéma AEP du profil"
+>abstract="Enregistrer l’attribut de schéma AEP du profil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="Enregistrer le profil Sélectionner le champ d’identification de Principal"
+>abstract="Enregistrer le profil Sélectionner le champ d’identification de Principal"
