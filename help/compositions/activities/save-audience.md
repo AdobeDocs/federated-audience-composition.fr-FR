@@ -4,10 +4,10 @@ title: Utiliser l’activité Enregistrer l’audience
 description: Découvrir comment utiliser l’activité Enregistrer l’audience
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '462'
-ht-degree: 100%
+source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 100%
 L’activité **Enregistrer l’audience** permet de créer une audience à partir de la population calculée en amont dans une composition. Les audiences créées sont ajoutées à la liste des audiences Adobe Experience Platform et sont disponibles via le menu **Audiences**. [Découvrir comment utiliser les audiences](../../start/audiences.md)
 
 Cette activité est essentiellement utilisée afin de conserver des groupes de population calculés dans la même composition, en les convertissant en audiences réutilisables. Connectez-la à d’autres activités de ciblage telles que **Créer une audience** ou **Combiner**.
+
+>[!IMPORTANT]
+>
+>L’activité **Sauvegarde d’audience** nécessite un jeu de données et un schéma activé par Profile. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Configurer l’activité Enregistrer l’audience {#save-audience-configuration}
 

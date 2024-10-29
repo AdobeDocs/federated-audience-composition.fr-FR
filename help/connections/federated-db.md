@@ -4,10 +4,10 @@ title: Configurer vos bases de données fédérées
 description: Découvrir comment configurer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 98%
+source-wordcount: '1897'
+ht-degree: 93%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="Propriétés de la base de données fédérée"
->abstract="Saisissez le nom de la nouvelle base de données Federated et sélectionnez son type."
+>abstract="Saisissez le nom de la nouvelle base de données fédérée et sélectionnez son type."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Détails de la base de données fédérée"
->abstract="Renseignez les paramètres de connexion à la nouvelle base de données Federated. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration."
+>abstract="Renseignez les paramètres de connexion à la nouvelle base de données fédérée. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration."
 
 La composition d’audiences fédérées Experience Platform permet au client ou à la cliente de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform.
 
@@ -41,6 +41,7 @@ Avec la composition d’audiences fédérées, vous pouvez vous connecter aux ba
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
+* [Balises de données](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -120,7 +121,6 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 |---|---|
 | Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. Pour plus d’informations, voir la [documentation Microsoft SQL](https://learn.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (exemple n° 8 de chaînes de connexion). |
 
-
 ## Google BigQuery {#google-big-query}
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Google BigQuery.
@@ -167,8 +167,12 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 | GCloudDefaultConfigName | Notez que cela s’applique uniquement à partir de la version 7.3.4 et à l’outil de chargement en masse (SDK Cloud).</br> La configuration active du SDK Google Cloud ne peut pas être supprimée sans transférer au préalable la balise active vers une nouvelle configuration. Cette configuration temporaire est nécessaire pour recréer la configuration principale de chargement des données. Le nom par défaut de la configuration temporaire est `default`, et peut être modifié si nécessaire. |
 | GCloudRecreateConfig | Notez que cela s’applique uniquement à partir de la version 7.3.4 et à l’outil de chargement en masse (SDK Cloud).</br> Lorsqu’il est défini sur `false`, le mécanisme de chargement en masse évite de tenter de recréer, de supprimer ou de modifier les configurations du SDK Google Cloud. Au lieu de cela, il procède au chargement des données à l’aide de la configuration existante sur la machine. Cette fonctionnalité est utile lorsque d’autres opérations dépendent des configurations du SDK Google Cloud. </br> Si la personne active cette option de moteur sans une configuration appropriée, le mécanisme de chargement en masse émet un message d’avertissement : `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Pour éviter d’autres erreurs, le mécanisme de chargement en masse par défaut du tableau ODBC est rétabli. |
 
-
 ## Snowflake {#snowflake}
+
+>[!NOTE]
+>
+>L’accès sécurisé à votre entrepôt de données de Snowflake externe par le biais d’un lien privé est pris en charge. Notez que votre compte Snowflake doit être hébergé sur Amazon Web Services (AWS) et situé dans la même région que votre environnement de composition d’audiences fédérées. Veuillez contacter votre représentant d’Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé à votre compte de Snowflake.
+>
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Snowflake.
 
@@ -225,7 +229,6 @@ Le connecteur prend en charge les options suivantes :
 | chunkSize | Détermine la taille de fichier du bloc de chargeur en masse. Par défaut, cette valeur est définie sur 128 Mo. Peut être modifiée pour des performances plus optimales, lorsqu’elle est utilisée avec bulkThreads. Plus de threads actifs simultanément signifie de meilleures performances. <br>Pour en savoir plus à ce sujet, consultez la [documentation Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nom de l’étape interne préconfigurée. Elle sera utilisée en chargement massif au lieu de créer une nouvelle étape temporaire. |
 
-
 ## Vertica Analytics {#vertica-analytics}
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Vertica Analytics.
@@ -268,8 +271,99 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données fédérée.
 
+Le connecteur prend en charge l’option suivante :
+
+| Option | Description |
+|---|---|
+| NomFuseauHoraire | Vide par défaut. Le serveur applicatif du fuseau horaire est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. |
+
+## Balises de données {#databricks}
+
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès aux blocs de données.
+
+1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
+
+1. Cliquez sur **[!UICONTROL Ajouter une base de données fédérée]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Saisissez un **[!UICONTROL nom]** pour votre base de données fédérée.
+
+1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Blocs de données.
+
+   ![](assets/databricks-config.png)
+
+1. Configurez les paramètres d’authentification de Databricks :
+
+   * **[!UICONTROL Serveur]** : ajoutez le nom de votre serveur Databricks.
+
+   * **[!UICONTROL Chemin HTTP]** : ajoutez le chemin à votre grappe ou à votre entrepôt de données. [En savoir plus](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+
+   * **[!UICONTROL Mot de passe]** : ajoutez le jeton d’accès au compte. [En savoir plus](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+
+   * **[!UICONTROL Catalogue]** : ajoutez le champ du catalogue de données.
+
+   * **[!UICONTROL Schéma de travail]** : nom du schéma de base de données à utiliser pour les tables de travail.
+
+     >[!NOTE]
+     >
+     >Vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez de l’autorisation requise pour vous connecter à ce schéma.
+     >
+     >**Des schémas de travail distincts** doivent être utilisés lors de la connexion de plusieurs sandbox à la même base de données.
+
+   * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
+
+1. Sélectionnez l’option **[!UICONTROL Tester la connexion]** pour vérifier votre configuration.
+
+1. Cliquez sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer les fonctions.
+
+1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données fédérée.
+
 Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
 | NomFuseauHoraire | Vide par défaut. Le serveur applicatif du fuseau horaire est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. |
+
+<!--Not for October release
+
+## Microsoft Fabric (LA){#microsoft-fabric}
+
+>[!AVAILABILITY]
+>
+>Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+
+    ![](assets/microsoft-config.png)
+
+1. Configure the Microsoft Fabric authentication settings:
+
+    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+
+    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+
+    * **[!UICONTROL Client secret]**: Enter your Client secret.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|---|---|
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
+-->

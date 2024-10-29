@@ -4,9 +4,9 @@ title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrez comment créer et gérer des connexions avec des bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 6191b9849200723d00398644d038af5b082e7964
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 81%
 
 ---
@@ -40,12 +40,13 @@ Pour configurer une connexion à votre base de données, procédez comme suit :
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Balises de données](federated-db.md#databricks)
 
 1. Une fois les détails renseignés, cliquez sur les boutons **[!UICONTROL Tester la connexion]** et **[!UICONTROL Déployer les fonctions]**.
 
-1. Terminez la création de votre connexion en cliquant sur le bouton **[!UICONTROL Enregistrer]**.
-
    ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+1. Terminez la création de votre connexion en cliquant sur le bouton **[!UICONTROL Enregistrer]**.
 
    Une vue d’ensemble de votre connexion à la base de données Federated est disponible, comme illustré ci-dessous :
 

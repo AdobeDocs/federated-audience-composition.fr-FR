@@ -4,10 +4,10 @@ title: Commencer avec les schémas
 description: Découvrir comment commencer avec les schémas
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 84%
 
 ---
 
@@ -91,9 +91,9 @@ Pour créer des schémas dans la composition d’audiences fédérées, procéde
 
 ## Modifier un schéma {#schema-edit}
 
-Pour modifier un schéma, procédez comme suit :
+Pour modifier un schéma, procédez comme suit :
 
-1. Cliquez sur le nom de votre schéma dans le dossier Schémas.
+1. Cliquez sur le nom de votre schéma dans la liste.
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier]**.
 
@@ -102,6 +102,7 @@ Pour modifier un schéma, procédez comme suit :
    Vous pouvez accéder aux mêmes options que lors de la [création d’un schéma](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## Prévisualiser les données dans un schéma {#schema-preview}
 
@@ -114,6 +115,16 @@ Cliquez sur le lien **[!UICONTROL Calculer]** pour prévisualiser le nombre tota
 Cliquez sur le bouton **[!UICONTROL Configurer les colonnes]** pour modifier l’affichage des données.
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## Actualisation d’un schéma {#schema-refresh}
+
+Les tableaux d’une base de données fédérée peuvent être mis à jour, ajoutés ou supprimés. Dans ce cas, vous devez actualiser le schéma dans Adobe Experience Platform pour vous aligner sur les dernières modifications. Pour ce faire, cliquez sur les trois points en regard du nom du schéma à mettre à jour et sélectionnez **Actualiser le schéma**.
+
+Vous pouvez également mettre à jour la définition de schéma lors de son édition.
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## Supprimer un schéma {#schema-delete}
 
