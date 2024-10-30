@@ -4,7 +4,7 @@ title: Créer des compositions
 description: Découvrir comment créer des compositions
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
+source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 94%
@@ -29,8 +29,8 @@ La première étape pour créer une composition consiste à définir son libell�
 
 1. Cliquez sur **[!UICONTROL Créer]**. La zone de travail de la composition s’affiche. Vous pouvez maintenant configurer votre composition en ajoutant autant d’activités que nécessaire pour répondre à vos besoins avant de l’exécuter :
 
-   * [Découvrir comment orchestrer les activités](#action-activities)
-   * [Découvrir comment démarrer et surveiller une composition](#save)
+   * [Découvrir comment orchestrer les activités](orchestrate-activities.md)
+   * [Découvrir comment démarrer et surveiller une composition](start-monitor-composition.md)
 
 ## Configurer les paramètres de la composition {#settings}
 
