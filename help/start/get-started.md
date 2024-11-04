@@ -4,9 +4,9 @@ description: Découvrir ce qu’est la composition d’audiences fédérées Ad
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -107,13 +107,13 @@ Reportez-vous à la section Questions fréquentes sur [cette page](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_standard"
->title="Mode Requête incrémentale"
+>title="Mode de requête incrémentale"
 >abstract="La requête incrémentale permet d’exécuter la même requête plusieurs fois en excluant les résultats des exécutions précédentes pour chaque nouvelle exécution."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
->title="Mode Requête incrémentale"
->abstract="La requête incrémentale permet d&#39;exécuter plusieurs fois la même requête en ne prenant en compte que les résultats pour lesquels le champ date est postérieur ou égal à la date de dernière exécution de l&#39;activité de requête incrémentale."
+>title="Mode de requête incrémentale"
+>abstract="La requête incrémentale permet d’exécuter plusieurs fois la même requête en ne prenant en compte que les résultats pour lesquels le champ de date contient une date postérieure ou égale à la date de dernière exécution de l’activité de requête incrémentale."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
@@ -130,20 +130,20 @@ Reportez-vous à la section Questions fréquentes sur [cette page](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Enregistrer le profil Sélectionner le schéma AEP"
->abstract="Enregistrer le profil Sélectionner le schéma AEP"
+>title="Enregistrer le profil Sélectionner le schéma AEP"
+>abstract="Enregistrer le profil Sélectionner le schéma AEP"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Enregistrer la liste des schémas AEP du profil"
->abstract="Enregistrer la liste des schémas AEP du profil"
+>title="Enregistrer le profil Liste de schémas AEP"
+>abstract="Enregistrer le profil Liste de schémas AEP"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepattribute"
->title="Enregistrer l’attribut de schéma AEP du profil"
->abstract="Enregistrer l’attribut de schéma AEP du profil"
+>title="Enregistrer le profil Attribut de schéma AEP"
+>abstract="Enregistrer le profil Attribut de schéma AEP"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Enregistrer le profil Sélectionner le champ d’identification de Principal"
->abstract="Enregistrer le profil Sélectionner le champ d’identification de Principal"
+>title="Enregistrer le profil Sélectionner le champ d’identité principal"
+>abstract="Enregistrer le profil Sélectionner le champ d’identité principal"

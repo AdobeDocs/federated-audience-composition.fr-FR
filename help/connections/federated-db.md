@@ -5,9 +5,9 @@ description: Découvrir comment configurer vos bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,14 +36,14 @@ Découvrez comment créer, configurer, tester et enregistrer la connexion à vot
 
 Avec la composition d’audiences fédérées, vous pouvez vous connecter aux bases de données suivantes. La configuration de chaque base de données est présentée ci-dessous.
 
-* [Amazon Redshift](#amazon-redshift)
+* [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
-* [Balises de données](#databricks)
+* [Databricks](#databricks)
 
-## Amazon Redshift {#amazon-redshift}
+## Amazon Redshift {#amazon-redshift}
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.
 
@@ -171,7 +171,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 >[!NOTE]
 >
->L’accès sécurisé à votre entrepôt de données de Snowflake externe par le biais d’un lien privé est pris en charge. Notez que votre compte Snowflake doit être hébergé sur Amazon Web Services (AWS) et situé dans la même région que votre environnement de composition d’audiences fédérées. Veuillez contacter votre représentant d’Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé à votre compte de Snowflake.
+>L’accès sécurisé à votre entrepôt de données Snowflake externe par le biais d’un lien privé est pris en charge. Notez que votre compte Snowflake doit être hébergé sur Amazon Web Services (AWS) et situé dans la même région que votre environnement de composition d’audiences fédérées. Veuillez contacter votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé à votre compte Snowflake.
 >
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Snowflake.
@@ -271,15 +271,15 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Ajouter]** pour créer votre base de données fédérée.
 
-Le connecteur prend en charge l’option suivante :
+Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
 | NomFuseauHoraire | Vide par défaut. Le serveur applicatif du fuseau horaire est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. |
 
-## Balises de données {#databricks}
+## Databricks {#databricks}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès aux blocs de données.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Databricks.
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
@@ -289,21 +289,21 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 1. Saisissez un **[!UICONTROL nom]** pour votre base de données fédérée.
 
-1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Blocs de données.
+1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Databricks.
 
    ![](assets/databricks-config.png)
 
-1. Configurez les paramètres d’authentification de Databricks :
+1. Configurez les paramètres d’authentification de Databricks :
 
-   * **[!UICONTROL Serveur]** : ajoutez le nom de votre serveur Databricks.
+   * **[!UICONTROL Serveur]** : ajoutez le nom du serveur Databricks.
 
-   * **[!UICONTROL Chemin HTTP]** : ajoutez le chemin à votre grappe ou à votre entrepôt de données. [En savoir plus](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+   * **[!UICONTROL Chemin HTTP]** : ajoutez le chemin à votre cluster ou à votre entrepôt de données. [En savoir plus](https://docs.databricks.com/fr/integrations/compute-details.html){target="_blank"}
 
-   * **[!UICONTROL Mot de passe]** : ajoutez le jeton d’accès au compte. [En savoir plus](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+   * **[!UICONTROL Mot de passe]** : ajoutez le jeton d’accès du compte. [En savoir plus](https://docs.databricks.com/fr/dev-tools/auth/pat.html){target="_blank"}
 
-   * **[!UICONTROL Catalogue]** : ajoutez le champ du catalogue de données.
+   * **[!UICONTROL Catalogue]** : ajoutez le champ du catalogue Databricks.
 
-   * **[!UICONTROL Schéma de travail]** : nom du schéma de base de données à utiliser pour les tables de travail.
+   * **[!UICONTROL Schéma de travail]** : nom du schéma de base de données à utiliser pour les tableaux de travail.
 
      >[!NOTE]
      >

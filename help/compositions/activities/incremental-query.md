@@ -5,7 +5,7 @@ description: Découvrir comment utiliser l’activité Requête incrémentale
 hide: true
 hidefromtoc: true
 source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
 ht-degree: 100%
 

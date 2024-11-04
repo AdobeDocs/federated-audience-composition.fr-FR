@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
-description: Découvrez comment créer et gérer des connexions avec des bases de données fédérées
+description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: 6191b9849200723d00398644d038af5b082e7964
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Pour configurer une connexion à votre base de données, procédez comme suit :
 
 1. Accédez à la section **[!UICONTROL DONNÉES FÉDÉRÉES]** sur le rail de gauche.
 
-1. Dans le lien **[!UICONTROL Federated database]**, cliquez sur le bouton **[!UICONTROL Ajouter une base de données fédérée]** .
+1. Dans le lien **[!UICONTROL Bases de données fédérées]**, cliquez sur le bouton **[!UICONTROL Ajouter une base de données fédérée]**.
 
    ![](assets/connections_list.png){zoomable="yes"}
 
@@ -35,12 +35,12 @@ Pour configurer une connexion à votre base de données, procédez comme suit :
 
    Les paramètres détaillés dépendent du type de votre base de données. Accédez aux liens ci-dessous pour accéder aux détails dont vous avez besoin pour configurer la connexion :
 
-   * [Amazon Redshift](federated-db.md#amazon-redshift)
+   * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Balises de données](federated-db.md#databricks)
+   * [Databricks](federated-db.md#databricks)
 
 1. Une fois les détails renseignés, cliquez sur les boutons **[!UICONTROL Tester la connexion]** et **[!UICONTROL Déployer les fonctions]**.
 
@@ -48,6 +48,6 @@ Pour configurer une connexion à votre base de données, procédez comme suit :
 
 1. Terminez la création de votre connexion en cliquant sur le bouton **[!UICONTROL Enregistrer]**.
 
-   Une vue d’ensemble de votre connexion à la base de données Federated est disponible, comme illustré ci-dessous :
+   Une vue d’ensemble de votre connexion à la base de données fédérée est disponible, comme illustré ci-dessous :
 
    ![](assets/connections_overview.png){zoomable="yes"}

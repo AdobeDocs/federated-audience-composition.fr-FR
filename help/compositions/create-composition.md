@@ -5,9 +5,9 @@ description: Découvrir comment créer des compositions
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ La première étape pour créer une composition consiste à définir son libell�
 
    ![](assets/composition-create.png)
 
-1. Dans la section **[!UICONTROL Propriétés]** , spécifiez un libellé pour votre composition et sélectionnez un modèle de données. Seuls les schémas associés à ce modèle de données seront disponibles dans les activités de votre composition.
+1. Dans la section **[!UICONTROL Propriétés]**, spécifiez un libellé pour votre composition, puis sélectionnez un modèle de données. Seuls les schémas associés à ce modèle de données seront disponibles dans les activités de votre composition.
 
    ![](assets/composition-select-schema.png)
 
