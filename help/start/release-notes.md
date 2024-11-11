@@ -3,8 +3,8 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: ht
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -13,6 +13,13 @@ ht-degree: 100%
 # Notes de mise à jour {#rn-new}
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+
+>[!AVAILABILITY]
+>
+>La composition d’audiences fédérées Adobe Experience Platform n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée).
+>
+
 
 ## Version d’octobre 2024 {#fac-24-10}
 
@@ -46,10 +53,6 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 ## Version de juillet 2024 : composition d’audiences fédérées (disponibilité limitée) {#fac-la}
 
->[!AVAILABILITY]
->
->La composition d’audiences fédérées Adobe Experience Platform n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée).
->
 
 La composition d’audiences fédérées est une fonctionnalité complémentaire qui permet aux entreprises d’accéder de manière flexible et étendue aux entrepôts de données d’entreprise, afin de composer des audiences à l’aide de jeux de données d’entreprise critiques et d’optimiser des expériences initiées par la marque et en temps réel. Grâce à cette nouvelle approche, en tant qu’utilisateur ou utilisatrice d’[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home){target="_blank"} et/ou d’[Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"}, vous pouvez fédérer les données d’audience directement à partir de votre entrepôt de données existant pour enrichir les audiences Adobe Experience Platform dans un seul système.
 
