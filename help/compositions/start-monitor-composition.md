@@ -2,12 +2,11 @@
 audience: end-user
 title: Créer des compositions
 description: Découvrir comment créer des compositions
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

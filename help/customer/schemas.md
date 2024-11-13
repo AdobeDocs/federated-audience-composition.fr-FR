@@ -2,12 +2,11 @@
 audience: end-user
 title: Commencer avec les schémas
 description: Découvrir comment commencer avec les schémas
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -2,12 +2,11 @@
 audience: end-user
 title: Utiliser l’activité Enregistrer l’audience
 description: Découvrir comment utiliser l’activité Enregistrer l’audience
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

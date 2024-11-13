@@ -1,11 +1,10 @@
 ---
 title: Conditions préalables et mécanismes de sécurisation pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 92%
 
 ---

@@ -2,12 +2,11 @@
 audience: end-user
 title: Configurer vos bases de données fédérées
 description: Découvrir comment configurer vos bases de données fédérées
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: ht
-source-wordcount: '1897'
-ht-degree: 100%
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

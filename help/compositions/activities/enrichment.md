@@ -2,12 +2,11 @@
 audience: end-user
 title: Utiliser l’activité Enrichissement
 description: Découvrir comment utiliser l’activité Enrichissement
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
