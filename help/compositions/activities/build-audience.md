@@ -4,7 +4,7 @@ title: Utiliser l’activité Créer une audience
 description: Découvrir comment utiliser l’activité Créer une audience
 exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
 ht-degree: 100%
 

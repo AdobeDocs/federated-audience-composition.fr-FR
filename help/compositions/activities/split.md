@@ -4,9 +4,9 @@ title: Utiliser l’activité Partage
 description: Découvrir comment utiliser l’activité Partage
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '923'
+ht-degree: 100%
 
 ---
 

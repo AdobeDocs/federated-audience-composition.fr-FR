@@ -3,9 +3,9 @@ title: Conditions préalables et mécanismes de sécurisation pour la compositio
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La composition d’audiences fédérées requiert les packages Adobe Real-Time C
 
 ## Systèmes pris en charge {#supported-systems}
 
-Federated Audience Composition prend en charge les entrepôts cloud suivants :
+La composition d’audiences fédérées prend en charge les entrepôts cloud suivants :
 
 * Amazon Redshift
 * Azure Synapse
@@ -28,7 +28,7 @@ Federated Audience Composition prend en charge les entrepôts cloud suivants :
 * Snowflake
 * Vertica Analytics
 
-Découvrez comment créer une connexion avec ces systèmes dans [cette page](../connections/connections.md).
+Découvrez comment créer une connexion avec ces systèmes sur [cette page](../connections/connections.md).
 
 ## Autorisations {#permissions}
 

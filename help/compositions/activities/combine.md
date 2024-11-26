@@ -4,7 +4,7 @@ title: Utiliser l’activité Combiner
 description: Découvrir comment utiliser l’activité Combiner
 exl-id: 395e96d1-0af2-4e59-b599-f57a083b68ca
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '765'
 ht-degree: 100%
 

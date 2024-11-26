@@ -3,9 +3,9 @@ title: Adobe Experience Platform - Page d’accueil de la documentation sur la
 description: Documentation sur le module complémentaire de la composition d’audiences fédérées
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Créez, configurez, testez et enregistrez la connexion à votre base de données
 
 >[!TAB Composer une audience]
 
-Ajoutez et configurez des activités (Partage, Enrichissement, Requête, etc.) pour créer des compositions et créer votre audience.
+Ajoutez et configurez des activités (partage, enrichissement, requête, etc.) pour créer des compositions et votre audience.
 
 [![image](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -53,7 +53,7 @@ Ajoutez et configurez des activités (Partage, Enrichissement, Requête, etc.) p
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Composer une audience</strong><br/>Ajoutez et configurez des activités (Partage, Enrichissement, Requête, etc.) pour créer des compositions et créer votre première audience fédérée.
+    <div><strong>Composer une audience</strong><br/>Ajoutez et configurez des activités (partage, enrichissement, requête, etc.) pour créer des compositions et votre première audience fédérée.
     </div>
     </td>
     <td>

@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->Anciennement disponible pour un ensemble d’organisations (LA), la composition d’audiences fédérées de Adobe Experience Platform est désormais disponible pour tous les utilisateurs (GA). Ce module complémentaire est activé en fonction de votre offre et n’est visible qu’avec les autorisations associées. [En savoir plus](access-prerequisites.md)
+>Auparavant disponible pour un ensemble d’organisations (LA), la composition d’audiences fédérées Adobe Experience Platform est désormais disponible pour tous les utilisateurs et utilisatrices (GA). Ce module complémentaire est activé en fonction de votre offre et n’est visible qu’avec les autorisations associées. [En savoir plus](access-prerequisites.md)
 >
 
 ### Compatibilité {#fac-24-10-compat}

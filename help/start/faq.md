@@ -3,9 +3,9 @@ title: Questions fréquentes
 description: Questions fréquentes sur la composition d’audiences fédérées Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Pour utiliser la composition d’audiences fédérées, chaque personne doit êt
 
 +++Quels entrepôts cloud sont pris en charge ?
 
-La liste des systèmes pris en charge avec Federated Audience Composition est disponible dans [cette page](../start/access-prerequisites.md#supported-systems).
+La liste des systèmes pris en charge avec la composition d’audiences fédérées est disponible sur [cette page](../start/access-prerequisites.md#supported-systems).
 
 +++
 
 
 +++Plusieurs entrepôts de données peuvent-ils être interrogés dans la même composition ?
 
-Oui, plusieurs entrepôts peuvent être interrogés dans la même composition et peuvent combiner des données provenant de plusieurs sources.  En règle générale, chaque [activité de composition](../compositions/orchestrate-activities.md) (Requête, Enrichissement, Partage, etc.) exécute une ou plusieurs instructions SQL selon la configuration de l&#39;activité, les bases de données ciblées (il peut y avoir plusieurs cas d&#39;accès aux données fédérées) et les sorties d&#39;une ou de plusieurs tables de travail avec le résultat de l&#39;exécution. Ces tables de travail sont utilisées comme entrée pour les activités consécutives.
+Oui, plusieurs entrepôts peuvent être interrogés dans la même composition et peuvent combiner des données provenant de plusieurs sources.  Généralement, chaque [activité de composition](../compositions/orchestrate-activities.md) (requête, enrichissement, partage etc.) exécute une ou plusieurs instructions SQL en fonction de la configuration de l’activité, des bases de données ciblées (il peut y avoir plusieurs cas d’accès aux données fédérées) et des sorties d’une ou de plusieurs tables de travail avec le résultat de l’exécution. Ces tables de travail sont utilisées comme entrée pour les activités consécutives.
 
 +++
 
