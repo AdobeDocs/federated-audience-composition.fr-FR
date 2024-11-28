@@ -3,10 +3,10 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 77%
 
 ---
 
@@ -40,6 +40,16 @@ Pour configurer une connexion à votre base de données, procédez comme suit :
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+
+1. Pour chaque base de données prise en charge, cliquez sur le bouton **[!UICONTROL Server IP]** . La liste de toutes les adresses IP associées à vos instances de composition d’audiences fédérées s’affiche.
+
+   ![](assets/connections_server_IPs.png){zoomable="yes"}
+
+   Cliquez sur une adresse IP de la liste pour la copier dans votre système et autoriser cette adresse IP à se connecter à votre base de données.
+
+>[!NOTE]
+>
+>Pour utiliser la composition d’audiences fédérées pour une base de données donnée, vous devez liste autorisée toutes les adresses IP associées à cette base de données.
 
 1. Une fois les détails renseignés, cliquez sur les boutons **[!UICONTROL Tester la connexion]** et **[!UICONTROL Déployer les fonctions]**.
 
