@@ -2,10 +2,10 @@
 title: Conditions préalables et mécanismes de sécurisation pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: 8d498adf9f8998639e39f8f98de098682f828628
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 86%
 
 ---
 
@@ -30,6 +30,12 @@ La composition d’audiences fédérées prend en charge les entrepôts cloud su
 
 Découvrez comment créer une connexion avec ces systèmes sur [cette page](../connections/connections.md).
 
+<!--
+## Sandboxes
+
+When purchasing the Federated Audience Composition add-on, you are entitled to two sandboxes (one production sandbox and one non-production sandbox). For any additional sandbox provisioning requests, contact your Adobe representative.
+-->
+
 ## Autorisations {#permissions}
 
 Lorsque vous achetez le module complémentaire Composition d’audiences fédérées, un profil de produit est créé pour chaque sandbox actif à ce moment-là. Ce profil de produit est créé dans l’Admin Console sous la carte de produit **Adobe Experience Platform** et suit cette convention de nommage : `ACP_FAC - <<SandboxName>> - admin.`. Pour accéder à la composition d’audiences fédérées pour un sandbox spécifique, les personnes doivent être ajoutées au profil de produit créé pour ce sandbox.
@@ -38,7 +44,7 @@ Par exemple, si un nouveau sandbox nommé « fac-test » est activé, un profi
 
 ## Listes autorisées des adresses IP {#ip}
 
-Pour activer en toute sécurité la composition d’audiences fédérées et accéder à vos bases de données, contactez votre représentant ou représentante Adobe afin d’obtenir les adresses IP des serveurs de composition d’audiences fédérées qui y accéderont.
+Pour permettre en toute sécurité à la composition d’audiences fédérées d’accéder à vos bases de données, vous devez autoriser les adresses IP des serveurs de composition d’audiences fédérées qui y accéderont. Ces adresses IP s’affichent lors de l’ajout d’une base de données fédérée dans l’interface utilisateur de Adobe Experience Platform. [En savoir plus](../connections/connections.md)
 
 Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la composition d’audiences fédérées.
 
@@ -50,3 +56,4 @@ Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * Les droits, les limitations de produit et les mécanismes de sécurisation des performances répertoriés dans la [documentation Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"} s’appliquent à ce module complémentaire.
+
