@@ -3,8 +3,8 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
-workflow-type: ht
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
+workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
@@ -47,9 +47,9 @@ Pour configurer une connexion à votre base de données, procédez comme suit :
 
    Cliquez sur une adresse IP de la liste pour la copier dans votre système et l’autoriser à se connecter à votre base de données.
 
->[!NOTE]
->
->Pour utiliser la composition d’audiences fédérées pour une base de données, vous devez ajouter à la liste autorisée toutes les adresses IP associées à cette base de données.
+   >[!NOTE]
+   >
+   >Pour utiliser la composition d’audiences fédérées pour une base de données, vous devez ajouter à la liste autorisée toutes les adresses IP associées à cette base de données.
 
 1. Une fois les détails renseignés, cliquez sur les boutons **[!UICONTROL Tester la connexion]** et **[!UICONTROL Déployer les fonctions]**.
 
