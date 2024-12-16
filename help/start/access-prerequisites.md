@@ -2,10 +2,10 @@
 title: Conditions préalables et mécanismes de sécurisation pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 8d498adf9f8998639e39f8f98de098682f828628
+source-git-commit: d26fa10fa7e28c1515a625e2e0b10a000aa2d7d5
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 86%
+source-wordcount: '311'
+ht-degree: 82%
 
 ---
 
@@ -50,7 +50,7 @@ Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la
 
 ## Mécanismes de sécurisation et limitations {#fac-guardrails}
 
-* La composition d’audiences fédérées n’est actuellement pas disponible pour la clientèle qui [ingère des données d’intégrité](https://experienceleague.adobe.com/fr/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} et la clientèle Adobe Journey Optimizer Privacy &amp; Security Shield. [En savoir plus](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}.
+* La composition de l’audience fédérée est actuellement indisponible pour les clients [ingestion de données d’intégrité](https://experienceleague.adobe.com/fr/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}<!-- and to Adobe Journey Optimizer Privacy and Security Shield customers-->. [En savoir plus](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
