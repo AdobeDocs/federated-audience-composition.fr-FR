@@ -3,9 +3,9 @@ title: Conditions préalables et mécanismes de sécurisation pour la compositio
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Découvrez comment créer une connexion avec ces systèmes sur [cette page](../c
 
 ## Sandbox
 
-Lors de l’achat du module complémentaire Composition d’audience fédérée, vous avez droit à deux sandbox. Pour toute demande d’approvisionnement supplémentaire de sandbox, contactez votre représentant d’Adobe.
+Lors de l’achat du module complémentaire Composition d’audiences fédérées, vous avez droit à deux sandbox. Pour toute demande de sandbox supplémentaire, contactez votre représentant ou représentante Adobe.
 
 ## Autorisations {#permissions}
 
@@ -42,13 +42,13 @@ Par exemple, si un nouveau sandbox nommé « fac-test » est activé, un profi
 
 ## Listes autorisées des adresses IP {#ip}
 
-Pour permettre en toute sécurité à la composition d’audiences fédérées d’accéder à vos bases de données, vous devez autoriser les adresses IP des serveurs de composition d’audiences fédérées qui y accéderont. Ces adresses IP s’affichent lors de l’ajout d’une base de données fédérée dans l’interface utilisateur de Adobe Experience Platform. [En savoir plus](../connections/connections.md)
+Pour activer en toute sécurité l’accès de la Composition d’audiences fédérées à vos bases de données, vous devez obtenir les adresses IP des serveurs de Composition d’audiences fédérées qui y accéderont. Ces adresses IP s’affichent lors de l’ajout d’une base de données fédérées dans l’interface d’utilisation d’Adobe Experience Platform. [En savoir plus](../connections/connections.md)
 
 Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la composition d’audiences fédérées.
 
 ## Mécanismes de sécurisation et limitations {#fac-guardrails}
 
-* La composition de l’audience fédérée est actuellement indisponible pour les clients [ingestion de données d’intégrité](https://experienceleague.adobe.com/fr/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}. [En savoir plus](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
+* La Composition d’audiences fédérées est actuellement indisponible pour les clientes et clients [ingérant des données sur la santé](https://experienceleague.adobe.com/fr/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}. [En savoir plus](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
