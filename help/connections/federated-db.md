@@ -3,10 +3,10 @@ audience: end-user
 title: Configurer vos bases de données fédérées
 description: Découvrir comment configurer vos bases de données fédérées
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '1895'
-ht-degree: 100%
+source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
+workflow-type: tm+mt
+source-wordcount: '1904'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,10 @@ Avec la composition d’audiences fédérées, vous pouvez vous connecter aux ba
 * [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
+
+>[!AVAILABILITY]
+>
+>Seuls Amazon Redshift et Amazon Redshift Serverless sont pris en charge.
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.
 
