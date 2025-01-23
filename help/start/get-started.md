@@ -2,10 +2,10 @@
 title: Commencer avec la composition d’audiences fédérées Experience Platform
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '931'
-ht-degree: 100%
+source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
+workflow-type: tm+mt
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 100%
 La composition d’audiences fédérées est une fonctionnalité de module complémentaire d’[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home){target="_blank"} et d’[Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} qui vous permet de créer et d’enrichir des audiences à partir de vos entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform. La composition d’audiences fédérées offre une solution simple et puissante pour connecter votre entrepôt de données d’entreprise directement dans Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer et exécuter des requêtes sur les tables de votre entrepôt de données.
 
 La composition d’audiences fédérées Adobe permet aux personnes utilisant des applications Adobe Experience Platform d’accéder aux données de leur clientèle stockées dans leurs entrepôts de données et plateformes de stockage dans le cloud, telles qu’Amazon Redshift, Azure Synapse Analytics, etc. Les données de la clientèle peuvent se trouver dans plusieurs entrepôts de données et sont désormais accessibles instantanément, sans réplication. Les plateformes prises en charge sont répertoriées sur [cette page](../connections/federated-db.md#supported-db).
+
+>[!INFO]
+>
+>Suivez ce [guide détaillé](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) pour savoir comment créer des audiences à l’aide de la composition d’audiences fédérées.
 
 ## Fonctionnalités {#rn-capabilities}
 
