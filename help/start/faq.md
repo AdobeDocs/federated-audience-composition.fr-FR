@@ -2,10 +2,10 @@
 title: Questions fréquentes
 description: Questions fréquentes sur la composition d’audiences fédérées Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
+source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -77,9 +77,9 @@ Les données de l’audience obtenues ne sont pas conservées indéfiniment dans
 
 +++
 
-+++Puis-je supprimer une audience chargée personnalisée ?
++++Puis-je supprimer une audience ?
 
-Non, dans la version actuelle, vous ne pouvez pas supprimer les audiences chargées personnalisées.
+Non, dans la version actuelle, vous ne pouvez pas supprimer les audiences de composition d’audiences fédérées.
 
 +++
 
