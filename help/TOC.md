@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 + Commencer avec la composition d’audiences fédérées {#start}
    + [Qu’appelle-t-on Composition d’audiences fédérées](start/get-started.md)
    + [Conditions préalables et mécanismes de sécurisation](start/access-prerequisites.md)
+   + [Accéder à la composition de l’audience fédérée](start/feature-access.md)
    + [Utiliser les audiences](start/audiences.md)
    + [Questions fréquentes](start/faq.md)
 + Étapes de configuration {#config}

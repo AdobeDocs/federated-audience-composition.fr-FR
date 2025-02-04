@@ -2,10 +2,10 @@
 title: Conditions préalables et mécanismes de sécurisation pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: ht
-source-wordcount: '335'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -36,9 +36,7 @@ Lors de l’achat du module complémentaire Composition d’audiences fédérée
 
 ## Autorisations {#permissions}
 
-Lorsque vous achetez le module complémentaire Composition d’audiences fédérées, un profil de produit est créé pour chaque sandbox actif à ce moment-là. Ce profil de produit est créé dans l’Admin Console sous la carte de produit **Adobe Experience Platform** et suit cette convention de nommage : `ACP_FAC - <<SandboxName>> - admin.`. Pour accéder à la composition d’audiences fédérées pour un sandbox spécifique, les personnes doivent être ajoutées au profil de produit créé pour ce sandbox.
-
-Par exemple, si un nouveau sandbox nommé « fac-test » est activé, un profil de produit correspondant « ACP_FAC - fac-test - admin » est créé. Pour accéder à la composition d’audiences fédérées avec ce sandbox, les personnes doivent être ajoutées à ce profil de produit.
+Pour accéder à la composition de l’audience fédérée, les utilisateurs doivent être ajoutés au profil de produit spécifique au sandbox créé lors de l’achat et l’autorisation **[!UICONTROL Gérer les données fédérées]** doit leur être attribuée. [En savoir plus](feature-access.md)
 
 ## Listes autorisées des adresses IP {#ip}
 

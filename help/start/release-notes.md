@@ -2,16 +2,23 @@
 title: Nouveautés de la composition d’audiences fédérées Experience Platform
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: edea9937554c4be4df3e9f03686033aa183cadb7
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 94%
 
 ---
 
 # Notes de mise à jour {#rn-new}
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+
+## Mise à jour de février 2025 {#fac-25-01}
+
+À compter de la version de février, [!DNL Federated Audience Composition] n’est accessible qu’aux utilisateurs disposant de l’autorisation **Gérer les données fédérées**.
+Pour savoir comment attribuer cette autorisation, consultez la [documentation détaillée](feature-access.md).
+
 
 ## Version de novembre 2024 {#fac-24-11}
 
