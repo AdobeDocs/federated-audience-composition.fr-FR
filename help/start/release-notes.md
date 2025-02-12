@@ -2,7 +2,7 @@
 title: Nouveautés de la composition d’audiences fédérées Experience Platform
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 51a6c6154452ae56e495312f1d4e909f4eb2d06e
+source-git-commit: 81ac7595196aeff30f1d09d66779ca4392f7bb19
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 88%
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 ## Mise à jour de février 2025 {#fac-25-01}
 
-À compter de la version de février, [!DNL Federated Audience Composition] commencera à appliquer l’accès aux interfaces **Federated Data Management** et **Federated Compositions** aux utilisateurs qui disposent de l’autorisation **Gérer les données fédérées**.
+À compter de la version de mars, [!DNL Federated Audience Composition] commencera à appliquer l’accès aux interfaces **Federated Data Management** et **Federated Compositions** aux utilisateurs qui disposent de l’autorisation **Gérer les données fédérées**.
 
 Nous recommandons aux utilisateurs de contacter les administrateurs pour que cette autorisation soit ajoutée à leur rôle afin de continuer à accéder à l’interface utilisateur [!DNL Federated Audience Composition].
 
