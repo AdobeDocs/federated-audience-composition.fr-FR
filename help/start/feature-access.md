@@ -1,7 +1,8 @@
 ---
 title: Accéder à la composition de l’audience fédérée
 description: Découvrez les autorisations requises pour la composition d’audiences fédérées
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 36%
@@ -20,7 +21,7 @@ Par exemple, si un nouveau sandbox nommé « fac-test » est activé, un profi
 
 >[!AVAILABILITY]
 >
->Les autorisations sont disponibles dans le cadre de la version de février.
+>Les autorisations sont disponibles dans le cadre de la version de mars.
 
 Pour accéder à la **composition de l’audience fédérée**, vous devez d’abord vous assurer que l’autorisation **Gérer les données fédérées** est affectée aux rôles appropriés. Ces rôles doivent ensuite être attribués aux utilisateurs et utilisatrices qui ont besoin d’accéder à la **composition d’audiences fédérées**.
 
@@ -53,5 +54,3 @@ Pour attribuer ce rôle aux nouveaux utilisateurs :
 1. Saisissez le nom ou l’adresse e-mail de l’utilisateur ou sélectionnez-en un dans la liste disponible. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
 L’utilisateur recevra alors un e-mail contenant des instructions pour accéder à votre instance. Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez cette [documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users).
-
-
