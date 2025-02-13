@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 97%
+source-wordcount: '154'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 97%
    + [Configurer vos bases de données fédérées](connections/federated-db.md)
    + Modèles et schémas de données{#datamodel}
       + [Créer et configurer des schémas](customer/schemas.md)
+      + [Configuration des modèles de données (version bêta)](data-management/gs-models-beta.md)
       + [Configurer vos modèles de données](data-management/gs-models.md)
    + [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
 + Composer des audiences {#compositions}
