@@ -2,7 +2,7 @@
 title: Nouveautés de la composition d’audiences fédérées Experience Platform
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 82%
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 Cette version est fournie avec les modifications répertoriées ci-dessous.
 
-* **Prise en charge de Microsoft Fabrics**
+* **Prise en charge de Microsoft Fabric**
 
   Vous pouvez désormais établir des connexions aux bases de données Microsoft Fabric par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/federated-db.md)
 

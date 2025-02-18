@@ -3,10 +3,10 @@ audience: end-user
 title: Configurer vos bases de données fédérées
 description: Découvrir comment configurer vos bases de données fédérées
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
-source-wordcount: '2081'
-ht-degree: 95%
+source-wordcount: '2068'
+ht-degree: 96%
 
 ---
 
@@ -331,9 +331,6 @@ Le connecteur prend en charge les options suivantes :
 
 ## Microsoft Fabric {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->Actuellement, Microsoft Fabric n’est disponible que pour un nombre restreint d’organisations (disponibilité limitée).
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Microsoft Fabric.
 
