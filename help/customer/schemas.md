@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les schémas
 description: Découvrir comment commencer avec les schémas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '513'
-ht-degree: 100%
+source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
+workflow-type: tm+mt
+source-wordcount: '516'
+ht-degree: 80%
 
 ---
 
@@ -57,19 +57,21 @@ En créant un schéma, vous pouvez définir une représentation de votre tableau
 
 Pour créer des schémas dans la composition d’audiences fédérées, procédez comme suit :
 
-1. Dans la section **[!UICONTROL DONNÉES FÉDÉRÉES]**, accédez au lien **[!UICONTROL Modèles]**. Accédez à l’onglet **[!UICONTROL Schéma]** et cliquez sur le bouton **[!UICONTROL Créer un schéma]**.
+1. Dans la section **[!UICONTROL Données fédérées]**, accédez au menu **[!UICONTROL Modèles]**. Accédez à l’onglet **[!UICONTROL Schéma]** et cliquez sur **[!UICONTROL Créer un schéma]**.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    Cette étape permet d’accéder à un nouvel écran avec une liste déroulante où se trouvent les bases de données connectées à votre environnement. En savoir plus sur la connexion de bases de données dans [cette section](../connections/connections.md#connections-fdb).
 
-1. Sélectionnez votre base de données source dans la liste et cliquez sur l’onglet **[!UICONTROL Ajouter des tableaux]**.
+1. Sélectionnez la base de données source dans la liste, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
    Vous aurez accès à la liste de tous les tableaux de la base de données.
 
-1. En ajoutant les tableaux, pour lesquels vous souhaitez créer le schéma, vous avez accès à leurs champs comme ci-dessous :
+1. Sélectionnez les tables pour lesquelles vous souhaitez créer le schéma.
+
+1. Chaque table sélectionnée génère un schéma avec les colonnes sélectionnées. Configurez le schéma et ses colonnes selon vos besoins.
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -77,31 +79,28 @@ Pour créer des schémas dans la composition d’audiences fédérées, procéde
 
    * Modifier le libellé du schéma
    * Ajouter une description
-   * Renommer tous les champs et décider de leur visibilité
+   * renommez tous les libellés de champ et définissez leur visibilité
    * Sélectionner la clé primaire du schéma
 
-   Par exemple, pour le tableau suivant importé :
+   Le schéma peut être défini comme suit :
 
-   ![](assets/schema_lumaorder.png){zoomable="yes"}
+   ![](assets/schema_example.png)
 
-   Le schéma peut être défini comme suit :
-
-   ![](assets/schema_lumaorders.png){zoomable="yes"}
+1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Terminé]**.
 
 ## Modifier un schéma {#schema-edit}
 
 Pour modifier un schéma, procédez comme suit :
 
-1. Cliquez sur le nom de votre schéma dans la liste.
+1. Accédez au schéma créé précédemment.
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier]**.
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   Vous pouvez accéder aux mêmes options que lors de la [création d’un schéma](#schema-create).
+1. Dans la fenêtre **[!UICONTROL Modifier le schéma]**, vous pouvez accéder aux mêmes options que lors de la [création d’un schéma](#schema-create) et les configurer.
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
-
 
 ## Prévisualiser les données dans un schéma {#schema-preview}
 
@@ -114,7 +113,6 @@ Cliquez sur le lien **[!UICONTROL Calculer]** pour prévisualiser le nombre tota
 Cliquez sur le bouton **[!UICONTROL Configurer les colonnes]** pour modifier l’affichage des données.
 
 ![](assets/schema_columns.png){zoomable="yes"}
-
 
 ## Actualiser un schéma {#schema-refresh}
 

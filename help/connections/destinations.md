@@ -3,10 +3,10 @@ audience: end-user
 title: Enrichir les audiences Adobe Experience Platform avec des données externes
 description: Découvrez comment affiner et enrichir les audiences Adobe Experience Platform avec les données de vos bases de données fédérées à l’aide de la destination Composition d’audiences fédérées.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,22 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform �
 
    ![](assets/destination-new.png)
 
-1. Attribuez un nom à la nouvelle connexion, choisissez le **[!UICONTROL Type de connexion]** à utiliser et la **[!UICONTROL base de données fédérée]** à laquelle vous souhaitez vous connecter, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez le nom de la nouvelle connexion et sélectionnez le **[!UICONTROL Type de connexion]** parmi les connexions disponibles suivantes :
+
+   * Amazon Redshift
+   * Azure Synapse Analytics
+   * Google BigQuery
+   * Snowflake
+   * Vertica Analytics
+   * Databricks
+
+1. Sélectionnez la **[!UICONTROL base de données fédérée]** à laquelle vous souhaitez vous connecter, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/destination-configure.png)
 
-   La section **[!UICONTROL Alertes]** permet d’activer les alertes pour recevoir des notifications sur le statut de votre flux de données vers votre destination. Pour plus d’informations sur les alertes, consultez le guide Adobe Experience Platform sur l’[abonnement aux alertes des destinations dans l’interface d’utilisation](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+1. Dans la section **[!UICONTROL Alertes]**, vous pouvez activer les alertes pour recevoir des notifications sur le statut du flux de données vers la destination.
+
+   Pour plus d’informations sur les alertes, consultez le guide Adobe Experience Platform sur l’[abonnement aux alertes des destinations dans l’interface d’utilisation](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 1. L’étape **[!UICONTROL Politique de gouvernance et mesures de mise en conformité]** vous permet de définir vos politiques de gouvernance des données et de vous assurer que les données utilisées sont conformes lorsque les audiences sont envoyées et actives.
 
