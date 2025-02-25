@@ -4,10 +4,11 @@ title: Commencer avec les modèles de données
 description: Découvrir comment commencer avec les modèles de données
 hide: true
 hidefromtoc: true
-source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: tm+mt
+exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
+source-git-commit: db358d5a7682069e1d0ddc49b39cc8483e36b507
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +16,13 @@ ht-degree: 26%
 
 >[!AVAILABILITY]
 >
->Le modèle de données avec la vue Zone de travail est actuellement disponible en version bêta pour certains utilisateurs uniquement.
+>Le modèle de données avec la vue Zone de travail est actuellement disponible en version bêta pour certaines personnes uniquement.
 
 ## Qu’est-ce qu’un modèle de données ? {#data-model-start}
 
 Un modèle de données désigne un ensemble de schémas et d’audiences, ainsi que les liens qui existent entre eux. Il est utilisé pour fédérer les audiences avec des données de base de données.
 
-En savoir plus sur les [schémas](../customer/schemas.md#schema-start) et [audiences](../start/audiences.md).
+En savoir plus sur les [schémas](../customer/schemas.md#schema-start) et les [audiences](../start/audiences.md).
 
 Voici un exemple de représentation d’un modèle de données : les tableaux avec leur nom et les liens qui existent entre elles.
 
@@ -35,7 +36,7 @@ Leur création dépend du cas d’utilisation, en ce que vous choisissez les tab
 
 Pour créer un modèle de données, procédez comme suit :
 
-1. Dans la section **[!UICONTROL Données fédérées]**, accédez au menu **[!UICONTROL Modèles]** et accédez à l’onglet **[!UICONTROL Modèle de données]**.
+1. Dans la section **[!UICONTROL Federated Data]**, accédez au menu **[!UICONTROL Modèles]**, puis à l’onglet **[!UICONTROL Modèle de données]**.
 
    Cliquez sur le bouton **[!UICONTROL Créer un modèle de données]**.
 
@@ -49,9 +50,9 @@ Pour créer un modèle de données, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Ajouter des audiences]** pour définir vos groupes cibles.
 
-1. Établissez des connexions entre les tables de votre modèle de données pour garantir des relations de données précises. [En savoir plus](#data-model-links)
+1. Établissez des connexions entre les tableaux de votre modèle de données pour garantir des relations de données précises. [En savoir plus](#data-model-links)
 
-1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
+1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
 ## Créer des liens {#data-model-links}
 
@@ -59,7 +60,7 @@ Pour créer un modèle de données, procédez comme suit :
 
 >[!TAB Vue Tableau]
 
-Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Tableau , procédez comme suit :
+Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Tableau, procédez comme suit :
 
 1. Cliquez sur le menu **[!UICONTROL Créer un lien]** de l’une des tables ou sur le bouton **[!UICONTROL Créer des liens]**, puis sélectionnez les 2 tableaux suivants :
 
@@ -71,11 +72,11 @@ Pour créer des liens entre les tableaux de votre modèle de données à partir 
 
    **Cardinalité**
 
-   * **1-N** : à une occurrence de la table source peuvent correspondre plusieurs occurrences de la table cible, mais à une occurrence de la table cible peut correspondre au plus une occurrence de la table source.
+   * **1-N** : à une occurrence du tableau source peuvent correspondre plusieurs occurrences du tableau cible, mais à une occurrence du tableau cible peut correspondre au plus une occurrence du tableau source.
 
-   * **N-1** : à une occurrence de la table cible peuvent correspondre plusieurs occurrences de la table source, mais à une occurrence de la table source peut correspondre au plus une occurrence de la table cible.
+   * **N-1** : à une occurrence du tableau cible peuvent correspondre plusieurs occurrences du tableau source, mais à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-   * **1-1** : à une occurrence de la table source peut correspondre au plus une occurrence de la table cible.
+   * **1-1** : à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
 Tous les liens définis pour votre modèle de données seront répertoriés comme ci-dessous :
 
@@ -83,11 +84,11 @@ Tous les liens définis pour votre modèle de données seront répertoriés comm
 
 >[!TAB Vue Zone de travail]
 
-Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Zone de travail , procédez comme suit :
+Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Zone de travail, procédez comme suit :
 
-1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tables à lier
+1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tableaux à lier.
 
-1. Cliquez sur le bouton ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de la jointure Source, puis faites glisser la flèche vers la jointure Target pour établir la connexion.
+1. Cliquez sur le bouton ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de la jointure Source, puis faites glisser la flèche vers la jointure cible pour établir la connexion.
 
    ![](assets/datamodel.gif){zoomable="yes"}
 
@@ -97,13 +98,13 @@ Pour créer des liens entre les tableaux de votre modèle de données à partir 
 
    **Cardinalité**
 
-   * **1-N** : à une occurrence de la table source peuvent correspondre plusieurs occurrences de la table cible, mais à une occurrence de la table cible peut correspondre au plus une occurrence de la table source.
+   * **1-N** : à une occurrence du tableau source peuvent correspondre plusieurs occurrences du tableau cible, mais à une occurrence du tableau cible peut correspondre au plus une occurrence du tableau source.
 
-   * **N-1** : à une occurrence de la table cible peuvent correspondre plusieurs occurrences de la table source, mais à une occurrence de la table source peut correspondre au plus une occurrence de la table cible.
+   * **N-1** : à une occurrence du tableau cible peuvent correspondre plusieurs occurrences du tableau source, mais à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-   * **1-1** : à une occurrence de la table source peut correspondre au plus une occurrence de la table cible.
+   * **1-1** : à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-1. Tous les liens définis dans votre modèle de données sont représentés par des flèches dans la vue de la zone de travail. Cliquez sur une flèche entre deux tableaux pour afficher les détails, apporter des modifications ou supprimer le lien selon les besoins.
+1. Tous les liens définis dans votre modèle de données sont représentés par des flèches dans la vue Zone de travail. Cliquez sur une flèche entre deux tableaux pour afficher les détails, apporter des modifications ou supprimer le lien selon les besoins.
 
    ![](assets/datamodel-canvas-2.png){zoomable="yes"}
 
@@ -111,12 +112,12 @@ Pour créer des liens entre les tableaux de votre modèle de données à partir 
 
    ![](assets/datamodel-canvas-3.png)
 
-   * **[!UICONTROL Zoom avant]** : agrandissez la zone de travail pour afficher plus clairement les détails de votre modèle de données.
-   * **[!UICONTROL Zoom arrière]** : réduisez la taille de la zone de travail pour obtenir une vue plus large de votre modèle de données.
-   * **[!UICONTROL Ajuster la vue]** : ajustez le zoom pour qu’il s’adapte à tous les schémas et/ou audiences dans la zone visible.
-   * **[!UICONTROL Activer/désactiver l’interactivité]** : activez ou désactivez l’interaction de l’utilisateur avec la zone de travail.
-   * **[!UICONTROL Filtre]** : choisissez le schéma à afficher dans la zone de travail.
-   * **[!UICONTROL Forcer la disposition automatique]** : organiser automatiquement les schémas et/ou les audiences pour une meilleure organisation.
+   * **[!UICONTROL Zoom avant]** : agrandissez la zone de travail pour afficher plus clairement les détails de votre modèle de données.
+   * **[!UICONTROL Zoom arrière]** : réduisez la taille de la zone de travail pour obtenir une vue plus large de votre modèle de données.
+   * **[!UICONTROL Ajuster la vue]** : ajustez le zoom pour qu’il s’adapte à l’ensemble des schémas et/ou audiences dans la zone visible.
+   * **[!UICONTROL Activer/désactiver l’interactivité]** : activez ou désactivez l’interaction de la personne avec la zone de travail.
+   * **[!UICONTROL Filtre]** : choisissez le schéma à afficher dans la zone de travail.
+   * **[!UICONTROL Forcer la disposition automatique]** : organisez automatiquement les schémas et/ou les audiences pour une meilleure organisation.
 
 >[!ENDTABS]
 

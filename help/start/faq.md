@@ -3,9 +3,9 @@ title: Questions fréquentes
 description: Questions fréquentes sur la composition d’audiences fédérées Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Les données de l’audience obtenues ne sont pas conservées indéfiniment dans
 
 +++
 
-+++Puis-je supprimer une audience ?
++++Puis-je supprimer une audience ?
 
 Non, dans la version actuelle, vous ne pouvez pas supprimer les audiences de composition d’audiences fédérées.
 

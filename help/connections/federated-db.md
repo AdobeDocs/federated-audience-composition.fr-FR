@@ -4,9 +4,9 @@ title: Configurer vos bases de données fédérées
 description: Découvrir comment configurer vos bases de données fédérées
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Avec la composition d’audiences fédérées, vous pouvez vous connecter aux ba
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
-* [Microsoft Fabric](#microsoft-fabric)
+* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->Seuls Amazon Redshift AWS, Amazon Redshift Spectrum et Amazon Redshift Server less sont pris en charge.
+>Seuls Amazon Redshift AWS, Amazon Redshift Spectrum et Amazon Redshift sans serveur sont pris en charge.
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.
 
@@ -329,10 +329,10 @@ Le connecteur prend en charge les options suivantes :
 |---|---|
 | NomFuseauHoraire | Vide par défaut. Le serveur applicatif du fuseau horaire est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. |
 
-## Microsoft Fabric {#microsoft-fabric}
+## Microsoft Fabric {#microsoft-fabric}
 
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Microsoft Fabric.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Microsoft Fabric.
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
@@ -346,13 +346,13 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
    ![](assets/microsoft-config.png)
 
-1. Configurez les paramètres d’authentification de Microsoft Fabric :
+1. Configurez les paramètres d’authentification Microsoft Fabric :
 
-   * **[!UICONTROL Serveur]** : saisissez l’URL du serveur Microsoft Fabric.
+   * **[!UICONTROL Serveur]** : saisissez l’URL du serveur Microsoft Fabric.
 
-   * **[!UICONTROL ID de l’application]** : saisissez votre ID d’application Microsoft Fabric.
+   * **[!UICONTROL ID de l’application]** : saisissez votre ID d’application Microsoft Fabric.
 
-   * **[!UICONTROL Secret client]** : saisissez votre secret client.
+   * **[!UICONTROL Secret client]** : saisissez votre secret client.
 
    * **[!UICONTROL Options]** : le connecteur prend en charge les options présentées dans le tableau ci-dessous.
 

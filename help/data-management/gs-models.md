@@ -4,9 +4,9 @@ title: Commencer avec les modèles de données
 description: Découvrir comment commencer avec les modèles de données
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Leur création dépend du cas d’utilisation, en ce que vous choisissez les tab
 
 Pour créer un modèle de données, procédez comme suit :
 
-1. Dans la section **[!UICONTROL Données fédérées]**, accédez au menu **[!UICONTROL Modèles]** et accédez à l’onglet **[!UICONTROL Modèle de données]**.
+1. Dans la section **[!UICONTROL Federated Data]**, accédez au menu **[!UICONTROL Modèles]**, puis à l’onglet **[!UICONTROL Modèle de données]**.
 
    Cliquez sur le bouton **[!UICONTROL Créer un modèle de données]**.
 
@@ -68,9 +68,9 @@ Pour créer un modèle de données, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Ajouter des audiences]** pour définir vos groupes cibles.
 
-1. Établissez des connexions entre les tables de votre modèle de données pour garantir des relations de données précises. [En savoir plus](#data-model-links)
+1. Établissez des connexions entre les tableaux de votre modèle de données pour garantir des relations de données précises. [En savoir plus](#data-model-links)
 
-1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
+1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
 ## Créer des liens {#data-model-links}
 
@@ -86,11 +86,11 @@ Pour créer des liens entre les tableaux de votre modèle de données, procédez
 
    **Cardinalité**
 
-   * **1-N** : à une occurrence de la table source peuvent correspondre plusieurs occurrences de la table cible, mais à une occurrence de la table cible peut correspondre au plus une occurrence de la table source.
+   * **1-N** : à une occurrence du tableau source peuvent correspondre plusieurs occurrences du tableau cible, mais à une occurrence du tableau cible peut correspondre au plus une occurrence du tableau source.
 
-   * **N-1** : à une occurrence de la table cible peuvent correspondre plusieurs occurrences de la table source, mais à une occurrence de la table source peut correspondre au plus une occurrence de la table cible.
+   * **N-1** : à une occurrence du tableau cible peuvent correspondre plusieurs occurrences du tableau source, mais à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-   * **1-1** : à une occurrence de la table source peut correspondre au plus une occurrence de la table cible.
+   * **1-1** : à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
 Tous les liens définis pour votre modèle de données seront répertoriés comme ci-dessous :
 

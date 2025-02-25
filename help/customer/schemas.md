@@ -4,9 +4,9 @@ title: Commencer avec les schémas
 description: Découvrir comment commencer avec les schémas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -57,21 +57,21 @@ En créant un schéma, vous pouvez définir une représentation de votre tableau
 
 Pour créer des schémas dans la composition d’audiences fédérées, procédez comme suit :
 
-1. Dans la section **[!UICONTROL Données fédérées]**, accédez au menu **[!UICONTROL Modèles]**. Accédez à l’onglet **[!UICONTROL Schéma]** et cliquez sur **[!UICONTROL Créer un schéma]**.
+1. Dans la section **[!UICONTROL Federated Data]**, accédez au menu **[!UICONTROL Modèles]**. Accédez à l’onglet **[!UICONTROL Schéma]** et cliquez sur le bouton **[!UICONTROL Créer un schéma]**.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    Cette étape permet d’accéder à un nouvel écran avec une liste déroulante où se trouvent les bases de données connectées à votre environnement. En savoir plus sur la connexion de bases de données dans [cette section](../connections/connections.md#connections-fdb).
 
-1. Sélectionnez la base de données source dans la liste, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez votre base de données source dans la liste et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
    Vous aurez accès à la liste de tous les tableaux de la base de données.
 
-1. Sélectionnez les tables pour lesquelles vous souhaitez créer le schéma.
+1. Sélectionnez les tableaux pour lesquels créer un schéma.
 
-1. Chaque table sélectionnée génère un schéma avec les colonnes sélectionnées. Configurez le schéma et ses colonnes selon vos besoins.
+1. Chaque tableau sélectionné génère un schéma avec les colonnes choisies. Configurez le schéma et ses colonnes selon vos besoins.
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -79,10 +79,10 @@ Pour créer des schémas dans la composition d’audiences fédérées, procéde
 
    * Modifier le libellé du schéma
    * Ajouter une description
-   * renommez tous les libellés de champ et définissez leur visibilité
+   * Renommer tous les champs et définir leur visibilité
    * Sélectionner la clé primaire du schéma
 
-   Le schéma peut être défini comme suit :
+   Le schéma peut être défini comme suit :
 
    ![](assets/schema_example.png)
 

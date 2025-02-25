@@ -3,9 +3,9 @@ title: Commencer avec la composition d’audiences fédérées Experience Platf
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ La composition d’audiences fédérées Adobe permet aux personnes utilisant d
 
 >[!INFO]
 >
->Suivez ce [guide détaillé](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) pour savoir comment créer des audiences à l’aide de la composition d’audiences fédérées.
+>Suivez ce [guide détaillé](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) pour savoir comment créer des audiences à l’aide de la composition d’audiences fédérées.
 
 ## Fonctionnalités {#rn-capabilities}
 

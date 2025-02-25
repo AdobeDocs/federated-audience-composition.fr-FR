@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,25 +13,25 @@ ht-degree: 82%
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Version du 25 février {#fac-25-2}
+## Version de février 2025 {#fac-25-2}
 
 Cette version est fournie avec les modifications répertoriées ci-dessous.
 
-* **Prise en charge de Microsoft Fabric**
+* **Prise en charge de Microsoft Fabric**
 
-  Vous pouvez désormais établir des connexions aux bases de données Microsoft Fabric par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/federated-db.md)
+  Vous pouvez désormais établir des connexions à des bases de données Microsoft Fabric par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/federated-db.md)
 
-* **Prise en charge du spectre Amazon Redshift**
+* **Prise en charge d’Amazon Redshift Spectrum**
 
-  Amazon Redshift Spectrum est désormais pris en charge pour les connexions Amazon Redshift Database. [En savoir plus](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum est désormais pris en charge pour les connexions Amazon Redshift Database. [En savoir plus](../connections/federated-db.md#amazon-redshift)
 
 * **Expérience améliorée de création de schéma**
 
-  Le processus de création des schémas a été amélioré grâce à une interface utilisateur mise à jour, conçue pour être plus intuitive et plus facile à parcourir. Ces améliorations offrent aux utilisateurs de données un moyen plus fluide et plus efficace de développer des modèles de données. [En savoir plus](../customer/schemas.md)
+  Le processus de création de schéma a été amélioré grâce à une interface d’utilisation mise à jour, conçue pour être plus intuitive et plus facile à parcourir. Ces améliorations offrent aux personnes utilisant des données un moyen plus fluide et plus efficace de développer des modèles de données. [En savoir plus](../customer/schemas.md)
 
-* **Prise en charge de l’enrichissement de l’audience pour les briques de données**
+* **Prise en charge de l’enrichissement de l’audience pour Databricks**
 
-  Vous pouvez désormais utiliser des briques de données dans le flux Lecture d’audience, ce qui active l’activité des bases de données des briques de données et permet de la configurer en tant que nouvelle destination. [En savoir plus](../connections/destinations.md)
+  Vous pouvez désormais utiliser Databricks dans le flux Lecture d’audience, ce qui active les bases de données Databricks et permet de les configurer en tant que nouvelle destination. [En savoir plus](../connections/destinations.md)
 
 <!--
 * **Federated Audience Composition permissions**

@@ -3,9 +3,9 @@ title: Conditions préalables et mécanismes de sécurisation pour la compositio
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Lors de l’achat du module complémentaire Composition d’audiences fédérée
 
 ## Autorisations {#permissions}
 
-Pour accéder à la composition de l’audience fédérée, les utilisateurs doivent être ajoutés au profil de produit spécifique au sandbox créé lors de l’achat et l’autorisation **[!UICONTROL Gérer les données fédérées]** doit leur être attribuée. [En savoir plus](feature-access.md)
+Pour accéder à la composition d’audiences fédérées, les personnes doivent être ajoutées au profil de produit spécifique au sandbox créé lors de l’achat et l’autorisation **[!UICONTROL Gérer Federated Data]** doit leur être attribuée. [En savoir plus](feature-access.md)
 
 ## Listes autorisées des adresses IP {#ip}
 
