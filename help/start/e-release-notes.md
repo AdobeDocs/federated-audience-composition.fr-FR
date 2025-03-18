@@ -3,10 +3,10 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 hide: true
 hidefromtoc: true
-source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
+source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 68%
+source-wordcount: '898'
+ht-degree: 66%
 
 ---
 
@@ -35,6 +35,10 @@ Cette version est fournie avec les améliorations ci-dessous.
 * **Export d’audience**
 
   La composition de l’audience fédérée prend désormais en charge l’exportation d’audiences volumineuses, gérant des tailles de fichier allant jusqu’à 20 Go.
+
+* **Assistant IA**
+
+  L’assistant d’IA est une fonctionnalité d’interface utilisateur conçue pour vous aider à parcourir et à comprendre les concepts Adobe et à obtenir des informations opérationnelles pour votre environnement spécifique. Il est disponible dans plusieurs produits dans Adobe Experience Cloud, y compris la composition de l’audience fédérée.
 
 ### Compatibilité {#fac-25-3-compat}
 
