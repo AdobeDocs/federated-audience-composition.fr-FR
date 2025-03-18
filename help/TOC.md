@@ -2,9 +2,9 @@
 user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
-source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: ht
-source-wordcount: '154'
+source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 100%
 
 + [Documentation sur la composition d’audiences fédérées Experience Platform](home.md)
 + [Notes de mise à jour](start/release-notes.md)
++ [Notes de mise à jour](start/e-release-notes.md)
 + Commencer avec la composition d’audiences fédérées {#start}
    + [Qu’appelle-t-on Composition d’audiences fédérées](start/get-started.md)
    + [Conditions préalables et mécanismes de sécurisation](start/access-prerequisites.md)
