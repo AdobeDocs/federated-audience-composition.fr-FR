@@ -3,10 +3,10 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '857'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 69%
 
 ## Version de mars 2025 {#fac-25-3}
 
-Cette version est fournie avec les améliorations répertoriées ci-dessous.
+### Améliorations {#fac-25-3-improvements}
+
+Cette version est fournie avec les améliorations ci-dessous.
 
 * **Autorisations de composition d’audiences fédérées**
 
@@ -34,7 +36,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
   La composition de l’audience fédérée prend désormais en charge l’exportation d’audiences volumineuses, gérant des tailles de fichier allant jusqu’à 20 Go.
 
-### Compatibilité {#fac-25.3-compat}
+### Compatibilité {#fac-25-3-compat}
 
 * **Connexion Databricks**
 
