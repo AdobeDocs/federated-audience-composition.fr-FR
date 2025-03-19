@@ -3,10 +3,11 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 hide: true
 hidefromtoc: true
-source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
+source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 66%
+source-wordcount: '846'
+ht-degree: 69%
 
 ---
 
@@ -28,13 +29,11 @@ Cette version est fournie avec les améliorations ci-dessous.
 
   Pour savoir comment attribuer cette autorisation, consultez la [documentation détaillée](feature-access.md).
 
-* **Vue Zone de travail du modèle de données**
+<!--
+* **Data model Canvas view**
 
-  La vue Zone de travail de la section Modèles de données améliore l’expérience en permettant la visualisation des modèles de données et de leurs liens dans une disposition Zone de travail, à côté de la vue tabulaire existante. [En savoir plus](../data-management/gs-models.md)
-
-* **Export d’audience**
-
-  La composition de l’audience fédérée prend désormais en charge l’exportation d’audiences volumineuses, gérant des tailles de fichier allant jusqu’à 20 Go.
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+-->
 
 * **Assistant IA**
 
@@ -45,7 +44,7 @@ Cette version est fournie avec les améliorations ci-dessous.
 * **Connexion Databricks**
 
   Avec cette nouvelle version, la composition d’audiences fédérées prend désormais en charge la connectivité de lien privé pour les connexions à la base de données Databricks.
-Il permet également des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) et Azure. [En savoir plus](../connections/federated-db.md#databricks)
+Il permet également des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) et Microsoft Azure. [En savoir plus](../connections/federated-db.md#databricks)
 
 * **Prise en charge des clients B2B CDP**
 
@@ -53,7 +52,7 @@ Il permet également des connexions sécurisées aux bases de données Databrick
 
 * **Connexion sécurisée Snowflake**
 
-  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Snowflake hébergées sur Azure. [En savoir plus](../connections/federated-db.md#snowflake)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Snowflake hébergées sur Microsoft Azure. [En savoir plus](../connections/federated-db.md#snowflake)
 
 ## Version de février 2025 {#fac-25-2}
 
@@ -129,5 +128,3 @@ La composition de l’audience fédérée répond à la demande croissante du ma
 Pour en savoir plus sur les fonctionnalités de la composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](faq.md).
 
 Pour plus d’informations sur les conditions préalables à l’accès aux compositions d’audiences fédérées et aux mécanismes de sécurisation actuels, consultez [cette page](access-prerequisites.md).
-
-
