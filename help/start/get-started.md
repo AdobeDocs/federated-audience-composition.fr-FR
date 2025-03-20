@@ -2,10 +2,10 @@
 title: Commencer avec la composition d’audiences fédérées Experience Platform
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 93%
 
 ---
 
@@ -132,11 +132,6 @@ Reportez-vous à la section Questions fréquentes sur [cette page](faq.md).
 >abstract="Enregistrer le profil"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Enregistrer le profil Sélectionner le schéma AEP"
->abstract="Enregistrer le profil Sélectionner le schéma AEP"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="Enregistrer le profil Liste de schémas AEP"
 >abstract="Enregistrer le profil Liste de schémas AEP"
@@ -147,6 +142,16 @@ Reportez-vous à la section Questions fréquentes sur [cette page](faq.md).
 >abstract="Enregistrer le profil Attribut de schéma AEP"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Enregistrer le profil Sélectionner le champ d’identité principal"
->abstract="Enregistrer le profil Sélectionner le champ d’identité principal"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="Sélectionner le champ d’identification du Principal"
+>abstract="Champ d’identification du Principal à utiliser pour les profils."
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="Jeu de données AEP"
+>abstract="Sélectionnez le jeu de données AEP à utiliser pour les profils."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Enregistrer le profil Sélectionner le schéma AEP"
+>abstract="Sélectionnez le schéma AEP à utiliser pour les profils."
