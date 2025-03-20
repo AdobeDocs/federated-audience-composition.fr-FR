@@ -5,8 +5,8 @@ description: Découvrir comment utiliser l’activité « Changement de dimensi
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '187'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
->title="Générer un complémentaire"
+>title="Générer un complément"
 >abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **[!UICONTROL Générer un complément]**."
 
 >[!CONTEXTUALHELP]
