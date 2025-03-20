@@ -3,9 +3,9 @@ audience: end-user
 title: Journal d’audit
 description: Découvrez comment les actions et les événements sont consignés et accessibles dans le journal d’audit.
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '343'
 ht-degree: 100%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 100%
 >id="dc_audit_trail"
 >title="Journal d’audit"
 >abstract="La fonctionnalité de journal d’audit fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel sur votre environnement de composition d’audiences fédérées Adobe Experience Platform."
-
-La fonctionnalité de journal d’audit fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel sur votre environnement.
 
 La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en temps réel un journal détaillé des actions et événements se produisant en temps réel dans l’instance Composition d’audiences fédérées d’Adobe. Elle offre une méthode pratique d’accès à un enregistrement chronologique des données, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes qui les modifient ou les activités effectuées par les utilisateurs et utilisatrices au sein de l’instance.
 

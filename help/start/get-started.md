@@ -2,10 +2,10 @@
 title: Commencer avec la composition d’audiences fédérées Experience Platform
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
+source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 93%
+source-wordcount: '1095'
+ht-degree: 82%
 
 ---
 
@@ -62,6 +62,24 @@ Principales étapes :
 >[!NOTE]
 >
 >Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe. Elle est disponible dans la plateforme de données de la clientèle en temps réel d’Adobe et/ou Adobe Journey Optimizer. Elle est rendue accessible dans le menu **Audiences**. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+## Gouvernance, confidentialité et sécurité {#governance-privacy-security}
+
+### Demandes d’accès à des informations personnelles {#gov-privacy-requests}
+
+Une fois la composition créée, les audiences obtenues sont enregistrées dans Adobe Experience Platform.
+
+Vous pouvez ensuite effectuer des demandes d’accès à des informations personnelles et/ou supprimer des données de profil correspondant à ces audiences via Adobe Experience Platform **Privacy Service**, qui fournit une [interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr){target="_blank"} et [API RESTful](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/overview){target="_blank"} pour vous aider à gérer les demandes de données des clients.
+
+>[!NOTE]
+>
+>Pour plus d’informations sur Privacy Service, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"}.
+
+Vous pouvez créer et gérer des demandes individuelles d’accès et de suppression de données client de la composition d’Adobe Federated Audience. Les étapes de soumission des **demandes d’accès** et **demandes de suppression** sont présentées dans la [documentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/privacy){target="_blank"}.
+
+### Journal d’audit {#gov-audit-trail}
+
+La fonctionnalité Journal d’audit fournit un enregistrement détaillé et chronologique de toutes les actions et de tous les événements qui ont été effectués dans votre environnement en temps réel. [En savoir plus](../admin/audit-trail.md)
 
 ## En savoir plus {#learn}
 

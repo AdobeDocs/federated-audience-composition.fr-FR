@@ -2,7 +2,7 @@
 user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
@@ -55,3 +55,4 @@ ht-degree: 100%
    + [Créer votre première requête](query/build-query.md)
    + [Éditer les expressions](query/expression-editor.md)
 + [Journal d’audit](admin/audit-trail.md)
+

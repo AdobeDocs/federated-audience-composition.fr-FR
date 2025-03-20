@@ -2,10 +2,10 @@
 title: Questions fréquentes
 description: Questions fréquentes sur la composition d’audiences fédérées Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 98%
+source-wordcount: '897'
+ht-degree: 91%
 
 ---
 
@@ -88,6 +88,18 @@ Non, dans la version actuelle, vous ne pouvez pas supprimer les audiences de com
 Non, le Service d’identités n’est pas utilisé pendant une composition. Les données entre les différentes sources utilisées dans la composition sont jointes par une logique définie par l’utilisateur ou l’utilisatrice (telle qu’elle est exprimée dans le modèle sous-jacent), par exemple l’identifiant CRM, le numéro de compte d’utilisateur ou d’utilisatrice, etc. Vous devez sélectionner l’identité utilisée comme identifiant dans l’audience pour la sélection dans votre entrepôt de données. Sur une audience obtenue de la composition d’audiences fédérées, vous devez identifier l’espace de noms d’identité de l’identité dans le jeu de données obtenu.
 
 +++
+
++++Comment créer et gérer des demandes d’accès à des informations personnelles avec la composition d’audiences fédérées ?
+
+Vous pouvez soumettre des requêtes individuelles pour accéder aux données client et les supprimer de la composition de l’audience fédérée d’Adobe de deux manières :
+
+* Via l’interface utilisateur de Adobe Experience Platform **Privacy Service**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr){target="_blank"}
+* Via l’API Adobe Experience Platform **Privacy Service**. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/overview){target="_blank"}
+
+Toutes les étapes de création et de gestion des **demandes d’accès** et **demandes de suppression** sont présentées dans la [documentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/privacy){target="_blank"}.
+
++++
+
 <!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
