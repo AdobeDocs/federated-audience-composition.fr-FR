@@ -4,7 +4,7 @@ title: Enrichir les audiences Adobe Experience Platform avec des données exte
 description: Découvrez comment affiner et enrichir les audiences Adobe Experience Platform avec les données de vos bases de données fédérées à l’aide de la destination Composition d’audiences fédérées.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
 ht-degree: 100%
 
