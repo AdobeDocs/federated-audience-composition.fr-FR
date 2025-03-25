@@ -4,10 +4,10 @@ description: Dernières mises à jour et notes de mise à jour
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
+source-git-commit: 1d35739395419d40066ff318672163aacda69a8b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 69%
+source-wordcount: '802'
+ht-degree: 73%
 
 ---
 
@@ -33,18 +33,18 @@ Cette version est fournie avec les améliorations ci-dessous.
 * **Data model Canvas view**
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
-
-* **Assistant IA**
-
-  L’assistant d’IA est une fonctionnalité d’interface utilisateur conçue pour vous aider à parcourir et à comprendre les concepts Adobe et à obtenir des informations opérationnelles pour votre environnement spécifique. Il est disponible dans plusieurs produits dans Adobe Experience Cloud, y compris la composition de l’audience fédérée.
-
 ### Compatibilité {#fac-25-3-compat}
 
 * **Connexion Databricks**
 
   Avec cette nouvelle version, la composition d’audiences fédérées prend désormais en charge la connectivité de lien privé pour les connexions à la base de données Databricks.
-Il permet également des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) et Microsoft Azure. [En savoir plus](../connections/federated-db.md#databricks)
+Il permet également de se connecter de manière sécurisée aux bases de données des briques de données hébergées sur Amazon Web Services (AWS). [En savoir plus](../connections/federated-db.md#databricks)
 
 * **Prise en charge des clients B2B CDP**
 
