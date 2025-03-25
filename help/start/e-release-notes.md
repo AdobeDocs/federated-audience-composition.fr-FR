@@ -4,7 +4,7 @@ description: Dernières mises à jour et notes de mise à jour
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 1d35739395419d40066ff318672163aacda69a8b
+source-git-commit: 36b2d003800d5b737634cb36ca6a66944d433d8f
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 73%
@@ -39,6 +39,7 @@ Cette version est fournie avec les améliorations ci-dessous.
 
     The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
+
 ### Compatibilité {#fac-25-3-compat}
 
 * **Connexion Databricks**
