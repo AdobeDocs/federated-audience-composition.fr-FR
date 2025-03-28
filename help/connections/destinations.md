@@ -3,10 +3,10 @@ audience: end-user
 title: Enrichir les audiences Adobe Experience Platform avec des données externes
 description: Découvrez comment affiner et enrichir les audiences Adobe Experience Platform avec les données de vos bases de données fédérées à l’aide de la destination Composition d’audiences fédérées.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 92%
 
 ---
 
@@ -60,11 +60,15 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform �
 
    ![](assets/destination-activate.png)
 
-1. Sélectionnez les audiences que vous souhaitez envoyer, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez les audiences souhaitées que vous souhaitez envoyer.
 
-1. Configurez un nom de fichier et un planning d’export pour les audiences sélectionnées.
+1. Sélectionnez l’icône ![](assets/do-not-localize/Smock_Edit_18_N.svg) pour modifier le planning d’exportation.
 
    ![](assets/destination-schedule.png)
+
+1. Définissez les options du fichier d’exportation. Pour activer les audiences plus rapidement, sélectionnez l’option **[!UICONTROL Après l’évaluation du segment]** pour déclencher la tâche d’activation immédiatement après la fin de la tâche de segmentation par lots quotidienne de Platform.
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >

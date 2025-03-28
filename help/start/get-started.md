@@ -2,10 +2,10 @@
 title: Commencer avec la composition d’audiences fédérées Experience Platform
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 82%
+source-wordcount: '1146'
+ht-degree: 78%
 
 ---
 
@@ -30,6 +30,8 @@ La composition d’audiences fédérées étend la valeur de Real-Time CDP et J
 * Minimiser le déplacement et la duplication des données : créez des audiences à partir de jeux de données qui vivent dans un entrepôt de données d’entreprise sans copier de données sous-jacentes pour gérer les profils et audiences marketing exploitables.
 
 * Utiliser un seul système pour les workflows pilotés par l’expérience : traitez les audiences ingérées et fédérées dans Adobe Experience Platform et coordonnez les expériences sortantes sur tous les canaux.
+
+* Les clients de la plateforme de données clients B2C et B2B peuvent désormais tirer parti de la composition de l’audience fédérée pour créer des audiences basées sur les personnes en intégrant des données provenant d’entrepôts de données d’entreprise pris en charge. En outre, elles peuvent enrichir les audiences basées sur les personnes existantes d’AEP en incorporant les attributs pertinents disponibles dans l’entrepôt de données d’entreprise, ce qui améliore leurs profils d’audience pour un engagement plus personnalisé et ciblé.
 
 ## Cas d’utilisation {#rn-uc}
 

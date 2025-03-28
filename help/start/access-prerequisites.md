@@ -2,10 +2,10 @@
 title: Conditions préalables et mécanismes de sécurisation pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 88%
+source-wordcount: '311'
+ht-degree: 73%
 
 ---
 
@@ -27,12 +27,25 @@ La composition d’audiences fédérées prend en charge les entrepôts cloud su
 * Google BigQuery
 * Snowflake
 * Vertica Analytics
+* Microsoft Fabric
 
 Découvrez comment créer une connexion avec ces systèmes sur [cette page](../connections/connections.md).
 
 ## Sandbox
 
 Lors de l’achat d’une composition d’audience fédérée, vous avez droit à deux sandbox. Pour toute demande de sandbox supplémentaire, contactez votre représentant ou représentante Adobe.
+
+Pour afficher la liste de vos sandbox actifs de composition d’audiences fédérées, procédez comme suit :
+
+1. À partir de la composition de l’audience fédérée, accédez au menu **[!UICONTROL Utilisation des licences]** sous **[!UICONTROL Administration]**.
+
+1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) de **[!UICONTROL Volume total de sortie de données]** pour accéder aux propriétés de votre sandbox.
+
+   ![](assets/sandbox_1.png)
+
+1. Des informations sur votre sandbox s’affichent dans la fenêtre contextuelle Propriétés .
+
+   ![](assets/sandbox_2.png)
 
 ## Autorisations {#permissions}
 
@@ -52,3 +65,7 @@ Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * Les droits, les limites de produit et les mécanismes de sécurisation des performances répertoriés dans la documentation d’[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"} s’appliquent à la composition d’audiences fédérées.
+
+<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
+-->
+

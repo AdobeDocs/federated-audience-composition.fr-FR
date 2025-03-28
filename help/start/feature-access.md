@@ -2,11 +2,9 @@
 title: Accéder à la composition d’audiences fédérées
 description: Découvrir les autorisations requises pour la composition d’audiences fédérées
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,10 +18,6 @@ Lorsque vous achetez la composition d’audience fédérée Adobe Experience Pla
 Par exemple, si un nouveau sandbox nommé « fac-test » est activé, un profil de produit correspondant « ACP_FAC - fac-test - admin » est créé. Pour accéder à la composition d’audiences fédérées avec ce sandbox, les personnes doivent être ajoutées à ce profil de produit.
 
 ## Gérer l’accès à la composition d’audiences fédérées
-
->[!AVAILABILITY]
->
->Les autorisations sont disponibles dans le cadre de la version de mars.
 
 Pour accéder à la **composition d’audiences fédérées**, vous devez d’abord vous assurer que l’autorisation **Gérer Federated Data** est affectée aux rôles appropriés. Ces rôles doivent ensuite être attribués aux utilisateurs et utilisatrices qui ont besoin d’accéder à la **composition d’audiences fédérées**.
 

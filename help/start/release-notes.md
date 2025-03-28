@@ -2,16 +2,56 @@
 title: Nouveautés de la composition d’audiences fédérées Experience Platform
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 93%
+source-wordcount: '813'
+ht-degree: 72%
 
 ---
 
 # Notes de mise à jour {#rn-new}
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+## Version de mars 2025 {#fac-25-3}
+
+### Améliorations {#fac-25-3-improvements}
+
+Cette version est fournie avec les améliorations ci-dessous.
+
+* **Autorisations de composition d’audiences fédérées**
+
+  À compter de la version de mars, [!DNL Federated Audience Composition] commencera à appliquer l’accès aux interfaces **Federated Data Management** et **Federated Compositions** aux utilisateurs qui disposent de l’autorisation **Gérer les données fédérées**.
+
+  Nous recommandons aux utilisateurs de contacter les administrateurs pour que cette autorisation soit ajoutée à leur rôle afin de continuer à accéder à l’interface utilisateur [!DNL Federated Audience Composition].
+
+  Pour savoir comment attribuer cette autorisation, consultez la [documentation détaillée](feature-access.md).
+
+<!--
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
+-->
+
+
+### Compatibilité {#fac-25-3-compat}
+
+* **Connexion Databricks**
+
+  Avec cette nouvelle version, la composition d’audiences fédérées prend désormais en charge la connectivité de lien privé pour les connexions à la base de données Databricks.
+Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via un lien privé et aux bases de données Databricks hébergées sur Microsoft Azure via un VPN. [En savoir plus](../connections/federated-db.md#databricks)
+
+* **Prise en charge des clients B2B CDP**
+
+  La composition de l’audience fédérée est désormais disponible pour les clients de la plateforme de données clients (CDP) B2B (Business-to-Business) pour les cas d’utilisation d’audience basés sur les personnes.
+
+* **Connexion sécurisée Snowflake**
+
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Snowflake hébergées sur Microsoft Azure. [En savoir plus](../connections/federated-db.md#snowflake)
 
 ## Version de février 2025 {#fac-25-2}
 
@@ -32,16 +72,6 @@ Cette version est fournie avec les modifications répertoriées ci-dessous.
 * **Prise en charge de l’enrichissement de l’audience pour Databricks**
 
   Vous pouvez désormais utiliser Databricks dans le flux Lecture d’audience, ce qui active les bases de données Databricks et permet de les configurer en tant que nouvelle destination. [En savoir plus](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## Version de novembre 2024 {#fac-24-11}
 
@@ -92,9 +122,8 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 La composition des audiences fédérées dote les entreprises d’un accès flexible et étendu aux entrepôts de données d’entreprise afin de composer des audiences à l’aide de jeux de données d’entreprise stratégiques et d’alimenter les expériences initiées par la marque et instantanées. Grâce à cette nouvelle approche, en tant qu’utilisateur ou utilisatrice d’[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home){target="_blank"} et/ou d’[Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"}, vous pouvez fédérer les données d’audience directement à partir de votre entrepôt de données existant pour enrichir les audiences Adobe Experience Platform dans un seul système.
 
-La composition d’audiences fédérées répond aux demandes croissantes du marché pour les entreprises qui ont besoin de la flexibilité nécessaire pour composer des audiences avec des jeux de données d’entrepôt. Elle permet aux entreprises de réduire le mouvement des données tout en mettant les données d’audience critiques à la disposition des équipes marketing pour répondre aux besoins des cas d’utilisation et alimenter les expériences personnalisées. 
+La composition de l’audience fédérée répond à la demande croissante du marché pour les entreprises qui ont besoin de flexibilité pour composer des audiences avec des jeux de données d’entrepôt. Elle permet aux entreprises de réduire le mouvement des données tout en mettant les données d’audience critiques à la disposition des équipes marketing pour répondre aux besoins des cas d’utilisation et alimenter les expériences personnalisées.
 
 Pour en savoir plus sur les fonctionnalités de la composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](faq.md).
 
 Pour plus d’informations sur les conditions préalables à l’accès aux compositions d’audiences fédérées et aux mécanismes de sécurisation actuels, consultez [cette page](access-prerequisites.md).
-
