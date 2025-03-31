@@ -3,9 +3,9 @@ title: Questions fréquentes
 description: Questions fréquentes sur la composition d’audiences fédérées Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Vous trouverez ci-dessous les questions fréquentes sur la composition d’audie
 
 +++Quelles sont les autorisations requises pour accéder à la composition d’audiences fédérées ?
 
-La composition d’audiences fédérées requiert les packages Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer Prime ou Ultimate. Vous devez également avoir acheté Composition d’audience fédérée.
+La composition d’audiences fédérées requiert les packages Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer Prime ou Ultimate. Vous devez également avoir acheté la composition d’audiences fédérées.
 
 Pour utiliser la composition d’audiences fédérées, chaque personne doit être ajoutée à un profil spécifique créé pour chaque sandbox. Pour plus d’informations, consultez la page [Accéder à la composition d’audiences fédérées](access-prerequisites.md).
 
@@ -89,12 +89,12 @@ Non, le Service d’identités n’est pas utilisé pendant une composition. Les
 
 +++
 
-+++Comment créer et gérer des demandes d’accès à des informations personnelles avec la composition d’audiences fédérées ?
++++Comment créer et gérer des demandes d’accès à des informations personnelles avec la composition d’audiences fédérées ?
 
-Vous pouvez soumettre des requêtes individuelles pour accéder aux données client et les supprimer de la composition de l’audience fédérée d’Adobe de deux manières :
+Vous pouvez envoyer des demandes individuelles pour accéder aux données de la clientèle de la composition d’audiences fédérées Adobe et les supprimer de deux manières :
 
-* Via l’interface utilisateur de Adobe Experience Platform **Privacy Service**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr){target="_blank"}
-* Via l’API Adobe Experience Platform **Privacy Service**. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/overview){target="_blank"}
+* Via l’**interface d’utilisation Adobe Experience Platform Privacy Service**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr){target="_blank"}
+* Via l’**API Adobe Experience Platform Privacy Service**. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/overview){target="_blank"}
 
 Toutes les étapes de création et de gestion des **demandes d’accès** et **demandes de suppression** sont présentées dans la [documentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/privacy){target="_blank"}.
 

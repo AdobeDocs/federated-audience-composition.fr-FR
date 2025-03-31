@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Demandes d’accès à des informations personnelles
-description: Découvrez comment gérer les demandes d’accès à des informations personnelles via Privacy Service
+description: Découvrir comment gérer les demandes d’accès à des informations personnelles dans Privacy Service
 source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # Demandes d’accès à des informations personnelles {#privacy-requests}
 
-Une fois la composition créée, les audiences obtenues sont enregistrées dans Adobe Experience Platform.
+Une fois la composition créée, les audiences obtenues sont enregistrées dans Adobe Experience Platform.
 
-Vous pouvez ensuite effectuer des demandes d’accès à des informations personnelles et/ou supprimer des données de profil correspondant à ces audiences via Adobe Experience Platform **Privacy Service**, qui fournit une [interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr){target="_blank"} et [API RESTful](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/overview){target="_blank"} pour vous aider à gérer les demandes de données des clients.
+Vous pouvez ensuite effectuer des demandes d’accès à des informations personnelles et/ou supprimer des données de profil correspondant à ces audiences via Adobe Experience Platform **Privacy Service**, qui fournit une [interface d’utilisation](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr){target="_blank"} et une [API RESTful](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/overview){target="_blank"} pour vous aider à gérer les demandes de données des clientes et clients.
 
 <!--With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
 
@@ -23,9 +23,9 @@ Privacy requests can be created and managed from the **[!UICONTROL Requests]** m
 
 >[!NOTE]
 >
->Pour plus d’informations sur Privacy Service, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"}.
+>Pour plus d’informations sur Privacy Service, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"}.
 
-Vous pouvez créer et gérer des demandes individuelles d’accès et de suppression de données client de la composition d’Adobe Federated Audience. Les étapes de soumission des **demandes d’accès** et **demandes de suppression** sont présentées dans la [documentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/privacy){target="_blank"}.
+Vous pouvez créer et gérer des demandes individuelles d’accès et de suppression de données des clientes et clients de la composition d’audiences fédérées Adobe. Les étapes de soumission des **demandes d’accès** et **demandes de suppression** sont présentées dans la [documentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/privacy){target="_blank"}.
 
 <!--## Manage individual data privacy requests {#data-privacy-requests}
 
