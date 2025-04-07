@@ -2,15 +2,15 @@
 title: Utiliser l’assistant IA
 description: Découvrir comment tirer parti de l’assistant IA
 source-git-commit: c9396f2b72fe6572f5feb5145b6d636ac6c068e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 # Utiliser l’assistant IA {#ai-assistant}
 
-L’assistant d’IA est une fonctionnalité d’interface utilisateur conçue pour vous aider à parcourir et à comprendre les concepts Adobe et à obtenir des informations opérationnelles pour votre environnement spécifique. Il est disponible dans plusieurs produits dans Adobe Experience Cloud, y compris la composition de l’audience fédérée.
+L’assistant IA est une fonctionnalité de l’interface d’utilisation qui vous permet de parcourir et de comprendre les concepts Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique. Il est disponible dans plusieurs produits Adobe Experience Cloud, y compris la composition d’audiences fédérées.
 
 Pour accéder à l’assistant IA, cliquez sur l’icône située dans la barre supérieure. L’assistant IA s’affiche dans la partie droite de l’écran.
 
@@ -21,15 +21,15 @@ Pour accéder à l’assistant IA, cliquez sur l’icône située dans la barre 
 >
 >Avant de pouvoir utiliser l’assistant IA, vous devez accepter les directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Pour en savoir plus sur l’accord d’utilisation, consultez [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Dans la composition de l’audience fédérée, vous pouvez accéder à des questions sur la connaissance des produits concernant les concepts d’Adobe liés à divers aspects du processus. Voici quelques exemples de ces questions :
+Dans la composition d’audiences fédérées, vous pouvez accéder à des questions sur la connaissance des produits concernant les concepts d’Adobe liés à divers aspects du processus. Voici quelques exemples de ces questions :
 
-* Quels sont les paramètres de configuration requis pour établir une connexion fédérée entre Snowflake et Adobe Experience Platform ?
-* Comment configurer une composition dans la composition d’audience fédérée ?
-* Comment puis-je utiliser un filtre prédéfini dans Query Modeler pour affiner ma sélection d’audiences ?
+* Quels sont les paramètres de configuration requis pour établir une connexion fédérée entre Snowflake et Adobe Experience Platform ?
+* Comment configurer une composition dans la composition d’audiences fédérées ?
+* Comment utiliser un filtre prédéfini dans le concepteur de requête pour affiner ma sélection d’audiences ?
 
-Pour poser une question :
+Pour poser une question, procédez comme suit :
 
-1. Saisissez-le dans le champ en bas de l’écran et appuyez sur Entrée.
+1. Saisissez-la dans le champ en bas de l’écran et appuyez sur Entrée.
 
    ![](assets/do-not-localize/ai-assistant-ask.png)
 

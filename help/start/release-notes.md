@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * **Connexion à Databricks**
 
   Avec cette nouvelle version, la composition d’audiences fédérées prend désormais en charge la connectivité de lien privé pour les connexions à la base de données Databricks.
-Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via un lien privé et aux bases de données Databricks hébergées sur Microsoft Azure via un VPN. [En savoir plus](../connections/federated-db.md#databricks)
+Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via un lien privé et aux bases de données Databricks hébergées sur Microsoft Azure via un VPN. [En savoir plus](../connections/federated-db.md#databricks)
 
 * **Prise en charge des clientes et clients B2B CDP**
 
