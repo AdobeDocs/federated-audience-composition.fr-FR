@@ -2,16 +2,16 @@
 title: Questions fréquentes
 description: Questions fréquentes sur la composition d’audiences fédérées Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Questions fréquentes {#faq}
 
-Vous trouverez ci-dessous les questions fréquentes sur la composition d’audiences fédérées Adobe Experience Platform. Une section globale de Questions fréquentes est également disponible pour le service de segmentation Adobe Experience Platform dans [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq){target="_blank"}.
+Vous trouverez ci-dessous les questions fréquentes sur la composition d’audiences fédérées Adobe Experience Platform. Une FAQ globale est également disponible pour Adobe Experience Platform Segmentation Service sur [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
 +++Quelles sont les autorisations requises pour accéder à la composition d’audiences fédérées ?
@@ -64,7 +64,7 @@ La composition d’audiences fédérées ne conserve pas de copie physique des d
 Par exemple :
 
 * Dans le cas d’une création d’audience, l’audience est créée dans votre entrepôt de données. Vous pouvez utiliser la composition d’audiences fédérées pour d’autres tâches de composition et de manipulation de données avant de publier l’audience obtenue et les attributs associés via le portail d’audience Adobe Experience Platform. La définition de l’audience et les attributs associés sont transmis à Adobe Experience Platform.
-Notez que l’expiration des données actuelles pour les audiences générées en externe est de 30 jours. Cette expiration de données réduit la quantité de données excédentaires enregistrées au sein d’une organisation. Une fois la période d’expiration des données écoulée, le jeu de données associé est toujours visible dans l’inventaire du jeu de données, mais vous ne pouvez pas activer l’audience et le nombre de profils s’affiche comme nul. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
+Notez que l’expiration des données actuelles pour les audiences générées en externe est de 30 jours. Cette expiration de données réduit la quantité de données excédentaires enregistrées au sein d’une organisation. Une fois la période d’expiration des données écoulée, le jeu de données associé est toujours visible dans l’inventaire du jeu de données, mais vous ne pouvez pas activer l’audience et le nombre de profils s’affiche comme nul. En savoir plus dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * Dans le cas d’un enrichissement d’audience, le point de départ est une audience Adobe Experience Platform existante. Deux scénarios peuvent être envisagés ici :
    1. Importer des attributs de payload d’audience supplémentaires à partir de l’entrepôt de données fédérées : dans ce cas, les attributs supplémentaires qui sont ajoutés seront repris dans le cadre de cette définition d’audience. L’expiration des données pour les audiences générées en externe est la même que celle décrite ci-dessus : 30 jours.
