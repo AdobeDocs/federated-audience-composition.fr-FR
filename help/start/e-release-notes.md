@@ -4,16 +4,44 @@ description: Dernières mises à jour et notes de mise à jour
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
+source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 90%
+source-wordcount: '969'
+ht-degree: 77%
 
 ---
 
 # Notes de mise à jour {#rn-new}
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les notes de mise à jour de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+## Version d’avril 2025 {#fac-25-4}
+
+### Améliorations {#fac-25-4-improvements}
+
+Cette version est fournie avec les améliorations répertoriées ci-dessous.
+
+* **Vue Zone de travail du modèle de données**
+
+  La vue Zone de travail de la section Modèles de données améliore l’expérience en permettant la visualisation des modèles de données et de leurs liens dans une disposition Zone de travail, à côté de la vue tabulaire existante. [En savoir plus](../data-management/gs-models.md)
+
+* **Assistant IA**
+
+  L’assistant AI est une fonctionnalité d’interface utilisateur conçue pour vous aider à parcourir et à comprendre les concepts d’Adobe et à obtenir des informations opérationnelles pour votre environnement spécifique. Il est disponible dans plusieurs produits dans Adobe Experience Cloud, y compris la composition de l’audience fédérée. [En savoir plus](../start/audiences.md)
+
+* **Nom du modèle de données**
+
+  Dans le menu Audiences , l’onglet **Compositions fédérées** affiche désormais le nom du modèle de données au lieu de l’identifiant, ce qui améliore la clarté et la convivialité globale.
+
+* **Audience**
+
+  Le menu Audience affiche désormais le nom ou le libellé du modèle de données sélectionné lorsqu’un utilisateur sélectionne un modèle de données sans audiences associées.
+
+### Compatibilité {#fac-25-4-compat}
+
+* **Connexion sécurisée à Snowflake**
+
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers les bases de données Amazon Redshift hébergées sur Microsoft Azure. [En savoir plus](../connections/federated-db.md#amazon-redshift)
 
 ## Version de mars 2025 {#fac-25-3}
 
@@ -34,11 +62,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
 
-
 * **AI Assistant**
 
     AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
+
 
 ### Compatibilité {#fac-25-3-compat}
 
