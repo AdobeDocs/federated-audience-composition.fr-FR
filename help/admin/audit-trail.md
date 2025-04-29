@@ -4,9 +4,9 @@ title: Journal d’audit
 description: Découvrez comment les actions et les événements sont consignés et accessibles dans le journal d’audit.
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -5,17 +5,17 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour {#rn-new}
 
-[!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les notes de mise à jour de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+[!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Version d’avril 2025 {#fac-25-4}
+## Version d’avril 2025 {#fac-25-4}
 
 ### Améliorations {#fac-25-4-improvements}
 
@@ -23,25 +23,25 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * **Vue Zone de travail du modèle de données**
 
-  La vue Zone de travail de la section Modèles de données améliore l’expérience en permettant la visualisation des modèles de données et de leurs liens dans une disposition Zone de travail, à côté de la vue tabulaire existante. [En savoir plus](../data-management/gs-models.md)
+  La vue Zone de travail de la section Modèles de données améliore l’expérience en permettant la visualisation des modèles de données et de leurs liens dans une disposition de zone de travail, à côté de la vue tabulaire existante. [En savoir plus](../data-management/gs-models.md)
 
 * **Assistant IA**
 
-  L’assistant AI est une fonctionnalité d’interface utilisateur conçue pour vous aider à parcourir et à comprendre les concepts d’Adobe et à obtenir des informations opérationnelles pour votre environnement spécifique. Il est disponible dans plusieurs produits dans Adobe Experience Cloud, y compris la composition de l’audience fédérée. [En savoir plus](../start/audiences.md)
+  L’assistant IA est une fonctionnalité de l’interface d’utilisation qui vous permet de parcourir et de comprendre les concepts Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique. Il est disponible dans plusieurs produits Adobe Experience Cloud, y compris la composition d’audiences fédérées. [En savoir plus](../start/audiences.md)
 
 * **Nom du modèle de données**
 
-  Dans le menu Audiences , l’onglet **Compositions fédérées** affiche désormais le nom du modèle de données au lieu de l’identifiant, ce qui améliore la clarté et la convivialité globale.
+  Dans le menu Audiences, l’onglet **Compositions fédérées** affiche désormais le nom du modèle de données au lieu de l’identifiant, ce qui améliore la clarté et la simplicité d’utilisation globale.
 
 * **Audience**
 
-  Le menu Audience affiche désormais le nom ou le libellé du modèle de données sélectionné lorsqu’un utilisateur sélectionne un modèle de données sans audiences associées.
+  Le menu Audience affiche désormais le nom ou le libellé du modèle de données sélectionné lorsqu’une personne sélectionne un modèle de données sans audiences associées.
 
 ### Compatibilité {#fac-25-4-compat}
 
 * **Connexion sécurisée à Snowflake**
 
-  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers les bases de données Amazon Redshift hébergées sur Microsoft Azure. [En savoir plus](../connections/federated-db.md#amazon-redshift)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Amazon Redshift hébergées sur Microsoft Azure. [En savoir plus](../connections/federated-db.md#amazon-redshift)
 
 ## Version de mars 2025 {#fac-25-3}
 
@@ -134,7 +134,7 @@ Avec cette nouvelle version, la composition d’audiences fédérées est désor
 
 * **Prise en charge d’Amazon Redshift sans serveur**
 
-  Avec cette nouvelle version, la composition de l’audience fédérée prend en charge [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge [Amazon Redshift sans serveur](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
 
 ### Améliorations {#fac-24-10-improvements}
 
@@ -150,10 +150,10 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 ## Version de juillet 2024 : composition d’audiences fédérées (disponibilité limitée) {#fac-la}
 
-La composition d’audiences fédérées permet aux entreprises d’accéder de manière flexible et étendue aux entrepôts de données d’entreprise, afin de composer des audiences à l’aide de jeux de données d’entreprise critiques et d’optimiser des expériences initiées par la marque et en temps réel. Grâce à cette nouvelle approche, en tant qu’utilisateur [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home){target="_blank"} et/ou [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"}, vous pouvez fédérer les données d’audience directement à partir de votre entrepôt de données existant afin d’enrichir les audiences Adobe Experience Platform dans un seul système.
+La composition d’audiences fédérées permet aux entreprises d’accéder de manière flexible et étendue aux entrepôts de données d’entreprise, afin de composer des audiences à l’aide de jeux de données d’entreprise critiques et d’optimiser des expériences initiées par la marque et en temps réel. Grâce à cette nouvelle approche, en tant qu’utilisateur ou utilisatrice d’[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/home){target="_blank"} et/ou d’[Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"}, vous pouvez fédérer les données d’audience directement à partir de votre entrepôt de données existant pour enrichir les audiences Adobe Experience Platform dans un seul système.
 
 La composition d’audiences fédérées répond aux demandes croissantes du marché pour les entreprises qui ont besoin de la flexibilité nécessaire pour composer des audiences avec des jeux de données d’entrepôt. Elle permet aux entreprises de réduire le mouvement des données tout en mettant les données d’audience critiques à la disposition des équipes marketing pour répondre aux besoins des cas d’utilisation et alimenter les expériences personnalisées.
 
-Pour en savoir plus sur les fonctionnalités de composition d’audiences fédérées, consultez [cette page](get-started.md) et le [Forum aux questions](faq.md).
+Pour en savoir plus sur les fonctionnalités de la composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](faq.md).
 
 Pour plus d’informations sur les conditions préalables à l’accès aux compositions d’audiences fédérées et aux mécanismes de sécurisation actuels, consultez [cette page](access-prerequisites.md).
