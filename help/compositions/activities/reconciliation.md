@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité Réconciliation
 description: Découvrir comment utiliser l’activité Réconciliation
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Pour configurer l’activité **Réconciliation**, procédez comme suit :
 1. Sélectionnez le ou les champs à utiliser pour la réconciliation. Vous pouvez utiliser un ou plusieurs critères de réconciliation.
 
    1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez l’option **Attributs simples**, puis cliquez sur le bouton **Ajouter une règle**.
-   1. Sélectionnez les champs **Source** et **Destination** pour la réconciliation. Le champ **Source**. Le champ **Destination** correspond aux champs du schéma sélectionné.
+   1. Sélectionnez les champs **Source** et **Destination** pour la réconciliation. Le champ **Destination** correspond aux champs du schéma sélectionné.
 
       Les données sont réconciliées lorsque la source et la destination sont égales. Par exemple, sélectionnez les champs **E-mail** pour dédupliquer des profils en fonction de leur adresse e-mail.
 

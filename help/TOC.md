@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 86%
+source-wordcount: '161'
+ht-degree: 85%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 86%
    + [Conditions préalables et mécanismes de sécurisation](start/access-prerequisites.md)
    + [Accéder à la composition d’audiences fédérées](start/feature-access.md)
    + [Utiliser les audiences](start/audiences.md)
+   + [Utiliser l’assistant IA](start/ai-assistant.md)
    + [Questions fréquentes](start/faq.md)
 + Étapes de configuration {#config}
    + [Créer et gérer des connexions](connections/connections.md)
@@ -27,7 +28,6 @@ ht-degree: 86%
    + [Matrice des droits FDA](connections/fda-rights.md)
    + Modèles de données et schémas{#datamodel}
       + [Créer et configurer des schémas](customer/schemas.md)
-      + [Configurer vos modèles de données (version bêta)](data-management/gs-models-beta.md)
       + [Configurer vos modèles de données](data-management/gs-models.md)
    + [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
 + Composer des audiences {#compositions}
@@ -48,6 +48,7 @@ ht-degree: 86%
       + [Branchement](compositions/activities/fork.md)
       + [Réconciliation](compositions/activities/reconciliation.md)
       + [Enregistrer l’audience](compositions/activities/save-audience.md)
+      + [Enregistrement des profils](compositions/activities/save-profiles.md)
       + [Planificateur](compositions/activities/scheduler.md)
       + [Partage](compositions/activities/split.md)
       + [Attente](compositions/activities/wait.md)

@@ -3,8 +3,8 @@ audience: end-user
 title: Journal d’audit
 description: Découvrez comment les actions et les événements sont consignés et accessibles dans le journal d’audit.
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -58,6 +58,6 @@ Pour accéder au **[!UICONTROL journal d’audit]** de votre instance, procédez
 
    * **[!UICONTROL Type]** : workflow, options, diffusions ou schémas.
    * **[!UICONTROL Entité]** : nom interne de vos activités.
-   * **[!UICONTROL Modifié par]** : nom d’utilisateur de la dernière personne à avoir modifié cette entité.
-   * **[!UICONTROL Action]** : dernière action réalisée sur cette entité (création, modification ou suppression).
+   * **[!UICONTROL Modifié par]** : nom d’utilisateur ou d’utilisatrice de la dernière personne à avoir modifié cette entité.
+   * **[!UICONTROL Action]** : dernière action réalisée sur cette entité (création, édition ou suppression).
    * **[!UICONTROL Date de modification]** : date de la dernière action effectuée sur cette entité.

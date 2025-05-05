@@ -2,16 +2,104 @@
 title: Nouveautés de la composition d’audiences fédérées Experience Platform
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 84%
 
 ---
 
 # Notes de mise à jour {#rn-new}
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+## Version d’avril 2025 {#fac-25-4}
+
+### Nouvelles fonctionnalités {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Vue de la zone de travail du modèle de données - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La vue Zone de travail de la section Modèles de données améliore l’expérience en permettant la visualisation des modèles de données et de leurs liens dans une disposition Zone de travail, à côté de la vue tabulaire existante. </p>
+<p>Le modèle de données avec la vue Zone de travail est actuellement disponible en version bêta pour certaines personnes uniquement.</p>
+<p>Pour plus d’informations, consultez la <a href="../data-management/gs-models.md">documentation détaillée</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Prise en charge de l’assistant AI pour la connaissance des produits</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’assistant IA est une fonctionnalité de l’interface d’utilisation qui vous permet de parcourir et de comprendre les concepts Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique. Il est disponible dans plusieurs produits Adobe Experience Cloud, y compris la composition d’audiences fédérées.</p>
+<p>Pour plus d’informations, consultez la <a href="../start/ai-assistant.md">documentation détaillée</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité Enregistrement des profils</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> La composition de l’audience fédérée prend désormais en charge le cas d’utilisation d’enrichissement des profils, ce qui permet aux clients d’améliorer les profils Experience Platform existants avec les données de leurs entrepôts de données externes.
+</p>
+<p>Pour plus d’informations, consultez la <a href="../compositions/activities/save-profiles.md">documentation détaillée</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations {#fac-25-4-improvements}
+
+Cette version est fournie avec les améliorations répertoriées ci-dessous.
+
+* **Nom du modèle de données**
+
+  Dans le menu Audiences, l’onglet **Compositions fédérées** affiche désormais le nom du modèle de données au lieu de l’identifiant, ce qui améliore la clarté et la simplicité d’utilisation globale.
+
+* **Audience**
+
+  Le menu Audience affiche désormais le nom ou le libellé du modèle de données sélectionné lorsqu’une personne sélectionne un modèle de données sans audiences associées.
+
+* **Exportation des grandes audiences**
+
+  La composition de l’audience fédérée prend désormais en charge l’exportation d’audiences volumineuses, avec des tailles de fichier supérieures à 1 Go.
+
+* **Activité Sauvegarde d’audience**
+
+  Une note a été ajoutée à l’activité **Enregistrer l’audience**, rappelant aux utilisateurs de collaborer avec un administrateur de données pour appliquer des libellés de gouvernance aux nouveaux schémas et jeux de données créés lors de la création et de l’enrichissement de l’audience.
+  [En savoir plus sur les libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
+### Compatibilité {#fac-25-4-compat}
+
+* **Connexion sécurisée Amazon Redshift**
+
+  Avec cette nouvelle version, la composition de l’audience fédérée prend en charge les connexions de liens privées sécurisées aux bases de données Amazon Redshift. [En savoir plus](../connections/federated-db.md#amazon-redshift)
+
+* **Google BigQuery**
+
+  Avec cette nouvelle version, Federated Audience Composition prend en charge les connexions VPN sécurisées aux bases de données BigQuery Google. [En savoir plus](../connections/federated-db.md#google-big-query)
 
 ## Version de mars 2025 {#fac-25-3}
 

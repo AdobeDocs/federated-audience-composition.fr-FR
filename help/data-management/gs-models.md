@@ -2,53 +2,32 @@
 audience: end-user
 title: Commencer avec les modèles de données
 description: Découvrir comment commencer avec les modèles de données
-exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
-workflow-type: ht
-source-wordcount: '413'
-ht-degree: 100%
+badge: label="Beta" type="Informative"
+exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 91%
 
 ---
 
-# Commencer avec les modèles de données {#data-model}
+# Commencer avec les modèles de données {#data-model-beta}
 
->[!CONTEXTUALHELP]
->id="dc_model_menu"
->title="Utiliser des modèles"
->abstract="Les schémas et les modèles de données sont répertoriés dans cet écran. Vous pouvez créer des schémas et des modèles de données à partir du bouton **Créer**."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_schema"
->title="Sélectionner des schémas"
->abstract="Sélectionnez les schémas du modèle de données."
-
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_audience"
->title="Sélectionner une audience"
->abstract="Sélectionnez l’audience du modèle de données."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_properties"
->title="Propriétés du modèle de données"
->abstract="Saisissez le libellé du modèle de données."
-
+>[!AVAILABILITY]
+>
+>Le modèle de données avec la vue Zone de travail est actuellement disponible en version bêta pour certaines personnes uniquement.
 
 ## Qu’est-ce qu’un modèle de données ? {#data-model-start}
 
 Un modèle de données désigne un ensemble de schémas et d’audiences, ainsi que les liens qui existent entre eux. Il est utilisé pour fédérer les audiences avec des données de base de données.
 
-En savoir plus sur les [schémas](../customer/schemas.md#schema-start).
+Dans la composition d’audiences fédérées, vous pouvez créer et gérer des modèles de données directement dans la vue Zone de travail. Cela inclut l’ajout de schémas et d’audiences, ainsi que la définition des liens entre eux en fonction de votre cas d’utilisation.
 
-En savoir plus sur les [Audiences](../start/audiences.md).
+En savoir plus sur les [schémas](../customer/schemas.md#schema-start) et les [audiences](../start/audiences.md).
 
-Voici un exemple de représentation d’un modèle de données : les tableaux avec leur nom et les liens qui existent entre elles.
+Par exemple, vous pouvez voir ci-dessous une représentation d’un modèle de données : les tables avec leur nom et les liens entre elles.
 
 ![](assets/datamodel.png){zoomable="yes"}
-
-La composition d’audiences fédérées permet de créer de nombreux modèles de données.
-
-Leur création dépend du cas d’utilisation, en ce que vous choisissez les tableaux nécessaires et les reliez selon vos besoins.
 
 ## Créer un modèle de données {#data-model-create}
 
@@ -74,7 +53,11 @@ Pour créer un modèle de données, procédez comme suit :
 
 ## Créer des liens {#data-model-links}
 
-Pour créer des liens entre les tableaux de votre modèle de données, procédez comme suit :
+>[!BEGINTABS]
+
+>[!TAB Vue Tableau]
+
+Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Tableau, procédez comme suit :
 
 1. Cliquez sur le menu **[!UICONTROL Créer un lien]** de l’une des tables ou sur le bouton **[!UICONTROL Créer des liens]**, puis sélectionnez les 2 tableaux suivants :
 
@@ -95,6 +78,45 @@ Pour créer des liens entre les tableaux de votre modèle de données, procédez
 Tous les liens définis pour votre modèle de données seront répertoriés comme ci-dessous :
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+>[!TAB Vue Zone de travail]
+
+Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Zone de travail, procédez comme suit :
+
+1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tableaux à lier.
+
+1. Cliquez sur le bouton ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de la jointure Source, puis faites glisser la flèche vers la jointure cible pour établir la connexion.
+
+   ![](assets/datamodel.gif){zoomable="yes"}
+
+1. Remplissez le formulaire donné pour définir le lien et cliquez sur **[!UICONTROL Appliquer]** une fois configuré.
+
+   ![](assets/datamodel-canvas-1.png){zoomable="yes"}
+
+   **Cardinalité**
+
+   * **1-N** : à une occurrence du tableau source peuvent correspondre plusieurs occurrences du tableau cible, mais à une occurrence du tableau cible peut correspondre au plus une occurrence du tableau source.
+
+   * **N-1** : à une occurrence du tableau cible peuvent correspondre plusieurs occurrences du tableau source, mais à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
+
+   * **1-1** : à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
+
+1. Tous les liens définis dans votre modèle de données sont représentés par des flèches dans la vue Zone de travail. Cliquez sur une flèche entre deux tableaux pour afficher les détails, apporter des modifications ou supprimer le lien selon les besoins.
+
+   ![](assets/datamodel-canvas-2.png){zoomable="yes"}
+
+1. Utilisez la barre d’outils pour personnaliser et ajuster la zone de travail.
+
+   ![](assets/datamodel-canvas-3.png)
+
+   * **[!UICONTROL Zoom avant]** : agrandissez la zone de travail pour afficher plus clairement les détails de votre modèle de données.
+   * **[!UICONTROL Zoom arrière]** : réduisez la taille de la zone de travail pour obtenir une vue plus large de votre modèle de données.
+   * **[!UICONTROL Ajuster la vue]** : ajustez le zoom pour qu’il s’adapte à l’ensemble des schémas et/ou audiences dans la zone visible.
+   * **[!UICONTROL Activer/désactiver l’interactivité]** : activez ou désactivez l’interaction de la personne avec la zone de travail.
+   * **[!UICONTROL Filtre]** : choisissez le schéma à afficher dans la zone de travail.
+   * **[!UICONTROL Forcer la disposition automatique]** : organisez automatiquement les schémas et/ou les audiences pour une meilleure organisation.
+
+>[!ENDTABS]
 
 ## Vidéo pratique {#data-model-video}
 
