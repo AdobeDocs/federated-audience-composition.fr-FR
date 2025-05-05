@@ -38,7 +38,7 @@ L’activité **Enregistrer l’audience** permet de créer une audience à part
 
 Cette activité est essentiellement utilisée afin de conserver des groupes de population calculés dans la même composition, en les convertissant en audiences réutilisables. Connectez-la à d’autres activités de ciblage telles que **Créer une audience** ou **Combiner**.
 
-L’activité **[!UICONTROL Enregistrer l’audience]** génère un nouveau schéma d’audience et un nouveau jeu de données. Une fois l’audience créée, contactez votre administrateur pour attribuer les libellés de gouvernance des données appropriés. [En savoir plus sur les libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+L’activité **[!UICONTROL Enregistrer l’audience]** génère un nouveau schéma d’audience et un nouveau jeu de données. Une fois l’audience créée, contactez votre administrateur pour attribuer les libellés de gouvernance des données appropriés. [En savoir plus sur les libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >

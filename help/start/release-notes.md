@@ -89,7 +89,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * **Activité Sauvegarde d’audience**
 
   Une note a été ajoutée à l’activité **Enregistrer l’audience**, rappelant aux utilisateurs de collaborer avec un administrateur de données pour appliquer des libellés de gouvernance aux nouveaux schémas et jeux de données créés lors de la création et de l’enrichissement de l’audience.
-  [En savoir plus sur les libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+  [En savoir plus sur les libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibilité {#fac-25-4-compat}
 
