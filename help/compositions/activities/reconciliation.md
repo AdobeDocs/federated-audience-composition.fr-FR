@@ -4,7 +4,7 @@ title: Utiliser l’activité Réconciliation
 description: Découvrir comment utiliser l’activité Réconciliation
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
 ht-degree: 100%
 
