@@ -4,9 +4,9 @@ title: Utiliser l’activité Enregistrer l’audience
 description: Découvrir comment utiliser l’activité Enregistrer l’audience
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ L’activité **Enregistrer l’audience** permet de créer une audience à part
 
 Cette activité est essentiellement utilisée afin de conserver des groupes de population calculés dans la même composition, en les convertissant en audiences réutilisables. Connectez-la à d’autres activités de ciblage telles que **Créer une audience** ou **Combiner**.
 
-L’activité **[!UICONTROL Enregistrer l’audience]** génère un nouveau schéma d’audience et un nouveau jeu de données. Une fois l’audience créée, contactez votre administrateur pour attribuer les libellés de gouvernance des données appropriés. [En savoir plus sur les libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/user-guide)
+L’activité **[!UICONTROL Enregistrer l’audience]** génère un schéma d’audience et un jeu de données. Une fois l’audience créée, contactez votre administrateur ou administratrice pour attribuer les libellés de gouvernance des données appropriés. [En savoir plus sur les libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
@@ -73,7 +73,7 @@ Après l’exécution de la composition, l’audience obtenue est enregistrée d
 
 L’audience créée comprend tous les champs sélectionnés dans la section Mappages d’audiences. Vous pouvez ensuite cibler ces audiences dans Journey Optimizer ou les activer vers n’importe quelle destination prise en charge par Adobe Experience Platform.
 
-[En savoir plus dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

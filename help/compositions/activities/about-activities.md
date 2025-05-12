@@ -4,9 +4,9 @@ title: Utiliser les activités
 description: Découvrir comment utiliser les activités
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Dans la composition d’audiences fédérées, vous pouvez créer des compositio
 ## Activités de contrôle de flux
 
 * [Rendez-vous](and-join.md) : synchronisez plusieurs branches d’exécution d’une composition.
-* **Fin** : marquez graphiquement la fin d’une composition. Cette activité n’a aucun impact fonctionnel et est donc facultative.
+* **Fin** : marque graphiquement la fin d’une composition. Cette activité n’a aucun impact fonctionnel et est donc facultative.
 * [Branchement](fork.md) : créez des transitions sortantes afin de lancer plusieurs activités en parallèle.
 * [Planificateur](scheduler.md) : planifiez le démarrage de la composition.
 * [Attente](wait.md) : suspendez momentanément l’exécution d’une partie d’une composition.

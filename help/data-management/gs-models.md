@@ -5,9 +5,9 @@ description: Découvrir comment commencer avec les modèles de données
 badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 >[!AVAILABILITY]
 >
->Le modèle de données avec la vue Zone de travail est actuellement disponible en version bêta pour certaines personnes uniquement.
+>Le modèle de données avec la vue Zone de travail est actuellement disponible en version Beta pour certaines personnes uniquement.
 
 ## Qu’est-ce qu’un modèle de données ? {#data-model-start}
 
@@ -25,7 +25,7 @@ Dans la composition d’audiences fédérées, vous pouvez créer et gérer des 
 
 En savoir plus sur les [schémas](../customer/schemas.md#schema-start) et les [audiences](../start/audiences.md).
 
-Par exemple, vous pouvez voir ci-dessous une représentation d’un modèle de données : les tables avec leur nom et les liens entre elles.
+Voici un exemple de représentation d’un modèle de données : les tables avec leur nom et les liens qui les relient.
 
 ![](assets/datamodel.png){zoomable="yes"}
 

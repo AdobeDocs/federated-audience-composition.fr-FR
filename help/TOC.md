@@ -3,9 +3,9 @@ user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 85%
 + [Documentation sur la composition d’audiences fédérées Experience Platform](home.md)
 + [Notes de mise à jour](start/release-notes.md)
 + [Notes de mise à jour](start/e-release-notes.md)
-+ Prise en main de la composition d’audiences fédérées {#start}
-   + [Qu’appelle-t-on Composition d’audiences fédérées](start/get-started.md)
++ Commencer avec la composition d’audiences fédérées {#start}
+   + [Présentation de la composition d’audiences fédérées](start/get-started.md)
    + [Conditions préalables et mécanismes de sécurisation](start/access-prerequisites.md)
    + [Accéder à la composition d’audiences fédérées](start/feature-access.md)
    + [Utiliser les audiences](start/audiences.md)
-   + [Utiliser l’assistant IA](start/ai-assistant.md)
+   + [Utiliser l’Assistant IA](start/ai-assistant.md)
    + [Questions fréquentes](start/faq.md)
 + Étapes de configuration {#config}
    + [Créer et gérer des connexions](connections/connections.md)
    + [Configurer vos bases de données fédérées](connections/federated-db.md)
    + [Matrice des droits FDA](connections/fda-rights.md)
-   + Modèles de données et schémas{#datamodel}
+   + Modèles et schémas de données{#datamodel}
       + [Créer et configurer des schémas](customer/schemas.md)
       + [Configurer vos modèles de données](data-management/gs-models.md)
    + [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
@@ -48,7 +48,7 @@ ht-degree: 85%
       + [Branchement](compositions/activities/fork.md)
       + [Réconciliation](compositions/activities/reconciliation.md)
       + [Enregistrer l’audience](compositions/activities/save-audience.md)
-      + [Enregistrement des profils](compositions/activities/save-profiles.md)
+      + [Enregistrer les profils](compositions/activities/save-profiles.md)
       + [Planificateur](compositions/activities/scheduler.md)
       + [Partage](compositions/activities/split.md)
       + [Attente](compositions/activities/wait.md)

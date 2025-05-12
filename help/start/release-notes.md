@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>Vue de la zone de travail du modèle de données - Beta</strong><br/></th>
+<th><strong>Vue Zone de travail du modèle de données (version Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La vue Zone de travail de la section Modèles de données améliore l’expérience en permettant la visualisation des modèles de données et de leurs liens dans une disposition Zone de travail, à côté de la vue tabulaire existante. </p>
-<p>Le modèle de données avec la vue Zone de travail est actuellement disponible en version bêta pour certaines personnes uniquement.</p>
+<p>La vue Zone de travail de la section Modèles de données améliore l’expérience en permettant la visualisation des modèles de données et de leurs liens dans une disposition de zone de travail, à côté de la vue tabulaire existante. </p>
+<p>Le modèle de données avec la vue Zone de travail est actuellement disponible en version Beta pour certaines personnes uniquement.</p>
 <p>Pour plus d’informations, consultez la <a href="../data-management/gs-models.md">documentation détaillée</a>.</p>
 </br>
 </td>
@@ -38,7 +38,7 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>Prise en charge de l’assistant AI pour la connaissance des produits</strong><br/></th>
+<th><strong>Prise en charge de l’Assistant IA pour la connaissance des produits</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -55,13 +55,13 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>Activité Enregistrement des profils</strong><br/></th>
+<th><strong>Activité Enregistrer les profils</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> La composition de l’audience fédérée prend désormais en charge le cas d’utilisation d’enrichissement des profils, ce qui permet aux clients d’améliorer les profils Experience Platform existants avec les données de leurs entrepôts de données externes.
+<p> La composition d’audiences fédérées prend désormais en charge le cas d’utilisation d’enrichissement des profils, ce qui permet aux clientes et clients d’améliorer les profils Experience Platform existants avec les données de leurs entrepôts de données externes.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../compositions/activities/save-profiles.md">documentation détaillée</a>.</p>
 </br>
@@ -82,24 +82,24 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
   Le menu Audience affiche désormais le nom ou le libellé du modèle de données sélectionné lorsqu’une personne sélectionne un modèle de données sans audiences associées.
 
-* **Exportation des grandes audiences**
+* **Export d’audiences volumineuses**
 
-  La composition de l’audience fédérée prend désormais en charge l’exportation d’audiences volumineuses, avec des tailles de fichier supérieures à 1 Go.
+  La composition d’audiences fédérées prend désormais en charge l’export d’audiences volumineuses, avec des tailles de fichier supérieures à 1 Go.
 
-* **Activité Sauvegarde d’audience**
+* **Activité Enregistrer l’audience**
 
-  Une note a été ajoutée à l’activité **Enregistrer l’audience**, rappelant aux utilisateurs de collaborer avec un administrateur de données pour appliquer des libellés de gouvernance aux nouveaux schémas et jeux de données créés lors de la création et de l’enrichissement de l’audience.
+  Une note a été ajoutée à l’activité **Enregistrer l’audience**, rappelant aux utilisateurs et utilisatrices de collaborer avec un administrateur ou une administratrice de données pour appliquer des libellés de gouvernance aux nouveaux schémas et jeux de données créés lors de la création et de l’enrichissement de l’audience.
   [En savoir plus sur les libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibilité {#fac-25-4-compat}
 
-* **Connexion sécurisée Amazon Redshift**
+* **Connexion sécurisée Amazon Redshift**
 
-  Avec cette nouvelle version, la composition de l’audience fédérée prend en charge les connexions de liens privées sécurisées aux bases de données Amazon Redshift. [En savoir plus](../connections/federated-db.md#amazon-redshift)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées aux bases de données Amazon Redshift. [En savoir plus](../connections/federated-db.md#amazon-redshift)
 
-* **Google BigQuery**
+* **Google Big Query**
 
-  Avec cette nouvelle version, Federated Audience Composition prend en charge les connexions VPN sécurisées aux bases de données BigQuery Google. [En savoir plus](../connections/federated-db.md#google-big-query)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions VPN sécurisées aux bases de données Google Big Query. [En savoir plus](../connections/federated-db.md#google-big-query)
 
 ## Version de mars 2025 {#fac-25-3}
 

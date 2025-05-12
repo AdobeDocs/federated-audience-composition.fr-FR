@@ -4,9 +4,9 @@ title: Configurer vos bases de données fédérées
 description: Découvrir comment configurer vos bases de données fédérées
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Avec la composition d’audiences fédérées, vous pouvez vous connecter aux ba
 >
 >* Seuls Amazon Redshift AWS, Amazon Redshift Spectrum et Amazon Redshift sans serveur sont pris en charge.
 >
->* La sécurité d’accès à vos bases de données Amazon Redshift externes par le biais d’un lien privé est prise en charge.
+>* L’accès sécurisé à vos bases de données externes Amazon Redshift par le biais d’un lien privé est pris en charge.
 
 Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.
 

@@ -1,34 +1,35 @@
 ---
 title: Utiliser l’assistant IA
 description: Découvrir comment tirer parti de l’assistant IA
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 # Utiliser l’assistant IA {#ai-assistant}
 
-L’assistant AI est une fonctionnalité d’interface utilisateur conçue pour vous aider à parcourir et à comprendre les concepts d’Adobe. Elle est disponible pour les cas d’utilisation de connaissances sur les produits dans plusieurs produits de Adobe Experience Cloud, y compris la composition de l’audience fédérée.
+L’Assistant IA est une fonctionnalité de l’interface d’utilisation conçue pour vous aider à parcourir et à comprendre les concepts d’Adobe. Il est disponible pour les cas d’utilisation liés à la connaissances des produits dans plusieurs produits Adobe Experience Cloud, notamment la composition d’audiences fédérées.
 
 >[!CAUTION]
 >
 >Avant de pouvoir utiliser l’assistant IA, vous devez accepter les directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Pour en savoir plus sur l’accord d’utilisation, consultez [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Dans la composition de l’audience fédérée, vous pouvez accéder à des connaissances sur les produits pour en savoir plus sur les concepts Adobe liés aux différentes parties du processus. L’assistant AI prend en charge deux types de connaissances de produit : **découverte ouverte** (explorez les concepts de produit en vous basant sur la documentation d’Experience League) et **apprentissage et dépannage ciblés** (posez des questions sur des fonctionnalités ou caractéristiques spécifiques).
+Dans la composition d’audiences fédérées, vous pouvez accéder à la connaissance des produits pour découvrir les concepts d’Adobe liés à divers aspects du processus. L’Assistant IA prend en charge deux types de connaissances des produits : **Découverte ouverte** (explorez les concepts des produits en vous basant sur la documentation d’Experience League) et **Formation et dépannage ciblés** (posez des questions sur des fonctionnalités ou caractéristiques spécifiques).
 
 Voici quelques exemples de ces questions :
 
-* Quelle est la composition de l’audience fédérée ?
-* Comment configurer un compte Snowflake Federated Database ?
-* Comment créer une composition fédérée ?
+* Qu’est-ce que la composition d’audiences fédérées ?
+* Comment configurer un compte de base de données Snowflake Federated ?
+* Comment créer une composition fédérée ?
 
 Pour poser une question, procédez comme suit :
 
-1. Accédez à l’assistant AI en cliquant sur l’icône dans la barre supérieure.
+1. Accédez à l’Assistant IA en cliquant sur l’icône dans la barre supérieure.
 
-   L’assistant AI s’affiche dans la section droite de l’écran. Vous pouvez cliquer sur ![Diver le texte secondaire de l’image](assets/do-not-localize/Smock_FullScreen_18_N.svg "Développer") pour développer la fenêtre de l’assistant d’IA.
+   L’Assistant IA s’affiche dans la partie droite de l’écran. Vous pouvez cliquer sur ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_FullScreen_18_N.svg "Développer") pour développer la fenêtre de l’Assistant IA.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 
