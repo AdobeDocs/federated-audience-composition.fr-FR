@@ -4,7 +4,7 @@ title: Utiliser l’activité Enregistrer les profils
 description: Découvrir comment utiliser l’activité Enregistrer les profils
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 
