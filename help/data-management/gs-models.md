@@ -2,20 +2,25 @@
 audience: end-user
 title: Commencer avec les modèles de données
 description: Découvrir comment commencer avec les modèles de données
-badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 92%
 
 ---
+
 
 # Commencer avec les modèles de données {#data-model-beta}
 
 >[!AVAILABILITY]
 >
->Le modèle de données avec la vue Zone de travail est actuellement disponible en version Beta pour certaines personnes uniquement.
+>Pour accéder aux modèles de données, vous devez disposer de l’une des autorisations suivantes :
+>
+>-**Gérer le modèle de données fédérées**
+>-**Afficher le modèle de données fédérées**
+>
+>Pour plus d’informations sur les autorisations requises, veuillez lire le [Guide d’accès à la composition d’audiences fédérées](/help/start/feature-access.md).
 
 ## Qu’est-ce qu’un modèle de données ? {#data-model-start}
 
@@ -45,7 +50,9 @@ Pour créer un modèle de données, procédez comme suit :
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Ajouter des audiences]** pour définir vos groupes cibles.
+1. De plus, vous pouvez ajouter des audiences à votre modèle de données. Sélectionnez **[!UICONTROL Ajouter des audiences]** pour définir vos groupes cibles.
+
+   ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. Établissez des connexions entre les tableaux de votre modèle de données pour garantir des relations de données précises. [En savoir plus](#data-model-links)
 
