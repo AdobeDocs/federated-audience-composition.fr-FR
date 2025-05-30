@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +13,22 @@ ht-degree: 93%
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Version du 25 mai {#fac-25-5}
+## Version de mai 2025 {#fac-25-5}
 
 ### Nouvelles fonctionnalités {#fac-25-05-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>Vue de la zone de travail du modèle de données - Disponibilité générale</strong><br/></th>
+<th><strong>Vue Zone de travail du modèle de données (disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le modèle de données avec la vue Zone de travail est désormais disponible pour tous les clients et clientes.</p>
+<p>Le modèle de données avec la vue Zone de travail est désormais disponible pour l’ensemble des clientes et clients.</p>
 <p>La vue Zone de travail de la section Modèles de données améliore l’expérience en permettant la visualisation des modèles de données et de leurs liens dans une disposition de zone de travail, à côté de la vue tabulaire existante. </p>
-<p>Pour plus d’informations sur la vue Zone de travail, consultez la <a href="../data-management/gs-models.md">présentation des modèles de données</a>.</p>
+<p>Pour plus d’informations sur cette fonctionnalité, consultez la <a href="../data-management/gs-models.md">vue d’ensemble des modèles de données</a>.</p>
 </br>
 </td>
 </tr>
@@ -37,13 +37,13 @@ ht-degree: 93%
 
 ### Améliorations {#fac-25-5-improvements}
 
-Cette version s’accompagne des améliorations suivantes.
+Cette version comprend les améliorations suivantes :
 
 * **Contrôle d’accès basé sur les rôles**
 
-  À compter de la version de mai, [!DNL Federated Audience Composition] prend en charge de nouvelles autorisations granulaires pour le contrôle d’accès. Les utilisateurs et utilisatrices peuvent attribuer ces autorisations aux rôles utilisateur pour un accès plus précis aux [!DNL Federated Audience Composition].
+  À compter de la version de mai, [!DNL Federated Audience Composition] prend en charge de nouvelles autorisations granulaires pour le contrôle d’accès. Les utilisateurs et utilisatrices peuvent attribuer ces autorisations aux rôles pour un accès plus précis à la [!DNL Federated Audience Composition].
 
-  Pour en savoir plus sur les nouvelles autorisations, veuillez lire le [guide d’accès relatif à la composition de l’audience fédérée](feature-access.md).
+  Pour en savoir plus sur les nouvelles autorisations, veuillez lire le [guide d’accès relatif à la composition d’audiences fédérées](feature-access.md).
 
 ## Version d’avril 2025 {#fac-25-4}
 

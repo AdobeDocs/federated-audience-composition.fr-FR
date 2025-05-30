@@ -4,9 +4,9 @@ title: Commencer avec les schémas
 description: Découvrir comment commencer avec les schémas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->Pour accéder aux schémas, vous devez disposer de l’une des autorisations suivantes :
+>Pour accéder aux schémas, vous devez disposer de l’une des autorisations suivantes :
 >
->-**Gérer Le Schéma Fédéré**
->-**Afficher le schéma fédéré**
+>-**Gestion du schéma fédéré**
+>>-**Affichage du schéma fédéré**
 >
->Pour plus d’informations sur les autorisations requises, veuillez lire le [Guide d’accès à la composition d’audiences fédérées](/help/start/feature-access.md).
+>Pour plus d’informations sur les autorisations requises, lisez le [Guide de la composition d’audiences fédérées](/help/start/feature-access.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
