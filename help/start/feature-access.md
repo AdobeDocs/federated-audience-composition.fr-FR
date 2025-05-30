@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -29,41 +29,41 @@ Notez que seule l’équipe d’administration a la possibilité d’attribuer d
 
    ![](assets/access_fda_1.png)
 
-1. Sélectionnez **[!UICONTROL Modifier]** pour modifier les autorisations de votre rôle.
+1. Sélectionnez **[!UICONTROL Modifier]** pour modifier les autorisations du rôle.
 
    ![](assets/access_fda_2.png)
 
-1. Ajoutez les autorisations requises pour l’utilisateur. Vous pouvez ajouter les autorisations suivantes pour accéder à la composition d’audiences fédérées :
+1. Ajoutez les autorisations requises pour la personne. Vous pouvez ajouter les autorisations suivantes pour accéder à la composition d’audiences fédérées :
 
    | Autorisation | Description |
    | ---------- | ----------- |
-   | Gestion des données fédérées | Utilisez cette autorisation pour gérer tous les aspects de la composition des audiences fédérées. Cette autorisation englobe les opérations suivantes : Gérer la base de données fédérée, Gérer le schéma fédéré, Gérer le modèle de données fédérée et Gérer les compositions fédérées. |
-   | Gestion de la base de données fédérée | Utilisez cette autorisation pour ajouter, afficher, mettre à jour et supprimer vos connexions aux bases de données fédérées. |
-   | Afficher la base de données fédérée | Utilisez cette autorisation pour afficher vos connexions aux bases de données fédérées. |
+   | Gestion des données fédérées | Utilisez cette autorisation pour gérer tous les aspects de la composition d’audiences fédérées. Cette autorisation englobe les opérations suivantes : Gestion de la base de données fédérée, Gestion du schéma fédéré, Gestion du modèle de données fédérées et Gestion des compositions fédérées. |
+   | Gestion de la base de données fédérées | Utilisez cette autorisation pour ajouter, afficher, mettre à jour et supprimer vos connexions aux bases de données fédérées. |
+   | Affichage de la base de données fédérées | Utilisez cette autorisation pour afficher vos connexions aux bases de données fédérées. |
    | Gestion du schéma fédéré | Utilisez cette autorisation pour créer, afficher, mettre à jour, supprimer et actualiser des schémas. |
-   | Affichage Des Données De Schéma Fédéré | Utilisez cette autorisation pour afficher l’onglet de données dans la section de schéma. |
-   | Afficher le schéma fédéré | Utilisez cette autorisation pour afficher les tables de schéma. |
+   | Affichage des données de schéma fédéré | Utilisez cette autorisation pour afficher l’onglet de données dans la section de schéma. |
+   | Affichage du schéma fédéré | Utilisez cette autorisation pour afficher les tables de schéma. |
    | Gestion du modèle de données fédérées | Utilisez cette autorisation pour créer, afficher, mettre à jour et supprimer des modèles de données. |
-   | Afficher le modèle de données fédéré | Utilisez cette autorisation pour afficher les modèles de données. |
-   | Afficher le journal d&#39;audit de fédération | Utilisez cette autorisation pour afficher le journal d’audit de la composition d’audiences fédérées. |
+   | Affichage du modèle de données fédérées | Utilisez cette autorisation pour afficher les modèles de données. |
+   | Affichage du journal d’audit de fédération | Utilisez cette autorisation pour afficher le journal d’audit de la composition d’audiences fédérées. |
    | Gestion des compositions fédérées | Utilisez cette autorisation pour créer, afficher, mettre à jour et supprimer des compositions fédérées. |
-   | Afficher les compositions fédérées | Utilisez cette autorisation pour afficher les compositions fédérées. |
+   | Affichage des compositions fédérées | Utilisez cette autorisation pour afficher les compositions fédérées. |
 
    ![](assets/permissions.png)
 
-1. Une fois les modifications nécessaires effectuées, sélectionnez **[!UICONTROL Enregistrer]**.
+1. Une fois les modifications nécessaires effectuées, cliquez sur **[!UICONTROL Enregistrer]**.
 
 Les autorisations des utilisateurs et utilisatrices déjà affectés à ce rôle seront automatiquement mises à jour et ils auront accès à la composition d’audiences fédérées.
 
 Pour attribuer ce rôle à de nouvelles personnes, procédez comme suit :
 
-1. Accédez à l’onglet **[!UICONTROL Utilisateurs]** dans votre tableau de bord Rôle et sélectionnez **[!UICONTROL Ajouter des utilisateurs]**.
+1. Accédez à l’onglet **[!UICONTROL Utilisateurs et utilisatrices]** dans votre tableau de bord Rôle et cliquez sur **[!UICONTROL Ajouter des utilisateurs et des utilisatrices]**.
 
    ![](assets/access_fda_4.png)
 
-1. Saisissez le nom ou l’adresse e-mail de la personne ou effectuez votre sélection dans la liste disponible. Une fois que vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]**.
+1. Saisissez le nom ou l’adresse e-mail de la personne ou effectuez votre sélection dans la liste disponible. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
