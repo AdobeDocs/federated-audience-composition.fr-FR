@@ -15,13 +15,13 @@ La composition de l’audience fédérée respecte de nombreuses pratiques de s�
 
 ## Privacy Service {#privacy}
 
-La composition de l’audience fédérée fournit les données fédérées que Adobe Experience Platform et Adobe Journey Optimizer peuvent utiliser. Cependant, la composition de l’audience fédérée ne stocke **** aucune des données client provenant de l’un des entrepôts de données. Par conséquent, vous pouvez utiliser Adobe Experience Platform Privacy Service pour vous conformer aux demandes de titulaire de données et de suppression de données.
+La composition de l’audience fédérée fournit les données fédérées que Adobe Experience Platform et Adobe Journey Optimizer peuvent utiliser. Cependant, la composition de l’audience fédérée ne stocke **&#x200B;**&#x200B;aucune des données client provenant de l’un des entrepôts de données. Par conséquent, vous pouvez utiliser Adobe Experience Platform Privacy Service pour vous conformer aux demandes de titulaire de données et de suppression de données.
 
 Par exemple, lorsque vous créez une audience à l’aide du bloc d’activité enregistrer dans la zone de travail de composition, l’audience obtenue est stockée dans le lac de données d’Experience Platform en tant qu’audience externe. Cette audience externe est marquée par son champ d’identité et son espace de noms d’identité. Par conséquent, vous pouvez utiliser Privacy Service pour accéder à ces profils et les supprimer avec une audience externe.
 
 Autrement, après la création d’un enrichissement de profil à l’aide de l’activité enregistrer le profil dans la zone de travail de composition, l’enrichissement obtenu est stocké dans Experience Platform sous la forme d’un schéma activé pour le profil et d’un jeu de données activé pour le profil. Ces données d’enrichissement sont marquées d’un champ d’identité et d’un espace de noms d’identité. Par conséquent, vous pouvez utiliser Privacy Service pour accéder à ces profils et les nettoyer.
 
-Pour plus d’informations sur Privacy Service, consultez la présentation de Privacy Service [](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"}.
+Pour plus d’informations sur Privacy Service, consultez la présentation de Privacy Service [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"}.
 
 ### Demandes d’accès à des informations personnelles {#privacy-requests}
 
@@ -41,7 +41,7 @@ Pour plus d’informations sur l’application des consentements, consultez le g
 
 ## Cycle de vie des données {#data-lifecycle}
 
-Comme la composition de l’audience fédérée ne stocke **** aucune des données client provenant de l’un des entrepôts de données, vous pouvez utiliser Experience Platform pour gérer le cycle de vie des données. Grâce à la gestion avancée du cycle de vie des données, vous pouvez gérer votre cycle de vie des données au niveau des jeux de données et des enregistrements.
+Comme la composition de l’audience fédérée ne stocke **&#x200B;**&#x200B;aucune des données client provenant de l’un des entrepôts de données, vous pouvez utiliser Experience Platform pour gérer le cycle de vie des données. Grâce à la gestion avancée du cycle de vie des données, vous pouvez gérer votre cycle de vie des données au niveau des jeux de données et des enregistrements.
 
 Par exemple, lorsque vous créez une audience à l’aide du bloc d’activité enregistrer dans la zone de travail de composition, l’audience obtenue est stockée dans le lac de données d’Experience Platform en tant qu’audience externe. Comme ces données ne sont **pas** stockées dans la composition d’audiences fédérées, les données d’audience et les jeux de données correspondants sont automatiquement supprimés lorsque l’audience est supprimée dans Audience Portal.
 
