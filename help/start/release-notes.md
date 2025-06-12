@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,9 +129,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
   Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées aux bases de données Amazon Redshift. [En savoir plus](../connections/federated-db.md#amazon-redshift)
 
-* **BigQuery Google**
+* **Google BigQuery**
 
-  Avec cette nouvelle version, Federated Audience Composition prend en charge les connexions VPN sécurisées aux bases de données BigQuery Google. [En savoir plus](../connections/federated-db.md#google-bigquery)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions VPN sécurisées aux bases de données Google BigQuery. [En savoir plus](../connections/federated-db.md#google-bigquery)
 
 ## Version de mars 2025 {#fac-25-3}
 

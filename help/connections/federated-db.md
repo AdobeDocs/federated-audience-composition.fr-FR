@@ -4,9 +4,9 @@ title: Configurer vos bases de données fédérées
 description: Découvrir comment configurer vos bases de données fédérées
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 ## Google BigQuery {#google-bigquery}
 
-Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à BigQuery Google.
+Utilisez des bases de données fédérées pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à Google BigQuery.
 
 1. Dans le menu **[!UICONTROL Données fédérées]**, sélectionnez **[!UICONTROL Bases de données fédérées]**.
 
@@ -139,11 +139,11 @@ Utilisez des bases de données fédérées pour traiter les informations stocké
 
 1. Saisissez un **[!UICONTROL nom]** pour votre base de données fédérée.
 
-1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez BigQuery Google.
+1. Dans la liste déroulante **[!UICONTROL Type]**, sélectionnez Google BigQuery.
 
    ![](assets/federated_database_3.png)
 
-1. Configurez les paramètres d’authentification BigQuery de Google :
+1. Configurez les paramètres d’authentification Google BigQuery :
 
    * **[!UICONTROL Compte de service]** : saisissez l’adresse e-mail de votre **[!UICONTROL compte de service]**. Pour plus d’informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 

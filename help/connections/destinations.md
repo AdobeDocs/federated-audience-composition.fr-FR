@@ -4,9 +4,9 @@ title: Enrichir les audiences Adobe Experience Platform avec des données exte
 description: Découvrez comment affiner et enrichir les audiences Adobe Experience Platform avec les données de vos bases de données fédérées à l’aide de la destination Composition d’audiences fédérées.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform �
 
 1. La section **[!UICONTROL Alertes]** permet d’activer les alertes pour recevoir des notifications sur le statut de votre flux de données vers votre destination.
 
-   Pour plus d’informations sur les alertes, consultez la documentation de Adobe Experience Platform sur [l’abonnement aux alertes des destinations dans l’interface utilisateur](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   Pour plus d’informations sur les alertes, consultez la documentation Adobe Experience Platform sur l’[abonnement aux alertes des destinations dans l’interface d’utilisation](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 1. L’étape **[!UICONTROL Politique de gouvernance et mesures de mise en conformité]** vous permet de définir vos politiques de gouvernance des données et de vous assurer que les données utilisées sont conformes lorsque les audiences sont envoyées et actives.
 
