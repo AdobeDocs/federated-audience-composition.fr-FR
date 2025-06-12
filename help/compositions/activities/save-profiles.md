@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité Enregistrer les profils
 description: Découvrir comment utiliser l’activité Enregistrer les profils
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Sélectionner un schéma AEP"
+>title="Sélectionner le schéma Experience Platform"
 >abstract="Choisissez le schéma Experience Platform pour les profils."
 
 >[!CONTEXTUALHELP]
@@ -29,12 +29,42 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Sélectionner un schéma AEP"
+>title="Sélectionner le schéma Experience Platform"
 >abstract="Choisissez le schéma Experience Platform pour les profils."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode"
+>title="Enregistrer le mode de mise à jour du profil"
+>abstract="Les modes de mise à jour disponibles pour l’activité d’enregistrement de profil incluent la mise à jour complète et la mise à jour incrémentielle."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_full"
+>title="Mise à jour complète"
+>abstract="Le mode de mise à jour complète met à jour l’ensemble complet des profils pour l’enrichissement."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_incremental"
+>title="Mise à jour incrémentielle"
+>abstract="Le mode de mise à jour incrémentielle met à jour les profils qui ont été modifiés depuis la dernière exécution de l’enrichissement."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentityfield"
+>title="Champ d’identité principale"
+>abstract="Le champ Identité principale indique la source de vérité lors de la fusion des profils pour l’enrichissement."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_requiredfieldscheck"
+>title="Critères des champs obligatoires"
+>abstract="Un champ obligatoire est un attribut qui doit être renseigné pour chaque profil ou enregistrement lors de l’exportation de données. Si un champ obligatoire est manquant, l’exportation ne sera pas terminée ou valide."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentitycheck"
+>title="Critères des champs d’identité de Principal"
+>abstract="Identifiant unique de chaque profil ou enregistrement. Cela permet de s’assurer que chaque enregistrement peut être distinctement reconnu et mis en correspondance, ce qui évite la duplication des données."
 
 L’activité **Enregistrer les profils** permet d’enrichir les profils Adobe Experience Platform avec des données fédérées à partir d’entrepôts externes.
 
-Cette activité est généralement utilisée pour améliorer les profils clientèle en apportant des attributs et des informations supplémentaires sans déplacer ou dupliquer physiquement les données dans la plateforme.
+Cette activité est généralement utilisée pour améliorer les profils client en apportant des attributs et des informations supplémentaires sans déplacer ou dupliquer physiquement les données dans la plateforme.
 
 ## Configurer l’activité Enregistrer les profils {#save-profile-configuration}
 
