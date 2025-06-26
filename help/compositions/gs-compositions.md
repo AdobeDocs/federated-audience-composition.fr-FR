@@ -73,7 +73,7 @@ La fenêtre contextuelle **[!UICONTROL Gérer l’accès]** s’affiche. Sur cet
 | Étiquettes Sensibles | Les libellés sensibles (libellés « S ») sont utilisés pour vous catégoriser et/ou votre organisation considère comme sensibles. |
 | Libellés de réseau partenaire | Les libellés d’écosystème partenaire servent à catégoriser les données provenant de sources externes à votre organisation. |
 
-Pour plus d’informations sur l’accès et les libellés de gouvernance des données, consultez le [glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+Pour plus d’informations sur l’accès et les libellés de gouvernance des données, consultez le [glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference).
 
 ## Étapes suivantes
 

@@ -72,7 +72,7 @@ Cette activité est généralement utilisée pour améliorer les profils client 
 >
 >L’activité **Enregistrer des profils** nécessite un schéma et un jeu de données activés pour Profile. Pour savoir comment activer votre jeu de données pour qu’il soit activé pour Profil, veuillez lire le [guide d’utilisation des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->En outre, si l’upsert n’est **activé pour le jeu de données sélectionné** les données des profils seront **remplacées**. Pour savoir comment activer l’upsert pour vos jeux de données, consultez le [guide d’activation de l’upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+>En outre, si l’upsert n’est **activé pour le jeu de données sélectionné** les données des profils seront **remplacées**. Pour savoir comment activer l’upsert pour vos jeux de données, consultez le [guide d’activation de l’upsert](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Pour configurer l’activité **[!UICONTROL Enregistrer les profils]**, procédez comme suit :
 
