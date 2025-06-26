@@ -3,10 +3,10 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >-**Gestion de la base de données fédérées**
 >>-**Affichage de la base de données fédérées**
 >
->Pour plus d’informations sur les autorisations requises, lisez le [Guide de la composition d’audiences fédérées](/help/start/feature-access.md).
+>Pour plus d’informations sur les autorisations requises, veuillez lire le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
 La composition d’audiences fédérées Experience Platform permet au client ou à la cliente de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform. Les entrepôts de données pris en charge sont répertoriés dans [cette section](../start/access-prerequisites.md#supported-systems).
 

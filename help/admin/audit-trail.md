@@ -3,10 +3,10 @@ audience: end-user
 title: Journal d’audit
 description: Découvrez comment les actions et les événements sont consignés et accessibles dans le journal d’audit.
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >
 >-**Affichage du journal d’audit**
 >
->Pour plus d’informations sur les autorisations requises, lisez le [Guide de la composition d’audiences fédérées](/help/start/feature-access.md).
+>Pour plus d’informations sur les autorisations requises, veuillez lire le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"

@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité Enregistrer les profils
 description: Découvrir comment utiliser l’activité Enregistrer les profils
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
+source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 55%
+source-wordcount: '563'
+ht-degree: 22%
 
 ---
 
@@ -62,17 +62,23 @@ ht-degree: 55%
 >title="Critères des champs d’identité de Principal"
 >abstract="Identifiant unique de chaque profil ou enregistrement. Cela permet de s’assurer que chaque enregistrement peut être distinctement reconnu et mis en correspondance, ce qui évite la duplication des données."
 
-L’activité **Enregistrer les profils** permet d’enrichir les profils Adobe Experience Platform avec des données fédérées à partir d’entrepôts externes.
+L&#39;activité **[!UICONTROL Enregistrer les profils]** permet d&#39;enrichir les profils Adobe Experience Platform avec des données fédérées à partir d&#39;entrepôts externes.
 
 Cette activité est généralement utilisée pour améliorer les profils client en apportant des attributs et des informations supplémentaires sans déplacer ou dupliquer physiquement les données dans la plateforme.
 
-## Configurer l’activité Enregistrer les profils {#save-profile-configuration}
+## Configuration de l&#39;activité [!UICONTROL Enregistrer les profils] {#save-profile-configuration}
 
-Pour configurer l’activité **Enregistrer les profils**, procédez comme suit :
+>[!IMPORTANT]
+>
+>L’activité **Enregistrer des profils** nécessite un schéma et un jeu de données activés pour Profile. Pour savoir comment activer votre jeu de données pour qu’il soit activé pour Profil, veuillez lire le [guide d’utilisation des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>
+>En outre, si l’upsert n’est **activé pour le jeu de données sélectionné** les données des profils seront **remplacées**. Pour savoir comment activer l’upsert pour vos jeux de données, consultez le [guide d’activation de l’upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
-1. Ajoutez une activité **Enregistrer les profils** à votre composition.
+Pour configurer l’activité **[!UICONTROL Enregistrer les profils]**, procédez comme suit :
 
-   ![](../assets/save-profile.png)
+1. Ajoutez une activité **[!UICONTROL Enregistrer les profils]** à votre composition.
+
+   ![Le bouton Enregistrer les profils est mis en surbrillance dans les activités.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. Indiquez le libellé des profils à créer.
 
@@ -82,14 +88,31 @@ Pour configurer l’activité **Enregistrer les profils**, procédez comme suit�
 
 1. Sélectionnez le schéma Adobe Experience Platform à utiliser.
 
-   ![](../assets/save-profile-2.png)
+   ![Les schémas disponibles s’affichent.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-1. Sélectionnez le champ d’identité principale qui sera utilisé pour identifier les profils dans la base de données.
+1. Sélectionnez le jeu de données dans lequel vous souhaitez enregistrer l’enrichissement.
 
-1. Pour réconcilier des attributs de données supplémentaires, cliquez sur **Ajouter des attributs**.
+   ![La liste déroulante du jeu de données est mise en surbrillance.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-   Spécifiez ensuite le champ **Source** (données externes) et le champ **Destination** (champ de schéma) pour chaque attribut à mapper.
+1. Après avoir sélectionné le jeu de données, vous pouvez voir le champ d’identité principale qui sera utilisé pour identifier les profils dans la base de données.
 
-   ![](../assets/save-profile-3.png)
+1. Sélectionnez **[!UICONTROL Ajouter des champs]** pour ajouter les champs d’identité principaux et obligatoires.
 
-1. Une fois la configuration effectuée, cliquez sur **Démarrer**.
+   ![Le bouton Ajouter des champs est mis en surbrillance.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+
+   Vous pouvez spécifier le champ **Source** (données externes) et le champ **Destination** (champ de schéma) pour chaque attribut à mapper.
+
+   ![Les champs Source et Destination sont mis en surbrillance, indiquant où créer le mappage entre les champs](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+
+1. Vous pouvez également définir le mode de mise à jour de l’enrichissement.
+
+   ![Les types de mode de mise à jour s’affichent.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+
+   | Mode de mise à jour | Description |
+   | ----------- | ----------- |
+   | Mises à jour complètes | L’ensemble complet des profils est mis à jour pour l’enrichissement. |
+   | Mises à jour incrémentielles | Seuls les profils qui ont été modifiés depuis la dernière exécution d’enrichissement sont mis à jour pour l’enrichissement. |
+
+   Si vous sélectionnez [!UICONTROL  Mises à jour incrémentielles ], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
+
+1. Une fois la configuration effectuée, sélectionnez **Démarrer**.

@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les schémas
 description: Découvrir comment commencer avec les schémas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >-**Gestion du schéma fédéré**
 >>-**Affichage du schéma fédéré**
 >
->Pour plus d’informations sur les autorisations requises, lisez le [Guide de la composition d’audiences fédérées](/help/start/feature-access.md).
+>Pour plus d’informations sur les autorisations requises, veuillez lire le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -35,7 +35,6 @@ ht-degree: 100%
 >id="dc_schema_create_schema_name"
 >title="Nom du schéma"
 >abstract="Saisissez le nom du schéma."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"

@@ -3,8 +3,8 @@ audience: end-user
 title: Créer des compositions
 description: Découvrir comment créer des compositions
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+source-git-commit: b73eba776e3e75f3ff7107bcf48f7b2f60048d08
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ La composition d’audiences fédérées Experience Platform met à votre dispo
 
 Le diagramme de composition est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 
-![](assets/composition-example.png){zoomable="yes"} {zoomable="yes"}
+![](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 Chaque composition comprend :
 

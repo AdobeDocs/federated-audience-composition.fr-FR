@@ -4,7 +4,7 @@ description: Dernières mises à jour et notes de mise à jour
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
+source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 89%
@@ -75,7 +75,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
   Nous recommandons aux utilisateurs et utilisatrices de contacter les administrateurs et administratrices pour que cette autorisation soit ajoutée à leur rôle afin de continuer à accéder à l’interface d’utilisation [!DNL Federated Audience Composition].
 
-  Pour savoir comment attribuer cette autorisation, consultez la [documentation détaillée](feature-access.md).
+  Pour savoir comment attribuer cette autorisation, consultez la [documentation détaillée](/help/governance-privacy-security/access-control.md).
 
 <!--
 * **Data model Canvas view**

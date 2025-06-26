@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité Créer une audience
 description: Découvrir comment utiliser l’activité Créer une audience
 exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+source-git-commit: 2c706e8c7d7d282f8ef2f00875608f06e35ffdf8
+workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
 1. Ajoutez une activité **Créer une audience**.
 1. Définissez un libellé.
-1. Indiquez si vous souhaitez créer une audience ou sélectionnez-en une existante.
+1. Indiquez si vous souhaitez créer une audience ou en sélectionner une existante.
 1. Configurez votre audience en suivant les étapes présentées dans les onglets ci-dessous.
 
 >[!BEGINTABS]
