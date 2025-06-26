@@ -17,7 +17,7 @@ ht-degree: 16%
 >Pour accéder aux compositions, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion des compositions fédérées**
->>-**Affichage des compositions fédérées**
+>&#x200B;>-**Affichage des compositions fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, veuillez lire le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 

@@ -17,7 +17,7 @@ ht-degree: 95%
 >Pour accéder aux connexions, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion de la base de données fédérées**
->>-**Affichage de la base de données fédérées**
+>&#x200B;>-**Affichage de la base de données fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, veuillez lire le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 

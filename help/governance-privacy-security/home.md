@@ -39,7 +39,7 @@ La composition de l’audience fédérée fournit les données fédérées que A
 
 ### Privacy Service {#privacy-service}
 
-Comme la composition de l’audience fédérée ne stocke **** aucune des données client provenant de l’un des entrepôts de données, vous pouvez utiliser Adobe Experience Platform Privacy Service pour respecter les demandes de suppression des titulaires de données et des données.
+Comme la composition de l’audience fédérée ne stocke **&#x200B;**&#x200B;aucune des données client provenant de l’un des entrepôts de données, vous pouvez utiliser Adobe Experience Platform Privacy Service pour respecter les demandes de suppression des titulaires de données et des données.
 
 Par exemple, lorsque vous créez une audience à l’aide du bloc d’activité Enregistrer dans la zone de travail de la composition, l’audience obtenue est stockée dans le lac de données d’Experience Platform en tant qu’audience externe. Cette audience externe est marquée par son champ d’identité et son espace de noms d’identité. Par conséquent, vous pouvez utiliser Privacy Service pour accéder à ces profils et les supprimer avec une audience externe.
 

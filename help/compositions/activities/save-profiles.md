@@ -113,6 +113,6 @@ Pour configurer l’activité **[!UICONTROL Enregistrer les profils]**, procéde
    | Mises à jour complètes | L’ensemble complet des profils est mis à jour pour l’enrichissement. |
    | Mises à jour incrémentielles | Seuls les profils qui ont été modifiés depuis la dernière exécution d’enrichissement sont mis à jour pour l’enrichissement. |
 
-   Si vous sélectionnez [!UICONTROL  Mises à jour incrémentielles ], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
+   Si vous sélectionnez [!UICONTROL &#x200B; Mises à jour incrémentielles &#x200B;], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
 
 1. Une fois la configuration effectuée, sélectionnez **Démarrer**.

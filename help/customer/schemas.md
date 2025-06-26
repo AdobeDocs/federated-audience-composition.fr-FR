@@ -17,7 +17,7 @@ ht-degree: 97%
 >Pour accéder aux schémas, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion du schéma fédéré**
->>-**Affichage du schéma fédéré**
+>&#x200B;>-**Affichage du schéma fédéré**
 >
 >Pour plus d’informations sur les autorisations requises, veuillez lire le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
