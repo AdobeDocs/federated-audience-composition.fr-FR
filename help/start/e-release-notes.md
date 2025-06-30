@@ -7,7 +7,7 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,25 +15,25 @@ ht-degree: 89%
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Version de juin 2025 {#fac-25-6}
+## Version de juin 2025 {#fac-25-6}
 
-Les améliorations suivantes ont été apportées à cette version :
+Cette version comprend les améliorations suivantes :
 
-* **Disponibilité générale pour les clients Adobe Healthcare Shield**
+* **Disponibilité générale pour la clientèle Adobe Healthcare Shield**
 
-  La composition de l’audience fédérée sera disponible pour les clients d’Adobe Healthcare Shield pour la création d’audiences, l’enrichissement et l’enrichissement des profils d’ici la fin juin.
+  La composition d’audiences fédérées sera disponible pour la clientèle d’Adobe Healthcare Shield pour la création d’audiences, l’enrichissement et l’enrichissement des profils d’ici la fin juin.
 
 * **Contrôle d’accès au niveau de l’objet**
 
-  La composition d’audience fédérée prend désormais en charge le contrôle d’accès au niveau de l’objet pour appliquer des libellés d’accès à vos compositions spécifiées.
+  La composition d’audiences fédérées prend désormais en charge le contrôle d’accès au niveau de l’objet pour appliquer des libellés d’accès aux compositions spécifiées.
 
 * **Rôles par défaut**
 
-  Vous pouvez désormais utiliser l’un des rôles par défaut pour gérer les autorisations d’utilisateur pour l’accès à la composition d’audiences fédérées.
+  Vous pouvez désormais utiliser l’un des rôles par défaut afin de gérer les autorisations d’utilisation pour l’accès à la composition d’audiences fédérées.
 
 * **Mises à jour incrémentielles dans les cas d’utilisation d’enrichissement des profils**
 
-  L’activité Enregistrement des profils prend désormais en charge les mises à jour incrémentielles. Grâce aux mises à jour incrémentielles, vous pouvez interroger et mettre à jour des données incrémentielles tout en enrichissant les profils avec des données provenant d’entrepôts de données externes.
+  L’activité Enregistrer les profils prend désormais en charge les mises à jour incrémentielles. Grâce aux mises à jour incrémentielles, vous pouvez interroger et actualiser des données incrémentielles tout en enrichissant les profils avec des données provenant d’entrepôts de données externes.
 
 ## Version d’avril 2025 {#fac-25-4}
 
