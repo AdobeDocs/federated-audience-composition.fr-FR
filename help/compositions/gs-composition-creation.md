@@ -4,7 +4,7 @@ title: Créer des compositions
 description: Découvrir comment créer des compositions
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
 source-git-commit: b73eba776e3e75f3ff7107bcf48f7b2f60048d08
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
 ht-degree: 100%
 
