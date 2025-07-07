@@ -3,9 +3,9 @@ user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
 source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [Utiliser les audiences](start/audiences.md)
    + [Utiliser l’Assistant IA](start/ai-assistant.md)
    + [Questions fréquentes](start/faq.md)
-+ Gouvernance, confidentialité, sécurité {#governance-privacy-security}
++ Gouvernance, confidentialité et sécurité {#governance-privacy-security}
    + [Vue d’ensemble](./governance-privacy-security/home.md)
    + [Contrôle d’accès](governance-privacy-security/access-control.md)
 + Étapes de configuration {#config}

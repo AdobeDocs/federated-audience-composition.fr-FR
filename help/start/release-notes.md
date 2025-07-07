@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1428'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,35 +13,35 @@ ht-degree: 87%
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Version du 25 juin {#fac-25-6}
+## Version de juin 2025 {#fac-25-6}
 
 ### Améliorations {#fac-25-06-improvements}
 
-Les améliorations suivantes ont été apportées à cette version :
+Cette version comprend les améliorations suivantes :
 
-* **Disponibilité générale pour les clients Adobe Healthcare Shield**
+* **Disponibilité générale pour la clientèle Adobe Healthcare Shield**
 
-  La composition de l’audience fédérée sera disponible pour les clients d’Adobe Healthcare Shield pour la création d’audiences, l’enrichissement et l’enrichissement des profils d’ici la fin juin.
+  La composition d’audiences fédérées sera disponible pour la clientèle d’Adobe Healthcare Shield pour la création d’audiences, l’enrichissement et l’enrichissement des profils d’ici la fin juin.
 
-  Vous trouverez plus d’informations sur la confidentialité et la sécurité dans la composition d’audiences fédérées dans le guide [Gouvernance des données, confidentialité et sécurité](/help/governance-privacy-security/home.md).
+  Vous trouverez plus d’informations sur la confidentialité et la sécurité dans la composition d’audiences fédérées dans le [guide de gouvernance des données, de confidentialité et de sécurité](/help/governance-privacy-security/home.md).
 
 * **Contrôle d’accès au niveau de l’objet**
 
-  La composition d’audience fédérée prend désormais en charge le contrôle d’accès au niveau de l’objet pour appliquer des libellés d’accès à vos compositions spécifiées.
+  La composition d’audiences fédérées prend désormais en charge le contrôle d’accès au niveau de l’objet pour appliquer des libellés d’accès aux compositions spécifiées.
 
-  Vous trouverez plus d’informations sur l’utilisation des libellés d’accès au niveau de l’objet dans le guide [compositions](/help/compositions/gs-compositions.md).
+  Vous trouverez plus d’informations sur l’utilisation des libellés d’accès au niveau de l’objet dans le [guide des compositions](/help/compositions/gs-compositions.md).
 
 * **Rôles par défaut**
 
-  Vous pouvez désormais utiliser l’un des rôles par défaut pour gérer les autorisations d’utilisateur pour l’accès à la composition d’audiences fédérées.
+  Vous pouvez désormais utiliser l’un des rôles par défaut afin de gérer les autorisations d’utilisation pour l’accès à la composition d’audiences fédérées.
 
-  Vous trouverez plus d’informations sur les rôles par défaut dans le [guide d’accès à la composition des audiences fédérées](/help/governance-privacy-security/access-control.md).
+  Vous trouverez plus d’informations sur les rôles par défaut dans le [guide d’accès à la composition d’audiences fédérées](/help/governance-privacy-security/access-control.md).
 
 * **Mises à jour incrémentielles dans les cas d’utilisation d’enrichissement des profils**
 
-  L’activité Enregistrement des profils prend désormais en charge les mises à jour incrémentielles. Grâce aux mises à jour incrémentielles, vous pouvez interroger et mettre à jour des données incrémentielles tout en enrichissant les profils avec des données provenant d’entrepôts de données externes.
+  L’activité Enregistrer les profils prend désormais en charge les mises à jour incrémentielles. Grâce aux mises à jour incrémentielles, vous pouvez interroger et actualiser des données incrémentielles tout en enrichissant les profils avec des données provenant d’entrepôts de données externes.
 
-  Vous trouverez plus d’informations sur l’utilisation de l’activité d’enregistrement de profils dans le guide [enregistrer l’activité de profil](/help/compositions/activities/save-profiles.md).
+  Vous trouverez plus d’informations sur l’utilisation de l’activité d’enregistrement des profils dans le [guide de l’activité d’enregistrement des profils](/help/compositions/activities/save-profiles.md).
 
 ## Version de mai 2025 {#fac-25-5}
 

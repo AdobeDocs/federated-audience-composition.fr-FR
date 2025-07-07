@@ -4,9 +4,9 @@ title: Utiliser l’activité Enregistrer l’audience
 description: Découvrir comment utiliser l’activité Enregistrer l’audience
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ L’activité **[!UICONTROL Enregistrer l’audience]** permet de créer une aud
 
 Cette activité est essentiellement utilisée afin de conserver des groupes de population calculés dans la même composition, en les convertissant en audiences réutilisables. Connectez-la à d’autres activités de ciblage telles que **Créer une audience** ou **Combiner**.
 
-L’activité **[!UICONTROL Enregistrer l’audience]** génère un nouveau schéma d’audience et un jeu de données associé, qui peuvent contenir des informations d’identification personnelle (PII) ou des informations de santé protégées (PHI). Une fois l’audience créée, contactez votre administrateur pour vous assurer que les libellés de gouvernance des données appropriés sont appliqués conformément aux politiques de données de votre organisation. Pour plus d’informations sur l’application de libellés d’utilisation des données, consultez le guide d’utilisation [libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/user-guide).
+L’activité **[!UICONTROL Enregistrer l’audience]** génère un schéma d’audience et un jeu de données associé, qui peuvent contenir des données personnelles (PII) ou des informations de santé protégées (PHI). Une fois l’audience créée, contactez votre administrateur ou administratrice pour vous assurer que les libellés de gouvernance des données appropriés sont appliqués conformément aux politiques de données de votre organisation. Pour plus d’informations sur l’application des libellés d’utilisation des données, consultez le [guide d’utilisation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/user-guide).
 
 ## Configurer l’activité Enregistrer l’audience {#save-audience-configuration}
 
@@ -65,7 +65,7 @@ Pour configurer l’activité **Enregistrer l’audience**, procédez comme suit
 
 ## Accéder à votre audience dans Adobe Experience Platform {#access-audience}
 
-Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe et disponible dans Adobe Real-Time CDP et/ou Adobe Journey Optimizer dans Audience Portal. Pour plus d’informations sur Audience Portal, consultez la [présentation d’Audience Portal](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe. Elle est disponible dans Adobe Real-Time CDP et/ou Adobe Journey Optimizer dans le portail des audiences. Pour plus d’informations sur le portail des audiences, consultez la [vue d’ensemble du portail des audiences](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 L’audience créée comprend tous les champs sélectionnés dans la section Mappages d’audiences. Vous pouvez ensuite cibler ces audiences dans Journey Optimizer ou les activer vers n’importe quelle destination prise en charge par Adobe Experience Platform.
 

@@ -4,9 +4,9 @@ title: Commencer avec les modèles de données
 description: Découvrir comment commencer avec les modèles de données
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 98%
 >Pour accéder aux modèles de données, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion du modèle de données fédérées**
->&#x200B;>-**Affichage du modèle de données fédérées**
+>>-**Affichage du modèle de données fédérées**
 >
->Pour plus d’informations sur les autorisations requises, veuillez lire le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
+>Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
 ## Qu’est-ce qu’un modèle de données ? {#data-model-start}
 
