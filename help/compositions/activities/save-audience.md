@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité Enregistrer l’audience
 description: Découvrir comment utiliser l’activité Enregistrer l’audience
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 92%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 100%
 >title="Espace de noms d’identité"
 >abstract="Sélectionnez l’espace de noms à utiliser pour les profils."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces" text="En savoir plus dans la documentation d’Experience Platform"
+
+>[!IMPORTANT]
+>
+>Pour utiliser l’activité de sauvegarde d’audience, votre audience doit utiliser une politique de fusion **horodatage ordonné**. Si votre audience utilise une politique de fusion **priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour continuer.
+>
+>Pour plus d’informations sur les politiques de fusion, consultez la [ présentation des politiques de fusion ](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
 
 L’activité **[!UICONTROL Enregistrer l’audience]** permet de créer une audience à partir de la population calculée en amont dans une composition. Les audiences créées sont ajoutées à la liste des audiences Adobe Experience Platform et sont disponibles via le menu **Audiences**. [Découvrir comment utiliser les audiences](../../start/audiences.md)
 

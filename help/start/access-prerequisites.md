@@ -2,10 +2,10 @@
 title: Conditions préalables et mécanismes de sécurisation pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 87%
 
 ---
 
@@ -56,6 +56,12 @@ Pour accéder à la composition d’audiences fédérées, les personnes doivent
 Pour activer en toute sécurité l’accès de la Composition d’audiences fédérées à vos bases de données, vous devez obtenir les adresses IP des serveurs de Composition d’audiences fédérées qui y accéderont. Ces adresses IP s’affichent lors de l’ajout d’une base de données fédérées dans l’interface d’utilisation d’Adobe Experience Platform. [En savoir plus](../connections/connections.md)
 
 Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la composition d’audiences fédérées.
+
+## Politiques de fusion {#merge-policies}
+
+Pour utiliser la composition d’audiences fédérées afin de générer des audiences, vous **devez** utiliser une politique de fusion **horodatage ordonné**. Si votre audience utilise une politique de fusion **priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour continuer.
+
+Pour plus d’informations sur les politiques de fusion, consultez la [ présentation des politiques de fusion ](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
 
 ## Mécanismes de sécurisation et limitations {#fac-guardrails}
 

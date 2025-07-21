@@ -2,9 +2,9 @@
 user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
-source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
-workflow-type: ht
-source-wordcount: '163'
+source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
+workflow-type: tm+mt
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [Liste des activités](compositions/activities/about-activities.md)
       + [Rendez-vous](compositions/activities/and-join.md)
       + [Créer une audience](compositions/activities/build-audience.md)
+      + [Modifier la source de données](compositions/activities/change-data-source.md)
       + [Changement de dimension](compositions/activities/change-dimension.md)
       + [Combiner](compositions/activities/combine.md)
       + [Déduplication](compositions/activities/deduplication.md)
@@ -57,6 +58,6 @@ ht-degree: 100%
 + Interrogation de la base de données {#query-database}
    + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
-   + [Éditer les expressions](query/expression-editor.md)
+   + [Modifier les expressions](query/expression-editor.md)
 + [Journal d’audit](admin/audit-trail.md)
 
