@@ -2,10 +2,10 @@
 title: Adobe Experience Platform - Page d’accueil de la documentation sur la composition d’audiences fédérées
 description: Documentation sur la composition d’audiences fédérées
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 77%
 
 ---
 
@@ -53,22 +53,28 @@ Ajoutez et configurez des activités (partage, enrichissement, requête, etc.) p
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Composer une audience</strong><br/>Ajoutez et configurez des activités (partage, enrichissement, requête, etc.) pour créer des compositions et votre première audience fédérée.
+    <div><strong>Composer une audience</strong><br/>Ajouter et configurer des activités (telles que Partage, Enrichissement ou Requête) pour créer des compositions et créer votre première audience fédérée.
+    </div>
+    </td>
+    <td>
+    <a href="start/get-started.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
+    <div><strong>Cas d’utilisation</strong><br/>utilisez la composition d’audiences fédérées pour créer et enrichir les audiences ainsi que les données de profil.
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>Questions fréquentes</strong><br/>Questions fréquentes sur la composition d’audiences fédérées.</div>
+    <div><strong>FAQ</strong><br/>Questions fréquentes sur la composition d’audiences fédérées.</div>
     </td>
   </tr>
   <tr style="border: 0;">
     <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/get-started.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
 ## Ressources supplémentaires  {#additional-resources}
 
-[Documentation Real-Time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} - [Documentation sur le portail d’audience Adobe](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutoriels](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Documentation Real-Time Customer Data Platform ](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} - [Documentation Adobe Audience Portal ](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutoriels](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}

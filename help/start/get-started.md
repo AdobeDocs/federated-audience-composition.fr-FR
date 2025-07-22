@@ -2,10 +2,10 @@
 title: Commencer avec la composition d’audiences fédérées Experience Platform
 description: Découvrir ce qu’est la composition d’audiences fédérées Adobe et comment l’utiliser dans Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 100%
+source-wordcount: '1236'
+ht-degree: 76%
 
 ---
 
@@ -33,19 +33,22 @@ La composition d’audiences fédérées étend la valeur de Real-Time CDP et J
 
 * Les clientes et clients CDP B2C et B2B peuvent désormais tirer parti de la composition d’audiences fédérées pour créer des audiences basées sur les personnes en intégrant des données provenant d’entrepôts de données d’entreprise pris en charge. En outre, ils peuvent enrichir les audiences basées sur les personnes existantes d’AEP en incorporant les attributs pertinents disponibles dans l’entrepôt de données d’entreprise, ce qui améliore leurs profils d’audience pour un engagement plus personnalisé et ciblé.
 
-## Cas d’utilisation {#rn-uc}
+## Cas d’utilisation {#use-cases}
 
-Dans une interface d’utilisation conviviale pour le marketing, créez des règles de segmentation qui recherchent dans votre entrepôt de données une liste de personnes qualifiées pour un segment spécifique nécessaire aux campagnes marketing, accédez aux audiences existantes de l’entrepôt pour activation ou enrichissez les audiences Adobe Experience Platform avec des points de données supplémentaires qui existent dans l’entrepôt.
+La composition de l’audience fédérée prend en charge **trois catégories** cas d’utilisation : création d’audience, enrichissement d’audience et enrichissement du profil client.
 
-Dans cette version, deux cas pratiques sont disponibles :
+* Création d’audiences : vous pouvez créer des audiences à partir d’un entrepôt de données et fédérer ces audiences dans Experience Platform pour les utiliser dans Real-Time CDP ou Journey Optimizer par le biais d’une interface utilisateur conviviale de type glisser-déposer destinée aux spécialistes du marketing. Par conséquent, vous pouvez interroger vos entrepôts de données sans copier de données sous-jacentes sensibles ni dupliquer des données existantes.
+   * **Exemple :** créez une audience d’anciens acheteurs à forte valeur ajoutée à l’aide de données de transaction historiques dans l’entrepôt, sans copier ces transactions dans Experience Platform.
 
-1. Création d’audiences : créez des audiences à partir de jeux de données d’entreprise sans copier de données sous-jacentes et activez ces audiences avec des destinations prédéfinies.
+* Enrichissement de l’audience : vous pouvez ajouter plus de détails à vos audiences existantes dans Experience Platform en utilisant des jeux de données supplémentaires provenant de vos entrepôts de données et en superposant vos audiences avec ces informations, le tout sans copier les données sous-jacentes dans Experience Platform. Grâce à l’enrichissement de l’audience, vous pouvez offrir une personnalisation améliorée avec l’audience enrichie.
+   * **Exemple :** enrichissez une audience Experience Platform d’abandons de panier avec l’audience Composition d’audience fédérée d’anciens acheteurs à forte valeur ajoutée pour diffuser une offre ciblée.
 
-1. Enrichissement de l’audience : enrichissez les audiences existantes dans Adobe Experience Platform en utilisant les données d’audience composée qui ont été fédérées à partir de l’entrepôt de données d’entreprise. Ces données ne seront pas conservées dans les profils client Adobe Experience Platform.
-
-1. Enrichissement des profils : enrichissez les profils Adobe Experience Platform en fédérant les données d’entrepôts externes, ce qui vous permet d’améliorer les profils clientèle avec des attributs et des informations supplémentaires.
+* Enrichissement du profil : vous pouvez sélectionner des attributs de client individuels dans votre entrepôt de données pour améliorer les profils Experience Platform. Grâce aux données fédérées ajoutées à ces profils, vous pouvez améliorer l’alimentation des expériences sur le moment qui sont déclenchées par les signaux clients entrants.
+   * **Exemple :** enrichissez un profil Experience Platform avec les informations de l&#39;audience fédérée. Vous pouvez désormais commercialiser auprès d’un visiteur du site qui appartient à l’audience fédérée des acheteurs précédents à forte valeur ajoutée une offre ciblée déclenchée par son comportement sur le site.
 
 ![Diagramme](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+
+Pour plus d’informations sur les cas d’utilisation de la composition d’audiences fédérées, consultez l’article technique [ Composition d’audiences fédérées](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Principales étapes {#gs-steps}
 
@@ -65,7 +68,7 @@ Principales étapes :
 
 >[!NOTE]
 >
->Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe. Elle est disponible dans la plateforme de données de la clientèle en temps réel d’Adobe et/ou Adobe Journey Optimizer. Elle est rendue accessible dans le menu **Audiences**. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Après l’exécution de la composition, l’audience obtenue est enregistrée dans Adobe Experience Platform en tant qu’audience externe et disponible dans Adobe Real-Time Customer Data Platform et/ou Adobe Journey Optimizer. Elle est rendue accessible dans le menu **Audiences**. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Gouvernance, confidentialité et sécurité {#governance-privacy-security}
 
