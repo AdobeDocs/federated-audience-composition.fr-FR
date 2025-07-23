@@ -2,10 +2,10 @@
 title: Conditions préalables et mécanismes de sécurisation pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 87%
+source-wordcount: '360'
+ht-degree: 90%
 
 ---
 
@@ -59,7 +59,7 @@ Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la
 
 ## Politiques de fusion {#merge-policies}
 
-Pour utiliser la composition d’audiences fédérées afin de générer des audiences, vous **devez** utiliser une politique de fusion **horodatage ordonné**. Si votre audience utilise une politique de fusion **priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour continuer.
+Si votre audience utilise une politique de fusion **priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour ajouter le jeu de données `Halos UPS` à votre politique de fusion.
 
 Pour plus d’informations sur les politiques de fusion, consultez la [ présentation des politiques de fusion ](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
 
