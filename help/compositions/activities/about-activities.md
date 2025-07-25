@@ -4,15 +4,15 @@ title: Utiliser les activités
 description: Découvrir comment utiliser les activités
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
 source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Utiliser les activités {#activities}
 
-Dans la composition d’audiences fédérées, vous pouvez créer des compositions à l’aide de deux types d’activités :
+Dans la Composition d’audiences fédérées, vous pouvez créer des compositions à l’aide de deux types d’activités :
 
 * Les **activités de ciblage** vous permettent de construire une ou plusieurs cibles en définissant une audience, puis en partageant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
 * Les activités de **contrôle de flux** sont spécifiques à l’organisation et à l’exécution des compositions. Leur principale tâche est de coordonner les autres activités.
@@ -20,7 +20,7 @@ Dans la composition d’audiences fédérées, vous pouvez créer des compositio
 ## Activités de ciblage
 
 * [Créer une activité d’audience](build-audience.md) : définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
-* [Modifier la source de données](./change-data-source.md) : modifiez la source de données utilisée par votre composition.
+* [Modifier la source de données](./change-data-source.md) : modifiez la source de données utilisée par votre composition.
 * [Changement de dimension](change-dimension.md) : modifiez le schéma, ou dimension de ciblage, au fur et à mesure que vous créez votre composition.
 * [Combiner](combine.md) : effectuez une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
 * [Déduplication](deduplication.md) : supprimez les doublons dans le ou les résultats des activités entrantes.
