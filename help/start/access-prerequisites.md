@@ -5,7 +5,7 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -55,13 +55,13 @@ Pour accéder à la composition d’audiences fédérées, les personnes doivent
 
 Pour activer en toute sécurité l’accès de la Composition d’audiences fédérées à vos bases de données, vous devez obtenir les adresses IP des serveurs de Composition d’audiences fédérées qui y accéderont. Ces adresses IP s’affichent lors de l’ajout d’une base de données fédérées dans l’interface d’utilisation d’Adobe Experience Platform. [En savoir plus](../connections/connections.md)
 
-Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la composition d’audiences fédérées.
+Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la Composition d’audiences fédérées.
 
 ## Politiques de fusion {#merge-policies}
 
 Si votre audience utilise une politique de fusion **priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour ajouter le jeu de données `Halos UPS` à votre politique de fusion.
 
-Pour plus d’informations sur les politiques de fusion, consultez la [ présentation des politiques de fusion ](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
+Pour plus d’informations sur les politiques de fusion, consultez la [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
 
 ## Mécanismes de sécurisation et limitations {#fac-guardrails}
 
