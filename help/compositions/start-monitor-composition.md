@@ -3,7 +3,7 @@ audience: end-user
 title: Créer des compositions
 description: Découvrir comment créer des compositions
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 86%
@@ -95,3 +95,4 @@ Les actions disponibles sont les suivantes :
 * **[!UICONTROL Arrêter]** une composition en cours d’exécution, qui adopte alors le statut **[!UICONTROL Terminé]**. Les opérations en cours sont interrompues si possible. Il n’est pas possible de reprendre à l’endroit où la composition s’est arrêtée.
 
 * **[!UICONTROL Redémarrer]** : arrête puis redémarre une composition. Dans la plupart des cas, cela permet de redémarrer plus rapidement, car l’arrêt prend un certain temps et le bouton **[!UICONTROL Démarrer]** n’est disponible que lorsque l’arrêt est effectif.
+
