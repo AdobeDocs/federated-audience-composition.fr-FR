@@ -3,8 +3,8 @@ audience: end-user
 title: Commencer avec les schémas
 description: Découvrir comment commencer avec les schémas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Pour créer des schémas dans la composition d’audiences fédérées, procéde
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   Cette étape permet d’accéder à un nouvel écran avec une liste déroulante où se trouvent les bases de données connectées à votre environnement. En savoir plus sur la connexion de bases de données dans [cette section](../connections/connections.md#connections-fdb).
+   Cette étape permet d’accéder à un nouvel écran avec une liste déroulante où se trouvent les bases de données connectées à votre environnement. En savoir plus sur la connexion de bases de données dans [cette section](../connections/home.md#connections-fdb).
 
 1. Sélectionnez votre base de données source dans la liste et cliquez sur **[!UICONTROL Suivant]**.
 
@@ -87,7 +87,7 @@ Pour créer des schémas dans la composition d’audiences fédérées, procéde
 
    * Modifier le libellé du schéma
    * Ajouter une description
-   * Renommer tous les champs et définir leur visibilité
+   * Renommer tous les libellés de champ et définir leur visibilité
    * Sélectionner la clé primaire du schéma
 
    Le schéma peut être défini comme suit :

@@ -4,7 +4,7 @@ description: Dernières mises à jour et notes de mise à jour
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 95%
@@ -73,7 +73,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * **Connexion sécurisée à Snowflake**
 
-  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Amazon Redshift hébergées sur Microsoft Azure. [En savoir plus](../connections/federated-db.md#amazon-redshift)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Amazon Redshift hébergées sur Microsoft Azure. [En savoir plus](../connections/home.md#amazon-redshift)
 
 ## Version de mars 2025 {#fac-25-3}
 
@@ -105,7 +105,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * **Connexion à Databricks**
 
   Avec cette nouvelle version, la composition d’audiences fédérées prend désormais en charge la connectivité de lien privé pour les connexions à la base de données Databricks.
-Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via un lien privé et aux bases de données Databricks hébergées sur Microsoft Azure via un VPN. [En savoir plus](../connections/federated-db.md#databricks)
+Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via un lien privé et aux bases de données Databricks hébergées sur Microsoft Azure via un VPN. [En savoir plus](../connections/home.md#databricks)
 
 * **Prise en charge des clientes et clients B2B CDP**
 
@@ -113,7 +113,7 @@ Cela inclut des connexions sécurisées aux bases de données Databricks héberg
 
 * **Connexion sécurisée à Snowflake**
 
-  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Snowflake hébergées sur Microsoft Azure. [En savoir plus](../connections/federated-db.md#snowflake)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Snowflake hébergées sur Microsoft Azure. [En savoir plus](../connections/home.md#snowflake)
 
 ## Version de février 2025 {#fac-25-2}
 
@@ -121,11 +121,11 @@ Cette version est fournie avec les modifications répertoriées ci-dessous.
 
 * **Prise en charge de Microsoft Fabric**
 
-  Vous pouvez désormais établir des connexions à des bases de données Microsoft Fabric par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/federated-db.md)
+  Vous pouvez désormais établir des connexions à des bases de données Microsoft Fabric par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/home.md)
 
 * **Prise en charge d’Amazon Redshift Spectrum**
 
-  Amazon Redshift Spectrum est désormais pris en charge pour les connexions Amazon Redshift Database. [En savoir plus](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum est désormais pris en charge pour les connexions Amazon Redshift Database. [En savoir plus](../connections/home.md#amazon-redshift)
 
 * **Expérience améliorée de création de schéma**
 
@@ -143,7 +143,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * **Liste autorisée d’adresses IP**
 
-  Lors de l’ajout d’une base de données fédérée dans l’interface d’utilisation d’Adobe Experience Platform, vous pouvez désormais afficher directement les adresses IP associées à vos instances de composition d’audiences fédérées. Vous pouvez ainsi facilement copier et autoriser ces adresses IP pour vous connecter à votre base de données afin d’améliorer la sécurité et la flexibilité. [En savoir plus](../connections/connections.md)
+  Lors de l’ajout d’une base de données fédérée dans l’interface d’utilisation d’Adobe Experience Platform, vous pouvez désormais afficher directement les adresses IP associées à vos instances de composition d’audiences fédérées. Vous pouvez ainsi facilement copier et autoriser ces adresses IP pour vous connecter à votre base de données afin d’améliorer la sécurité et la flexibilité. [En savoir plus](../connections/home.md)
 
 ## Version d’octobre 2024 {#fac-24-10}
 
@@ -158,11 +158,11 @@ Avec cette nouvelle version, la composition d’audiences fédérées est désor
 
 * **Prise en charge de Databricks**
 
-  Vous pouvez désormais établir des connexions à des bases de données Databricks par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/federated-db.md#databricks)
+  Vous pouvez désormais établir des connexions à des bases de données Databricks par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/home.md#databricks)
 
 * **Prise en charge de l’accès sécurisé à Snowflake via AWS PrivateLink**
 
-  L’accès sécurisé à votre entrepôt de données Snowflake externe par le biais d’un lien privé est désormais pris en charge. Notez que votre compte Snowflake doit être hébergé sur Amazon Web Services (AWS) et situé dans la même région que votre environnement de composition d’audiences fédérées. Veuillez contacter votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé à votre compte Snowflake. [En savoir plus](../connections/federated-db.md#snowflake)
+  L’accès sécurisé à votre entrepôt de données Snowflake externe par le biais d’un lien privé est désormais pris en charge. Notez que votre compte Snowflake doit être hébergé sur Amazon Web Services (AWS) et situé dans la même région que votre environnement de composition d’audiences fédérées. Veuillez contacter votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé à votre compte Snowflake. [En savoir plus](../connections/home.md#snowflake)
 
 * **Prise en charge d’Amazon Redshift sans serveur**
 

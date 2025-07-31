@@ -2,16 +2,63 @@
 title: Nouveautés de la composition d’audiences fédérées Experience Platform
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: ht
-source-wordcount: '1428'
-ht-degree: 100%
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
+source-wordcount: '1542'
+ht-degree: 92%
 
 ---
 
 # Notes de mise à jour {#rn-new}
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+## Version du 25 juillet {#fac-25-7}
+
+### Nouvelles fonctionnalités {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Nouveau connecteur - Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le connecteur Oracle est désormais disponible pour une utilisation avec la composition d’audiences fédérées.</p>
+<p>Vous pouvez utiliser le connecteur Oracle pour les cas d’utilisation de création et d’enrichissement d’audiences.</p>
+<p>Pour plus d’informations sur la connexion Oracle, consultez la <a href="../connections/home.md#create">présentation des connexions</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Alertes de composition</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais vous abonner à des alertes pour en savoir plus sur les exécutions réussies et en échec de votre composition</p>
+<p>Pour plus d’informations sur l’abonnement aux notifications des exécutions de votre composition, veuillez lire le guide <a href="../compositions/start-monitor-composition.md#alerts">démarrer et surveiller votre composition</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations {#fac-25-07-improvements}
+
+Cette version s’accompagne des améliorations suivantes :
+
+* **Augmentation de la longueur des caractères du serveur**
+
+  Lors de la configuration de vos bases de données fédérées, vous pouvez désormais utiliser jusqu’à 255 caractères, au lieu des 80 caractères précédents.
 
 ## Version de juin 2025 {#fac-25-6}
 
@@ -157,11 +204,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * **Connexion sécurisée Amazon Redshift**
 
-  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées aux bases de données Amazon Redshift. [En savoir plus](../connections/federated-db.md#amazon-redshift)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées aux bases de données Amazon Redshift. [En savoir plus](../connections/home.md#amazon-redshift)
 
 * **Google BigQuery**
 
-  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions VPN sécurisées aux bases de données Google BigQuery. [En savoir plus](../connections/federated-db.md#google-bigquery)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions VPN sécurisées aux bases de données Google BigQuery. [En savoir plus](../connections/home.md#google-bigquery)
 
 ## Version de mars 2025 {#fac-25-3}
 
@@ -177,23 +224,12 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
   Pour savoir comment attribuer cette autorisation, consultez la [documentation détaillée](/help/governance-privacy-security/access-control.md).
 
-<!--
-* **Data model Canvas view**
-
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
-
-* **AI Assistant**
-
-    AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
--->
-
-
 ### Compatibilité {#fac-25-3-compat}
 
 * **Connexion à Databricks**
 
   Avec cette nouvelle version, la composition d’audiences fédérées prend désormais en charge la connectivité de lien privé pour les connexions à la base de données Databricks.
-Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via un lien privé et aux bases de données Databricks hébergées sur Microsoft Azure via un VPN. [En savoir plus](../connections/federated-db.md#databricks)
+Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via un lien privé et aux bases de données Databricks hébergées sur Microsoft Azure via un VPN. [En savoir plus](../connections/home.md#databricks)
 
 * **Prise en charge des clientes et clients B2B CDP**
 
@@ -201,7 +237,7 @@ Cela inclut des connexions sécurisées aux bases de données Databricks héberg
 
 * **Connexion sécurisée à Snowflake**
 
-  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Snowflake hébergées sur Microsoft Azure. [En savoir plus](../connections/federated-db.md#snowflake)
+  Avec cette nouvelle version, la composition d’audiences fédérées prend en charge les connexions de liens privées sécurisées vers des bases de données Snowflake hébergées sur Microsoft Azure. [En savoir plus](../connections/home.md#snowflake)
 
 ## Version de février 2025 {#fac-25-2}
 
@@ -209,11 +245,11 @@ Cette version est fournie avec les modifications répertoriées ci-dessous.
 
 * **Prise en charge de Microsoft Fabric**
 
-  Vous pouvez désormais établir des connexions à des bases de données Microsoft Fabric par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/federated-db.md)
+  Vous pouvez désormais établir des connexions à des bases de données Microsoft Fabric par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/home.md)
 
 * **Prise en charge d’Amazon Redshift Spectrum**
 
-  Amazon Redshift Spectrum est désormais pris en charge pour les connexions Amazon Redshift Database. [En savoir plus](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum est désormais pris en charge pour les connexions Amazon Redshift Database. [En savoir plus](../connections/home.md#amazon-redshift)
 
 * **Expérience améliorée de création de schéma**
 
@@ -231,7 +267,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * **Liste autorisée d’adresses IP**
 
-  Lors de l’ajout d’une base de données fédérée dans l’interface d’utilisation d’Adobe Experience Platform, vous pouvez désormais afficher directement les adresses IP associées à vos instances de composition d’audiences fédérées. Vous pouvez ainsi facilement copier et autoriser ces adresses IP pour vous connecter à votre base de données afin d’améliorer la sécurité et la flexibilité. [En savoir plus](../connections/connections.md)
+  Lors de l’ajout d’une base de données fédérée dans l’interface d’utilisation d’Adobe Experience Platform, vous pouvez désormais afficher directement les adresses IP associées à vos instances de composition d’audiences fédérées. Vous pouvez ainsi facilement copier et autoriser ces adresses IP pour vous connecter à votre base de données afin d’améliorer la sécurité et la flexibilité. [En savoir plus](../connections/home.md)
 
 ## Version d’octobre 2024 {#fac-24-10}
 
@@ -246,11 +282,11 @@ Avec cette nouvelle version, la composition d’audiences fédérées est désor
 
 * **Prise en charge de Databricks**
 
-  Vous pouvez désormais établir des connexions à des bases de données Databricks par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/federated-db.md#databricks)
+  Vous pouvez désormais établir des connexions à des bases de données Databricks par le biais de la composition d’audiences fédérées. [En savoir plus](../connections/home.md#databricks)
 
 * **Prise en charge de l’accès sécurisé à Snowflake via AWS PrivateLink**
 
-  L’accès sécurisé à votre entrepôt de données Snowflake externe par le biais d’un lien privé est désormais pris en charge. Notez que votre compte Snowflake doit être hébergé sur Amazon Web Services (AWS) et situé dans la même région que votre environnement de composition d’audiences fédérées. Veuillez contacter votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé à votre compte Snowflake. [En savoir plus](../connections/federated-db.md#snowflake)
+  L’accès sécurisé à votre entrepôt de données Snowflake externe par le biais d’un lien privé est désormais pris en charge. Notez que votre compte Snowflake doit être hébergé sur Amazon Web Services (AWS) et situé dans la même région que votre environnement de composition d’audiences fédérées. Veuillez contacter votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé à votre compte Snowflake. [En savoir plus](../connections/home.md#snowflake)
 
 * **Prise en charge d’Amazon Redshift sans serveur**
 

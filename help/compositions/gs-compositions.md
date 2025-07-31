@@ -3,8 +3,8 @@ audience: end-user
 title: Commencer avec les compositions
 description: Découvrir comment démarrer avec les compositions
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -48,23 +48,23 @@ Vous pouvez également afficher des informations sur les compositions, notamment
 
 Vous pouvez apprendre à démarrer ou arrêter une composition dans le [guide de démarrage et de surveillance de la composition](./start-monitor-composition.md).
 
-![Une liste des compositions disponibles s’affiche.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![Une liste des compositions disponibles s’affiche.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 Pour affiner la liste et trouver la composition que vous recherchez, vous pouvez rechercher la liste et filtrer les compositions selon leur statut ou leur date de dernier traitement.
 
 Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des colonnes. Pour ce faire, sélectionnez le bouton **[!UICONTROL Configurer les colonnes]** et ajoutez ou supprimez les colonnes de sortie souhaitées.
 
-![Une liste des colonnes disponibles que vous pouvez ajouter à la page de navigation des compositions s’affiche.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![Une liste des colonnes disponibles que vous pouvez ajouter à la page de navigation des compositions s’affiche.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Appliquer les libellés d’accès {#access-labels}
 
 Pour appliquer des libellés d’accès à une composition spécifique, sélectionnez la composition, puis **[!UICONTROL Gérer l’accès]**.
 
-![Le bouton « Gérer l’accès » est mis en surbrillance dans la zone de travail de la composition.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![Le bouton « Gérer l’accès » est mis en surbrillance dans la zone de travail de la composition.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 La fenêtre contextuelle **[!UICONTROL Gérer l’accès]** s’affiche. Sur cette page, vous pouvez appliquer les libellés d’accès et de gouvernance des données applicables à votre composition.
 
-![La fenêtre contextuelle Gérer l’accès s’affiche. Vous voyez ici une liste de tous les libellés disponibles que vous pouvez appliquer à la composition.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![La fenêtre contextuelle Gérer l’accès s’affiche. Vous voyez ici une liste de tous les libellés disponibles que vous pouvez appliquer à la composition.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Type de libellé | Description |
 | ---------- | ----------- |

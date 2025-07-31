@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des compositions
 description: Découvrir comment créer des compositions
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '633'
-ht-degree: 100%
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 86%
 
 ---
 
@@ -61,6 +61,22 @@ L’historique est organisé en plusieurs onglets, présentés ci-dessous :
 ![](assets/logs-tasks.png)
 
 Dans tous les deux onglets, vous pouvez choisir les colonnes à afficher et leur ordre, appliquer des filtres et trouver rapidement des informations à l’aide du champ de recherche.
+
+## S’abonner aux alertes {#alerts}
+
+De plus, vous pouvez vous abonner à des alertes pour recevoir des notifications si les exécutions de vos compositions fédérées ont réussi ou échoué.
+
+Pour vous abonner à des alertes, sélectionnez l’icône ![notification](/help/assets/icons/bell.png), puis l’icône ![paramètres](/help/assets/icons/settings.png).
+
+![Les icônes de notification et de paramètres sont mises en surbrillance.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+La page des paramètres des notifications s’affiche. Sur cette page, sélectionnez **[!UICONTROL Experience Platform]** et choisissez les canaux d’alertes de votre choix. Pour afficher les notifications dans l’interface utilisateur, sélectionnez **[!UICONTROL In-app]**.
+
+![La case à cocher in-app est sélectionnée dans la section Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+Lorsque **[!UICONTROL in-app]** est sélectionné, vous êtes maintenant averti des succès et des échecs d’exécution de la composition.
+
+![Les alertes s’affichent, indiquant les succès et les échecs de la composition.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Commandes d’exécution de la composition {#execution-commands}
 

@@ -3,8 +3,8 @@ audience: end-user
 title: Journal d’audit
 description: Découvrez comment les actions et les événements sont consignés et accessibles dans le journal d’audit.
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en 
 
 * Le **Compte externe** permet de vérifier les modifications apportées aux comptes externes dans l’instance Composition d’audiences Adobe.
 
-  Pour plus d’informations sur les comptes externes, consultez cette [page](../connections/federated-db.md).
+  Pour plus d’informations sur les comptes externes, consultez cette [page](../connections/home.md).
 
 +++
 

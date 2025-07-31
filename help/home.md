@@ -2,8 +2,8 @@
 title: Adobe Experience Platform - Page d’accueil de la documentation sur la composition d’audiences fédérées
 description: Documentation sur la composition d’audiences fédérées
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ La composition d’audiences fédérées permet de créer, affiner et enrichir d
 
 Créez, configurez, testez et enregistrez la connexion à votre base de données externe.
 
-[![Image](assets/learn-more-button.svg)](connections/federated-db.md)
+[![Image](assets/learn-more-button.svg)](connections/home.md)
 
 >[!TAB Composer une audience]
 

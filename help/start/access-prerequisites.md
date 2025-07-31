@@ -2,7 +2,7 @@
 title: Conditions préalables et mécanismes de sécurisation pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 93%
@@ -29,7 +29,7 @@ La composition d’audiences fédérées prend en charge les entrepôts cloud su
 * Vertica Analytics
 * Microsoft Fabric
 
-Découvrez comment créer une connexion à ces systèmes sur [cette page](../connections/connections.md).
+Découvrez comment créer une connexion à ces systèmes sur [cette page](../connections/home.md).
 
 ## Sandbox
 
@@ -53,13 +53,13 @@ Pour accéder à la composition d’audiences fédérées, les personnes doivent
 
 ## Listes autorisées des adresses IP {#ip}
 
-Pour activer en toute sécurité l’accès de la Composition d’audiences fédérées à vos bases de données, vous devez obtenir les adresses IP des serveurs de Composition d’audiences fédérées qui y accéderont. Ces adresses IP s’affichent lors de l’ajout d’une base de données fédérées dans l’interface d’utilisation d’Adobe Experience Platform. [En savoir plus](../connections/connections.md)
+Pour activer en toute sécurité l’accès de la Composition d’audiences fédérées à vos bases de données, vous devez obtenir les adresses IP des serveurs de Composition d’audiences fédérées qui y accéderont. Ces adresses IP s’affichent lors de l’ajout d’une base de données fédérées dans l’interface d’utilisation d’Adobe Experience Platform. [En savoir plus](../connections/home.md)
 
 Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la Composition d’audiences fédérées.
 
 ## Politiques de fusion {#merge-policies}
 
-Si votre audience utilise une politique de fusion **priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour ajouter le jeu de données `Halos UPS` à votre politique de fusion.
+Si votre sandbox utilise une stratégie de fusion **priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour ajouter le jeu de données `Halos UPS` à votre stratégie de fusion.
 
 Pour plus d’informations sur les politiques de fusion, consultez la [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
 
