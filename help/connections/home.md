@@ -17,7 +17,7 @@ ht-degree: 13%
 >Pour accéder aux connexions, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion de la base de données fédérées**
->>-**Affichage de la base de données fédérées**
+>&#x200B;>-**Affichage de la base de données fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
@@ -111,9 +111,9 @@ Après avoir sélectionné Google BigQuery, vous pouvez ajouter les détails sui
 
 | Champ | Description |
 | ----- | ----------- |
-| Compte de service | Adresse e-mail de votre compte de service. Pour plus d’informations, consultez la documentation du compte de service cloud Google [](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
-| Projet | Identifiant de votre projet. Pour plus d’informations, veuillez lire la documentation du projet Google Cloud [](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
-| Jeu de données | Nom du jeu de données. Pour plus d’informations, veuillez lire la documentation du jeu de données cloud Google [](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
+| Compte de service | Adresse e-mail de votre compte de service. Pour plus d’informations, consultez la documentation du compte de service cloud Google [&#128279;](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
+| Projet | Identifiant de votre projet. Pour plus d’informations, veuillez lire la documentation du projet Google Cloud [&#128279;](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
+| Jeu de données | Nom du jeu de données. Pour plus d’informations, veuillez lire la documentation du jeu de données cloud Google [&#128279;](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Chemin d&#39;accès au fichier de clé | Fichier de clé sur le serveur. Seuls les fichiers `json` sont pris en charge. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
@@ -210,7 +210,7 @@ Pour Vertica Analytics, vous pouvez définir les options supplémentaires suivan
 
 | Options | Description |
 | ------- | ----------- |
-| NomFuseauHoraire | Nom du fuseau horaire à utiliser. Cette valeur représente le paramètre de session `TIMEZONE`. Pour plus d’informations sur les fuseaux horaires, consultez la documentation de Vertica Analytics sur les fuseaux horaires [](https://docs.vertica.com/24.1.x/en/admin/configuring-db/config-procedure/using-time-zones-with/){target="_blank"} |
+| NomFuseauHoraire | Nom du fuseau horaire à utiliser. Cette valeur représente le paramètre de session `TIMEZONE`. Pour plus d’informations sur les fuseaux horaires, consultez la documentation de Vertica Analytics sur les fuseaux horaires [&#128279;](https://docs.vertica.com/24.1.x/en/admin/configuring-db/config-procedure/using-time-zones-with/){target="_blank"} |
 
 >[!ENDTABS]
 
