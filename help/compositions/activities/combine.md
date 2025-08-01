@@ -4,7 +4,7 @@ title: Utiliser l’activité Combiner
 description: Découvrir comment utiliser l’activité Combiner
 exl-id: 395e96d1-0af2-4e59-b599-f57a083b68ca
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
 >title="Options de réconciliation des interactions"
->abstract="Sélectionnez le type de réconciliation pour définir la manière dont les duplicatas sont traités :"
+>abstract="Sélectionnez le type de réconciliation pour définir la manière dont les doublons sont traités :"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_reconciliation"
@@ -79,7 +79,7 @@ Dans l’activité **Combiner**, vous pouvez configurer une **intersection**.
 
 Pour cela, suivez les étapes supplémentaires ci-dessous :
 
-1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
+1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les doublons sont traités. Pour plus d’informations, consultez la section [Union](#union).
 1. Cochez l’option **Générer le complément** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
 
 ## Exclusion {#combine-exclusion}
