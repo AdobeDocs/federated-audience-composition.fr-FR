@@ -3,9 +3,9 @@ title: Conditions préalables et mécanismes de sécurisation pour la compositio
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la
 
 ## Politiques de fusion {#merge-policies}
 
-Si votre sandbox utilise une stratégie de fusion **priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour ajouter le jeu de données `Halos UPS` à votre stratégie de fusion.
+Si votre sandbox utilise une politique de fusion **Priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour ajouter le jeu de données `Halos UPS` à votre politique de fusion.
 
 Pour plus d’informations sur les politiques de fusion, consultez la [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
 

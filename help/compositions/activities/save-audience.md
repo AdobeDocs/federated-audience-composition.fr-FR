@@ -4,9 +4,9 @@ title: Utiliser l’activité Enregistrer l’audience
 description: Découvrir comment utiliser l’activité Enregistrer l’audience
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Si votre sandbox utilise une stratégie de fusion **priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour ajouter le jeu de données `Halos UPS` à votre stratégie de fusion.
+>Si votre sandbox utilise une politique de fusion **Priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour ajouter le jeu de données `Halos UPS` à votre politique de fusion.
 >
 >Pour plus d’informations sur les politiques de fusion, consultez la [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
 

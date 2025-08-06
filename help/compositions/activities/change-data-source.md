@@ -4,9 +4,9 @@ title: Activité Modifier la source de données
 description: Découvrez comment utiliser l’activité Modifier la source de données pour modifier la source de données utilisée par votre composition, ce qui offre plus de flexibilité dans la gestion des données au sein d’une composition.
 exl-id: 8f8e627a-fef9-42b8-a42a-bfa1c421b202
 source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

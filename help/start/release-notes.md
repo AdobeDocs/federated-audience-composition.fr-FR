@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +13,22 @@ ht-degree: 92%
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Version du 25 juillet {#fac-25-7}
+## Version de juillet 2025 {#fac-25-7}
 
 ### Nouvelles fonctionnalités {#fac-25-07-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>Nouveau connecteur - Oracle</strong><br/></th>
+<th><strong>Nouveau connecteur : Oracle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le connecteur Oracle est désormais disponible pour une utilisation avec la composition d’audiences fédérées.</p>
+<p>Le connecteur Oracle est désormais disponible pour utilisation avec la composition d’audiences fédérées.</p>
 <p>Vous pouvez utiliser le connecteur Oracle pour les cas d’utilisation de création et d’enrichissement d’audiences.</p>
-<p>Pour plus d’informations sur la connexion Oracle, consultez la <a href="../connections/home.md#create">présentation des connexions</a>.</p>
+<p>Pour plus d’informations sur la connexion Oracle, consultez la <a href="../connections/home.md#create">vue d’ensemble des connexions</a>.</p>
 </br>
 </td>
 </tr>
@@ -44,8 +44,8 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais vous abonner à des alertes pour en savoir plus sur les exécutions réussies et en échec de votre composition</p>
-<p>Pour plus d’informations sur l’abonnement aux notifications des exécutions de votre composition, veuillez lire le guide <a href="../compositions/start-monitor-composition.md#alerts">démarrer et surveiller votre composition</a>.</p>
+<p>Vous pouvez désormais vous abonner à des alertes pour en savoir plus sur les exécutions réussies et en échec de votre composition.</p>
+<p>Pour plus d’informations sur l’abonnement aux notifications des exécutions de votre composition, consultez le <a href="../compositions/start-monitor-composition.md#alerts">guide de démarrage et de surveillance de votre composition</a>.</p>
 </br>
 </td>
 </tr>
@@ -54,11 +54,11 @@ ht-degree: 92%
 
 ### Améliorations {#fac-25-07-improvements}
 
-Cette version s’accompagne des améliorations suivantes :
+Cette version comprend l’amélioration suivante :
 
 * **Augmentation de la longueur des caractères du serveur**
 
-  Lors de la configuration de vos bases de données fédérées, vous pouvez désormais utiliser jusqu’à 255 caractères, au lieu des 80 caractères précédents.
+  Lors de la configuration de vos bases de données fédérées, vous pouvez désormais utiliser jusqu’à 255 caractères, contre 80 auparavant.
 
 ## Version de juin 2025 {#fac-25-6}
 

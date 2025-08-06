@@ -3,9 +3,9 @@ user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
 source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
    + [Vue d’ensemble](./governance-privacy-security/home.md)
    + [Contrôle d’accès](governance-privacy-security/access-control.md)
 + Étapes de configuration {#config}
-   + [Présentation des connexions](connections/home.md)
+   + [Vue d’ensemble des connexions](connections/home.md)
    + [Matrice des droits FDA](connections/fda-rights.md)
    + Modèles et schémas de données{#datamodel}
       + [Créer et configurer des schémas](customer/schemas.md)

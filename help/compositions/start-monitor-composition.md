@@ -4,9 +4,9 @@ title: Créer des compositions
 description: Découvrir comment créer des compositions
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -66,15 +66,15 @@ Dans tous les deux onglets, vous pouvez choisir les colonnes à afficher et leur
 
 De plus, vous pouvez vous abonner à des alertes pour recevoir des notifications si les exécutions de vos compositions fédérées ont réussi ou échoué.
 
-Pour vous abonner à des alertes, sélectionnez l’icône ![notification](/help/assets/icons/bell.png), puis l’icône ![paramètres](/help/assets/icons/settings.png).
+Pour vous abonner à des alertes, sélectionnez l’![icône notification](/help/assets/icons/bell.png), puis l’![icône paramètres](/help/assets/icons/settings.png).
 
 ![Les icônes de notification et de paramètres sont mises en surbrillance.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
 
-La page des paramètres des notifications s’affiche. Sur cette page, sélectionnez **[!UICONTROL Experience Platform]** et choisissez les canaux d’alertes de votre choix. Pour afficher les notifications dans l’interface utilisateur, sélectionnez **[!UICONTROL In-app]**.
+La page des paramètres des notifications s’affiche. Sur cette page, sélectionnez **[!UICONTROL Experience Platform]** et choisissez les canaux d’alertes de votre choix. Pour afficher les notifications dans l’interface d’utilisation, sélectionnez **[!UICONTROL In-app]**.
 
-![La case à cocher in-app est sélectionnée dans la section Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+![La case à cocher In-app est sélectionnée dans la section Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
 
-Lorsque **[!UICONTROL in-app]** est sélectionné, vous êtes maintenant averti des succès et des échecs d’exécution de la composition.
+Après avoir sélectionné **[!UICONTROL In-app]**, vous recevrez les notifications de succès et d’échec des exécutions des compositions.
 
 ![Les alertes s’affichent, indiquant les succès et les échecs de la composition.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
