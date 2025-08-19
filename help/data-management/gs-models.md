@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les modèles de données
 description: Découvrir comment commencer avec les modèles de données
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
-workflow-type: ht
-source-wordcount: '686'
-ht-degree: 100%
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 69%
 
 ---
 
@@ -40,37 +40,41 @@ Pour créer un modèle de données, procédez comme suit :
 
 1. Dans la section **[!UICONTROL Federated Data]**, accédez au menu **[!UICONTROL Modèles]**, puis à l’onglet **[!UICONTROL Modèle de données]**.
 
-   Cliquez sur le bouton **[!UICONTROL Créer un modèle de données]**.
+   Sélectionnez le bouton **[!UICONTROL Créer un modèle de données]**.
 
    ![](assets/datamodel_create.png){zoomable="yes"}
 
-1. Définissez le nom de votre modèle de données, puis cliquez sur le bouton **[!UICONTROL Créer]**.
+2. Définissez le nom de votre modèle de données, puis cliquez sur le bouton **[!UICONTROL Créer]**.
 
-1. Dans le tableau de bord de votre modèle de données, cliquez sur **[!UICONTROL Ajouter des schémas]** pour choisir le schéma associé à votre modèle de données.
+3. Dans le tableau de bord de votre modèle de données, sélectionnez **[!UICONTROL Ajouter des schémas]** pour choisir le schéma associé à votre modèle de données.
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. De plus, vous pouvez ajouter des audiences à votre modèle de données. Sélectionnez **[!UICONTROL Ajouter des audiences]** pour définir vos groupes cibles.
+4. De plus, vous pouvez ajouter des audiences à votre modèle de données. Sélectionnez **[!UICONTROL Ajouter des audiences]** pour définir vos groupes cibles.
 
    ![](assets/datamodel-audiences.png){zoomable="yes"}
 
-1. Établissez des connexions entre les tableaux de votre modèle de données pour garantir des relations de données précises. [En savoir plus](#data-model-links)
+5. Établissez des connexions entre les tableaux de votre modèle de données pour garantir des relations de données précises. Pour plus d’informations, consultez la section [Créer des liens](#data-model-links).
 
-1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
+6. Une fois la configuration terminée, sélectionnez **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
 
 ## Créer des liens {#data-model-links}
+
+>[!NOTE]
+>
+>Si vous créez un lien avec plusieurs jointures, vous ne pouvez utiliser la même combinaison de schémas source et cible qu&#39;une seule fois.
 
 >[!BEGINTABS]
 
 >[!TAB Vue Tableau]
 
-Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Tableau, procédez comme suit :
+Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue du tableau , procédez comme suit :
 
-1. Cliquez sur le menu **[!UICONTROL Créer un lien]** de l’une des tables ou sur le bouton **[!UICONTROL Créer des liens]**, puis sélectionnez les 2 tableaux suivants :
+1. Sélectionnez l’icône ![icône des trois petits points](/help/assets/icons/more.png) suivie de **[!UICONTROL Créer un lien]** en regard de l’un des tableaux, ou sélectionnez **[!UICONTROL Créer des liens]** dans la section **[!UICONTROL Liens]** :
 
    ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
-1. Renseignez le formulaire donné pour définir le lien.
+2. Renseignez le formulaire donné pour définir le lien.
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
@@ -82,21 +86,25 @@ Pour créer des liens entre les tableaux de votre modèle de données à partir 
 
    * **1-1** : à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-Tous les liens définis pour votre modèle de données seront répertoriés comme ci-dessous :
+   Pour créer un lien de jointure multiple, sélectionnez l&#39;icône plus. Vous pouvez désormais créer plusieurs jointures entre les champs de schéma.
+
+   ![Le bouton Plus est mis en surbrillance, ce qui vous permet de créer un lien de jointure multiple pour le modèle.](assets/multi-join.png){zoomable="yes"}
+
+Tous les liens définis pour votre modèle de données sont répertoriés comme ci-dessous :
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 >[!TAB Vue Zone de travail]
 
-Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Zone de travail, procédez comme suit :
+Pour créer des liens entre les tables de votre modèle de données à partir de l’onglet Vue Zone de travail , procédez comme suit :
 
 1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tableaux à lier.
 
-1. Cliquez sur le bouton ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de la jointure Source, puis faites glisser la flèche vers la jointure cible pour établir la connexion.
+2. Sélectionnez le bouton ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de la jointure Source, puis faites glisser la flèche vers la jointure Target pour établir la connexion.
 
    ![](assets/datamodel.gif){zoomable="yes"}
 
-1. Remplissez le formulaire donné pour définir le lien et cliquez sur **[!UICONTROL Appliquer]** une fois configuré.
+3. Remplissez le formulaire donné pour définir le lien et sélectionnez **[!UICONTROL Appliquer]** une fois configuré.
 
    ![](assets/datamodel-canvas-1.png){zoomable="yes"}
 
@@ -108,11 +116,11 @@ Pour créer des liens entre les tableaux de votre modèle de données à partir 
 
    * **1-1** : à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-1. Tous les liens définis dans votre modèle de données sont représentés par des flèches dans la vue Zone de travail. Cliquez sur une flèche entre deux tableaux pour afficher les détails, apporter des modifications ou supprimer le lien selon les besoins.
+4. Tous les liens définis dans votre modèle de données sont représentés par des flèches dans la vue Zone de travail. Sélectionnez une flèche entre deux tableaux pour afficher les détails, apporter des modifications ou supprimer le lien selon vos besoins.
 
    ![](assets/datamodel-canvas-2.png){zoomable="yes"}
 
-1. Utilisez la barre d’outils pour personnaliser et ajuster la zone de travail.
+5. Utilisez la barre d’outils pour personnaliser et ajuster la zone de travail.
 
    ![](assets/datamodel-canvas-3.png)
 

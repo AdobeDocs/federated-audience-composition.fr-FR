@@ -3,14 +3,14 @@ audience: end-user
 title: Créer votre première requête à l’aide du concepteur de requête
 description: Découvrez comment créer votre première requête dans le concepteur de requête.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '2066'
-ht-degree: 100%
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
+workflow-type: tm+mt
+source-wordcount: '2075'
+ht-degree: 98%
 
 ---
 
-# Éditer les expressions {#expression}
+# Modifier les expressions {#expression}
 
 L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
@@ -91,7 +91,7 @@ Les fonctions d’agrégat sont utilisées pour effectuer des calculs sur un ens
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
    <td> Renvoie la concaténation des valeurs d’une colonne de type chaîne, séparées par le caractère du deuxième argument<br />. </td> 
-   <td> StringAgg(&lt;Value&gt;,&lt;String&gt;)<br /></td> 
+   <td> StringAgg(&lt;Valeur&gt;,&lt;Chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -486,7 +486,7 @@ Ce tableau contient les autres fonctions disponibles.
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
    <td> Chiffrer la chaîne fournie dans l’argument<br /> </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> AESEncrypt(&lt;valeur&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -615,7 +615,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
    <td> Renvoie la taille de la chaîne en octets <br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /></td> 
+   <td> dataLength(&lt;chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -640,7 +640,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Concatène les chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -655,7 +655,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>Line</strong><br /> </td> 
    <td> Extraire la ligne n de la chaîne<br /> </td> 
-   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+   <td> Line(&lt;chaîne&gt;,&lt;nombre&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -665,7 +665,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Renvoie la chaîne complétée à gauche<br /> </td> 
-   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
+   <td> LPad (&lt;Chaîne&gt;, &lt;Nombre&gt;, &lt;Caractère&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -685,12 +685,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extrait la valeur d’un champ XML de son XPath et des données de champ<br /> </td> 
-   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
+   <td> NodeValue (&lt;Chaîne&gt;, &lt;Chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Remplace toutes les occurrences d’une valeur de chaîne spécifiée par une autre valeur de chaîne.<br /> </td> 
-   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
+   <td> Remplace toutes les occurrences d’une valeur de chaîne spécifiée (chaîne 2) par une autre valeur de chaîne (chaîne 3) dans une chaîne (chaîne 1).<br /> </td> 
+   <td> Replace(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -710,12 +710,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Représentation hexadécimale de la clé SHA256 d’une chaîne.<br /> </td> 
-   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;Chaîne&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Représentation hexadécimale de la clé SHA512 d’une chaîne.<br /> </td> 
-   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;Chaîne&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -762,7 +762,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> Exécutez l’appel de fonction SQL saisi en tant que 1er paramètre, sur Partition ou Trier selon les champs saisis en tant que 2e paramètre.<br /> </td> 
-   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
+   <td> _Over_ (&lt;Valeur&gt;, &lt;Valeur&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

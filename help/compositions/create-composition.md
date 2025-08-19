@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des compositions
 description: Découvrir comment créer des compositions
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '499'
-ht-degree: 100%
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 81%
 
 ---
 
@@ -16,20 +16,22 @@ La première étape pour créer une composition consiste à définir son libell�
 
 ## Créer la composition {#create-the-composition}
 
-1. Accédez au menu **[!UICONTROL Audiences]** et sélectionnez l’onglet **[!UICONTROL Compositions fédérées]**.
+Pour créer une composition, sélectionnez **[!UICONTROL Audiences]** dans la section **[!UICONTROL Client]**, suivie de l’onglet **[!UICONTROL Compositions fédérées]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Créer une composition]**.
+IMAGE
 
-   ![](assets/composition-create.png)
+La page de navigation des compositions fédérées s’affiche. Sélectionnez **[!UICONTROL Créer une composition]** pour poursuivre le processus de création de composition.
 
-1. Dans la section **[!UICONTROL Propriétés]**, spécifiez un libellé pour votre composition, puis sélectionnez un modèle de données. Seuls les schémas associés à ce modèle de données seront disponibles dans les activités de votre composition.
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+Dans la section **[!UICONTROL Propriétés]**, spécifiez un libellé pour votre composition et sélectionnez un modèle de données. Seuls les schémas associés à ce modèle de données seront disponibles dans les activités de votre composition.
 
-1. Cliquez sur **[!UICONTROL Créer]**. La zone de travail de la composition s’affiche. Vous pouvez maintenant configurer votre composition en ajoutant autant d’activités que nécessaire pour répondre à vos besoins avant de l’exécuter :
+![](assets/composition-select-schema.png)
 
-   * [Découvrir comment orchestrer les activités](orchestrate-activities.md)
-   * [Découvrir comment démarrer et surveiller une composition](start-monitor-composition.md)
+Sélectionnez **[!UICONTROL Créer]**. La zone de travail de composition s’affiche. Vous pouvez maintenant configurer votre composition en ajoutant autant d’activités que nécessaire pour répondre à vos besoins avant de l’exécuter :
+
+* [Découvrir comment orchestrer les activités](orchestrate-activities.md)
+* [Découvrir comment démarrer et surveiller une composition](start-monitor-composition.md)
 
 ## Configurer les paramètres de la composition {#settings}
 
@@ -48,7 +50,9 @@ La première étape pour créer une composition consiste à définir son libell�
 >title="Paramètres de gestion des erreurs"
 >abstract="Dans cette section, vous pouvez définir la façon de gérer les erreurs lors de l’exécution. Vous pouvez choisir de suspendre le processus, d’ignorer un certain nombre d’erreurs ou d’arrêter l’exécution de la composition."
 
-Lors de l’accès à une composition, vous pouvez accéder à des paramètres avancés qui vous permettent, par exemple, de définir le comportement de la composition en cas d’erreur. Pour accéder à ces options supplémentaires, cliquez sur le bouton **[!UICONTROL Paramètres]** situé dans la section supérieure de l’écran de création de la composition.
+Lors de l’accès à une composition, vous pouvez accéder à des paramètres avancés qui vous permettent, par exemple, de définir le comportement de la composition en cas d’erreur.
+
+Pour accéder à ces options supplémentaires, sélectionnez **[!UICONTROL Paramètres]** dans la section supérieure de l’écran de création de composition.
 
 ![](assets/composition-create-settings.png)
 
