@@ -18,7 +18,7 @@ ht-degree: 69%
 >Pour accéder aux modèles de données, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion du modèle de données fédérées**
->>-**Affichage du modèle de données fédérées**
+>&#x200B;>-**Affichage du modèle de données fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
