@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les schémas
 description: Découvrir comment commencer avec les schémas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 54%
+source-wordcount: '586'
+ht-degree: 53%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 54%
 >Pour accéder aux schémas, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion du schéma fédéré**
->&#x200B;>-**Affichage du schéma fédéré**
+>>-**Affichage du schéma fédéré**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
@@ -64,7 +64,7 @@ En créant un schéma, vous pouvez définir une représentation de votre tableau
 
 Pour créer un schéma dans la composition d’audiences fédérées, sélectionnez **[!UICONTROL Modèles]** dans la section **[!UICONTROL Données fédérées]**. Dans l’onglet **[!UICONTROL Schéma]**, sélectionnez **[!UICONTROL Créer un schéma]**.
 
-![](assets/schema_create.png){zoomable="yes"}
+![Le bouton Créer un schéma est mis en surbrillance dans la section Schéma de composition d’audiences fédérées.](assets/schema_create.png){zoomable="yes"}
 
 La fenêtre contextuelle **[!UICONTROL Sélectionner la base de données fédérée]** s’affiche. Sur cette fenêtre contextuelle, vous pouvez sélectionner la [base de données source](/help/connections/home.md), suivie de **[!UICONTROL Suivant]**.
 
@@ -77,7 +77,7 @@ La fenêtre contextuelle **Sélectionner un tableau** s’affiche. Dans cette fe
 
 Chaque tableau sélectionné génère un schéma avec les colonnes choisies. Pour chaque table, vous pouvez modifier le libellé du schéma, ajouter une description, renommer le libellé du champ, définir la visibilité du libellé du champ et sélectionner la clé primaire du schéma.
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Chaque tableau sélectionné génère un schéma avec les colonnes choisies. Pou
 
 De plus, vous pouvez créer une clé composée de plusieurs colonnes de schéma. Activez **[!UICONTROL Utiliser la clé composite]** et marquez les clés à utiliser comme votre clé composite.
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 Une fois la configuration terminée, sélectionnez **[!UICONTROL Terminé]** pour terminer la création du schéma.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des compositions
 description: Découvrir comment créer des compositions
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 81%
+source-wordcount: '524'
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ La première étape pour créer une composition consiste à définir son libell�
 
 Pour créer une composition, sélectionnez **[!UICONTROL Audiences]** dans la section **[!UICONTROL Client]**, suivie de l’onglet **[!UICONTROL Compositions fédérées]**.
 
-IMAGE
+![Le chemin d’accès à la section Compositions fédérées est mis en surbrillance.](assets/create/access-compositions.png)
 
 La page de navigation des compositions fédérées s’affiche. Sélectionnez **[!UICONTROL Créer une composition]** pour poursuivre le processus de création de composition.
 

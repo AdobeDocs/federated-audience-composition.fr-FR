@@ -3,10 +3,10 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: ht
-source-wordcount: '1942'
-ht-degree: 100%
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
+workflow-type: tm+mt
+source-wordcount: '1970'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,10 @@ Après avoir sélectionné Amazon Redshift, vous pouvez ajouter les détails su
 | Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. Vous trouverez plus d’informations sur cette fonctionnalité dans la [documentation des schémas Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Note :** vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 
 >[!TAB Azure Synapse Analytics]
+
+>[!NOTE]
+>
+>Si vous souhaitez créer une connexion sécurisée à l’aide d’Azure Synapse Analytics, contactez votre représentant de l’assistance clientèle d’Adobe.
 
 Après avoir sélectionné Azure Synapse Analytics, vous pouvez ajouter les détails suivants :
 
@@ -153,7 +157,7 @@ Pour Microsoft Fabric, vous pouvez définir les options supplémentaires suivan
 >
 >Actuellement, le connecteur de base de données Oracle peut **uniquement** être utilisé pour les cas d’utilisation de création et d’enrichissement d’audiences.
 >
->De plus, avant de configurer votre base de données Oracle, contactez votre représentant ou représentante de l’assistance clientèle Adobe.
+>Avant de configurer votre base de données Oracle, y compris la connexion Oracle pour utiliser une connexion sécurisée, contactez votre représentant de l’assistance clientèle Adobe.
 
 Après avoir sélectionné Oracle, vous pouvez ajouter les détails suivants :
 
