@@ -3,9 +3,9 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
+source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
 workflow-type: ht
-source-wordcount: '1970'
+source-wordcount: '1953'
 ht-degree: 100%
 
 ---
@@ -154,8 +154,6 @@ Pour Microsoft Fabric, vous pouvez définir les options supplémentaires suivan
 >[!TAB Oracle]
 
 >[!IMPORTANT]
->
->Actuellement, le connecteur de base de données Oracle peut **uniquement** être utilisé pour les cas d’utilisation de création et d’enrichissement d’audiences.
 >
 >Avant de configurer votre base de données Oracle, y compris la connexion Oracle pour utiliser une connexion sécurisée, contactez votre représentant ou représentante de l’assistance clientèle Adobe.
 
