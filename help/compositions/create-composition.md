@@ -4,9 +4,9 @@ title: Créer des compositions
 description: Découvrir comment créer des compositions
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ La première étape pour créer une composition consiste à définir son libell�
 
 ## Créer la composition {#create-the-composition}
 
-Pour créer une composition, sélectionnez **[!UICONTROL Audiences]** dans la section **[!UICONTROL Client]**, suivie de l’onglet **[!UICONTROL Compositions fédérées]**.
+Pour créer une composition, sélectionnez **[!UICONTROL Audiences]** dans la section **[!UICONTROL Client ou cliente]**, puis l’onglet **[!UICONTROL Compositions fédérées]**.
 
 ![Le chemin d’accès à la section Compositions fédérées est mis en surbrillance.](assets/create/access-compositions.png)
 
@@ -24,7 +24,7 @@ La page de navigation des compositions fédérées s’affiche. Sélectionnez **
 
 ![](assets/composition-create.png)
 
-Dans la section **[!UICONTROL Propriétés]**, spécifiez un libellé pour votre composition et sélectionnez un modèle de données. Seuls les schémas associés à ce modèle de données seront disponibles dans les activités de votre composition.
+Dans la section **[!UICONTROL Propriétés]**, spécifiez une étiquette pour la composition et sélectionnez un modèle de données. Seuls les schémas associés à ce modèle de données seront disponibles dans les activités de votre composition.
 
 ![](assets/composition-select-schema.png)
 
@@ -52,7 +52,7 @@ Sélectionnez **[!UICONTROL Créer]**. La zone de travail de composition s’aff
 
 Lors de l’accès à une composition, vous pouvez accéder à des paramètres avancés qui vous permettent, par exemple, de définir le comportement de la composition en cas d’erreur.
 
-Pour accéder à ces options supplémentaires, sélectionnez **[!UICONTROL Paramètres]** dans la section supérieure de l’écran de création de composition.
+Pour accéder à ces options supplémentaires, sélectionnez **[!UICONTROL Paramètres]** dans la section supérieure de l’écran de création de la composition.
 
 ![](assets/composition-create-settings.png)
 

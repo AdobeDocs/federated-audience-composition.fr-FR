@@ -4,15 +4,15 @@ title: Créer votre première requête à l’aide du concepteur de requête
 description: Découvrez comment créer votre première requête dans le concepteur de requête.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Modifier les expressions {#expression}
 
-L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
+La modification d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
 ## Utiliser l’éditeur d’expression {#edit}
 
@@ -91,7 +91,7 @@ Les fonctions d’agrégat sont utilisées pour effectuer des calculs sur un ens
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
    <td> Renvoie la concaténation des valeurs d’une colonne de type chaîne, séparées par le caractère du deuxième argument<br />. </td> 
-   <td> StringAgg(&lt;Valeur&gt;,&lt;Chaîne&gt;)<br /></td> 
+   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -689,7 +689,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Remplace toutes les occurrences d’une valeur de chaîne spécifiée (chaîne 2) par une autre valeur de chaîne (chaîne 3) dans une chaîne (chaîne 1).<br /> </td> 
+   <td> Remplace toutes les occurrences d’une valeur de chaîne spécifiée (chaîne 2) par une autre valeur de chaîne (chaîne 3) dans une chaîne (chaîne 1).<br /> </td> 
    <td> Replace(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
   </tr> 
   <tr> 

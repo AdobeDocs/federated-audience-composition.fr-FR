@@ -4,9 +4,9 @@ title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1970'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >Pour accéder aux connexions, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion de la base de données fédérées**
->&#x200B;>-**Affichage de la base de données fédérées**
+>>-**Affichage de la base de données fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
@@ -74,7 +74,7 @@ Après avoir sélectionné Amazon Redshift, vous pouvez ajouter les détails su
 
 >[!NOTE]
 >
->Si vous souhaitez créer une connexion sécurisée à l’aide d’Azure Synapse Analytics, contactez votre représentant de l’assistance clientèle d’Adobe.
+>Si vous souhaitez créer une connexion sécurisée à l’aide d’Azure Synapse Analytics, contactez votre représentant ou représentante de l’assistance clientèle Adobe.
 
 Après avoir sélectionné Azure Synapse Analytics, vous pouvez ajouter les détails suivants :
 
@@ -157,7 +157,7 @@ Pour Microsoft Fabric, vous pouvez définir les options supplémentaires suivan
 >
 >Actuellement, le connecteur de base de données Oracle peut **uniquement** être utilisé pour les cas d’utilisation de création et d’enrichissement d’audiences.
 >
->Avant de configurer votre base de données Oracle, y compris la connexion Oracle pour utiliser une connexion sécurisée, contactez votre représentant de l’assistance clientèle Adobe.
+>Avant de configurer votre base de données Oracle, y compris la connexion Oracle pour utiliser une connexion sécurisée, contactez votre représentant ou représentante de l’assistance clientèle Adobe.
 
 Après avoir sélectionné Oracle, vous pouvez ajouter les détails suivants :
 

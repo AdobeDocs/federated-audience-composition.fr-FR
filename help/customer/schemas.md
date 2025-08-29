@@ -4,9 +4,9 @@ title: Commencer avec les schémas
 description: Découvrir comment commencer avec les schémas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 53%
 >Pour accéder aux schémas, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion du schéma fédéré**
->&#x200B;>-**Affichage du schéma fédéré**
+>>-**Affichage du schéma fédéré**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
@@ -66,16 +66,16 @@ Pour créer un schéma dans la composition d’audiences fédérées, sélection
 
 ![Le bouton Créer un schéma est mis en surbrillance dans la section Schéma de composition d’audiences fédérées.](assets/schema_create.png){zoomable="yes"}
 
-La fenêtre contextuelle **[!UICONTROL Sélectionner la base de données fédérée]** s’affiche. Sur cette fenêtre contextuelle, vous pouvez sélectionner la [base de données source](/help/connections/home.md), suivie de **[!UICONTROL Suivant]**.
+La fenêtre contextuelle **[!UICONTROL Sélectionner une base de données fédérées]** s’affiche. Sur cette fenêtre contextuelle, vous pouvez sélectionner la [base de données source](/help/connections/home.md), puis **[!UICONTROL Suivant]**.
 
 
 ![](assets/schema_tables.png){zoomable="yes"}
 
-La fenêtre contextuelle **Sélectionner un tableau** s’affiche. Dans cette fenêtre contextuelle, vous pouvez sélectionner les tables à utiliser pour créer le schéma.
+La fenêtre contextuelle **Sélectionner un tableau** s’affiche. Dans cette fenêtre contextuelle, vous pouvez sélectionner les tableaux à utiliser pour créer le schéma.
 
 ![La fenêtre contextuelle Sélectionner un tableau s’affiche.](assets/select-table.png){zoomable="yes"}
 
-Chaque tableau sélectionné génère un schéma avec les colonnes choisies. Pour chaque table, vous pouvez modifier le libellé du schéma, ajouter une description, renommer le libellé du champ, définir la visibilité du libellé du champ et sélectionner la clé primaire du schéma.
+Chaque tableau sélectionné génère un schéma avec les colonnes choisies. Pour chaque tableau, vous pouvez modifier l’étiquette du schéma, ajouter une description, renommer l’étiquette du champ, définir la visibilité de l’étiquette du champ et sélectionner la clé primaire du schéma.
 
 ![](assets/schema-fields.png){zoomable="yes"}
 
@@ -93,7 +93,7 @@ Une fois la configuration terminée, sélectionnez **[!UICONTROL Terminé]** pou
 
 Pour modifier un schéma, sélectionnez le schéma précédemment créé sur la page **Schémas**.
 
-La page des détails du schéma s’affiche. Sélectionnez l’icône ![crayon](/help/assets/icons/edit.png) pour modifier le schéma.
+La page Détails du schéma s’affiche. Sélectionnez l’![icône représentant un crayon](/help/assets/icons/edit.png) pour modifier le schéma.
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
@@ -115,7 +115,7 @@ Sélectionnez le bouton **[!UICONTROL Configurer les colonnes]** pour modifier l
 
 ## Actualiser un schéma {#schema-refresh}
 
-Les tableaux d’une base de données fédérée peuvent être mis à jour, ajoutés ou supprimés. Dans de tels cas, vous devez actualiser le schéma dans Adobe Experience Platform pour vous aligner sur les dernières modifications. Pour ce faire, sélectionnez l’icône ![les trois points](/help/assets/icons/more.png) en regard du nom du schéma suivi de **[!UICONTROL Actualiser le schéma]**.
+Les tableaux d’une base de données fédérée peuvent être mis à jour, ajoutés ou supprimés. Dans de tels cas, vous devez actualiser le schéma dans Adobe Experience Platform pour vous aligner sur les dernières modifications. Pour effectuer cette action, sélectionnez l’![icône représentant des points de suspension](/help/assets/icons/more.png) à côté du nom du schéma, puis choisissez **[!UICONTROL Actualiser le schéma]**.
 
 Vous pouvez également mettre à jour la définition de schéma lors de sa modification.
 
@@ -123,6 +123,6 @@ Vous pouvez également mettre à jour la définition de schéma lors de sa modif
 
 ## Supprimer un schéma {#schema-delete}
 
-Pour supprimer un schéma, sélectionnez l’icône ![des trois points](/help/assets/icons/more.png), puis **[!UICONTROL Supprimer]**.
+Pour supprimer un schéma, sélectionnez l’![icône représentant des points de suspension](/help/assets/icons/more.png), puis choisissez **[!UICONTROL Supprimer]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}

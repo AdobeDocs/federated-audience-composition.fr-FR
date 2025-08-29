@@ -3,9 +3,9 @@ title: Confidentialité et sécurité de la composition d’audiences fédérée
 description: Découvrez comment la composition d’audiences fédérées traite la confidentialité et la sécurité des données d’utilisation, y compris les fonctionnalités telles que la gouvernance des données, l’application du consentement, le contrôle d’accès, le chiffrement des données et la conformité en matière de confidentialité.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->La composition de l’audience fédérée est entièrement conforme à la loi HIPAA et est disponible pour les clients de Healthcare Shield ainsi que de Privacy and Security Shield.
+>La composition d’audiences fédérées est entièrement conforme à la loi HIPAA et est disponible pour la clientèle de Healthcare Shield ainsi que de Privacy and Security Shield.
 
-Federated Audience Composition fournit plusieurs services et outils qui vous permettent de vous conformer à vos pratiques commerciales, à vos obligations légales et à vos processus de développement.
+La composition d’audiences fédérées fournit plusieurs services et outils qui vous permettent de vous conformer à vos pratiques commerciales, à vos obligations légales et à vos processus de développement.
 
-Ces services peuvent être répartis en trois catégories :
+Ces services peuvent être répartis en trois catégories :
 
 - [Gouvernance des données](#data-governance)
 - [Confidentialité](#privacy)
@@ -27,19 +27,19 @@ Ces services peuvent être répartis en trois catégories :
 
 Vous pouvez utiliser la gouvernance des données pour gérer et identifier les données de votre client ou cliente, en vous assurant qu’elles sont correctement étiquetées afin de respecter les restrictions définies par votre entreprise ou par les réglementations légales.
 
-### Libellés d’utilisation des données {#data-usage-labels}
+### Étiquettes d’utilisation des données {#data-usage-labels}
 
-Vous pouvez utiliser des libellés d’utilisation des données pour classer les jeux de données et les champs en fonction des politiques de gouvernance qui s’appliquent à ces données. Après avoir créé une audience à l’aide de compositions, vous pouvez appliquer les libellés de données appropriés sur le schéma résultant pour vous assurer qu’elle respecte les restrictions d’utilisation requises.
+Les étiquettes d’utilisation des données vous permettent de classer les jeux de données et les champs en fonction des politiques de gouvernance qui s’appliquent à ces données. Après avoir créé une audience à l’aide de compositions, vous pouvez appliquer les étiquettes de données appropriées sur le schéma résultant pour vous assurer qu’elle respecte les restrictions d’utilisation requises.
 
-Pour plus d’informations sur l’utilisation des libellés de données dans la composition d’audiences fédérées, consultez la section [appliquer des libellés d’accès](../compositions/gs-compositions.md#access-labels){target="_blank"}.
+Pour plus d’informations sur l’utilisation des étiquettes de données dans la composition d’audiences fédérées, consultez la section [Appliquer des étiquettes d’accès](../compositions/gs-compositions.md#access-labels){target="_blank"}.
 
 ## Confidentialité
 
-La composition de l’audience fédérée fournit les données fédérées que Adobe Experience Platform et Adobe Journey Optimizer peuvent utiliser et garantit le respect de la confidentialité des données de vos utilisateurs et utilisatrices.
+La composition d’audiences fédérées fournit les données fédérées qu’Adobe Experience Platform et Adobe Journey Optimizer peuvent utiliser et garantit le respect de la confidentialité des données de vos utilisateurs et utilisatrices.
 
 ### Privacy Service {#privacy-service}
 
-Comme la composition de l’audience fédérée ne stocke **&#x200B;**&#x200B;aucune des données client provenant de l’un des entrepôts de données, vous pouvez utiliser Adobe Experience Platform Privacy Service pour respecter les demandes de suppression des titulaires de données et des données.
+Comme la composition d’audiences fédérées ne stocke **aucune** des données clientèle provenant des entrepôts de données, vous pouvez utiliser Experience Platform Privacy Service pour la conformité à l’entité titulaire des données et aux demandes de suppression des données.
 
 Par exemple, lorsque vous créez une audience à l’aide du bloc d’activité Enregistrer dans la zone de travail de la composition, l’audience obtenue est stockée dans le lac de données d’Experience Platform en tant qu’audience externe. Cette audience externe est marquée par son champ d’identité et son espace de noms d’identité. Par conséquent, vous pouvez utiliser Privacy Service pour accéder à ces profils et les supprimer avec une audience externe.
 
@@ -75,11 +75,11 @@ Pour plus d’informations sur le cycle de vie des données, consultez la [vue d
 
 ## Sécurité {#security}
 
-La sécurité des données garantit la protection de vos données dans la composition de l’audience fédérée.
+La sécurité des données garantit la protection de vos données dans la composition d’audiences fédérées.
 
 ### Chiffrement {#encryption}
 
-La composition de l’audience fédérée fournit un chiffrement par le biais du chiffrement des données au repos, du chiffrement des données en transit et des clés gérées par le client.
+La composition d’audiences fédérées fournit un chiffrement des données au repos, un chiffrement des données en transit et des clés gérées par la clientèle.
 
 Les données au repos font référence aux données clientèle utilisées dans la composition d’audiences fédérées. Les données sont chiffrées par le fournisseur de service cloud et sont utilisées dans la composition d’audiences fédérées sous leur forme chiffrée.
 
@@ -103,7 +103,7 @@ Pour plus d’informations, consultez la [vue d’ensemble du journal d’audit]
 
 Vous pouvez contrôler l’accès à la composition d’audiences fédérées au niveau du champ et au niveau du rôle. Vous pouvez utiliser ces contrôles d’accès pour appliquer les politiques de gouvernance des données, limiter l’exposition des informations sensibles et aligner l’accès sur les responsabilités des utilisateurs et utilisatrices.
 
-Pour plus d’informations sur le contrôle d’accès dans la composition d’audiences fédérées, veuillez lire le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md){target="_blank"}.
+Pour plus d’informations sur le contrôle d’accès dans la composition d’audiences fédérées, consultez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md){target="_blank"}.
 
 ### Localisation des données {#data-localization}
 
@@ -111,4 +111,4 @@ La composition d’audiences fédérées ne stocke **pas** de données clientèl
 
 ## Étapes suivantes {#next-steps}
 
-Vous êtes arrivé au bout de ce guide, vous comprenez mieux les fonctionnalités de gouvernance des données, de confidentialité et de sécurité utilisées pour la composition de l’audience fédérée, notamment les libellés d’utilisation des données, la conformité en matière de confidentialité, l’application du consentement, la gestion du cycle de vie des données et le contrôle d’accès.
+Après avoir lu ce guide, vous comprenez mieux les fonctionnalités de gouvernance, de confidentialité et de sécurité des données utilisées pour la composition d’audiences fédérées, y compris les étiquettes d’utilisation des données, la conformité en matière de confidentialité, l’application du consentement, la gestion du cycle de vie des données et le contrôle d’accès.

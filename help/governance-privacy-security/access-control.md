@@ -1,11 +1,11 @@
 ---
 title: Contrôle d’accès dans la composition d’audiences fédérées
-description: Découvrez comment gérer l’accès aux données pour les utilisateurs dans la composition d’audiences fédérées.
+description: Découvrez comment gérer l’accès aux données pour les utilisateurs et les utilisatrices dans la composition d’audiences fédérées.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Par exemple, si un nouveau sandbox nommé « fac-test » est activé, un profi
 
 ## Gérer l’accès à la composition d’audiences fédérées
 
-Vous pouvez gérer l’accès en attribuant les autorisations requises pour accéder aux différents aspects de la composition des audiences fédérées. Ces autorisations sont attribuées par l’intermédiaire des rôles aux utilisateurs qui doivent accéder à **Federated Audience Composition**.
+Vous pouvez gérer l’accès en attribuant les autorisations requises pour accéder aux différents aspects de la composition d’audiences fédérées. Ces autorisations doivent ensuite être attribuées aux utilisateurs et utilisatrices qui ont besoin d’accéder à la **composition d’audiences fédérées**.
 
 >[!NOTE]
 >
->Seuls les administrateurs peuvent attribuer des autorisations à d’autres utilisateurs.
+>Seules les personnes membres de l’équipe d’administration peuvent attribuer des autorisations à d’autres utilisateurs ou utilisatrices.
 
 1. Accédez au menu **[!UICONTROL Autorisations]**.
 1. Dans le menu **[!UICONTROL Rôles]**, sélectionnez le **[!UICONTROL Rôle]** à mettre à jour.
@@ -78,6 +78,6 @@ La personne recevra un e-mail avec des instructions pour accéder à votre insta
 
 ## Gérer l’accès à des compositions spécifiques
 
-Vous pouvez gérer l’accès à une composition spécifique en appliquant des libellés d’accès.
+Vous pouvez gérer l’accès à une composition spécifique en appliquant des étiquettes d’accès.
 
-Pour plus d’informations sur l’application de libellés d’accès à une composition, consultez la section [appliquer des libellés d’accès](/help/compositions/gs-compositions.md#access-labels) du guide des compositions.
+Pour plus d’informations sur l’application d’étiquettes d’accès à une composition, consultez la section [Appliquer des étiquettes d’accès](/help/compositions/gs-compositions.md#access-labels) du guide des compositions.

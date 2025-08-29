@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Version du 25 août {#fac-25-8}
+## Version du 25 août {#fac-25-8}
 
 ### Nouvelles fonctionnalités {#fac-25-08-feature}
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 <tr>
 <td>
 <p>Vous pouvez désormais combiner des colonnes pour créer une clé composite pour votre schéma.</p>
-<p>Pour plus d’informations sur les schémas, consultez la <a href="../customer/schemas.md#create">présentation des schémas</a>.</p>
+<p>Pour plus d’informations sur les schémas, consultez la <a href="../customer/schemas.md#create">vue d’ensemble des schémas</a>.</p>
 </br>
 </td>
 </tr>
@@ -44,7 +44,7 @@ ht-degree: 91%
 <tr>
 <td>
 <p>Vous pouvez désormais ajouter plusieurs jointures en un seul lien pour vos modèles.</p>
-<p>Pour plus d’informations sur les modèles, consultez la <a href="../data-management/gs-models.md#create">présentation des modèles</a>.</p>
+<p>Pour plus d’informations sur les modèles, consultez la <a href="../data-management/gs-models.md#create">vue d’ensemble des modèles</a>.</p>
 </br>
 </td>
 </tr>
@@ -57,23 +57,23 @@ Cette version comprend les améliorations suivantes :
 
 * **Ajout d’une fonction `StringAgg`**
 
-  Vous pouvez désormais utiliser la fonction `StringAgg` pour les bases de données à spectre Redshift d’Amazon. à l’aide de l’éditeur d’expression.
+  Vous pouvez désormais utiliser la fonction `StringAgg` pour les bases de données à spectre Redshift d’Amazon lors de l’accés à l’éditeur d’expression.
 
-* **`Replace`fonction**
+* Fonction **`Replace`**
 
   La description et la syntaxe de la fonction `Replace` ont été clarifiées dans la documentation.
 
 ### Compatibilité {#fac-25-8-compatibility}
 
-* **Bases de données Azure Synapse**
+* **Bases de données Azure Synapse**
 
-  Vous pouvez désormais vous connecter en toute sécurité aux bases de données Azure Synapse avec PrivateLink ou un VPN. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe.
+  Vous pouvez désormais vous connecter en toute sécurité aux bases de données Azure Synapse avec PrivateLink ou un VPN. Pour plus dʼinformations, contactez l’assistance clientèle Adobe.
 
 * **Base de données Oracle**
 
-  Vous pouvez désormais vous connecter en toute sécurité aux bases de données Oracle. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe.
+  Vous pouvez désormais vous connecter en toute sécurité aux bases de données Oracle. Pour plus dʼinformations, contactez l’assistance clientèle Adobe.
 
-Pour plus d’informations sur les bases de données prises en charge dans la composition d’audiences fédérées, consultez la [présentation des connexions](../connections/home.md).
+Pour plus d’informations sur les bases de données prises en charge dans la composition d’audiences fédérées, consultez la [vue d’ensemble des connexions](../connections/home.md).
 
 ## Version de juillet 2025 {#fac-25-7}
 

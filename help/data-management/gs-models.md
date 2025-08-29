@@ -4,9 +4,9 @@ title: Commencer avec les modèles de données
 description: Découvrir comment commencer avec les modèles de données
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 69%
 >Pour accéder aux modèles de données, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion du modèle de données fédérées**
->&#x200B;>-**Affichage du modèle de données fédérées**
+>>-**Affichage du modèle de données fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
@@ -44,7 +44,7 @@ Pour créer un modèle de données, procédez comme suit :
 
    ![](assets/datamodel_create.png){zoomable="yes"}
 
-2. Définissez le nom de votre modèle de données, puis cliquez sur le bouton **[!UICONTROL Créer]**.
+2. Définissez le nom de votre modèle de données, puis sélectionnez le bouton **[!UICONTROL Créer]**.
 
 3. Dans le tableau de bord de votre modèle de données, sélectionnez **[!UICONTROL Ajouter des schémas]** pour choisir le schéma associé à votre modèle de données.
 
@@ -54,23 +54,23 @@ Pour créer un modèle de données, procédez comme suit :
 
    ![](assets/datamodel-audiences.png){zoomable="yes"}
 
-5. Établissez des connexions entre les tableaux de votre modèle de données pour garantir des relations de données précises. Pour plus d’informations, consultez la section [Créer des liens](#data-model-links).
+5. Établissez des connexions entre les tableaux de votre modèle de données pour garantir des relations de données précises. Pour plus d’informations, consultez la [section Créer des liens](#data-model-links).
 
-6. Une fois la configuration terminée, sélectionnez **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
+6. Une fois la configuration terminée, sélectionnez **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
 ## Créer des liens {#data-model-links}
 
 >[!NOTE]
 >
->Si vous créez un lien avec plusieurs jointures, vous ne pouvez utiliser la même combinaison de schémas source et cible qu&#39;une seule fois.
+>Si vous créez un lien avec plusieurs jointures, vous ne pouvez utiliser la même combinaison de schémas source et cible qu’une seule fois.
 
 >[!BEGINTABS]
 
 >[!TAB Vue Tableau]
 
-Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue du tableau , procédez comme suit :
+Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Tableau, procédez comme suit :
 
-1. Sélectionnez l’icône ![icône des trois petits points](/help/assets/icons/more.png) suivie de **[!UICONTROL Créer un lien]** en regard de l’un des tableaux, ou sélectionnez **[!UICONTROL Créer des liens]** dans la section **[!UICONTROL Liens]** :
+1. Sélectionnez l’![icône des points de suspension](/help/assets/icons/more.png) suivie de **[!UICONTROL Créer un lien]** en regard de l’un des tableaux, ou sélectionnez **[!UICONTROL Créer des liens]** dans la section **[!UICONTROL Liens]** :
 
    ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
@@ -86,25 +86,25 @@ Pour créer des liens entre les tableaux de votre modèle de données à partir 
 
    * **1-1** : à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-   Pour créer un lien de jointure multiple, sélectionnez l&#39;icône plus. Vous pouvez désormais créer plusieurs jointures entre les champs de schéma.
+   Pour créer un lien à jointure multiple, sélectionnez l’icône plus. Vous pouvez désormais créer plusieurs jointures entre les champs de schéma.
 
-   ![Le bouton Plus est mis en surbrillance, ce qui vous permet de créer un lien de jointure multiple pour le modèle.](assets/multi-join.png){zoomable="yes"}
+   ![Le bouton Plus est mis en surbrillance, ce qui vous permet de créer un lien à jointure multiple pour le modèle.](assets/multi-join.png){zoomable="yes"}
 
-Tous les liens définis pour votre modèle de données sont répertoriés comme ci-dessous :
+Tous les liens définis pour votre modèle de données seront répertoriés comme ci-dessous :
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 >[!TAB Vue Zone de travail]
 
-Pour créer des liens entre les tables de votre modèle de données à partir de l’onglet Vue Zone de travail , procédez comme suit :
+Pour créer des liens entre les tableaux de votre modèle de données à partir de l’onglet Vue Zone de travail, procédez comme suit :
 
 1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tableaux à lier.
 
-2. Sélectionnez le bouton ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de la jointure Source, puis faites glisser la flèche vers la jointure Target pour établir la connexion.
+2. Sélectionnez le bouton ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de la jointure source, puis faites glisser la flèche vers la jointure cible pour établir la connexion.
 
    ![](assets/datamodel.gif){zoomable="yes"}
 
-3. Remplissez le formulaire donné pour définir le lien et sélectionnez **[!UICONTROL Appliquer]** une fois configuré.
+3. Remplissez le formulaire donné pour définir le lien et sélectionnez **[!UICONTROL Appliquer]** une fois la configuration terminée.
 
    ![](assets/datamodel-canvas-1.png){zoomable="yes"}
 
@@ -116,7 +116,7 @@ Pour créer des liens entre les tables de votre modèle de données à partir de
 
    * **1-1** : à une occurrence du tableau source peut correspondre au plus une occurrence du tableau cible.
 
-4. Tous les liens définis dans votre modèle de données sont représentés par des flèches dans la vue Zone de travail. Sélectionnez une flèche entre deux tableaux pour afficher les détails, apporter des modifications ou supprimer le lien selon vos besoins.
+4. Tous les liens définis dans votre modèle de données sont représentés par des flèches dans la vue Zone de travail. Cliquez sur une flèche entre deux tableaux pour afficher les détails, apporter des modifications ou supprimer le lien selon les besoins.
 
    ![](assets/datamodel-canvas-2.png){zoomable="yes"}
 
