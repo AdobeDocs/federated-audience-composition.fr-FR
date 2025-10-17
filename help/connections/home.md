@@ -3,10 +3,10 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
+source-git-commit: f0a66632e90526c450e45430d4bdf8a73f2bad49
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 100%
+source-wordcount: '1990'
+ht-degree: 96%
 
 ---
 
@@ -155,7 +155,7 @@ Pour Microsoft Fabric, vous pouvez définir les options supplémentaires suivan
 
 >[!IMPORTANT]
 >
->Avant de configurer votre base de données Oracle, y compris la connexion Oracle pour utiliser une connexion sécurisée, contactez votre représentant ou représentante de l’assistance clientèle Adobe.
+>La composition de l’audience fédérée prend en charge la configuration des connexions fédérées avec la base de données Oracle version 11g ou ultérieure et hébergée sur AWS, Azure, Exadata ou un cloud privé (à condition qu’elle soit accessible par un réseau externe). Si vous avez d’autres questions relatives à la configuration de la base de données Oracle ou si vous devez créer une connexion sécurisée à Oracle, contactez votre représentant de l’assistance clientèle d’Adobe.
 
 Après avoir sélectionné Oracle, vous pouvez ajouter les détails suivants :
 
