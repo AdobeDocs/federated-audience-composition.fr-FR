@@ -3,10 +3,10 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 89%
+source-wordcount: '2298'
+ht-degree: 86%
 
 ---
 
@@ -127,11 +127,15 @@ Si vous sélectionnez **[!UICONTROL Authentification par compte/mot de passe]**,
 
 Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les informations de connexion suivantes :
 
+>[!NOTE]
+>
+>Avant de vous connecter à Google BigQuery à l’aide d’OAuth 2.0, vous devez configurer votre URL de redirection dans votre projet Google Cloud. Ajoutez le `https://fac-oauth.adobe.io/oauth` d’URL de redirection à votre projet Google Cloud sous la configuration de votre identifiant client OAuth 2.0.
+
 | Champ | Description |
 | ----- | ----------- |
 | Identifiant client | Identifiant client de votre projet BigQuery Google. Ce champ agit comme un nom d’utilisateur pour votre projet. |
 | Secret client | Secret client de votre projet BigQuery Google. Ce champ agit comme un mot de passe pour votre projet. |
-| Redirection URL | URL que l’application redirigera après avoir réussi à autoriser. |
+| Étendue d&#39;accès | Informations préremplies qui répertorient les portées pour lesquelles votre jeton OAuth est autorisé dans vos ressources Google Cloud. |
 
 Sélectionnez **[!UICONTROL Se connecter]** pour terminer votre authentification.
 
@@ -176,7 +180,7 @@ Pour Microsoft Fabric, vous pouvez définir les options supplémentaires suivan
 
 >[!TAB Oracle]
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >La composition d’audiences fédérées prend en charge la configuration des connexions fédérées avec les bases de données Oracle de version 11g ou ultérieure et hébergées sur AWS, Azure, Exadata ou un cloud privé (à condition qu’elles soient accessibles par un réseau externe). Si vous avez d’autres questions relatives à la configuration de la base de données Oracle ou si vous devez créer une connexion sécurisée à Oracle, contactez votre représentant ou représentante d’assistance clientèle d’Adobe.
 
@@ -205,6 +209,10 @@ Si vous sélectionnez **[!UICONTROL Authentification par compte/mot de passe]**,
 | Mot de passe | Mot de passe du compte. |
 
 Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les informations de connexion suivantes :
+
+>[!NOTE]
+>
+>Avant de vous connecter à Snowflake à l’aide d’OAuth 2.0, vous devez configurer votre URL de redirection dans votre objet d’intégration Snowflake OAuth. Ajoutez le `https://fac-oauth.adobe.io/oauth` d’URL de redirection à votre configuration de l’intégration OAuth de Snowflake.
 
 | Champ | Description |
 | ----- | ----------- |
