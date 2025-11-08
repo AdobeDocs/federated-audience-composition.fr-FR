@@ -3,7 +3,7 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
+source-git-commit: 4ad3897bec276cf4c63f9192ce34b17bd598fe84
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 86%
@@ -277,3 +277,4 @@ Après avoir ajouté les détails de la connexion, notez les paramètres supplé
 | Connexion de test | Permet de vérifier les détails de votre configuration. |
 
 Vous pouvez maintenant sélectionner **[!UICONTROL Déployer les fonctions]**, puis **[!UICONTROL Ajouter]** pour finaliser la connexion entre la base de données fédérée et Experience Platform.
+
