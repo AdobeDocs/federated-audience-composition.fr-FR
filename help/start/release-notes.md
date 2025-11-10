@@ -2,7 +2,7 @@
 title: Nouveautés de la composition d’audiences fédérées Experience Platform
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
+source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 98%
@@ -28,7 +28,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -414,3 +414,4 @@ La composition d’audiences fédérées répond aux demandes croissantes du mar
 Pour en savoir plus sur les fonctionnalités de la composition d’audiences fédérées, reportez-vous à [cette page](get-started.md) et aux [questions fréquentes](faq.md).
 
 Pour plus d’informations sur les conditions préalables à l’accès aux compositions d’audiences fédérées et aux mécanismes de sécurisation actuels, consultez [cette page](access-prerequisites.md).
+
