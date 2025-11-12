@@ -3,9 +3,9 @@ title: Nouveautés de la composition d’audiences fédérées Experience Platf
 description: Dernières mises à jour et notes de mise à jour
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1740'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Version du 25 octobre {#fac-25-10}
+## Version d’octobre 2025 {#fac-25-10}
 
 ### Nouvelles fonctionnalités {#fac-25-10-feature}
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -46,7 +46,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>Vous pouvez désormais vous connecter à Google BigQuery et Snowflake à l’aide d’OAuth.</p>
-<p>Pour plus d’informations sur la création de connexions, consultez la <a href="../connections/home.md#create">présentation des connexions</a>.</p>
+<p>Pour plus d’informations sur la création de connexions, consultez la <a href="../connections/home.md#create">vue d’ensemble des connexions</a>.</p>
 </br>
 </td>
 </tr>
