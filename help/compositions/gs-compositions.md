@@ -3,7 +3,7 @@ audience: end-user
 title: Commencer avec les compositions
 description: Découvrir comment démarrer avec les compositions
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 >Pour accéder aux compositions, vous devez disposer de l’une des autorisations suivantes :
 >
 >-**Gestion des compositions fédérées**
->>-**Affichage des compositions fédérées**
+>-**Affichage des compositions fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
