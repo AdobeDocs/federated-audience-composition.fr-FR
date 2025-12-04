@@ -4,7 +4,7 @@ title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 100%
 

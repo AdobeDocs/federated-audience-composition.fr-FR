@@ -3,7 +3,7 @@ title: Autorisations d’accès à une base de données externe
 description: Découvrez les autorisations dont vous avez besoin pour accéder à chaque moteur de base de données et y effectuer des tâches.
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
 
