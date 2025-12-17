@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser les activités
 description: Découvrir comment utiliser les activités
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+source-git-commit: 95f262e44c392c1e3c861a2b77b7736657cb9371
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,10 @@ Dans la Composition d’audiences fédérées, vous pouvez créer des compositio
 * Les activités de **contrôle de flux** sont spécifiques à l’organisation et à l’exécution des compositions. Leur principale tâche est de coordonner les autres activités.
 
 ## Activités de ciblage
+
+>[!NOTE]
+>
+>Lorsque vous travaillez avec des activités de composition, les noms d’attribut **ne peuvent pas** contenir d’espaces.
 
 * [Créer une activité d’audience](build-audience.md) : définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
 * [Modifier la source de données](./change-data-source.md) : modifiez la source de données utilisée par votre composition.
