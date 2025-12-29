@@ -4,9 +4,9 @@ title: Utiliser les activités
 description: Découvrir comment utiliser les activités
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
 source-git-commit: 95f262e44c392c1e3c861a2b77b7736657cb9371
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

@@ -4,9 +4,9 @@ title: Créer votre première requête à l’aide du concepteur de requête
 description: Découvrez comment créer votre première requête dans le concepteur de requête.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: fdf93fb3554d05057052aa7059e141817a883dcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4107'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
@@ -97,47 +97,47 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **AddYears** | Ajoute le nombre d’années spécifié à la date/heure fournie. | AddYears(&lt;DATETIME>, &lt;NUMBER>) | AddYears(« 2019-12-25 15:30:00 », 3) |
-| **AddMonths** | Ajoute le nombre de mois spécifié à la date/heure fournie. | AddMonths(&lt;DATETIME>, &lt;NUMBER>) | AddMonths(« 2019-12-25 15:30:00 », 6) |
-| **AddDays** | Ajoute le nombre de jours spécifié à la date/heure fournie. | AddDays(&lt;DATETIME>, &lt;NUMBER>) | AddDays(« 2019-12-25 15:30:00 », 10) |
-| **AddHours** | Ajoute le nombre d&#39;heures spécifié à la date/heure fournie. | AddHours(&lt;DATETIME>, &lt;NUMBER>) | AddHours(« 2019-12-25 15:30:00 », 3) |
-| **AddMinutes** | Ajoute le nombre de minutes spécifié à la date/heure fournie. | AddMinutes(&lt;DATETIME>, &lt;NUMBER>) | AddMinutes(« 2019-12-25 15:30:00 », 32) |
-| **AddSeconds** | Ajoute le nombre de secondes spécifié à la date/heure fournie. | AddSeconds(&lt;DATETIME>, &lt;NUMBER>) | AddSeconds(« 2019-12-25 15:30:00 », 37) |
-| **SubYears** | Soustrait le nombre d&#39;années spécifié à la date/heure fournie. | SubYears(&lt;DATETIME>, &lt;NUMBER>) | SubYears(« 2019-12-25 15:30:00 », 3) |
-| **SubMonths** | Soustrait le nombre de mois spécifié à la date/heure fournie. | SubMonths(&lt;DATETIME>, &lt;NUMBER>) | SubMonths(« 2019-12-25 15:30:00 », 6) |
-| **SubDays** | Soustrait le nombre de jours spécifié à la date/heure fournie. | SubDays(&lt;DATETIME>, &lt;NUMBER>) | SubDays(« 2019-12-25 15:30:00 », 10) |
-| **SubHours** | Soustrait le nombre d&#39;heures spécifié à la date/heure fournie. | SubHours(&lt;DATETIME>, &lt;NUMBER>) | SubHours(« 2019-12-25 15:30:00 », 3) |
-| **SubMinutes** | Soustrait le nombre de minutes spécifié à la date/heure fournie. | SubMinutes(&lt;DATETIME>, &lt;NUMBER>) | SubMinutes(« 2019-12-25 15:30:00 », 32) |
-| **SubSeconds** | Soustrait le nombre de secondes spécifié à la date/heure fournie. | SubSeconds(&lt;DATETIME>, &lt;NUMBER>) | SubSeconds(« 2019-12-25 15:30:00 », 37) |
-| **Year** | Extrait l’année de l’objet datetime donné. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **Month** | Extrait le mois de l’objet datetime donné. | Month(&lt;DATETIME>) | Month(« 2019-12-15 15:30:00 ») |
-| **Jour** | Extrait le jour de l’objet datetime donné. | Day(&lt;DATETIME>) | Day(« 2019-12-15 15:30:00 ») |
-| **DayOfYear** | Extrait le jour de l’année de l’objet datetime donné. Par exemple, si la date-heure fournie est le 2 février, elle renvoie 33. | DayOfYear(&lt;DATETIME>) | DayOfYear(« 2019-12-15 15:30:00 ») |
-| **WeekDay** | Extrait le jour de la semaine de l’objet datetime donné, sous la forme d’un nombre compris entre 0 et 6, avec 0 représentant le dimanche. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **Hour** | Extrait la valeur de l’heure de l’objet datetime donné. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **Minute** | Extrait la valeur de minute de l’objet datetime donné. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **Second** | Extrait la deuxième valeur de l’objet datetime donné. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **YearsDiff** | Trouve la différence entre les dates et heures données, avec une granularité de années. | YearsDiff(&lt;DATETIME>, &lt;DATETIME>) | YearsDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **MonthsDiff** | Trouve la différence entre les dates et heures données, avec une granularité de mois. | MonthsDiff(&lt;DATETIME>, &lt;DATETIME>) | MonthsDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **DaysDiff** | Trouve la différence entre les heures données, avec une granularité de jours. | DaysDiff(&lt;DATETIME>, &lt;DATETIME>) | DaysDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **HoursDiff** | Trouve la différence entre les dates et heures données, avec une granularité de heures. | HoursDiff(&lt;DATETIME>, &lt;DATETIME>) | HoursDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **MinutesDiff** | Trouve la différence entre les dates et heures données, avec une granularité de minutes. | MinutesDiff(&lt;DATETIME>, &lt;DATETIME>) | MinutesDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **SecondsDiff** | Trouve la différence entre les dates et heures données, avec une granularité de secondes. | SecondsDiff(&lt;DATETIME>, &lt;DATETIME>) | SecondsDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **YearsOld** | Trouve la différence entre la date et l’heure données, avec une granularité de années. | YearsOld(&lt;DATETIME>) | YearsOld(« 2019-12-25 15:30:00 ») |
-| **MonthsOld** | Trouve la différence entre la date-heure donnée et la présente, avec une granularité de mois. | MonthsOld(&lt;DATETIME>) | MonthsOld(« 2019-12-25 15:30:00 ») |
-| **DaysOld** | Trouve la différence entre la date-heure donnée et la présente, avec une granularité de jours. | DaysOld(&lt;DATETIME>) | DaysOld(« 2019-12-25 15:30:00 ») |
-| **GetDate** | Récupère la date courante du serveur. | GetDate() | GetDate() |
-| **DateOnly** | Tronque la date-heure à l’année, au mois et au jour uniquement. | DateOnly(&lt;DATETIME>) | DateOnly(« 2019-12-25 15:30:00 ») |
-| **ToDate** | Convertit le champ en champ de date. | ToDate(&lt;DATETIME>) | ToDate(« 2019-12-25 15:30:00 ») |
-| **ToDateTime** | Convertit le champ en champ de date et d’heure. | ToDateTime(&lt;DATE>) | ToDateTime(« 2019-12-25 15:30:00 ») |
-| **ToTimestamp** | Convertit le champ en champ d’horodatage. | ToTimestamp(&lt;DATETIME>) | ToTimestamp(« 2019-12-25 15:30:00 ») |
-| **Oldest** | Renvoie la date la plus ancienne entre les deux fournies. | Oldest(&lt;DATETIME>, &lt;DATETIME>) | Oldest(« 2015-02-13 11:59:59 », « 2016-04-13 19:28:14 ») |
-| **TruncDate** | Tronque la date-heure à l’unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86400, elle est tronquée au jour le plus proche. Sinon, elle est tronquée à la seconde près. | TruncDate(&lt;DATETIME>, &lt;NUMBER>) | TruncDate(« 2016-04-13 19:28:14 », 3600) |
-| **TruncDateTZ** | Tronque la date-heure à l’unité la plus proche, en fonction de la valeur numérique donnée, et définit la date-heure sur le fuseau horaire spécifié. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86400, elle est tronquée au jour le plus proche. | TruncDateTZ(&lt;DATETIME>, &lt;NUMBER>, &lt;TIMEZONE>) | TruncDateTZ(« 2016-04-13 19:28:14 », 3600, « America/Los_Angeles ») |
-| **TruncTime** | Définit datetime sur le 1er janvier 2000 et arrondit le reste de datetime à l&#39;unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. | TruncTime(&lt;DATETIME>, &lt;NUMBER>) | TruncTime(« 2016-04-13 19:28:14 », 3600) |
-| **TruncQuarter** | Tronque la date-heure à la première date du trimestre le plus proche. | TruncQuarter(&lt;DATETIME>) | TruncQuarter(« 2016-04-13 19:28:14 ») |
-| **TruncYear** | Tronque la datetime à la première date de l&#39;année la plus proche. | TruncYear(&lt;DATETIME>) | TruncYear(« 2016-04-13 19:28:14 ») |
-| **TruncWeek** | Tronque la date-heure au dimanche de la semaine la plus proche. | TruncWeek(&lt;DATETIME>) | TruncWeek(« 2016-04-13 19:28:14 ») |
+| **AddYears** | Ajoute le nombre d’années spécifié à la date et à l’heure indiquées. | AddYears(&lt;DATEHEURE>, &lt;NOMBRE>) | AddYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **AddMonths** | Ajoute le nombre de mois spécifié à la date et à l’heure indiquées. | AddMonths(&lt;DATEHEURE>, &lt;NOMBRE>) | AddMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
+| **AddDays** | Ajoute le nombre de jours spécifié à la date et à l’heure indiquées. | AddDays(&lt;DATEHEURE>, &lt;NOMBRE>) | AddDays(&quot;2019-12-25 15:30:00&quot;, 10) |
+| **AddHours** | Ajoute le nombre d’heures spécifié à la date et à l’heure indiquées. | AddHours(&lt;DATEHEURE>, &lt;NOMBRE>) | AddHours(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **AddMinutes** | Ajoute le nombre de minutes spécifié à la date et à l’heure indiquées. | AddMinutes(&lt;DATEHEURE>, &lt;NOMBRE>) | AddMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
+| **AddSeconds** | Ajoute le nombre de secondes spécifié à la date et à l’heure indiquées. | AddSeconds(&lt;DATEHEURE>, &lt;NOMBRE>) | AddSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
+| **SubYears** | Soustrait le nombre d’années spécifié à la date et à l’heure indiquées. | SubYears(&lt;DATEHEURE>, &lt;NOMBRE>) | SubYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubMonths** | Soustrait le nombre de mois spécifié à la date et à l’heure indiquées. | SubMonths(&lt;DATEHEURE>, &lt;NOMBRE>) | SubMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
+| **SubDays** | Soustrait le nombre de jours spécifié à la date et à l’heure indiquées. | SubDays(&lt;DATEHEURE>, &lt;NOMBRE>) | SubDays(&quot;2019-12-25 15:30:00&quot;, 10) |
+| **SubHours** | Soustrait le nombre d’heures spécifié à la date et à l’heure indiquées. | SubHours(&lt;DATEHEURE>, &lt;NOMBRE>) | SubHours(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubMinutes** | Soustrait le nombre de minutes spécifié à la date et à l’heure indiquées. | SubMinutes(&lt;DATEHEURE>, &lt;NOMBRE>) | SubMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
+| **SubSeconds** | Soustrait le nombre de secondes spécifié à la date et à l’heure indiquées. | SubSeconds(&lt;DATEHEURE>, &lt;NOMBRE>) | SubSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
+| **Year** | Extrait l’année de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Month** | Extrait le mois de l’objet date/heure donné. | Month(&lt;DATEHEURE>) | Month(&quot;2019-12-15 15:30:00&quot;) |
+| **Jour** | Extrait le jour de l’objet date/heure donné. | Day(&lt;DATEHEURE>) | Day(&quot;2019-12-15 15:30:00&quot;) |
+| **DayOfYear** | Extrait le jour de l’année de l’objet date/heure donné. Par exemple, si la date et l’heure indiquées sont le 2 février, la valeur 33 est renvoyée. | DayOfYear(&lt;DATEHEURE>) | DayOfYear(&quot;2019-12-15 15:30:00&quot;) |
+| **WeekDay** | Extrait le jour de la semaine de l’objet date/heure donné, sous la forme d’un nombre compris entre 0 et 6, avec 0 représentant le dimanche. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Hour** | Extrait la valeur de l’heure de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Minute** | Extrait la valeur de minute de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Second** | Extrait la valeur de seconde de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **YearsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en années. | YearsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | YearsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MonthsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en mois. | MonthsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | MonthsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **DaysDiff** | Trouve la différence entre les dates et heures données, avec une granularité en jours. | DaysDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | DaysDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **HoursDiff** | Trouve la différence entre les dates et heures données, avec une granularité en heures. | HoursDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | HoursDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MinutesDiff** | Trouve la différence entre les dates et heures données, avec une granularité en minutes. | MinutesDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | MinutesDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **SecondsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en secondes. | SecondsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | SecondsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **YearsOld** | Trouve la différence entre la date et l’heure données et le moment présent, avec une granularité en années. | YearsOld(&lt;DATEHEURE>) | YearsOld(&quot;2019-12-25 15:30:00&quot;) |
+| **MonthsOld** | Trouve la différence entre la date et l’heure données et le moment présent, avec une granularité en mois. | MonthsOld(&lt;DATEHEURE>) | MonthsOld(&quot;2019-12-25 15:30:00&quot;) |
+| **DaysOld** | Trouve la différence entre la date et l’heure données et le moment présent, avec une granularité en jours. | DaysOld(&lt;DATEHEURE>) | DaysOld(&quot;2019-12-25 15:30:00&quot;) |
+| **GetDate** | Obtient la date actuelle du serveur. | GetDate() | GetDate() |
+| **DateOnly** | Tronque la date et l’heure pour ne conserver que l’année, le mois et le jour. | DateOnly(&lt;DATEHEURE>) | DateOnly(&quot;2019-12-25 15:30:00&quot;) |
+| **ToDate** | Convertit le champ en champ de date. | ToDate(&lt;DATEHEURE>) | ToDate(&quot;2019-12-25 15:30:00&quot;) |
+| **ToDateTime** | Convertit le champ en champ de date/heure. | ToDateTime(&lt;DATE>) | ToDateTime(&quot;2019-12-25 15:30:00&quot;) |
+| **ToTimestamp** | Convertit le champ en champ d’horodatage. | ToTimestamp(&lt;DATEHEURE>) | ToTimestamp(&quot;2019-12-25 15:30:00&quot;) |
+| **Oldest** | Renvoie la date la plus ancienne parmi les deux indiquées. | Oldest(&lt;DATEHEURE>, &lt;DATEHEURE>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
+| **TruncDate** | Tronque la date et l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86 400, elle est tronquée au jour le plus proche. Sinon, elle est tronquée à la seconde la plus proche. | TruncDate(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncDateTZ** | Tronque la date et l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée, et définit la date et l’heure sur le fuseau horaire spécifié. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86 400, elle est tronquée au jour le plus proche. | TruncDateTZ(&lt;DATEHEURE>, &lt;NOMBRE>, &lt;FUSEAUHORAIRE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
+| **TruncTime** | Définit la date et l’heure sur le 1er janvier 2000 et arrondit le reste de la date et de l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. | TruncTime(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncQuarter** | Tronque la date et l’heure à la première date du trimestre le plus proche. | TruncQuarter(&lt;DATEHEURE>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
+| **TruncYear** | Tronque la date et l’heure à la première date de l’année la plus proche. | TruncYear(&lt;DATEHEURE>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
+| **TruncWeek** | Tronque la date et l’heure au dimanche de la semaine la plus proche. | TruncWeek(&lt;DATEHEURE>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 
 <!-- 
 | **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
@@ -251,47 +251,47 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **AddYears** | Ajoute le nombre d’années spécifié à la date/heure fournie. | AddYears(&lt;DATETIME>, &lt;NUMBER>) | AddYears(« 2019-12-25 15:30:00 », 3) |
-| **AddMonths** | Ajoute le nombre de mois spécifié à la date/heure fournie. | AddMonths(&lt;DATETIME>, &lt;NUMBER>) | AddMonths(« 2019-12-25 15:30:00 », 6) |
-| **AddDays** | Ajoute le nombre de jours spécifié à la date/heure fournie. | AddDays(&lt;DATETIME>, &lt;NUMBER>) | AddDays(« 2019-12-25 15:30:00 », 10) |
-| **AddHours** | Ajoute le nombre d&#39;heures spécifié à la date/heure fournie. | AddHours(&lt;DATETIME>, &lt;NUMBER>) | AddHours(« 2019-12-25 15:30:00 », 3) |
-| **AddMinutes** | Ajoute le nombre de minutes spécifié à la date/heure fournie. | AddMinutes(&lt;DATETIME>, &lt;NUMBER>) | AddMinutes(« 2019-12-25 15:30:00 », 32) |
-| **AddSeconds** | Ajoute le nombre de secondes spécifié à la date/heure fournie. | AddSeconds(&lt;DATETIME>, &lt;NUMBER>) | AddSeconds(« 2019-12-25 15:30:00 », 37) |
-| **SubYears** | Soustrait le nombre d&#39;années spécifié à la date/heure fournie. | SubYears(&lt;DATETIME>, &lt;NUMBER>) | SubYears(« 2019-12-25 15:30:00 », 3) |
-| **SubMonths** | Soustrait le nombre de mois spécifié à la date/heure fournie. | SubMonths(&lt;DATETIME>, &lt;NUMBER>) | SubMonths(« 2019-12-25 15:30:00 », 6) |
-| **SubDays** | Soustrait le nombre de jours spécifié à la date/heure fournie. | SubDays(&lt;DATETIME>, &lt;NUMBER>) | SubDays(« 2019-12-25 15:30:00 », 10) |
-| **SubHours** | Soustrait le nombre d&#39;heures spécifié à la date/heure fournie. | SubHours(&lt;DATETIME>, &lt;NUMBER>) | SubHours(« 2019-12-25 15:30:00 », 3) |
-| **SubMinutes** | Soustrait le nombre de minutes spécifié à la date/heure fournie. | SubMinutes(&lt;DATETIME>, &lt;NUMBER>) | SubMinutes(« 2019-12-25 15:30:00 », 32) |
-| **SubSeconds** | AdSoustrait le nombre de secondes spécifié à la date/heure fournie. | SubSeconds(&lt;DATETIME>, &lt;NUMBER>) | SubSeconds(« 2019-12-25 15:30:00 », 37) |
-| **Year** | Extrait l’année de l’objet datetime donné. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **Month** | Extrait le mois de l’objet datetime donné. | Month(&lt;DATETIME>) | Month(« 2019-12-15 15:30:00 ») |
-| **Jour** | Extrait le jour de l’objet datetime donné. | Day(&lt;DATETIME>) | Day(« 2019-12-15 15:30:00 ») |
-| **DayOfYear** | Extrait le jour de l’année de l’objet datetime donné. Par exemple, si la date-heure fournie est le 2 février, elle renvoie 33. | DayOfYear(&lt;DATETIME>) | DayOfYear(« 2019-12-15 15:30:00 ») |
-| **WeekDay** | Extrait le jour de la semaine de l’objet datetime donné, sous la forme d’un nombre compris entre 1 et 7, avec 1 représentant le dimanche. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **Hour** | Extrait la valeur de l’heure de l’objet datetime donné. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **Minute** | Extrait la valeur de minute de l’objet datetime donné. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **Second** | Extrait la deuxième valeur de l’objet datetime donné. | Year(&lt;DATETIME>) | Year(« 2019-12-15 15:30:00 ») |
-| **YearsDiff** | Trouve la différence entre les dates et heures données, avec une granularité de années. | YearsDiff(&lt;DATETIME>, &lt;DATETIME>) | YearsDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **MonthsDiff** | Trouve la différence entre les dates et heures données, avec une granularité de mois. | MonthsDiff(&lt;DATETIME>, &lt;DATETIME>) | MonthsDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **DaysDiff** | Trouve la différence entre les heures données, avec une granularité de jours. | DaysDiff(&lt;DATETIME>, &lt;DATETIME>) | DaysDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **HoursDiff** | Trouve la différence entre les dates et heures données, avec une granularité de heures. | HoursDiff(&lt;DATETIME>, &lt;DATETIME>) | HoursDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **MinutesDiff** | Trouve la différence entre les dates et heures données, avec une granularité de minutes. | MinutesDiff(&lt;DATETIME>, &lt;DATETIME>) | MinutesDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **SecondsDiff** | Trouve la différence entre les dates et heures données, avec une granularité de secondes. | SecondsDiff(&lt;DATETIME>, &lt;DATETIME>) | SecondsDiff(« 2019-12-25 15:30:00 », « 2018-10-14 18:35:27 ») |
-| **MonthsOld** | Trouve la différence entre la date-heure donnée et la présente, avec une granularité de mois. | MonthsOld(&lt;DATETIME>) | MonthsOld(« 2019-12-25 15:30:00 ») |
-| **DaysOld** | Trouve la différence entre la date-heure donnée et la présente, avec une granularité de jours. | DaysOld(&lt;DATETIME>) | DaysOld(« 2019-12-25 15:30:00 ») |
-| **GetDate** | Récupère la date courante du serveur. | GetDate() | GetDate() |
-| **DateOnly** | Tronque la date-heure à l’année, au mois et au jour uniquement. | DateOnly(&lt;DATETIME>) | DateOnly(« 2019-12-25 15:30:00 ») |
-| **ToDate** | Convertit le champ en champ de date. | ToDate(&lt;DATETIME>) | ToDate(« 2019-12-25 15:30:00 ») |
-| **ToDateTime** | Convertit le champ en champ de date et d’heure. | ToDateTime(&lt;DATE>) | ToDateTime(« 2019-12-25 15:30:00 ») |
-| **ToTimestamp** | Convertit le champ en champ d’horodatage. | ToTimestamp(&lt;DATETIME>) | ToTimestamp(« 2019-12-25 15:30:00 ») |
-| **Oldest** | Renvoie la date la plus ancienne entre les deux fournies. | Oldest(&lt;DATETIME>, &lt;DATETIME>) | Oldest(« 2015-02-13 11:59:59 », « 2016-04-13 19:28:14 ») |
-| **TruncDate** | Tronque la date-heure à l’unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86400, elle est tronquée au jour le plus proche. Sinon, elle est tronquée à la seconde près. | TruncDate(&lt;DATETIME>, &lt;NUMBER>) | TruncDate(« 2016-04-13 19:28:14 », 3600) |
-| **TruncDateTZ** | Tronque la date-heure à l’unité la plus proche, en fonction de la valeur numérique donnée, et définit la date-heure sur le fuseau horaire spécifié. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86400, elle est tronquée au jour le plus proche. | TruncDateTZ(&lt;DATETIME>, &lt;NUMBER>, &lt;TIMEZONE>) | TruncDateTZ(« 2016-04-13 19:28:14 », 3600, « America/Los_Angeles ») |
-| **TruncTime** | Définit datetime sur le 1er janvier 2000 et arrondit le reste de datetime à l&#39;unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. | TruncTime(&lt;DATETIME>, &lt;NUMBER>) | TruncTime(« 2016-04-13 19:28:14 », 3600) |
-| **TruncQuarter** | Tronque la date-heure à la première date du trimestre le plus proche. | TruncQuarter(&lt;DATETIME>) | TruncQuarter(« 2016-04-13 19:28:14 ») |
-| **TruncYear** | Tronque la datetime à la première date de l&#39;année la plus proche. | TruncYear(&lt;DATETIME>) | TruncYear(« 2016-04-13 19:28:14 ») |
-| **TruncWeek** | Tronque la date-heure au dimanche de la semaine la plus proche. | TruncWeek(&lt;DATETIME>) | TruncWeek(« 2016-04-13 19:28:14 ») |
-| **ConvertNTZ** | Convertit une date et une heure sans fuseau horaire à une date et une heure avec fuseau horaire . Le fuseau horaire associé sera celui du compte externe. | ConvertNTZ(&lt;DATETIME>) | ConvertNTZ(« 2024-06-24 14:43:49 ») |
+| **AddYears** | Ajoute le nombre d’années spécifié à la date et à l’heure indiquées. | AddYears(&lt;DATEHEURE>, &lt;NOMBRE>) | AddYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **AddMonths** | Ajoute le nombre de mois spécifié à la date et à l’heure indiquées. | AddMonths(&lt;DATEHEURE>, &lt;NOMBRE>) | AddMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
+| **AddDays** | Ajoute le nombre de jours spécifié à la date et à l’heure indiquées. | AddDays(&lt;DATEHEURE>, &lt;NOMBRE>) | AddDays(&quot;2019-12-25 15:30:00&quot;, 10) |
+| **AddHours** | Ajoute le nombre d’heures spécifié à la date et à l’heure indiquées. | AddHours(&lt;DATEHEURE>, &lt;NOMBRE>) | AddHours(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **AddMinutes** | Ajoute le nombre de minutes spécifié à la date et à l’heure indiquées. | AddMinutes(&lt;DATEHEURE>, &lt;NOMBRE>) | AddMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
+| **AddSeconds** | Ajoute le nombre de secondes spécifié à la date et à l’heure indiquées. | AddSeconds(&lt;DATEHEURE>, &lt;NOMBRE>) | AddSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
+| **SubYears** | Soustrait le nombre d’années spécifié à la date et à l’heure indiquées. | SubYears(&lt;DATEHEURE>, &lt;NOMBRE>) | SubYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubMonths** | Soustrait le nombre de mois spécifié à la date et à l’heure indiquées. | SubMonths(&lt;DATEHEURE>, &lt;NOMBRE>) | SubMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
+| **SubDays** | Soustrait le nombre de jours spécifié à la date et à l’heure indiquées. | SubDays(&lt;DATEHEURE>, &lt;NOMBRE>) | SubDays(&quot;2019-12-25 15:30:00&quot;, 10) |
+| **SubHours** | Soustrait le nombre d’heures spécifié à la date et à l’heure indiquées. | SubHours(&lt;DATEHEURE>, &lt;NOMBRE>) | SubHours(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubMinutes** | Soustrait le nombre de minutes spécifié à la date et à l’heure indiquées. | SubMinutes(&lt;DATEHEURE>, &lt;NOMBRE>) | SubMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
+| **SubSeconds** | AdSubstractsds le nombre de secondes spécifié à la date et et à l’heure indiquées. | SubSeconds(&lt;DATEHEURE>, &lt;NOMBRE>) | SubSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
+| **Year** | Extrait l’année de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Month** | Extrait le mois de l’objet date/heure donné. | Month(&lt;DATEHEURE>) | Month(&quot;2019-12-15 15:30:00&quot;) |
+| **Jour** | Extrait le jour de l’objet date/heure donné. | Day(&lt;DATEHEURE>) | Day(&quot;2019-12-15 15:30:00&quot;) |
+| **DayOfYear** | Extrait le jour de l’année de l’objet date/heure donné. Par exemple, si la date et l’heure indiquées sont le 2 février, la valeur 33 est renvoyée. | DayOfYear(&lt;DATEHEURE>) | DayOfYear(&quot;2019-12-15 15:30:00&quot;) |
+| **WeekDay** | Extrait le jour de la semaine de l’objet date/heure donné, sous la forme d’un nombre compris entre 1 et 7, 1 représentant le dimanche. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Hour** | Extrait la valeur de l’heure de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Minute** | Extrait la valeur de minute de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Second** | Extrait la valeur de seconde de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **YearsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en années. | YearsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | YearsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MonthsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en mois. | MonthsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | MonthsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **DaysDiff** | Trouve la différence entre les dates et heures données, avec une granularité en jours. | DaysDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | DaysDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **HoursDiff** | Trouve la différence entre les dates et heures données, avec une granularité en heures. | HoursDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | HoursDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MinutesDiff** | Trouve la différence entre les dates et heures données, avec une granularité en minutes. | MinutesDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | MinutesDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **SecondsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en secondes. | SecondsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | SecondsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MonthsOld** | Trouve la différence entre la date et l’heure données et le moment présent, avec une granularité en mois. | MonthsOld(&lt;DATEHEURE>) | MonthsOld(&quot;2019-12-25 15:30:00&quot;) |
+| **DaysOld** | Trouve la différence entre la date et l’heure données et le moment présent, avec une granularité en jours. | DaysOld(&lt;DATEHEURE>) | DaysOld(&quot;2019-12-25 15:30:00&quot;) |
+| **GetDate** | Obtient la date actuelle du serveur. | GetDate() | GetDate() |
+| **DateOnly** | Tronque la date et l’heure pour ne conserver que l’année, le mois et le jour. | DateOnly(&lt;DATEHEURE>) | DateOnly(&quot;2019-12-25 15:30:00&quot;) |
+| **ToDate** | Convertit le champ en champ de date. | ToDate(&lt;DATEHEURE>) | ToDate(&quot;2019-12-25 15:30:00&quot;) |
+| **ToDateTime** | Convertit le champ en champ de date/heure. | ToDateTime(&lt;DATE>) | ToDateTime(&quot;2019-12-25 15:30:00&quot;) |
+| **ToTimestamp** | Convertit le champ en champ d’horodatage. | ToTimestamp(&lt;DATEHEURE>) | ToTimestamp(&quot;2019-12-25 15:30:00&quot;) |
+| **Oldest** | Renvoie la date la plus ancienne parmi les deux indiquées. | Oldest(&lt;DATEHEURE>, &lt;DATEHEURE>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
+| **TruncDate** | Tronque la date et l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86 400, elle est tronquée au jour le plus proche. Sinon, elle est tronquée à la seconde la plus proche. | TruncDate(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncDateTZ** | Tronque la date et l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée, et définit la date et l’heure sur le fuseau horaire spécifié. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86 400, elle est tronquée au jour le plus proche. | TruncDateTZ(&lt;DATEHEURE>, &lt;NOMBRE>, &lt;FUSEAUHORAIRE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
+| **TruncTime** | Définit la date et l’heure sur le 1er janvier 2000 et arrondit le reste de la date et de l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. | TruncTime(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncQuarter** | Tronque la date et l’heure à la première date du trimestre le plus proche. | TruncQuarter(&lt;DATEHEURE>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
+| **TruncYear** | Tronque la date et l’heure à la première date de l’année la plus proche. | TruncYear(&lt;DATEHEURE>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
+| **TruncWeek** | Tronque la date et l’heure au dimanche de la semaine la plus proche. | TruncWeek(&lt;DATEHEURE>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
+| **ConvertNTZ** | Convertit un horodatage sans fuseau horaire à un horodatage avec fuseau horaire. Le fuseau horaire associé sera celui du compte externe. | ConvertNTZ(&lt;DATEHEURE>) | ConvertNTZ(&quot;2024-06-24 14:43:49&quot;) |
 
 <!-- 
 | **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
@@ -360,7 +360,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 
 >[!NOTE]
 >
->Notez que la fonction **Dateonly** prend uniquement le fuseau horaire du serveur, et non celui de l&#39;opérateur.
+>Notez que la fonction **Dateonly** prend uniquement le fuseau horaire du serveur, et non celui de l’opérateur ou de l’opératrice.
 
 ### Géomarketing
 
@@ -372,7 +372,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **Distance** | Renvoie la distance entre deux points définis par leur longitude et latitude en degrés, sous la forme d&#39;un double. | Distance(&lt;NOMBRE>, &lt;NOMBRE>, &lt;NOMBRE>, &lt;NOMBRE>) | Distance(40,345, 39,2345, -35,5834, 34,599) |
+| **Distance** | Renvoie la distance entre deux points donnés par leur longitude et leur latitude, exprimées en degrés, sous forme de nombre double. | Distance(&lt;NOMBRE>, &lt;NOMBRE>, &lt;NOMBRE>, &lt;NOMBRE>) | Distance(40.345, 39.2345, -35.5834, 34.599) |
 
 <!-- 
 
@@ -398,7 +398,7 @@ Geomarketing functions are not available.
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **Distance** | Renvoie la distance entre deux points définis par leur longitude et latitude en degrés, sous la forme d&#39;un double. | Distance(&lt;NOMBRE>, &lt;NOMBRE>, &lt;NOMBRE>, &lt;NOMBRE>) | Distance(40,345, 39,2345, -35,5834, 34,599) |
+| **Distance** | Renvoie la distance entre deux points donnés par leur longitude et leur latitude, exprimées en degrés, sous forme de nombre double. | Distance(&lt;NOMBRE>, &lt;NOMBRE>, &lt;NOMBRE>, &lt;NOMBRE>) | Distance(40.345, 39.2345, -35.5834, 34.599) |
 
 <!-- 
 
@@ -423,13 +423,13 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
 | **Mod** | Renvoie le reste du premier nombre divisé par le second. | Mod(&lt;NOMBRE>, &lt;NOMBRE>) | Mod (3, 2) |
-| **Percent** | Calcule le pourcentage du premier nombre par rapport au second. | Percent(&lt;NOMBRE>, &lt;NOMBRE>) | Pourcentage(1, 2) |
-| **Random** | Renvoie un nombre aléatoire compris entre 0 (inclus) et 1 (exclusif). | Aléatoire() | Aléatoire () |
-| **Round** | Renvoie le nombre fourni à la décimale demandée la plus proche. | Round(&lt;NOMBRE>, &lt;NOMBRE>) | Round(4.5394, 2) |
-| **ToDouble** | Convertit le nombre fourni en double. | ToDouble(&lt;NOMBRE>) | ToDouble(5) |
-| **ToInteger** | Convertit le nombre fourni en entier. | ToInteger(&lt;NUMBER>) | ToInteger(45) |
-| **ToInt64** | Convertit le nombre fourni en un entier 64 bits. | ToInt64(&lt;NUMBER>) | ToInt64(493) |
-| **Trunc** | Tronque le nombre fourni au nombre de décimales demandé. | Trunc(&lt;NOMBRE>, &lt;NOMBRE>) | Trunc(36.9348934, 3) |
+| **Percent** | Calcule le pourcentage du premier nombre par rapport au second. | Percent(&lt;NOMBRE>, &lt;NOMBRE>) | Percent(1, 2) |
+| **Random** | Renvoie un nombre aléatoire compris entre 0 (inclusif) et 1 (exclusif). | Random() | Random () |
+| **Round** | Renvoie le nombre indiqué à la décimale demandée la plus proche. | Round(&lt;NOMBRE>, &lt;NOMBRE>) | Round(4.5394, 2) |
+| **ToDouble** | Convertit le nombre indiqué en nombre double. | ToDouble(&lt;NOMBRE>) | ToDouble(5) |
+| **ToInteger** | Convertit le nombre indiqué en entier. | ToInteger(&lt;NOMBRE>) | ToInteger(45) |
+| **ToInt64** | Convertit le nombre indiqué en un entier 64 bits. | ToInt64(&lt;NOMBRE>) | ToInt64(493) |
+| **Trunc** | Tronque le nombre indiqué au nombre de décimales demandé. | Trunc(&lt;NOMBRE>, &lt;NOMBRE>) | Trunc(36.9348934, 3) |
 
 <!-- 
 | **Ceil** | Rounds up the provided number to the nearest integer. For example, if the provided number is 2.3, it will return 3. | Ceil(&lt;NUMBER&gt;) | Ceil(2.3) |
@@ -475,12 +475,12 @@ Numeric functions are not available.
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
 | **Mod** | Renvoie le reste du premier nombre divisé par le second. | Mod(&lt;NOMBRE>, &lt;NOMBRE>) | Mod (3, 2) |
-| **Percent** | Calcule le pourcentage du premier nombre par rapport au second. | Percent(&lt;NOMBRE>, &lt;NOMBRE>) | Pourcentage(1, 2) |
-| **Random** | Renvoie un nombre aléatoire compris entre 0 (inclus) et 1 (exclusif). | Aléatoire() | Aléatoire () |
-| **ToDouble** | Convertit le nombre fourni en double. | ToDouble(&lt;NOMBRE>) | ToDouble(5) |
-| **ToInteger** | Convertit le nombre fourni en entier. | ToInteger(&lt;NUMBER>) | ToInteger(45) |
-| **ToInt64** | Convertit le nombre fourni en un entier 64 bits. | ToInt64(&lt;NUMBER>) | ToInt64(493) |
-| **Trunc** | Tronque le nombre fourni au nombre de décimales demandé. | Trunc(&lt;NOMBRE>, &lt;NOMBRE>) | Trunc(36.9348934, 3) |
+| **Percent** | Calcule le pourcentage du premier nombre par rapport au second. | Percent(&lt;NOMBRE>, &lt;NOMBRE>) | Percent(1, 2) |
+| **Random** | Renvoie un nombre aléatoire compris entre 0 (inclusif) et 1 (exclusif). | Random() | Random () |
+| **ToDouble** | Convertit le nombre indiqué en nombre double. | ToDouble(&lt;NOMBRE>) | ToDouble(5) |
+| **ToInteger** | Convertit le nombre indiqué en entier. | ToInteger(&lt;NOMBRE>) | ToInteger(45) |
+| **ToInt64** | Convertit le nombre indiqué en un entier 64 bits. | ToInt64(&lt;NOMBRE>) | ToInt64(493) |
+| **Trunc** | Tronque le nombre indiqué au nombre de décimales demandé. | Trunc(&lt;NOMBRE>, &lt;NOMBRE>) | Trunc(36.9348934, 3) |
 
 <!-- 
 
@@ -510,21 +510,21 @@ Ce tableau contient les autres fonctions disponibles.
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **Casse** | Renvoie la première valeur si l’expression est vraie. Dans le cas contraire, renvoie la deuxième valeur. | Case(When(&lt;EXPRESSION> &lt;VALUE>), Else(&lt;VALUE>)) | Cas(Quand(a > b, « oui »), Sinon(« non »)) |
-| **When** | Utilisé dans le cadre de la fonction Case. Permet de vérifier l’expression dans la casse. | When(&lt;EXPRESSION> &lt;VALEUR>) | Quand(a > b, « oui ») |
-| **Else** | Utilisé dans le cadre de la fonction Case. Utilisé pour choisir l’autre option, si l’expression Lorsque est false. | Else(&lt;VALEUR>) | Sinon (« non ») |
-| **Coalesce** | Renvoie la première valeur non nulle. | Coalesce(&lt;VALEUR>, &lt;VALEUR>) | Coalesce («  », « chaîne ») |
-| **Decode** | Renvoie la première option si les valeurs sont égales. Renvoie la seconde option si les valeurs ne sont pas égales. | Decode(&lt;VALEUR>, &lt;VALEUR>, &lt;VALEUR>, &lt;VALEUR>) | Decode(1, 2, « true », « false ») |
-| **GetEmailDomain** | Extrait le domaine de l’adresse e-mail fournie. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(« sample@example.com ») |
-| **Iif** | Renvoie la première option si la condition est vraie et renvoie la seconde option si la condition est fausse. | Iif(&lt;CONDITION>, &lt;VALUE>, &lt;VALUE>) | Iif(10 &lt; 20, « true », « false ») |
-| **IsEmptyString** | Renvoie la première option si la chaîne est vide. Dans le cas contraire, renvoie la deuxième option. | IsEmptyString( &lt;STRING> ,&lt;VALUE>, &lt;VALUE>) | IsEmptyString(« string », « yes », « no ») |
+| **Case** | Renvoie la première valeur si l’expression est vraie. Dans le cas contraire, renvoie la deuxième valeur. | Case(When(&lt;EXPRESSION> &lt;VALEUR>), Else(&lt;VALEUR>)) | Case(When(a > b, &quot;yes&quot;), Else(&quot;no&quot;)) |
+| **When** | Utilisé dans le cadre de la fonction Case. Utilisé pour vérifier l’expression dans Case. | When(&lt;EXPRESSION> &lt;VALEUR>) | When(a > b, &quot;yes&quot;) |
+| **Else** | Utilisé dans le cadre de la fonction Case. Utilisé pour choisir l’autre option, si l’expression When est fausse. | Else(&lt;VALEUR>) | Else (&quot;no&quot;) |
+| **Coalesce** | Renvoie la première valeur non nulle. | Coalesce(&lt;VALEUR>, &lt;VALEUR>) | Coalesce (&quot;&quot;, &quot;string&quot;) |
+| **Decode** | Renvoie la première option si les valeurs sont égales. Renvoie la seconde option si les valeurs ne sont pas égales. | Decode(&lt;VALEUR>, &lt;VALEUR>, &lt;VALEUR>, &lt;VALEUR>) | Decode(1, 2, &quot;true&quot;, &quot;false&quot;) |
+| **GetEmailDomain** | Extrait le domaine d’une adresse e-mail indiquée. | GetEmailDomain(&lt;CHAÎNE>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **Iif** | Renvoie la première option si la condition est vraie et renvoie la seconde option si la condition est fausse. | Iif(&lt;CONDITION>, &lt;VALEUR>, &lt;VALEUR>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
+| **IsEmptyString** | Renvoie la première option si la chaîne est vide. Dans le cas contraire, renvoie la seconde option. | IsEmptyString( &lt;CHAÎNE> ,&lt;VALEUR>, &lt;VALEUR>) | IsEmptyString(&quot;string&quot;, &quot;yes&quot;, &quot;no&quot;) |
 | **NewUUID** | Génère un nouvel UUID unique. | NewUUID() | NewUUID() |
-| **NoNull** | Renvoie la chaîne fournie si elle n’est pas vide et renvoie une chaîne vide si la chaîne fournie est vide. | NoNull(&lt;STRING>) | NoNull(« test ») |
-| **IsBitSet** | Exécute un et au niveau du bit (&amp;) sur les nombres fournis. Vous pouvez ainsi vérifier si le bit du premier paramètre est positionné à la position indiquée dans le deuxième paramètre. | IsBitSet(&lt;NOMBRE>, &lt;NOMBRE>) | IsBitSet(5, 3) |
-| **ClearBit** | Vous pouvez ainsi effacer le bit du premier paramètre à la position indiquée dans le deuxième paramètre. | ClearBit(&lt;NOMBRE>, &lt;NOMBRE>) | |
-| **SetBit** | Effectue une opération au niveau du bit ou (\|) sur les nombres fournis. Vous pouvez ainsi placer le bit dans le premier paramètre défini à la position indiquée dans le deuxième paramètre. | SetBit(&lt;NOMBRE>, &lt;NOMBRE>) | SetBit(5, 3) |
-| **RowId** | Renvoie le numéro de ligne. | RowId() | RowId() |
-| **ToBoolean** | Convertit la valeur en valeur booléenne. | ToBoolean(&lt;VALEUR>) | ToBoolean(a=b) |
+| **NoNull** | Renvoie la chaîne indiquée si elle n’est pas vide et renvoie une chaîne vide si la chaîne fournie est vide. | NoNull(&lt;CHAÎNE>) | NoNull(&quot;test&quot;) |
+| **IsBitSet** | Effectue une opération bit à bit ET (&amp;) sur les nombres indiqués. Vous pouvez ainsi vérifier si le bit du premier paramètre est défini à la position indiquée dans le second paramètre. | IsBitSet(&lt;NOMBRE>, &lt;NOMBRE>) | IsBitSet(5, 3) |
+| **ClearBit** | Vous pouvez ainsi effacer le bit du premier paramètre à la position indiquée dans le second paramètre. | ClearBit(&lt;NOMBRE>, &lt;NOMBRE>) | |
+| **SetBit** | Effectue une opération bit à bit OU (\|) sur les nombres indiqués. Vous pouvez ainsi définir le bit dans le premier paramètre à la position indiquée dans le second paramètre. | SetBit(&lt;NOMBRE>, &lt;NOMBRE>) | SetBit(5, 3) |
+| **RowId** | Renvoie le numéro de la ligne. | RowId() | RowId() |
+| **ToBoolean** | Convertit la valeur en booléen. | ToBoolean(&lt;VALEUR>) | ToBoolean(a=b) |
 
 <!-- 
 
@@ -571,22 +571,22 @@ Other functions are not available.
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **Casse** | Renvoie la première valeur si l’expression est vraie. Dans le cas contraire, renvoie la deuxième valeur. | Case(When(&lt;EXPRESSION> &lt;VALUE>), Else(&lt;VALUE>)) | Cas(Quand(a > b, « oui »), Sinon(« non »)) |
-| **When** | Utilisé dans le cadre de la fonction Case. Permet de vérifier l’expression dans la casse. | When(&lt;EXPRESSION> &lt;VALEUR>) | Quand(a > b, « oui ») |
-| **Else** | Utilisé dans le cadre de la fonction Case. Utilisé pour choisir l’autre option, si l’expression Lorsque est false. | Else(&lt;VALEUR>) | Sinon (« non ») |
-| **GetEmailDomain** | Extrait le domaine de l’adresse e-mail fournie. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(« sample@example.com ») |
-| **Iif** | Renvoie la première option si la condition est vraie et renvoie la seconde option si la condition est fausse. | Iif(&lt;CONDITION>, &lt;VALUE>, &lt;VALUE>) | Iif(10 &lt; 20, « true », « false ») |
-| **IsEmptyString** | Renvoie la première option si la chaîne est vide. Dans le cas contraire, renvoie la deuxième option. | IsEmptyString( &lt;STRING> ,&lt;VALUE>, &lt;VALUE>) | IsEmptyString(« string », « yes », « no ») |
-| **ToBoolean** | Renvoie 1 si la valeur est vraie. Renvoie 0 si la valeur est false. | ToBoolean(&lt;VALEUR>) | ToBoolean(a=b) |
-| **ToBooleanType** | Convertit la valeur en valeur booléenne. | ToBooleanType(&lt;VALEUR>) | ToBooleanType(a=b) |
-| **IsBitSet** | Exécute un et au niveau du bit (&amp;) sur les nombres fournis. Vous pouvez ainsi vérifier si le bit du premier paramètre est positionné à la position indiquée dans le deuxième paramètre. | IsBitSet(&lt;NOMBRE>, &lt;NOMBRE>) | IsBitSet(5, 3) |
-| **ClearBit** | Vous pouvez ainsi effacer le bit du premier paramètre à la position indiquée dans le deuxième paramètre. | ClearBit(&lt;NOMBRE>, &lt;NOMBRE>) | |
-| **SetBit** | Effectue une opération au niveau du bit ou (\|) sur les nombres fournis. Vous pouvez ainsi placer le bit dans le premier paramètre défini à la position indiquée dans le deuxième paramètre. | SetBit(&lt;NOMBRE>, &lt;NOMBRE>) | SetBit(5, 3) |
-| **RowId** | Renvoie le numéro de ligne. | RowId() | RowId() |
+| **Case** | Renvoie la première valeur si l’expression est vraie. Dans le cas contraire, renvoie la deuxième valeur. | Case(When(&lt;EXPRESSION> &lt;VALEUR>), Else(&lt;VALEUR>)) | Case(When(a > b, &quot;yes&quot;), Else(&quot;no&quot;)) |
+| **When** | Utilisé dans le cadre de la fonction Case. Utilisé pour vérifier l’expression dans Case. | When(&lt;EXPRESSION> &lt;VALEUR>) | When(a > b, &quot;yes&quot;) |
+| **Else** | Utilisé dans le cadre de la fonction Case. Utilisé pour choisir l’autre option, si l’expression When est fausse. | Else(&lt;VALEUR>) | Else (&quot;no&quot;) |
+| **GetEmailDomain** | Extrait le domaine d’une adresse e-mail indiquée. | GetEmailDomain(&lt;CHAÎNE>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **Iif** | Renvoie la première option si la condition est vraie et renvoie la seconde option si la condition est fausse. | Iif(&lt;CONDITION>, &lt;VALEUR>, &lt;VALEUR>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
+| **IsEmptyString** | Renvoie la première option si la chaîne est vide. Dans le cas contraire, renvoie la seconde option. | IsEmptyString( &lt;CHAÎNE> ,&lt;VALEUR>, &lt;VALEUR>) | IsEmptyString(&quot;string&quot;, &quot;yes&quot;, &quot;no&quot;) |
+| **ToBoolean** | Renvoie 1 si la valeur est vraie. Renvoie 0 si la valeur est fausse. | ToBoolean(&lt;VALEUR>) | ToBoolean(a=b) |
+| **ToBooleanType** | Convertit la valeur en booléen. | ToBooleanType(&lt;VALEUR>) | ToBooleanType(a=b) |
+| **IsBitSet** | Effectue une opération bit à bit ET (&amp;) sur les nombres indiqués. Vous pouvez ainsi vérifier si le bit du premier paramètre est défini à la position indiquée dans le second paramètre. | IsBitSet(&lt;NOMBRE>, &lt;NOMBRE>) | IsBitSet(5, 3) |
+| **ClearBit** | Vous pouvez ainsi effacer le bit du premier paramètre à la position indiquée dans le second paramètre. | ClearBit(&lt;NOMBRE>, &lt;NOMBRE>) | |
+| **SetBit** | Effectue une opération bit à bit OU (\|) sur les nombres indiqués. Vous pouvez ainsi définir le bit dans le premier paramètre à la position indiquée dans le second paramètre. | SetBit(&lt;NOMBRE>, &lt;NOMBRE>) | SetBit(5, 3) |
+| **RowId** | Renvoie le numéro de la ligne. | RowId() | RowId() |
 | **NewUUID** | Génère un nouvel UUID unique. | NewUUID() | NewUUID() |
-| **NoNull** | Renvoie la chaîne fournie si elle n’est pas vide et renvoie une chaîne vide si la chaîne fournie est vide. | NoNull(&lt;STRING>) | NoNull(« test ») |
-| **AESEncrypt** | Chiffre la chaîne fournie avec le type de chiffrement AES. | AESEncrypt() | ESEncrypt(« hello ») |
-| **ObjectConstruct** | Crée un objet basé sur les paires clé/valeur fournies. | ObjectConstruct(&lt;CHAÎNE>, &lt;CHAÎNE>) | ObjectConstruct(« clé », « valeur ») |
+| **NoNull** | Renvoie la chaîne indiquée si elle n’est pas vide et renvoie une chaîne vide si la chaîne fournie est vide. | NoNull(&lt;CHAÎNE>) | NoNull(&quot;test&quot;) |
+| **AESEncrypt** | Chiffre la chaîne fournie avec le type de chiffrement AES. | AESEncrypt() | AESEncrypt(&quot;hello&quot;) |
+| **ObjectConstruct** | Crée un objet basé sur les paires clé/valeur indiquées. | ObjectConstruct(&lt;CHAÎNE>, &lt;CHAÎNE>) | ObjectConstruct(&quot;key&quot;, &quot;value&quot;) |
 
 <!-- 
 
@@ -623,26 +623,26 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Prend deux chaînes et vérifie si elles ne sont pas toutes nulles et non vides. | AllNonNull2(&lt;CHAÎNE>, &lt;CHAÎNE>) | AllNonNull2(«  », « string2 ») |
-| **AllNonNull3** | Prend trois chaînes et vérifie si elles ne sont pas toutes nulles et non vides | AllNonNull3(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | AllNonNull3(«  », « un », « trois ») |
-| **Ascii** | Prend une chaîne et renvoie le résultat . | Ascii(&lt;CHAÎNE>) | Ascii (« foo ») |
-| **Char** | Prend un tableau de points de code Unicode et renvoie la chaîne résultante. | Char(&lt;TABLEAU>) | Char([65, 68, 79, 66, 69]) |
-| **Charindex** | Trouve la première occurrence de la sous-chaîne spécifiée dans la chaîne principale. | Charindex(&lt;CHAÎNE>, &lt;SOUS-CHAÎNE>) | Charindex (« bar@example.com », « @ ») |
-| **dataLength** | Renvoie le nombre d’octets dans la chaîne. | dataLength(&lt;STRING>) | dataLength(« Ma chaîne ») |
-| **GetLine** | Renvoyer la ligne demandée de la chaîne fournie. | GetLine(&lt;STRING>, &lt;NUMBER>) | GetLine(multilinestring, 5) |
-| **IfEquals** | Prend quatre chaînes et renvoie la troisième chaîne si les deux premières chaînes sont égales et renvoie la quatrième chaîne si les deux premières chaînes ne sont pas égales. | IfEquals(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | IfEquals(« a », « a », « yes », « no ») |
-| **IsMemoNull** | Renvoie 1 si la chaîne est nulle, sinon elle renvoie 0. | IsMemoNull(&lt;STRING>) | IsMemoNull(« hello ») |
-| **JuxtWords** | Prend deux chaînes et les combine en une seule chaîne. Des espaces entre les chaînes sont ajoutés si nécessaire. | JustWords(&lt;CHAÎNE>, &lt;CHAÎNE>) | JuxtWords(« Hello », « World ») |
-| **JuxtWords3** | Prend trois chaînes et les combine en une seule chaîne. Des espaces entre les chaînes sont ajoutés si nécessaire. | JuxtWords3(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | JuxtWords3(« Hello », « New », « World ») |
-| **Left** | Prend une chaîne et renvoie les caractères les plus à gauche comme spécifié. | Left(&lt;CHAÎNE>, &lt;NOMBRE>) | Left(« Sous-chaîne », 3) |
-| **Length** | Renvoie la longueur de la chaîne. | Length(&lt;STRING>) | Length(« MyString ») |
-| **Md5Digest** | Convertit la chaîne hachée MD5 en sa représentation hexadécimale. | Md5Digest(&lt;STRING>) | Md5Digest(« String ») |
-| **MemoContains** | Vérifie si la chaîne contient la sous-chaîne fournie. | MemoContains(&lt;CHAÎNE>, &lt;CHAÎNE>) | MemoContains(« chaîne », « chaîne ») |
-| **Right** | Prend une chaîne et renvoie les caractères les plus à droite comme spécifié. | Right(&lt;CHAÎNE>, &lt;NOMBRE>) | Right (« Sous-chaîne », 3) |
-| **Smart** | Renvoie la chaîne avec la première lettre de chaque mot en majuscule. | Smart(&lt;CHAÎNE>) | Smart(« hello world ») |
-| **Substring** | Prenez une chaîne et renvoie une partie de la chaîne fournie, en fonction des positions données. | Sous-chaîne(&lt;CHAÎNE>, &lt;NUMÉRO_GAUCHE>, NUMÉRO_DROIT>) | Substring(« Substring », 3, 5) |
-| **Sha256Digest** | Convertit la chaîne hachée SHA256 en sa représentation hexadécimale. | Sha256Digest(&lt;STRING>) | Sha256Digest(« chaîne ») |
-| **Sha512Digest** | Convertit la chaîne hachée SHA512 en sa représentation hexadécimale. | Sha512Digest(&lt;STRING>) | Sha512Digest(« chaîne ») |
+| **AllNonNull2** | Prend deux chaînes et vérifie si elles ne sont ni nulles ni vides. | AllNonNull2(&lt;CHAÎNE>, &lt;CHAÎNE>) | AllNonNull2(&quot;&quot;, &quot;string2&quot;) |
+| **AllNonNull3** | Prend trois chaînes et vérifie si elles ne sont ni nulles ni vides. | AllNonNull3(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | AllNonNull3(&quot;&quot;, &quot;one&quot;, &quot;three&quot;) |
+| **Ascii** | Prend une chaîne et renvoie le résultat. | Ascii(&lt;CHAÎNE>) | Ascii (&quot;foo&quot;) |
+| **Char** | Prend un tableau de points de code Unicode et renvoie la chaîne résultante. | Char(&lt;ARRAY>) | Char([65, 68, 79, 66, 69]) |
+| **Charindex** | Trouve la première occurrence de la sous-chaîne spécifiée dans la chaîne principale. | Charindex(&lt;CHAÎNE>, &lt;SOUSCHAÎNE>) | Charindex (&quot;bar@example.com&quot;, &quot;@&quot;) |
+| **dataLength** | Renvoie le nombre d’octets dans la chaîne. | dataLength(&lt;CHAÎNE>) | dataLength(&quot;My string&quot;) |
+| **GetLine** | Renvoie la ligne demandée de la chaîne indiquée. | GetLine(&lt;CHAÎNE>, &lt;NOMBRE>) | GetLine(multilinestring, 5) |
+| **IfEquals** | Prend quatre chaînes et renvoie la troisième chaîne si les deux premières chaînes sont égales et renvoie la quatrième chaîne si les deux premières chaînes ne sont pas égales. | IfEquals(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;yes&quot;, &quot;no&quot;) |
+| **IsMemoNull** | Renvoie 1 si la chaîne est nulle, sinon 0. | IsMemoNull(&lt;CHAÎNE>) | IsMemoNull(&quot;hello&quot;) |
+| **JuxtWords** | Prend deux chaînes et les combine en une seule chaîne. Des espaces entre les chaînes sont ajoutés si nécessaire. | JuxtWords(&lt;CHAÎNE>, &lt;CHAÎNE>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
+| **JuxtWords3** | Prend trois chaînes et les combine en une seule chaîne. Des espaces entre les chaînes sont ajoutés si nécessaire. | JuxtWords3(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
+| **Left** | Prend une chaîne et renvoie les caractères les plus à gauche comme spécifié. | Left(&lt;CHAÎNE>, &lt;NOMBRE>) | Left(&quot;Substring&quot;, 3) |
+| **Length** | Renvoie la longueur de la chaîne. | Length(&lt;CHAÎNE>) | Length(&quot;MyString&quot;) |
+| **Md5Digest** | Convertit la chaîne hachée MD5 en sa représentation hexadécimale. | Md5Digest(&lt;CHAÎNE>) | Md5Digest(&quot;String&quot;) |
+| **MemoContains** | Vérifie si la chaîne contient la sous-chaîne indiquée. | MemoContains(&lt;CHAÎNE>, &lt;CHAÎNE>) | MemoContains(&quot;string&quot;, &quot;str&quot;) |
+| **Right** | Prend une chaîne et renvoie les caractères les plus à droite comme spécifié. | Right(&lt;CHAÎNE>, &lt;NOMBRE>) | Right (&quot;Substring&quot;, 3) |
+| **Smart** | Renvoie la chaîne avec la première lettre de chaque mot en majuscule. | Smart(&lt;CHAÎNE>) | Smart(&quot;hello world&quot;) |
+| **Substring** | Prend une chaîne et renvoie une partie de la chaîne indiquée, en fonction des positions données. | Substring(&lt;CHAÎNE>, &lt;NOMBRE_GAUCHE>, NOMBRE_DROIT>) | Substring(&quot;Substring&quot;, 3, 5) |
+| **Sha256Digest** | Convertit la chaîne hachée SHA256 en sa représentation hexadécimale. | Sha256Digest(&lt;CHAÎNE>) | Sha256Digest(&quot;string&quot;) |
+| **Sha512Digest** | Convertit la chaîne hachée SHA512 en sa représentation hexadécimale. | Sha512Digest(&lt;CHAÎNE>) | Sha512Digest(&quot;string&quot;) |
 | **ToString** | Renvoie la valeur sous forme de chaîne. | ToString(&lt;VALEUR>) | ToString(123) |
 
 <!-- 
@@ -702,25 +702,25 @@ String functions are not available.
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Prend deux chaînes et vérifie si elles ne sont pas toutes nulles et non vides. | AllNonNull2(&lt;CHAÎNE>, &lt;CHAÎNE>) | AllNonNull2(«  », « string2 ») |
-| **AllNonNull3** | Prend trois chaînes et vérifie si elles ne sont pas toutes nulles et non vides | AllNonNull3(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | AllNonNull3(«  », « un », « trois ») |
-| **Char** | Prend un tableau de points de code Unicode et renvoie la chaîne résultante. | Char(&lt;TABLEAU>) | Char([65, 68, 79, 66, 69]) |
-| **Charindex** | Trouve la première occurrence de la sous-chaîne spécifiée dans la chaîne principale. | Charindex(&lt;CHAÎNE>, &lt;SOUS-CHAÎNE>) | Charindex (« bar@example.com », « @ ») |
-| **dataLength** | Renvoie le nombre d’octets dans la chaîne. | dataLength(&lt;STRING>) | dataLength(« Ma chaîne ») |
-| **GetLine** | Renvoyer la ligne demandée de la chaîne fournie. | GetLine(&lt;STRING>, &lt;NUMBER>) | GetLine(multilinestring, 5) |
-| **IfEquals** | Prend quatre chaînes et renvoie la troisième chaîne si les deux premières chaînes sont égales et renvoie la quatrième chaîne si les deux premières chaînes ne sont pas égales. | IfEquals(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | IfEquals(« a », « a », « yes », « no ») |
-| **IsMemoNull** | Renvoie 1 si la chaîne est nulle, sinon elle renvoie 0. | IsMemoNull(&lt;STRING>) | IsMemoNull(« hello ») |
-| **JuxtWords** | Prend deux chaînes et les combine en une seule chaîne. Des espaces entre les chaînes sont ajoutés si nécessaire. | JustWords(&lt;CHAÎNE>, &lt;CHAÎNE>) | JuxtWords(« Hello », « World ») |
-| **JuxtWords3** | Prend trois chaînes et les combine en une seule chaîne. Des espaces entre les chaînes sont ajoutés si nécessaire. | JuxtWords3(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | JuxtWords3(« Hello », « New », « World ») |
-| **Left** | Prend une chaîne et renvoie les caractères les plus à gauche comme spécifié. | Left(&lt;CHAÎNE>, &lt;NOMBRE>) | Left(« Sous-chaîne », 3) |
-| **Length** | Renvoie la longueur de la chaîne. | Length(&lt;STRING>) | Length(« MyString ») |
-| **Line** | Renvoie la ligne numérotée spécifiée à partir de la chaîne. | Line(&lt;STRING>, &lt;NUMBER>) | Line(multilinestring, 5) |
-| **Md5Digest** | Convertit la chaîne hachée MD5 en sa représentation hexadécimale. | Md5Digest(&lt;STRING>) | Md5Digest(« String ») |
-| **Replace** | Prend une chaîne et remplace toutes les instances de la sous-chaîne par une sous-chaîne de remplacement. | Replace(&lt;STRING>, &lt;STRING&amp;gt, &lt;STRING&amp;gt) | Replace(« Captain Steve », « Captain », « Engineer ») |
-| **Right** | Prend une chaîne et renvoie les caractères les plus à droite comme spécifié. | Right(&lt;CHAÎNE>, &lt;NOMBRE>) | Right (« Sous-chaîne », 3) |
-| **Sha256Digest** | Convertit la chaîne hachée SHA256 en sa représentation hexadécimale. | Sha256Digest(&lt;STRING>) | Sha256Digest(« chaîne ») |
-| **Sha512Digest** | Convertit la chaîne hachée SHA512 en sa représentation hexadécimale. | Sha512Digest(&lt;STRING>) | Sha512Digest(« chaîne ») |
-| **Smart** | Renvoie la chaîne avec la première lettre de chaque mot en majuscule. | Smart(&lt;CHAÎNE>) | Smart(« hello world ») |
+| **AllNonNull2** | Prend deux chaînes et vérifie si elles ne sont ni nulles ni vides. | AllNonNull2(&lt;CHAÎNE>, &lt;CHAÎNE>) | AllNonNull2(&quot;&quot;, &quot;string2&quot;) |
+| **AllNonNull3** | Prend trois chaînes et vérifie si elles ne sont ni nulles ni vides. | AllNonNull3(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | AllNonNull3(&quot;&quot;, &quot;one&quot;, &quot;three&quot;) |
+| **Char** | Prend un tableau de points de code Unicode et renvoie la chaîne résultante. | Char(&lt;ARRAY>) | Char([65, 68, 79, 66, 69]) |
+| **Charindex** | Trouve la première occurrence de la sous-chaîne spécifiée dans la chaîne principale. | Charindex(&lt;CHAÎNE>, &lt;SOUSCHAÎNE>) | Charindex (&quot;bar@example.com&quot;, &quot;@&quot;) |
+| **dataLength** | Renvoie le nombre d’octets dans la chaîne. | dataLength(&lt;CHAÎNE>) | dataLength(&quot;My string&quot;) |
+| **GetLine** | Renvoie la ligne demandée de la chaîne indiquée. | GetLine(&lt;CHAÎNE>, &lt;NOMBRE>) | GetLine(multilinestring, 5) |
+| **IfEquals** | Prend quatre chaînes et renvoie la troisième chaîne si les deux premières chaînes sont égales et renvoie la quatrième chaîne si les deux premières chaînes ne sont pas égales. | IfEquals(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;yes&quot;, &quot;no&quot;) |
+| **IsMemoNull** | Renvoie 1 si la chaîne est nulle, sinon 0. | IsMemoNull(&lt;CHAÎNE>) | IsMemoNull(&quot;hello&quot;) |
+| **JuxtWords** | Prend deux chaînes et les combine en une seule chaîne. Des espaces entre les chaînes sont ajoutés si nécessaire. | JuxtWords(&lt;CHAÎNE>, &lt;CHAÎNE>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
+| **JuxtWords3** | Prend trois chaînes et les combine en une seule chaîne. Des espaces entre les chaînes sont ajoutés si nécessaire. | JuxtWords3(&lt;CHAÎNE>, &lt;CHAÎNE>, &lt;CHAÎNE>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
+| **Left** | Prend une chaîne et renvoie les caractères les plus à gauche comme spécifié. | Left(&lt;CHAÎNE>, &lt;NOMBRE>) | Left(&quot;Substring&quot;, 3) |
+| **Length** | Renvoie la longueur de la chaîne. | Length(&lt;CHAÎNE>) | Length(&quot;MyString&quot;) |
+| **Line** | Renvoie la ligne numérotée spécifiée à partir de la chaîne. | Line(&lt;CHAÎNE>, &lt;NOMBRE>) | Line(multilinestring, 5) |
+| **Md5Digest** | Convertit la chaîne hachée MD5 en sa représentation hexadécimale. | Md5Digest(&lt;CHAÎNE>) | Md5Digest(&quot;String&quot;) |
+| **Replace** | Prend une chaîne et remplace toutes les instances de la sous-chaîne par une sous-chaîne de remplacement. | Replace(&lt;CHAÎNE>, &lt;STRING&amp;gt, &lt;STRING&amp;gt) | Replace(&quot;Captain Steve&quot;, &quot;Captain&quot;, &quot;Engineer&quot;) |
+| **Right** | Prend une chaîne et renvoie les caractères les plus à droite comme spécifié. | Right(&lt;CHAÎNE>, &lt;NOMBRE>) | Right (&quot;Substring&quot;, 3) |
+| **Sha256Digest** | Convertit la chaîne hachée SHA256 en sa représentation hexadécimale. | Sha256Digest(&lt;CHAÎNE>) | Sha256Digest(&quot;string&quot;) |
+| **Sha512Digest** | Convertit la chaîne hachée SHA512 en sa représentation hexadécimale. | Sha512Digest(&lt;CHAÎNE>) | Sha512Digest(&quot;string&quot;) |
+| **Smart** | Renvoie la chaîne avec la première lettre de chaque mot en majuscule. | Smart(&lt;CHAÎNE>) | Smart(&quot;hello world&quot;) |
 | **ToString** | Renvoie la valeur sous forme de chaîne. | ToString(&lt;VALEUR>) | ToString(123) |
 
 <!-- 
@@ -763,8 +763,8 @@ String functions are not available.
 | ---- | ----------- | ------ | ------- |
 | **RowNum** | Renvoie une séquence de lignes en fonction de la partition du tableau et de la séquence de tri. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division), OrderBy(time)) |
 | **PartitionBy** | Sépare les lignes d’entrée en différentes partitions, selon l’expression donnée. | PartitionBy(&lt;EXPRESSION>) | PartitionBy(division) |
-| **OrderBy** | Trie le résultat de la partition. | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
-| **Desc** | Permet à votre OrderBy de trier par ordre décroissant, plutôt que par ordre croissant. | Desc(OrderBy(&lt;EXPRESSION>)) | Desc(OrderBy(age)) |
+| **OrderBy** | Trie le résultat au sein de la partition. | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
+| **Desc** | Permet à votre fonction OrderBy de trier par ordre décroissant, plutôt que par ordre croissant. | Desc(OrderBy(&lt;EXPRESSION>)) | Desc(OrderBy(age)) |
 
 <!-- 
 
@@ -798,8 +798,8 @@ Window functions are not available.
 | ---- | ----------- | ------ | ------- |
 | **RowNum** | Renvoie une séquence de lignes en fonction de la partition du tableau et de la séquence de tri. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division), OrderBy(time)) |
 | **PartitionBy** | Sépare les lignes d’entrée en différentes partitions, selon l’expression donnée. | PartitionBy(&lt;EXPRESSION>) | PartitionBy(division) |
-| **OrderBy** | Trie le résultat de la partition. | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
-| **Desc** | Permet à votre OrderBy de trier par ordre décroissant, plutôt que par ordre croissant. | Desc(OrderBy(&lt;EXPRESSION>)) | Desc(OrderBy(age)) |
+| **OrderBy** | Trie le résultat au sein de la partition. | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
+| **Desc** | Permet à votre fonction OrderBy de trier par ordre décroissant, plutôt que par ordre croissant. | Desc(OrderBy(&lt;EXPRESSION>)) | Desc(OrderBy(age)) |
 
 <!-- 
 
