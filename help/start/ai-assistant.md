@@ -1,15 +1,15 @@
 ---
-title: Utiliser l’assistant IA
+title: Utiliser l’Assistant IA
 description: Découvrir comment tirer parti de l’assistant IA
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
-workflow-type: ht
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
-# Utiliser l’assistant IA {#ai-assistant}
+# Utiliser l’Assistant IA {#ai-assistant}
 
 L’Assistant IA est une fonctionnalité de l’interface d’utilisation conçue pour vous aider à parcourir et à comprendre les concepts d’Adobe. Il est disponible pour les cas d’utilisation liés à la connaissances des produits dans plusieurs produits Adobe Experience Cloud, notamment la composition d’audiences fédérées.
 
@@ -27,9 +27,9 @@ Voici quelques exemples de ces questions :
 
 Pour poser une question, procédez comme suit :
 
-1. Accédez à l’Assistant IA en cliquant sur l’icône dans la barre supérieure.
+1. Accédez à l’assistant AI en sélectionnant l’icône dans la barre supérieure.
 
-   L’Assistant IA s’affiche dans la partie droite de l’écran. Vous pouvez cliquer sur ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_FullScreen_18_N.svg "Développer") pour développer la fenêtre de l’Assistant IA.
+   L’Assistant IA s’affiche dans la partie droite de l’écran. Vous pouvez sélectionner ![Diver le texte secondaire de l’image](assets/do-not-localize/Smock_FullScreen_18_N.svg "Développer") pour développer la fenêtre de l’assistant d’IA.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

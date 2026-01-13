@@ -2,10 +2,10 @@
 title: Conditions préalables et mécanismes de sécurisation pour la composition d’audiences fédérées
 description: Découvrez les conditions préalables, les autorisations et les mécanismes de sécurisation pour la composition d’audiences fédérées
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ La composition d’audiences fédérées prend en charge les entrepôts cloud su
 * Vertica Analytics
 * Microsoft Fabric
 
-Découvrez comment créer une connexion à ces systèmes sur [cette page](../connections/home.md).
+Vous pouvez découvrir comment créer une connexion avec ces systèmes dans la [présentation des connexions](../connections/home.md).
 
 ## Sandbox
 
@@ -39,7 +39,7 @@ Pour afficher la liste de vos sandbox actifs de composition d’audiences fédé
 
 1. À partir de la composition d’audiences fédérées, accédez au menu **[!UICONTROL Utilisation des licences]** sous **[!UICONTROL Administration]**.
 
-1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) de **[!UICONTROL Volume total de sortie de données]** pour accéder aux propriétés de votre sandbox.
+1. Sélectionnez l’icône ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) dans **[!UICONTROL Volume total de sortie de données]** pour accéder aux propriétés de votre sandbox.
 
    ![](assets/sandbox_1.png)
 

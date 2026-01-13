@@ -3,18 +3,18 @@ audience: end-user
 title: Créer votre première requête à l’aide du concepteur de requête
 description: Découvrir comment créer votre première requête dans le concepteur de requête
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '2066'
-ht-degree: 100%
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
+source-wordcount: '2063'
+ht-degree: 91%
 
 ---
 
 # Créer votre première requête {#build-query}
 
-Pour commencer à créer une requête, accédez au concepteur de requête à partir de l’emplacement de votre choix, en fonction de l’action que vous souhaitez effectuer. Le concepteur de requête s’ouvre et affiche une zone de travail vierge. Cliquez sur le bouton **+** pour configurer le premier nœud de votre requête.
+Pour commencer à créer une requête, accédez au concepteur de requête à partir de l’emplacement de votre choix, en fonction de l’action que vous souhaitez effectuer. Le concepteur de requête s’ouvre et affiche une zone de travail vierge. Sélectionnez le bouton **+** pour configurer le premier nœud de votre requête.
 
-Vous pouvez ajouter deux types d’éléments :
+Vous pouvez ajouter deux types d’éléments :
 
 * Les **composants de filtrage** (Condition personnalisée, Sélectionner une audience) vous permettent de créer vos propres règles ou de sélectionner une audience pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
 
@@ -44,9 +44,9 @@ Les composants de filtrage vous permettent d’affiner votre requête à l’aid
 
 Pour filtrer votre requête à l’aide d’une condition personnalisée, procédez comme suit :
 
-1. Cliquez sur le bouton **+** sur le nœud souhaité, puis sélectionnez **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’affiche sur le côté droit.
+1. Sélectionnez le bouton **+** sur le nœud de votre choix, suivi de **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’affiche sur le côté droit.
 
-1. Dans le champ **[!UICONTROL Attribut]**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données, y compris les attributs de vos tableaux liés.
+2. Dans le champ **[!UICONTROL Attribut]**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données, y compris les attributs de vos tableaux liés.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
    >
    >Le bouton **[!UICONTROL Modifier une expression]** permet d’utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
 
-1. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
+3. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
    +++Liste des opérateurs disponibles
 
@@ -74,12 +74,12 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
    | Ne commence pas par | Obtenir des résultats qui ne commencent pas par la valeur renseignée. | N° de compte (@account) ne commence pas par « 20 ». |
    | Contient | Obtenir un résultat comportant au moins la valeur qui est renseignée. | Domaine d’e-mail (@domain) contient « mail »</strong>. Ici, tous les noms de domaine comportant la valeur « mail » seront renvoyés en résultat. Par conséquent, le nom de domaine « gmail.com » fera partie des résultats renvoyés. |
    | Ne contient pas | Ne pas obtenir de résultats contenant au moins la valeur renseignée. | Domaine d’e-mail (@domain) ne contient pas « vo »</strong>. Dans ce cas, les noms de domaine contenant la valeur « vo » ne seront pas renvoyés. Ainsi, le nom de domaine « voila.fr » ne sera pas renvoyé. |
-   | Comme | « Comme » est quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère de substitution « % » dans la valeur recherchée. | Nom (@lastName) comme « Jon%s ». Ici, le caractère de substitution sert de joker afin de retrouver le nom Jones dans le cas très hypothétique où l’opérateur aurait oublié quelle est la lettre située entre les lettre « n » et « s ». |
-   | Pas comme | « Comme » est quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère de substitution « % » dans la valeur recherchée. | Nom (@lastName) pas comme « Smi%h ». Ici, les personnes destinataires dont le nom est « Smi%h » ne seront pas renvoyées. |
+   | Comme | « Comme » est quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère joker « % » dans la valeur recherchée. | Nom (@lastName) comme « Jon%s ». Ici, le caractère joker sert de joker afin de retrouver le nom Jones dans le cas très hypothétique où l’opérateur aurait oublié quelle est la lettre située entre les lettre « n » et « s ». |
+   | Pas comme | « Comme » est quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère joker « % » dans la valeur recherchée. | Nom (@lastName) pas comme « Smi%h ». Ici, les personnes destinataires dont le nom est « Smi%h » ne seront pas renvoyées. |
 
-+++
+   +++
 
-1. Dans le champ **[!UICONTROL Valeur]**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier une expression]**. [Découvrez comment modifier des expressions](expression-editor.md)
+4. Dans le champ **[!UICONTROL Valeur]**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, sélectionnez le bouton **[!UICONTROL Modifier l’expression]**. [Découvrez comment modifier des expressions](expression-editor.md)
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
@@ -109,15 +109,15 @@ Voici un exemple de requête dans laquelle un lien de table a été directement 
 
 ![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner votre requête, comme illustré dans l’exemple ci-dessous.
 
 +++Exemple de requête
 
-Ici, la requête cible les personnes destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
+Ici, la requête cible les destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
 
-1. Sélectionnez le tableau **[!UICONTROL Achats]** et confirmez.
+1. Sélectionnez la table **[!UICONTROL Achats]** et confirmez.
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -133,7 +133,7 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
    ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 #### Utiliser des données agrégées {#aggregate}
 
@@ -156,7 +156,7 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 
 Pour filtrer votre requête à l’aide d’une audience existante, procédez comme suit :
 
-1. Cliquez sur le bouton **+** sur le nœud souhaité, puis choisissez **[!UICONTROL Sélectionner une audience]**.
+1. Sélectionnez le bouton **+** sur le nœud souhaité, puis choisissez **[!UICONTROL Sélectionner une audience]**.
 
 1. Le volet de propriétés **[!UICONTROL Sélectionner une audience]** s’ouvre sur le côté droit. Sélectionnez l’audience à utiliser pour filtrer votre requête.
 
@@ -173,7 +173,7 @@ Pour filtrer votre requête à l’aide d’une audience existante, procédez co
 
 Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez comme suit :
 
-1. Cliquez sur le bouton **+** sur le nœud souhaité, puis sélectionnez **[!UICONTROL Filtre prédéfini]**.
+1. Sélectionnez le bouton **+** sur le nœud souhaité, puis **[!UICONTROL Filtre prédéfini]**.
 
 1. Le volet Propriétés **[!UICONTROL Filtre prédéfini]** s’ouvre sur le côté droit. Sélectionnez un filtre prédéfini dans la liste des filtres personnalisés ou dans les favoris.
 
@@ -191,15 +191,15 @@ Le concepteur de requête vous permet de copier un ou plusieurs composants de fi
 
 Pour copier-coller des composants de filtrage, procédez comme suit :
 
-1. Sélectionnez le composant de filtrage à copier en cliquant dessus dans la zone de travail de la requête. Pour sélectionner plusieurs composants, utilisez l’outil de sélection multiple disponible dans la barre d’outils située dans le coin supérieur droit de la zone de travail.
+1. Sélectionnez le composant de filtrage à copier en le sélectionnant dans la zone de travail de requête. Pour sélectionner plusieurs composants, utilisez l’outil de sélection multiple disponible dans la barre d’outils située dans le coin supérieur droit de la zone de travail.
 
-1. Cliquez sur le bouton **[!UICONTROL Copier]** dans le volet des propriétés du composant ou dans le ruban bleu situé en bas de l’écran si vous avez sélectionné plusieurs composants.
+1. Sélectionnez le bouton **[!UICONTROL Copier]** dans le volet Propriétés du composant ou dans le ruban bleu en bas de l’écran si vous avez sélectionné plusieurs composants.
 
    | Copier un seul composant | Copier plusieurs composants |
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Pour coller le ou les composants, cliquez sur le bouton + situé à la fin de la transition souhaitée et sélectionnez **[!UICONTROL Coller n éléments]**.
+1. Pour coller le ou les composants, sélectionnez le bouton + à la fin de la transition souhaitée, suivi de **[!UICONTROL Coller n éléments]**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -216,7 +216,7 @@ Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type 
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Pour changer l’opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez-en un autre dans le volet **[!UICONTROL Groupe]** qui s’ouvre sur la droite.
+Pour modifier l&#39;opérateur utilisé pour relier les conditions de filtrage, sélectionnez-le et choisissez l&#39;opérateur de votre choix dans le volet **[!UICONTROL Groupe]** qui s&#39;ouvre dans la partie droite.
 
 Les opérateurs disponibles sont les suivants :
 
@@ -226,7 +226,7 @@ Les opérateurs disponibles sont les suivants :
 
 ![](assets/query-operator-change.png){zoomable="yes"}
 
-En outre, vous pouvez créer des groupes intermédiaires de composants en cliquant sur le bouton **+** sur une transition. Vous pouvez ainsi ajouter un opérateur à cet emplacement spécifique pour regrouper plusieurs composants et affiner votre requête.
+En outre, vous pouvez créer des groupes intermédiaires de composants en sélectionnant le bouton **+** sur une transition. Vous pouvez ainsi ajouter un opérateur à cet emplacement spécifique pour regrouper plusieurs composants et affiner votre requête.
 
 Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inclure les résultats des audiences « VIP à récompenser » ou « Super VIP ».
 
@@ -250,7 +250,7 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
   >
   >Sélectionnez un filtre prédéfini dans le volet Propriétés de la règle pour remplacer la requête qui a été créée dans la zone de travail par le filtre sélectionné.
 
-Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour effectuer l’enregistrement.
+Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour l’enregistrer.
 
 Vous pouvez modifier votre requête à tout moment en l’ouvrant. Gardez à l’esprit que lors de l’ouverture d’une requête existante, elle s’affiche dans une vue simplifiée sans la visibilité des boutons **+**. Pour ajouter de nouveaux éléments à la requête, sélectionnez un composant ou un opérateur dans la zone de travail afin d’afficher les boutons **+**.
 

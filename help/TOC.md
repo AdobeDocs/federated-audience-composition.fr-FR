@@ -2,61 +2,43 @@
 user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 82%
 
 ---
 
 
 # Documentation sur la composition d’audiences fédérées Experience Platform {#using}
 
-+ [Documentation sur la composition d’audiences fédérées Experience Platform](home.md)
-+ [Notes de mise à jour](start/release-notes.md)
-+ [Notes de mise à jour](start/e-release-notes.md)
-+ Commencer avec la composition d’audiences fédérées {#start}
-   + [Présentation de la composition d’audiences fédérées](start/get-started.md)
-   + [Conditions préalables et mécanismes de sécurisation](start/access-prerequisites.md)
-   + [Utiliser les audiences](start/audiences.md)
-   + [Utiliser l’Assistant IA](start/ai-assistant.md)
-   + [Questions fréquentes](start/faq.md)
-+ Gouvernance, confidentialité et sécurité {#governance-privacy-security}
-   + [Vue d’ensemble](./governance-privacy-security/home.md)
-   + [Contrôle d’accès](governance-privacy-security/access-control.md)
-+ Étapes de configuration {#config}
-   + [Vue d’ensemble des connexions](connections/home.md)
-   + [Matrice des droits FDA](connections/fda-rights.md)
-   + Modèles et schémas de données{#datamodel}
-      + [Créer et configurer des schémas](customer/schemas.md)
-      + [Configurer vos modèles de données](data-management/gs-models.md)
-   + [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
-+ Composer des audiences {#compositions}
-   + [Commencer avec les compositions](compositions/gs-compositions.md)
-   + Créer et exécuter votre première composition {#create-composition}
-      + [Principes fondamentaux de la création d’une composition](compositions/gs-composition-creation.md)
-      + [Créer et configurer la composition](compositions/create-composition.md)
-      + [Orchestrer les activités](compositions/orchestrate-activities.md)
-      + [Démarrer et surveiller votre composition](compositions/start-monitor-composition.md)
-   + Utiliser les activités {#activities}
-      + [Liste des activités](compositions/activities/about-activities.md)
-      + [Rendez-vous](compositions/activities/and-join.md)
-      + [Créer une audience](compositions/activities/build-audience.md)
-      + [Modifier la source de données](compositions/activities/change-data-source.md)
-      + [Changement de dimension](compositions/activities/change-dimension.md)
-      + [Combiner](compositions/activities/combine.md)
-      + [Déduplication](compositions/activities/deduplication.md)
-      + [Enrichissement](compositions/activities/enrichment.md)
-      + [Branchement](compositions/activities/fork.md)
-      + [Réconciliation](compositions/activities/reconciliation.md)
-      + [Enregistrer l’audience](compositions/activities/save-audience.md)
-      + [Enregistrer les profils](compositions/activities/save-profiles.md)
-      + [Planificateur](compositions/activities/scheduler.md)
-      + [Partage](compositions/activities/split.md)
-      + [Attente](compositions/activities/wait.md)
-+ Interrogation de la base de données {#query-database}
-   + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
-   + [Créer votre première requête](query/build-query.md)
-   + [Modifier les expressions](query/expression-editor.md)
-+ [Journal d’audit](admin/audit-trail.md)
-
+- [Documentation sur la composition d’audiences fédérées Experience Platform](landing.md)
+- [Présentation de la composition de l’audience fédérée](./overview.md)
+- Commencer avec la composition d’audiences fédérées {#start}
+   - [Conditions préalables et mécanismes de sécurisation](start/access-prerequisites.md)
+   - [Utiliser les audiences](start/audiences.md)
+   - [Utiliser l’Assistant IA](start/ai-assistant.md)
+- Gouvernance, confidentialité et sécurité {#governance-privacy-security}
+   - [Présentation](./governance-privacy-security/home.md)
+   - [Contrôle d’accès](governance-privacy-security/access-control.md)
+- Connexions {#connections}
+   - [Vue d’ensemble des connexions](connections/home.md)
+   - [Matrice des droits d’accès aux données](connections/fda-rights.md)
+   - [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
+- Modèles et schémas de données {#models}
+   - [Présentation des schémas](data-modelling/schemas.md)
+   - [Présentation des modèles de données](data-modelling/models.md)
+- Compositions {#compositions}
+   - [Présentation de la composition](compositions/home.md)
+   - [Créer une composition](compositions/create-composition.md)
+   - [Présentation des activités](compositions/activities.md)
+- Concepteur de requête {#query-database}
+   - [Présentation de Query Modeler](query/home.md)
+   - [Création d’une requête](query/build-query.md)
+   - [Modifier les expressions](query/expression-editor.md)
+- [Journal d’audit](admin/audit-trail.md)
+- [Questions fréquentes](./faq.md)
+- Notes de mise à jour {#release-notes}
+   - [Dernières notes de mise à jour](./release-notes/latest.md)
+   - [2024](./release-notes/2024.md)
+   - [Notes de version préliminaire](./release-notes/e-release-notes.md)

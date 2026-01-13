@@ -2,8 +2,8 @@
 title: Confidentialité et sécurité de la composition d’audiences fédérées
 description: Découvrez comment la composition d’audiences fédérées traite la confidentialité et la sécurité des données d’utilisation, y compris les fonctionnalités telles que la gouvernance des données, l’application du consentement, le contrôle d’accès, le chiffrement des données et la conformité en matière de confidentialité.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: ht
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Vous pouvez utiliser la gouvernance des données pour gérer et identifier les d
 
 Les étiquettes d’utilisation des données vous permettent de classer les jeux de données et les champs en fonction des politiques de gouvernance qui s’appliquent à ces données. Après avoir créé une audience à l’aide de compositions, vous pouvez appliquer les étiquettes de données appropriées sur le schéma résultant pour vous assurer qu’elle respecte les restrictions d’utilisation requises.
 
-Pour plus d’informations sur l’utilisation des étiquettes de données dans la composition d’audiences fédérées, consultez la section [Appliquer des étiquettes d’accès](../compositions/gs-compositions.md#access-labels){target="_blank"}.
+Pour plus d’informations sur l’utilisation des étiquettes de données dans la composition d’audiences fédérées, consultez la section [Appliquer des étiquettes d’accès](../compositions/home.md#access-labels){target="_blank"}.
 
 ## Confidentialité
 

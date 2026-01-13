@@ -2,8 +2,8 @@
 title: Contrôle d’accès dans la composition d’audiences fédérées
 description: Découvrez comment gérer l’accès aux données pour les utilisateurs et les utilisatrices dans la composition d’audiences fédérées.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
-workflow-type: ht
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 
@@ -74,10 +74,10 @@ Vous pouvez également attribuer l’un des rôles préexistants aux utilisateur
 | Gestionnaires de composition FAC | <ul><li>Gestion des compositions fédérées</li></ul> |
 | Administrateurs et administratrices FAC | <ul><li>Gestion des données fédérées</li></ul> |
 
-La personne recevra un e-mail avec des instructions pour accéder à votre instance. Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez [cette documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users).
+La personne recevra un e-mail avec des instructions pour accéder à votre instance. Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez cette [documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 ## Gérer l’accès à des compositions spécifiques
 
 Vous pouvez gérer l’accès à une composition spécifique en appliquant des étiquettes d’accès.
 
-Pour plus d’informations sur l’application d’étiquettes d’accès à une composition, consultez la section [Appliquer des étiquettes d’accès](/help/compositions/gs-compositions.md#access-labels) du guide des compositions.
+Pour plus d’informations sur l’application d’étiquettes d’accès à une composition, consultez la section [Appliquer des étiquettes d’accès](/help/compositions/home.md#access-labels) du guide des compositions.

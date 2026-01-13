@@ -3,10 +3,10 @@ audience: end-user
 title: Enrichir les audiences Adobe Experience Platform avec des données externes
 description: Découvrez comment affiner et enrichir les audiences Adobe Experience Platform avec les données de vos bases de données fédérées à l’aide de la destination Composition d’audiences fédérées.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -44,7 +44,7 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform �
    * Databricks
    * Microsoft Fabric
 
-1. Sélectionnez la **[!UICONTROL base de données fédérée]** à laquelle vous connecter, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez la **[!UICONTROL base de données fédérée]** à laquelle vous souhaitez vous connecter, puis **[!UICONTROL Suivant]**.
 
    ![](assets/destination-configure.png)
 
@@ -54,9 +54,9 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform �
 
 1. L’étape **[!UICONTROL Politique de gouvernance et mesures de mise en conformité]** vous permet de définir vos politiques de gouvernance des données et de vous assurer que les données utilisées sont conformes lorsque les audiences sont envoyées et actives.
 
-   Lorsque vous avez terminé de sélectionner les actions marketing souhaitées pour la destination, cliquez sur **[!UICONTROL Créer]**.
+   Lorsque vous avez terminé de sélectionner les actions marketing souhaitées pour la destination, sélectionnez **[!UICONTROL Créer]**.
 
-1. La nouvelle connexion à la destination est créée. Vous pouvez désormais activer les audiences à envoyer vers la destination. Pour ce faire, sélectionnez-le dans la liste et cliquez sur **[!UICONTROL Suivant]**.
+1. La nouvelle connexion à la destination est créée. Vous pouvez désormais activer les audiences à envoyer vers la destination. Pour ce faire, sélectionnez-le dans la liste, puis **[!UICONTROL Suivant]**
 
    ![](assets/destination-activate.png)
 
@@ -81,7 +81,7 @@ Les principales étapes pour envoyer des audiences Adobe Experience Platform �
 
    ![](assets/destination-attributes.png)
 
-1. Vérifiez la configuration de destination et les paramètres de l’audience, puis cliquez sur **[!UICONTROL Terminer]**.
+1. Vérifiez la configuration de destination et les paramètres d’audience, puis sélectionnez **[!UICONTROL Terminer]**.
 
    ![](assets/destination-review.png)
 
