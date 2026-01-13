@@ -24,7 +24,7 @@ Vous pouvez ajouter deux types d’éléments :
 
 * Les **opérateurs de groupe** (ET, OU, SAUF) vous permettent de regrouper les composants de filtrage dans le diagramme. Ils sont ajoutés sur les transitions existantes avant un composant de filtrage. [Découvrir comment utiliser les opérateurs](#filtering)
 
-  Example : *personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**qui vivent à New York **OU**à San Francisco*.
+  Example : *personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**&#x200B;qui vivent à New York **OU**&#x200B;à San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
