@@ -198,7 +198,7 @@ Après avoir configuré votre type de réconciliation, vous pouvez également s�
 
 ![](./assets/activities/combine-exclusion.png)
 
-Si vous sélectionnez **Exclusion**, vous devez sélectionner le jeu de Principal **&#x200B;**&#x200B;à partir de vos transitions entrantes. Cela représente les ensembles dont les éléments seront exclus.
+Si vous sélectionnez **Exclusion**, vous devez sélectionner le jeu de Principal **** à partir de vos transitions entrantes. Cela représente les ensembles dont les éléments seront exclus.
 
 Après avoir choisi votre ensemble principal, vous pouvez configurer vos **Règles d’exclusion**. Vous pouvez sélectionner **Correspondre par attribut** ou **Joindre**.
 
@@ -234,7 +234,7 @@ L’activité **Déduplication** supprime tous les résultats en double dans l�
 
 >[!NOTE]
 >
->Si vous avez plusieurs transitions entrantes, vous devrez d’abord sélectionner le jeu de Principal **&#x200B;**&#x200B;dans la liste déroulante.
+>Si vous avez plusieurs transitions entrantes, vous devrez d’abord sélectionner le jeu de Principal **** dans la liste déroulante.
 
 Après avoir ajouté une activité **Déduplication**, vous pouvez choisir les champs pour identifier les doublons. Sélectionnez **Ajouter un attribut** pour identifier les champs où des doublons peuvent se produire.
 
@@ -286,7 +286,7 @@ Si vous avez configuré une connexion à la destination de la composition d’au
 
 >[!NOTE]
 >
->Si vous avez plusieurs transitions entrantes, vous devrez d’abord sélectionner le jeu de Principal **&#x200B;**&#x200B;dans la liste déroulante.
+>Si vous avez plusieurs transitions entrantes, vous devrez d’abord sélectionner le jeu de Principal **** dans la liste déroulante.
 
 Après avoir ajouté l’activité **Enrichissement** à votre composition, vous pouvez sélectionner **Ajouter des données d’enrichissement** pour choisir l’attribut à utiliser pour enrichir votre composition. Vous pouvez sélectionner **Modifier l’expression** pour créer une expression avancée afin de sélectionner l’attribut.
 
@@ -365,13 +365,13 @@ Les données sont réconciliées lorsque la source et la destination sont égale
 
 >[!TAB Conditions avancées de réconciliation]
 
-Après avoir choisi **Conditions avancées de réconciliation**, sélectionnez **Créer des conditions**. Vous pouvez maintenant créer votre propre condition de réconciliation à l&#39;aide du requêteur. Pour plus d’informations sur l’utilisation de Query Modeler, consultez la [&#x200B; Présentation de Query Modeler &#x200B;](../query/home.md)
+Après avoir choisi **Conditions avancées de réconciliation**, sélectionnez **Créer des conditions**. Vous pouvez maintenant créer votre propre condition de réconciliation à l&#39;aide du requêteur. Pour plus d’informations sur l’utilisation de Query Modeler, consultez la [ Présentation de Query Modeler ](../query/home.md)
 
 ![](./assets/activities/reconciliation-advanced.png)
 
 >[!ENDTABS]
 
-Vous pouvez également filtrer les données réconciliées. Sélectionnez **Créer un filtre** pour créer une condition personnalisée à l’aide de Query Modeler. Pour plus d’informations sur l’utilisation de Query Modeler, consultez la [&#x200B; Présentation de Query Modeler &#x200B;](../query/home.md)
+Vous pouvez également filtrer les données réconciliées. Sélectionnez **Créer un filtre** pour créer une condition personnalisée à l’aide de Query Modeler. Pour plus d’informations sur l’utilisation de Query Modeler, consultez la [ Présentation de Query Modeler ](../query/home.md)
 
 +++
 
@@ -519,7 +519,7 @@ Après avoir ajouté plusieurs activités pour former au moins deux branches dif
 
 ![](./assets/activities/and-join.png)
 
-Dans la section **Options de fusion**, vous pouvez sélectionner toutes les activités à synchroniser. De plus, vous pouvez choisir la transition entrante à conserver dans le menu déroulant du jeu de Principal **&#x200B;**.
+Dans la section **Options de fusion**, vous pouvez sélectionner toutes les activités à synchroniser. De plus, vous pouvez choisir la transition entrante à conserver dans le menu déroulant du jeu de Principal ****.
 
 +++
 
