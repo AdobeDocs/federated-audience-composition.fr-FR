@@ -4,13 +4,13 @@ title: Commencer avec les compositions
 description: Découvrir comment démarrer avec les compositions
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Présentation des compositions
+# Vue d’ensemble des compositions
 
 >[!AVAILABILITY]
 >
@@ -27,10 +27,10 @@ La composition d’audiences fédérées vous permet de créer des compositions,
 
 ## Composants de composition {#components}
 
-Une composition au sein de la composition d’audience fédérée est composée des parties suivantes :
+Une composition au sein de la composition d’audiences fédérées comprend les parties suivantes :
 
-- **[!UICONTROL Activités]** : une activité est une tâche à effectuer, et sont représentées dans la composition par des icônes.
-- **[!UICONTROL Transitions]** : les transitions relient une activité source à une activité de destination et définissent leur ordre. Les informations contenues dans les transitions sont stockées dans une table de travail. Chaque composition utilise plusieurs tables de travail. Les données transmises dans ces tables peuvent être utilisées tout au long du cycle de vie de la composition.
+- **[!UICONTROL Activités]** : une activité est une tâche à effectuer, et les activités sont représentées dans la composition par des icônes.
+- **[!UICONTROL Transitions]** : les transitions relient une activité source à une activité de destination et définissent leur ordre. Les informations contenues dans les transitions sont stockées dans une table de travail. Chaque composition utilise plusieurs tables de travail. Les données transmises dans ces tables peuvent être utilisées tout au long du cycle de vie de la composition.
 
 ## Accéder aux compositions et les gérer {#access}
 
@@ -53,7 +53,7 @@ Vous pouvez également afficher des informations sur les compositions, notamment
 | **[!UICONTROL En pause]** | L’exécution de la composition a été mise en pause. |
 | **[!UICONTROL Erronée]** | L’exécution de la composition a rencontré une erreur. Pour afficher plus d’informations sur l’erreur, ouvrez la composition et accédez aux journaux. |
 
-Vous pouvez apprendre à démarrer ou arrêter une composition dans le guide [créer une composition](./create-composition.md#monitor-logs).
+Vous pouvez apprendre à démarrer ou arrêter une composition dans le [guide de création d’une composition](./create-composition.md#monitor-logs).
 
 ![Une liste des compositions disponibles s’affiche.](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
@@ -84,7 +84,7 @@ Pour plus d’informations sur les libellés d’accès et de gouvernance des do
 
 ## Créer {#create}
 
-Vous pouvez créer une composition pour Adobe Experience Platform à l’aide de la composition de l’audience. Pour plus d’informations, consultez le guide [créer une composition](./create-composition.md).
+Vous pouvez créer une composition pour Adobe Experience Platform à l’aide de la composition d’audiences. Pour plus d’informations, consultez le [guide de création d’une composition](./create-composition.md).
 
 ## Étapes suivantes
 

@@ -3,9 +3,9 @@ title: Utiliser l’Assistant IA
 description: Découvrir comment tirer parti de l’assistant IA
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Voici quelques exemples de ces questions :
 
 Pour poser une question, procédez comme suit :
 
-1. Accédez à l’assistant AI en sélectionnant l’icône dans la barre supérieure.
+1. Accédez à l’assistant IA en sélectionnant l’icône dans la barre supérieure.
 
-   L’Assistant IA s’affiche dans la partie droite de l’écran. Vous pouvez sélectionner ![Diver le texte secondaire de l’image](assets/do-not-localize/Smock_FullScreen_18_N.svg "Développer") pour développer la fenêtre de l’assistant d’IA.
+   L’’ssistant IA s’affiche dans la partie droite de l’écran. Vous pouvez sélectionner ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_FullScreen_18_N.svg "Développer") pour développer la fenêtre de l’assistant IA.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

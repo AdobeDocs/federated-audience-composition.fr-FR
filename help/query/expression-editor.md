@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Aperçu de l’éditeur d’expression
-description: Découvrez comment utiliser les fonctions de l’éditeur d’expression pour créer une requête dans le module de modélisation de requête.
+title: Vue d’ensemble de l’éditeur d’expression
+description: Découvrez comment utiliser les fonctions de l’éditeur d’expression pour créer une requête dans le concepteur de requête.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4108'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Présentation de l’éditeur d’expression {#expression}
+# Vue d’ensemble de l’éditeur d’expression {#expression}
 
 La modification d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
@@ -28,7 +28,7 @@ L’éditeur d’expression fournit :
 * la liste des **champs (2)** disponibles, utilisables dans l’expression et correspondant au schéma, ou dimension de ciblage, de la requête ;
 * des **fonctions d’assistance (3)**, triées par catégorie.
 
-Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d&#39;assistance, placez le curseur dans l&#39;expression à l&#39;endroit où vous souhaitez l&#39;ajouter et sélectionnez le bouton + .
+Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis sélectionnez le bouton +.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 

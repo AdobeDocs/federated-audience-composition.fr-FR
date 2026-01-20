@@ -4,9 +4,9 @@ title: Créer votre première requête à l’aide du concepteur de requête
 description: Découvrir comment créer votre première requête dans le concepteur de requête
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2063'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez ajouter deux types d’éléments :
 
 * Les **opérateurs de groupe** (ET, OU, SAUF) vous permettent de regrouper les composants de filtrage dans le diagramme. Ils sont ajoutés sur les transitions existantes avant un composant de filtrage. [Découvrir comment utiliser les opérateurs](#filtering)
 
-  Example : *personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**&#x200B;qui vivent à New York **OU**&#x200B;à San Francisco*.
+  Example : *personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**qui vivent à New York **OU**à San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ Les composants de filtrage vous permettent d’affiner votre requête à l’aid
 
 Pour filtrer votre requête à l’aide d’une condition personnalisée, procédez comme suit :
 
-1. Sélectionnez le bouton **+** sur le nœud de votre choix, suivi de **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’affiche sur le côté droit.
+1. Sélectionnez le bouton **+** sur le nœud souhaité, puis **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’affiche sur le côté droit.
 
 2. Dans le champ **[!UICONTROL Attribut]**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données, y compris les attributs de vos tableaux liés.
 
@@ -52,7 +52,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    >[!NOTE]
    >
-   >Le bouton **[!UICONTROL Modifier une expression]** permet d’utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
+   >Le bouton **[!UICONTROL Modifier une expression]** permet d’utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrir comment modifier des expressions](expression-editor.md)
 
 3. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
@@ -79,7 +79,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    +++
 
-4. Dans le champ **[!UICONTROL Valeur]**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, sélectionnez le bouton **[!UICONTROL Modifier l’expression]**. [Découvrez comment modifier des expressions](expression-editor.md)
+4. Dans le champ **[!UICONTROL Valeur]**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, sélectionnez le bouton **[!UICONTROL Modifier une expression]**. [Découvrir comment modifier des expressions](expression-editor.md)
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
@@ -115,7 +115,7 @@ Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner 
 
 +++Exemple de requête
 
-Ici, la requête cible les destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
+Ici, la requête cible les personnes destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
 
 1. Sélectionnez la table **[!UICONTROL Achats]** et confirmez.
 
@@ -191,15 +191,15 @@ Le concepteur de requête vous permet de copier un ou plusieurs composants de fi
 
 Pour copier-coller des composants de filtrage, procédez comme suit :
 
-1. Sélectionnez le composant de filtrage à copier en le sélectionnant dans la zone de travail de requête. Pour sélectionner plusieurs composants, utilisez l’outil de sélection multiple disponible dans la barre d’outils située dans le coin supérieur droit de la zone de travail.
+1. Sélectionnez le composant de filtrage à copier en le sélectionnant dans la zone de travail de la requête. Pour sélectionner plusieurs composants, utilisez l’outil de sélection multiple disponible dans la barre d’outils située dans le coin supérieur droit de la zone de travail.
 
-1. Sélectionnez le bouton **[!UICONTROL Copier]** dans le volet Propriétés du composant ou dans le ruban bleu en bas de l’écran si vous avez sélectionné plusieurs composants.
+1. Sélectionnez le bouton **[!UICONTROL Copier]** dans le volet des propriétés du composant ou dans le ruban bleu situé en bas de l’écran si vous avez sélectionné plusieurs composants.
 
    | Copier un seul composant | Copier plusieurs composants |
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Pour coller le ou les composants, sélectionnez le bouton + à la fin de la transition souhaitée, suivi de **[!UICONTROL Coller n éléments]**.
+1. Pour coller le ou les composants, sélectionnez le bouton + situé à la fin de la transition souhaitée, puis **[!UICONTROL Coller n éléments]**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -216,7 +216,7 @@ Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type 
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Pour modifier l&#39;opérateur utilisé pour relier les conditions de filtrage, sélectionnez-le et choisissez l&#39;opérateur de votre choix dans le volet **[!UICONTROL Groupe]** qui s&#39;ouvre dans la partie droite.
+Pour changer l’opérateur utilisé pour relier les conditions de filtrage, sélectionnez-le ainsi qu’un autre dans le volet **[!UICONTROL Groupe]** qui s’ouvre sur la droite.
 
 Les opérateurs disponibles sont les suivants :
 
@@ -250,7 +250,7 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
   >
   >Sélectionnez un filtre prédéfini dans le volet Propriétés de la règle pour remplacer la requête qui a été créée dans la zone de travail par le filtre sélectionné.
 
-Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour l’enregistrer.
+Lorsque votre requête est prête, sélectionnez le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour effectuer l’enregistrement.
 
 Vous pouvez modifier votre requête à tout moment en l’ouvrant. Gardez à l’esprit que lors de l’ouverture d’une requête existante, elle s’affiche dans une vue simplifiée sans la visibilité des boutons **+**. Pour ajouter de nouveaux éléments à la requête, sélectionnez un composant ou un opérateur dans la zone de travail afin d’afficher les boutons **+**.
 

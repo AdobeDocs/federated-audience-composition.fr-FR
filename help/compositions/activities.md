@@ -1,23 +1,23 @@
 ---
 audience: end-user
-title: Présentation des activités
-description: Découvrez les différentes activités et transitions disponibles dans la composition de l’audience fédérée.
+title: Vue d’ensemble des activités
+description: Découvrez les différentes activités et transitions disponibles dans la composition d’audiences fédérées.
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4619'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
-# Présentation des activités
+# Vue d’ensemble des activités
 
-Dans la composition d’une audience fédérée, vous pouvez ajouter des activités et des transitions qui permettent de définir votre audience.
+Dans la composition d’audiences fédérées, vous pouvez ajouter des activités et des transitions qui permettent de définir votre audience.
 
 ## Activités {#activities}
 
 Les activités vous permettent de définir les composants dans l’audience.
 
-Il existe **deux** différents types d’activités à utiliser dans la composition de l’audience fédérée : les activités de ciblage et les activités de contrôle de flux.
+Il existe **deux** types d’activités différents à utiliser dans la composition d’audiences fédérées : les activités de ciblage et les activités de contrôle de flux.
 
 ### Activités de ciblage {#targeting}
 
@@ -30,21 +30,21 @@ Les activités de ciblage vous permettent de définir les éléments qui constit
 >title="Audience"
 >abstract="Sélectionnez votre audience."
 
-L’activité **Créer une audience** vous permet de définir votre population cible pour la composition. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
+L’activité **Créer une audience** vous permet de définir votre population cible pour la composition. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
 
 +++ Détails de la configuration
 
-Après avoir ajouté l’activité **Créer une audience** à la zone de travail de composition, attribuez un nom à votre audience. Vous pouvez maintenant indiquer si vous souhaitez créer une audience ou utiliser une audience existante.
+Après avoir ajouté l’activité **Créer une audience** à la zone de travail de composition, attribuez un nom à votre audience. Indiquez si vous souhaitez créer une audience ou en sélectionner une existante.
 
 >[!BEGINTABS]
 
 >[!TAB Créer une audience]
 
-Après avoir sélectionné **Créer une audience**, choisissez le **Schéma** pour votre audience. Le schéma permet de définir la population ciblée par l’opération, comme les destinataires, les bénéficiaires d’un contrat, les opérateurs ou les abonnés. Par défaut, le schéma est sélectionné parmi les personnes destinataires.
+Après avoir sélectionné **Créer une audience**, choisissez le **schéma** de votre audience. Le schéma vous permet de définir la population ciblée par l’opération, comme les personnes destinataires ou bénéficiaires d’un contrat, les opérateurs et opératrices ou les personnes abonnées. Par défaut, le schéma est sélectionné parmi les personnes destinataires.
 
 ![](./assets/activities/build-audience-create.png)
 
-Après avoir choisi un schéma, sélectionnez **Continuer**. Vous pouvez maintenant définir la définition de votre audience dans Query Modeler. Pour plus d’informations sur l’utilisation de Query Modeler, consultez la [présentation de Query Modeler](../query/home.md).
+Après avoir choisi un schéma, sélectionnez **Continuer**. Vous pouvez maintenant indiquer la définition de votre audience dans le concepteur de requête. Pour plus d’informations sur l’utilisation du concepteur de requête, consultez la [vue d’ensemble du concepteur de requête](../query/home.md).
 
 >[!TAB Utiliser une audience existante]
 
@@ -56,17 +56,17 @@ Vous pouvez maintenant sélectionner l’audience à utiliser pour votre composi
 
 >[!ENDTABS]
 
-Après avoir sélectionné vos options, vous pouvez choisir de **Générer une transition sortante**. En le sélectionnant, vous pouvez ajouter une transition sortante qui sera activée à la fin de l&#39;exécution de l&#39;activité si la population de l&#39;audience est vide.
+Après avoir sélectionné vos options, vous pouvez choisir de **Générer une transition sortante**. Cela vous permet d’ajouter une transition sortante qui sera activée à la fin de l’exécution de l’activité si la population de l’audience est vide.
 
 +++
 
 #### Modifier la source de données
 
-L’activité **Modifier la source de données** vous permet de modifier la source de données utilisée par votre composition.
+L’activité **Modifier la source de données** permet de modifier la source de données utilisée par votre composition.
 
 +++ Détails de la configuration
 
-Après avoir ajouté l’activité **Modifier la source de données** à la zone de travail de composition, vous pouvez définir la source de données qui sera utilisée pour la composition.
+Après avoir ajouté l’activité **Modifier la source de données** à la zone de travail de composition, vous pouvez définir la source de données qui sera utilisée pour la composition.
 
 ![L’option de source de données est mise en surbrillance dans l’espace de travail Composition d’audiences fédérées.](./assets/activities/configure.png){zoomable="yes"}{width="70%"}
 
@@ -92,11 +92,11 @@ Après avoir sélectionné **[!UICONTROL Compte externe FDA]**, vous pouvez choi
 >title="Activité Changement de dimension"
 >abstract="Cette activité vous permet de modifier le schéma, ou dimension de ciblage, à mesure que vous créez une audience. Elle déplace l’axe en fonction du modèle de données et du schéma d’entrée. Par exemple, vous pouvez passer du schéma « contrats » au schéma « clientèle »."
 
-L’activité **Modifier la dimension** permet de modifier le schéma (également appelé dimension de ciblage) de votre composition.
+L’activité **Changement de dimension** permet de modifier le schéma (également appelé dimension de ciblage) de votre composition.
 
 +++ Détails de la configuration
 
-Après avoir ajouté l’activité **Modifier la dimension** à la zone de travail de composition, vous pouvez définir un nouveau schéma pour remplacer le schéma précédent. Lors de la modification de ce schéma, tous les enregistrements seront conservés.
+Après avoir ajouté l’activité **Changement de dimension** à la zone de travail de composition, vous pouvez définir un nouveau schéma pour remplacer le schéma précédent. Lors du changement de schéma, tous les enregistrements sont conservés.
 
 ![](./assets/activities/change-dimension.png)
 
@@ -119,12 +119,12 @@ Une fois la composition exécutée, vos résultats sont mis à jour.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Options de fusion des exclusions"
->abstract="Le **Exclusion** permet d&#39;exclure des éléments d&#39;une population selon certains critères. Dans la section **Ensembles à joindre**, cochez les activités précédentes à joindre."
+>abstract="L’**exclusion** permet d’exclure des éléments d’une population en fonction de certains critères. Dans la section **Ensembles à joindre**, cochez les activités précédentes à joindre."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="Sélectionner le type de segmentation"
->abstract="Sélectionnez le mode de combinaison des audiences : union, intersection ou exclusion."
+>abstract="Choisissez comment combiner des audiences : union, intersection ou exclusion."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
@@ -139,7 +139,7 @@ Une fois la composition exécutée, vos résultats sont mis à jour.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Règles d’exclusion"
->abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, sélectionnez **Ajouter une règle** dans la section Règles **’exclusion** et spécifiez les conditions de modification du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
+>abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, sélectionnez **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -149,7 +149,7 @@ Une fois la composition exécutée, vos résultats sont mis à jour.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Règles d’exclusion"
->abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, sélectionnez **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de modification du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
+>abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, sélectionnez **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -158,17 +158,17 @@ Une fois la composition exécutée, vos résultats sont mis à jour.
 
 >[!NOTE]
 >
->L’activité **Combiner** **doit** doit être placée après une autre activité et **ne peut pas** au début de la composition.
+>L’activité **Combiner** **doit** doit être placée après une autre activité et **ne peut pas** être mise au début de la composition.
 
-L’activité **Combiner** vous permet de joindre plusieurs audiences de différentes manières : union, intersection ou exclusion.
+L’activité **Combiner** vous permet de joindre plusieurs audiences de différentes manières : union, intersection ou exclusion.
 
-- **Union** : une union combine les différentes audiences en une seule audience. Cela équivaut à une opération OR.
-- **Intersection** : une intersection combine les différentes audiences en une seule audience avec uniquement le contenu **partagé** conservé. Cela équivaut à une opération AND.
-- **Exclusion** : une exclusion combine les différentes audiences en une seule audience sans les règles d’exclusion spécifiées. Cela équivaut à une opération XOR.
+- **Union** : une union combine les différentes audiences en une seule audience. Cela équivaut à une opération OR.
+- **Intersection** : une intersection combine les différentes audiences en une seule audience avec uniquement le contenu **partagé** conservé. Cela équivaut à une opération AND.
+- **Exclusion** : une exclusion combine les différentes audiences en une seule audience sans les règles d’exclusion spécifiées. Cela équivaut à une opération XOR.
 
 +++ Détails de la configuration
 
-Après avoir ajouté plusieurs activités pour former au moins **deux** branches différentes, ajoutez l’activité **Combiner** à la fin de l’une des branches. Vous pouvez désormais choisir l’une des options de combinaison suivantes : Union, Intersection ou Exclusion.
+Après avoir ajouté plusieurs activités pour former au moins **deux** branches différentes, ajoutez l’activité **Combiner** à la fin de l’une des branches. Vous pouvez désormais choisir l’une des options de combinaison suivantes : Union, Intersection ou Exclusion.
 
 ![](./assets/activities/combine.png)
 
@@ -178,10 +178,10 @@ Après avoir ajouté plusieurs activités pour former au moins **deux** branches
 
 ![](./assets/activities/combine-union.png)
 
-Si vous sélectionnez **Union**, vous devez choisir le **Type de réconciliation** pour l’activité de combinaison. Le type de réconciliation permet de définir comment les entrées en double sont gérées.
+Si vous sélectionnez **Union**, vous devez choisir le **Type de réconciliation** pour l’activité de combinaison. Le type de réconciliation permet de définir comment les entrées en double sont gérées.
 
-- **Clés uniquement** : si vous sélectionnez **Clés uniquement** l’élément **un** est conservé lorsque plusieurs éléments possèdent la même clé. Vous ne pouvez utiliser cette option que si les populations entrantes sont homogènes.
-- **Une sélection de colonnes** : la sélection **Une sélection de colonnes** permet de définir une liste de colonnes sur lesquelles s&#39;applique la réconciliation des données. Vous pouvez sélectionner l&#39;ensemble principal de données qui contient les données sources, suivi des colonnes à utiliser pour la jointure.
+- **Clés uniquement** : sélectionner **Clés uniquement** conserve **un** élément lorsque plusieurs éléments ont la même clé. Vous ne pouvez utiliser cette option que si les populations entrantes sont homogènes.
+- **Une sélection de colonnes** : sélectionner **Une sélection de colonnes** permet de définir une liste de colonnes sur lesquelles s’applique la réconciliation des données. Vous pouvez sélectionner le jeu principal de données qui contient les données sources, suivi des colonnes à utiliser pour la jointure.
 
 >[!TAB Intersection]
 
@@ -189,20 +189,20 @@ Si vous sélectionnez **Union**, vous devez choisir le **Type de réconciliation
 
 Si vous sélectionnez **Intersection**, vous devez choisir le **Type de réconciliation** pour l’activité de combinaison. Le type de réconciliation permet de définir comment les entrées en double sont gérées.
 
-- **Clés uniquement** : si vous sélectionnez **Clés uniquement** l’élément **un** est conservé lorsque plusieurs éléments possèdent la même clé. Vous ne pouvez utiliser cette option que si les populations entrantes sont homogènes.
-- **Une sélection de colonnes** : la sélection **Une sélection de colonnes** permet de définir une liste de colonnes sur lesquelles s&#39;applique la réconciliation des données.
+- **Clés uniquement** : sélectionner **Clés uniquement** conserve **un** élément lorsque plusieurs éléments ont la même clé. Vous ne pouvez utiliser cette option que si les populations entrantes sont homogènes.
+- **Une sélection de colonnes** : sélectionner **Une sélection de colonnes** permet de définir une liste de colonnes sur lesquelles s’applique la réconciliation des données.
 
-Après avoir configuré votre type de réconciliation, vous pouvez également sélectionner l’option **Générer le complémentaire**. La génération d&#39;un complémentaire traite la population restante et contient les données **non** incluses dans l&#39;intersection. Une transition sortante supplémentaire sera ajoutée à l’activité.
+Après avoir configuré votre type de réconciliation, vous pouvez également sélectionner l’option **Générer le complément**. La génération d’un complément traite la population restante et contient les données **non** incluses dans l’intersection. Une transition sortante supplémentaire sera ajoutée à l’activité.
 
 >[!TAB Exclusion]
 
 ![](./assets/activities/combine-exclusion.png)
 
-Si vous sélectionnez **Exclusion**, vous devez sélectionner le jeu de Principal **&#x200B;**&#x200B;à partir de vos transitions entrantes. Cela représente les ensembles dont les éléments seront exclus.
+Si vous sélectionnez **Exclusion**, vous devez sélectionner le **jeu principal** à partir de vos transitions entrantes. Cela représente les jeux dont les éléments seront exclus.
 
-Après avoir choisi votre ensemble principal, vous pouvez configurer vos **Règles d’exclusion**. Vous pouvez sélectionner **Correspondre par attribut** ou **Joindre**.
+Après avoir choisi votre jeu principal, vous pouvez configurer vos **Règles d’exclusion**. Vous pouvez sélectionner **Correspondance par attribut** ou **Jointure**.
 
-Une fois vos règles d’exclusion configurées, vous pouvez également sélectionner l’option **Générer le complémentaire**. La génération d’un complémentaire traite la population restante et contient les données **non** incluses dans le cadre de l’exclusion. Une transition sortante supplémentaire sera ajoutée à l’activité.
+Une fois vos règles d’exclusion configurées, vous pouvez également sélectionner l’option **Générer le complément**. La génération d’un complément traite la population restante et contient les données **non** incluses dans le cadre de l’exclusion. Une transition sortante supplémentaire sera ajoutée à l’activité.
 
 +++
 
@@ -211,7 +211,7 @@ Une fois vos règles d’exclusion configurées, vous pouvez également sélecti
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Champs pour identifier les doublons"
->abstract="Dans la section **[!UICONTROL Champs pour identifier les doublons]** , cliquez sur le bouton **[!UICONTROL Ajouter un attribut]** pour indiquer les champs pour lesquels des valeurs identiques permettent d&#39;identifier les doublons, par exemple : l&#39;adresse email, le prénom, le nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier."
+>abstract="Dans la section **[!UICONTROL Champs pour identifier les doublons]**, sélectionnez le bouton **[!UICONTROL Ajouter un attribut]** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -234,9 +234,9 @@ L’activité **Déduplication** supprime tous les résultats en double dans l�
 
 >[!NOTE]
 >
->Si vous avez plusieurs transitions entrantes, vous devrez d’abord sélectionner le jeu de Principal **&#x200B;**&#x200B;dans la liste déroulante.
+>Si vous avez plusieurs transitions entrantes, vous devrez d’abord sélectionner le **jeu principal** dans la liste déroulante.
 
-Après avoir ajouté une activité **Déduplication**, vous pouvez choisir les champs pour identifier les doublons. Sélectionnez **Ajouter un attribut** pour identifier les champs où des doublons peuvent se produire.
+Après avoir ajouté une activité **Déduplication**, vous pouvez choisir les champs pour identifier les doublons. Sélectionnez **Ajouter un attribut** pour identifier les champs où des doublons peuvent se produire.
 
 ![](./assets/activities/deduplication.png)
 
@@ -244,10 +244,10 @@ Une fois que vous avez identifié vos champs, vous pouvez configurer vos paramè
 
 | Paramètre | Description |
 | ------- | ----------- |
-| Doublons à conserver | Nombre d’enregistrements en double à conserver. Si la valeur est définie sur 0, **tous** les enregistrements en double seront conservés. |
-| Méthode de déduplication | Méthode pour supprimer les enregistrements en double. <ul><li>**Sélection aléatoire** : l’enregistrement supprimé est choisi de manière aléatoire.</li><li>**À l’aide d’une expression** : l’enregistrement supprimé est basé sur l’expression envoyée. Vous pouvez effectuer un tri par ordre croissant ou décroissant, selon les valeurs que vous souhaitez supprimer.</li><li>**Valeurs non vides** : l’enregistrement supprimé est basé sur l’expression envoyée. Les enregistrements pour lesquels l&#39;expression n&#39;a pas de valeur seront supprimés.</li><li>**à la suite d’une liste de valeurs** : l’enregistrement supprimé est basé sur le champ ou l’expression envoyé(e). Vous pouvez trier les valeurs restantes de manière aléatoire par ordre croissant ou décroissant.</li></ul> |
+| Doublons à conserver | Nombre d’enregistrements en double à conserver. Si la valeur est définie sur 0, **tous** les enregistrements en double sont conservés. |
+| Méthode de déduplication | Méthode pour supprimer les enregistrements en double. <ul><li>**Sélection aléatoire** : l’enregistrement supprimé est choisi de manière aléatoire.</li><li>**À l’aide d’une expression** : l’enregistrement supprimé est basé sur l’expression envoyée. Vous pouvez effectuer un tri par ordre croissant ou décroissant, en fonction des valeurs que vous souhaitez supprimer.</li><li>**Valeurs non vides** : l’enregistrement supprimé est basé sur l’expression envoyée. Les enregistrements pour lesquels l’expression n’a pas de valeur seront supprimés.</li><li>**Suivant une liste de valeurs** : l’enregistrement supprimé est basé sur le champ ou l’expression envoyé. Vous pouvez trier les valeurs restantes de manière aléatoire par ordre croissant ou décroissant.</li></ul> |
 
-Vous pouvez également sélectionner l’option **Générer le complémentaire**. La génération d&#39;un complémentaire traite la population restante et contient les données **non** incluses dans le cadre de la déduplication. Une transition sortante supplémentaire sera ajoutée à l’activité.
+Vous pouvez également sélectionner l’option **Générer le complément**. La génération d’un complément traite la population restante et contient les données **non** incluses dans le cadre de la déduplication. Une transition sortante supplémentaire sera ajoutée à l’activité.
 
 +++
 
@@ -286,7 +286,7 @@ Si vous avez configuré une connexion à la destination de la composition d’au
 
 >[!NOTE]
 >
->Si vous avez plusieurs transitions entrantes, vous devrez d’abord sélectionner le jeu de Principal **&#x200B;**&#x200B;dans la liste déroulante.
+>Si vous avez plusieurs transitions entrantes, vous devrez d’abord sélectionner le **jeu principal** dans la liste déroulante.
 
 Après avoir ajouté l’activité **Enrichissement** à votre composition, vous pouvez sélectionner **Ajouter des données d’enrichissement** pour choisir l’attribut à utiliser pour enrichir votre composition. Vous pouvez sélectionner **Modifier l’expression** pour créer une expression avancée afin de sélectionner l’attribut.
 
@@ -343,35 +343,35 @@ Après avoir ajouté l’activité **Enrichissement** à votre composition, vous
 
 >[!NOTE]
 >
->Par défaut, les données non réconciliées sont conservées dans la transition sortante et sont disponibles dans la table de travail pour une utilisation ultérieure. Si vous ne souhaitez **pas** que les données réconciliées soient utilisées, désactivez l’option **Conserver les données non réconciliées**.
+>Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Si vous ne souhaitez **pas** que les données réconciliées soient utilisées, désactivez l’option **Conserver les données non réconciliées**.
 
-L&#39;activité **Réconciliation** permet de définir le lien entre les données de votre base fédérée et celles d&#39;une table de travail.
+L’activité **Réconciliation** vous permet de définir le lien entre les données dans la base de données et les données dans une table de travail.
 
 +++ Détails de la configuration
 
-Après avoir ajouté l’activité **Réconciliation** à votre composition, vous pouvez choisir le schéma à utiliser pour la réconciliation.
+Après avoir ajouté l’activité **Réconciliation** à votre composition, vous pouvez choisir le schéma à utiliser pour la réconciliation.
 
-Une fois le schéma choisi, vous devez configurer vos règles de réconciliation. Vous pouvez choisir entre **Attributs simples** ou **Conditions avancées de réconciliation**.
+Une fois le schéma choisi, vous devez configurer vos règles de réconciliation. Vous pouvez choisir entre **Attributs simples** et **Conditions avancées de réconciliation**.
 
 >[!BEGINTABS]
 
->[!TAB  Attributs simples ]
+>[!TAB Attributs simples]
 
 Après avoir choisi **Attributs simples**, sélectionnez **Ajouter une règle**. Vous pouvez maintenant configurer votre réconciliation en ajoutant les champs **Source** et **Destination**. Le champ **Destination** correspond aux champs du schéma sélectionné.
 
 ![](./assets/activities/reconciliation-rules.png)
 
-Les données sont réconciliées lorsque la source et la destination sont égales. Vous pouvez ajouter d&#39;autres critères de réconciliation en sélectionnant **Ajouter une règle**. Si plusieurs conditions de jointure sont spécifiées, **toutes** elles doivent être vérifiées afin que les données puissent être liées entre elles.
+Les données sont réconciliées lorsque la source et la destination sont égales. Vous pouvez ajouter d’autres critères de réconciliation en sélectionnant **Ajouter une règle**. Si plusieurs conditions de jointure sont spécifiées, elles doivent **toutes** être vérifiées afin que les données puissent être liées entre elles.
 
 >[!TAB Conditions avancées de réconciliation]
 
-Après avoir choisi **Conditions avancées de réconciliation**, sélectionnez **Créer des conditions**. Vous pouvez maintenant créer votre propre condition de réconciliation à l&#39;aide du requêteur. Pour plus d’informations sur l’utilisation de Query Modeler, consultez la [&#x200B; Présentation de Query Modeler &#x200B;](../query/home.md)
+Après avoir choisi **Conditions avancées de réconciliation**, sélectionnez **Créer des conditions**. Vous pouvez maintenant créer votre propre condition de réconciliation à l’aide du concepteur de requête. Pour plus d’informations sur l’utilisation du concepteur de requête, consultez la [vue d’ensemble du concepteur de requête](../query/home.md).
 
 ![](./assets/activities/reconciliation-advanced.png)
 
 >[!ENDTABS]
 
-Vous pouvez également filtrer les données réconciliées. Sélectionnez **Créer un filtre** pour créer une condition personnalisée à l’aide de Query Modeler. Pour plus d’informations sur l’utilisation de Query Modeler, consultez la [&#x200B; Présentation de Query Modeler &#x200B;](../query/home.md)
+Vous pouvez également filtrer les données réconciliées. Sélectionnez **Créer un filtre** pour créer une condition personnalisée à l’aide du concepteur de requête. Pour plus d’informations sur l’utilisation du concepteur de requête, consultez la [vue d’ensemble du concepteur de requête](../query/home.md).
 
 +++
 
@@ -403,21 +403,21 @@ Vous pouvez également filtrer les données réconciliées. Sélectionnez **Cré
 >
 >Si votre sandbox utilise une politique de fusion **Priorité du jeu de données**, contactez l’assistance clientèle d’Adobe pour ajouter le jeu de données `Halos UPS` à votre politique de fusion.
 >
->Pour plus d’informations sur les politiques de fusion, consultez la [présentation des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
+>Pour plus d’informations sur les politiques de fusion, consultez la [vue d’ensemble des politiques de fusion](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
 
-L’activité **Enregistrer l’audience** vous permet de créer une audience basée sur la composition. Une fois l’audience créée, vous pouvez l’utiliser dans le portail d’audiences de Adobe Experience Platform. Pour plus d’informations sur l’utilisation des audiences avec la composition d’audiences fédérées, consultez la [présentation des audiences](../start/audiences.md). Pour plus d’informations sur les audiences dans Experience Platform, consultez la [présentation du portail Audience](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+L’activité **Enregistrer l’audience** vous permet de créer une audience basée sur la composition. Une fois l’audience créée, vous pouvez l’utiliser dans le portail des audiences d’Adobe Experience Platform. Pour plus d’informations sur l’utilisation des audiences avec la composition d’audiences fédérées, consultez la [vue d’ensemble des audiences](../start/audiences.md). Pour plus d’informations sur les audiences dans Experience Platform, consultez la [vue d’ensemble du portail des audiences](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 +++ Détails de la configuration
 
 >[!IMPORTANT]
 >
->Le nom de l’audience **doit** doit être unique dans le sandbox actuel et ne peut pas avoir le même nom qu’une audience existante.
+>Le nom de l’audience **doit** être unique dans le sandbox actuel et ne peut pas avoir le même nom qu’une audience existante.
 
-Après avoir ajouté l’activité **Enregistrer l’audience** à votre composition, vous pouvez spécifier le nom de l’audience que vous venez de créer.
+Après avoir ajouté l’activité **Enregistrer l’audience** à votre composition, vous pouvez spécifier le nom de l’audience que vous venez de créer.
 
 ![](./assets/activities/save-audience.png)
 
-Vous pouvez maintenant spécifier vos mappages pour sélectionner les champs à transférer à l’audience nouvellement créée. Sélectionnez **Ajouter un mappage d’audience** et choisissez les champs d’audience source et cible, en répétant autant de fois que nécessaire.
+Vous pouvez maintenant spécifier vos mappages pour sélectionner les champs à transférer à l’audience nouvellement créée. Sélectionnez **Ajouter un mappage d’audience** et choisissez les champs d’audience source et cible, en répétant l’opération autant de fois que nécessaire.
 
 Après avoir ajouté vos mappages, vous pouvez sélectionner l’identité principale et l’espace de noms pour identifier les profils ciblés dans la base de données. Le champ Identité principale permet d’identifier les profils tandis que l’espace de noms d’identité sert de clé pour identifier l’identité.
 
@@ -438,7 +438,7 @@ Après avoir ajouté vos mappages, vous pouvez sélectionner l’identité princ
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
 >title="Filtre de l’activité Partage"
->abstract="Pour appliquer une condition de filtrage au sous-ensemble, sélectionnez **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage de votre choix à l’aide du modéliseur de requête. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
+>abstract="Pour appliquer une condition de filtrage au sous-ensemble, sélectionnez **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée à l’aide du concepteur de requête. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
@@ -470,33 +470,33 @@ Après avoir ajouté vos mappages, vous pouvez sélectionner l’identité princ
 >title="Permettre le chevauchement des populations de sortie"
 >abstract="L’option **[!UICONTROL Permettre le chevauchement des populations de sortie]** permet de gérer les populations qui appartiennent à plusieurs sous-ensembles. Lorsque la case n’est pas cochée, l’activité de partage fait en sorte qu’une personne destinataire ne puisse pas apparaître dans plusieurs transitions de sortie, même si elle répond aux critères de plusieurs sous-ensembles. Elles apparaissent ainsi dans la cible du premier onglet avec les critères correspondants. Lorsque la case est activée, les destinataires se trouvent dans plusieurs sous-ensembles s’ils ou elles répondent à leurs critères de filtre. "
 
-L&#39;activité **Partage** sépare la population entrante en plusieurs parties, selon les critères déterminés.
+L’activité **Partage** sépare la population entrante en plusieurs parties, selon les critères déterminés.
 
 +++ Détails de la configuration
 
 >[!IMPORTANT]
 >
->Lors de l&#39;exécution de l&#39;activité **Partage**, la population est séparée entre les différents sous-ensembles dans l&#39;ordre **dans lequel ils sont ajoutés**. Par exemple, si le premier sous-ensemble divise 70 % de la population initiale, le sous-ensemble suivant appliquera ses critères de sélection aux 30 % restants.
+>Lorsque l’activité **Partage** est exécutée, la population est séparée entre les différents sous-ensembles dans l’**ordre dans lequel ils sont ajoutés à l’activité**. Par exemple, si le premier sous-ensemble comprend 70 % de la population initiale, le sous-ensemble suivant applique ses critères de sélection aux 30 % restants.
 >
->Avant d’exécuter votre composition, assurez-vous d’avoir ordonné les sous-ensembles dans l’ordre dans lequel vous souhaitez que les divisions soient exécutées.
+>Avant d’exécuter votre composition, assurez-vous d’avoir ordonné les sous-ensembles dans l’ordre dans lequel vous souhaitez que les partages soient exécutés.
 
-Après avoir ajouté l’activité **Partage** à votre composition, vous pouvez maintenant déterminer comment sous-définir votre audience. Sélectionnez **Ajouter un segment** pour créer vos différents chemins d’embranchement.
+Après avoir ajouté l’activité **Partage** à votre composition, vous pouvez maintenant déterminer comment définir un sous-ensemble de votre audience. Sélectionnez **Ajouter un segment** pour créer vos différents chemins d’embranchement.
 
-Vous pouvez maintenant fournir des détails pour chacun de ces sous-chemins. Vous pouvez donner un nom au sous-chemin, ainsi que les conditions de filtrage. Pour créer une condition de filtrage, sélectionnez **Créer un filtre** et configurez la règle de filtrage à l’aide de Query Modeler. Pour plus d’informations sur l’utilisation de Query Modeler, consultez la [présentation de Query Modeler](../query/home.md).
+Vous pouvez maintenant fournir des détails pour chacun de ces sous-chemins. Vous pouvez donner un nom au sous-chemin, ainsi qu’aux conditions de filtrage. Pour appliquer une condition de filtrage, sélectionnez **Créer un filtre** et configurez la règle de filtrage à l’aide du concepteur de requête. Pour plus d’informations sur l’utilisation du concepteur de requête, consultez la [vue d’ensemble du concepteur de requête](../query/home.md).
 
-Une fois la condition de filtrage créée, vous pouvez appliquer les règles supplémentaires suivantes :
+Une fois la condition de filtrage créée, vous pouvez appliquer les règles supplémentaires suivantes :
 
-- **Activer la limite** : limite le nombre de profils qui peuvent être fractionnés en sous-ensemble. Vous pouvez le définir comme un nombre ou un pourcentage de la population.
+- **Activer la limite** : limite le nombre de profils qui peuvent être partagés dans le sous-ensemble. Vous pouvez définir la limite en nombre ou pourcentage de la population.
    - Si vous activez une limite, vous pouvez également classer les profils sélectionnés en fonction d’un attribut de profil spécifique. Activez **Activer le tri** et vous pouvez trier les attributs par ordre croissant ou décroissant.
-- **Ignorer la transition vide** : désactive la transition si la population entrante est vide.
+- **Ignorer la transition vide** : désactive la transition si la population entrante est vide.
 
 Maintenant que les sous-ensembles ont été configurés, vous pouvez définir quelques options supplémentaires.
 
 | Options | Description |
 | ------- | ----------- |
-| **Générer le complémentaire** | Crée une transition sortante qui contient la population restante. |
-| **Permettre le recouvrement des populations de sortie** | Si cette option est activée, le destinataire **ne peut pas** être présent dans plusieurs transitions sortantes et **uniquement** sera présent dans la première transition sortante. Si désactivé, le destinataire **peut** apparaît dans plusieurs transitions sortantes. |
-| **Générer tous les sous-ensembles dans la même table** | Regroupe tous les sous-ensembles dans une seule transition sortante. |
+| **Générer le complément** | Crée une transition sortante qui contient la population restante. |
+| **Permettre le chevauchement des populations de sortie** | Si cette option est activée, la personne destinataire **ne peut pas** être présente dans plusieurs transitions sortantes et sera présente **uniquement** dans la première transition sortante. Si elle est désactivée, la personne destinataire **peut** apparaître dans plusieurs transitions sortantes. |
+| **Générer tous les sous-ensembles dans le même tableau** | Regroupe tous les sous-ensembles dans une seule transition sortante. |
 
 +++
 
@@ -504,28 +504,28 @@ Maintenant que les sous-ensembles ont été configurés, vous pouvez définir qu
 
 Les activités de contrôle de flux vous permettent de définir l’organisation et la coordination de votre composition.
 
-#### Et rejoindre
+#### Rendez-vous
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
->title="Activité AND-join"
+>title="Activité Rendez-vous"
 >abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une composition. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la composition."
 
-L’activité **Rendez-vous** vous permet de combiner plusieurs branches d’une composition. Cette activité n’est déclenchée qu’une fois **toutes** les transitions entrantes sont activées.
+L’activité **Rendez-vous** vous permet de combiner plusieurs branches d’une composition. Cette activité n’est déclenchée qu’une fois que **toutes** les transitions entrantes sont activées.
 
 +++ Détails de la configuration
 
-Après avoir ajouté plusieurs activités pour former au moins deux branches différentes, vous pouvez ajouter l’activité **Rendez-vous** à la fin de l’une des branches.
+Après avoir ajouté plusieurs activités pour former au moins deux branches différentes, vous pouvez ajouter l’activité **Rendez-vous** à la fin de l’une des branches.
 
 ![](./assets/activities/and-join.png)
 
-Dans la section **Options de fusion**, vous pouvez sélectionner toutes les activités à synchroniser. De plus, vous pouvez choisir la transition entrante à conserver dans le menu déroulant du jeu de Principal **&#x200B;**.
+Dans la section **Options de fusion**, vous pouvez sélectionner toutes les activités que vous souhaitez synchroniser. De plus, vous pouvez choisir la transition entrante à conserver dans le menu déroulant du **jeu principal**.
 
 +++
 
 #### Fin
 
-L’activité **Fin** marque graphiquement la fin de la composition et n’a aucun impact fonctionnel.
+L’activité **Fin** permet d’illustrer la fin d’une composition et n’a aucun impact fonctionnel.
 
 #### Branchement
 
@@ -537,13 +537,13 @@ L’activité **Fin** marque graphiquement la fin de la composition et n’a auc
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
 >title="Transitions de l’activité Branchement"
->abstract="Par défaut, deux transitions sont créées avec une activité **Branchement**. Sélectionnez le bouton **Ajouter une transition** pour définir une transition sortante supplémentaire, puis saisissez son libellé."
+>abstract="Par défaut, deux transitions sont créées avec une activité **Branchement**. Sélectionnez le bouton **Ajouter une transition** pour définir une transition sortante supplémentaire, puis renseignez son libellé."
 
-L&#39;activité **Branchement** permet de créer plusieurs transitions sortantes qui démarrent simultanément plusieurs activités.
+L’activité **Branchement** permet de créer plusieurs transitions sortantes qui démarrent simultanément plusieurs activités.
 
 +++ Détails de la configuration
 
-Une fois que vous avez ajouté l’activité **Branchement** à votre composition, deux transitions sortantes sont automatiquement générées. Vous pouvez nommer ces transitions sortantes. De plus, vous pouvez sélectionner **Ajouter une transition** pour ajouter une autre transition sortante.
+Une fois que vous avez ajouté l’activité **Branchement** à votre composition, deux transitions sortantes sont automatiquement générées. Vous pouvez nommer ces transitions sortantes. De plus, vous pouvez sélectionner **Ajouter une transition** pour ajouter une autre transition sortante.
 
 ![](./assets/activities/fork.png)
 
@@ -566,7 +566,7 @@ Une fois que vous avez ajouté l’activité **Branchement** à votre compositio
 >title="Options du planificateur"
 >abstract="Définissez la fréquence du planificateur. Il peut être exécuté à un moment précis, ou encore une ou plusieurs fois par jour, semaine ou mois."
 
-L’activité **Planificateur** vous permet de planifier le moment de démarrage de l’exécution de la composition. Vous **devez** utiliser comme première activité de la composition.
+L’activité **Planificateur** vous permet de planifier le moment du démarrage de l’exécution de la composition. Vous **devez** l’utiliser comme première activité de la composition.
 
 +++ Détails de la configuration
 
@@ -584,59 +584,59 @@ Si vous sélectionnez **Une fois**, la composition n’est exécutée qu’une s
 
 >[!TAB Quotidien]
 
-Si vous sélectionnez **Quotidien**, la composition est exécutée une fois par jour. Cependant, vous pouvez indiquer le jour du mois où la composition est exécutée sous la section **Jour du mois**. Les valeurs possibles sont les suivantes : **Tous les jours**, **Jours de la semaine**, **Sur une période sélectionnée** et **Jours sélectionnés de la semaine**.
+Si vous sélectionnez **Quotidien**, la composition est exécutée une fois par jour. Cependant, vous pouvez indiquer le jour du mois où la composition est exécutée sous la section **Jour du mois**. Les valeurs possibles sont les suivantes : **Tous les jours**, **Jours de la semaine**, **Pendant une période sélectionnée** et **Jours sélectionnés de la semaine**.
 
 | Jour du mois | Description |
 | ---------------- | ----------- |
 | Tous les jours | La composition est exécutée tous les jours. |
-| Les jours de la semaine | La composition est exécutée tous les jours de la semaine. |
-| Pendant une période sélectionnée | La composition est exécutée tous les jours pendant la période sélectionnée. Vous pouvez définir la durée de la période de périodicité ainsi que la date de début de la période. |
-| Jours sélectionnés de la semaine | La composition est exécutée tous les jours de la semaine sélectionnée. |
+| Jours de la semaine | La composition est exécutée tous les jours de la semaine. |
+| Pendant une période sélectionnée | La composition est exécutée tous les jours pendant la période sélectionnée. Vous pouvez définir la durée de la période de récurrence ainsi que la date de début de la période. |
+| Jours sélectionnés de la semaine | La composition est exécutée tous les jours sélectionnés de la semaine. |
 
-Après avoir choisi le jour du mois où le planning sera exécuté, vous pouvez sélectionner **Prévisualiser les heures de lancement** pour vérifier le planning des dix prochaines exécutions de votre composition.
+Après avoir choisi le jour du mois où le planning sera exécuté, vous pouvez sélectionner **Prévisualiser les heures de lancement** pour vérifier le planning des dix prochaines exécutions de votre composition.
 
 >[!TAB Plusieurs fois par jour]
 
 Si vous sélectionnez **Plusieurs fois par jour**, la composition est exécutée plusieurs fois par jour. Vous pouvez choisir si la composition est exécutée à des heures spécifiques par jour ou périodiquement à des heures définies.
 
-Si vous sélectionnez **Heures sélectionnées**, vous pouvez choisir les heures spécifiques d’exécution de la composition. Si vous sélectionnez **Périodique**, vous pouvez choisir la fréquence d’exécution de la composition en heures ou minutes et l’heure de son exécution. Toutes les heures sont exprimées en UTC.
+Si vous sélectionnez **Heures sélectionnées**, vous pouvez choisir les heures spécifiques d’exécution de la composition. Si vous sélectionnez **Périodique**, vous pouvez choisir la fréquence d’exécution de la composition en heures ou minutes et les plages horaires de son exécution. Toutes les heures correspondent au fuseau horaire UTC.
 
 Après avoir sélectionné les heures, vous pouvez choisir la fréquence d’exécution sous la section **Jour du mois**.
 
 | Jour du mois | Description |
 | ---------------- | ----------- |
 | Tous les jours de la semaine | La composition est exécutée tous les jours. |
-| Certains jours de la semaine | La composition est exécutée tous les jours de la semaine sélectionnée. |
+| Certains jours de la semaine | La composition est exécutée tous les jours sélectionnés de la semaine. |
 
-Après avoir choisi le jour du mois où le planning sera exécuté, vous pouvez sélectionner **Prévisualiser les heures de lancement** pour vérifier le planning des dix prochaines exécutions de votre composition.
+Après avoir choisi le jour du mois où le planning sera exécuté, vous pouvez sélectionner **Prévisualiser les heures de lancement** pour vérifier le planning des dix prochaines exécutions de votre composition.
 
 >[!TAB Hebdomadaire]
 
-Si vous sélectionnez **Hebdomadaire**, la composition est exécutée à la fréquence hebdomadaire définie. Si vous définissez la fréquence hebdomadaire sur un nombre supérieur à 1, vous pouvez également choisir la date à partir de laquelle l’exécution commence.
+Si vous sélectionnez **Hebdomadaire**, la composition est exécutée à la fréquence hebdomadaire définie. Si vous définissez la fréquence hebdomadaire sur une valeur supérieure à 1, vous pouvez également choisir la date à partir de laquelle l’exécution commence.
 
 Après avoir choisi la fréquence d’évaluation, vous pouvez choisir la fréquence d’exécution sous la section **Jour du mois**.
 
 | Jour du mois | Description |
 | ---------------- | ----------- |
 | Tous les jours de la semaine | La composition est exécutée tous les jours. |
-| Certains jours de la semaine | La composition est exécutée tous les jours de la semaine sélectionnée. |
+| Certains jours de la semaine | La composition est exécutée tous les jours sélectionnés de la semaine. |
 
-Après avoir choisi le jour du mois où le planning sera exécuté, vous pouvez sélectionner **Prévisualiser les heures de lancement** pour vérifier le planning des dix prochaines exécutions de votre composition.
+Après avoir choisi le jour du mois où le planning sera exécuté, vous pouvez sélectionner **Prévisualiser les heures de lancement** pour vérifier le planning des dix prochaines exécutions de votre composition.
 
 >[!TAB Mensuel]
 
-Si vous sélectionnez **Mensuel**, la composition est exécutée à la fréquence mensuelle définie. Vous pouvez le définir sur tous les mois ou sur certains mois.
+Si vous sélectionnez **Mensuel**, la composition est exécutée à la fréquence mensuelle définie. Vous pouvez la définir sur tous les mois ou sur certains mois.
 
-Après avoir choisi la fréquence mensuelle, vous pouvez choisir le **Jour du mois** l’exécution est lancée.
+Après avoir choisi la fréquence mensuelle, vous pouvez choisir le **Jour du mois** auquel l’exécution est exécutée.
 
 | Jour du mois | Description |
 | ---------------- | ----------- |
 | Tous les jours | La composition est exécutée tous les jours. |
-| Les jours de la semaine | La composition est exécutée tous les jours de la semaine. |
-| Pendant une période sélectionnée | La composition est exécutée tous les jours pendant la période sélectionnée. Vous pouvez définir la durée de la période de périodicité ainsi que la date de début de la période. |
-| Jours sélectionnés de la semaine | La composition est exécutée tous les jours de la semaine sélectionnée. |
+| Jours de la semaine | La composition est exécutée tous les jours de la semaine. |
+| Pendant une période sélectionnée | La composition est exécutée tous les jours pendant la période sélectionnée. Vous pouvez définir la durée de la période de récurrence ainsi que la date de début de la période. |
+| Jours sélectionnés de la semaine | La composition est exécutée tous les jours sélectionnés de la semaine. |
 
-Une fois que vous avez défini le **Jour du mois**, vous pouvez choisir l’heure de début. Toutes les heures sont exprimées en UTC.
+Une fois que vous avez défini le **Jour du mois**, vous pouvez choisir l’heure de début. Toutes les heures correspondent au fuseau horaire UTC.
 
 >[!ENDTABS]
 
@@ -660,25 +660,25 @@ L’activité **Attente** suspend l’exécution de la composition pendant la du
 
 +++ Détails de la configuration
 
-Après avoir ajouté l’activité **Attente** à votre composition, vous pouvez la faire attendre soit sous la forme d’une **Durée** soit d’une **Durée fixe**.
+Après avoir ajouté l’activité **Attente** à votre composition, vous pouvez la faire attendre soit sous la forme d’une **Durée** soit d’une **Heure fixe**.
 
 ![](./assets/activities/wait.png)
 
 Si vous sélectionnez la durée, vous pouvez définir la période d’attente. Cette période peut être exprimée en secondes, minutes, heures ou jours.
 
-Si vous sélectionnez une heure fixe, vous pouvez définir la composition pour qu’elle attende la date et de l’heure données. L’heure est définie sur votre **fuseau horaire local**.
+Si vous sélectionnez une heure fixe, vous pouvez définir la composition pour qu’elle attende la date et l’heure données. L’heure est définie sur votre **fuseau horaire local**.
 
 +++
 
 ## Transitions {#transitions}
 
-Dans les compositions, les transitions montrent comment les données sont transportées d’une activité à une autre. Les transitions stockent les données dans une table de travail temporaire. Si vous sélectionnez la transition, vous pouvez afficher les informations suivantes :
+Dans les compositions, les transitions montrent comment les données sont transportées d’une activité à une autre. Les transitions stockent les données dans une table de travail temporaire. Si vous sélectionnez la transition, vous pouvez consulter les informations suivantes :
 
-- **Aperçu du schéma** : sélectionnez cette option pour visualiser le schéma de la table de travail.
-- **Prévisualiser les résultats** : sélectionnez cette option pour visualiser les données transportées dans la transition sélectionnée. Cette option n’est disponible que si l’option **Conserver le résultat des populations intermédiaires entre deux exécutions** est activée.
+- **Aperçu du schéma** : sélectionnez cette option pour afficher le schéma de la table de travail.
+- **Prévisualiser les résultats** : sélectionnez cette option pour visualiser les données transportées dans la transition sélectionnée. Cette option n’est disponible que si l’option **Conserver le résultat des populations intermédiaires entre deux exécutions** est activée.
 
 ![](assets/transition-preview.png)
 
 ## Étapes suivantes {#next-steps}
 
-Après avoir lu ce guide, vous aurez une meilleure compréhension des activités et des transitions que vous pouvez utiliser dans une composition. Pour plus d’informations sur les compositions en général, lisez la [présentation de la composition](./create-composition.md).
+Après avoir lu ce guide, vous comprendrez mieux les activités et les transitions que vous pouvez utiliser dans une composition. Pour plus d’informations sur les compositions en général, consultez la [vue d’ensemble des compositions](./create-composition.md).

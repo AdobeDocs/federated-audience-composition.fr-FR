@@ -3,7 +3,7 @@ title: Confidentialité et sécurité de la composition d’audiences fédérée
 description: Découvrez comment la composition d’audiences fédérées traite la confidentialité et la sécurité des données d’utilisation, y compris les fonctionnalités telles que la gouvernance des données, l’application du consentement, le contrôle d’accès, le chiffrement des données et la conformité en matière de confidentialité.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
 ht-degree: 100%
 

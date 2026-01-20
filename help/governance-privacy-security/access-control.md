@@ -3,7 +3,7 @@ title: Contrôle d’accès dans la composition d’audiences fédérées
 description: Découvrez comment gérer l’accès aux données pour les utilisateurs et les utilisatrices dans la composition d’audiences fédérées.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Vous pouvez également attribuer l’un des rôles préexistants aux utilisateur
 | Gestionnaires de composition FAC | <ul><li>Gestion des compositions fédérées</li></ul> |
 | Administrateurs et administratrices FAC | <ul><li>Gestion des données fédérées</li></ul> |
 
-La personne recevra un e-mail avec des instructions pour accéder à votre instance. Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez cette [documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users).
+La personne recevra un e-mail avec des instructions pour accéder à votre instance. Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez [cette documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 ## Gérer l’accès à des compositions spécifiques
 

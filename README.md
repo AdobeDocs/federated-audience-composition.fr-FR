@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # Article sur les contributions
@@ -26,8 +26,8 @@ Ce projet a adopté le [code de conduite Adobe Open Source](code-of-conduct.md) 
 Si vous contribuez à une mise à jour mineure, procédez comme suit :
 
 1. Accédez à la rubrique que vous souhaitez modifier.
-2. Dans la bannière « Ce contenu a-t-il été utile ? » Dans la bannière qui s’affiche en bas de la fenêtre du navigateur, sélectionnez **Options de commentaires détaillés**.
-3. Sélectionnez **Suggérer une modification** et envoyez une requête de tirage avec vos modifications dans l’interface utilisateur GitHub.
+2. Dans la bannière « Ce contenu a-t-il été utile ? » qui apparaît au bas de la fenêtre de votre navigateur, sélectionnez **Options de commentaires détaillées**.
+3. Sélectionnez **Suggérer une modification** et envoyez une requête d’extraction (PR) avec vos modifications dans l’interface d’utilisation GitHub.
 
    Pour plus d’informations, consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
 
