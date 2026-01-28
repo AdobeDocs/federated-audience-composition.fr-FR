@@ -25,7 +25,7 @@ La version de janvier de la composition de l’audience fédérée prend en char
 
 | Disponibilité pour les clients Adobe Experience Platform sous Amazon Web Services (AWS) |
 | --- |
-| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
+| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/multi-cloud). |
 
 ### Améliorations {#fac-26-01-improvements}
 
