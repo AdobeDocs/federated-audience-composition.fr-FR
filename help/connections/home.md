@@ -3,10 +3,10 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
+source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 100%
+source-wordcount: '2616'
+ht-degree: 88%
 
 ---
 
@@ -27,14 +27,14 @@ La composition d’audiences fédérées Experience Platform permet de créer e
 
 Pour travailler avec votre base de données fédérée et Adobe Experience Platform, vous devez d’abord établir une connexion entre les deux sources. Avec la composition d’audiences fédérées, vous pouvez vous connecter aux bases de données suivantes.
 
-* Amazon Redshift
-* Azure Synapse Analytics
-* Databricks
-* Google BigQuery
-* Microsoft Fabric
-* Oracle
-* Snowflake
-* Vertica Analytics
+- Amazon Redshift
+- Azure Synapse Analytics
+- Databricks
+- Google BigQuery
+- Microsoft Fabric
+- Oracle
+- Snowflake
+- Vertica Analytics
 
 ## Créer une connexion {#create}
 
@@ -83,10 +83,50 @@ Après avoir sélectionné Azure Synapse Analytics, vous pouvez ajouter les d�
 | Champ | Description |
 | ----- | ----------- |
 | Serveur | URL du serveur Azure Synapse. |
-| Compte | Nom d’utilisateur ou d’utilisatrice du compte Azure Synapse. |
-| Mot de passe | Mot de passe du compte Azure Synapse. |
+| Compte | L’ID d’application (**ID client**) de l’enregistrement de l’application Azure. |
+| Mot de passe | La valeur **Secret client** de l’application Azure. |
 | Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
 | Options | Options supplémentaires pour la connexion. Pour Azure Synapse Analytics, vous pouvez spécifier le type d’authentification pris en charge par le connecteur. Actuellement, la composition d’audiences fédérées prend en charge `ActiveDirectoryMSI`. Pour plus d’informations sur les chaînes de connexion, consultez la section [Exemple de chaîne de connexion de la documentation Microsoft](https://learn.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}. |
+
+Vous pouvez également configurer en toute sécurité votre connexion Azure Synapse Analytics à l’aide de l’authentification de Service Principal. Vous devez utiliser l’authentification de Service Principal pour les intégrations de niveau production ainsi que pour les scénarios d’automatisation.
+
++++ Conditions préalables
+
+Avant de configurer votre authentification de principal de service, notez les conditions préalables suivantes :
+
+- Un abonnement Azure avec accès à Microsoft Entra ID
+- Un espace de travail et une base de données Azure Synapse
+- Autorisation de créer l’enregistrement de l’application
+- Autorisation de gérer les rôles de base de données Azure Synapse
+- Autorisation de mettre à jour les configurations de Federated Database
+
++++
+
+Dans le portail Azure, vous devrez d’abord créer un enregistrement d’application. Sélectionnez **Enregistrer** après avoir attribué un nom unique à l’application. La page **Aperçu** s’affiche. Veillez à noter les valeurs **ID d’application (client)** et **ID d’annuaire (client)**.
+
+![L’identifiant (client) d’application dans la page d’aperçu est mis en surbrillance.](/help/connections/assets/home/azure-client-id.png)
+
+Dans l’application nouvellement enregistrée, sélectionnez **Certificats et secrets**. À partir de là, sélectionnez **Nouveau secret client** dans la section **Secrets client** pour créer un secret client. Après avoir fourni une description et une date d’expiration, sélectionnez **Ajouter** pour générer le secret client.
+
+>[!IMPORTANT]
+>
+>Après avoir généré votre secret client, copiez et stockez en toute sécurité votre **valeur du secret client**. Cette valeur **ne sera plus** visible.
+
+Maintenant que vous avez généré votre secret client, vous devez vous assurer que vous avez accordé l’identité **Principal de service** à la ressource.
+
+Pour plus d’informations sur l’attribution d’identités aux ressources, consultez le guide [Identités gérées pour Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
+
+Puisque vous avez terminé toutes vos configurations côté Azure, vous pouvez maintenant configurer vos configurations côté Federated-Audience-Composition.
+
+Dans votre connexion Azure Synapse, définissez les détails de configuration suivants :
+
+| Champ | Description |
+| ----- | ----------- |
+| Serveur | URL du serveur Azure Synapse. |
+| Compte | L’ID d’application (**ID client**) de l’enregistrement de l’application Azure. |
+| Mot de passe | La valeur **Secret client** de l’application Azure. |
+| Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
+| Options | Options supplémentaires pour la connexion. Pour utiliser l’authentification du principal de service, vous devez définir `Authentication="ActiveDirectoryServicePrincipal"`. |
 
 >[!TAB Databricks]
 

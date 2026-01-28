@@ -2,10 +2,10 @@
 audience: end-user
 title: Vue d’ensemble des activités
 description: Découvrez les différentes activités et transitions disponibles dans la composition d’audiences fédérées.
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: ht
-source-wordcount: '4619'
-ht-degree: 100%
+source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+workflow-type: tm+mt
+source-wordcount: '4662'
+ht-degree: 99%
 
 ---
 
@@ -420,6 +420,8 @@ Après avoir ajouté l’activité **Enregistrer l’audience** à votre compos
 Vous pouvez maintenant spécifier vos mappages pour sélectionner les champs à transférer à l’audience nouvellement créée. Sélectionnez **Ajouter un mappage d’audience** et choisissez les champs d’audience source et cible, en répétant l’opération autant de fois que nécessaire.
 
 Après avoir ajouté vos mappages, vous pouvez sélectionner l’identité principale et l’espace de noms pour identifier les profils ciblés dans la base de données. Le champ Identité principale permet d’identifier les profils tandis que l’espace de noms d’identité sert de clé pour identifier l’identité.
+
+De plus, vous pouvez définir l’expiration des données pour l’audience. L’expiration des données détermine le nombre de jours après lequel l’appartenance à l’audience expirera. L’expiration des données peut prendre entre 1 et 90 jours. Par défaut, cette valeur est définie sur 30.
 
 +++
 
