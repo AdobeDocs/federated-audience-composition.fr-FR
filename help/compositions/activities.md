@@ -2,7 +2,7 @@
 audience: end-user
 title: Vue d’ensemble des activités
 description: Découvrez les différentes activités et transitions disponibles dans la composition d’audiences fédérées.
-source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
 workflow-type: tm+mt
 source-wordcount: '4662'
 ht-degree: 99%
@@ -23,7 +23,7 @@ Il existe **deux** types d’activités différents à utiliser dans la composi
 
 Les activités de ciblage vous permettent de définir les éléments qui constituent votre audience pour la composition.
 
-#### Créer une audience
+#### Créer une audience {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -60,7 +60,7 @@ Après avoir sélectionné vos options, vous pouvez choisir de **Générer une t
 
 +++
 
-#### Modifier la source de données
+#### Modifier la source de données {#change-data-source}
 
 L’activité **Modifier la source de données** permet de modifier la source de données utilisée par votre composition.
 
@@ -80,7 +80,7 @@ Après avoir sélectionné **[!UICONTROL Compte externe FDA]**, vous pouvez choi
 
 +++
 
-#### Changement de dimension
+#### Changement de dimension {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -104,7 +104,7 @@ Une fois la composition exécutée, vos résultats sont mis à jour.
 
 +++
 
-#### Combiner
+#### Combiner {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -206,7 +206,7 @@ Une fois vos règles d’exclusion configurées, vous pouvez également sélecti
 
 +++
 
-#### Déduplication
+#### Déduplication {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -251,7 +251,7 @@ Vous pouvez également sélectionner l’option **Générer le complément**. La
 
 +++
 
-#### Enrichissement
+#### Enrichissement {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -294,7 +294,7 @@ Après avoir ajouté l’activité **Enrichissement** à votre composition, vous
 
 +++
 
-#### Réconciliation
+#### Réconciliation {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -375,7 +375,7 @@ Vous pouvez également filtrer les données réconciliées. Sélectionnez **Cr�
 
 +++
 
-#### Enregistrer l’audience
+#### Enregistrer l’audience {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -415,7 +415,7 @@ L’activité **Enregistrer l’audience** vous permet de créer une audience ba
 
 Après avoir ajouté l’activité **Enregistrer l’audience** à votre composition, vous pouvez spécifier le nom de l’audience que vous venez de créer.
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 Vous pouvez maintenant spécifier vos mappages pour sélectionner les champs à transférer à l’audience nouvellement créée. Sélectionnez **Ajouter un mappage d’audience** et choisissez les champs d’audience source et cible, en répétant l’opération autant de fois que nécessaire.
 
@@ -425,7 +425,7 @@ De plus, vous pouvez définir l’expiration des données pour l’audience. L�
 
 +++
 
-#### Partage
+#### Partage {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -506,7 +506,7 @@ Maintenant que les sous-ensembles ont été configurés, vous pouvez définir qu
 
 Les activités de contrôle de flux vous permettent de définir l’organisation et la coordination de votre composition.
 
-#### Rendez-vous
+#### Rendez-vous {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -525,11 +525,11 @@ Dans la section **Options de fusion**, vous pouvez sélectionner toutes les acti
 
 +++
 
-#### Fin
+#### Fin {#end}
 
 L’activité **Fin** permet d’illustrer la fin d’une composition et n’a aucun impact fonctionnel.
 
-#### Branchement
+#### Branchement {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -551,7 +551,7 @@ Une fois que vous avez ajouté l’activité **Branchement** à votre compositio
 
 +++
 
-#### Planificateur
+#### Planificateur {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -651,7 +651,7 @@ Après avoir sélectionné la fréquence d’exécution, vous pouvez choisir la 
 
 +++
 
-#### Attente
+#### Attente {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
