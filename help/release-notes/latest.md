@@ -2,7 +2,7 @@
 title: Notes De Mise À Jour De La Composition D’Audiences Fédérées
 description: Dernières mises à jour et notes de mise à jour pour la composition d’audiences fédérées.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 77591055e0561de07053c1ca5a0c6ab9551a5dfe
+source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 24%
@@ -26,7 +26,7 @@ La version de janvier de la composition de l’audience fédérée prend en char
 
 | Disponibilité pour les clients Adobe Experience Platform sous Amazon Web Services (AWS) |
 | --- |
-| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/multi-cloud). |
+| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Améliorations {#fac-26-01-improvements}
 
@@ -37,3 +37,4 @@ Cette version s’accompagne de l’amélioration suivante.
   Vous pouvez désormais définir une expiration de données lors de l’utilisation de l’activité **Enregistrer l’audience** dans une composition.
 
   Pour en savoir plus sur l’expiration des données dans la composition d’audiences fédérées, consultez le guide [activités](../compositions/activities.md#save-audience).
+
