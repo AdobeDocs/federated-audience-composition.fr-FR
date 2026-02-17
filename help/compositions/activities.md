@@ -2,10 +2,11 @@
 audience: end-user
 title: Vue d’ensemble des activités
 description: Découvrez les différentes activités et transitions disponibles dans la composition d’audiences fédérées.
-source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
-source-wordcount: '4662'
-ht-degree: 99%
+source-wordcount: '5001'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +21,81 @@ Les activités vous permettent de définir les composants dans l’audience.
 Il existe **deux** types d’activités différents à utiliser dans la composition d’audiences fédérées : les activités de ciblage et les activités de contrôle de flux.
 
 ### Activités de ciblage {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Enrichir les champs"
+>abstract="L&#39;activité Enrichir les champs permet d&#39;enrichir les schémas Experience Platform en fédérant les données d&#39;entrepôts externes, ce qui permet d&#39;enrichir les schémas Experience Platform avec des attributs supplémentaires. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Champ d’espace de noms d’identification du Principal"
+>abstract="Espace de noms de l’identité principale. L’espace de noms fournit un contexte pour décrire la classification de l’identité principale."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Sélectionner le schéma Experience Platform"
+>abstract="Choisissez le schéma Experience Platform à enrichir."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Mode de mise à jour des champs enrichis"
+>abstract="Les modes de mise à jour disponibles pour l’activité d’enrichissement de champs incluent la mise à jour complète et la mise à jour incrémentielle."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Mise à jour complète"
+>abstract="Le mode de mise à jour complète met à jour l’ensemble complet des attributs dans les schémas sélectionnés."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Mise à jour incrémentielle"
+>abstract="Le mode de mise à jour incrémentielle met à jour les champs qui ont été modifiés depuis la dernière exécution de l’enrichissement."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Champ d’identité principale"
+>abstract="Le champ Identité principale indique la source de vérité lors de la fusion des profils pour l’enrichissement."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Critères des champs obligatoires"
+>abstract="Un champ obligatoire est un attribut qui doit être renseigné pour chaque profil ou enregistrement lors de l’export de données. S’il manque un champ obligatoire, l’export ne sera ni complet ni valide."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Critères du champ d’identité principale"
+>abstract="Identifiant unique de chaque profil ou enregistrement. Cela permet de s’assurer que chaque enregistrement peut être reconnu et mis en correspondance, ce qui évite la duplication des données."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Liste de schémas"
+>abstract="Liste des schémas disponibles dans votre sandbox. Vous pouvez sélectionner des schémas standard ou relationnels."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Sélectionner un attribut"
+>abstract="Vous pouvez créer un mappage source/destination pour les champs."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Sélectionner un jeu de données"
+>abstract="Liste des jeux de données appartenant au schéma. Vous pouvez sélectionner le jeu de données dans lequel vous souhaitez enregistrer les données enrichies."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Clé primaire"
+>abstract="Clé primaire du schéma relationnel. Cette valeur garantit l’unicité dans les jeux de données en empêchant l’ingestion d’enregistrements en double."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Descripteur de version"
+>abstract="Descripteur de version du schéma relationnel. Cette valeur permet de déterminer quelle propriété est prioritaire si plusieurs valeurs partagent la même clé primaire, en s’assurant que la dernière mise à jour est appliquée."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Descripteur d’horodatage"
+>abstract="Descripteur d’horodatage du schéma relationnel. Cette valeur permet de définir l’heure de l’événement pour la commande et n’existe que si vous utilisez des données de série temporelle."
 
 Les activités de ciblage vous permettent de définir les éléments qui constituent votre audience pour la composition.
 
