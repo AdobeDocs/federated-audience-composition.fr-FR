@@ -4,7 +4,7 @@ title: Créer votre première requête à l’aide du concepteur de requête
 description: Découvrir comment créer votre première requête dans le concepteur de requête
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 100%
 

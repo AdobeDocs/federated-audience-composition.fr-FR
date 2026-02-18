@@ -10,7 +10,7 @@ ht-degree: 98%
 
 ---
 
-# Présentation des schémas {#schemas}
+# Vue d’ensemble des schémas {#schemas}
 
 >[!AVAILABILITY]
 >

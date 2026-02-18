@@ -4,7 +4,7 @@ title: Vue d’ensemble du concepteur de requête
 description: Découvrez comment utiliser le concepteur de requête pour définir des règles afin de filtrer votre base de données.
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
 

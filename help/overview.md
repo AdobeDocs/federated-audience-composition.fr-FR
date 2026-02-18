@@ -1,15 +1,15 @@
 ---
-title: Présentation de la composition de l’audience fédérée
+title: Vue d’ensemble de la composition d’audiences fédérées
 description: Découvrez la composition d’Adobe Federated Audience et comment l’utiliser dans des services en aval tels que Adobe Experience Platform et Adobe Journey Optimizer
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
-# Présentation de la composition de l’audience fédérée
+# Vue d’ensemble de la composition d’audiences fédérées
 
 La composition de l’audience fédérée vous permet de créer et d’enrichir des audiences à partir de vos entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform. Vous bénéficiez ainsi d’une solution simple et puissante pour connecter votre entrepôt de données d’entreprise directement au sein de services en aval tels qu’Adobe Real-Time Customer Data Platform ou Adobe Journey Optimizer et exécuter des requêtes sur les tables de votre entrepôt de données. Par conséquent, vous pouvez accéder aux données client stockées dans des entrepôts de données et des plateformes de stockage dans le cloud telles qu’Amazon Redshift et Azure Synapse Analytics.
 
@@ -111,7 +111,7 @@ Pour obtenir des réponses aux questions fréquentes, lisez le [FAQ sur la compo
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery"
 >title="Requête incrémentale"
->abstract="L’activité **Requête incrémentale** vous permet d’interroger la base de données à l’aide du concepteur de requête. À chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments."
+>abstract="L’activité **Requête incrémentale** vous permet d’interroger la base de données à l’aide du concepteur de requête. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery_history"
