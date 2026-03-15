@@ -3,10 +3,10 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '2616'
-ht-degree: 88%
+source-wordcount: '2970'
+ht-degree: 75%
 
 ---
 
@@ -70,7 +70,7 @@ Après avoir sélectionné Amazon Redshift, vous pouvez ajouter les détails su
 | Compte | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
 | Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. Vous trouverez plus d’informations sur cette fonctionnalité dans la [documentation des schémas Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Note :** vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. Vous trouverez plus d’informations sur cette fonctionnalité dans la documentation [Schémas Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Remarque :** vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 
 >[!TAB Azure Synapse Analytics]
 
@@ -134,15 +134,39 @@ Dans votre connexion Azure Synapse, définissez les détails de configuration su
 >
 >L’accès sécurisé à votre entrepôt de données Databricks externe par le biais d’un lien privé est pris en charge. Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via un lien privé et aux bases de données Databricks hébergées sur Microsoft Azure via un VPN. Contactez votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé.
 
-Après avoir sélectionné Databricks, vous pouvez ajouter les détails suivants :
+Après avoir sélectionné les briques de données, vous pouvez choisir la méthode d’authentification à utiliser lors de la connexion à la composition d’audiences fédérées.
+
+Si vous sélectionnez **Authentification par compte/mot de passe**, vous pouvez ajouter les informations de connexion suivantes :
 
 | Champ | Description |
 | ----- | ----------- |
 | Serveur | Nom du serveur Databricks. |
-| Chemin HTTP | Chemin d’accès à votre cluster ou entrepôt de données. Pour plus d’informations sur le chemin d’accès, consultez la [documentation de Databricks sur les détails de connexion](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Mot de passe | Jeton d’accès du serveur Databricks. Pour plus d’informations sur cette valeur, consultez la [documentation de Databricks sur les jetons d’accès personnel](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
+
+Si vous sélectionnez **Authentification du principal de service**, vous pouvez ajouter les détails suivants :
+
+| Champ | Description |
+| ----- | ----------- |
+| Serveur | Nom du serveur Databricks. |
+| Identifiant client | Identifiant client de votre serveur Databricks. Ce champ agit comme un nom d’utilisation pour votre projet. |
+| Secret client | Secret client de votre serveur Databricks. Ce champ agit comme un mot de passe pour votre projet. |
+
+Si vous sélectionnez **OAuth 2.0**, vous pouvez ajouter les détails suivants :
+
+| Champ | Description |
+| ----- | ----------- |
+| Serveur | Nom du serveur Databricks. |
+| Identifiant client | Identifiant client de votre serveur Databricks. Ce champ est utilisé pour identifier l’application lors de l’authentification OAuth 2.0 et agit comme un nom d’utilisateur pour votre projet. |
+| Secret client | Secret client de votre serveur Databricks. Ces informations d’identification confidentielles sont émises avec l’identifiant client et agissent comme un mot de passe pour votre projet. |
+| Étendue d’accès | Informations préremplies qui répertorient les portées pour lesquelles votre jeton OAuth est autorisé dans votre serveur Databricks. |
+
+Après avoir saisi vos informations de connexion, vous pouvez ajouter les informations suivantes :
+
+| Champ | Description |
+| ----- | ----------- |
+| Chemin HTTP | Chemin d’accès à votre cluster ou entrepôt de données. Pour plus d’informations sur le chemin d’accès, consultez la [documentation de Databricks sur les détails de connexion](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Catalogue | Nom du catalogue Databricks. Pour plus d’informations sur les catalogues dans Databricks, consultez la [documentation de Databricks sur les catalogues](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Remarque** vous pouvez utiliser n’importe quel schéma de la base de données **any**, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Databricks, vous pouvez définir les options supplémentaires suivantes :
@@ -196,10 +220,10 @@ Pour Google BigQuery, vous pouvez définir les options supplémentaires suivant
 | ProxyHost | Nom d’hôte ou adresse IP où le proxy peut être atteint. |
 | ProxyUid | Numéro de port sur lequel le proxy s’exécute. |
 | ProxyPwd | Mot de passe du proxy. |
-| bgpath | **Note :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud). <br/><br/> Chemin d’accès au répertoire bin du SDK Cloud sur le serveur. Vous ne devez le définir que si vous avez déplacé le répertoire `google-cloud-sdk` vers un autre emplacement ou si vous souhaitez éviter d’utiliser la variable PATH. |
-| GCloudConfigName | **Note :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-dessus de la version 7.3.4. <br/><br/> Nom de la configuration qui stocke les paramètres pour charger les données. Par défaut, la valeur est `accfda`. |
-| GCloudDefaultConfigName | **Note :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-dessus de la version 7.3.4. <br/><br/> Nom de la configuration temporaire pour recréer la configuration principale pour le chargement des données. Par défaut, la valeur est `default`. |
-| GCloudRecreateConfig | **Note :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-dessus de la version 7.3.4. <br/><br/> Valeur booléenne qui vous permet de décider si le mécanisme de chargement en masse doit recréer, supprimer ou modifier automatiquement les configurations du SDK Google Cloud. Si cette valeur est définie sur `false`, le mécanisme de chargement en masse charge les données à l’aide d’une configuration existante sur la machine. Si cette valeur est définie sur `true`, assurez-vous que votre configuration est correctement définie. Dans le cas contraire, l’erreur `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` s’affiche et le mécanisme de chargement revient au mécanisme de chargement par défaut. |
+| bgpath | **Remarque :** cela s’applique uniquement à l’outil **bulk-load** (Cloud SDK). <br/><br/> Chemin d’accès au répertoire bin de Cloud SDK sur le serveur. Vous ne devez le définir que si vous avez déplacé le répertoire `google-cloud-sdk` vers un autre emplacement ou si vous souhaitez éviter d’utiliser la variable PATH. |
+| GCloudConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (Cloud SDK) ci-dessus (version 7.3.4). <br/><br/> Nom de la configuration qui stocke les paramètres pour le chargement des données. Par défaut, la valeur est `accfda`. |
+| GCloudDefaultConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (Cloud SDK) ci-dessus (version 7.3.4). <br/><br/> Nom de la configuration temporaire pour recréer la configuration principale pour le chargement des données. Par défaut, la valeur est `default`. |
+| GCloudRecreateConfig | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (Cloud SDK) ci-dessus (version 7.3.4). <br/><br/> Valeur booléenne qui vous permet de décider si le mécanisme de chargement en masse doit recréer, supprimer ou modifier automatiquement les configurations de Google Cloud SDK. Si cette valeur est définie sur `false`, le mécanisme de chargement en masse charge les données à l’aide d’une configuration existante sur la machine. Si cette valeur est définie sur `true`, assurez-vous que votre configuration est correctement définie. Dans le cas contraire, l’erreur `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` s’affiche et le mécanisme de chargement revient au mécanisme de chargement par défaut. |
 
 >[!TAB Microsoft Fabric]
 
@@ -267,7 +291,7 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les détai
 | Champ | Description |
 | ----- | ----------- |
 | Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Remarque** vous pouvez utiliser n’importe quel schéma de la base de données **any**, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 | Clé privée | Clé privée de la connexion à la base de données. Vous pouvez charger un fichier `.pem` à partir de votre système local. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
@@ -293,7 +317,7 @@ Après avoir sélectionné Vertica Analytics, vous pouvez ajouter les détails 
 | Compte | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
 | Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Remarque** vous pouvez utiliser n’importe quel schéma de la base de données **any**, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Vertica Analytics, vous pouvez définir les options supplémentaires suivantes :

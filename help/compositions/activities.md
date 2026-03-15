@@ -3,10 +3,10 @@ audience: end-user
 title: Vue d’ensemble des activités
 description: Découvrez les différentes activités et transitions disponibles dans la composition d’audiences fédérées.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '5001'
-ht-degree: 94%
+source-wordcount: '5477'
+ht-degree: 86%
 
 ---
 
@@ -21,81 +21,6 @@ Les activités vous permettent de définir les composants dans l’audience.
 Il existe **deux** types d’activités différents à utiliser dans la composition d’audiences fédérées : les activités de ciblage et les activités de contrôle de flux.
 
 ### Activités de ciblage {#targeting}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset"
->title="Enrichir les champs"
->abstract="L&#39;activité Enrichir les champs permet d&#39;enrichir les schémas Experience Platform en fédérant les données d&#39;entrepôts externes, ce qui permet d&#39;enrichir les schémas Experience Platform avec des attributs supplémentaires. "
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Champ d’espace de noms d’identification du Principal"
->abstract="Espace de noms de l’identité principale. L’espace de noms fournit un contexte pour décrire la classification de l’identité principale."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepschema"
->title="Sélectionner le schéma Experience Platform"
->abstract="Choisissez le schéma Experience Platform à enrichir."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode"
->title="Mode de mise à jour des champs enrichis"
->abstract="Les modes de mise à jour disponibles pour l’activité d’enrichissement de champs incluent la mise à jour complète et la mise à jour incrémentielle."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_full"
->title="Mise à jour complète"
->abstract="Le mode de mise à jour complète met à jour l’ensemble complet des attributs dans les schémas sélectionnés."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_incremental"
->title="Mise à jour incrémentielle"
->abstract="Le mode de mise à jour incrémentielle met à jour les champs qui ont été modifiés depuis la dernière exécution de l’enrichissement."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentityfield"
->title="Champ d’identité principale"
->abstract="Le champ Identité principale indique la source de vérité lors de la fusion des profils pour l’enrichissement."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_requiredfieldscheck"
->title="Critères des champs obligatoires"
->abstract="Un champ obligatoire est un attribut qui doit être renseigné pour chaque profil ou enregistrement lors de l’export de données. S’il manque un champ obligatoire, l’export ne sera ni complet ni valide."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitycheck"
->title="Critères du champ d’identité principale"
->abstract="Identifiant unique de chaque profil ou enregistrement. Cela permet de s’assurer que chaque enregistrement peut être reconnu et mis en correspondance, ce qui évite la duplication des données."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_aepschemalist"
->title="Liste de schémas"
->abstract="Liste des schémas disponibles dans votre sandbox. Vous pouvez sélectionner des schémas standard ou relationnels."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepattribute"
->title="Sélectionner un attribut"
->abstract="Vous pouvez créer un mappage source/destination pour les champs."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepdataset"
->title="Sélectionner un jeu de données"
->abstract="Liste des jeux de données appartenant au schéma. Vous pouvez sélectionner le jeu de données dans lequel vous souhaitez enregistrer les données enrichies."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primarykeycheck"
->title="Clé primaire"
->abstract="Clé primaire du schéma relationnel. Cette valeur garantit l’unicité dans les jeux de données en empêchant l’ingestion d’enregistrements en double."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_versiondescriptor"
->title="Descripteur de version"
->abstract="Descripteur de version du schéma relationnel. Cette valeur permet de déterminer quelle propriété est prioritaire si plusieurs valeurs partagent la même clé primaire, en s’assurant que la dernière mise à jour est appliquée."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_timestampdescriptor"
->title="Descripteur d’horodatage"
->abstract="Descripteur d’horodatage du schéma relationnel. Cette valeur permet de définir l’heure de l’événement pour la commande et n’existe que si vous utilisez des données de série temporelle."
 
 Les activités de ciblage vous permettent de définir les éléments qui constituent votre audience pour la composition.
 
@@ -287,7 +212,7 @@ Une fois vos règles d’exclusion configurées, vous pouvez également sélecti
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Champs pour identifier les doublons"
->abstract="Dans la section **[!UICONTROL Champs pour identifier les doublons]**, sélectionnez le bouton **[!UICONTROL Ajouter un attribut]** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier."
+>abstract="Dans la section **[!UICONTROL Champs pour identifier les doublons]**, sélectionnez le bouton **[!UICONTROL Ajouter un attribut]** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de déterminer ceux à traiter en premier."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -356,7 +281,7 @@ Vous pouvez également sélectionner l’option **Générer le complément**. La
 
 L’activité **Enrichissement** permet d’améliorer votre composition en ajoutant des données supplémentaires à partir de votre base de données fédérée.
 
-Si vous avez configuré une connexion à la destination de la composition d’audiences fédérées, vous pouvez utiliser l’activité Enrichissement pour enrichir les données provenant d’Adobe Experience Platform avec les attributs de votre base de données externe. [Découvrir comment enrichir les audiences Adobe Experience Platform avec des données externes](../connections/destinations.md)
+Si vous avez configuré une connexion à la destination Composition d’audiences fédérées , vous pouvez utiliser l’activité Enrichissement pour enrichir les données provenant de Adobe Experience Platform avec des attributs de votre base de données externe. [Découvrez comment enrichir les audiences Adobe Experience Platform avec des données externes](../connections/destinations.md)
 
 +++ Détails de la configuration
 
@@ -501,6 +426,138 @@ De plus, vous pouvez définir l’expiration des données pour l’audience. L�
 
 +++
 
+#### Enregistrer les champs {#save-fields}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Enregistrer les champs"
+>abstract="L&#39;activité Enregistrement de champs permet d&#39;enrichir les schémas Experience Platform en fédérant les données d&#39;entrepôts externes, ce qui permet d&#39;enrichir les schémas Experience Platform avec des attributs supplémentaires. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Champ d’espace de noms d’identification du Principal"
+>abstract="Espace de noms de l’identité principale. L’espace de noms fournit un contexte pour décrire la classification de l’identité principale."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Sélectionner le schéma Experience Platform"
+>abstract="Choisissez le schéma Experience Platform à enrichir."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Mode de mise à jour des champs enregistrés"
+>abstract="Les modes de mise à jour disponibles pour l’activité d’enregistrement de champs incluent la mise à jour complète et la mise à jour incrémentielle."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Mise à jour complète"
+>abstract="Le mode de mise à jour complète met à jour l’ensemble complet des attributs dans les schémas sélectionnés."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Mise à jour incrémentielle"
+>abstract="Le mode de mise à jour incrémentielle met à jour les champs qui ont été modifiés depuis la dernière exécution de l’enrichissement."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Champ d’identité principale"
+>abstract="Le champ Identité principale indique la source de vérité lors de la fusion des profils pour l’enrichissement."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Critères des champs obligatoires"
+>abstract="Un champ obligatoire est un attribut qui doit être renseigné pour chaque profil ou enregistrement lors de l’export de données. S’il manque un champ obligatoire, l’export ne sera ni complet ni valide."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Critères du champ d’identité principale"
+>abstract="Identifiant unique de chaque profil ou enregistrement. Cela permet de s’assurer que chaque enregistrement peut être reconnu et mis en correspondance, ce qui évite la duplication des données."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Liste de schémas"
+>abstract="Liste des schémas disponibles dans votre sandbox. Vous pouvez sélectionner des schémas standard ou relationnels."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Sélectionner un attribut"
+>abstract="Vous pouvez créer un mappage source/destination pour les champs."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Sélectionner un jeu de données"
+>abstract="Liste des jeux de données appartenant au schéma. Vous pouvez sélectionner le jeu de données dans lequel vous souhaitez enregistrer les données enrichies."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Clé primaire"
+>abstract="Clé primaire du schéma relationnel. Cette valeur garantit l’unicité dans les jeux de données en empêchant l’ingestion d’enregistrements en double."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Descripteur de version"
+>abstract="Descripteur de version du schéma relationnel. Cette valeur permet de déterminer quelle propriété est prioritaire si plusieurs valeurs partagent la même clé primaire, en s’assurant que la dernière mise à jour est appliquée."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Descripteur d’horodatage"
+>abstract="Descripteur d’horodatage du schéma relationnel. Cette valeur permet de définir l’heure de l’événement pour la commande et n’existe que si vous utilisez des données de série temporelle."
+
+L&#39;activité **[!UICONTROL Enregistrer les champs]** permet d&#39;enrichir les schémas Experience Platform en fédérant les données d&#39;entrepôts externes, ce qui permet d&#39;enrichir les schémas Experience Platform avec des attributs supplémentaires.
+
+Cette activité permet d’enrichir les schémas en apportant des attributs et des informations supplémentaires sans déplacer ou dupliquer physiquement les données dans la plateforme.
+
++++ Détails de la configuration
+
+>[!IMPORTANT]
+>
+>Si l’upsert n’est **activé pour le jeu de données sélectionné** les données sont **remplacées**. Pour savoir comment activer l’upsert pour vos jeux de données, consultez le [guide d’activation de l’upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+
+Après avoir ajouté l’activité **[!UICONTROL Enregistrer les champs]** à votre composition, vous pouvez donner un libellé à l’activité et sélectionner le schéma Adobe Experience Platform que vous souhaitez utiliser. Le schéma peut être un schéma standard ou un schéma relationnel.
+
+![Les schémas disponibles s’affichent.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+
+>[!BEGINTABS]
+
+>[!TAB  Schéma standard ]
+
+Si vous sélectionnez un schéma standard, vous devez choisir le jeu de données dans lequel l’enrichissement est enregistré.
+
+![La section Sélectionner un jeu de données est mise en surbrillance.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+
+Après avoir sélectionné le jeu de données, vous pouvez voir le champ d’identité principale qui sera utilisé pour identifier les profils dans la base de données. Cependant, vous devrez mapper les champs principaux et obligatoires. Sélectionnez **[!UICONTROL Ajouter des champs]** et spécifiez le champ **[!UICONTROL Source]** (données externes) et le champ **[!UICONTROL Destination]** (champ de schéma) pour chaque attribut à mapper.
+
+![Le bouton d’ajout de champs et la section de mappage des champs sont mis en surbrillance.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+
+Vous pouvez également définir le mode de mise à jour de l’enrichissement.
+
+![Les types de mode de mise à jour s’affichent.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+
+| Mode de mise à jour | Description |
+| ----------- | ----------- |
+| Mises à jour complètes | L’ensemble complet des attributs dans les schémas sélectionnés est mis à jour pour l’enrichissement. |
+| Mises à jour incrémentielles | Seuls les champs qui ont été modifiés depuis la dernière exécution d’enrichissement sont mis à jour pour l’enrichissement. |
+
+Si vous sélectionnez [!UICONTROL  Mises à jour incrémentielles ], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
+
+>[!TAB  Schéma relationnel ]
+
+Si vous sélectionnez un schéma relationnel, vous devez choisir le jeu de données dans lequel l’enrichissement est enregistré.
+
+![La section Sélectionner un jeu de données est mise en surbrillance.](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+
+Après avoir sélectionné le jeu de données, vous pouvez voir la clé primaire et le descripteur de version de la base de données.  Cependant, vous devrez mapper la clé primaire et les champs obligatoires. Sélectionnez **[!UICONTROL Ajouter un]des** et spécifiez le champ **[!UICONTROL Source]** (données externes) et le champ **[!UICONTROL Destination]** (champ de schéma) pour chaque attribut que vous souhaitez mapper.
+
+![Le bouton d’ajout de champs et la section de mappage des champs sont mis en surbrillance.](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+
+Comme les schémas relationnels ne prennent en charge que les mises à jour incrémentielles, vous devez choisir la date de dernière modification pour déterminer les données envoyées. Les mises à jour incrémentielles ne mettent à jour que les champs qui ont été modifiés depuis la dernière exécution de l’enrichissement.
+
+![Le mode de mise à jour, mises à jour incrémentielles, s’affiche.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
+
++++
+
 #### Partage {#split}
 
 >[!CONTEXTUALHELP]
@@ -511,7 +568,7 @@ De plus, vous pouvez définir l’expiration des données pour l’audience. L�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segments de l’activité de partage"
->abstract="Ajoutez autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de démarrer votre composition, assurez-vous d’avoir trié les sous-ensembles dans l’ordre qui vous convient à l’aide des boutons fléchés."
+>abstract="Ajoutez autant de sous-ensembles que souhaité au segment dans la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de démarrer votre composition, assurez-vous d’avoir trié les sous-ensembles dans l’ordre qui vous convient à l’aide des boutons fléchés."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
