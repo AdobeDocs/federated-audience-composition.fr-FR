@@ -4,8 +4,8 @@ description: Découvrez la composition d’Adobe Federated Audience et comment l
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 52%
+source-wordcount: '1280'
+ht-degree: 54%
 
 ---
 
@@ -91,7 +91,7 @@ Pour obtenir des réponses aux questions fréquentes, lisez le [FAQ sur la compo
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="Paramètres d’exécution"
->abstract="Dans cette section, vous pouvez configurer les paramètres liés à l’exécution du workflow, tels que le nombre de jours pendant lesquels l’historique de composition est conservé."
+>abstract="Dans cette section, vous pouvez définir les paramètres relatifs à l’exécution du workflow, comme le nombre de jours pendant lesquels l’historique de la composition est conservé."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
@@ -136,5 +136,5 @@ Pour obtenir des réponses aux questions fréquentes, lisez le [FAQ sur la compo
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="Sélectionner la dimension de ciblage"
->abstract="La dimension de ciblage permet de définir la population ciblée par l’opération : personnes destinataires, personnes bénéficiaires d’un contrat, opérateurs et opératrices, personnes abonnées, etc. Par défaut, pour les e-mails et les SMS, la cible est sélectionnée à partir du tableau intégré Personnes destinataires. Pour les notifications push, la dimension cible par défaut est Applications des personnes abonnées."
+>abstract="La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs et opératrices, personnes abonnées, etc. Par défaut, pour les e-mails et les SMS, la cible est sélectionnée dans le tableau intégré Destinataires. Pour les notifications push, la dimension cible par défaut est Applications des personnes abonnées."
 
