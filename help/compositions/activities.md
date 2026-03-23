@@ -538,7 +538,7 @@ Vous pouvez également définir le mode de mise à jour de l’enrichissement.
 | Mises à jour complètes | L’ensemble complet des attributs dans les schémas sélectionnés est mis à jour pour l’enrichissement. |
 | Mises à jour incrémentielles | Seuls les champs qui ont été modifiés depuis la dernière exécution d’enrichissement sont mis à jour pour l’enrichissement. |
 
-Si vous sélectionnez [!UICONTROL  Mises à jour incrémentielles ], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
+Si vous sélectionnez [!UICONTROL &#x200B; Mises à jour incrémentielles &#x200B;], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
 
 >[!TAB  Schéma relationnel ]
 
