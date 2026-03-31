@@ -2,10 +2,10 @@
 title: Notes De Mise À Jour De La Composition D’Audiences Fédérées
 description: Dernières mises à jour et notes de mise à jour pour la composition d’audiences fédérées.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 7d12773b36cb963f3d4251a9b88486864056a0fb
+source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '442'
+ht-degree: 8%
 
 ---
 
@@ -13,6 +13,20 @@ ht-degree: 11%
 # Notes de mise à jour
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+## Version du 26 mars {#fac-26-03}
+
+La version de mars de la composition de l’audience fédérée prend en charge les fonctionnalités suivantes :
+
+### Nouvelles fonctionnalités {#fac-26-03-feature}
+
+| Segmentation optimisée par l’IA |
+| --- |
+| Vous pouvez désormais créer des compositions d’audiences fédérées de manière autonome dans l’assistant AI. Lors de l’utilisation de l’assistant AI pour créer l’audience, l’assistant AI génère un plan qui, une fois que vous l’avez approuvé, sera exécuté dans votre navigateur. Pour plus d’informations sur l’utilisation de l’assistant AI pour créer des audiences, consultez la présentation de l’assistant [ AI](/help/start/ai-assistant.md). |
+
+| Assistant IA pour les informations opérationnelles |
+| --- |
+| Vous pouvez maintenant poser des questions à l’assistant AI sur les informations opérationnelles de la composition des audiences fédérées. Les domaines pris en charge sont les connexions, les schémas et les modèles de données. Les compositions fédérées ne sont **pas** prises en charge dans cette version. Pour plus d’informations sur l’assistant AI dans la composition d’audiences fédérées, consultez la présentation de l’assistant [AI](/help/start/ai-assistant.md). |
 
 ## Version du 26 février {#fac-26-02}
 
@@ -40,7 +54,7 @@ La version de janvier de la composition de l’audience fédérée prend en char
 
 | Disponibilité pour les clients Adobe Experience Platform sous Amazon Web Services (AWS) |
 | --- |
-| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/multi-cloud). |
+| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Améliorations {#fac-26-01-improvements}
 
