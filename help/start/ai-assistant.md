@@ -67,4 +67,4 @@ Actuellement, la compétence de création d’audience prend en charge les fonct
 
 Pour plus d’informations sur l’assistant AI, notamment sur les exemples d’objectifs que vous pouvez atteindre avec l’assistant AI et sur le fonctionnement de l’assistant AI, consultez la [présentation de l’assistant AI](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Pour obtenir la liste complète des questions opérationnelles d’Insight que vous pouvez poser sur la composition des audiences fédérées, lisez la section [informations opérationnelles](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Pour obtenir la liste complète des questions opérationnelles d’Insight que vous pouvez poser sur la composition des audiences fédérées, lisez la section [informations opérationnelles](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
