@@ -3,10 +3,10 @@ audience: end-user
 title: Vue d’ensemble des activités
 description: Découvrez les différentes activités et transitions disponibles dans la composition d’audiences fédérées.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
-source-wordcount: '5477'
-ht-degree: 86%
+source-wordcount: '5478'
+ht-degree: 87%
 
 ---
 
@@ -281,7 +281,7 @@ Vous pouvez également sélectionner l’option **Générer le complément**. La
 
 L’activité **Enrichissement** permet d’améliorer votre composition en ajoutant des données supplémentaires à partir de votre base de données fédérée.
 
-Si vous avez configuré une connexion à la destination Composition d’audiences fédérées , vous pouvez utiliser l’activité Enrichissement pour enrichir les données provenant de Adobe Experience Platform avec des attributs de votre base de données externe. [Découvrez comment enrichir les audiences Adobe Experience Platform avec des données externes](../connections/destinations.md)
+Si vous avez configuré une connexion à la destination de la composition d’audiences fédérées, vous pouvez utiliser l’activité Enrichissement pour enrichir les données provenant d’Adobe Experience Platform avec les attributs de votre base de données externe. [Découvrir comment enrichir les audiences Adobe Experience Platform avec des données externes](../connections/destinations.md)
 
 +++ Détails de la configuration
 
@@ -511,7 +511,7 @@ Cette activité permet d’enrichir les schémas en apportant des attributs et d
 
 >[!IMPORTANT]
 >
->Si l’upsert n’est **activé pour le jeu de données sélectionné** les données sont **remplacées**. Pour savoir comment activer l’upsert pour vos jeux de données, consultez le [guide d’activation de l’upsert](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/enable-upsert).
+>Si l’upsert n’est **activé pour le jeu de données sélectionné** les données sont **remplacées**. Pour savoir comment activer l’upsert pour vos jeux de données, consultez le [guide d’activation de l’upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Après avoir ajouté l’activité **[!UICONTROL Enregistrer les champs]** à votre composition, vous pouvez donner un libellé à l’activité et sélectionner le schéma Adobe Experience Platform que vous souhaitez utiliser. Le schéma peut être un schéma standard ou un schéma relationnel.
 
@@ -538,7 +538,7 @@ Vous pouvez également définir le mode de mise à jour de l’enrichissement.
 | Mises à jour complètes | L’ensemble complet des attributs dans les schémas sélectionnés est mis à jour pour l’enrichissement. |
 | Mises à jour incrémentielles | Seuls les champs qui ont été modifiés depuis la dernière exécution d’enrichissement sont mis à jour pour l’enrichissement. |
 
-Si vous sélectionnez [!UICONTROL &#x200B; Mises à jour incrémentielles &#x200B;], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
+Si vous sélectionnez [!UICONTROL  Mises à jour incrémentielles ], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
 
 >[!TAB  Schéma relationnel ]
 
@@ -568,7 +568,7 @@ Comme les schémas relationnels ne prennent en charge que les mises à jour incr
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segments de l’activité de partage"
->abstract="Ajoutez autant de sous-ensembles que souhaité au segment dans la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de démarrer votre composition, assurez-vous d’avoir trié les sous-ensembles dans l’ordre qui vous convient à l’aide des boutons fléchés."
+>abstract="Ajoutez autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de démarrer votre composition, assurez-vous d’avoir trié les sous-ensembles dans l’ordre qui vous convient à l’aide des boutons fléchés."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"

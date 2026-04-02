@@ -2,7 +2,7 @@
 title: Présentation de l’assistant AI
 description: Découvrez comment utiliser l’assistant d’IA, notamment sa connaissance des produits, ses informations opérationnelles et la création de compositions d’audiences fédérées.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 16%
@@ -67,4 +67,4 @@ Actuellement, la compétence de création d’audience prend en charge les fonct
 
 Pour plus d’informations sur l’assistant AI, notamment sur les exemples d’objectifs que vous pouvez atteindre avec l’assistant AI et sur le fonctionnement de l’assistant AI, consultez la [présentation de l’assistant AI](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Pour obtenir la liste complète des questions opérationnelles d’Insight que vous pouvez poser sur la composition des audiences fédérées, lisez la section [informations opérationnelles](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Pour obtenir la liste complète des questions opérationnelles d’Insight que vous pouvez poser sur la composition des audiences fédérées, lisez la section [informations opérationnelles](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.

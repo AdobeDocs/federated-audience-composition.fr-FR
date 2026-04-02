@@ -3,10 +3,10 @@ audience: end-user
 title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
 source-wordcount: '2970'
-ht-degree: 75%
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 75%
 >
 >Pour accéder aux connexions, vous devez disposer de l’une des autorisations suivantes :
 >
->-**Gestion de la base de données fédérées**
+>-**Gérer la base de données fédérée**
 >-**Affichage de la base de données fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
@@ -70,7 +70,7 @@ Après avoir sélectionné Amazon Redshift, vous pouvez ajouter les détails su
 | Compte | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
 | Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. Vous trouverez plus d’informations sur cette fonctionnalité dans la documentation [Schémas Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Remarque :** vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. Vous trouverez plus d’informations sur cette fonctionnalité dans la documentation [Schémas ](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Remarque :** vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 
 >[!TAB Azure Synapse Analytics]
 
@@ -166,14 +166,14 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les inform
 | ----- | ----------- |
 | Chemin HTTP | Chemin d’accès à votre cluster ou entrepôt de données. Pour plus d’informations sur le chemin d’accès, consultez la [documentation de Databricks sur les détails de connexion](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Catalogue | Nom du catalogue Databricks. Pour plus d’informations sur les catalogues dans Databricks, consultez la [documentation de Databricks sur les catalogues](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Remarque** vous pouvez utiliser n’importe quel schéma de la base de données **any**, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Databricks, vous pouvez définir les options supplémentaires suivantes :
 
 | Options | Description |
 | ------- | ----------- |
-| TimeZoneName | Nom du fuseau horaire à utiliser. Cette valeur représente le paramètre de session `TIMEZONE`. Pour plus d’informations sur les fuseaux horaires, consultez la [documentation de Databricks sur les fuseaux horaires](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
+| TimeZoneName | Nom du fuseau horaire à utiliser. Cette valeur représente le paramètre de session `TIMEZONE`. Pour plus d’informations sur les fuseaux horaires, consultez la [documentation de Databricks sur les fuseaux horaires](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
 
 >[!TAB Google BigQuery]
 
@@ -291,7 +291,7 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les détai
 | Champ | Description |
 | ----- | ----------- |
 | Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Remarque** vous pouvez utiliser n’importe quel schéma de la base de données **any**, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 | Clé privée | Clé privée de la connexion à la base de données. Vous pouvez charger un fichier `.pem` à partir de votre système local. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
@@ -317,7 +317,7 @@ Après avoir sélectionné Vertica Analytics, vous pouvez ajouter les détails 
 | Compte | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
 | Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Remarque** vous pouvez utiliser n’importe quel schéma de la base de données **any**, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Vertica Analytics, vous pouvez définir les options supplémentaires suivantes :
