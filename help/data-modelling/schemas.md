@@ -6,7 +6,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Pour accéder aux schémas, vous devez disposer de l’une des autorisations suivantes :
 >
->-**Gestion du schéma fédéré**
+>-**Gérer Le Schéma Fédéré**
 >-**Affichage du schéma fédéré**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).

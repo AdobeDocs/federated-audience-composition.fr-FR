@@ -485,7 +485,7 @@ De plus, vous pouvez définir l’expiration des données pour l’audience. L�
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepdataset"
->title="Sélectionner un jeu de données"
+>title="Sélectionner le jeu de données"
 >abstract="Liste des jeux de données appartenant au schéma. Vous pouvez sélectionner le jeu de données dans lequel vous souhaitez enregistrer les données enrichies."
 
 >[!CONTEXTUALHELP]
@@ -503,44 +503,44 @@ De plus, vous pouvez définir l’expiration des données pour l’audience. L�
 >title="Descripteur d’horodatage"
 >abstract="Descripteur d’horodatage du schéma relationnel. Cette valeur permet de définir l’heure de l’événement pour la commande et n’existe que si vous utilisez des données de série temporelle."
 
-L&#39;activité **[!UICONTROL Enregistrer les champs]** permet d&#39;enrichir les schémas Experience Platform en fédérant les données d&#39;entrepôts externes, ce qui permet d&#39;enrichir les schémas Experience Platform avec des attributs supplémentaires.
+The **[!UICONTROL Save Fields]** activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enrich Experience Platform schemas with additional attributes.
 
-Cette activité permet d’enrichir les schémas en apportant des attributs et des informations supplémentaires sans déplacer ou dupliquer physiquement les données dans la plateforme.
+This activity is used to enrich schemas by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
 
 +++ Détails de la configuration
 
 >[!IMPORTANT]
 >
->Si l’upsert n’est **activé pour le jeu de données sélectionné** les données sont **remplacées**. Pour savoir comment activer l’upsert pour vos jeux de données, consultez le [guide d’activation de l’upsert](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/enable-upsert).
+>If the selected dataset does **not** have upsert enabled, the data will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
-Après avoir ajouté l’activité **[!UICONTROL Enregistrer les champs]** à votre composition, vous pouvez donner un libellé à l’activité et sélectionner le schéma Adobe Experience Platform que vous souhaitez utiliser. Le schéma peut être un schéma standard ou un schéma relationnel.
+After adding the **[!UICONTROL Save Fields]** activity to your composition, you can give a label to the activity and select the Adobe Experience Platform schema you want to use. The schema can either be a standard schema or a relational schema.
 
-![Les schémas disponibles s’affichent.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+![The available schemas are displayed.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
 
 >[!BEGINTABS]
 
->[!TAB  Schéma standard ]
+>[!TAB Standard schema]
 
-Si vous sélectionnez un schéma standard, vous devez choisir le jeu de données dans lequel l’enrichissement est enregistré.
+If you select a standard schema, you&#39;ll need to choose the dataset the enrichment is saved to.
 
-![La section Sélectionner un jeu de données est mise en surbrillance.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+![The select dataset section is highlighted.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
 
-Après avoir sélectionné le jeu de données, vous pouvez voir le champ d’identité principale qui sera utilisé pour identifier les profils dans la base de données. Cependant, vous devrez mapper les champs principaux et obligatoires. Sélectionnez **[!UICONTROL Ajouter des champs]** et spécifiez le champ **[!UICONTROL Source]** (données externes) et le champ **[!UICONTROL Destination]** (champ de schéma) pour chaque attribut à mapper.
+After selecting the dataset, you can see the primary identity field that will be used to identify profiles in the database. However, you&#39;ll need to map the primary and required fields. Select **[!UICONTROL Add fields]** and specify the **[!UICONTROL Source]** field (external data) and the **[!UICONTROL Destination]** field (schema field) for each attribute you want to map.
 
-![Le bouton d’ajout de champs et la section de mappage des champs sont mis en surbrillance.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+![The add fields button and the field mapping section are highlighted.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
 
-Vous pouvez également définir le mode de mise à jour de l’enrichissement.
+You can also specify the update mode for the enrichment.
 
-![Les types de mode de mise à jour s’affichent.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+![The update mode types are displayed.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
 
-| Mode de mise à jour | Description |
+| Update mode | Description |
 | ----------- | ----------- |
-| Mises à jour complètes | L’ensemble complet des attributs dans les schémas sélectionnés est mis à jour pour l’enrichissement. |
-| Mises à jour incrémentielles | Seuls les champs qui ont été modifiés depuis la dernière exécution d’enrichissement sont mis à jour pour l’enrichissement. |
+| Mises à jour complètes | The full set of attributes in the selected schemas is updated for enrichment. |
+| Mises à jour incrémentielles | Only the fields that have been modified since the last enrichment ran are updated for the enrichment. |
 
-Si vous sélectionnez [!UICONTROL &#x200B; Mises à jour incrémentielles &#x200B;], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
+If you select [!UICONTROL Incremental updates], you also need to choose the last modified date to determine what data is sent.
 
->[!TAB  Schéma relationnel ]
+>[!TAB Relational schema]
 
 Si vous sélectionnez un schéma relationnel, vous devez choisir le jeu de données dans lequel l’enrichissement est enregistré.
 
