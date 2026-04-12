@@ -5,7 +5,7 @@ description: Découvrez comment utiliser le concepteur de requête pour définir
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
