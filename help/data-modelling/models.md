@@ -3,13 +3,15 @@ audience: end-user
 title: Commencer avec les modèles de données
 description: Découvrir comment commencer avec les modèles de données
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: a91474bc1f552f5c5f84c028fd60bb7e1b8a4f24
+TQID: https://experienceleague.adobe.com/iUpEJiNCYHzeDyGr6DYCKmb3jLEBwnbpN2dakLnf68k
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 98%
+source-wordcount: 748
+ht-degree: 97%
 
 ---
-
 
 # Modèles - Aperçu
 
@@ -17,7 +19,7 @@ ht-degree: 98%
 >
 >Pour accéder aux modèles de données, vous devez disposer de l’une des autorisations suivantes :
 >
->-**Gestion du modèle de données fédérées**
+>-**Gérer le modèle de données fédéré**
 >-**Affichage du modèle de données fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).

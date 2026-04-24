@@ -2,10 +2,13 @@
 title: Adobe Experience Platform - Page d’accueil de la documentation sur la composition d’audiences fédérées
 description: Documentation sur la composition d’audiences fédérées
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
+TQID: https://experienceleague.adobe.com/LV-FlDaa90Z0V1dRxZV8452xrf6FsscjndNpIEjHeIY
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 275
+ht-degree: 94%
 
 ---
 
@@ -31,7 +34,7 @@ Créez, configurez, testez et enregistrez la connexion à votre base de données
 
 >[!TAB Composer une audience]
 
-Ajoutez et configurez des activités (partage, enrichissement, requête, etc.) pour créer des compositions et votre audience.
+Ajouter et paramétrer des activités (Partage, Enrichissement, Requête, etc.) pour créer des compositions et votre audience.
 
 [![Image](assets/learn-more-button.svg)](compositions/home.md)
 

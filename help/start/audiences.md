@@ -3,9 +3,11 @@ audience: end-user
 title: Utiliser les audiences
 description: Découvrir comment utiliser les audiences
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: ht
-source-wordcount: '309'
+TQID: https://experienceleague.adobe.com/SWOFxsQrWwsWdyiaxZP2H3XuX-E0PfRu2C5zZtXnOiE
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+workflow-type: tm+mt
+source-wordcount: 326
 ht-degree: 100%
 
 ---
@@ -16,7 +18,7 @@ La composition d’audiences fédérées Experience Platform vous permet de [cr
 
 Vous pouvez ensuite cibler ces audiences dans Journey Optimizer ou les activer vers n’importe quelle destination prise en charge par Adobe Experience Platform.
 
-## Création d’audiences à l’aide de compositions{#creation}
+## Création d’audiences à l’aide de compositions {#creation}
 
 Pour créer des audiences à l’aide de la composition d’audiences fédérées, vous devez créer une composition comprenant une activité **[!UICONTROL Enregistrer l’audience]**. Cette activité vous permet de sauvegarder l’audience dans le portail d’audience et de sélectionner des champs de vos bases de données externes à inclure dans l’audience. [Découvrir comment configurer une activité Enregistrer l’audience](../compositions/activities.md#save-audience)
 

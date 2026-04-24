@@ -3,9 +3,11 @@ audience: end-user
 title: Créer votre première requête à l’aide du concepteur de requête
 description: Découvrir comment créer votre première requête dans le concepteur de requête
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: 2084
 ht-degree: 93%
 
 ---
@@ -24,7 +26,7 @@ Vous pouvez ajouter deux types d’éléments :
 
 * Les **opérateurs de groupe** (ET, OU, SAUF) vous permettent de regrouper les composants de filtrage dans le diagramme. Ils sont ajoutés sur les transitions existantes avant un composant de filtrage. [Découvrir comment utiliser les opérateurs](#filtering)
 
-  Example : *personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**&#x200B;qui vivent à New York **OU**&#x200B;à San Francisco*.
+  Example : *personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**qui vivent à New York **OU**à San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
