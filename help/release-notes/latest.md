@@ -3,7 +3,8 @@ title: Notes De Mise À Jour De La Composition D’Audiences Fédérées
 description: Dernières mises à jour et notes de mise à jour pour la composition d’audiences fédérées.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 442
@@ -23,7 +24,7 @@ La version de mars de la composition de l’audience fédérée prend en charge 
 
 | Segmentation optimisée par l’IA |
 | --- |
-| Vous pouvez désormais créer des compositions d’audiences fédérées de manière autonome dans l’assistant AI. Lors de l’utilisation de l’assistant AI pour créer l’audience, l’assistant AI génère un plan qui, une fois que vous l’avez approuvé, sera exécuté dans votre navigateur. Pour plus d’informations sur l’utilisation de l’assistant AI pour créer des audiences, consultez la présentation de l’assistant [ AI](/help/start/ai-assistant.md). |
+| Vous pouvez désormais créer des compositions d’audiences fédérées de manière autonome dans l’assistant AI. Lors de l’utilisation de l’assistant AI pour créer l’audience, l’assistant AI génère un plan qui, une fois que vous l’avez approuvé, sera exécuté dans votre navigateur. Pour plus d’informations sur l’utilisation de l’assistant AI pour créer des audiences, consultez la présentation de l’assistant [&#x200B; AI](/help/start/ai-assistant.md). |
 
 | Assistant IA pour les informations opérationnelles |
 | --- |
