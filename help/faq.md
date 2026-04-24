@@ -2,10 +2,16 @@
 title: Questions fréquentes
 description: Questions fréquentes sur la composition d’audiences fédérées Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 007192281ac7c853972a3405ea1d4069af847de1
+TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 83%
+source-wordcount: 975
+ht-degree: 75%
 
 ---
 
@@ -46,7 +52,7 @@ Pour plus d’informations sur la connexion à un entrepôt de données, consult
 
 +++ Réponse
 
-Oui, plusieurs entrepôts peuvent être interrogés dans la même composition et peuvent combiner des données provenant de plusieurs sources.  Généralement, chaque [activité de composition](./compositions/activities.md) (requête, enrichissement, partage etc.) exécute une ou plusieurs instructions SQL en fonction de la configuration de l’activité, des bases de données ciblées (il peut y avoir plusieurs cas d’accès aux données fédérées) et des sorties d’une ou de plusieurs tables de travail avec le résultat de l’exécution. Ces tables de travail sont utilisées comme entrée pour les activités consécutives.
+Oui, plusieurs entrepôts peuvent être interrogés dans la même composition et peuvent combiner des données provenant de plusieurs sources.  En règle générale, chaque [activité de composition](./compositions/activities.md) (requête, enrichissement, partage, etc.) exécute une ou plusieurs instructions SQL en fonction de la configuration de l&#39;activité, des bases de données ciblées (il peut y avoir plusieurs cas de federated data access) et des sorties d&#39;une ou plusieurs tables de travail avec le résultat de l&#39;exécution. Ces tables de travail sont utilisées comme entrée pour les activités consécutives.
 
 +++
 
@@ -114,7 +120,7 @@ Oui, vous pouvez supprimer des audiences de composition d’audiences fédérée
 
 +++ Réponse
 
-Non, le Service d’identités n’est pas utilisé pendant une composition. Les données entre les différentes sources utilisées dans la composition sont jointes par une logique définie par l’utilisateur ou l’utilisatrice (telle qu’elle est exprimée dans le modèle sous-jacent), par exemple l’identifiant CRM, le numéro de compte d’utilisateur ou d’utilisatrice, etc. Vous devez sélectionner l’identité utilisée comme identifiant dans l’audience pour la sélection dans votre entrepôt de données. Sur une audience obtenue de la composition d’audiences fédérées, vous devez identifier l’espace de noms d’identité de l’identité dans le jeu de données obtenu.
+Non, le Service d’identités n’est pas utilisé pendant une composition. Les données entre les différentes sources utilisées dans la composition sont reliées par une logique définie par l’utilisateur (telle qu’exprimée dans le modèle sous-jacent), par exemple l’identifiant CRM, le numéro de compte utilisateur, etc. Vous devez sélectionner l’identité utilisée comme identifiant dans l’audience pour la sélection dans votre entrepôt de données. Sur une audience obtenue de la composition d’audiences fédérées, vous devez identifier l’espace de noms d’identité de l’identité dans le jeu de données obtenu.
 
 +++
 
