@@ -10,7 +10,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 580
 ht-degree: 99%
@@ -72,7 +72,6 @@ Pour créer un schéma dans la composition d’audiences fédérées, sélection
 ![Le bouton Créer un schéma est mis en surbrillance dans la section Schéma de composition d’audiences fédérées.](assets/schemas/schema_create.png){zoomable="yes"}
 
 La fenêtre contextuelle **[!UICONTROL Sélectionner une base de données fédérées]** s’affiche. Sur cette fenêtre contextuelle, vous pouvez sélectionner la [base de données source](/help/connections/home.md), puis **[!UICONTROL Suivant]**.
-
 
 ![](assets/schemas/schema_tables.png){zoomable="yes"}
 

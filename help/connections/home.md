@@ -12,10 +12,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
 workflow-type: tm+mt
-source-wordcount: 2970
-ht-degree: 79%
+source-wordcount: 3189
+ht-degree: 75%
 
 ---
 
@@ -43,6 +43,7 @@ Pour travailler avec votre base de données fédérée et Adobe Experience Pla
 - Microsoft Fabric
 - Oracle
 - Snowflake
+- Teradata
 - Vertica Analytics
 
 ## Créer une connexion {#create}
@@ -54,6 +55,10 @@ Pour créer une connexion, sélectionnez **[!UICONTROL Bases de données fédér
 La section Bases de données fédérées s’affiche. Sélectionnez **[!UICONTROL Ajouter une base de données fédérée]** pour créer une connexion.
 
 ![Le bouton Ajouter une base de données fédérée est mis en surbrillance dans la page d’affichage de la base de données fédérée.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+
+>[!NOTE]
+>
+>Pour demander une connectivité sécurisée à l’aide d’un lien privé ou d’un VPN, vous **devez** disposer d’une licence Privacy and Security Shield ou Healthcare Shield.
 
 La fenêtre contextuelle Propriétés de connexion s’affiche. Vous pouvez nommer votre connexion ainsi que sélectionner le type de base de données à créer.
 
@@ -79,7 +84,7 @@ Après avoir sélectionné Amazon Redshift, vous pouvez ajouter les détails su
 | Compte | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
 | Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. Vous trouverez plus d’informations sur cette fonctionnalité dans la documentation [Schémas Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Remarque :** vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. Vous trouverez plus d’informations sur cette fonctionnalité dans la documentation [Schémas &#x200B;](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Remarque :** vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition de disposer des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 
 >[!TAB Azure Synapse Analytics]
 
@@ -281,6 +286,15 @@ Si vous sélectionnez **[!UICONTROL Authentification par compte/mot de passe]**,
 | Utilisateur ou utilisatrice | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
 
+Vous pouvez également fournir une clé privée au lieu d’un mot de passe. Si vous ajoutez une clé privée, vous devez fournir les informations suivantes :
+
+| Champ | Description |
+| ----- | ----------- |
+| Serveur | Nom du serveur. |
+| Utilisateur ou utilisatrice | Nom d’utilisateur ou d’utilisatrice du compte. |
+| Clé privée | Clé privée du compte. Seuls les fichiers `.pem` sont pris en charge. |
+| Mot de passe | (Facultatif) Mot de passe du compte. |
+
 Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les informations de connexion suivantes :
 
 >[!NOTE]
@@ -315,6 +329,29 @@ Pour Snowflake, vous pouvez définir les options supplémentaires suivantes :
 | bulkThreads | Nombre de threads à utiliser pour le chargeur en masse de Snowflake. Plus il y a de threads ajoutés, meilleures seront les performances pour les chargements en masse plus volumineux. Par défaut, cette valeur est définie sur 1. |
 | chunkSize | Taille de fichier du bloc de chaque chargeur en masse. Lors de l’utilisation avec d’autres threads, vous pouvez améliorer les performances de vos chargements en masse. Par défaut, cette valeur est définie sur 128 Mo. Pour plus d’informations sur les tailles des blocs, consultez la [documentation de Snowflake sur la préparation des fichiers de données](https://docs.snowflake.com/fr/user-guide/data-load-considerations-prepare){target="_blank"}. |
 | StageName | Nom d’un environnement d’évaluation interne préconfiguré. Il peut être utilisé dans les chargements en masse au lieu de créer une nouvelle étape temporaire. |
+
+>[!TAB Tab]
+
+>[!NOTE]
+>
+>Pour vous connecter à Teradata, vous **devez** remplir différentes conditions préalables, notamment l’installation des pilotes de base de données. Pour plus d’informations, contactez votre représentant de l’assistance clientèle Adobe.
+
+Après avoir sélectionné Teradata, vous pouvez ajouter les détails suivants :
+
+| Champ | Description |
+| ----- | ----------- |
+| Serveur | URL du serveur Teradata. |
+| Compte | Nom d&#39;utilisateur utilisé par la base de données pour la session ODBC (Open Database Connectivity). |
+| Mot de passe | Mot de passe utilisé pour se connecter à la session ODBC. |
+| Base de données | Nom de la base de données. |
+| Options | Options supplémentaires pour la connexion. Pour Teradata, les deux options répertoriées sont **obligatoires** ajouter. Les options disponibles sont répertoriées dans le tableau suivant. |
+
+Pour Teradata, vous pouvez définir les options supplémentaires suivantes :
+
+| Options | Description |
+| ------- | ----------- |
+| `workTableSchema` | Nom du schéma pour les tables de travail. |
+| `ODBCLib` | Emplacement de la bibliothèque ODBC du système, que vous pouvez utiliser si vous mélangez Teradata avec un autre ODBC. |
 
 >[!TAB Vertica Analytics]
 

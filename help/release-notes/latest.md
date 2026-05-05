@@ -5,16 +5,36 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 13%
+source-wordcount: 545
+ht-degree: 11%
 
 ---
 
 # Notes de mise à jour
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+## Version d’avril 2026 {#fac-26-04}
+
+La version d’avril de la composition de l’audience fédérée prend en charge les fonctionnalités et améliorations suivantes :
+
+### Nouvelles fonctionnalités {#fac=26-04-feature}
+
+| Nouveau connecteur - Teradata |
+| --- |
+| Le connecteur Teradata est désormais disponible pour une utilisation avec la composition d’audiences fédérées. Vous pouvez utiliser le connecteur Teradata pour les cas d’utilisation de création et d’enrichissement d’audiences. Pour plus d’informations sur le connecteur Teradata, consultez la [présentation des connexions](/help/connections/home.md). |
+
+### Améliorations {#fac-26-04-improvements}
+
+Cette version s’accompagne de l’amélioration suivante.
+
+- **Prise en charge des clés non chiffrées pour Snowflake**
+
+  Vous pouvez désormais utiliser des clés non chiffrées lors de l’utilisation de l’authentification par paire de clés pour vous connecter aux entrepôts de données Snowflake.
+
+  Pour en savoir plus sur l’utilisation de clés non chiffrées avec Snowflake, consultez la [présentation des connexions](/help/connections/home.md).
 
 ## Version du 26 mars {#fac-26-03}
 

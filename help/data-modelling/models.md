@@ -10,10 +10,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 97%
+source-wordcount: 778
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,11 @@ Un modèle de données désigne un ensemble de schémas et d’audiences, ainsi 
 
 Dans la composition d’audiences fédérées, vous pouvez créer et gérer des modèles de données directement dans la vue Zone de travail. Cela inclut l’ajout de schémas et d’audiences, ainsi que la définition des liens entre eux en fonction de votre cas d’utilisation.
 
-En savoir plus sur les [schémas](../data-modelling/schemas.md#schema-start) et les [audiences](../start/audiences.md).
+Pour en savoir plus sur les schémas, consultez la [présentation des schémas](../data-modelling/schemas.md). Pour en savoir plus sur les audiences, consultez le guide [Utilisation des audiences](../start/audiences.md).
 
 Voici un exemple de représentation d’un modèle de données : les tables avec leur nom et les liens qui les relient.
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![Exemple de représentation d’un modèle de données, avec les tables et les liens entre les tables affichés.](assets/models/datamodel.png){zoomable="yes"}
 
 ## Créer un modèle de données {#data-model-create}
 
