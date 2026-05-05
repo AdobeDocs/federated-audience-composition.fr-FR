@@ -4,9 +4,8 @@ title: Créer des compositions
 description: Découvrir comment créer des compositions
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 100%
@@ -73,6 +72,7 @@ Les options incluent :
 * **[!UICONTROL Mettre en pause]/[!UICONTROL Reprendre]** : mettez en pause ou reprenez l’activité. Lorsque la composition est exécutée, elle s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 * **[!UICONTROL Copier]** : copie l’activité pour la coller à un autre emplacement de la composition. Pour ce faire, sélectionnez le bouton **+** sur une transition, puis **[!UICONTROL Coller l’activité X]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * Configurez les **[!UICONTROL options d’exécution]** pour l’activité sélectionnée. Les options d’exécution disponibles sont les suivantes :
+
   +++Options d’exécution disponibles
 
   La section **[!UICONTROL Propriétés]** vous permet de configurer des paramètres génériques concernant l’exécution de l’activité :
@@ -88,6 +88,7 @@ Les options incluent :
   La section **[!UICONTROL script d’initialisation]** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Sélectionnez le bouton **[!UICONTROL Modifier le code]** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de l’activité.
 
   +++
+
 * **Journaux et tâches** : affichez les journaux et les tâches de l’activité sélectionnée.
 
 ## Démarrer et surveiller votre composition {#start-and-monitor}
