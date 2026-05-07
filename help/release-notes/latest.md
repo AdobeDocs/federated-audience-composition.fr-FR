@@ -3,12 +3,11 @@ title: Notes De Mise À Jour De La Composition D’Audiences Fédérées
 description: Dernières mises à jour et notes de mise à jour pour la composition d’audiences fédérées.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
 source-wordcount: 545
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +35,7 @@ Cette version s’accompagne de l’amélioration suivante.
 
   Pour en savoir plus sur l’utilisation de clés non chiffrées avec Snowflake, consultez la [présentation des connexions](/help/connections/home.md).
 
-## Version du 26 mars {#fac-26-03}
+## Version de mars 2026 {#fac-26-03}
 
 La version de mars de la composition de l’audience fédérée prend en charge les fonctionnalités suivantes :
 
@@ -44,13 +43,13 @@ La version de mars de la composition de l’audience fédérée prend en charge 
 
 | Segmentation optimisée par l’IA |
 | --- |
-| Vous pouvez désormais créer des compositions d’audiences fédérées de manière autonome dans l’assistant AI. Lors de l’utilisation de l’assistant AI pour créer l’audience, l’assistant AI génère un plan qui, une fois que vous l’avez approuvé, sera exécuté dans votre navigateur. Pour plus d’informations sur l’utilisation de l’assistant AI pour créer des audiences, consultez la présentation de l’assistant [&#x200B; AI](/help/start/ai-assistant.md). |
+| Vous pouvez désormais créer des compositions d’audiences fédérées de manière autonome dans l’assistant AI. Lors de l’utilisation de l’assistant AI pour créer l’audience, l’assistant AI génère un plan qui, une fois que vous l’avez approuvé, sera exécuté dans votre navigateur. Pour plus d’informations sur l’utilisation de l’assistant AI pour créer des audiences, consultez la présentation de l’assistant [ AI](/help/start/ai-assistant.md). |
 
 | Assistant IA pour les informations opérationnelles |
 | --- |
 | Vous pouvez maintenant poser des questions à l’assistant AI sur les informations opérationnelles de la composition des audiences fédérées. Les domaines pris en charge sont les connexions, les schémas et les modèles de données. Les compositions fédérées ne sont **pas** prises en charge dans cette version. Pour plus d’informations sur l’assistant AI dans la composition d’audiences fédérées, consultez la présentation de l’assistant [AI](/help/start/ai-assistant.md). |
 
-## Version du 26 février {#fac-26-02}
+## Version de février 2026 {#fac-26-02}
 
 La version de février de Federated Audience Composition prend en charge les fonctionnalités suivantes :
 
@@ -64,7 +63,7 @@ La version de février de Federated Audience Composition prend en charge les fon
 | --- |
 | Vous pouvez désormais vous connecter à la composition d’audiences fédérées avec des briques de données à l’aide de l’authentification principale du service ou d’OAuth 2.0. Pour plus d’informations sur la création d’une connexion, consultez la [présentation des connexions](../connections/home.md#create). |
 
-## Version du 26 janvier {#fac-26-01}
+## Version de janvier 2026 {#fac-26-01}
 
 La version de janvier de la composition de l’audience fédérée prend en charge les nouvelles fonctionnalités et améliorations suivantes :
 
@@ -76,7 +75,7 @@ La version de janvier de la composition de l’audience fédérée prend en char
 
 | Disponibilité pour les clients Adobe Experience Platform sous Amazon Web Services (AWS) |
 | --- |
-| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/multi-cloud). |
+| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Améliorations {#fac-26-01-improvements}
 

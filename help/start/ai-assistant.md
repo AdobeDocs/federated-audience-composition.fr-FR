@@ -3,13 +3,8 @@ title: Présentation de l’assistant AI
 description: Découvrez comment utiliser l’assistant d’IA, notamment sa connaissance des produits, ses informations opérationnelles et la création de compositions d’audiences fédérées.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 651
@@ -75,4 +70,4 @@ Actuellement, la compétence de création d’audience prend en charge les fonct
 
 Pour plus d’informations sur l’assistant AI, notamment sur les exemples d’objectifs que vous pouvez atteindre avec l’assistant AI et sur le fonctionnement de l’assistant AI, consultez la [présentation de l’assistant AI](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Pour obtenir la liste complète des questions opérationnelles d’Insight que vous pouvez poser sur la composition des audiences fédérées, lisez la section [informations opérationnelles](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Pour obtenir la liste complète des questions opérationnelles d’Insight que vous pouvez poser sur la composition des audiences fédérées, lisez la section [informations opérationnelles](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.

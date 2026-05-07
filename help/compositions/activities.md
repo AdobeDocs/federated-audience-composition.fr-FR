@@ -4,8 +4,7 @@ title: Vue d’ensemble des activités
 description: Découvrez les différentes activités et transitions disponibles dans la composition d’audiences fédérées.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
@@ -516,7 +515,7 @@ Cette activité permet d’enrichir les schémas en apportant des attributs et d
 
 >[!IMPORTANT]
 >
->Si l’upsert n’est **activé pour le jeu de données sélectionné** les données sont **remplacées**. Pour savoir comment activer l’upsert pour vos jeux de données, consultez le [guide d’activation de l’upsert](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/enable-upsert).
+>Si l’upsert n’est **activé pour le jeu de données sélectionné** les données sont **remplacées**. Pour savoir comment activer l’upsert pour vos jeux de données, consultez le [guide d’activation de l’upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Après avoir ajouté l’activité **[!UICONTROL Enregistrer les champs]** à votre composition, vous pouvez donner un libellé à l’activité et sélectionner le schéma Adobe Experience Platform que vous souhaitez utiliser. Le schéma peut être un schéma standard ou un schéma relationnel.
 
@@ -543,7 +542,7 @@ Vous pouvez également définir le mode de mise à jour de l’enrichissement.
 | Mises à jour complètes | L’ensemble complet des attributs dans les schémas sélectionnés est mis à jour pour l’enrichissement. |
 | Mises à jour incrémentielles | Seuls les champs qui ont été modifiés depuis la dernière exécution d’enrichissement sont mis à jour pour l’enrichissement. |
 
-Si vous sélectionnez [!UICONTROL &#x200B; Mises à jour incrémentielles &#x200B;], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
+Si vous sélectionnez [!UICONTROL  Mises à jour incrémentielles ], vous devez également choisir la date de dernière modification pour déterminer les données envoyées.
 
 >[!TAB  Schéma relationnel ]
 
