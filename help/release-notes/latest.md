@@ -8,7 +8,7 @@ product_v2:
 source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
 source-wordcount: 545
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +36,7 @@ Cette version s’accompagne de l’amélioration suivante.
 
   Pour en savoir plus sur l’utilisation de clés non chiffrées avec Snowflake, consultez la [présentation des connexions](/help/connections/home.md).
 
-## Version du 26 mars {#fac-26-03}
+## Version de mars 2026 {#fac-26-03}
 
 La version de mars de la composition de l’audience fédérée prend en charge les fonctionnalités suivantes :
 
@@ -50,7 +50,7 @@ La version de mars de la composition de l’audience fédérée prend en charge 
 | --- |
 | Vous pouvez maintenant poser des questions à l’assistant AI sur les informations opérationnelles de la composition des audiences fédérées. Les domaines pris en charge sont les connexions, les schémas et les modèles de données. Les compositions fédérées ne sont **pas** prises en charge dans cette version. Pour plus d’informations sur l’assistant AI dans la composition d’audiences fédérées, consultez la présentation de l’assistant [AI](/help/start/ai-assistant.md). |
 
-## Version du 26 février {#fac-26-02}
+## Version de février 2026 {#fac-26-02}
 
 La version de février de Federated Audience Composition prend en charge les fonctionnalités suivantes :
 
@@ -64,7 +64,7 @@ La version de février de Federated Audience Composition prend en charge les fon
 | --- |
 | Vous pouvez désormais vous connecter à la composition d’audiences fédérées avec des briques de données à l’aide de l’authentification principale du service ou d’OAuth 2.0. Pour plus d’informations sur la création d’une connexion, consultez la [présentation des connexions](../connections/home.md#create). |
 
-## Version du 26 janvier {#fac-26-01}
+## Version de janvier 2026 {#fac-26-01}
 
 La version de janvier de la composition de l’audience fédérée prend en charge les nouvelles fonctionnalités et améliorations suivantes :
 
