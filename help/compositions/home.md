@@ -11,9 +11,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 655
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 >
 >Pour accéder aux compositions, vous devez disposer de l’une des autorisations suivantes :
 >
->-**Gérer les compositions fédérées**
+>-**Gestion des compositions fédérées**
 >-**Affichage des compositions fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).

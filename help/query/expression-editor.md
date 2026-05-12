@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/CEu72QK6dqP1LCl8Ip1JSdZpZtubK0nyDJvj3QM
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 4215
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 | **Oldest** | Renvoie la date la plus ancienne parmi les deux indiquées. | Oldest(&lt;DATEHEURE>, &lt;DATEHEURE>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Tronque la date et l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86 400, elle est tronquée au jour le plus proche. Sinon, elle est tronquée à la seconde la plus proche. | TruncDate(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Tronque la date et l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée, et définit la date et l’heure sur le fuseau horaire spécifié. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86 400, elle est tronquée au jour le plus proche. | TruncDateTZ(&lt;DATEHEURE>, &lt;NOMBRE>, &lt;FUSEAUHORAIRE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
-| **TruncTime** | Définit datetime sur le 1er janvier 2000 et arrondit le reste de datetime à l&#39;unité la plus proche, en fonction de la valeur numérique donnée.Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. | TruncTime(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Définit la date et l’heure sur le 1er janvier 2000 et arrondit le reste de la date et de l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée.Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. | TruncTime(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Tronque la date et l’heure à la première date du trimestre le plus proche. | TruncQuarter(&lt;DATEHEURE>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Tronque la date et l’heure à la première date de l’année la plus proche. | TruncYear(&lt;DATEHEURE>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Tronque la date et l’heure au dimanche de la semaine la plus proche. | TruncWeek(&lt;DATEHEURE>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
@@ -297,7 +297,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 | **Oldest** | Renvoie la date la plus ancienne parmi les deux indiquées. | Oldest(&lt;DATEHEURE>, &lt;DATEHEURE>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Tronque la date et l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86 400, elle est tronquée au jour le plus proche. Sinon, elle est tronquée à la seconde la plus proche. | TruncDate(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Tronque la date et l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée, et définit la date et l’heure sur le fuseau horaire spécifié. Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. Si la valeur numérique est égale à 86 400, elle est tronquée au jour le plus proche. | TruncDateTZ(&lt;DATEHEURE>, &lt;NOMBRE>, &lt;FUSEAUHORAIRE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
-| **TruncTime** | Définit datetime sur le 1er janvier 2000 et arrondit le reste de datetime à l&#39;unité la plus proche, en fonction de la valeur numérique donnée.Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. | TruncTime(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Définit la date et l’heure sur le 1er janvier 2000 et arrondit le reste de la date et de l’heure à l’unité la plus proche, en fonction de la valeur numérique donnée.Si la valeur numérique est égale à 60, elle est tronquée à la minute la plus proche. Si la valeur numérique est égale à 3 600, elle est tronquée à l’heure la plus proche. | TruncTime(&lt;DATEHEURE>, &lt;NOMBRE>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Tronque la date et l’heure à la première date du trimestre le plus proche. | TruncQuarter(&lt;DATEHEURE>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Tronque la date et l’heure à la première date de l’année la plus proche. | TruncYear(&lt;DATEHEURE>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Tronque la date et l’heure au dimanche de la semaine la plus proche. | TruncWeek(&lt;DATEHEURE>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
@@ -525,7 +525,7 @@ Ce tableau contient les autres fonctions disponibles.
 | **Else** | Utilisé dans le cadre de la fonction Case. Utilisé pour choisir l’autre option, si l’expression When est fausse. | Else(&lt;VALEUR>) | Else (&quot;no&quot;) |
 | **Coalesce** | Renvoie la première valeur non nulle. | Coalesce(&lt;VALEUR>, &lt;VALEUR>) | Coalesce (&quot;&quot;, &quot;string&quot;) |
 | **Decode** | Renvoie la première option si les valeurs sont égales. Renvoie la seconde option si les valeurs ne sont pas égales. | Decode(&lt;VALEUR>, &lt;VALEUR>, &lt;VALEUR>, &lt;VALEUR>) | Decode(1, 2, &quot;true&quot;, &quot;false&quot;) |
-| **GetEmailDomain** | Extrait le domaine d’une adresse e-mail indiquée. | GetEmailDomain(&lt;CHAÎNE>) | GetEmailDomain(« `sample@example.com` ») |
+| **GetEmailDomain** | Extrait le domaine d’une adresse e-mail indiquée. | GetEmailDomain(&lt;CHAÎNE>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | Renvoie la première option si la condition est vraie et renvoie la seconde option si la condition est fausse. | Iif(&lt;CONDITION>, &lt;VALEUR>, &lt;VALEUR>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
 | **IsEmptyString** | Renvoie la première option si la chaîne est vide. Dans le cas contraire, renvoie la seconde option. | IsEmptyString( &lt;CHAÎNE> ,&lt;VALEUR>, &lt;VALEUR>) | IsEmptyString(&quot;string&quot;, &quot;yes&quot;, &quot;no&quot;) |
 | **NewUUID** | Génère un nouvel UUID unique. | NewUUID() | NewUUID() |
@@ -584,7 +584,7 @@ Other functions are not available.
 | **Case** | Renvoie la première valeur si l’expression est vraie. Dans le cas contraire, renvoie la deuxième valeur. | Case(When(&lt;EXPRESSION> &lt;VALEUR>), Else(&lt;VALEUR>)) | Case(When(a > b, &quot;yes&quot;), Else(&quot;no&quot;)) |
 | **When** | Utilisé dans le cadre de la fonction Case. Utilisé pour vérifier l’expression dans Case. | When(&lt;EXPRESSION> &lt;VALEUR>) | When(a > b, &quot;yes&quot;) |
 | **Else** | Utilisé dans le cadre de la fonction Case. Utilisé pour choisir l’autre option, si l’expression When est fausse. | Else(&lt;VALEUR>) | Else (&quot;no&quot;) |
-| **GetEmailDomain** | Extrait le domaine d’une adresse e-mail indiquée. | GetEmailDomain(&lt;CHAÎNE>) | GetEmailDomain(« `sample@example.com` ») |
+| **GetEmailDomain** | Extrait le domaine d’une adresse e-mail indiquée. | GetEmailDomain(&lt;CHAÎNE>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | Renvoie la première option si la condition est vraie et renvoie la seconde option si la condition est fausse. | Iif(&lt;CONDITION>, &lt;VALEUR>, &lt;VALEUR>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
 | **IsEmptyString** | Renvoie la première option si la chaîne est vide. Dans le cas contraire, renvoie la seconde option. | IsEmptyString( &lt;CHAÎNE> ,&lt;VALEUR>, &lt;VALEUR>) | IsEmptyString(&quot;string&quot;, &quot;yes&quot;, &quot;no&quot;) |
 | **ToBoolean** | Renvoie 1 si la valeur est vraie. Renvoie 0 si la valeur est fausse. | ToBoolean(&lt;VALEUR>) | ToBoolean(a=b) |
