@@ -4,9 +4,14 @@ title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
 source-wordcount: 3543
@@ -327,7 +332,7 @@ Pour Snowflake, vous pouvez définir les options supplémentaires suivantes :
 | chunkSize | Taille de fichier du bloc de chaque chargeur en masse. Lors de l’utilisation avec d’autres threads, vous pouvez améliorer les performances de vos chargements en masse. Par défaut, cette valeur est définie sur 128 Mo. Pour plus d’informations sur les tailles des blocs, consultez la [documentation de Snowflake sur la préparation des fichiers de données](https://docs.snowflake.com/fr/user-guide/data-load-considerations-prepare){target="_blank"}. |
 | StageName | Nom d’un environnement d’évaluation interne préconfiguré. Il peut être utilisé dans les chargements en masse au lieu de créer une nouvelle étape temporaire. |
 
->[!TAB ]
+>[!TAB Tab]
 
 >[!NOTE]
 >
