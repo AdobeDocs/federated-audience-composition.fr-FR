@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
+source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 12%
@@ -24,16 +24,6 @@ La version de mai de Federated Audience Composition prend en charge les fonction
 | --- |
 | Vous pouvez désormais vous connecter à Google BigQuery à l’aide de l’authentification WIF. Pour plus d’informations sur la connexion à l’aide de l’authentification WIF, veuillez lire la [présentation des connexions](/help/connections/home.md#wif-configuration). |
 
-## Version d’avril 2026 {#fac-26-04}
-
-La version d’avril de la composition de l’audience fédérée prend en charge les fonctionnalités et améliorations suivantes :
-
-### Nouvelles fonctionnalités {#fac=26-04-feature}
-
-| Nouveau connecteur - Teradata |
-| --- |
-| Le connecteur Teradata est désormais disponible pour une utilisation avec la composition d’audiences fédérées. Vous pouvez utiliser le connecteur Teradata pour les cas d’utilisation de création et d’enrichissement d’audiences. Pour plus d’informations sur le connecteur Teradata, consultez la [présentation des connexions](/help/connections/home.md). |
-
 ### Améliorations {#fac-26-05-improvements}
 
 Cette version s’accompagne de l’amélioration suivante.
@@ -43,6 +33,16 @@ Cette version s’accompagne de l’amélioration suivante.
   Vous pouvez désormais utiliser les attributs d’audience FAC comme identifiants supplémentaires dans les parcours Journey Optimizer Lecture d’audience . Vous pouvez ainsi activer les audiences au niveau de plusieurs entités telles que des comptes ou des abonnements.
 
   Pour plus d’informations, veuillez lire le guide [&#x200B; Utilisation d’identifiants supplémentaires dans parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
+## Version d’avril 2026 {#fac-26-04}
+
+La version d’avril de la composition de l’audience fédérée prend en charge les fonctionnalités et améliorations suivantes :
+
+### Nouvelles fonctionnalités {#fac=26-04-feature}
+
+| Nouveau connecteur - Teradata |
+| --- |
+| Le connecteur Teradata est désormais disponible pour une utilisation avec la composition d’audiences fédérées. Vous pouvez utiliser le connecteur Teradata pour les cas d’utilisation de création et d’enrichissement d’audiences. Pour plus d’informations sur le connecteur Teradata, consultez la [présentation des connexions](/help/connections/home.md). |
 
 ### Améliorations {#fac-26-04-improvements}
 
