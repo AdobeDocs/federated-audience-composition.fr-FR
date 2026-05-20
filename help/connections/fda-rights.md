@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 93%
+source-wordcount: 445
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Le tableau suivant décrit les autorisations de base de données requises pour c
 | **Surveillance des exécutions** | Privilège `MONITOR` sur l’objet requis | Aucune autorisation requise pour utiliser la commande `EXPLAIN` | Rôle `monitoring.viewer` | Autorisation `CAN_VIEW` |
 | **Écriture de données** | Privilèges `INSERT` et/ou `UPDATE` (selon l’opération d’écriture) | Autorisations `INSERT` et `UPDATE` | Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create` et `bigquery.tables.updateData`. | Autorisation `MODIFY` |
 | **Chargement de données dans des tables** | `CREATE STAGE ON SCHEMA`, `Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT` et `INSERT` sur les privilèges de la table cible | Autorisations `SELECT` et `INSERT` | Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create`, `bigquery.tables.getData` et `bigquery.tables.updateData`. | Autorisations `SELECT` et `MODIFY` |
-| **Accès aux données clientes** | Privilège `SELECT on (FUTURE) TABLE(S)` ou `VIEW(S)` | Autorisation `SELECT` | Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create` et `bigquery.tables.getData` pour les tables ou le rôle `bigquery.dataViewer`. | Autorisation `SELECT` |
+| **Accès aux données client** | Privilège `SELECT on (FUTURE) TABLE(S)` ou `VIEW(S)` | Autorisation `SELECT` | Le rôle affecté au compte de service doit contenir : `bigquery.jobs.create`, `bigquery.readsessions.create` et `bigquery.tables.getData` pour les tables ou le rôle `bigquery.dataViewer` | Autorisation `SELECT` |
 | **Accès aux métadonnées** | Privilège `SELECT on INFORMATION_SCHEMA SCHEMA` | Autorisation `SELECT` | Rôle `bigquery.metadataViewer` |  Autorisation `SELECT on INFORMATION_SCHEMA SCHEMA` |
 
 
