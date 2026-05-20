@@ -4,18 +4,13 @@ title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 3189
-ht-degree: 94%
+source-wordcount: 3543
+ht-degree: 85%
 
 ---
 
@@ -217,6 +212,8 @@ Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les infor
 
 Sélectionnez **[!UICONTROL Se connecter]** pour terminer votre authentification.
 
+Si vous sélectionnez **[!UICONTROL WIF]**, vous n’avez **pas** besoin de fournir d’informations de connexion. Cependant, vous **devez** ajouter la configuration de bibliothèque cliente en tant que **[!UICONTROL chemin d’accès au fichier de clé]**. Pour plus d’informations sur la configuration de la bibliothèque cliente, consultez la section de configuration de [Google BigQuery (Fédération des identités de charge de travail)](#wif-configuration).
+
 Après avoir saisi vos informations de connexion, vous pouvez ajouter les détails suivants :
 
 | Champ | Description |
@@ -330,7 +327,7 @@ Pour Snowflake, vous pouvez définir les options supplémentaires suivantes :
 | chunkSize | Taille de fichier du bloc de chaque chargeur en masse. Lors de l’utilisation avec d’autres threads, vous pouvez améliorer les performances de vos chargements en masse. Par défaut, cette valeur est définie sur 128 Mo. Pour plus d’informations sur les tailles des blocs, consultez la [documentation de Snowflake sur la préparation des fichiers de données](https://docs.snowflake.com/fr/user-guide/data-load-considerations-prepare){target="_blank"}. |
 | StageName | Nom d’un environnement d’évaluation interne préconfiguré. Il peut être utilisé dans les chargements en masse au lieu de créer une nouvelle étape temporaire. |
 
->[!TAB Tab]
+>[!TAB ]
 
 >[!NOTE]
 >
@@ -387,3 +384,46 @@ Après avoir ajouté les détails de la connexion, notez les paramètres supplé
 | Connexion de test | Permet de vérifier les détails de votre configuration. |
 
 Vous pouvez maintenant sélectionner **[!UICONTROL Déployer les fonctions]**, puis **[!UICONTROL Ajouter]** pour finaliser la connexion entre la base de données fédérée et Experience Platform.
+
+## Annexe {#appendix}
+
+L&#39;annexe suivante décrit comment configurer les connexions du côté du compte externe.
+
+### Configuration de Google BigQuery (Workload Identity Federation) {#wif-configuration}
+
+Avant de configurer la configuration de Google Cloud Platform, vous devez disposer des valeurs suivantes :
+
+- Identifiant de compte AWS
+   - Contactez votre représentant Adobe pour obtenir cette valeur.
+- Nom du rôle IAM AWS
+   - Le nom du rôle AWS IAM suit le format suivant : `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+
+Dans la console cloud Google, créez un **pool d’identités de charge de travail** dans la section **IAM et Admin**. Vous pouvez ainsi organiser et gérer les identités externes.
+
+Sélectionnez **Ajouter un fournisseur** pour créer un fournisseur d’identité. Cela configure une confiance unidirectionnelle entre le fournisseur d’identité dans Google Cloud et le pool d’identités du programme de travail en fournissant les métadonnées pertinentes sur le fournisseur.
+
+![Le bouton Ajouter un fournisseur est mis en surbrillance dans Google Cloud.](/help/connections/assets/home/select-add-provider.png)
+
+Lorsque vous créez un fournisseur, vous devez fournir les informations suivantes :
+
+| Champ | Description |
+| ----- | ----------- |
+| Nom | Nom du fournisseur du pool d’identités de charge de travail. |
+| Identifiant | L’identifiant du fournisseur est généré automatiquement. |
+| Identifiant de compte AWS | Identifiant de compte AWS fourni précédemment. |
+| Fournisseur activé | Valeur booléenne qui détermine si le fournisseur est activé ou désactivé. |
+| Mappage des attributs | Mappages à faire correspondre aux rôles. Ces informations sont déjà présentes. |
+
+Après avoir créé le fournisseur, vous devez créer une politique IAM pour permettre aux identités du pool d&#39;identités de charge de travail d&#39;emprunter l&#39;identité du compte de service. Sélectionnez **Accorder l’accès** pour ouvrir la boîte de dialogue Accorder l’accès au compte de service .
+
+Dans la boîte de dialogue, sélectionnez **Accorder l’accès à l’aide de l’emprunt d’identité de compte de service**. Dans la section **Sélectionner les principaux**, vous devez créer vos mappages d’attributs.
+
+Sélectionnez **aws_role** et ajoutez `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` comme valeur, en remplaçant `AWSAccountID` et `AWSRoleName` par les valeurs fournies précédemment.
+
+![La boîte de dialogue Accorder l’accès s’affiche.](/help/connections/assets/home/aws_role.png)
+
+Après avoir accordé l’accès au compte de service, téléchargez la configuration de la bibliothèque cliente.
+
+![L’emplacement où télécharger la configuration de bibliothèque s’affiche.](/help/connections/assets/home/download-config.png)
+
+Après avoir téléchargé la configuration de la bibliothèque cliente, vous pouvez maintenant configurer une connexion WIF avec la configuration d’audience fédérée.
