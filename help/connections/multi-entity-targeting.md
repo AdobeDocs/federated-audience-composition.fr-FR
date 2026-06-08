@@ -2,7 +2,7 @@
 audience: end-user
 title: Ciblage D’Entités Multiples Avec Des Audiences De Composition D’Audiences Fédérées Dans Adobe Journey Optimizer
 description: Découvrez comment cibler des profils à partir d’audiences de composition d’audiences fédérées dans les parcours Adobe Journey Optimizer.
-source-git-commit: 297a1d5019737c35ee07967a6d7330d3ad0bac1d
+source-git-commit: 79f05c5a1b025b522a1b88615973d9fe383e3720
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 3%
@@ -57,3 +57,4 @@ Votre parcours cible désormais les profils d’audience en fonction de l’**id
 ## Étapes suivantes {#next-steps}
 
 Vous êtes arrivé au bout de ce guide. À présent, vous savez comment utiliser des identifiants supplémentaires issus de vos audiences de composition d’audiences fédérées dans les parcours Journey Optimizer. Pour plus d’informations sur l’utilisation de parcours supplémentaires, consultez le guide [&#x200B; Utilisation d’identifiants supplémentaires dans les parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
