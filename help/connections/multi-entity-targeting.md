@@ -56,4 +56,4 @@ Votre parcours cible désormais les profils d’audience en fonction de l’**id
 
 ## Étapes suivantes {#next-steps}
 
-Vous êtes arrivé au bout de ce guide. À présent, vous savez comment utiliser des identifiants supplémentaires issus de vos audiences de composition d’audiences fédérées dans les parcours Journey Optimizer. Pour plus d’informations sur l’utilisation de parcours supplémentaires, consultez le guide [ Utilisation d’identifiants supplémentaires dans les parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+Vous êtes arrivé au bout de ce guide. À présent, vous savez comment utiliser des identifiants supplémentaires issus de vos audiences de composition d’audiences fédérées dans les parcours Journey Optimizer. Pour plus d’informations sur l’utilisation de parcours supplémentaires, consultez le guide [&#x200B; Utilisation d’identifiants supplémentaires dans les parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
