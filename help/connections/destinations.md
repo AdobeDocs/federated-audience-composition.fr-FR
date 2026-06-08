@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 56%
 
 ---
@@ -77,7 +77,7 @@ Au cours de l’étape du **[!UICONTROL Mappage]**, vous pouvez sélectionner le
 
 >[!IMPORTANT]
 >
->Vous **ne pouvez pas** utiliser de colonnes générées par le système lors de l’activation de la destination. La sélection d’une colonne générée par le système entraîne l’échec de l’activation.
+>Vous **ne pouvez pas** utiliser de colonnes générées par le système lors de l’activation vers les destinations. La sélection d’une colonne générée par le système provoque une erreur.
 
 Pour plus d’informations, consultez la [section de mappage](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} de la documentation de Adobe Experience Platform.
 
