@@ -4,18 +4,13 @@ title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
-workflow-type: tm+mt
-source-wordcount: 3543
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: 3540
+ht-degree: 100%
 
 ---
 
@@ -25,8 +20,8 @@ ht-degree: 85%
 >
 >Pour accéder aux connexions, vous devez disposer de l’une des autorisations suivantes :
 >
->-**Gestion de la base de données fédérées**
->-**Affichage de la base de données fédérées**
+>**Gérer la base de données fédérée**
+>-**Afficher la base de données fédérée**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
@@ -58,7 +53,7 @@ La section Bases de données fédérées s’affiche. Sélectionnez **[!UICONTRO
 
 >[!NOTE]
 >
->Pour demander une connectivité sécurisée à l’aide d’un lien privé ou d’un VPN, vous **devez** disposer d’une licence Privacy and Security Shield ou Healthcare Shield.
+>Pour demander une connectivité sécurisée à l’aide d’un lien privé ou d’un VPN, vous devez **obligatoirement** disposer d’une licence Privacy and Security Shield ou Healthcare Shield.
 
 La fenêtre contextuelle Propriétés de connexion s’affiche. Vous pouvez nommer votre connexion ainsi que sélectionner le type de base de données à créer.
 
@@ -217,7 +212,7 @@ Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les infor
 
 Sélectionnez **[!UICONTROL Se connecter]** pour terminer votre authentification.
 
-Si vous sélectionnez **[!UICONTROL WIF]**, vous n’avez **pas** besoin de fournir d’informations de connexion. Cependant, vous **devez** ajouter la configuration de bibliothèque cliente en tant que **[!UICONTROL chemin d’accès au fichier de clé]**. Pour plus d’informations sur la configuration de la bibliothèque cliente, consultez la section de configuration de [Google BigQuery (Fédération des identités de charge de travail)](#wif-configuration).
+Si vous sélectionnez **[!UICONTROL WIF]**, vous n’avez **pas** besoin de fournir d’identifiants de connexion.Cependant, vous **devez** ajouter la configuration de la bibliothèque cliente en tant que **[!UICONTROL chemin d’accès du fichier de clé]**.Pour plus d’informations sur la configuration de la bibliothèque cliente, consultez la [section Configuration de Google BigQuery (fédération des identités de charge de travail)](#wif-configuration).
 
 Après avoir saisi vos informations de connexion, vous pouvez ajouter les détails suivants :
 
@@ -288,14 +283,14 @@ Si vous sélectionnez **[!UICONTROL Authentification par compte/mot de passe]**,
 | Utilisateur ou utilisatrice | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
 
-Vous pouvez également fournir une clé privée au lieu d’un mot de passe. Si vous ajoutez une clé privée, vous devez fournir les informations suivantes :
+Vous pouvez également fournir une clé privée au lieu d’un mot de passe.Si vous ajoutez une clé privée, vous devez fournir les informations suivantes :
 
 | Champ | Description |
 | ----- | ----------- |
 | Serveur | Nom du serveur. |
 | Utilisateur ou utilisatrice | Nom d’utilisateur ou d’utilisatrice du compte. |
-| Clé privée | Clé privée du compte. Seuls les fichiers `.pem` sont pris en charge. |
-| Mot de passe | (Facultatif) Mot de passe du compte. |
+| Clé privée | La clé privée du compte.Seuls les fichiers `.pem` sont pris en charge. |
+| Mot de passe | (Facultatif) Le mot de passe du compte. |
 
 Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les informations de connexion suivantes :
 
@@ -332,28 +327,28 @@ Pour Snowflake, vous pouvez définir les options supplémentaires suivantes :
 | chunkSize | Taille de fichier du bloc de chaque chargeur en masse. Lors de l’utilisation avec d’autres threads, vous pouvez améliorer les performances de vos chargements en masse. Par défaut, cette valeur est définie sur 128 Mo. Pour plus d’informations sur les tailles des blocs, consultez la [documentation de Snowflake sur la préparation des fichiers de données](https://docs.snowflake.com/fr/user-guide/data-load-considerations-prepare){target="_blank"}. |
 | StageName | Nom d’un environnement d’évaluation interne préconfiguré. Il peut être utilisé dans les chargements en masse au lieu de créer une nouvelle étape temporaire. |
 
->[!TAB Tab]
+>[!TAB Teradata]
 
 >[!NOTE]
 >
->Pour vous connecter à Teradata, vous **devez** remplir différentes conditions préalables, notamment l’installation des pilotes de base de données. Pour plus d’informations, contactez votre représentant de l’assistance clientèle Adobe.
+>Pour vous connecter à Teradata, vous **devez obligatoirement** remplir différentes conditions préalables, notamment l’installation de pilotes de base de données.Pour plus dʼinformations, contactez votre représentant ou représentante de l’Assistance clientèle Adobe.
 
-Après avoir sélectionné Teradata, vous pouvez ajouter les détails suivants :
+Après avoir sélectionné Teradata, vous pouvez ajouter les détails suivants :
 
 | Champ | Description |
 | ----- | ----------- |
-| Serveur | URL du serveur Teradata. |
-| Compte | Nom d&#39;utilisateur utilisé par la base de données pour la session ODBC (Open Database Connectivity). |
-| Mot de passe | Mot de passe utilisé pour se connecter à la session ODBC. |
+| Serveur | L’URL du serveur Teradata. |
+| Compte | Le nom d’utilisateur ou d’utilisatrice utilisé par la base de données pour la session ODBC (Open Database Connectivity). |
+| Mot de passe | Le mot de passe utilisé pour se connecter à la session ODBC. |
 | Base de données | Nom de la base de données. |
-| Options | Options supplémentaires pour la connexion. Pour Teradata, les deux options répertoriées sont **obligatoires** ajouter. Les options disponibles sont répertoriées dans le tableau suivant. |
+| Options | Options supplémentaires pour la connexion. Pour Teradata, les deux options indiquées doivent **obligatoirement** être ajoutées.Les options disponibles sont répertoriées dans le tableau suivant. |
 
-Pour Teradata, vous pouvez définir les options supplémentaires suivantes :
+Pour Teradata, vous pouvez définir les options supplémentaires suivantes :
 
 | Options | Description |
 | ------- | ----------- |
-| `workTableSchema` | Nom du schéma pour les tables de travail. |
-| `ODBCLib` | Emplacement de la bibliothèque ODBC du système, que vous pouvez utiliser si vous mélangez Teradata avec un autre ODBC. |
+| `workTableSchema` | Le nom du schéma des tables de travail. |
+| `ODBCLib` | L’emplacement de la bibliothèque ODBC du système, que vous pouvez utiliser si vous utilisez Teradata conjointement avec une autre ODBC. |
 
 >[!TAB Vertica Analytics]
 
@@ -392,36 +387,36 @@ Vous pouvez maintenant sélectionner **[!UICONTROL Déployer les fonctions]**, p
 
 ## Annexe {#appendix}
 
-L&#39;annexe suivante décrit comment configurer les connexions du côté du compte externe.
+L’annexe suivante décrit comment configurer les connexions du côté du compte externe.
 
-### Configuration de Google BigQuery (Workload Identity Federation) {#wif-configuration}
+### Configuration de Google BigQuery (fédération d’identités de charge de travail) {#wif-configuration}
 
-Avant de configurer la configuration de Google Cloud Platform, vous devez disposer des valeurs suivantes :
+Avant de configurer la configuration de votre plateforme Google Cloud, vous devez disposer des valeurs suivantes :
 
 - Identifiant de compte AWS
-   - Contactez votre représentant Adobe pour obtenir cette valeur.
-- Nom du rôle IAM AWS
-   - Le nom du rôle AWS IAM suit le format suivant : `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+   - Contactez votre représentant ou représentante Adobe pour obtenir cette valeur.
+- Le nom du rôle IAM AWS
+   - Le nom du rôle AWS IAM respecte le format suivant : `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
-Dans la console cloud Google, créez un **pool d’identités de charge de travail** dans la section **IAM et Admin**. Vous pouvez ainsi organiser et gérer les identités externes.
+Dans la console de Google Cloud, créez un **pool d’identités de charge de travail** dans la section **IAM et administration**.Cela vous permet d’organiser et de gérer les identités externes.
 
-Sélectionnez **Ajouter un fournisseur** pour créer un fournisseur d’identité. Cela configure une confiance unidirectionnelle entre le fournisseur d’identité dans Google Cloud et le pool d’identités du programme de travail en fournissant les métadonnées pertinentes sur le fournisseur.
+Sélectionnez **Ajouter un fournisseur** pour créer un fournisseur d’identités.Cela configure une relation de confiance unidirectionnelle entre le fournisseur d’identités dans Google Cloud et le pool d’identités de charge de travail en indiquant les métadonnées pertinentes du fournisseur.
 
-![Le bouton Ajouter un fournisseur est mis en surbrillance dans Google Cloud.](/help/connections/assets/home/select-add-provider.png)
+![Le bouton Ajouter un fournisseur est mis en surbrillance dans Google Cloud.](/help/connections/assets/home/select-add-provider.png)
 
-Lorsque vous créez un fournisseur, vous devez fournir les informations suivantes :
+Lorsque vous créez un fournisseur, vous devez indiquer les informations suivantes :
 
 | Champ | Description |
 | ----- | ----------- |
-| Nom | Nom du fournisseur du pool d’identités de charge de travail. |
+| Nom | Le nom du fournisseur du pool d’identités de charge de travail. |
 | Identifiant | L’identifiant du fournisseur est généré automatiquement. |
-| Identifiant de compte AWS | Identifiant de compte AWS fourni précédemment. |
+| Identifiant de compte AWS | L’identifiant de compte AWS fourni précédemment. |
 | Fournisseur activé | Valeur booléenne qui détermine si le fournisseur est activé ou désactivé. |
-| Mappage des attributs | Mappages à faire correspondre aux rôles. Ces informations sont déjà présentes. |
+| Mappage des attributs | Les mappages correspondant aux rôles.Ces informations sont déjà présentes. |
 
-Après avoir créé le fournisseur, vous devez créer une politique IAM pour permettre aux identités du pool d&#39;identités de charge de travail d&#39;emprunter l&#39;identité du compte de service. Sélectionnez **Accorder l’accès** pour ouvrir la boîte de dialogue Accorder l’accès au compte de service .
+Après avoir créé le fournisseur, vous devez créer une politique IAM pour permettre aux identités du pool d’identités de charge de travail d’emprunter l’identité du compte de service.Sélectionnez **Accorder l’accès** pour ouvrir la boîte de dialogue Accorder l’accès au compte de service.
 
-Dans la boîte de dialogue, sélectionnez **Accorder l’accès à l’aide de l’emprunt d’identité de compte de service**. Dans la section **Sélectionner les principaux**, vous devez créer vos mappages d’attributs.
+Dans la boîte de dialogue, sélectionnez **Accorder l’accès à l’aide de l’emprunt d’identité du compte de service**.Dans la section **Sélectionner les entités**, vous devez créer vos mappages d’attributs.
 
 Sélectionnez **aws_role** et ajoutez `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` comme valeur, en remplaçant `AWSAccountID` et `AWSRoleName` par les valeurs fournies précédemment.
 
@@ -429,6 +424,6 @@ Sélectionnez **aws_role** et ajoutez `arn:aws:sts::AWSAccountID:assumed-role/AW
 
 Après avoir accordé l’accès au compte de service, téléchargez la configuration de la bibliothèque cliente.
 
-![L’emplacement où télécharger la configuration de bibliothèque s’affiche.](/help/connections/assets/home/download-config.png)
+![L’emplacement où télécharger la configuration de la bibliothèque s’affiche.](/help/connections/assets/home/download-config.png)
 
 Après avoir téléchargé la configuration de la bibliothèque cliente, vous pouvez maintenant configurer une connexion WIF avec la configuration d’audience fédérée.
