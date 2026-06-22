@@ -9,9 +9,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 445
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Le tableau suivant décrit les autorisations de base de données requises pour c
 | **Suppression d&#39;objets (tables, index, fonctions, procédures)** | Propriété de l&#39;objet | Être propriétaire de l’objet ou être un super-utilisateur | Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create`, `bigquery.routines.delete`, `bigquery.tables.delete` et `bigquery.tables.deleteIndex`. | S.O. |
 | **Surveillance des exécutions** | Privilège `MONITOR` sur l’objet requis | Aucune autorisation requise pour utiliser la commande `EXPLAIN` | Rôle `monitoring.viewer` | Autorisation `CAN_VIEW` |
 | **Écriture de données** | Privilèges `INSERT` et/ou `UPDATE` (selon l’opération d’écriture) | Autorisations `INSERT` et `UPDATE` | Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create` et `bigquery.tables.updateData`. | Autorisation `MODIFY` |
-| **Chargement de données dans des tables** | `CREATE STAGE ON SCHEMA`, `Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT` et `INSERT` sur les privilèges de la table cible | Autorisations `SELECT` et `INSERT` | Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create`, `bigquery.tables.getData` et `bigquery.tables.updateData`. | Autorisations `SELECT` et `MODIFY` |
-| **Accès aux données client** | Privilège `SELECT on (FUTURE) TABLE(S)` ou `VIEW(S)` | Autorisation `SELECT` | Le rôle affecté au compte de service doit contenir : `bigquery.jobs.create`, `bigquery.readsessions.create` et `bigquery.tables.getData` pour les tables ou le rôle `bigquery.dataViewer` | Autorisation `SELECT` |
+| **Chargement de données dans des tables** | Privilèges `CREATE STAGE ON SCHEMA`, `Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT`, et `INSERT` pour la table cible | Autorisations `SELECT` et `INSERT` | Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create`, `bigquery.tables.getData` et `bigquery.tables.updateData`. | Autorisations `SELECT` et `MODIFY` |
+| **Accès aux données clientes** | Privilège `SELECT on (FUTURE) TABLE(S)` ou `VIEW(S)` | Autorisation `SELECT` | Le rôle affecté au compte de service doit inclure les autorisations `bigquery.jobs.create`, `bigquery.readsessions.create` et `bigquery.tables.getData` pour les tables ou le rôle `bigquery.dataViewer`. | Autorisation `SELECT` |
 | **Accès aux métadonnées** | Privilège `SELECT on INFORMATION_SCHEMA SCHEMA` | Autorisation `SELECT` | Rôle `bigquery.metadataViewer` |  Autorisation `SELECT on INFORMATION_SCHEMA SCHEMA` |
 
 
@@ -41,8 +41,8 @@ Le tableau suivant décrit les autorisations de base de données requises pour c
 | **Création d&#39;index** | S.O. | Autorisation `ALTER` | S.O. | Mot-clé `CREATE INDEX` ou `INDEX` |
 | **Création de fonctions** | S.O. | Autorisation `CREATE FUNCTION` | Privilège `CREATE ON SCHEMA` | Mot-clé `CREATE FUNCTION` ou `FUNCTION` |
 | **Création de procédures** | `CREATE PROCEDURE ON DATABASE` (entrepôt de données) et `ALTER ON SCHEMA` | Autorisation `CREATE PROCEDURE` | Privilège `CREATE ON SCHEMA` | Mot-clé `CREATE PROCEDURE` ou `PROCEDURE` |
-| **Suppression d&#39;objets (tables, index, fonctions, procédures)** | `ALTER ON SCHEMA` | Autorisation `ALTER` | Propriété de l’objet ou du privilège `DROP` sur l’objet | `DROP` sur le type d’objet ou le mot-clé associé |
-| **Surveillance des exécutions** | Autorisations de niveau Contributeur ou contributrice Workspace ou supérieur (`queryinsights.exec_requests_history`) | Autorisation `CONTROL` | Aucun privilège requis pour utiliser l’instruction `EXPLAIN` | Aucun privilège supplémentaire n’est requis pour utiliser `EXPLAIN` |
+| **Suppression d&#39;objets (tables, index, fonctions, procédures)** | `ALTER ON SCHEMA` | Autorisation `ALTER` | Propriété de l’objet ou du privilège `DROP` sur l’objet | `DROP` pour le type d’objet ou le mot-clé associé |
+| **Surveillance des exécutions** | Autorisations de niveau Contributeur ou contributrice Workspace ou supérieur (`queryinsights.exec_requests_history`) | Autorisation `CONTROL` | Aucun privilège requis pour utiliser l’instruction `EXPLAIN` | Aucun privilège supplémentaire requis pour utiliser l’instruction `EXPLAIN` |
 | **Écriture de données** | `INSERT` et/ou `UPDATE ON OBJECT` | Autorisations `INSERT` et `UPDATE` | Privilèges `INSERT` et `UPDATE` | Privilèges `INSERT` et `UPDATE` |
 | **Chargement de données dans des tables** | `SELECT ON OBJECT` et `INSERT ON OBJECT` | Autorisations `CREATE TABLE`, `EXECUTE`, `SELECT`, `INSERT`, `UPDATE` et `ALTER` | Privilège `INSERT` sur la table, privilège `USAGE` sur le schéma | `SELECT` et `INSERT` (par exemple `COPY TO`/`COPY FROM`) |
 | **Accès aux données clientes** | `SELECT ON OBJECT` | Autorisation `SELECT` | Privilège `SELECT` | Privilège `SELECT` |

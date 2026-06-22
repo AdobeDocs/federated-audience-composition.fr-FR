@@ -10,9 +10,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 774
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -29,46 +29,46 @@ Pour ce faire, vous devez configurer une nouvelle connexion dans Adobe Experien
 
 Supposons que vous stockiez des informations d’achat dans votre entrepôt de données et qu’une audience Adobe Experience Platform cible la clientèle intéressée par un produit spécifique au cours des deux derniers mois. À l’aide de la destination Composition d’audiences fédérées, vous pouvez effectuer les opérations suivantes :
 
-* Affiner l’audience en fonction des informations d’achat. Par exemple, vous pouvez filtrer l’audience pour cibler les clients et clientes qui ont effectué un achat de plus de 150 $ uniquement.
+* Affiner l’audience en fonction des informations d’achat. Par exemple, vous pouvez filtrer l’audience pour cibler uniquement la clientèle qui a effectué un achat de plus de 150 dollars.
 * Enrichir l’audience avec les champs relatifs aux achats, tels que le nom du produit et la quantité achetée.
 
-## Activer l’audience vers la destination {#activate}
+## Activer l’audience pour une destination {#activate}
 
-Dans le catalogue des destinations Adobe Experience Platform, sélectionnez la destination Composition de l’audience fédérée . Dans le volet de droite, sélectionnez **[!UICONTROL Configurer une nouvelle destination]**.
+Dans le catalogue de destinations d’Adobe Experience Platform, sélectionnez la destination Composition d’audiences fédérées.Dans le volet de droite, sélectionnez **[!UICONTROL Configurer une nouvelle destination]**.
 
 ![Le bouton Configurer une nouvelle destination est mis en surbrillance dans le catalogue des destinations.](assets/destinations/new.png)
 
-La page **[!UICONTROL Configurer une nouvelle destination]** s’affiche. Sur cette page, vous pouvez configurer les détails de la destination, notamment le nom, la description, le type de connexion et la base de données fédérée.
+La page **[!UICONTROL Configurer une nouvelle destination]** s’affiche.Sur cette page, vous pouvez configurer les détails de votre destination, notamment son nom, sa description, le type de connexion et la base de données fédérée.
 
-![La page Configurer une nouvelle destination s’affiche, indiquant les détails à ajouter pour créer la destination.](assets/destinations/configure.png)
+![La page Configurer une nouvelle destination s’affiche et indique les détails à ajouter pour créer la destination.](assets/destinations/configure.png)
 
-La section **[!UICONTROL Alertes]** permet d’activer les alertes pour recevoir des notifications sur le statut de votre flux de données vers votre destination. Il s’agit notamment d’alertes pour les retards d’exécution du flux de données, les échecs d’exécution, les succès d’exécution, les démarrages et les sauts d’activation.
+La section **[!UICONTROL Alertes]** permet d’activer les alertes pour recevoir des notifications sur le statut de votre flux de données vers votre destination. Il s’agit notamment d’alertes pour les retards d’exécutions de flux de données, les échecs d’exécutions, les exécutions réussies, les démarrages d’exécutions et les activations ignorées.
 
-Pour plus d’informations sur les alertes, consultez la documentation de Adobe Experience Platform sur [l’abonnement aux alertes des destinations dans l’interface utilisateur](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+Pour plus d’informations sur les alertes, consultez la documentation d’Adobe Experience Platform sur l’[abonnement aux alertes des destinations dans l’interface d’utilisation](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 ![Les alertes disponibles pour la destination s’affichent.](assets/destinations/alerts.png)
 
-Une fois les détails de la destination configurés, sélectionnez **[!UICONTROL Suivant]**. L’étape **[!UICONTROL Politique de gouvernance et mesures d’application]** s’affiche. Sur cette page, vous pouvez définir vos politiques de gouvernance des données et vous assurer que les données utilisées sont conformes lorsque les audiences sont envoyées et actives.
+Une fois les détails de la destination configurés, sélectionnez **[!UICONTROL Suivant]**.L’étape **[!UICONTROL Politique de gouvernance et mesures d’application]** s’affiche.Sur cette page, vous pouvez définir vos politiques de gouvernance des données et vous assurer que les données utilisées sont conformes lorsque les audiences sont envoyées et actives.
 
 Lorsque vous avez terminé de sélectionner les actions marketing souhaitées pour la destination, sélectionnez **[!UICONTROL Créer]**.
 
-La nouvelle connexion à la destination est créée. Vous pouvez désormais activer les audiences à envoyer vers la destination. Sélectionnez la destination vers laquelle vous souhaitez activer les audiences, puis **[!UICONTROL Suivant]**.
+La nouvelle connexion à la destination est créée. Vous pouvez désormais activer les audiences à envoyer vers la destination. Sélectionnez la destination pour laquelle vous souhaitez activer les audiences, puis sélectionnez **[!UICONTROL Suivant]**.
 
-![Le bouton d’activation est mis en surbrillance.](assets/destinations/activate.png)
+![Le bouton Activer est mis en surbrillance.](assets/destinations/activate.png)
 
-L’étape **[!UICONTROL Planification]** s’affiche. Vous pouvez sélectionner les audiences souhaitées que vous souhaitez activer vers la destination. Pour configurer un planning d’exportation, sélectionnez ![icône en forme de crayon](assets/do-not-localize/Smock_Edit_18_N.svg).
+L’étape **[!UICONTROL Planification]** s’affiche.Vous pouvez sélectionner les audiences que vous souhaitez activer pour la destination.Pour configurer un planning, sélectionnez l’![icône en forme de crayon](assets/do-not-localize/Smock_Edit_18_N.svg) pour modifier votre planning d’exportation.
 
 ![La page Activer la destination s’affiche.](assets/destinations/schedule.png)
 
-La fenêtre contextuelle **[!UICONTROL Planification]** s’affiche. Dans cette fenêtre contextuelle, vous pouvez définir vos options d’exportation de fichiers, la fréquence et configurer votre planning.
+La fenêtre contextuelle **[!UICONTROL Planification]** s’affiche.Dans cette fenêtre contextuelle, vous pouvez définir vos options d’exportation de fichiers, la fréquence d’exportation et configurer votre planning.
 
-![La fenêtre contextuelle de planning s’affiche.](assets/destinations/schedule-2.png)
+![La fenêtre contextuelle du planning s’affiche.](assets/destinations/schedule-2.png)
 
 >[!NOTE]
 >
 >Pour activer les audiences plus rapidement, sélectionnez l’option **[!UICONTROL Après l’évaluation du segment]** pour déclencher le traitement d’activation immédiatement après la fin du traitement de segmentation par lots quotidien de Platform.
 >
->Pour plus d’informations sur la configuration du planning et des noms de fichier, consultez les sections suivantes de la documentation de Adobe Experience Platform :
+>Pour obtenir des informations détaillées sur la configuration des plannings et des noms de fichiers, consultez les sections suivantes de la documentation d’Adobe Experience Platform :
 >
 >* [Planifier l’export d’audience](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
 >* [Configurer les noms de fichiers](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
@@ -77,14 +77,14 @@ Au cours de l’étape du **[!UICONTROL Mappage]**, vous pouvez sélectionner le
 
 >[!IMPORTANT]
 >
->Vous **ne pouvez pas** utiliser de colonnes générées par le système lors de l’activation vers les destinations. La sélection d’une colonne générée par le système provoque une erreur.
+>Vous **ne pouvez pas** utiliser de colonnes générées par le système lors des activations vers des destinations.La sélection d’une colonne générée par le système entraînera une erreur.
 
-Pour plus d’informations, consultez la [section de mappage](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} de la documentation de Adobe Experience Platform.
+Pour plus d’informations, consultez la [section Mappage](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} dans la documentation d’Adobe Experience Platform.
 
-![La page des attributs de mappage s’affiche.](assets/destinations/attributes.png)
+![La page de mappage des attributs s’affiche.](assets/destinations/attributes.png)
 
 Vérifiez la configuration de destination et les paramètres de l’audience, puis sélectionnez **[!UICONTROL Terminer]**.
 
-![La page de destination de révision s’affiche.](assets/destinations/review.png)
+![La page de vérification de la destination s’affiche.](assets/destinations/review.png)
 
 Les audiences sélectionnées sont désormais activées pour la nouvelle connexion. Vous pouvez ajouter d’autres audiences à envoyer avec cette connexion en revenant à la page **[!UICONTROL Activer les audiences]**. Une fois activées, les audiences ne peuvent pas être supprimées.
