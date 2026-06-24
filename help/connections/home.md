@@ -12,10 +12,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
-workflow-type: ht
-source-wordcount: 3540
-ht-degree: 100%
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 3947
+ht-degree: 89%
 
 ---
 
@@ -217,7 +217,7 @@ Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les infor
 
 Sélectionnez **[!UICONTROL Se connecter]** pour terminer votre authentification.
 
-Si vous sélectionnez **[!UICONTROL WIF]**, vous n’avez **pas** besoin de fournir d’identifiants de connexion.Cependant, vous **devez** ajouter la configuration de la bibliothèque cliente en tant que **[!UICONTROL chemin d’accès du fichier de clé]**.Pour plus d’informations sur la configuration de la bibliothèque cliente, consultez la [section Configuration de Google BigQuery (fédération des identités de charge de travail)](#wif-configuration).
+Si vous sélectionnez **[!UICONTROL WIF]**, vous n’avez **pas** besoin de fournir d’identifiants de connexion. Cependant, vous **devez** ajouter la configuration de la bibliothèque cliente en tant que **[!UICONTROL chemin d’accès du fichier de clé]**. Pour plus d’informations sur la configuration de la bibliothèque cliente, consultez la [section Configuration de Google BigQuery (fédération des identités de charge de travail)](#wif-configuration).
 
 Après avoir saisi vos informations de connexion, vous pouvez ajouter les détails suivants :
 
@@ -225,6 +225,7 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les détai
 | ----- | ----------- |
 | Projet | ID de votre projet. Pour plus d’informations, consultez la [documentation sur le compte de service Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Jeu de données | Nom du jeu de données. Pour plus d’informations, consultez la [documentation sur le jeu de données Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
+| Emplacement du compartiment Google | Emplacement de votre compartiment Google. Vous ne devez ajouter ce champ que si vous utilisez l’activité **Modifier la dimension** dans votre composition. Pour plus d’informations, veuillez lire la documentation sur les [emplacements de compartiment cloud &#x200B;](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | Chemin d’accès au fichier de clé | Fichier de clé pour le serveur. Seuls les fichiers `json` sont pris en charge. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
@@ -240,6 +241,7 @@ Pour Google BigQuery, vous pouvez définir les options supplémentaires suivant
 | GCloudConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Nom de la configuration qui stocke les paramètres pour le chargement des données. Par défaut, la valeur est `accfda`. |
 | GCloudDefaultConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Le nom de la configuration temporaire est nécessaire pour recréer la configuration principale de chargement des données. Par défaut, la valeur est `default`. |
 | GCloudRecreateConfig | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Valeur booléenne qui vous permet de décider si le mécanisme de chargement en masse doit recréer, supprimer ou modifier automatiquement les configurations de SDK Google Cloud. Si cette valeur est définie sur `false`, le mécanisme de chargement en masse charge les données à l’aide d’une configuration existante sur la machine. Si cette valeur est définie sur `true`, assurez-vous que votre configuration est correctement définie. Dans le cas contraire, l’erreur `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` s’affiche et le mécanisme de chargement revient au mécanisme de chargement par défaut. |
+| **restEndpoint** | Point d’entrée pour votre proxy Apigee. Vous ne devez l’utiliser que si vous utilisez le connecteur REST-API avec le proxy Apigee. Si vous utilisez le proxy Apigee, activez le paramètre **Utiliser le connecteur API REST**. Pour plus d’informations sur la configuration, consultez la section Prise en charge de la passerelle Google BigQuery Apigee [&#128279;](#apigee). |
 
 >[!TAB Microsoft Fabric]
 
@@ -288,13 +290,13 @@ Si vous sélectionnez **[!UICONTROL Authentification par compte/mot de passe]**,
 | Utilisateur ou utilisatrice | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
 
-Vous pouvez également fournir une clé privée au lieu d’un mot de passe.Si vous ajoutez une clé privée, vous devez fournir les informations suivantes :
+Vous pouvez également fournir une clé privée au lieu d’un mot de passe. Si vous ajoutez une clé privée, vous devez fournir les informations suivantes :
 
 | Champ | Description |
 | ----- | ----------- |
 | Serveur | Nom du serveur. |
 | Utilisateur ou utilisatrice | Nom d’utilisateur ou d’utilisatrice du compte. |
-| Clé privée | La clé privée du compte.Seuls les fichiers `.pem` sont pris en charge. |
+| Clé privée | La clé privée du compte. Seuls les fichiers `.pem` sont pris en charge. |
 | Mot de passe | (Facultatif) Le mot de passe du compte. |
 
 Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les informations de connexion suivantes :
@@ -336,7 +338,7 @@ Pour Snowflake, vous pouvez définir les options supplémentaires suivantes :
 
 >[!NOTE]
 >
->Pour vous connecter à Teradata, vous **devez obligatoirement** remplir différentes conditions préalables, notamment l’installation de pilotes de base de données.Pour plus dʼinformations, contactez votre représentant ou représentante de l’Assistance clientèle Adobe.
+>Pour vous connecter à Teradata, vous **devez obligatoirement** remplir différentes conditions préalables, notamment l’installation de pilotes de base de données. Pour plus dʼinformations, contactez votre représentant ou représentante de l’Assistance clientèle Adobe.
 
 Après avoir sélectionné Teradata, vous pouvez ajouter les détails suivants :
 
@@ -346,7 +348,7 @@ Après avoir sélectionné Teradata, vous pouvez ajouter les détails suivants 
 | Compte | Le nom d’utilisateur ou d’utilisatrice utilisé par la base de données pour la session ODBC (Open Database Connectivity). |
 | Mot de passe | Le mot de passe utilisé pour se connecter à la session ODBC. |
 | Base de données | Nom de la base de données. |
-| Options | Options supplémentaires pour la connexion. Pour Teradata, les deux options indiquées doivent **obligatoirement** être ajoutées.Les options disponibles sont répertoriées dans le tableau suivant. |
+| Options | Options supplémentaires pour la connexion. Pour Teradata, les deux options indiquées doivent **obligatoirement** être ajoutées. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Teradata, vous pouvez définir les options supplémentaires suivantes :
 
@@ -403,9 +405,9 @@ Avant de configurer la configuration de votre plateforme Google Cloud, vous dev
 - Le nom du rôle IAM AWS
    - Le nom du rôle AWS IAM respecte le format suivant : `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
-Dans la console de Google Cloud, créez un **pool d’identités de charge de travail** dans la section **IAM et administration**.Cela vous permet d’organiser et de gérer les identités externes.
+Dans la console de Google Cloud, créez un **pool d’identités de charge de travail** dans la section **IAM et administration**. Cela vous permet d’organiser et de gérer les identités externes.
 
-Sélectionnez **Ajouter un fournisseur** pour créer un fournisseur d’identités.Cela configure une relation de confiance unidirectionnelle entre le fournisseur d’identités dans Google Cloud et le pool d’identités de charge de travail en indiquant les métadonnées pertinentes du fournisseur.
+Sélectionnez **Ajouter un fournisseur** pour créer un fournisseur d’identités. Cela configure une relation de confiance unidirectionnelle entre le fournisseur d’identités dans Google Cloud et le pool d’identités de charge de travail en indiquant les métadonnées pertinentes du fournisseur.
 
 ![Le bouton Ajouter un fournisseur est mis en surbrillance dans Google Cloud.](/help/connections/assets/home/select-add-provider.png)
 
@@ -417,18 +419,47 @@ Lorsque vous créez un fournisseur, vous devez indiquer les informations suivant
 | Identifiant | L’identifiant du fournisseur est généré automatiquement. |
 | Identifiant de compte AWS | L’identifiant de compte AWS fourni précédemment. |
 | Fournisseur activé | Valeur booléenne qui détermine si le fournisseur est activé ou désactivé. |
-| Mappage des attributs | Les mappages correspondant aux rôles.Ces informations sont déjà présentes. |
+| Mappage des attributs | Les mappages correspondant aux rôles. Ces informations sont déjà présentes. |
 
-Après avoir créé le fournisseur, vous devez créer une politique IAM pour permettre aux identités du pool d’identités de charge de travail d’emprunter l’identité du compte de service.Sélectionnez **Accorder l’accès** pour ouvrir la boîte de dialogue Accorder l’accès au compte de service.
+Après avoir créé le fournisseur, vous devez créer une politique IAM pour permettre aux identités du pool d’identités de charge de travail d’emprunter l’identité du compte de service. Sélectionnez **Accorder l’accès** pour ouvrir la boîte de dialogue Accorder l’accès au compte de service.
 
-Dans la boîte de dialogue, sélectionnez **Accorder l’accès à l’aide de l’emprunt d’identité du compte de service**.Dans la section **Sélectionner les entités**, vous devez créer vos mappages d’attributs.
+Dans la boîte de dialogue, sélectionnez **Accorder l’accès à l’aide de l’emprunt d’identité du compte de service**. Dans la section **Sélectionner les entités**, vous devez créer vos mappages d’attributs.
 
 Sélectionnez **aws_role** et ajoutez `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` comme valeur, en remplaçant `AWSAccountID` et `AWSRoleName` par les valeurs fournies précédemment.
 
-![La boîte de dialogue Accorder l’accès s’affiche.](/help/connections/assets/home/aws_role.png)
+![La boîte de dialogue Accorder l’accès s’affiche.](/help/connections/assets/home/aws-role.png)
 
 Après avoir accordé l’accès au compte de service, téléchargez la configuration de la bibliothèque cliente.
 
 ![L’emplacement où télécharger la configuration de la bibliothèque s’affiche.](/help/connections/assets/home/download-config.png)
 
 Après avoir téléchargé la configuration de la bibliothèque cliente, vous pouvez maintenant configurer une connexion WIF avec la configuration d’audience fédérée.
+
+### Prise en charge de la passerelle [!DNL Apigee] BigQuery Google {#apigee}
+
+Vous pouvez utiliser [!DNL Apigee], la plateforme de gestion d’API native de Google Cloud, pour effectuer le proxy de vos appels API vers Google BigQuery.
+
+Vous devrez d’abord créer un proxy dans l’interface utilisateur de [!DNL Apigee]. Dans Google Cloud, accédez à **Apigee** puis à **Développement de proxy**, **Serveurs proxy d’API** et **Créer** pour afficher le panneau **Créer un proxy**. Dans le panneau, vous pouvez renseigner les détails suivants :
+
+![L’écran de création du proxy Apigee s’affiche.](/help/connections/assets/home/create-proxy-apigee.png)
+
+| Détails | Description |
+| ------- | ----------- |
+| Modèle de proxy | Type de proxy à créer. Pour ce cas d’utilisation, vous devez sélectionner **Proxy inverse (les plus courants)**. |
+| Nom du proxy | Nom de votre proxy. Cette valeur peut **uniquement** inclure des caractères alphanumériques, des tirets (`-`) ou des traits de soulignement (`_`). |
+| Chemin de base | Fragment d’URI affichant l’adresse hôte de votre proxy API. Ce chemin d’accès de base est basé sur le nom du proxy et **doit** être unique. |
+| Description | Description facultative du proxy API. |
+| Cible | L’URL (qui inclut HTTP ou HTTPS) du service principal appelé par le proxy API. |
+
+Pour la composition d’audiences fédérées, créez une règle de point d’entrée proxy pour **each** point d’entrée utilisé par le connecteur BigQuery Google, comme indiqué ci-dessous :
+
+| Chemin de base | Point d’entrée cible | Description |
+| --------- | --------------- | ----------- |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Point d’entrée principal pour Google BigQuery. Ce point d’entrée est utilisé pour obtenir des données telles que des requêtes et des tableaux de liste. |
+| `/token` | `https://oauth2.googleapis.com/token` | Ce point d’entrée est utilisé pour l’authentification du compte de service. |
+| `/storage` | `https://storage.googleapis.com/storage` | Ce point d’entrée de stockage est utilisé pour supprimer les fichiers de chargement en masse temporaires. |
+| `/upload` | `https://storage.googleapis.com/upload` | Ce point d’entrée de stockage est utilisé pour le chargement en masse de fichiers. |
+| `/v1/token` | `https://sts.googleapis.com/v1/token` | Ce point d’entrée est utilisé pour le flux WIF (Workload Identity Federation) afin d’obtenir le jeton. |
+| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | Ce point d’entrée est utilisé pour emprunter l’identité d’un compte de service dans le flux WIF (Workload Identity Federation). |
+
+Une fois que vous avez créé votre proxy, vous pouvez l’utiliser pour vous connecter à la composition d’audiences fédérées. Une fois le proxy déployé, vous pouvez trouver l’URL complète de votre proxy sous **Noms d’hôte** lorsque vous sélectionnez **Environnements** suivi de **Groupes** dans la section **Admin**.
