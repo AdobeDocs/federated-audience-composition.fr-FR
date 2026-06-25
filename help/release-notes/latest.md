@@ -3,9 +3,8 @@ title: Notes De Mise À Jour De La Composition D’Audiences Fédérées
 description: Dernières mises à jour et notes de mise à jour pour la composition d’audiences fédérées.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: null
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
 workflow-type: tm+mt
 source-wordcount: 726
 ht-degree: 12%
@@ -40,7 +39,7 @@ Cette version s’accompagne de l’amélioration suivante.
 
   Vous pouvez désormais utiliser les attributs d’audience FAC comme identifiants supplémentaires dans les parcours Journey Optimizer Lecture d’audience . Vous pouvez ainsi activer les audiences au niveau de plusieurs entités telles que des comptes ou des abonnements.
 
-  Pour plus d’informations, veuillez lire le guide [&#x200B; Utilisation d’identifiants supplémentaires dans parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+  Pour plus d’informations, veuillez lire le guide [ Utilisation d’identifiants supplémentaires dans parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
 
 ## Version d’avril 2026 {#fac-26-04}
 
@@ -70,7 +69,7 @@ La version de mars de la composition de l’audience fédérée prend en charge 
 
 | Segmentation optimisée par l’IA |
 | --- |
-| Vous pouvez désormais créer des compositions d’audiences fédérées de manière autonome dans l’assistant AI. Lors de l’utilisation de l’assistant AI pour créer l’audience, l’assistant AI génère un plan qui, une fois que vous l’avez approuvé, sera exécuté dans votre navigateur. Pour plus d’informations sur l’utilisation de l’assistant AI pour créer des audiences, consultez la présentation de l’assistant [&#x200B; AI](/help/start/ai-assistant.md). |
+| Vous pouvez désormais créer des compositions d’audiences fédérées de manière autonome dans l’assistant AI. Lors de l’utilisation de l’assistant AI pour créer l’audience, l’assistant AI génère un plan qui, une fois que vous l’avez approuvé, sera exécuté dans votre navigateur. Pour plus d’informations sur l’utilisation de l’assistant AI pour créer des audiences, consultez la présentation de l’assistant [ AI](/help/start/ai-assistant.md). |
 
 | Assistant IA pour les informations opérationnelles |
 | --- |
@@ -102,7 +101,7 @@ La version de janvier de la composition de l’audience fédérée prend en char
 
 | Disponibilité pour les clients Adobe Experience Platform sous Amazon Web Services (AWS) |
 | --- |
-| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/multi-cloud). |
+| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Améliorations {#fac-26-01-improvements}
 
