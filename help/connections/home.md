@@ -4,17 +4,12 @@ title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
 workflow-type: tm+mt
-source-wordcount: 3947
+source-wordcount: 3976
 ht-degree: 89%
 
 ---
@@ -25,8 +20,7 @@ ht-degree: 89%
 >
 >Pour accéder aux connexions, vous devez disposer de l’une des autorisations suivantes :
 >
->**Gérer la base de données fédérée**
->-**Afficher la base de données fédérée**
+>-**Gestion de la base de données fédérées-** Affichage de la base de données fédérées **
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
@@ -225,8 +219,9 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les détai
 | ----- | ----------- |
 | Projet | ID de votre projet. Pour plus d’informations, consultez la [documentation sur le compte de service Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Jeu de données | Nom du jeu de données. Pour plus d’informations, consultez la [documentation sur le jeu de données Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Emplacement du compartiment Google | Emplacement de votre compartiment Google. Vous ne devez ajouter ce champ que si vous utilisez l’activité **Modifier la dimension** dans votre composition. Pour plus d’informations, veuillez lire la documentation sur les [emplacements de compartiment cloud &#x200B;](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | Chemin d’accès au fichier de clé | Fichier de clé pour le serveur. Seuls les fichiers `json` sont pris en charge. |
+| Emplacement du compartiment Google | Emplacement de votre compartiment Google. Vous ne devez ajouter ce champ que si vous utilisez l’activité **Modifier la dimension** dans votre composition. Pour plus d’informations, veuillez lire la documentation sur les [emplacements de compartiment cloud ](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
+| Utiliser le connecteur API REST | Bouton bascule permettant d’utiliser le connecteur API REST. Cette option est **uniquement** disponible si vous utilisez l’authentification Compte/Mot de passe. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Google BigQuery, vous pouvez définir les options supplémentaires suivantes :
@@ -241,7 +236,7 @@ Pour Google BigQuery, vous pouvez définir les options supplémentaires suivant
 | GCloudConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Nom de la configuration qui stocke les paramètres pour le chargement des données. Par défaut, la valeur est `accfda`. |
 | GCloudDefaultConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Le nom de la configuration temporaire est nécessaire pour recréer la configuration principale de chargement des données. Par défaut, la valeur est `default`. |
 | GCloudRecreateConfig | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Valeur booléenne qui vous permet de décider si le mécanisme de chargement en masse doit recréer, supprimer ou modifier automatiquement les configurations de SDK Google Cloud. Si cette valeur est définie sur `false`, le mécanisme de chargement en masse charge les données à l’aide d’une configuration existante sur la machine. Si cette valeur est définie sur `true`, assurez-vous que votre configuration est correctement définie. Dans le cas contraire, l’erreur `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` s’affiche et le mécanisme de chargement revient au mécanisme de chargement par défaut. |
-| **restEndpoint** | Point d’entrée pour votre proxy Apigee. Vous ne devez l’utiliser que si vous utilisez le connecteur REST-API avec le proxy Apigee. Si vous utilisez le proxy Apigee, activez le paramètre **Utiliser le connecteur API REST**. Pour plus d’informations sur la configuration, consultez la section Prise en charge de la passerelle Google BigQuery Apigee [&#128279;](#apigee). |
+| **restEndpoint** | Point d’entrée pour votre proxy Apigee. Vous ne devez l’utiliser que si vous utilisez le connecteur REST-API avec le proxy Apigee. Si vous utilisez le proxy Apigee, activez le paramètre **Utiliser le connecteur API REST**. Pour plus d’informations sur la configuration, consultez la section Prise en charge de la passerelle Google BigQuery Apigee [](#apigee). |
 
 >[!TAB Microsoft Fabric]
 
