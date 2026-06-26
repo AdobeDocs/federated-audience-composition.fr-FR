@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
 workflow-type: tm+mt
-source-wordcount: 3947
+source-wordcount: 3976
 ht-degree: 89%
 
 ---
@@ -25,8 +25,7 @@ ht-degree: 89%
 >
 >Pour accéder aux connexions, vous devez disposer de l’une des autorisations suivantes :
 >
->**Gérer la base de données fédérée**
->-**Afficher la base de données fédérée**
+>-**Gestion de la base de données fédérées-** Affichage de la base de données fédérées **
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
@@ -225,8 +224,9 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les détai
 | ----- | ----------- |
 | Projet | ID de votre projet. Pour plus d’informations, consultez la [documentation sur le compte de service Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Jeu de données | Nom du jeu de données. Pour plus d’informations, consultez la [documentation sur le jeu de données Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Emplacement du compartiment Google | Emplacement de votre compartiment Google. Vous ne devez ajouter ce champ que si vous utilisez l’activité **Modifier la dimension** dans votre composition. Pour plus d’informations, veuillez lire la documentation sur les [emplacements de compartiment cloud &#x200B;](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | Chemin d’accès au fichier de clé | Fichier de clé pour le serveur. Seuls les fichiers `json` sont pris en charge. |
+| Emplacement du compartiment Google | Emplacement de votre compartiment Google. Vous ne devez ajouter ce champ que si vous utilisez l’activité **Modifier la dimension** dans votre composition. Pour plus d’informations, veuillez lire la documentation sur les [emplacements de compartiment cloud &#x200B;](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
+| Utiliser le connecteur API REST | Bouton bascule permettant d’utiliser le connecteur API REST. Cette option est **uniquement** disponible si vous utilisez l’authentification Compte/Mot de passe. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Google BigQuery, vous pouvez définir les options supplémentaires suivantes :
