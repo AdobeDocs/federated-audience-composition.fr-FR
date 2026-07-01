@@ -29,7 +29,7 @@ Dans la composition d’audiences fédérées, vous pouvez accéder à la connai
 
 ## Accès {#access}
 
-Accédez à l’assistant IA en sélectionnant ![the AI Assistant icon](/help/start/assets/ai-assistant/icon.png) dans la barre supérieure. L’’ssistant IA s’affiche dans la partie droite de l’écran. Vous pouvez sélectionner ](assets/do-not-localize/Smock_FullScreen_18_N.svg "Dive image alt text ![the Expand icon") pour développer la fenêtre de l’assistant IA.
+Accédez à l’assistant IA en sélectionnant ![the AI Assistant icon](/help/start/assets/ai-assistant/icon.png) dans la barre supérieure. L’assistant IA s’affiche dans la partie droite de l’écran. Vous pouvez sélectionner ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "the Expand icon") pour développer la fenêtre de l’assistant IA.
 
 ![L’icône de l’assistant AI est mise en surbrillance et indique comment accéder à l’assistant AI.](/help/start/assets/ai-assistant/access.png)
 
@@ -60,14 +60,14 @@ Par exemple, si vous demandez à l’assistant IA de « créer une audience fé
 
 ![Un exemple de question et de réponse s’affiche.](/help/start/assets/ai-assistant/ask-create.png)
 
-Si le plan semble précis, vous pouvez sélectionner **[!UICONTROL Exécuter]** pour que l’agent lance son processus d’automatisation.L’agent, dans le navigateur, passe de manière autonome par les étapes de création de la composition demandée dans l’interface utilisateur de composition d’audiences fédérées. Si, à tout moment, vous souhaitez arrêter l’automatisation, sélectionnez **[!UICONTROL Arrêter]**.
+Si le plan semble précis, vous pouvez sélectionner **[!UICONTROL Exécuter]** pour que l’agent lance son processus d’automatisation. L’agent, dans le navigateur, passe de manière autonome par les étapes de création de la composition demandée dans l’interface utilisateur de composition d’audiences fédérées. Si, à tout moment, vous souhaitez arrêter l’automatisation, sélectionnez **[!UICONTROL Arrêter]**.
 
 ![Le plan a été exécuté et l’agent l’exécute de manière autonome.](/help/start/assets/ai-assistant/execute-plan.png)
 
 Actuellement, la compétence de création d’audience prend en charge les fonctionnalités supplémentaires suivantes :
 
 - Planificateur
-   - Vous pouvez créer des compositions fédérées qui s’exécutent selon un planning récurrent.Les valeurs acceptées comprennent **Une fois** et **Au quotidien**.
+   - Vous pouvez créer des compositions fédérées qui s’exécutent selon un planning récurrent. Les valeurs acceptées comprennent **Une fois** et **Au quotidien**.
 - Déduplication
    - Vous pouvez dédupliquer les enregistrements de données fédérées lors de la réconciliation des données.
 
