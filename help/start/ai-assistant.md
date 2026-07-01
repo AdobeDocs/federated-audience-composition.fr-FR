@@ -3,13 +3,8 @@ title: Vue d’ensemble d’assistant IA
 description: Découvrez comment utiliser l’assistant IA, notamment sa connaissance des produits, ses informations opérationnelles et la création de compositions d’audiences fédérées.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: ht
 source-wordcount: 651
@@ -29,7 +24,7 @@ Dans la composition d’audiences fédérées, vous pouvez accéder à la connai
 
 ## Accès {#access}
 
-Accédez à l’assistant IA en sélectionnant ![the AI Assistant icon](/help/start/assets/ai-assistant/icon.png) dans la barre supérieure. L’’ssistant IA s’affiche dans la partie droite de l’écran. Vous pouvez sélectionner ](assets/do-not-localize/Smock_FullScreen_18_N.svg "Dive image alt text ![the Expand icon") pour développer la fenêtre de l’assistant IA.
+Accédez à l’assistant IA en sélectionnant ![the AI Assistant icon](/help/start/assets/ai-assistant/icon.png) dans la barre supérieure. L’assistant IA s’affiche dans la partie droite de l’écran. Vous pouvez sélectionner ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "the Expand icon") pour développer la fenêtre de l’assistant IA.
 
 ![L’icône de l’assistant AI est mise en surbrillance et indique comment accéder à l’assistant AI.](/help/start/assets/ai-assistant/access.png)
 
@@ -60,14 +55,14 @@ Par exemple, si vous demandez à l’assistant IA de « créer une audience fé
 
 ![Un exemple de question et de réponse s’affiche.](/help/start/assets/ai-assistant/ask-create.png)
 
-Si le plan semble précis, vous pouvez sélectionner **[!UICONTROL Exécuter]** pour que l’agent lance son processus d’automatisation.L’agent, dans le navigateur, passe de manière autonome par les étapes de création de la composition demandée dans l’interface utilisateur de composition d’audiences fédérées. Si, à tout moment, vous souhaitez arrêter l’automatisation, sélectionnez **[!UICONTROL Arrêter]**.
+Si le plan semble précis, vous pouvez sélectionner **[!UICONTROL Exécuter]** pour que l’agent lance son processus d’automatisation. L’agent, dans le navigateur, passe de manière autonome par les étapes de création de la composition demandée dans l’interface utilisateur de composition d’audiences fédérées. Si, à tout moment, vous souhaitez arrêter l’automatisation, sélectionnez **[!UICONTROL Arrêter]**.
 
 ![Le plan a été exécuté et l’agent l’exécute de manière autonome.](/help/start/assets/ai-assistant/execute-plan.png)
 
 Actuellement, la compétence de création d’audience prend en charge les fonctionnalités supplémentaires suivantes :
 
 - Planificateur
-   - Vous pouvez créer des compositions fédérées qui s’exécutent selon un planning récurrent.Les valeurs acceptées comprennent **Une fois** et **Au quotidien**.
+   - Vous pouvez créer des compositions fédérées qui s’exécutent selon un planning récurrent. Les valeurs acceptées comprennent **Une fois** et **Au quotidien**.
 - Déduplication
    - Vous pouvez dédupliquer les enregistrements de données fédérées lors de la réconciliation des données.
 
