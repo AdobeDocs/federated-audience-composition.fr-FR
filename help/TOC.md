@@ -2,8 +2,8 @@
 user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
-source-git-commit: 8f33ab9a8461e36282d115ea49d93f403ee65c5c
-workflow-type: ht
+source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 
@@ -15,32 +15,32 @@ ht-degree: 100%
 - [Documentation sur la composition d’audiences fédérées Experience Platform](landing.md)
 - [Vue d’ensemble de la composition d’audiences fédérées](./overview.md)
 - Commencer avec la composition d’audiences fédérées {#start}
-   - [Conditions préalables et mécanismes de sécurisation](start/access-prerequisites.md)
-   - [Utiliser les audiences](start/audiences.md)
-   - [Utiliser l’Assistant IA](start/ai-assistant.md)
+  - [Conditions préalables et mécanismes de sécurisation](start/access-prerequisites.md)
+  - [Utiliser les audiences](start/audiences.md)
+  - [Utiliser l’Assistant IA](start/ai-assistant.md)
 - Gouvernance, confidentialité et sécurité {#governance-privacy-security}
-   - [Vue d’ensemble](./governance-privacy-security/home.md)
-   - [Contrôle d’accès](governance-privacy-security/access-control.md)
+  - [Vue d’ensemble](./governance-privacy-security/home.md)
+  - [Contrôle d’accès](governance-privacy-security/access-control.md)
 - Connexions {#connections}
-   - [Vue d’ensemble des connexions](connections/home.md)
-   - [Matrice des droits d’accès aux données](connections/fda-rights.md)
-   - [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
-   - [Ciblage d’entités multiples](connections/multi-entity-targeting.md)
+  - [Vue d’ensemble des connexions](connections/home.md)
+  - [Matrice des droits d’accès aux données](connections/fda-rights.md)
+  - [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
+  - [Ciblage d’entités multiples](connections/multi-entity-targeting.md)
 - Modèles et schémas de données {#models}
-   - [Vue d’ensemble des schémas](data-modelling/schemas.md)
-   - [Vue d’ensemble des modèles de données](data-modelling/models.md)
+  - [Vue d’ensemble des schémas](data-modelling/schemas.md)
+  - [Vue d’ensemble des modèles de données](data-modelling/models.md)
 - Compositions {#compositions}
-   - [Vue d’ensemble de la composition](compositions/home.md)
-   - [Créer une composition](compositions/create-composition.md)
-   - [Vue d’ensemble des activités](compositions/activities.md)
+  - [Vue d’ensemble de la composition](compositions/home.md)
+  - [Créer une composition](compositions/create-composition.md)
+  - [Vue d’ensemble des activités](compositions/activities.md)
 - Concepteur de requête {#query-database}
-   - [Vue d’ensemble du concepteur de requête](query/home.md)
-   - [Créer une requête](query/build-query.md)
-   - [Modifier des expressions](query/expression-editor.md)
+  - [Vue d’ensemble du concepteur de requête](query/home.md)
+  - [Créer une requête](query/build-query.md)
+  - [Modifier des expressions](query/expression-editor.md)
 - [Journal d’audit](admin/audit-trail.md)
 - [Questions fréquentes](./faq.md)
 - Notes de mise à jour {#release-notes}
-   - [Dernières notes de mise à jour](./release-notes/latest.md)
-   - [2024](./release-notes/2024.md)
-   - [2025](./release-notes/2025.md)
-   - {hide-from-toc}[Notes de version préliminaire](./release-notes/e-release-notes.md)
+  - [Dernières notes de mise à jour](./release-notes/latest.md)
+  - [2025](./release-notes/2025.md)
+  - [2024](./release-notes/2024.md)
+  - {hide-from-toc}[Notes de version préliminaire](./release-notes/e-release-notes.md)
