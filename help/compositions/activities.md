@@ -4,8 +4,7 @@ title: Vue d’ensemble des activités
 description: Découvrez les différentes activités et transitions disponibles dans la composition d’audiences fédérées.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
@@ -627,7 +626,7 @@ Vous pouvez maintenant fournir des détails pour chacun de ces sous-chemins. Vou
 Une fois la condition de filtrage créée, vous pouvez appliquer les règles supplémentaires suivantes :
 
 - **Activer la limite** : limite le nombre de profils qui peuvent être partagés dans le sous-ensemble. Vous pouvez définir la limite en nombre ou pourcentage de la population.
-   - Si vous activez une limite, vous pouvez également classer les profils sélectionnés en fonction d’un attribut de profil spécifique. Activez **Activer le tri** et vous pouvez trier les attributs par ordre croissant ou décroissant.
+  - Si vous activez une limite, vous pouvez également classer les profils sélectionnés en fonction d’un attribut de profil spécifique. Activez **Activer le tri** et vous pouvez trier les attributs par ordre croissant ou décroissant.
 - **Ignorer la transition vide** : désactive la transition si la population entrante est vide.
 
 Maintenant que les sous-ensembles ont été configurés, vous pouvez définir quelques options supplémentaires.
