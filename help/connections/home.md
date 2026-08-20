@@ -4,18 +4,13 @@ title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
-workflow-type: ht
-source-wordcount: 3976
-ht-degree: 100%
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+workflow-type: tm+mt
+source-wordcount: 3992
+ht-degree: 99%
 
 ---
 
@@ -25,13 +20,30 @@ ht-degree: 100%
 >
 >Pour accéder aux connexions, vous devez disposer de l’une des autorisations suivantes :
 >
->-**Gestion de la base de données fédérées-** Affichage de la base de données fédérées **
+>-**Gestion de la base de données fédérées**
+>-**Affichage de la base de données fédérées**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
 
 La composition d’audiences fédérées Experience Platform permet de créer et d’enrichir des audiences à partir d’entrepôts de données tiers et d’importer les audiences dans Adobe Experience Platform.
 
 ## Bases de données prises en charge {#supported-databases}
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="Clé privée"
+>abstract="Contenu vide temporaire."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="Chemin d’accès au fichier de clé"
+>abstract="Contenu vide temporaire."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_serverip"
+>title="Adresse IP du serveur"
+>abstract="Contenu vide temporaire."
+
 
 Pour travailler avec votre base de données fédérée et Adobe Experience Platform, vous devez d’abord établir une connexion entre les deux sources. Avec la composition d’audiences fédérées, vous pouvez vous connecter aux bases de données suivantes.
 
@@ -225,8 +237,8 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les détai
 | Projet | ID de votre projet. Pour plus d’informations, consultez la [documentation sur le compte de service Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Jeu de données | Nom du jeu de données. Pour plus d’informations, consultez la [documentation sur le jeu de données Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Chemin d’accès au fichier de clé | Fichier de clé pour le serveur. Seuls les fichiers `json` sont pris en charge. |
-| Emplacement du compartiment Google | Emplacement de votre compartiment Google.Vous ne devez ajouter ce champ que si vous utilisez l’activité **Changement de dimension** dans votre composition.Pour plus d’informations, consultez la [documentation sur les emplacements de compartiment Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
-| Utiliser le connecteur d’API REST | Un bouton bascule qui permet d’utiliser le connecteur d’API REST.Cette option est **uniquement** disponible si vous utilisez l’authentification Compte/Mot de passe. |
+| Emplacement du compartiment Google | Emplacement de votre compartiment Google. Vous ne devez ajouter ce champ que si vous utilisez l’activité **Changement de dimension** dans votre composition. Pour plus d’informations, consultez la [documentation sur les emplacements de compartiment Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
+| Utiliser le connecteur d’API REST | Un bouton bascule qui permet d’utiliser le connecteur d’API REST. Cette option est **uniquement** disponible si vous utilisez l’authentification Compte/Mot de passe. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Google BigQuery, vous pouvez définir les options supplémentaires suivantes :
@@ -241,7 +253,7 @@ Pour Google BigQuery, vous pouvez définir les options supplémentaires suivant
 | GCloudConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Nom de la configuration qui stocke les paramètres pour le chargement des données. Par défaut, la valeur est `accfda`. |
 | GCloudDefaultConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Le nom de la configuration temporaire est nécessaire pour recréer la configuration principale de chargement des données. Par défaut, la valeur est `default`. |
 | GCloudRecreateConfig | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Valeur booléenne qui vous permet de décider si le mécanisme de chargement en masse doit recréer, supprimer ou modifier automatiquement les configurations de SDK Google Cloud. Si cette valeur est définie sur `false`, le mécanisme de chargement en masse charge les données à l’aide d’une configuration existante sur la machine. Si cette valeur est définie sur `true`, assurez-vous que votre configuration est correctement définie. Dans le cas contraire, l’erreur `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` s’affiche et le mécanisme de chargement revient au mécanisme de chargement par défaut. |
-| **restEndpoint** | Point d’entrée de votre proxy Apigee.Vous ne devez l’utiliser que si vous utilisez le connecteur d’API REST avec le proxy Apigee.Si vous utilisez le proxy Apigee, activez le paramètre **Utiliser le connecteur d’API REST**.Pour plus d’informations sur la configuration, consultez la section [Prise en charge de la passerelle Google BigQuery Apigee](#apigee). |
+| **restEndpoint** | Point d’entrée de votre proxy Apigee. Vous ne devez l’utiliser que si vous utilisez le connecteur d’API REST avec le proxy Apigee. Si vous utilisez le proxy Apigee, activez le paramètre **Utiliser le connecteur d’API REST**. Pour plus d’informations sur la configuration, consultez la section [Prise en charge de la passerelle Google BigQuery Apigee](#apigee). |
 
 >[!TAB Microsoft Fabric]
 
@@ -401,9 +413,9 @@ L’annexe suivante décrit comment configurer les connexions du côté du compt
 Avant de configurer la configuration de votre plateforme Google Cloud, vous devez disposer des valeurs suivantes :
 
 - Identifiant de compte AWS
-   - Contactez votre représentant ou représentante Adobe pour obtenir cette valeur.
+  - Contactez votre représentant ou représentante Adobe pour obtenir cette valeur.
 - Le nom du rôle IAM AWS
-   - Le nom du rôle AWS IAM respecte le format suivant : `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - Le nom du rôle AWS IAM respecte le format suivant : `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 Dans la console de Google Cloud, créez un **pool d’identités de charge de travail** dans la section **IAM et administration**. Cela vous permet d’organiser et de gérer les identités externes.
 
@@ -439,15 +451,15 @@ Après avoir téléchargé la configuration de la bibliothèque cliente, vous po
 
 Vous pouvez utiliser [!DNL Apigee], la plateforme de gestion d’API native de Google Cloud, pour transférer vos appels API vers Google BigQuery via un proxy.
 
-Vous devrez d’abord créer un proxy dans l’interface d’utilisation d’[!DNL Apigee].Dans Google Cloud, accédez à **Apigee**, puis à **Développement de proxy**, **Proxies d’API** et **Créer** pour afficher le panneau **Créer un proxy**.Dans le panneau, vous pouvez indiquer les détails suivants :
+Vous devrez d’abord créer un proxy dans l’interface d’utilisation d’[!DNL Apigee]. Dans Google Cloud, accédez à **Apigee**, puis à **Développement de proxy**, **Proxies d’API** et **Créer** pour afficher le panneau **Créer un proxy**. Dans le panneau, vous pouvez indiquer les détails suivants :
 
 ![L’écran de création du proxy Apigee s’affiche.](/help/connections/assets/home/create-proxy-apigee.png)
 
 | Détails | Description |
 | ------- | ----------- |
-| Modèle de proxy | Le type de proxy que vous souhaitez créer.Pour ce cas d’utilisation, vous devez sélectionner **Proxy inverse (le plus courant)**. |
-| Nom du proxy | Le nom de votre proxy.Cette valeur peut **uniquement** contenir des caractères alphanumériques, des tirets (`-`) ou des traits de soulignement (`_`). |
-| Chemin d’accès de base | Fragment d’URI qui affiche l’adresse de l’hôte de votre proxy d’API.Ce chemin d’accès de base dépend du nom du proxy et **doit** être unique. |
+| Modèle de proxy | Le type de proxy que vous souhaitez créer. Pour ce cas d’utilisation, vous devez sélectionner **Proxy inverse (le plus courant)**. |
+| Nom du proxy | Le nom de votre proxy. Cette valeur peut **uniquement** contenir des caractères alphanumériques, des tirets (`-`) ou des traits de soulignement (`_`). |
+| Chemin d’accès de base | Fragment d’URI qui affiche l’adresse de l’hôte de votre proxy d’API. Ce chemin d’accès de base dépend du nom du proxy et **doit** être unique. |
 | Description | Une description facultative du proxy d’API. |
 | Cible | L’URL (qui inclut HTTP ou HTTPS) du service backend appelé par le proxy d’API. |
 
@@ -455,11 +467,11 @@ Pour la composition d’audiences fédérées, créez une règle de point d’en
 
 | Chemin d’accès de base | Point d’entrée cible | Description |
 | --------- | --------------- | ----------- |
-| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Point d’entrée principal de Google BigQuery.Ce point d’entrée est utilisé pour obtenir des données telles que des requêtes et des tables de liste. |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Point d’entrée principal de Google BigQuery. Ce point d’entrée est utilisé pour obtenir des données telles que des requêtes et des tables de liste. |
 | `/token` | `https://oauth2.googleapis.com/token` | Ce point d’entrée est utilisé pour l’authentification du compte de service. |
 | `/storage` | `https://storage.googleapis.com/storage` | Ce point d’entrée de stockage est utilisé pour supprimer les fichiers de chargement en masse temporaires. |
 | `/upload` | `https://storage.googleapis.com/upload` | Ce point d’entrée de stockage est utilisé pour le chargement en masse de fichiers. |
 | `/v1/token` | `https://sts.googleapis.com/v1/token` | Ce point d’entrée est utilisé pour le flux de fédération des identités liées à la charge de travail (WIF) afin d’obtenir le jeton. |
 | `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | Ce point d’entrée est utilisé pour emprunter l’identité d’un compte de service dans le flux de fédération des identités liées à la charge de travail (WIF). |
 
-Une fois que vous avez créé votre proxy, vous pouvez l’utiliser pour vous connecter à la composition d’audiences fédérées.Une fois le proxy déployé, vous trouverez l’URL complète de votre proxy sous **Noms d’hôte** après avoir sélectionné **Environnements**, puis **Groupes** dans la section **Admin**.
+Une fois que vous avez créé votre proxy, vous pouvez l’utiliser pour vous connecter à la composition d’audiences fédérées. Une fois le proxy déployé, vous trouverez l’URL complète de votre proxy sous **Noms d’hôte** après avoir sélectionné **Environnements**, puis **Groupes** dans la section **Admin**.
