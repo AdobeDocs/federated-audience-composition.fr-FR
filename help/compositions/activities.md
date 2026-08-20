@@ -627,7 +627,7 @@ Vous pouvez maintenant fournir des détails pour chacun de ces sous-chemins. Vou
 Une fois la condition de filtrage créée, vous pouvez appliquer les règles supplémentaires suivantes :
 
 - **Activer la limite** : limite le nombre de profils qui peuvent être partagés dans le sous-ensemble. Vous pouvez définir la limite en nombre ou pourcentage de la population.
-   - Si vous activez une limite, vous pouvez également classer les profils sélectionnés en fonction d’un attribut de profil spécifique. Activez **Activer le tri** et vous pouvez trier les attributs par ordre croissant ou décroissant.
+  - Si vous activez une limite, vous pouvez également classer les profils sélectionnés en fonction d’un attribut de profil spécifique. Activez **Activer le tri** et vous pouvez trier les attributs par ordre croissant ou décroissant.
 - **Ignorer la transition vide** : désactive la transition si la population entrante est vide.
 
 Maintenant que les sous-ensembles ont été configurés, vous pouvez définir quelques options supplémentaires.
