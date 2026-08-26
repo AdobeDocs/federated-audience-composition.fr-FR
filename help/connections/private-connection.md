@@ -55,7 +55,7 @@ Pour plus d’informations sur la création d’une connexion PrivateLink avec A
 
 Si vous souhaitez autoriser PrivateLink à utiliser avec un environnement d’évaluation interne, contactez l’assistance clientèle d’Adobe pour activer l’environnement.
 
-Pour plus d’informations sur la création d’une connexion PrivateLink avec AWS pour les environnements d’évaluation internes, consultez le guide [Points d’entrée de l’interface VPC AWS pour les étapes internes ](https://docs.snowflake.com/en/user-guide/private-internal-stages-aws).
+Pour plus d’informations sur la création d’une connexion PrivateLink avec AWS pour les environnements d’évaluation internes, consultez le guide [Points d’entrée de l’interface VPC AWS pour les étapes internes &#x200B;](https://docs.snowflake.com/en/user-guide/private-internal-stages-aws).
 
 ### Microsoft Azure {#snowflake-azure}
 
@@ -76,7 +76,7 @@ Si vous souhaitez autoriser PrivateLink à utiliser avec un environnement d’é
 
 `SELECT SYSTEM$AUTHORIZE_STAGE_PRIVATELINK_ACCESS('<internal-stage-private-endpoint-resource-id>');`
 
-Pour plus d’informations sur la création d’une connexion PrivateLink avec Azure pour les environnements d’évaluation internes, consultez le guide [Points d’entrée privés Azure pour les étapes internes ](https://docs.snowflake.com/en/user-guide/private-internal-stages-azure).
+Pour plus d’informations sur la création d’une connexion PrivateLink avec Azure pour les environnements d’évaluation internes, consultez le guide [Points d’entrée privés Azure pour les étapes internes &#x200B;](https://docs.snowflake.com/en/user-guide/private-internal-stages-azure).
 
 ## Amazon Redshift {#amazon-redshift}
 
