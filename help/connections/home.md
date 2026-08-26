@@ -4,18 +4,13 @@ title: Créer et gérer des connexions avec des bases de données fédérées
 description: Découvrir comment créer et gérer des connexions avec des bases de données fédérées
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 99%
+source-wordcount: 3987
+ht-degree: 97%
 
 ---
 
@@ -74,7 +69,7 @@ La section Bases de données fédérées s’affiche. Sélectionnez **[!UICONTRO
 
 >[!NOTE]
 >
->Pour demander une connectivité sécurisée à l’aide d’un lien privé ou d’un VPN, vous devez **obligatoirement** disposer d’une licence Privacy and Security Shield ou Healthcare Shield.
+>Pour demander une connectivité sécurisée à l’aide de PrivateLink ou d’un VPN, vous **devez** disposer d’une licence Privacy and Security Shield ou Healthcare Shield.
 
 La fenêtre contextuelle Propriétés de connexion s’affiche. Vous pouvez nommer votre connexion ainsi que sélectionner le type de base de données à créer.
 
@@ -90,7 +85,7 @@ Après avoir sélectionné un type, la section **[!UICONTROL Détails]** s’aff
 >
 >Seuls Amazon Redshift AWS, Amazon Redshift Spectrum et Amazon Redshift sans serveur sont pris en charge.
 >
->En outre, l’accès sécurisé à votre entrepôt de données externe Amazon Redshift par le biais d’un lien privé est pris en charge.
+>De plus, l’accès sécurisé à votre entrepôt de données Amazon Redshift externe via PrivateLink est pris en charge.
 
 Après avoir sélectionné Amazon Redshift, vous pouvez ajouter les détails suivants :
 
@@ -162,7 +157,7 @@ Dans votre connexion Azure Synapse, définissez les détails de configuration su
 
 >[!NOTE]
 >
->L’accès sécurisé à votre entrepôt de données Databricks externe par le biais d’un lien privé est pris en charge. Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via un lien privé et aux bases de données Databricks hébergées sur Microsoft Azure via un VPN. Contactez votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé.
+>L’accès sécurisé à votre entrepôt de données Databricks externe via PrivateLink est pris en charge. Cela inclut des connexions sécurisées aux bases de données Databricks hébergées sur Amazon Web Services (AWS) via PrivateLink et aux bases de données Databricks hébergées sur Microsoft Azure via VPN. Contactez votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé.
 
 Après avoir sélectionné Databricks, vous pouvez choisir la méthode d’authentification à utiliser lors de la connexion à la composition d’audiences fédérées.
 
@@ -295,7 +290,7 @@ Après avoir sélectionné Oracle, vous pouvez ajouter les détails suivants :
 
 >[!NOTE]
 >
->L’accès sécurisé à votre entrepôt de données Snowflake externe par le biais d’un lien privé est pris en charge. Notez que votre compte Snowflake doit être hébergé sur Amazon Web Services (AWS) ou Azure et être situé dans la même région que votre environnement de composition d’audiences fédérées. Veuillez contacter votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé à votre compte Snowflake.
+>L’accès sécurisé à votre entrepôt de données Snowflake externe via PrivateLink est pris en charge. Notez que votre compte Snowflake doit être hébergé sur Amazon Web Services (AWS) ou Azure et être situé dans la même région que votre environnement de composition d’audiences fédérées. Veuillez contacter votre représentant ou représentante Adobe pour obtenir de l’aide sur la configuration de l’accès sécurisé à votre compte Snowflake.
 
 Après avoir sélectionné Snowflake, vous pouvez choisir la méthode d’authentification à utiliser lors de la connexion à la composition d’audiences fédérées.
 
