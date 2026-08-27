@@ -2,10 +2,10 @@
 user-guide-title: Composition d’audiences fédérées Experience Platform
 title: Documentation sur la composition d’audiences fédérées Experience Platform
 breadcrumb-title: Composition d’audiences fédérées Experience Platform
-source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
+source-git-commit: e114b7cce6f9add45e82aa4e485b358bc3f85321
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '117'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
   - [Matrice des droits d’accès aux données](connections/fda-rights.md)
   - [Enrichir les audiences Adobe Experience Platform avec des données externes](connections/destinations.md)
   - [Ciblage d’entités multiples](connections/multi-entity-targeting.md)
+  - [Connexion privée](connections/private-connection.md)
 - Modèles et schémas de données {#models}
   - [Vue d’ensemble des schémas](data-modelling/schemas.md)
   - [Vue d’ensemble des modèles de données](data-modelling/models.md)
