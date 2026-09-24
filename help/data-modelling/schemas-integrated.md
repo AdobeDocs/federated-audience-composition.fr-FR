@@ -99,7 +99,7 @@ Pour modifier un schéma, cliquez sur l’icône ![des points de suspension](/he
 
 ![Le bouton Modifier le schéma est mis en surbrillance.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-Dans la fenêtre **[!UICONTROL Modifier le schéma]**, l’éditeur de schémas s’affiche. Pour plus d’informations sur l’utilisation de l’éditeur de schémas, consultez le [guide de l’interface utilisateur des schémas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
+Dans la fenêtre **[!UICONTROL Modifier le schéma]**, l’éditeur de schémas s’affiche. Pour plus d’informations sur l’utilisation de l’éditeur de schémas, consultez le [guide de l’interface utilisateur des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
 
 ![L’éditeur de schémas s’affiche.](/help/data-modelling/assets/integrated/schema-editor.png)
 
