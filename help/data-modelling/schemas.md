@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
+source-git-commit: ded8d299cabcdc0a5bd387db64e895ae65cd3b55
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 95%
+source-wordcount: '580'
+ht-degree: 99%
 ---
 # Vue d’ensemble des schémas {#schemas}
 
@@ -29,11 +29,6 @@ ht-degree: 95%
 >-**Affichage du schéma fédéré**
 >
 >Pour plus d’informations sur les autorisations requises, lisez le [guide du contrôle d’accès](/help/governance-privacy-security/access-control.md).
-
->[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="Gérer la configuration"
->abstract="Contenu vide temporaire."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -73,11 +68,6 @@ En créant un schéma, vous pouvez définir une représentation de votre tableau
 >Lors de la connexion de plusieurs sandbox à une même base de données, vous devez utiliser des schémas de travail distincts.
 
 ## Créer un schéma {#schema-create}
-
->[!CONTEXTUALHELP]
->id="platform_schemas_primarycompositekey"
->title="Clé composite"
->abstract="Clé de schéma composée de plusieurs colonnes. Marquez les colonnes à utiliser comme clé composite."
 
 Pour créer un schéma dans la composition d’audiences fédérées, sélectionnez **[!UICONTROL Modèles]** dans la section **[!UICONTROL Données fédérées]**. Dans l’onglet **[!UICONTROL Schéma]**, sélectionnez **[!UICONTROL Créer un schéma]**.
 
