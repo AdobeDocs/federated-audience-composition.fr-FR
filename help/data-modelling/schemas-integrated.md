@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 35%
+ht-degree: 38%
 ---
 # Vue d’ensemble des schémas {#schemas}
 
@@ -45,7 +45,7 @@ En créant un schéma, vous pouvez définir une représentation de votre tableau
 >
 >Lors de la connexion de plusieurs sandbox à la même base de données, vous devez utiliser des schémas de travail distincts.
 
-## Création d’un schéma {#create}
+## Créer un schéma {#create}
 
 >[!CONTEXTUALHELP]
 >id="platform_schemas_manageconfiguration"
@@ -64,12 +64,12 @@ La fenêtre contextuelle **[!UICONTROL Sélectionner une base de données fédé
 
 ![La fenêtre contextuelle Sélectionner la base de données fédérée s’affiche.](/help/data-modelling/assets/integrated/select-federated-database.png)
 
-## Définition du schéma {#define}
+## Définir le schéma {#define}
 
 >[!CONTEXTUALHELP]
 >id="platform_schemas_primarycompositekey"
 >title="Clé composite"
->abstract="Clé de schéma composée de plusieurs colonnes. Marquez les colonnes à utiliser comme clé composite."
+>abstract="Clé de schéma composée de plusieurs colonnes de schéma. Marquez les colonnes à utiliser comme votre clé composite."
 
 Après avoir choisi la base de données fédérée, vous pouvez maintenant définir votre schéma. L’écran **[!UICONTROL Ajouter des données]** s’affiche. Sur cette page, vous pouvez sélectionner **[!UICONTROL Ajouter une table]** pour choisir les tables à ajouter au schéma.
 
@@ -99,7 +99,7 @@ Pour modifier un schéma, cliquez sur l’icône ![des points de suspension](/he
 
 ![Le bouton Modifier le schéma est mis en surbrillance.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-Dans la fenêtre **[!UICONTROL Modifier le schéma]**, l’éditeur de schémas s’affiche. Pour plus d’informations sur l’utilisation de l’éditeur de schémas, consultez le [guide de l’interface utilisateur des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
+Dans la fenêtre **[!UICONTROL Modifier le schéma]**, l’éditeur de schémas s’affiche. Pour plus d’informations sur l’utilisation de l’éditeur de schémas, consultez le [guide de l’interface utilisateur des schémas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
 
 ![L’éditeur de schémas s’affiche.](/help/data-modelling/assets/integrated/schema-editor.png)
 

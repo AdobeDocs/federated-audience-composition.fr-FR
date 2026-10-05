@@ -19,7 +19,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '4385'
-ht-degree: 78%
+ht-degree: 79%
 ---
 # Créer des connexions dans l’interface utilisateur d’Experience Platform
 
@@ -66,8 +66,8 @@ Pour travailler avec votre base de données fédérée et Adobe Experience Pla
 
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
->title="Adresse IP du serveur"
->abstract="Les adresses IP qui doivent être analysées pour se connecter à la base de données."
+>title="Adresse IP du serveur"
+>abstract="Adresses IP devant être placées sur la liste autorisée pour se connecter à la base de données."
 
 Pour créer une connexion, sélectionnez **[!UICONTROL Sources]** dans la section **[!UICONTROL Connexions]**.
 
@@ -347,7 +347,7 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les détai
 | ----- | ----------- |
 | Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
 | Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
-| Clé privée | Clé privée codée en Base64 de votre compte Snowflake. Vous pouvez générer des clés privées chiffrées ou non chiffrées. Si vous utilisez une clé privée chiffrée, vous devez également fournir une phrase secrète de clé privée lors de l’authentification auprès d’Experience Platform. Pour plus d’informations, consultez le guide sur la [récupération de votre clé privée Snowflake](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/databases/snowflake). |
+| Clé privée | Clé privée codée en Base64 de votre compte Snowflake. Vous pouvez générer des clés privées chiffrées ou non chiffrées. Si vous utilisez une clé privée chiffrée, vous devez également fournir une phrase secrète de clé privée lors de l’authentification auprès d’Experience Platform. Pour plus d’informations, consultez le guide sur la [récupération de votre clé privée Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake). |
 | Phrase secrète de la clé privée | La phrase secrète de la clé privée est une couche de sécurité supplémentaire que vous devez utiliser lors de l’authentification avec une clé privée chiffrée. Vous n’êtes pas tenu de fournir la phrase secrète si vous utilisez une clé privée non chiffrée. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
