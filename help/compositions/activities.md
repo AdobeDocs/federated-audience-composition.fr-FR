@@ -6,13 +6,12 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 5478
+source-wordcount: '5478'
 ht-degree: 100%
-
 ---
-
 # Vue d’ensemble des activités
 
 Dans la composition d’audiences fédérées, vous pouvez ajouter des activités et des transitions qui permettent de définir votre audience.

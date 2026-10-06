@@ -6,13 +6,12 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: '1603'
 ht-degree: 100%
-
 ---
-
 # Créer une composition
 
 La composition d’audiences fédérées vous permet de créer des compositions, dans lesquelles vous pouvez tirer parti de diverses activités dans une zone de travail visuelle pour créer des audiences. Une fois votre composition créée, les audiences obtenues sont enregistrées dans Adobe Experience Platform et sont prêtes à être utilisées dans des destinations Experience Platform et Adobe Journey Optimizer pour cibler la clientèle.
@@ -78,11 +77,11 @@ Les options incluent :
 
   La section **[!UICONTROL Propriétés]** vous permet de configurer des paramètres génériques concernant l’exécution de l’activité :
 
-   * **[!UICONTROL Exécution]** : définissez l’action à effectuer au démarrage de l’activité.
-   * **[!UICONTROL Durée d’exécution maximale]** : spécifiez une durée de type « 30 s » ou « 1 h ». Si l’activité n’est pas terminée une fois cette durée écoulée, une alerte est déclenchée, ce qui n’a par ailleurs aucun impact sur le fonctionnement de la composition.
-   * **[!UICONTROL Fuseau horaire]** : sélectionnez le fuseau horaire de l’activité. La composition d’audiences fédérées vous permet de gérer les décalages horaires entre plusieurs pays sur la même instance. La configuration appliquée est paramétrée lors de la création de l’instance.
-   * **[!UICONTROL Affinité]** : forcez l’exécution de l’activité de composition sur une machine particulière. Vous devez pour cela définir une ou plusieurs affinités au niveau de la composition ou de l’activité concernée.
-   * **[!UICONTROL Comportement]** : définissez la procédure à suivre en cas d’utilisation de tâches asynchrones.
+  * **[!UICONTROL Exécution]** : définissez l’action à effectuer au démarrage de l’activité.
+  * **[!UICONTROL Durée d’exécution maximale]** : spécifiez une durée de type « 30 s » ou « 1 h ». Si l’activité n’est pas terminée une fois cette durée écoulée, une alerte est déclenchée, ce qui n’a par ailleurs aucun impact sur le fonctionnement de la composition.
+  * **[!UICONTROL Fuseau horaire]** : sélectionnez le fuseau horaire de l’activité. La composition d’audiences fédérées vous permet de gérer les décalages horaires entre plusieurs pays sur la même instance. La configuration appliquée est paramétrée lors de la création de l’instance.
+  * **[!UICONTROL Affinité]** : forcez l’exécution de l’activité de composition sur une machine particulière. Vous devez pour cela définir une ou plusieurs affinités au niveau de la composition ou de l’activité concernée.
+  * **[!UICONTROL Comportement]** : définissez la procédure à suivre en cas d’utilisation de tâches asynchrones.
 
   Le champ **[!UICONTROL Gestion des erreurs]** vous permet de définir l’action à effectuer lorsque l’activité a rencontré une erreur.
 

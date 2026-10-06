@@ -5,18 +5,21 @@ exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 651
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
-
 ---
-
 # Vue d’ensemble de l’Assistant IA {#ai-assistant}
 
 L’Assistant IA est une fonctionnalité de l’interface d’utilisation conçue pour vous aider à parcourir et à comprendre les concepts d’Adobe. Vous pouvez utiliser l’Assistant IA pour les cas d’utilisation liés à la connaissances des produits dans plusieurs produits Adobe Experience Cloud, notamment la composition d’audiences fédérées.
@@ -67,9 +70,9 @@ Si le plan semble précis, vous pouvez sélectionner **[!UICONTROL Exécuter]** 
 Actuellement, la compétence de création d’audience prend en charge les fonctionnalités supplémentaires suivantes :
 
 - Planificateur
-   - Vous pouvez créer des compositions fédérées qui s’exécutent selon un planning récurrent. Les valeurs acceptées comprennent **Une fois** et **Au quotidien**.
+  - Vous pouvez créer des compositions fédérées qui s’exécutent selon un planning récurrent. Les valeurs acceptées comprennent **Une fois** et **Au quotidien**.
 - Déduplication
-   - Vous pouvez dédupliquer les enregistrements de données fédérées lors de la réconciliation des données.
+  - Vous pouvez dédupliquer les enregistrements de données fédérées lors de la réconciliation des données.
 
 ## Étapes suivantes
 
