@@ -29,7 +29,7 @@ Cette version s’accompagne de l’amélioration suivante.
 
 - **Prise en charge des audiences de composition d’audiences fédérées dans la simulation de Parcours**
 
-  La simulation de parcours vous permet désormais de tester vos parcours créés avec des audiences de composition d’audiences fédérées avant de les publier avec des utilisateurs simulés. Pour plus d’informations, veuillez lire le [guide de simulation de Parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
+  La simulation de parcours vous permet désormais de tester vos parcours créés avec des audiences de composition d’audiences fédérées avant de les publier avec des utilisateurs simulés. Pour plus d’informations, veuillez lire le [guide de simulation de Parcours &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
 
 ## Version de juin 2026 {#fac-26-06}
 
@@ -55,7 +55,7 @@ Cette version s’accompagne de l’amélioration suivante.
 
   Vous pouvez désormais utiliser les attributs d’audience FAC comme identifiants supplémentaires dans les parcours Journey Optimizer Lecture d’audience . Vous pouvez ainsi activer les audiences au niveau de plusieurs entités telles que des comptes ou des abonnements.
 
-  Pour plus d’informations, veuillez lire le guide [ Utilisation d’identifiants supplémentaires dans parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+  Pour plus d’informations, veuillez lire le guide [&#x200B; Utilisation d’identifiants supplémentaires dans parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
 
 ## Version d’avril 2026 {#fac-26-04}
 
@@ -85,7 +85,7 @@ La version de mars de la composition de l’audience fédérée prend en charge 
 
 | Segmentation optimisée par l’IA |
 | --- |
-| Vous pouvez désormais créer des compositions d’audiences fédérées de manière autonome dans l’assistant AI. Lors de l’utilisation de l’assistant AI pour créer l’audience, l’assistant AI génère un plan qui, une fois que vous l’avez approuvé, sera exécuté dans votre navigateur. Pour plus d’informations sur l’utilisation de l’assistant AI pour créer des audiences, consultez la présentation de l’assistant [ AI](/help/start/ai-assistant.md). |
+| Vous pouvez désormais créer des compositions d’audiences fédérées de manière autonome dans l’assistant AI. Lors de l’utilisation de l’assistant AI pour créer l’audience, l’assistant AI génère un plan qui, une fois que vous l’avez approuvé, sera exécuté dans votre navigateur. Pour plus d’informations sur l’utilisation de l’assistant AI pour créer des audiences, consultez la présentation de l’assistant [&#x200B; AI](/help/start/ai-assistant.md). |
 
 | Assistant IA pour les informations opérationnelles |
 | --- |
