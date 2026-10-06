@@ -19,7 +19,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '4385'
-ht-degree: 78%
+ht-degree: 79%
 ---
 # Créer des connexions dans l’interface utilisateur d’Experience Platform
 
@@ -66,8 +66,8 @@ Pour travailler avec votre base de données fédérée et Adobe Experience Pla
 
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
->title="Adresse IP du serveur"
->abstract="Les adresses IP qui doivent être analysées pour se connecter à la base de données."
+>title="Adresse IP du serveur"
+>abstract="Adresses IP devant être placées sur la liste autorisée pour se connecter à la base de données."
 
 Pour créer une connexion, sélectionnez **[!UICONTROL Sources]** dans la section **[!UICONTROL Connexions]**.
 
