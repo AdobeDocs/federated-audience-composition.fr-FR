@@ -21,7 +21,7 @@ touch: edit
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '3969'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # Créer des connexions {#connections-fdb}
 
@@ -87,8 +87,8 @@ Après avoir sélectionné Amazon Redshift, vous pouvez ajouter les détails su
 | Serveur | Nom de la source de données. |
 | Compte | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
-| Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. Vous trouverez plus d’informations sur cette fonctionnalité dans la [documentation Amazon Schemas](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Remarque :** vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Base de données | Nom de la base de données. Si cette information est spécifiée dans le nom du serveur, vous pouvez laisser ce champ vide. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. Vous trouverez plus d’informations sur cette fonctionnalité dans la [documentation sur les schémas Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Remarque :** vous pouvez utiliser n’importe quel schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 
 >[!TAB Azure Synapse Analytics]
 
@@ -103,8 +103,8 @@ Après avoir sélectionné Azure Synapse Analytics, vous pouvez ajouter les d�
 | Serveur | URL du serveur Azure Synapse. |
 | Compte | ID d’application (**ID client**) de l’enregistrement de l’application Azure. |
 | Mot de passe | Valeur du **Secret client** de l’application Azure. |
-| Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Options | Options supplémentaires pour la connexion. Pour Azure Synapse Analytics, vous pouvez spécifier le type d’authentification pris en charge par le connecteur. Actuellement, la composition d’audiences fédérées prend en charge `ActiveDirectoryMSI`. Pour plus d’informations sur les chaînes de connexion, consultez la section [Exemple de chaîne de connexion de la documentation Microsoft](https://learn.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}. |
+| Base de données | Nom de la base de données. Si cette information est spécifiée dans le nom du serveur, vous pouvez laisser ce champ vide. |
+| Options | Options supplémentaires pour la connexion. Pour Azure Synapse Analytics, vous pouvez spécifier le type d’authentification pris en charge par le connecteur. Actuellement, la composition d’audiences fédérées prend en charge `ActiveDirectoryMSI`. Pour plus d’informations sur les chaînes de connexion, consultez la section [Exemples de chaînes de connexion de la documentation Microsoft](https://learn.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}. |
 
 Vous pouvez également configurer en toute sécurité votre connexion Azure Synapse Analytics à l’aide de l’authentification du Principal de service. Vous devez utiliser l’authentification du Principal de service pour les intégrations de niveau production ainsi que pour les scénarios d’automatisation.
 
@@ -130,7 +130,7 @@ Dans l’application nouvellement enregistrée, sélectionnez **Certificats et s
 >
 >Après avoir généré votre secret client, copiez et stockez en toute sécurité votre **valeur du secret client**. Cette valeur **ne sera plus** visible.
 
-Maintenant que vous avez généré votre secret client, vous devez vous assurer que vous avez accordé l’identité **Principal de service** à la ressource.
+Maintenant que vous avez généré votre secret client, vous devez vous assurer que vous avez accordé l’identité **Service principal** à la ressource.
 
 Pour plus d’informations sur l’attribution d’identités aux ressources, consultez le guide [Identités gérées pour Azure Synapse Analytics](https://learn.microsoft.com/fr-fr/azure/synapse-analytics/synapse-service-identity).
 
@@ -143,7 +143,7 @@ Dans votre connexion Azure Synapse, définissez les détails de configuration su
 | Serveur | URL du serveur Azure Synapse. |
 | Compte | ID d’application (**ID client**) de l’enregistrement de l’application Azure. |
 | Mot de passe | Valeur du **Secret client** de l’application Azure. |
-| Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
+| Base de données | Nom de la base de données. Si cette information est spécifiée dans le nom du serveur, vous pouvez laisser ce champ vide. |
 | Options | Options supplémentaires pour la connexion. Pour utiliser l’authentification du Principal de service, vous devez définir `Authentication="ActiveDirectoryServicePrincipal"`. |
 
 >[!TAB Databricks]
@@ -166,7 +166,7 @@ Si vous sélectionnez **Authentification par Principal de service**, vous pouvez
 | Champ | Description |
 | ----- | ----------- |
 | Serveur | Nom du serveur Databricks. |
-| Identifiant client | Identifiant client de votre serveur Databricks. Ce champ agit comme un nom d’utilisation pour votre projet. |
+| Identifiant client | Identifiant client de votre serveur Databricks. Ce champ agit comme un nom d’utilisateur pour votre projet. |
 | Secret client | Secret client de votre serveur Databricks. Ce champ agit comme un mot de passe pour votre projet. |
 
 Si vous sélectionnez **OAuth 2.0**, vous pouvez ajouter les informations suivantes :
@@ -175,7 +175,7 @@ Si vous sélectionnez **OAuth 2.0**, vous pouvez ajouter les informations suivan
 | ----- | ----------- |
 | Serveur | Nom du serveur Databricks. |
 | Identifiant client | Identifiant client de votre serveur Databricks. Ce champ est utilisé pour identifier l’application lors de l’authentification OAuth 2.0 et agit comme un nom d’utilisateur pour votre projet. |
-| Secret client | Secret client de votre serveur Databricks. Ces informations d’identification confidentielles sont émises avec l’identifiant client et agissent comme un mot de passe pour votre projet. |
+| Secret client | Secret client de votre serveur Databricks. Cette information d’identification confidentielle est émise avec l’identifiant client et agit comme un mot de passe pour votre projet. |
 | Étendue d’accès | Informations préremplies qui répertorient les étendues pour lesquelles votre jeton OAuth est autorisé dans votre serveur Databricks. |
 
 Après avoir saisi vos informations de connexion, vous pouvez ajouter les informations suivantes :
@@ -184,7 +184,7 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les inform
 | ----- | ----------- |
 | Chemin HTTP | Chemin d’accès à votre cluster ou entrepôt de données. Pour plus d’informations sur le chemin d’accès, consultez la [documentation de Databricks sur les détails de connexion](https://docs.databricks.com/aws/fr/integrations/compute-details){target="_blank"}. |
 | Catalogue | Nom du catalogue Databricks. Pour plus d’informations sur les catalogues dans Databricks, consultez la [documentation de Databricks sur les catalogues](https://docs.databricks.com/aws/fr/catalogs/){target="_blank"}. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Remarque :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Databricks, vous pouvez définir les options supplémentaires suivantes :
@@ -199,7 +199,7 @@ Pour Databricks, vous pouvez définir les options supplémentaires suivantes :
 >
 >Un accès sécurisé à votre entrepôt de données Google BigQuery externe via un VPN est pris en charge.
 
-Après avoir sélectionné Google BigQuery, vous pouvez choisir la méthode d’authentification à utiliser lors de la connexion à la composition d’audiences fédérées.
+Après avoir sélectionné Google BigQuery, vous pouvez choisir la méthode d’authentification à utiliser lors de la connexion avec la composition d’audiences fédérées.
 
 Si vous sélectionnez **[!UICONTROL Authentification par compte/mot de passe]**, vous pouvez ajouter les informations de connexion suivantes :
 
@@ -215,7 +215,7 @@ Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les infor
 
 | Champ | Description |
 | ----- | ----------- |
-| Identifiant client | Identifiant client de votre projet Google BigQuery. Ce champ agit comme un nom d’utilisation pour votre projet. |
+| Identifiant client | Identifiant client de votre projet Google BigQuery. Ce champ agit comme un nom d’utilisateur pour votre projet. |
 | Secret client | Secret client de votre projet Google BigQuery. Ce champ agit comme un mot de passe pour votre projet. |
 | Étendue d’accès | Informations préremplies qui répertorient les étendues pour lesquelles votre jeton OAuth est autorisé dans vos ressources Google Cloud. |
 
@@ -227,7 +227,7 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les détai
 
 | Champ | Description |
 | ----- | ----------- |
-| Projet | ID de votre projet. Pour plus d’informations, consultez la [documentation sur le compte de service Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
+| Projet | ID de votre projet. Pour plus d’informations, consultez la [documentation sur le projet Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Jeu de données | Nom du jeu de données. Pour plus d’informations, consultez la [documentation sur le jeu de données Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Chemin d’accès au fichier de clé | Fichier de clé pour le serveur. Seuls les fichiers `json` sont pris en charge. |
 | Emplacement du compartiment Google | Emplacement de votre compartiment Google. Vous ne devez ajouter ce champ que si vous utilisez l’activité **Changement de dimension** dans votre composition. Pour plus d’informations, consultez la [documentation sur les emplacements de compartiment Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
@@ -244,7 +244,7 @@ Pour Google BigQuery, vous pouvez définir les options supplémentaires suivant
 | ProxyPwd | Mot de passe du proxy. |
 | bgpath | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud).<br/><br/> Chemin d’accès au répertoire de classe du SDK Cloud sur le serveur. Vous ne devez le définir que si vous avez déplacé le répertoire `google-cloud-sdk` vers un autre emplacement ou si vous souhaitez éviter d’utiliser la variable PATH. |
 | GCloudConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Nom de la configuration qui stocke les paramètres pour le chargement des données. Par défaut, la valeur est `accfda`. |
-| GCloudDefaultConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Le nom de la configuration temporaire est nécessaire pour recréer la configuration principale de chargement des données. Par défaut, la valeur est `default`. |
+| GCloudDefaultConfigName | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Nom de la configuration temporaire pour recréer la configuration principale de chargement des données Par défaut, la valeur est `default`. |
 | GCloudRecreateConfig | **Remarque :** cela s’applique uniquement à l’**outil de chargement en masse** (SDK Cloud) au-delà de la version 7.3.4.<br/><br/> Valeur booléenne qui vous permet de décider si le mécanisme de chargement en masse doit recréer, supprimer ou modifier automatiquement les configurations de SDK Google Cloud. Si cette valeur est définie sur `false`, le mécanisme de chargement en masse charge les données à l’aide d’une configuration existante sur la machine. Si cette valeur est définie sur `true`, assurez-vous que votre configuration est correctement définie. Dans le cas contraire, l’erreur `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` s’affiche et le mécanisme de chargement revient au mécanisme de chargement par défaut. |
 | **restEndpoint** | Point d’entrée de votre proxy Apigee. Vous ne devez l’utiliser que si vous utilisez le connecteur d’API REST avec le proxy Apigee. Si vous utilisez le proxy Apigee, activez le paramètre **Utiliser le connecteur d’API REST**. Pour plus d’informations sur la configuration, consultez la section [Prise en charge de la passerelle Google BigQuery Apigee](#apigee). |
 
@@ -313,7 +313,7 @@ Si vous sélectionnez **[!UICONTROL OAuth 2.0]**, vous pouvez ajouter les infor
 | Champ | Description |
 | ----- | ----------- |
 | Serveur | Nom du serveur. |
-| Identifiant client | Identifiant client de votre projet Snowflake. Ce champ agit comme un nom d’utilisation pour votre projet. |
+| Identifiant client | Identifiant client de votre projet Snowflake. Ce champ agit comme un nom d’utilisateur pour votre projet. |
 | Secret client | Secret client de votre projet Snowflake. Ce champ agit comme un mot de passe pour votre projet. |
 
 Sélectionnez **[!UICONTROL Se connecter]** pour terminer votre authentification.
@@ -322,8 +322,8 @@ Après avoir saisi vos informations de connexion, vous pouvez ajouter les détai
 
 | Champ | Description |
 | ----- | ----------- |
-| Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Base de données | Nom de la base de données. Si cette information est spécifiée dans le nom du serveur, vous pouvez laisser ce champ vide. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Remarque :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 | Clé privée | Clé privée de la connexion à la base de données. Vous pouvez charger un fichier `.pem` à partir de votre système local. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
@@ -334,8 +334,8 @@ Pour Snowflake, vous pouvez définir les options supplémentaires suivantes :
 | workschema | Nom du schéma de base de données à utiliser pour les tables de travail. |
 | TimeZoneName | Nom du fuseau horaire à utiliser. Cette valeur représente le paramètre de session `TIMEZONE`. Le fuseau horaire du système est utilisé par défaut. Pour plus d’informations sur les fuseaux horaires, consultez la [documentation de Snowflake sur les fuseaux horaires](https://docs.snowflake.com/fr/sql-reference/parameters#timezone){target="_blank"}. |
 | WeekStart | Jour auquel vous voulez que la semaine commence. Cette valeur représente le paramètre de session `WEEK_START`. Pour plus d’informations sur le début de la semaine, consultez la [documentation de Snowflake sur le paramètre de début de semaine](https://docs.snowflake.com/fr/sql-reference/parameters#week-start){target="_blank"}. |
-| UseCachedResult | Valeur booléenne qui détermine si les résultats mis en cache de Snowflake seront utilisés. Cette valeur représente le paramètre de session `USE_CACHED_RESULTS`. Par défaut, cette valeur est définie sur true. Pour plus d’informations sur ce paramètre, consultez la [documentation de Snowflake sur les résultats persistants](https://docs.snowflake.com/fr/user-guide/querying-persisted-results){target="_blank"}. |
-| bulkThreads | Nombre de threads à utiliser pour le chargeur en masse de Snowflake. Plus il y a de threads ajoutés, meilleures seront les performances pour les chargements en masse plus volumineux. Par défaut, cette valeur est définie sur 1. |
+| UseCachedResult | Valeur booléenne qui détermine si les résultats mis en cache de Snowflake seront utilisés. Cette valeur représente le paramètre de session `USE_CACHED_RESULTS`. Par défaut, cette valeur est définie sur true. Pour plus d’informations sur ce paramètre, consultez la [documentation de Snowflake sur la conservation des résultats](https://docs.snowflake.com/fr/user-guide/querying-persisted-results){target="_blank"}. |
+| bulkThreads | Nombre de threads à utiliser pour le chargeur en masse de Snowflake. Plus il y a de threads ajoutés, plus les performances seront meilleures pour les chargements en masse plus volumineux. Par défaut, cette valeur est définie sur 1. |
 | chunkSize | Taille de fichier du bloc de chaque chargeur en masse. Lors de l’utilisation avec d’autres threads, vous pouvez améliorer les performances de vos chargements en masse. Par défaut, cette valeur est définie sur 128 Mo. Pour plus d’informations sur les tailles des blocs, consultez la [documentation de Snowflake sur la préparation des fichiers de données](https://docs.snowflake.com/fr/user-guide/data-load-considerations-prepare){target="_blank"}. |
 | StageName | Nom d’un environnement d’évaluation interne préconfiguré. Il peut être utilisé dans les chargements en masse au lieu de créer une nouvelle étape temporaire. |
 
@@ -371,8 +371,8 @@ Après avoir sélectionné Vertica Analytics, vous pouvez ajouter les détails 
 | Serveur | URL du serveur Vertica Analytics. |
 | Compte | Nom d’utilisateur ou d’utilisatrice du compte. |
 | Mot de passe | Mot de passe du compte. |
-| Base de données | Nom de la base de données. Si ce champ est spécifié dans le nom du serveur, vous pouvez le laisser vide. |
-| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Note :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisation requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
+| Base de données | Nom de la base de données. Si cette information est spécifiée dans le nom du serveur, vous pouvez laisser ce champ vide. |
+| Schéma de travail | Nom du schéma de base de données à utiliser pour les tables de travail. <br/><br/>**Remarque :** vous pouvez utiliser **n’importe quel** schéma de la base de données, y compris les schémas utilisés pour le traitement temporaire des données, à condition que vous disposiez des autorisations requises pour vous connecter à ce schéma. Cependant, vous **devez** utiliser des schémas de travail distincts lors de la connexion de plusieurs sandbox à la même base de données. |
 | Options | Options supplémentaires pour la connexion. Les options disponibles sont répertoriées dans le tableau suivant. |
 
 Pour Vertica Analytics, vous pouvez définir les options supplémentaires suivantes :
@@ -403,12 +403,12 @@ L’annexe suivante décrit comment configurer les connexions du côté du compt
 
 ### Configuration de Google BigQuery (fédération d’identités de charge de travail) {#wif-configuration}
 
-Avant de configurer la configuration de Google Cloud Platform, vous devez disposer des valeurs suivantes :
+Avant de configurer la configuration de votre plateforme Google Cloud, vous devez disposer des valeurs suivantes :
 
 - Identifiant de compte AWS
   - Contactez votre représentant ou représentante Adobe pour obtenir cette valeur.
 - Le nom du rôle IAM AWS
-  - Le nom du rôle AWS IAM suit le format suivant : `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - Le nom du rôle AWS IAM respecte le format suivant : `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 Dans la console de Google Cloud, créez un **pool d’identités de charge de travail** dans la section **IAM et administration**. Cela vous permet d’organiser et de gérer les identités externes.
 
