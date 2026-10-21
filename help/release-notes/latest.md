@@ -6,14 +6,34 @@ TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 11%
+source-wordcount: '973'
+ht-degree: 9%
 ---
 # Notes de mise à jour
 
 [!DNL Federated Audience Composition] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées dans ces notes de mise à jour. [!DNL Federated Audience Composition] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+## Version du 26 septembre {#fac-26-09}
+
+La version de septembre de Federated Audience Composition prend en charge les fonctionnalités suivantes :
+
+| Nouvelle expérience unifiée pour les connexions et schémas fédérés |
+| --- |
+| Vous pouvez désormais accéder aux connexions fédérées et aux schémas directement dans l’interface utilisateur de Adobe Experience Platform. Pour savoir comment créer des connexions fédérées, lisez le guide [Créer des connexions dans le guide de l’interface utilisateur d’Experience Platform](/help/connections/integrated.md). Pour découvrir comment créer des schémas, consultez la [présentation des schémas](/help/data-modelling/schemas-integrated.md). |
+
+| Prise en charge des outils Sandbox pour les audiences de composition d’audiences fédérées |
+| --- |
+| Vous pouvez désormais utiliser la fonction d’outils de sandbox d’Experience Platform pour déplacer les audiences de composition d’audiences fédérées d’un sandbox à un autre. Pour plus d’informations sur l’utilisation de l’outil sandbox, consultez le [guide de l’outil sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+
+### Améliorations {#fac-26-09-improvements}
+
+Cette version s’accompagne de l’amélioration suivante.
+
+- **Augmentation de l’expiration des données pour les audiences de composition d’audiences fédérées**
+
+  L’expiration des données pour les audiences de composition d’audiences fédérées a été augmentée à 3 650 jours (10 ans).
 
 ## Version de juillet 2026 {#fac-26-07}
 

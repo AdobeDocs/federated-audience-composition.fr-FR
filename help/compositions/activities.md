@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '5478'
-ht-degree: 100%
+source-wordcount: '5480'
+ht-degree: 99%
 ---
 # Vue d’ensemble des activités
 
@@ -43,7 +43,7 @@ Après avoir ajouté l’activité **Créer une audience** à la zone de travail
 
 >[!TAB Créer une audience]
 
-Après avoir sélectionné **Créer une audience**, choisissez le **schéma** de votre audience. Le schéma vous permet de définir la population ciblée par l’opération, comme les personnes destinataires ou bénéficiaires d’un contrat, les opérateurs et opératrices ou les personnes abonnées. Par défaut, le schéma est sélectionné parmi les personnes destinataires.
+Après avoir sélectionné **Créer une audience**, choisissez le **schéma** de votre audience. Le schéma vous permet de définir la population ciblée par l’opération, comme les personnes destinataires ou bénéficiaires d’un contrat, les opérateurs et opératrices ou les personnes abonnées. Par défaut, le schéma est sélectionné à partir des destinataires.
 
 ![](./assets/activities/build-audience-create.png)
 
@@ -93,7 +93,7 @@ Après avoir sélectionné **[!UICONTROL Compte externe FDA]**, vous pouvez choi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Activité Changement de dimension"
->abstract="Cette activité vous permet de modifier le schéma, ou dimension de ciblage, à mesure que vous créez une audience. Elle déplace l’axe en fonction du modèle de données et du schéma d’entrée. Par exemple, vous pouvez passer du schéma « contrats » au schéma « clientèle »."
+>abstract="Cette activité vous permet de modifier le schéma, ou dimension de ciblage, à mesure que vous créez une audience. Elle déplace l’axe en fonction du modèle de données et du schéma d’entrée. Par exemple, vous pouvez passer du schéma « contrats » au schéma « clients »."
 
 L’activité **Changement de dimension** permet de modifier le schéma (également appelé dimension de ciblage) de votre composition.
 
@@ -132,7 +132,7 @@ Une fois la composition exécutée, vos résultats sont mis à jour.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
 >title="Options de réconciliation des intersections"
->abstract="Sélectionnez le type de réconciliation pour définir la manière dont les doublons sont traités :"
+>abstract="Sélectionnez le type de réconciliation pour définir la manière dont les doublons sont traités."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_reconciliation"
@@ -142,7 +142,7 @@ Une fois la composition exécutée, vos résultats sont mis à jour.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Règles d’exclusion"
->abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, sélectionnez **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
+>abstract="Le cas échéant, vous pouvez manipuler les tables entrantes. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, sélectionnez **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -152,7 +152,7 @@ Une fois la composition exécutée, vos résultats sont mis à jour.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Règles d’exclusion"
->abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, sélectionnez **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
+>abstract="Le cas échéant, vous pouvez manipuler les tables entrantes. En effet, pour exclure une cible d’un autre schéma, ou dimension de ciblage, cette cible doit être replacée dans le même schéma que la cible principale. Pour ce faire, sélectionnez **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement du schéma. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -201,7 +201,7 @@ Après avoir configuré votre type de réconciliation, vous pouvez également s�
 
 ![](./assets/activities/combine-exclusion.png)
 
-Si vous sélectionnez **Exclusion**, vous devez sélectionner le **jeu principal** à partir de vos transitions entrantes. Cela représente les jeux dont les éléments seront exclus.
+Si vous sélectionnez **Exclusion**, vous devez sélectionner le **jeu principal** à partir de vos transitions entrantes. Cela représente les jeux à partir desquels les éléments seront exclus.
 
 Après avoir choisi votre jeu principal, vous pouvez configurer vos **Règles d’exclusion**. Vous pouvez sélectionner **Correspondance par attribut** ou **Jointure**.
 
@@ -231,7 +231,7 @@ Une fois vos règles d’exclusion configurées, vous pouvez également sélecti
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="Paramètres de déduplication"
->abstract="Pour supprimer des doublons dans les données entrantes, définissez la méthode de déduplication dans les champs ci-dessous. Par défaut, un seul enregistrement est conservé. Vous devez également sélectionner le mode de déduplication en fonction d’une expression ou d’un attribut. Par défaut, l’enregistrement à conserver en dehors des doublons est sélectionné de manière aléatoire."
+>abstract="Pour supprimer des doublons dans les données entrantes, définissez la méthode de déduplication dans les champs ci-dessous. Par défaut, un seul enregistrement est conservé. Vous devez également sélectionner le mode de déduplication en fonction d’une expression ou d’un attribut. Par défaut, l’enregistrement à conserver parmi les doublons est sélectionné de manière aléatoire."
 
 L’activité **Déduplication** supprime tous les résultats en double dans l’audience.
 
@@ -250,7 +250,7 @@ Une fois que vous avez identifié vos champs, vous pouvez configurer vos paramè
 | Paramètre | Description |
 | ------- | ----------- |
 | Doublons à conserver | Nombre d’enregistrements en double à conserver. Si la valeur est définie sur 0, **tous** les enregistrements en double sont conservés. |
-| Méthode de déduplication | Méthode pour supprimer les enregistrements en double. <ul><li>**Sélection aléatoire** : l’enregistrement supprimé est choisi de manière aléatoire.</li><li>**À l’aide d’une expression** : l’enregistrement supprimé est basé sur l’expression envoyée. Vous pouvez effectuer un tri par ordre croissant ou décroissant, en fonction des valeurs que vous souhaitez supprimer.</li><li>**Valeurs non vides** : l’enregistrement supprimé est basé sur l’expression envoyée. Les enregistrements pour lesquels l’expression n’a pas de valeur seront supprimés.</li><li>**Suivant une liste de valeurs** : l’enregistrement supprimé est basé sur le champ ou l’expression envoyé. Vous pouvez trier les valeurs restantes de manière aléatoire par ordre croissant ou décroissant.</li></ul> |
+| Méthode de déduplication | Méthode pour supprimer les enregistrements en double. <ul><li>**Sélection aléatoire** : l’enregistrement supprimé est choisi de manière aléatoire.</li><li>**À l’aide d’une expression** : l’enregistrement supprimé est basé sur l’expression envoyée. Vous pouvez effectuer un tri par ordre croissant ou décroissant, en fonction des valeurs que vous souhaitez supprimer.</li><li>**Valeurs non vides** : l’enregistrement supprimé est basé sur l’expression envoyée. Les enregistrements pour lesquels l’expression n’a pas de valeur seront supprimés.</li><li>**Suivant une liste de valeurs** : l’enregistrement supprimé est basé sur le champ ou l’expression envoyé. Vous pouvez trier les valeurs restantes de manière aléatoire, par ordre croissant ou décroissant.</li></ul> |
 
 Vous pouvez également sélectionner l’option **Générer le complément**. La génération d’un complément traite la population restante et contient les données **non** incluses dans le cadre de la déduplication. Une transition sortante supplémentaire sera ajoutée à l’activité.
 
@@ -281,7 +281,7 @@ Vous pouvez également sélectionner l’option **Générer le complément**. La
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Données d’enrichissement"
->abstract="Sélectionnez les données à utiliser pour enrichir votre composition. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement du schéma, ou dimension de ciblage, ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tableaux."
+>abstract="Sélectionnez les données à utiliser pour enrichir votre composition. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement du schéma, également appelé dimension de ciblage, ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tables."
 
 L’activité **Enrichissement** permet d’améliorer votre composition en ajoutant des données supplémentaires à partir de votre base de données fédérée.
 
@@ -344,7 +344,7 @@ Après avoir ajouté l’activité **Enrichissement** à votre composition, vous
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Attribut de réconciliation"
->abstract="Sélectionnez l’attribut à utiliser pour rapprocher les données, puis confirmez."
+>abstract="Sélectionnez l’attribut à utiliser pour réconcilier les données, puis confirmez."
 
 >[!NOTE]
 >
@@ -385,7 +385,7 @@ Vous pouvez également filtrer les données réconciliées. Sélectionnez **Cr�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Enregistrer une audience"
->abstract="Utilisez cette activité pour créer une audience à partir de la population calculée en amont dans la composition. Les audiences créées sont ajoutées à la liste des audiences et sont disponibles dans le menu **Audiences**."
+>abstract="Utilisez cette activité pour créer une nouvelle audience à partir de la population calculée en amont dans la composition. Les audiences créées sont ajoutées à la liste des audiences et sont disponibles dans le menu **Audiences**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -426,7 +426,7 @@ Vous pouvez maintenant spécifier vos mappages pour sélectionner les champs à 
 
 Après avoir ajouté vos mappages, vous pouvez sélectionner l’identité principale et l’espace de noms pour identifier les profils ciblés dans la base de données. Le champ Identité principale permet d’identifier les profils tandis que l’espace de noms d’identité sert de clé pour identifier l’identité.
 
-De plus, vous pouvez définir l’expiration des données pour l’audience. L’expiration des données détermine le nombre de jours après lesquels l’appartenance à l’audience expirera. L’expiration des données peut prendre entre 1 et 90 jours. Par défaut, cette valeur est définie sur 30.
+De plus, vous pouvez définir l’expiration des données pour l’audience. L’expiration des données détermine le nombre de jours après lesquels l’appartenance à l’audience expirera. L’expiration des données peut aller de 1 à 3 650 jours (10 ans). Par défaut, cette valeur est définie sur 30.
 
 +++
 
@@ -465,7 +465,7 @@ De plus, vous pouvez définir l’expiration des données pour l’audience. L�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
 >title="Champ d’identité principale"
->abstract="Le champ Identité principale indique la source de vérité lors de la fusion des profils pour l’enrichissement."
+>abstract="Le champ Identité principale indique la source de référence lors de la fusion des profils pour l’enrichissement."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_requiredfieldscheck"
@@ -505,7 +505,7 @@ De plus, vous pouvez définir l’expiration des données pour l’audience. L�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_timestampdescriptor"
 >title="Descripteur d’horodatage"
->abstract="Descripteur de date et heure du schéma relationnel. Cette valeur permet de définir l’heure de l’événement pour la commande et n’existe que si vous utilisez des données de série temporelle."
+>abstract="Descripteur de date et heure du schéma relationnel. Cette valeur permet de définir l’heure de l’événement pour le tri et n’existe que si vous utilisez des données de série temporelle."
 
 L’activité **[!UICONTROL Enregistrer les champs]** permet d’enrichir les schémas Experience Platform en fédérant les données d’entrepôts externes, ce qui permet d’enrichir les schémas Experience Platform avec des attributs supplémentaires.
 
@@ -617,7 +617,7 @@ L’activité **Partage** sépare la population entrante en plusieurs parties, 
 >
 >Lorsque l’activité **Partage** est exécutée, la population est séparée entre les différents sous-ensembles dans l’**ordre dans lequel ils sont ajoutés à l’activité**. Par exemple, si le premier sous-ensemble comprend 70 % de la population initiale, le sous-ensemble suivant applique ses critères de sélection aux 30 % restants.
 >
->Avant d’exécuter votre composition, assurez-vous d’avoir ordonné les sous-ensembles dans l’ordre dans lequel vous souhaitez que les partages soient exécutés.
+>Avant d’exécuter votre composition, assurez-vous d’avoir ordonné les sous-ensembles dans l’ordre dans lequel vous souhaitez que les fractionnements soient exécutés.
 
 Après avoir ajouté l’activité **Partage** à votre composition, vous pouvez maintenant déterminer comment définir un sous-ensemble de votre audience. Sélectionnez **Ajouter un segment** pour créer vos différents chemins d’embranchement.
 
@@ -775,7 +775,7 @@ Après avoir choisi la fréquence mensuelle, vous pouvez choisir le **Jour du mo
 | Pendant une période sélectionnée | La composition est exécutée tous les jours pendant la période sélectionnée. Vous pouvez définir la durée de la période de récurrence ainsi que la date de début de la période. |
 | Jours sélectionnés de la semaine | La composition est exécutée tous les jours sélectionnés de la semaine. |
 
-Une fois que vous avez défini le **Jour du mois**, vous pouvez choisir l’heure de début. Toutes les heures correspondent au fuseau horaire UTC.
+Une fois que vous avez défini le **Jour du mois**, vous pouvez choisir l’heure de début. Toutes les heures sont indiquées en UTC.
 
 >[!ENDTABS]
 
