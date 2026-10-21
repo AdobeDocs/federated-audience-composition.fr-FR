@@ -25,7 +25,7 @@ La version de septembre de Federated Audience Composition prend en charge les fo
 
 | Prise en charge des outils Sandbox pour les audiences de composition d’audiences fédérées |
 | --- |
-| Vous pouvez désormais utiliser la fonction d’outils de sandbox d’Experience Platform pour déplacer les audiences de composition d’audiences fédérées d’un sandbox à un autre. Pour plus d’informations sur l’utilisation de l’outil sandbox, consultez le [guide de l’outil sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+| Vous pouvez désormais utiliser la fonction d’outils de sandbox d’Experience Platform pour déplacer les audiences de composition d’audiences fédérées d’un sandbox à un autre. Pour plus d’informations sur l’utilisation de l’outil sandbox, consultez le [guide de l’outil sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 ### Améliorations {#fac-26-09-improvements}
 
@@ -49,7 +49,7 @@ Cette version s’accompagne de l’amélioration suivante.
 
 - **Prise en charge des audiences de composition d’audiences fédérées dans la simulation de Parcours**
 
-  La simulation de parcours vous permet désormais de tester vos parcours créés avec des audiences de composition d’audiences fédérées avant de les publier avec des utilisateurs simulés. Pour plus d’informations, veuillez lire le [guide de simulation de Parcours &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
+  La simulation de parcours vous permet désormais de tester vos parcours créés avec des audiences de composition d’audiences fédérées avant de les publier avec des utilisateurs simulés. Pour plus d’informations, veuillez lire le [guide de simulation de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
 
 ## Version de juin 2026 {#fac-26-06}
 
@@ -137,7 +137,7 @@ La version de janvier de la composition de l’audience fédérée prend en char
 
 | Disponibilité pour les clients Adobe Experience Platform sous Amazon Web Services (AWS) |
 | --- |
-| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
+| Vous pouvez désormais utiliser la composition d’audiences fédérées si votre instance Experience Platform se trouve sur AWS. Pour plus d’informations sur Experience Platform sur AWS, consultez la [présentation multi-cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/multi-cloud). |
 
 ### Améliorations {#fac-26-01-improvements}
 

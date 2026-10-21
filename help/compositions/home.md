@@ -69,7 +69,7 @@ Vous pouvez également effectuer des actions rapides sur les compositions en sé
 | ------ | ----------- |
 | **[!UICONTROL Doublon]** | Duplique la composition sélectionnée. |
 | **[!UICONTROL Supprimer]** | Supprime la composition sélectionnée. |
-| **[!UICONTROL Ajouter au package]** | Déplace la composition entre les sandbox. Pour plus d’informations sur cette fonctionnalité, consultez le [guide d’utilisation des sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+| **[!UICONTROL Ajouter au package]** | Déplace la composition entre les sandbox. Pour plus d’informations sur cette fonctionnalité, consultez le [guide d’utilisation des sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 Pour affiner la liste et trouver la composition que vous recherchez, vous pouvez rechercher la liste et filtrer les compositions selon leur statut ou leur date de dernier traitement.
 
