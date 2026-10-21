@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '765'
+ht-degree: 71%
 ---
 # Vue d’ensemble des compositions
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 La composition d’audiences fédérées vous permet de créer des compositions, dans lesquelles vous pouvez tirer parti de diverses activités dans une zone de travail visuelle pour créer des audiences. Une fois votre composition créée, les audiences obtenues sont enregistrées dans Adobe Experience Platform et sont prêtes à être utilisées dans des destinations Experience Platform et Adobe Journey Optimizer pour cibler la clientèle.
 
-![Un exemple de workflow de composition s’affiche dans la composition d’audiences fédérées.](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
+![Un exemple de workflow de composition s’affiche dans la composition d’audiences fédérées.](/help/compositions/assets/home/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## Composants de composition {#components}
 
@@ -46,45 +46,50 @@ Une composition au sein de la composition d’audiences fédérées comprend le
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
 >title="Compositions"
->abstract="Dans cet écran, vous pouvez accéder à la liste complète des compositions, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une composition."
+>abstract="Dans cet écran, vous pouvez accéder à la liste complète des compositions, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une nouvelle composition."
 
 Les compositions sont accessibles à partir du menu **[!UICONTROL Audiences]** d’Adobe Experience Platform, dans l’onglet **[!UICONTROL Compositions fédérées]** de la section **[!UICONTROL Clientes et clients]**.
 
-Dans cet écran, vous pouvez accéder aux compositions existantes ou en créer de nouvelles. Vous pouvez également dupliquer ou supprimer une composition existante en sélectionnant le bouton ![points de suspension](/help/assets/icons/more.png) en regard de son nom.
+![Les boutons Compositions fédérées et Audiences sont mis en surbrillance et indiquent comment accéder à la section Compositions fédérées.](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-Vous pouvez également afficher des informations sur les compositions, notamment le nom, le statut, le créateur ou la créatrice et la date de dernière modification.
+Sur cet écran, vous pouvez afficher des informations sur les compositions et en créer de nouvelles.
 
-| État | Description |
+![La liste des compositions fédérées s’affiche.](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
+
+| Champ | Description |
+| ----- | ----------- |
+| **[!UICONTROL Nom]** | Nom de la composition. Si vous sélectionnez la composition, vous pouvez la modifier. Pour plus d’informations sur la création et la modification de compositions, consultez le guide [créer une composition](/help/compositions/create-composition.md). |
+| **[!UICONTROL Statut]** | Statut de la composition. Les valeurs possibles sont les suivantes : [!UICONTROL Brouillon], [!UICONTROL En cours], [!UICONTROL Arrêté], [!UICONTROL En pause] et [!UICONTROL En erreur]. <ul><li>**[!UICONTROL Brouillon]** : la composition a été créée et enregistrée.</li><li>**[!UICONTROL En cours]** : la composition a été exécutée et est en cours d’exécution.</li><li>**[!UICONTROL Arrêté]** : l’exécution de la composition est terminée et s’est arrêtée.</li><li>**[!UICONTROL En pause]** : l’exécution de la composition a été suspendue.</li><li>**[!UICONTROL Avec erreur]** : l’exécution de la composition a rencontré une erreur. Pour afficher plus d’informations sur l’erreur, ouvrez la composition et accédez aux journaux.</li></ul> Pour savoir comment démarrer ou arrêter une composition, lisez le guide [créer une composition](./create-composition.md#monitor-logs). |
+| **[!UICONTROL Créé par]** | Nom et adresse électronique de la personne qui a créé la composition. |
+| **[!UICONTROL Modifié]** | Date et heure de la dernière mise à jour de la composition. |
+
+Vous pouvez également effectuer des actions rapides sur les compositions en sélectionnant le bouton ![ellipses](/help/assets/icons/more.png) en regard de leur nom.
+
+| Action | Description |
 | ------ | ----------- |
-| **[!UICONTROL Brouillon]** | La composition a été créée et enregistrée. |
-| **[!UICONTROL En cours]** | La composition a été effectuée et est en cours d’exécution. |
-| **[!UICONTROL Arrêtée]** | L’exécution de la composition est terminée et s’est arrêtée. |
-| **[!UICONTROL En pause]** | L’exécution de la composition a été mise en pause. |
-| **[!UICONTROL Erronée]** | L’exécution de la composition a rencontré une erreur. Pour afficher plus d’informations sur l’erreur, ouvrez la composition et accédez aux journaux. |
-
-Vous pouvez apprendre à démarrer ou arrêter une composition dans le [guide de création d’une composition](./create-composition.md#monitor-logs).
-
-![Une liste des compositions disponibles s’affiche.](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
+| **[!UICONTROL Doublon]** | Duplique la composition sélectionnée. |
+| **[!UICONTROL Supprimer]** | Supprime la composition sélectionnée. |
+| **[!UICONTROL Ajouter au package]** | Déplace la composition entre les sandbox. Pour plus d’informations sur cette fonctionnalité, consultez le [guide d’utilisation des sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 Pour affiner la liste et trouver la composition que vous recherchez, vous pouvez rechercher la liste et filtrer les compositions selon leur statut ou leur date de dernier traitement.
 
 Vous pouvez également personnaliser la liste en ajoutant ou en supprimant des colonnes. Pour ce faire, sélectionnez le bouton **[!UICONTROL Configurer les colonnes]** et ajoutez ou supprimez les colonnes de sortie souhaitées.
 
-![Une liste des colonnes disponibles que vous pouvez ajouter à la page de navigation des compositions s’affiche.](assets/compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
+![Une liste des colonnes disponibles que vous pouvez ajouter à la page de navigation des compositions s’affiche.](/help/compositions/assets/home/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Appliquer les libellés d’accès {#access-labels}
 
 Pour appliquer des libellés d’accès à une composition spécifique, sélectionnez la composition, puis **[!UICONTROL Gérer l’accès]**.
 
-![Le bouton « Gérer l’accès » est mis en surbrillance dans la zone de travail de la composition.](assets/compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
+![Le bouton « Gérer l’accès » est mis en surbrillance dans la zone de travail de la composition.](/help/compositions/assets/home/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 La fenêtre contextuelle **[!UICONTROL Gérer l’accès]** s’affiche. Sur cette page, vous pouvez appliquer les libellés d’accès et de gouvernance des données applicables à votre composition.
 
-![La fenêtre contextuelle Gérer l’accès s’affiche. Vous voyez ici une liste de tous les libellés disponibles que vous pouvez appliquer à la composition.](assets/compositions/manage-access.png){zoomable="yes"}{width="70%"}
+![La fenêtre contextuelle Gérer l’accès s’affiche. Vous voyez ici une liste de tous les libellés disponibles que vous pouvez appliquer à la composition.](/help/compositions/assets/home/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Type de libellé | Description |
 | ---------- | ----------- |
-| Libellés de contrat | Les libellés de contrat (libellés « C ») sont utilisées pour catégoriser des données qui possèdent des obligations contractuelles ou qui sont liées aux politiques de gouvernance des données de votre organisation. |
+| Libellés de contrat | Les libellés de contrat (libellés « C ») sont utilisés pour catégoriser des données qui possèdent des obligations contractuelles ou qui sont liées aux politiques de gouvernance des données de votre organisation. |
 | Libellés d’identité | Les libellés d’identité (libellés « I ») servent à catégoriser les données permettant d’identifier ou de contacter une personne spécifique. |
 | Libellés sensibles | Les libellés sensibles (libellés « S ») sont utilisés pour catégoriser ce que vous et/ou votre organisation considérez comme sensible. |
 | Libellés de réseau partenaire | Les libellés de réseau partenaire servent à catégoriser les données des sources externes à votre organisation. |
@@ -97,4 +102,4 @@ Vous pouvez créer une composition pour Adobe Experience Platform à l’aide 
 
 ## Étapes suivantes
 
-Après avoir lu ce guide, vous avez appris à accéder à vos libellés d’accès, à les gérer et à en créer pour vos compositions. Pour plus d’informations sur l’utilisation des audiences dans leur ensemble, lisez le [guide des audiences](../start/audiences.md).
+Après avoir lu ce guide, vous avez appris à accéder aux libellés d’accès, à les gérer et à en créer pour vos compositions. Pour plus d’informations sur l’utilisation des audiences dans leur ensemble, lisez le [guide des audiences](../start/audiences.md).
