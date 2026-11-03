@@ -110,7 +110,7 @@ Obligatoire sur chaque élément d’interface utilisateur cliquable dans les é
 
 - Gras dans les étapes et la navigation : `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Italique acceptable dans le texte conceptuel (sans étape) pour plus de clarté.
-- Dans les tableaux HTML : utilisez `<span class="uicontrol">term</span>` au lieu de ``.
+- Dans les tableaux HTML : utilisez `<span class="uicontrol">term</span>` au lieu de &grave;&grave;.
 - Dans le texte du lien : supprimez les crochets de balise.
 - La majuscule doit correspondre exactement à l’interface.
 - Ne s’applique PAS aux termes génériques utilisés de manière conceptuelle (« segment », « mesure », « campagne »), sauf
@@ -131,7 +131,7 @@ Inutile dans les blocs de code ; ils ne sont pas localisés par défaut.
 
 - Peut être utilisé dans : paragraphes, listes, titres, tableaux, badges, texte secondaire et métadonnées.
 - Ne peut pas être utilisé dans : blocs de code, acronymes.
-- Si un champ de métadonnées commence par une balise `[!DNL]` ou ``, placez l’ensemble du champ entre crochets
+- Si un champ de métadonnées commence par une balise `[!DNL]` ou &grave;&grave;, placez l’ensemble du champ entre crochets
 La valeur entre guillemets ou la validation échoue.
 
 ## &#x200B;3. Terminologie et valorisation de marque
@@ -438,10 +438,10 @@ depuis des moteurs de recherche avec `hide: true` dans frontend.
 - Orthographe anglais américain : couleur, reconnaître, licence, tandis que, expiration, compteur, parmi
 (pas de couleur, de reconnaissance, de licence, d’expiration, de compteur, etc.).
 - Réservez des guillemets pour citer des personnes ; ne citez pas de chaînes d’interface utilisateur (utilisez gras +
-  `` à la place).
+  &grave;&grave; à la place).
 - Utilisez l’italique pour les termes utilisés comme termes (*profil*, et non « profil »). Utilisez des accents graves pour le code,
 paramètres, noms de fichiers et texte saisi.
-- Gras uniquement pour les éléments de l’interface utilisateur dans les procédures (avec ``) et les termes clés au début
+- Gras uniquement pour les éléments de l’interface utilisateur dans les procédures (avec &grave;&grave;) et les termes clés au début
 introduction.
 - Pas de point-virgule, pas de tirets/traits d’union em/en dans la prose, pas de règles horizontales (voir section 1).
 
@@ -453,7 +453,7 @@ Avant de terminer toute modification, vérifiez les points suivants :
 - Phrases ≤20 mots, paragraphes ≤125 mots
 - En-têtes : casse de phrase, ≤5 mots/69 caractères, suivi du corps du texte, aucun niveau ignoré
 - Noms et formulaires de produits corrects ; aucun terme obsolète, interne uniquement ou non inclusif
-- `` sur chaque élément de l’interface utilisateur par étapes ; `[!DNL]` sur chaque nom de produit/tiers.
+- &grave;&grave; sur chaque élément de l’interface utilisateur par étapes ; `[!DNL]` sur chaque nom de produit/tiers.
 - Aucune balise dans les blocs de code ; champs de métadonnées balisés placés entre guillemets
 - Syntaxe de l&#39;avertissement correcte ; marqueurs de liste cohérents ; aucune liste de tâches ; aucune règle horizontale
 - Le texte de remplacement est descriptif et complet ; pas de « clic ici » ; pas de langage spatial/directionnel
