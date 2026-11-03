@@ -100,8 +100,8 @@ Appliquer aux noms de produits Adobe (`[!DNL Analytics]`, `[!DNL Target]`, `[!DN
 NE pas appliquer aux URL, noms de fichiers, noms de répertoires, blocs de code, acronymes ou termes déjà utilisés
 dans la base de données Ne pas traduire .
 
-Dans le texte du lien, supprimez les crochets de balise : `[Adobe](https://www.adobe.com)`, pas
-`[[!DNL Adobe]](https://www.adobe.com)`.
+Dans le texte du lien, supprimez les crochets de balise : `[Adobe](https://www.adobe.com/fr)`, pas
+`[[!DNL Adobe]](https://www.adobe.com/fr)`.
 
 ### `[!UICONTROL Label]` : contrôles de l’interface utilisateur
 
@@ -362,7 +362,7 @@ générée au moment de la création.
 >id="platform_destinations_activate_filename"
 >title="Configure file name"
 >abstract="For file-based destinations, a unique file name is generated per segment. Use the file name editor to create and edit a unique file name or keep the default name."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html#file-names" text="Learn more in documentation"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html?lang=fr#file-names" text="Learn more in documentation"
 ```
 
 Champs obligatoires : `id`, `title`, `abstract`. Tout le reste est facultatif.
