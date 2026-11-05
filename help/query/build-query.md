@@ -8,7 +8,7 @@ product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2084'
 ht-degree: 100%
 ---
@@ -48,7 +48,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 1. Sélectionnez le bouton **+** sur le nœud souhaité, puis **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’affiche sur le côté droit.
 
-2. Dans le champ **[!UICONTROL Attribut]**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données, y compris les attributs de vos tableaux liés.
+2. Dans le champ **[!UICONTROL Attribut]**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données, y compris les attributs de vos tables liées.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
@@ -62,22 +62,22 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    | Opérateur | Rôle | Exemple |
    |  ---  |  ---  |  ---  |
-   | Égal à | Obtenir un résultat rigoureusement identique à ce qui est entré dans la seconde colonne Valeur. | Nom (@lastName) égal à « Jones ». Ici ne seront renvoyées que les personnes destinataires dont le nom est « Jones ». |
-   | Différent de | Obtenir un résultat différent de la valeur renseignée. | Langue (@language) différent de « Anglais ». |
+   | Égal à | Renvoie un résultat identique aux données saisies dans la deuxième colonne Valeur. | Nom (@lastName) égal à « Jones » renverra uniquement les destinataires dont le nom est « Jones ». |
+   | Différent de | Obtenir un résultat différent de la valeur renseignée. | Langue (@language) égale à « Anglais » |
    | Supérieur à | Obtenir un résultat supérieur à la valeur indiquée. | Âge (@age) supérieur à « 50 »</strong> pour renvoyer toutes les valeurs supérieures à « 50 », donc « 51 », « 52 », etc. |
    | Inférieur à | Obtenir un résultat inférieur à la valeur indiquée. | Date de création (@created) strictement plus tôt que « DaysAgo(100) »</strong> afin de retrouver toutes les personnes destinataires créées dans la base il y a moins de 100 jours. |
    | Supérieur ou égal à | Obtenir un résultat rigoureusement égal ou supérieur à la valeur renseignée. | Âge (@age) supérieur ou égal à « 30 »</strong>, afin de retrouver les personnes destinataires dont l’âge est de 30 ans et plus. |
    | Inférieur ou égal à | Obtenir un résultat rigoureusement égal ou inférieur à la valeur renseignée. | Âge (@age) inférieur ou égal à « 60 »</strong>, afin de retrouver les personnes destinataires dont l’âge est de 60 ans et moins. |
    | Compris dans | Renvoie les résultats compris dans les valeurs indiquées. Ces valeurs doivent toujours être séparées par une virgule. | Date de naissance (@birthDate) est compris dans « 12/10/1979,12/10/1984 ». Les personnes destinataires nées entre ces dates sont alors renvoyées. |
-   | Pas dans | Le principe est le même qu’avec l’opérateur Est compris dans. Ici, il s’agit d’exclure les destinataires en fonction des valeurs indiquées. | La date de naissance (@birthDate) n’est pas incluse dans 12/10/1979,12/10/1984. Contrairement à l’exemple précédent, les personnes destinataires nées entre ces dates ne seront pas renvoyées. |
-   | Est vide | Dans ce cas, le résultat recherché correspond à une valeur vide dans la seconde colonne Valeur. | Mobile (@mobilePhone) est vide afin de retrouver toutes les personnes destinataires ne disposant pas d’un numéro de téléphone mobile. |
-   | N’est pas vide | Est contraire à l’opérateur Est vide. Il n’est pas non plus nécessaire de saisir des données dans la seconde colonne Valeur. | E-mail (@email) n’est pas vide. |
+   | Pas dans | Le principe est le même qu’avec l’opérateur Est compris dans. Ici, il s’agit d’exclure les destinataires en fonction des valeurs indiquées. | La date de naissance (@birthDate) n’est pas incluse dans « 12/10/1979,12/10/1984 ». Contrairement à l’exemple précédent, les personnes destinataires nées entre ces dates ne seront pas renvoyées. |
+   | Est vide | Dans ce cas, le résultat recherché correspond à une valeur vide dans la seconde colonne Valeur. | Mobile (@mobilePhone) est vide renvoie toutes les personnes destinataires qui n’ont pas de numéro de téléphone mobile. |
+   | N’est pas vide | Est contraire à l’opérateur Est vide. Il n’est pas nécessaire de saisir des données dans la seconde colonne Valeur. | E-mail (@email) n’est pas vide. |
    | Commence par | Obtenir des résultats commençant par la valeur indiquée. | N° de compte (@account) commence par « 32010 ». |
    | Ne commence pas par | Obtenir des résultats qui ne commencent pas par la valeur renseignée. | N° de compte (@account) ne commence pas par « 20 ». |
-   | Contient | Obtenir un résultat comportant au moins la valeur qui est renseignée. | Le domaine d’e-mail (@domain) contient « mail »</strong>, renverra tous les noms de domaine contenant « mail ». Le domaine « gmail.com » sera donc également renvoyé. |
-   | Ne contient pas | Ne pas obtenir de résultats contenant au moins la valeur renseignée. | Le domaine d’e-mail (@domain) ne contient pas « vo »</strong>. Dans ce cas, les noms de domaine contenant « vo » ne seront pas renvoyés. Le nom de domaine « voila.fr » ne sera pas proposé dans les résultats. |
-   | Comme | Comme est quasiment identique à l’opérateur Contient. Il vous permet d’insérer un caractère joker % dans la valeur. | Nom (@lastName) comme « Jon%s ». Ici, le caractère joker sert de joker afin de retrouver le nom Jones dans le cas très hypothétique où l’opérateur aurait oublié quelle est la lettre située entre les lettre « n » et « s ». |
-   | Pas comme | Comme est quasiment identique à l’opérateur Contient. Il vous permet d’insérer un caractère joker % dans la valeur. | Nom (@lastName) pas comme « Smi%h ». Ici, les personnes destinataires dont le nom est « Smi%h » ne seront pas renvoyées. |
+   | Contient | Renvoie les résultats contenant au moins la valeur renseignée. | Le domaine d’e-mail (@domain) contient « mail »</strong>, renverra tous les noms de domaine contenant « mail ». Le domaine « gmail.com » sera donc également renvoyé. |
+   | Ne contient pas | Renvoie les résultats ne contenant pas la valeur renseignée. | Le domaine d’e-mail (@domain) ne contient pas « vo »</strong>. Dans ce cas, les noms de domaine contenant « vo » ne seront pas renvoyés. Le nom de domaine « voila.fr » n’apparaîtra pas dans les résultats. |
+   | Comme | Comme est quasiment identique à l’opérateur Contient. Il vous permet d’insérer un caractère joker % dans la valeur. | Nom (@lastName) correspond à « Jon%s ». Ici, le caractère joker sert de joker afin de retrouver le nom Jones dans le cas très hypothétique où l’opérateur aurait oublié quelle est la lettre située entre les lettre « n » et « s ». |
+   | Pas comme | Comme est quasiment identique à l’opérateur Contient. Il vous permet d’insérer un caractère joker % dans la valeur. | Nom (@lastName) ne correspond pas à « Smi%h ». Ici, les destinataires dont le nom est « Smi%h » ne seront pas renvoyés. |
 
    +++
 
@@ -117,7 +117,7 @@ Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner 
 
 +++Exemple de requête
 
-Ici, la requête cible les personnes destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
+Ici, la requête cible les destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
 
 1. Sélectionnez la table **[!UICONTROL Achats]** et confirmez.
 
@@ -139,9 +139,9 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
 #### Utiliser des données agrégées {#aggregate}
 
-Les conditions personnalisées vous permettent d’effectuer des opérations d’agrégat. Pour cela, vous devez sélectionner directement un attribut dans un tableau de collection :
+Les conditions personnalisées vous permettent d’effectuer des opérations d’agrégation. Pour cela, vous devez sélectionner directement un attribut dans une table de collection :
 
-1. Naviguez dans le tableau de collection souhaité et sélectionnez l’attribut sur lequel vous souhaitez effectuer une opération d’agrégat.
+1. Naviguez dans la table de collection souhaitée et sélectionnez l’attribut sur lequel vous souhaitez effectuer une opération d’agrégat.
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -189,7 +189,7 @@ Le concepteur de requête vous permet de copier un ou plusieurs composants de fi
 
 >[!NOTE]
 >
->La sélection copiée est conservée tant que vous travaillez dans votre instance. Si vous vous déconnectez et vous reconnectez, votre sélection ne sera plus disponible pour le collage.
+>La sélection copiée est conservée tant que vous travaillez dans votre instance. Si vous vous déconnectez et vous reconnectez, votre sélection ne sera plus disponible pour être collée.
 
 Pour copier-coller des composants de filtrage, procédez comme suit :
 
@@ -250,7 +250,7 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
 
   >[!IMPORTANT]
   >
-  >Sélectionnez un filtre prédéfini dans le volet Propriétés de la règle pour remplacer la requête qui a été créée dans la zone de travail par le filtre sélectionné.
+  >La sélection d’un filtre prédéfini dans le volet Propriétés de la règle remplace la requête créée dans la zone de travail par le filtre sélectionné.
 
 Lorsque votre requête est prête, sélectionnez le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour effectuer l’enregistrement.
 

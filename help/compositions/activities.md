@@ -8,9 +8,9 @@ product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
 source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5480'
-ht-degree: 99%
+ht-degree: 100%
 ---
 # Vue d’ensemble des activités
 
@@ -88,7 +88,7 @@ Après avoir sélectionné **[!UICONTROL Compte externe FDA]**, vous pouvez choi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Générer un complément"
->abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **[!UICONTROL Générer un complément]**."
+>abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue comme doublon. Pour ce faire, activez l’option **[!UICONTROL Générer un complément]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
@@ -226,7 +226,7 @@ Une fois vos règles d’exclusion configurées, vous pouvez également sélecti
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="Générer un complément"
->abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **[!UICONTROL Générer un complément]**."
+>abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue comme doublon. Pour ce faire, activez l’option **[!UICONTROL Générer un complément]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
@@ -318,7 +318,7 @@ Après avoir ajouté l’activité **Enrichissement** à votre composition, vous
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_complement"
->title="Complément de génération de réconciliation"
+>title="Générer un complément de réconciliation"
 >abstract="Complément de génération de réconciliation"
 
 >[!CONTEXTUALHELP]
@@ -426,7 +426,7 @@ Vous pouvez maintenant spécifier vos mappages pour sélectionner les champs à 
 
 Après avoir ajouté vos mappages, vous pouvez sélectionner l’identité principale et l’espace de noms pour identifier les profils ciblés dans la base de données. Le champ Identité principale permet d’identifier les profils tandis que l’espace de noms d’identité sert de clé pour identifier l’identité.
 
-De plus, vous pouvez définir l’expiration des données pour l’audience. L’expiration des données détermine le nombre de jours après lesquels l’appartenance à l’audience expirera. L’expiration des données peut aller de 1 à 3 650 jours (10 ans). Par défaut, cette valeur est définie sur 30.
+De plus, vous pouvez définir l’expiration des données pour l’audience. L’expiration des données détermine le nombre de jours après lesquels l’appartenance à l’audience expirera. L’expiration des données peut aller de 1 à 3 650 jours (10 ans).Par défaut, cette valeur est définie sur 30.
 
 +++
 
@@ -592,11 +592,11 @@ Comme les schémas relationnels ne prennent en charge que les mises à jour incr
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_complement"
 >title="Générer un complément pour l’activité Partage"
->abstract="Une fois que vous avez paramétré tous les sous-ensembles, vous pouvez sélectionner la population restante qui ne correspond à aucun des sous-ensembles et les inclure dans une transition sortante supplémentaire. Pour ce faire, activez l’option **Générer un complément**."
+>abstract="Une fois que vous avez paramétré tous les sous-ensembles, vous pouvez sélectionner la population restante qui ne correspond à aucun des sous-ensembles et l’inclure dans une transition sortante supplémentaire. Pour ce faire, activez l’option **Générer un complément**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
->title="Générer tous les sous-ensembles dans le même tableau"
+>title="Générer tous les sous-ensembles dans la même table"
 >abstract="Activez cette option pour regrouper tous les sous-ensembles dans une seule transition sortante."
 
 >[!CONTEXTUALHELP]
@@ -606,7 +606,7 @@ Comme les schémas relationnels ne prennent en charge que les mises à jour incr
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
->title="Permettre le chevauchement des populations de sortie"
+>title="Activer le chevauchement des populations de sortie"
 >abstract="L’option **[!UICONTROL Permettre le chevauchement des populations de sortie]** permet de gérer les populations qui appartiennent à plusieurs sous-ensembles. Lorsque la case n’est pas cochée, l’activité de partage fait en sorte qu’une personne destinataire ne puisse pas apparaître dans plusieurs transitions de sortie, même si elle répond aux critères de plusieurs sous-ensembles. Elles apparaissent ainsi dans la cible du premier onglet avec les critères correspondants. Lorsque la case est activée, les destinataires se trouvent dans plusieurs sous-ensembles s’ils ou elles répondent à leurs critères de filtre. "
 
 L’activité **Partage** sépare la population entrante en plusieurs parties, selon les critères déterminés.

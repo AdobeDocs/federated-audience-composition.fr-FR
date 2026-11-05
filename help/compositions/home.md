@@ -15,9 +15,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '765'
-ht-degree: 71%
+ht-degree: 100%
 ---
 # Vue d’ensemble des compositions
 
@@ -50,26 +50,26 @@ Une composition au sein de la composition d’audiences fédérées comprend le
 
 Les compositions sont accessibles à partir du menu **[!UICONTROL Audiences]** d’Adobe Experience Platform, dans l’onglet **[!UICONTROL Compositions fédérées]** de la section **[!UICONTROL Clientes et clients]**.
 
-![Les boutons Compositions fédérées et Audiences sont mis en surbrillance et indiquent comment accéder à la section Compositions fédérées.](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
+![Les boutons Compositions fédérées et Audiences sont mis en surbrillance, indiquant comment accéder à la section des compositions fédérées.](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-Sur cet écran, vous pouvez afficher des informations sur les compositions et en créer de nouvelles.
+Depuis cet écran, vous pouvez consulter des informations sur les compositions et créer de nouvelles compositions.
 
 ![La liste des compositions fédérées s’affiche.](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
 
 | Champ | Description |
 | ----- | ----------- |
-| **[!UICONTROL Nom]** | Nom de la composition. Si vous sélectionnez la composition, vous pouvez la modifier. Pour plus d’informations sur la création et la modification de compositions, consultez le guide [créer une composition](/help/compositions/create-composition.md). |
-| **[!UICONTROL Statut]** | Statut de la composition. Les valeurs possibles sont les suivantes : [!UICONTROL Brouillon], [!UICONTROL En cours], [!UICONTROL Arrêté], [!UICONTROL En pause] et [!UICONTROL En erreur]. <ul><li>**[!UICONTROL Brouillon]** : la composition a été créée et enregistrée.</li><li>**[!UICONTROL En cours]** : la composition a été exécutée et est en cours d’exécution.</li><li>**[!UICONTROL Arrêté]** : l’exécution de la composition est terminée et s’est arrêtée.</li><li>**[!UICONTROL En pause]** : l’exécution de la composition a été suspendue.</li><li>**[!UICONTROL Avec erreur]** : l’exécution de la composition a rencontré une erreur. Pour afficher plus d’informations sur l’erreur, ouvrez la composition et accédez aux journaux.</li></ul> Pour savoir comment démarrer ou arrêter une composition, lisez le guide [créer une composition](./create-composition.md#monitor-logs). |
-| **[!UICONTROL Créé par]** | Nom et adresse électronique de la personne qui a créé la composition. |
-| **[!UICONTROL Modifié]** | Date et heure de la dernière mise à jour de la composition. |
+| **[!UICONTROL Nom]** | Le nom de la composition.Si vous sélectionnez la composition, vous pouvez la modifier.Pour plus d’informations sur la création et la modification des compositions, consultez le [guide Créer une composition](/help/compositions/create-composition.md). |
+| **[!UICONTROL Statut]** | Le statut de la composition.Les valeurs possibles sont les suivantes : [!UICONTROL Brouillon], [!UICONTROL En cours], [!UICONTROL Arrêté], [!UICONTROL En pause] et [!UICONTROL En erreur].<ul><li>**[!UICONTROL Brouillon]** : la composition a été créée et enregistrée.</li><li>**[!UICONTROL En cours]** : la composition a été exécutée et est en cours d’exécution.</li><li>**[!UICONTROL Arrêté]** : l’exécution de la composition est terminée et s’est arrêtée.</li><li>**[!UICONTROL En pause]** : l’exécution de la composition a été mise en pause.</li><li>**[!UICONTROL En erreur]** : l’exécution de la composition a rencontré une erreur.Pour afficher plus d’informations sur l’erreur, ouvrez la composition et accédez aux journaux.</li></ul>Pour savoir comment démarrer ou arrêter une composition, consultez le [Guide Créer une composition](./create-composition.md#monitor-logs). |
+| **[!UICONTROL Créé par]** | Le nom et l’adresse e-mail de la personne qui a créé la composition. |
+| **[!UICONTROL Modifié]** | La date et l’heure de la dernière mise à jour de la composition. |
 
-Vous pouvez également effectuer des actions rapides sur les compositions en sélectionnant le bouton ![ellipses](/help/assets/icons/more.png) en regard de leur nom.
+Vous pouvez également effectuer des actions rapides sur les compositions en sélectionnant le bouton des ![points de suspension](/help/assets/icons/more.png) à côté de son nom.
 
 | Action | Description |
 | ------ | ----------- |
 | **[!UICONTROL Doublon]** | Duplique la composition sélectionnée. |
 | **[!UICONTROL Supprimer]** | Supprime la composition sélectionnée. |
-| **[!UICONTROL Ajouter au package]** | Déplace la composition entre les sandbox. Pour plus d’informations sur cette fonctionnalité, consultez le [guide d’utilisation des sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+| **[!UICONTROL Ajouter au package]** | Déplace la composition entre les sandbox.Pour plus d’informations sur cette fonctionnalité, consultez le [Guide des outils de sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 Pour affiner la liste et trouver la composition que vous recherchez, vous pouvez rechercher la liste et filtrer les compositions selon leur statut ou leur date de dernier traitement.
 

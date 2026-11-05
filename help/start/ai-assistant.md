@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble d’assistant IA
+title: Vue d’ensemble de l’assistant IA
 description: Découvrez comment utiliser l’assistant IA, notamment sa connaissance des produits, ses informations opérationnelles et la création de compositions d’audiences fédérées.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
@@ -16,7 +16,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
 ht-degree: 100%
 ---
@@ -32,7 +32,7 @@ Dans la composition d’audiences fédérées, vous pouvez accéder à la connai
 
 ## Accès {#access}
 
-Accédez à l’assistant IA en sélectionnant ![the AI Assistant icon](/help/start/assets/ai-assistant/icon.png) dans la barre supérieure. L’assistant IA s’affiche dans la partie droite de l’écran. Vous pouvez sélectionner ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "the Expand icon") pour développer la fenêtre de l’assistant IA.
+Accédez à l’assistant IA en sélectionnant ![l’icône de l’assistant IA](/help/start/assets/ai-assistant/icon.png) dans la barre supérieure. L’assistant IA s’affiche dans la partie droite de l’écran. Vous pouvez sélectionner ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "the Expand icon") pour développer la fenêtre de l’assistant IA.
 
 ![L’icône de l’assistant AI est mise en surbrillance et indique comment accéder à l’assistant AI.](/help/start/assets/ai-assistant/access.png)
 
@@ -50,7 +50,7 @@ Les requêtes suivantes indiquent les types de questions que vous pouvez poser �
 | ---------- | --------------- |
 | Découverte ouverte | <ul><li>Qu’est-ce que la composition d’audiences fédérées ?</li></ul> |
 | Apprentissage ciblé | <ul><li>Comment configurer un compte de base de données fédérée Snowflake ?</li><li>Comment créer une composition fédérée ?</li></ul> |
-| Informations opérationnelles | <ul><li>Combien de bases de données fédérées ai-je dans mon sandbox ?</li><li>Combien de schémas ai-je créés au cours des 30 derniers jours ?</li></ul> |
+| Informations opérationnelles | <ul><li>Combien de bases de données fédérées ai-je dans mon sandbox ?</li><li>Combien de schémas ai-je créés au cours des 30 derniers jours ?</li></ul> |
 | Création d’une composition d’audiences fédérées | <ul><li>Créez une audience fédérée de clients résidant au Royaume-Uni.</li></ul> |
 
 De plus, vous pouvez utiliser l’assistant IA pour créer de manière autonome une composition d’audiences fédérées.
@@ -70,7 +70,7 @@ Si le plan semble précis, vous pouvez sélectionner **[!UICONTROL Exécuter]** 
 Actuellement, la compétence de création d’audience prend en charge les fonctionnalités supplémentaires suivantes :
 
 - Planificateur
-  - Vous pouvez créer des compositions fédérées qui s’exécutent selon un planning récurrent. Les valeurs acceptées comprennent **Une fois** et **Au quotidien**.
+  - Vous pouvez créer des compositions fédérées qui s’exécutent selon un planning récurrent. Les valeurs acceptées comprennent **Une fois** et **Quotidiennement**.
 - Déduplication
   - Vous pouvez dédupliquer les enregistrements de données fédérées lors de la réconciliation des données.
 
