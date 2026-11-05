@@ -12,7 +12,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
 ht-degree: 100%
 ---
@@ -22,7 +22,7 @@ Le tableau suivant décrit les autorisations de base de données requises pour c
 
 |   | Snowflake | Redshift | Google BigQuery | Databricks |
 |:-:|:-:|:-:|:-:|:-:|
-| **Connexion à une base de données distante** | Privilèges `USAGE ON WAREHOUSE`, `USAGE ON DATABASE` et `USAGE ON SCHEMA` | Créer un utilisateur ou une utilisatrice lié au compte AWS | Créer un compte de service et accorder l’accès principal au projet | Autorisation `USE CATALOG` sur le catalogue et autorisation `CAN_USE` sur l’entrepôt de données SQL |
+| **Connexion à une base de données distante** | Privilèges `USAGE ON WAREHOUSE`, `USAGE ON DATABASE` et `USAGE ON SCHEMA` | Créer un utilisateur ou une utilisatrice lié au compte AWS | Créer un compte de service et accorder au principal l’accès au projet | Autorisation `USE CATALOG` sur le catalogue et autorisation `CAN_USE` sur l’entrepôt de données SQL |
 | **Création de tables** | Privilège `CREATE TABLE ON SCHEMA` | Autorisation `CREATE` | Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create` et `bigquery.tables.create`. | Autorisations `USE SCHEMA` et `CREATE TABLE` |
 | **Création d&#39;index** | S.O. | Autorisation `CREATE` | BigQuery ne prend en charge que les index de recherche. Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create`, `bigquery.tables.getData` et `bigquery.tables.createIndex`. | S.O. |
 | **Création de fonctions** | Privilège `CREATE FUNCTION ON SCHEMA` | Autorisation `USAGE ON LANGUAGE plpythonu` pour appeler des scripts Python externes | Le rôle affecté au compte de service doit avoir les autorisations `bigquery.jobs.create` et `bigquery.routines.create`. | Autorisation `CREATE FUNCTION` |

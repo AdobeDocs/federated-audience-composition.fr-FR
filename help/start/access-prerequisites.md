@@ -22,7 +22,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
 ht-degree: 100%
 ---
@@ -72,7 +72,7 @@ Pour accéder à la composition d’audiences fédérées, les personnes doivent
 
 ## Listes autorisées des adresses IP {#ip}
 
-Pour activer en toute sécurité l’accès de la Composition d’audiences fédérées à vos bases de données, vous devez obtenir les adresses IP des serveurs de Composition d’audiences fédérées qui y accéderont. Ces adresses IP s’affichent lors de l’ajout d’une base de données fédérées dans l’interface d’utilisation d’Adobe Experience Platform. [En savoir plus](../connections/home.md)
+Pour activer en toute sécurité l’accès de la Composition d’audiences fédérées à vos bases de données, vous devez obtenir les adresses IP des serveurs de Composition d’audiences fédérées qui y accéderont. Ces adresses IP s’affichent lors de l’ajout d’une base de données fédérée dans l’interface d’utilisation d’Adobe Experience Platform. [En savoir plus](../connections/home.md)
 
 Ajoutez ces adresses IP à votre liste autorisée pour accorder l’accès à la Composition d’audiences fédérées.
 

@@ -8,7 +8,7 @@ product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4215'
 ht-degree: 100%
 ---
@@ -110,7 +110,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 | **AddHours** | Ajoute le nombre d’heures spécifié à la date et à l’heure indiquées. | AddHours(&lt;DATEHEURE>, &lt;NOMBRE>) | AddHours(&quot;2019-12-25 15:30:00&quot;, 3) |
 | **AddMinutes** | Ajoute le nombre de minutes spécifié à la date et à l’heure indiquées. | AddMinutes(&lt;DATEHEURE>, &lt;NOMBRE>) | AddMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
 | **AddSeconds** | Ajoute le nombre de secondes spécifié à la date et à l’heure indiquées. | AddSeconds(&lt;DATEHEURE>, &lt;NOMBRE>) | AddSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
-| **SubYears** | Soustrait le nombre d’années spécifié à la date et à l’heure indiquées. | SubYears(&lt;DATEHEURE>, &lt;NOMBRE>) | SubYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubYears** | Soustrait le nombre d’années spécifié de la date et de l’heure indiquées. | SubYears(&lt;DATEHEURE>, &lt;NOMBRE>) | SubYears(&quot;2019-12-25 15:30:00&quot;, 3) |
 | **SubMonths** | Soustrait le nombre de mois spécifié à la date et à l’heure indiquées. | SubMonths(&lt;DATEHEURE>, &lt;NOMBRE>) | SubMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
 | **SubDays** | Soustrait le nombre de jours spécifié à la date et à l’heure indiquées. | SubDays(&lt;DATEHEURE>, &lt;NOMBRE>) | SubDays(&quot;2019-12-25 15:30:00&quot;, 10) |
 | **SubHours** | Soustrait le nombre d’heures spécifié à la date et à l’heure indiquées. | SubHours(&lt;DATEHEURE>, &lt;NOMBRE>) | SubHours(&quot;2019-12-25 15:30:00&quot;, 3) |
@@ -122,8 +122,8 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 | **DayOfYear** | Extrait le jour de l’année de l’objet date/heure donné. Par exemple, si la date et l’heure indiquées sont le 2 février, la valeur 33 est renvoyée. | DayOfYear(&lt;DATEHEURE>) | DayOfYear(&quot;2019-12-15 15:30:00&quot;) |
 | **WeekDay** | Extrait le jour de la semaine de l’objet date/heure donné, sous la forme d’un nombre compris entre 0 et 6, avec 0 représentant le dimanche. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
 | **Hour** | Extrait la valeur de l’heure de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
-| **Minute** | Extrait la valeur de minute de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
-| **Second** | Extrait la valeur de seconde de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Minute** | Extrait la valeur de la minute de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Second** | Extrait la valeur de la seconde de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
 | **YearsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en années. | YearsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | YearsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
 | **MonthsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en mois. | MonthsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | MonthsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
 | **DaysDiff** | Trouve la différence entre les dates et heures données, avec une granularité en jours. | DaysDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | DaysDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
@@ -266,7 +266,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 | **AddHours** | Ajoute le nombre d’heures spécifié à la date et à l’heure indiquées. | AddHours(&lt;DATEHEURE>, &lt;NOMBRE>) | AddHours(&quot;2019-12-25 15:30:00&quot;, 3) |
 | **AddMinutes** | Ajoute le nombre de minutes spécifié à la date et à l’heure indiquées. | AddMinutes(&lt;DATEHEURE>, &lt;NOMBRE>) | AddMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
 | **AddSeconds** | Ajoute le nombre de secondes spécifié à la date et à l’heure indiquées. | AddSeconds(&lt;DATEHEURE>, &lt;NOMBRE>) | AddSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
-| **SubYears** | Soustrait le nombre d’années spécifié à la date et à l’heure indiquées. | SubYears(&lt;DATEHEURE>, &lt;NOMBRE>) | SubYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubYears** | Soustrait le nombre d’années spécifié de la date et de l’heure indiquées. | SubYears(&lt;DATEHEURE>, &lt;NOMBRE>) | SubYears(&quot;2019-12-25 15:30:00&quot;, 3) |
 | **SubMonths** | Soustrait le nombre de mois spécifié à la date et à l’heure indiquées. | SubMonths(&lt;DATEHEURE>, &lt;NOMBRE>) | SubMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
 | **SubDays** | Soustrait le nombre de jours spécifié à la date et à l’heure indiquées. | SubDays(&lt;DATEHEURE>, &lt;NOMBRE>) | SubDays(&quot;2019-12-25 15:30:00&quot;, 10) |
 | **SubHours** | Soustrait le nombre d’heures spécifié à la date et à l’heure indiquées. | SubHours(&lt;DATEHEURE>, &lt;NOMBRE>) | SubHours(&quot;2019-12-25 15:30:00&quot;, 3) |
@@ -278,8 +278,8 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 | **DayOfYear** | Extrait le jour de l’année de l’objet date/heure donné. Par exemple, si la date et l’heure indiquées sont le 2 février, la valeur 33 est renvoyée. | DayOfYear(&lt;DATEHEURE>) | DayOfYear(&quot;2019-12-15 15:30:00&quot;) |
 | **WeekDay** | Extrait le jour de la semaine de l’objet date/heure donné, sous la forme d’un nombre compris entre 1 et 7, 1 représentant le dimanche. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
 | **Hour** | Extrait la valeur de l’heure de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
-| **Minute** | Extrait la valeur de minute de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
-| **Second** | Extrait la valeur de seconde de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Minute** | Extrait la valeur de la minute de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Second** | Extrait la valeur de la seconde de l’objet date/heure donné. | Year(&lt;DATEHEURE>) | Year(&quot;2019-12-15 15:30:00&quot;) |
 | **YearsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en années. | YearsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | YearsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
 | **MonthsDiff** | Trouve la différence entre les dates et heures données, avec une granularité en mois. | MonthsDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | MonthsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
 | **DaysDiff** | Trouve la différence entre les dates et heures données, avec une granularité en jours. | DaysDiff(&lt;DATEHEURE>, &lt;DATEHEURE>) | DaysDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
@@ -300,7 +300,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d’
 | **TruncQuarter** | Tronque la date et l’heure à la première date du trimestre le plus proche. | TruncQuarter(&lt;DATEHEURE>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Tronque la date et l’heure à la première date de l’année la plus proche. | TruncYear(&lt;DATEHEURE>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Tronque la date et l’heure au dimanche de la semaine la plus proche. | TruncWeek(&lt;DATEHEURE>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
-| **ConvertNTZ** | Convertit un horodatage sans fuseau horaire à un horodatage avec fuseau horaire. Le fuseau horaire associé sera celui du compte externe. | ConvertNTZ(&lt;DATEHEURE>) | ConvertNTZ(&quot;2024-06-24 14:43:49&quot;) |
+| **ConvertNTZ** | Convertit une date et heure sans fuseau horaire en une date et heure avec fuseau horaire. Le fuseau horaire associé sera celui du compte externe. | ConvertNTZ(&lt;DATEHEURE>) | ConvertNTZ(&quot;2024-06-24 14:43:49&quot;) |
 
 <!-- 
 | **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
@@ -433,7 +433,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 | ---- | ----------- | ------ | ------- |
 | **Mod** | Renvoie le reste du premier nombre divisé par le second. | Mod(&lt;NOMBRE>, &lt;NOMBRE>) | Mod (3, 2) |
 | **Percent** | Calcule le pourcentage du premier nombre par rapport au second. | Percent(&lt;NOMBRE>, &lt;NOMBRE>) | Percent(1, 2) |
-| **Random** | Renvoie un nombre aléatoire compris entre 0 (inclusif) et 1 (exclusif). | Random() | Random () |
+| **Random** | Renvoie un nombre aléatoire compris entre 0 (inclus) et 1 (exclu). | Random() | Random () |
 | **Round** | Renvoie le nombre indiqué à la décimale demandée la plus proche. | Round(&lt;NOMBRE>, &lt;NOMBRE>) | Round(4.5394, 2) |
 | **ToDouble** | Convertit le nombre indiqué en nombre double. | ToDouble(&lt;NOMBRE>) | ToDouble(5) |
 | **ToInteger** | Convertit le nombre indiqué en entier. | ToInteger(&lt;NOMBRE>) | ToInteger(45) |
@@ -485,7 +485,7 @@ Numeric functions are not available.
 | ---- | ----------- | ------ | ------- |
 | **Mod** | Renvoie le reste du premier nombre divisé par le second. | Mod(&lt;NOMBRE>, &lt;NOMBRE>) | Mod (3, 2) |
 | **Percent** | Calcule le pourcentage du premier nombre par rapport au second. | Percent(&lt;NOMBRE>, &lt;NOMBRE>) | Percent(1, 2) |
-| **Random** | Renvoie un nombre aléatoire compris entre 0 (inclusif) et 1 (exclusif). | Random() | Random () |
+| **Random** | Renvoie un nombre aléatoire compris entre 0 (inclus) et 1 (exclu). | Random() | Random () |
 | **ToDouble** | Convertit le nombre indiqué en nombre double. | ToDouble(&lt;NOMBRE>) | ToDouble(5) |
 | **ToInteger** | Convertit le nombre indiqué en entier. | ToInteger(&lt;NOMBRE>) | ToInteger(45) |
 | **ToInt64** | Convertit le nombre indiqué en un entier 64 bits. | ToInt64(&lt;NOMBRE>) | ToInt64(493) |
@@ -770,7 +770,7 @@ String functions are not available.
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **RowNum** | Renvoie une séquence de lignes en fonction de la partition du tableau et de la séquence de tri. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division), OrderBy(time)) |
+| **RowNum** | Renvoie une séquence de lignes en fonction de la partition de la table et de la séquence de tri. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division), OrderBy(time)) |
 | **PartitionBy** | Sépare les lignes d’entrée en différentes partitions, selon l’expression donnée. | PartitionBy(&lt;EXPRESSION>) | PartitionBy(division) |
 | **OrderBy** | Trie le résultat au sein de la partition. | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
 | **Desc** | Permet à votre fonction OrderBy de trier par ordre décroissant, plutôt que par ordre croissant. | Desc(OrderBy(&lt;EXPRESSION>)) | Desc(OrderBy(age)) |
@@ -805,7 +805,7 @@ Window functions are not available.
 
 | Nom | Description | Syntaxe | Exemple |
 | ---- | ----------- | ------ | ------- |
-| **RowNum** | Renvoie une séquence de lignes en fonction de la partition du tableau et de la séquence de tri. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division), OrderBy(time)) |
+| **RowNum** | Renvoie une séquence de lignes en fonction de la partition de la table et de la séquence de tri. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division), OrderBy(time)) |
 | **PartitionBy** | Sépare les lignes d’entrée en différentes partitions, selon l’expression donnée. | PartitionBy(&lt;EXPRESSION>) | PartitionBy(division) |
 | **OrderBy** | Trie le résultat au sein de la partition. | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
 | **Desc** | Permet à votre fonction OrderBy de trier par ordre décroissant, plutôt que par ordre croissant. | Desc(OrderBy(&lt;EXPRESSION>)) | Desc(OrderBy(age)) |

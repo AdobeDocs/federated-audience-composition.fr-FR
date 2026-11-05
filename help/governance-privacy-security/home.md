@@ -1,6 +1,6 @@
 ---
 title: Confidentialité et sécurité de la composition d’audiences fédérées
-description: Découvrez comment la composition d’audiences fédérées traite la confidentialité et la sécurité des données d’utilisation, y compris les fonctionnalités telles que la gouvernance des données, l’application du consentement, le contrôle d’accès, le chiffrement des données et la conformité en matière de confidentialité.
+description: Découvrez comment la composition d’audiences fédérées traite la confidentialité et la sécurité des données des utilisateurs et utilisatrices, y compris les fonctionnalités telles que la gouvernance des données, l’application du consentement, le contrôle d’accès, le chiffrement des données et la conformité en matière de confidentialité.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 TQID: https://experienceleague.adobe.com/f9H56k6sIfCskuaO1yhHcETFFqLnfufpP2riTT-iGAg
 product_v2:
@@ -14,11 +14,11 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1286'
 ht-degree: 100%
 ---
-# Gouvernance, confidentialité et sécurité des données
+# Gouvernance des données, confidentialité et sécurité
 
 >[!IMPORTANT]
 >
@@ -88,23 +88,23 @@ La sécurité des données garantit la protection de vos données dans la compos
 
 ### Chiffrement {#encryption}
 
-La composition d’audiences fédérées fournit un chiffrement des données au repos, un chiffrement des données en transit et des clés gérées par la clientèle.
+La composition d’audiences fédérées fournit un chiffrement des données au repos, un chiffrement des données en transit et des clés gérées par le client ou la cliente.
 
-Les données au repos font référence aux données clientèle utilisées dans la composition d’audiences fédérées. Les données sont chiffrées par le fournisseur de service cloud et sont utilisées dans la composition d’audiences fédérées sous leur forme chiffrée.
+Les données au repos font référence aux données client utilisées dans la composition d’audiences fédérées. Les données sont chiffrées par le fournisseur de service cloud et sont utilisées dans la composition d’audiences fédérées sous leur forme chiffrée.
 
-Les données en transit font référence aux données clientèle lors de leur déplacement d’un composant à un autre dans la composition d’audiences fédérées. Les données sont conservées chiffrées dans tous les composants de composition d’audiences fédérées à l’aide de TLS 1.3 via HTTPS.
+Les données en transit font référence aux données client lors de leur déplacement d’un composant à un autre dans la composition d’audiences fédérées. Les données sont conservées chiffrées dans tous les composants de composition d’audiences fédérées à l’aide de TLS 1.3 via HTTPS.
 
 Pour plus d’informations sur la façon dont Adobe gère le chiffrement des données, consultez le guide sur le [chiffrement des données dans Experience Platform ](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
 
 ### Clés gérées par la clientèle {#customer-managed-keys}
 
-Les clés gérées par la clientèle vous permettent de contrôler vos données en utilisant vos propres clés de chiffrement pour chiffrer vos données. Comme la composition d’audiences fédérées ne stocke **aucune** donnée clientèle, vous pouvez utiliser des clés gérées par la clientèle directement sur les audiences et enrichissements obtenus, puisqu’ils seront stockés dans le lac de données sur Experience Platform.
+Les clés gérées par le client ou la cliente vous permettent de contrôler vos données en utilisant vos propres clés de chiffrement pour chiffrer vos données. Comme la composition d’audiences fédérées ne stocke **aucune** donnée clientèle, vous pouvez utiliser des clés gérées par la clientèle directement sur les audiences et enrichissements obtenus, puisqu’ils seront stockés dans le lac de données sur Experience Platform.
 
 Pour plus d’informations sur les clés gérées par la clientèle, consultez le [guide des clés gérées par la clientèle](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
 
 ### Journal d’audit {#audit-log}
 
-Toutes les opérations de création, de lecture, de mise à jour et de suppression effectuées dans la composition d’audiences fédérées sont consignées dans le journal d’audit. Vous pouvez utiliser ce journal d’audit pour suivre ces actions, appliquer la responsabilité et prendre en charge les audits de conformité.
+Toutes les opérations de création, de lecture, de mise à jour et de suppression effectuées dans la composition d’audiences fédérées sont consignées dans le journal d’audit. Vous pouvez utiliser ce journal d’audit pour suivre ces actions, garantir la responsabilisation et prendre en charge les audits de conformité.
 
 Pour plus d’informations, consultez la [vue d’ensemble du journal d’audit](/help/admin/audit-trail.md){target="_blank"}.
 
@@ -120,4 +120,4 @@ La composition d’audiences fédérées ne stocke **pas** de données clientèl
 
 ## Étapes suivantes {#next-steps}
 
-Après avoir lu ce guide, vous comprenez mieux les fonctionnalités de gouvernance, de confidentialité et de sécurité des données utilisées pour la composition d’audiences fédérées, y compris les étiquettes d’utilisation des données, la conformité en matière de confidentialité, l’application du consentement, la gestion du cycle de vie des données et le contrôle d’accès.
+Après avoir lu ce guide, vous comprenez mieux les fonctionnalités de gouvernance des données, de confidentialité et de sécurité utilisées pour la composition d’audiences fédérées, y compris les étiquettes d’utilisation des données, la conformité en matière de confidentialité, l’application du consentement, la gestion du cycle de vie des données et le contrôle d’accès.

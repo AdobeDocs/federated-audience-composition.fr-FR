@@ -15,7 +15,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
 ---
@@ -48,7 +48,7 @@ La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en 
   * Pause
   * Arrêter
   * Redémarrer
-  * Nettoyer qui correspond à l’action Purge de l’historique
+  * Cleanup qui correspond à l’action Purge de l’historique
   * Simuler qui correspond à l’action Démarrer en mode simulation
   * Réveiller qui correspond à l’action Traitement anticipé des tâches en attente
   * Arrêt inconditionnel
