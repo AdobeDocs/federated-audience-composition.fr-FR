@@ -143,4 +143,4 @@ Pour créer des liens entre les tableaux de votre modèle de données à partir 
 
 Découvrez comment créer un modèle de données dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3432020)
+>[!VIDEO](https://video.tv.adobe.com/v/3507564?captions=fre_fr)
